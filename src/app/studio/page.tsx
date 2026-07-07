@@ -41,7 +41,7 @@ export default function StudioPage() {
           <FadeIn>
             <SectionLabel>Team</SectionLabel>
             <h2 className="text-[clamp(2rem,4vw,3rem)] font-semibold tracking-tight">
-              Team Lead at fabrica®
+              Team Lead at nau
             </h2>
           </FadeIn>
 

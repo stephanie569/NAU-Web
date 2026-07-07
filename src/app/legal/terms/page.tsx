@@ -13,7 +13,7 @@ export default function TermsPage() {
             </p>
             <p>
               All content on this website, including text, graphics, logos, and
-              images, is the property of fabrica® Studio and is protected by
+              images, is the property of nau Studio and is protected by
               copyright laws.
             </p>
             <p>
@@ -21,7 +21,7 @@ export default function TermsPage() {
               use of the website constitutes acceptance of any changes.
             </p>
             <p>
-              For questions about these terms, contact us at hello@fabrica.com.
+              For questions about these terms, contact us at hello@nau.com.
             </p>
           </div>
         </div>

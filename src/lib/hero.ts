@@ -1,18 +1,20 @@
 export const heroServices = [
-  "Branding and Identity",
-  "Social Media Marketing",
-  "Web Design and Development",
-  "SEO Optimization",
+  "Product Strategy",
+  "Web Experiences",
+  "Visual Storytelling",
+  "Experiential Campaigns",
 ];
 
 export const heroTeamLead = {
-  name: "Lauren Thompson",
+  name: "Stefani Dimitrova",
   role: "Team Lead",
-  company: "at fabrica®",
-  image:
-    "https://framerusercontent.com/images/XBirhPxPnqDiGkAtvDrRCiK4pS8.jpg",
+  company: "at nau",
+  image: "/images/team-lead.png",
 };
 
 export const heroVideo = "/videos/hero-4k.mp4";
+
+export const heroBackgroundVideoUrl = "https://youtu.be/ZeIR4YnlSiE";
+export const heroBackgroundVideoId = "ZeIR4YnlSiE";
 
 export const projectCount = 27;

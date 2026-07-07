@@ -8,7 +8,7 @@ export default function PrivacyPage() {
         <div className="mx-auto max-w-3xl px-6 md:px-10">
           <div className="space-y-6 text-muted leading-relaxed">
             <p>
-              This privacy policy explains how fabrica® Studio collects, uses,
+              This privacy policy explains how nau Studio collects, uses,
               and protects your personal information when you visit our website
               or contact us.
             </p>
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
               implement appropriate security measures to protect your data.
             </p>
             <p>
-              For questions about this policy, contact us at hello@fabrica.com.
+              For questions about this policy, contact us at hello@nau.com.
             </p>
           </div>
         </div>

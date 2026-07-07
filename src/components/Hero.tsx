@@ -3,7 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { heroServices, heroTeamLead, heroVideo } from "@/lib/hero";
+import { YouTubeBackgroundVideo } from "@/components/YouTubeBackgroundVideo";
+import {
+  heroBackgroundVideoId,
+  heroServices,
+  heroTeamLead,
+} from "@/lib/hero";
 
 function PlusIcon() {
   return (
@@ -50,7 +55,7 @@ function ContactCard() {
         <div className="flex min-w-0 flex-1 flex-col justify-between gap-4 py-5 pr-4">
           <div>
             <p className="text-xs font-semibold tracking-[-0.04em] text-[#090909]/60">
-              {heroTeamLead.role} {heroTeamLead.company}
+              Every project is personally led by
             </p>
             <p className="mt-1 text-[18px] leading-tight font-semibold tracking-[-0.04em] text-[#090909]">
               {heroTeamLead.name}
@@ -60,7 +65,7 @@ function ContactCard() {
             href="/contact"
             className="flex items-center justify-between rounded-full bg-[#0a0a0a] py-2.5 pr-1.5 pl-4 text-[13px] font-semibold text-white transition-opacity hover:opacity-85"
           >
-            <span>Let&apos;s talk</span>
+            <span>Start a Project</span>
             <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white">
               <span className="h-2 w-2 rounded-full bg-[#0a0a0a]" />
             </span>
@@ -77,16 +82,10 @@ export function HeroCard() {
       <div className="relative h-full overflow-hidden rounded-[25px] bg-[#0a0a0a]">
         <div className="absolute inset-0 overflow-hidden bg-[#0a0a0a]">
           <div className="absolute inset-0 grayscale opacity-70 [transform:translateZ(0)]">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              preload="auto"
-              className="h-full w-full object-cover object-center"
-            >
-              <source src={heroVideo} type="video/mp4" />
-            </video>
+            <YouTubeBackgroundVideo
+              key={heroBackgroundVideoId}
+              videoId={heroBackgroundVideoId}
+            />
           </div>
           <NoiseOverlay />
         </div>
@@ -101,14 +100,8 @@ export function HeroCard() {
             <div className="w-full lg:w-[70%] lg:pr-10">
               <div className="flex items-start gap-1 md:gap-2">
                 <h1 className="text-[clamp(3.5rem,14vw,11rem)] leading-[0.83] font-semibold tracking-[-0.06em] text-white">
-                  fabrica
+                  nau
                 </h1>
-                <span
-                  aria-hidden
-                  className="mt-1 text-[clamp(2.5rem,9vw,7rem)] leading-none font-semibold tracking-[-0.06em] text-white md:mt-2"
-                >
-                  ®
-                </span>
               </div>
               <p className="mt-1 pl-[clamp(1.5rem,5vw,3.5rem)] text-[clamp(2rem,5vw,3.2rem)] leading-[1.2] font-semibold tracking-[-0.06em] text-white">
                 Studio
@@ -149,22 +142,21 @@ export function HeroCard() {
           >
             <div className="max-w-2xl lg:pr-8">
               <h2 className="text-[clamp(1.25rem,2.2vw,1.75rem)] leading-[1.35] font-semibold tracking-[-0.04em] text-white">
-                No generic websites. No empty marketing promises.{" "}
+                Building products and stories{" "}
                 <span className="text-white/70">
-                  Just tools and strategies that help your business grow and
-                  your brand shine.
+                  for brands that connect people with nature.
                 </span>
               </h2>
             </div>
 
             <p className="hidden text-center text-sm font-medium tracking-[-0.02em] text-white/80 lg:block">
-              © 2025 fabrica® Studio
+              Outdoor · Ocean · Sustainability
             </p>
 
             <ContactCard />
 
             <p className="text-sm font-medium tracking-[-0.02em] text-white/80 lg:hidden">
-              © 2025 fabrica® Studio
+              Outdoor · Ocean · Sustainability
             </p>
           </motion.div>
         </div>

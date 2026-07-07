@@ -66,8 +66,7 @@ export function Preloader() {
     >
       <div className="text-center">
         <p className="text-[clamp(2.5rem,8vw,5rem)] font-semibold tracking-tight text-white">
-          fabrica
-          <span className="text-white/40">®</span>
+          nau
         </p>
         <div className="relative mx-auto mt-6 h-px w-[120px] overflow-hidden bg-white/20">
           <div

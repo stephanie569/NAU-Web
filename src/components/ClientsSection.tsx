@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { clientLogos } from "@/lib/sections";
+import { selectedWorkSection } from "@/lib/sections";
 
 function PlusBadge() {
   return (
@@ -14,10 +14,10 @@ function PlusBadge() {
 }
 
 function LogoCard({
-  logo,
+  project,
   index,
 }: {
-  logo: (typeof clientLogos)[number];
+  project: (typeof selectedWorkSection.projects)[number];
   index: number;
 }) {
   return (
@@ -26,18 +26,16 @@ function LogoCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-40px" }}
       transition={{ duration: 0.45, delay: index * 0.05 }}
-      className="flex h-[180px] items-center justify-center rounded-[14px] bg-white"
+      className="flex h-[180px] items-center justify-center rounded-[14px] bg-white px-5"
     >
-      <div
-        className="relative"
-        style={{ width: logo.width, height: logo.height }}
-      >
+      <div className="relative mx-auto size-[104px] sm:size-[112px]">
         <Image
-          src={logo.src}
-          alt={logo.name}
+          src={project.src}
+          alt={project.name}
           fill
           className="object-contain"
-          sizes="(max-width: 768px) 33vw, 180px"
+          sizes="112px"
+          quality={100}
         />
       </div>
     </motion.div>
@@ -45,6 +43,8 @@ function LogoCard({
 }
 
 export function ClientsSection() {
+  const { title, period, projects } = selectedWorkSection;
+
   return (
     <section className="bg-[#f5f5f5] px-6 pb-24 md:px-9">
       <div className="mx-auto w-full max-w-[1520px]">
@@ -52,19 +52,19 @@ export function ClientsSection() {
           <div className="flex items-center gap-3">
             <PlusBadge />
             <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-              Our clients
+              {title}
             </p>
           </div>
           <div className="md:col-span-3 md:text-center">
             <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-              (2016-25©)
+              {period}
             </p>
           </div>
         </div>
 
         <div className="grid grid-cols-2 gap-1 sm:grid-cols-3 lg:grid-cols-6">
-          {clientLogos.map((logo, i) => (
-            <LogoCard key={logo.name} logo={logo} index={i} />
+          {projects.map((project, i) => (
+            <LogoCard key={project.id} project={project} index={i} />
           ))}
         </div>
       </div>

@@ -457,6 +457,9 @@
   .pointer-events-none {
     pointer-events: none;
   }
+  .visible {
+    visibility: visible;
+  }
   .absolute {
     position: absolute;
   }
@@ -510,6 +513,9 @@
   }
   .z-10 {
     z-index: 10;
+  }
+  .z-20 {
+    z-index: 20;
   }
   .z-50 {
     z-index: 50;
@@ -643,6 +649,14 @@
   .aspect-\[750\/540\] {
     aspect-ratio: 750/540;
   }
+  .size-\[88px\] {
+    width: 88px;
+    height: 88px;
+  }
+  .size-\[104px\] {
+    width: 104px;
+    height: 104px;
+  }
   .h-1 {
     height: var(--spacing);
   }
@@ -682,6 +696,9 @@
   .h-14 {
     height: calc(var(--spacing) * 14);
   }
+  .h-\[56\.25vw\] {
+    height: 56.25vw;
+  }
   .h-\[61px\] {
     height: 61px;
   }
@@ -717,6 +734,9 @@
   }
   .min-h-\[calc\(100vh-61px\)\] {
     min-height: calc(100vh - 61px);
+  }
+  .min-h-full {
+    min-height: 100%;
   }
   .w-1 {
     width: var(--spacing);
@@ -766,6 +786,9 @@
   .w-\[120px\] {
     width: 120px;
   }
+  .w-\[177\.78vh\] {
+    width: 177.78vh;
+  }
   .w-fit {
     width: fit-content;
   }
@@ -789,6 +812,9 @@
   }
   .max-w-7xl {
     max-width: var(--container-7xl);
+  }
+  .max-w-\[118px\] {
+    max-width: 118px;
   }
   .max-w-\[150px\] {
     max-width: 150px;
@@ -843,6 +869,9 @@
   }
   .min-w-\[220px\] {
     min-width: 220px;
+  }
+  .min-w-full {
+    min-width: 100%;
   }
   .flex-1 {
     flex: 1;
@@ -1061,6 +1090,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
+  }
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
@@ -1235,6 +1268,9 @@
   }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
+  }
+  .px-5 {
+    padding-inline: calc(var(--spacing) * 5);
   }
   .px-6 {
     padding-inline: calc(var(--spacing) * 6);
@@ -1845,6 +1881,18 @@
   .focus-visible\:ring-offset-transparent {
     &:focus-visible {
       --tw-ring-offset-color: transparent;
+    }
+  }
+  .sm\:size-\[96px\] {
+    @media (width >= 40rem) {
+      width: 96px;
+      height: 96px;
+    }
+  }
+  .sm\:size-\[112px\] {
+    @media (width >= 40rem) {
+      width: 112px;
+      height: 112px;
     }
   }
   .sm\:w-\[180px\] {

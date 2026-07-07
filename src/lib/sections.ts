@@ -1,41 +1,42 @@
-export const clientLogos = [
-  {
-    name: "Luyu",
-    src: "https://framerusercontent.com/images/2e9rGrOkACVfd78cX0SzqLLw.svg",
-    width: 104,
-    height: 42,
-  },
-  {
-    name: "Warpspeed",
-    src: "https://framerusercontent.com/images/uwiCTWkuPCOpiACYPmBnkQDV8KA.svg",
-    width: 133,
-    height: 32,
-  },
-  {
-    name: "Sunburst",
-    src: "https://framerusercontent.com/images/qMtwqqlLyy1I0xtlJx1nQvCqsE.svg",
-    width: 40,
-    height: 40,
-  },
-  {
-    name: "Loqo",
-    src: "https://framerusercontent.com/images/IjvOxnf94qc0W01TH1Jt44VZRr4.svg",
-    width: 80,
-    height: 32,
-  },
-  {
-    name: "OD",
-    src: "https://framerusercontent.com/images/4HSt1fdOhF6F3PFBgxeUkOsTJiw.svg",
-    width: 48,
-    height: 48,
-  },
-  {
-    name: "North",
-    src: "https://framerusercontent.com/images/AUrg765bxdJvG09Nkwtoo0n8A.svg",
-    width: 40,
-    height: 40,
-  },
-];
+export const selectedWorkSection = {
+  title: "Selected Work",
+  period: "(2016–2025)",
+  projects: [
+    {
+      id: "the-pine",
+      name: "The Pine",
+      src: "/logos/the-pine.png",
+    },
+    {
+      id: "yan-bibiyan",
+      name: "Yan Bibiyan",
+      src: "/logos/yan-bibiyan.png",
+    },
+    {
+      id: "fly-the-earth",
+      name: "Fly The Earth",
+      src: "/logos/fly-the-earth.png",
+    },
+    {
+      id: "dea-accelerate",
+      name: "DEA Accelerate",
+      src: "/logos/dea.png",
+    },
+    {
+      id: "kingo",
+      name: "Kingo",
+      src: "/logos/kingo.png",
+    },
+    {
+      id: "patronaj",
+      name: "Patronaj",
+      src: "/logos/patronaj.png",
+    },
+  ],
+};
+
+/** @deprecated Use selectedWorkSection.projects */
+export const clientLogos = selectedWorkSection.projects;
 
 export const featuredProjects = [
   {
@@ -390,10 +391,10 @@ export const moreServicesSectionCopy = {
 };
 
 export const teamSectionCopy = {
-  brand: "fabrica®",
+  brand: "nau",
   title: "The faces",
   titleMuted: "behind the projects.",
-  company: "at fabrica®",
+  company: "at nau",
   careers: {
     title: "Be part of our mission",
     description:
@@ -410,10 +411,9 @@ export const teamSectionCopy = {
 
 export const teamMembers = [
   {
-    name: "Lauren Thompson",
+    name: "Stefani Dimitrova",
     role: "Team Lead",
-    image:
-      "https://framerusercontent.com/images/XBirhPxPnqDiGkAtvDrRCiK4pS8.jpg",
+    image: "/images/team-lead.png",
   },
   {
     name: "Michael Wilson",
@@ -481,7 +481,7 @@ export const blogSectionCopy = {
     "Stay informed about our latest projects, trends, and industry insights.",
   cta: "See all",
   ctaHref: "/blog",
-  brand: "fabrica®",
+  brand: "nau",
   featuredTitle: "What's new in digital?",
 };
 
@@ -514,7 +514,7 @@ export const blogFeaturedPost = {
 };
 
 export const contactSectionCopy = {
-  brand: "fabrica®",
+  brand: "nau",
   formTitle: "Have a project",
   formTitleMuted: "in mind?",
   fields: {
@@ -554,10 +554,9 @@ export const contactPageCopy = {
   subheadlineRest:
     " Reach out to us, and we'll discuss the best way to move forward.",
   teamLead: {
-    name: "Lauren Thompson",
+    name: "Stefani Dimitrova",
     role: "Team lead",
-    image:
-      "https://framerusercontent.com/images/XBirhPxPnqDiGkAtvDrRCiK4pS8.jpg",
+    image: "/images/team-lead.png",
   },
   placeholders: {
     name: "Your name *",

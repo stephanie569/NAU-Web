@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "fabrica®",
+  name: "nau",
   tagline: "Studio",
   description:
-    "Elevate your brand with expert web design, branding, and digital marketing. Fabrica® Studio delivers strategic, high-performing solutions tailored to your business needs.",
-  email: "hello@fabrica.com",
+    "Elevate your brand with expert web design, branding, and digital marketing. Nau Studio delivers strategic, high-performing solutions tailored to your business needs.",
+  email: "hello@nau.com",
   phone: "(312) 555-2468",
   year: "2025",
 };
@@ -230,11 +230,10 @@ export const faqs = [
 
 export const team = [
   {
-    name: "Lauren Thompson",
+    name: "Stefani Dimitrova",
     role: "Team Lead",
-    bio: "Leads strategy and client partnerships at fabrica® Studio.",
-    image:
-      "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop",
+    bio: "Leads strategy and client partnerships at nau Studio.",
+    image: "/images/team-lead.png",
   },
   {
     name: "Anatolii Dmitrienko",

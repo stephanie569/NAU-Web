@@ -111,7 +111,7 @@ function SummaryCard() {
 
       <div>
         <p className="mb-8 text-[clamp(1.75rem,3vw,2.25rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-          fabrica<span className="text-[#0a0a0a]/60">®</span>
+          nau
         </p>
 
         <div className="mb-6 flex items-center justify-between gap-4">

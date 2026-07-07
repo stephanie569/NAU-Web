@@ -73,12 +73,11 @@ function FooterColumn({
   );
 }
 
-function FabricaLogo() {
+function NauLogo() {
   return (
     <div className="text-left lg:text-right">
       <p className="text-[clamp(3rem,10vw,7rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
-        fabrica
-        <span className="align-super text-[clamp(1.5rem,4vw,3rem)]">®</span>
+        nau
       </p>
       <p className="mt-1 text-[clamp(2rem,6vw,4.5rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white">
         Studio
@@ -149,7 +148,7 @@ export function Footer() {
             </div>
 
             <div className="lg:col-span-5 lg:justify-self-end">
-              <FabricaLogo />
+              <NauLogo />
             </div>
           </div>
         </div>
@@ -158,7 +157,7 @@ export function Footer() {
       <div className="relative border-t border-white/10 px-6 py-4 md:px-9">
         <div className="mx-auto grid w-full max-w-[1520px] grid-cols-1 items-center gap-4 md:grid-cols-3">
           <p className="text-[13px] font-medium tracking-[-0.04em] text-white/60 md:justify-self-start">
-            © {siteConfig.year} fabrica® Studio. All rights reserved.
+            © {siteConfig.year} nau Studio. All rights reserved.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-5 md:gap-6">

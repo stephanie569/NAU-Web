@@ -8,8 +8,8 @@ import { projectCount } from "@/lib/hero";
 
 const navLinks = [
   { href: "/studio", label: "Studio" },
-  { href: "/projects", label: "Projects", count: projectCount },
-  { href: "/blog", label: "Blog" },
+  { href: "/projects", label: "Work", count: projectCount },
+  { href: "/blog", label: "Journal" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -41,7 +41,7 @@ export function Header() {
           href="/"
           className="shrink-0 text-[15px] font-bold tracking-[-0.04em] text-[#0a0a0a]"
         >
-          fabrica<span className="align-super text-[10px]">®</span>
+          nau
         </Link>
 
         {navLinks.map((link) => (
