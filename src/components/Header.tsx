@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/studio", label: "Studio" },
   { href: "/projects", label: "Work", count: projectCount },
   { href: "/blog", label: "Journal" },
+  { href: "/stickers-campaign", label: "Stickers campaign" },
   { href: "/contact", label: "Contact" },
 ];
 

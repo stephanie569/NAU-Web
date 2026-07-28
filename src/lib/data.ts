@@ -2,9 +2,9 @@ export const siteConfig = {
   name: "nau",
   tagline: "Studio",
   description:
-    "Elevate your brand with expert web design, branding, and digital marketing. Nau Studio delivers strategic, high-performing solutions tailored to your business needs.",
-  email: "hello@nau.com",
-  phone: "(312) 555-2468",
+    "Personal portfolio of Stefani Dimitrova—product strategy, product launches, and go-to-market for founders building with clarity.",
+  email: "info@thetimeisnau.com",
+  phone: "+359 888 32 9667",
   year: "2025",
 };
 
@@ -12,7 +12,7 @@ export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/studio", label: "Studio" },
   { href: "/projects", label: "Projects" },
-  { href: "/blog", label: "Blog" },
+  { href: "/blog", label: "Journal" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -20,39 +20,33 @@ export const footerNavLinks = [
   { href: "/", label: "Home" },
   { href: "/studio", label: "Studio" },
   { href: "/projects", label: "Projects" },
-  { href: "/blog", label: "Blog" },
+  { href: "/blog", label: "Journal" },
+  { href: "/stickers-campaign", label: "Stickers campaign" },
 ];
 
 export const socialLinks = [
-  { href: "https://x.com/bynneh", label: "Twitter" },
-  { href: "https://instagram.com", label: "Instagram" },
-  { href: "https://dribbble.com", label: "Dribbble" },
+  { href: "https://www.linkedin.com/", label: "LinkedIn" },
+  { href: "https://www.tiktok.com/", label: "TikTok" },
 ];
 
 export const services = [
   {
     number: "001",
-    title: "Branding and Identity",
+    title: "Product Strategy",
     description:
-      "Blends aesthetics with functionality to create designs that not only look great but drive results.",
+      "Clarify the offer, customer, and decisions that should shape the product—before you scale the wrong story.",
   },
   {
     number: "002",
-    title: "Web Design and Development",
+    title: "Product Launches",
     description:
-      "We create fully custom websites tailored to your brand. No generic templates—just unique, high-performing designs.",
+      "Turn strategy into a launch people understand: narrative, experience, proof, and the path from first visit to first value.",
   },
   {
     number: "003",
-    title: "Social Media Marketing",
+    title: "Go-to-Market",
     description:
-      "Crafts compelling narratives that connect with audiences and strengthen brand identity.",
-  },
-  {
-    number: "004",
-    title: "SEO Optimization",
-    description:
-      "We optimize your site structure, content, and speed, ensuring better search rankings and visibility.",
+      "Build distribution that compounds—messaging, organic growth, and campaigns that match what the product actually delivers.",
   },
 ];
 
@@ -76,7 +70,7 @@ export const projects = [
   {
     slug: "boltshift-rebrand",
     title: "Boltshift.",
-    category: "Branding",
+    category: "Product Strategy",
     year: "2025",
     image:
       "https://framerusercontent.com/images/TQUaM9GTresksymLH16ncQaPo.jpg",
@@ -86,7 +80,7 @@ export const projects = [
   {
     slug: "ephemeral-campaign",
     title: "Ephemeral.",
-    category: "Web design",
+    category: "Go-to-Market",
     year: "2025",
     image:
       "https://framerusercontent.com/images/r3DvXiPExOamPrqqTNfWM1K9o4.jpg",
@@ -96,7 +90,7 @@ export const projects = [
   {
     slug: "warpspeed-launch",
     title: "Powersurge.",
-    category: "Web design",
+    category: "Product Launches",
     year: "2024",
     image:
       "https://framerusercontent.com/images/UPqJOHQLdYtNuK2jee5437Lno.jpg",
@@ -106,7 +100,7 @@ export const projects = [
   {
     slug: "wilson-co-studio",
     title: "Mastermail.",
-    category: "Branding",
+    category: "Product Strategy",
     year: "2024",
     image:
       "https://framerusercontent.com/images/HlvuJF9yIQ3Q8fP86EjFIq5ExE.jpg",
@@ -116,7 +110,7 @@ export const projects = [
   {
     slug: "experiences-app",
     title: "Warpspeed.",
-    category: "Development",
+    category: "Product Launches",
     year: "2023",
     image:
       "https://framerusercontent.com/images/0KGHRsvK3go8kOWricmADe0VWs.jpg",
@@ -126,7 +120,7 @@ export const projects = [
   {
     slug: "cloudwatch-platform",
     title: "CloudWatch.",
-    category: "Development",
+    category: "Product Launches",
     year: "2020",
     image:
       "https://framerusercontent.com/images/qiCYd5j7XEmvyt9BpMldI3mNm8.jpg",
@@ -150,121 +144,58 @@ export const testimonials = [
   },
   {
     quote:
-      "A smooth process from start to finish. Highly professional team!",
+      "A smooth process from start to finish. Highly professional and thoughtful.",
     author: "Emily Davis",
     role: "Marketing Director, Ephemeral.",
   },
   {
     quote:
-      "Incredible team! They delivered exactly what we needed, on time and beyond expectations.",
+      "Incredible work—delivered exactly what we needed, on time and beyond expectations.",
     author: "Anna Martinez",
     role: "Product Lead, CloudWatch.",
   },
 ];
 
-export const blogPosts = [
-  {
-    slug: "well-designed-website-transform-business",
-    title: "How a well-designed website can transform your business",
-    excerpt:
-      "Discover the latest design trends shaping the digital world and how they impact business.",
-    date: "February 2, 2025",
-    category: "Design",
-    image:
-      "https://framerusercontent.com/images/3Rw5vNnsCjiRaizUQ1G8JkxJxo.jpg",
-  },
-  {
-    slug: "psychology-of-color-branding",
-    title: "The Psychology of Color in Branding",
-    excerpt:
-      "Colors influence emotions and decisions. Here's how to use them strategically in branding.",
-    date: "January 26, 2025",
-    category: "Branding",
-    image:
-      "https://framerusercontent.com/images/vCmb1SfBKGiUHUXvbQXzqPtmFxo.jpg",
-  },
-  {
-    slug: "whats-new-in-digital",
-    title: "What's new in digital?",
-    excerpt:
-      "Stay informed about our latest projects, trends, and industry insights.",
-    date: "January 12, 2025",
-    category: "Insights",
-    image:
-      "https://framerusercontent.com/images/stTKqZkueiEGiXkUexOWo9RjNnY.jpg",
-  },
-];
+export { blogPosts } from "@/lib/blog";
 
 export const faqs = [
   {
-    question: "How long does it take to build a website?",
+    question: "What do you actually help with?",
     answer:
-      "The timeline for building a website depends on its complexity and specific requirements. On average, we'll provide a detailed timeline during the initial consultation to ensure clear expectations.",
+      "Three things: product strategy (clarity, positioning, decisions), product launches (narrative, experience, proof), and go-to-market (distribution and campaigns that match the product).",
   },
   {
-    question: "Do you offer custom websites or use templates?",
+    question: "Do you only work on websites?",
     answer:
-      "We create fully custom websites tailored to your brand. No generic templates—just unique, high-performing designs.",
+      "No. Web experiences are often part of a launch, but the work starts with strategy and the story customers need to believe—not templates for their own sake.",
   },
   {
-    question: "What's included in your SEO services?",
+    question: "What's included in go-to-market work?",
     answer:
-      "We optimize your site structure, content, and speed, ensuring better search rankings and visibility.",
+      "Messaging that travels, organic growth systems, campaign ideas tied to real product proof, and a plan for how attention becomes understanding—not just more traffic.",
   },
   {
     question: "How does the monthly subscription model work?",
     answer:
-      "You pay a fixed monthly fee, and we handle everything—design, updates, and ongoing support. No large upfront costs, just a seamless experience.",
+      "You pay a fixed monthly fee for ongoing strategy, launch support, or go-to-market iteration. No large upfront costs—just a clear, ongoing partnership.",
   },
   {
-    question: "Can you redesign my existing website?",
+    question: "Can you help if we already launched?",
     answer:
-      "Yes! We can refresh your current site while improving its design, functionality, and performance.",
+      "Yes. Many engagements start after a confused launch: we clarify the offer, fix the experience, and rebuild go-to-market around what actually works.",
   },
   {
     question: "How do I get started?",
     answer:
-      "Just reach out! We'll discuss your needs, create a plan, and get to work on your website.",
+      "Just reach out. We'll discuss your needs, I'll propose a plan, and we can get started on your project.",
   },
 ];
 
 export const team = [
   {
     name: "Stefani Dimitrova",
-    role: "Team Lead",
-    bio: "Leads strategy and client partnerships at nau Studio.",
-    image: "/images/team-lead.png",
-  },
-  {
-    name: "Anatolii Dmitrienko",
-    role: "Creative Director",
-    bio: "Shapes the visual direction behind every project.",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&h=800&fit=crop",
-  },
-  {
-    name: "Emily Davis",
-    role: "Client Success Manager",
-    bio: "Ensures every client journey is smooth from start to finish.",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&h=800&fit=crop",
-  },
-];
-
-export const jobOpenings = [
-  {
-    title: "Senior Web Designer",
-    type: "Full-time",
-    location: "Remote",
-  },
-  {
-    title: "Frontend Developer",
-    type: "Full-time",
-    location: "Remote",
-  },
-  {
-    title: "Brand Strategist",
-    type: "Contract",
-    location: "Hybrid",
+    role: "Designer & strategist",
+    bio: "I help founders with product strategy, product launches, and go-to-market that stay honest to the product.",
+    image: "/images/founder-stefani.png",
   },
 ];

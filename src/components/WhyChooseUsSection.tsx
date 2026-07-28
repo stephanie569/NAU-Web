@@ -101,7 +101,7 @@ export function WhyChooseUsSection() {
           <div className="flex items-center gap-3">
             <PlusBadge />
             <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-              Why choose us
+              Why work with me
             </p>
           </div>
 

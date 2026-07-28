@@ -1,4 +1,7 @@
 {
   "/page": "app/page.js",
-  "/studio/page": "app/studio/page.js"
+  "/blog/page": "app/blog/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/legal/terms/page": "app/legal/terms/page.js",
+  "/legal/privacy/page": "app/legal/privacy/page.js"
 }

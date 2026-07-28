@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} ${siteConfig.tagline} – Web Design, Branding & Digital Growth`,
+  title: `${siteConfig.name} ${siteConfig.tagline} – Product Strategy, Launches & Go-to-Market`,
   description: siteConfig.description,
 };
 

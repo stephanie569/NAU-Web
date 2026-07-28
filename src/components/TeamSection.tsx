@@ -22,47 +22,10 @@ function CardPlusIcon() {
   );
 }
 
-function TeamCard({
-  member,
-}: {
-  member: (typeof teamMembers)[number];
-}) {
-  const { company } = teamSectionCopy;
-
-  return (
-    <div className="relative aspect-[3/4] overflow-hidden rounded-[14px]">
-      <Image
-        src={member.image}
-        alt={member.name}
-        fill
-        className="object-cover"
-        sizes="(max-width: 1024px) 50vw, 25vw"
-      />
-      <div className="absolute inset-0 bg-[#0a0a0a]/25" />
-
-      <div className="absolute inset-0 flex flex-col justify-between p-5 md:p-6">
-        <div className="flex items-start justify-between gap-4">
-          <CardPlusIcon />
-          <div className="text-right">
-            <p className="text-[13px] font-semibold tracking-[-0.04em] text-white">
-              {member.role}
-            </p>
-            <p className="text-[11px] font-medium tracking-[-0.04em] text-white/60">
-              {company}
-            </p>
-          </div>
-        </div>
-
-        <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
-          {member.name}
-        </p>
-      </div>
-    </div>
-  );
-}
-
 export function TeamSection() {
-  const { brand, title, titleMuted, careers, collaboration } = teamSectionCopy;
+  const { brand, title, titleMuted, careers, collaboration, company } =
+    teamSectionCopy;
+  const member = teamMembers[0];
 
   return (
     <section className="bg-[#f5f5f5] px-6 py-24 md:px-9 md:py-32">
@@ -113,10 +76,33 @@ export function TeamSection() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-1">
-              {teamMembers.map((member) => (
-                <TeamCard key={member.name} member={member} />
-              ))}
+            <div className="relative aspect-[3/4] overflow-hidden rounded-[14px] lg:aspect-auto lg:min-h-[640px]">
+              <Image
+                src={member.image}
+                alt={member.name}
+                fill
+                className="object-cover grayscale"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
+              <div className="absolute inset-0 bg-[#0a0a0a]/25" />
+
+              <div className="absolute inset-0 flex flex-col justify-between p-5 md:p-6">
+                <div className="flex items-start justify-between gap-4">
+                  <CardPlusIcon />
+                  <div className="text-right">
+                    <p className="text-[13px] font-semibold tracking-[-0.04em] text-white">
+                      {member.role}
+                    </p>
+                    <p className="text-[11px] font-medium tracking-[-0.04em] text-white/60">
+                      {company}
+                    </p>
+                  </div>
+                </div>
+
+                <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
+                  {member.name}
+                </p>
+              </div>
             </div>
           </div>
         </div>

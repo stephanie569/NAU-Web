@@ -76,7 +76,7 @@ export default async function ProjectDetailPage({ params }: Props) {
               </div>
             </div>
             <p className="mt-12 max-w-3xl leading-relaxed text-muted">
-              {project.description} We partnered closely with the client team to
+              {project.description} I partnered closely with the client to
               define goals, iterate on design, and deliver a solution with
               clarity and purpose—without unnecessary complexity.
             </p>

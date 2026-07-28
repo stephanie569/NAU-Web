@@ -1,15 +1,14 @@
 export const heroServices = [
   "Product Strategy",
-  "Web Experiences",
-  "Visual Storytelling",
-  "Experiential Campaigns",
+  "Product Launches",
+  "Go-to-Market",
 ];
 
 export const heroTeamLead = {
   name: "Stefani Dimitrova",
-  role: "Team Lead",
-  company: "at nau",
-  image: "/images/team-lead.png",
+  role: "Designer & strategist",
+  company: "nau",
+  image: "/images/founder-stefani-office.png",
 };
 
 export const heroVideo = "/videos/hero-4k.mp4";

@@ -160,7 +160,7 @@ export function ServicesSection() {
             <div className="flex items-center justify-center gap-3 lg:justify-self-start">
               <PlusBadge />
               <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
-                What we do
+                What I do
               </p>
             </div>
 

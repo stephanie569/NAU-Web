@@ -6,7 +6,6 @@ import { ServicesSection } from "@/components/ServicesSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { ImpactStatsSection } from "@/components/ImpactStatsSection";
 import { PricingSection } from "@/components/PricingSection";
-import { MoreServicesSection } from "@/components/MoreServicesSection";
 import { TeamSection } from "@/components/TeamSection";
 import { FAQSection } from "@/components/FAQSection";
 import { BlogPreviewSection } from "@/components/BlogPreviewSection";
@@ -23,7 +22,6 @@ export default function HomePage() {
       <TestimonialsSection />
       <ImpactStatsSection />
       <PricingSection />
-      <MoreServicesSection />
       <TeamSection />
       <FAQSection />
       <BlogPreviewSection />

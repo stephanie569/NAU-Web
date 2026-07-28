@@ -17,15 +17,6 @@ function NoiseOverlay() {
   );
 }
 
-function EmailPlusIcon() {
-  return (
-    <span className="relative flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-white/20">
-      <span className="absolute h-px w-2.5 bg-white" />
-      <span className="absolute h-2.5 w-px bg-white" />
-    </span>
-  );
-}
-
 function ExternalArrowIcon() {
   return (
     <svg
@@ -45,17 +36,6 @@ function ExternalArrowIcon() {
   );
 }
 
-function FramerBoltIcon() {
-  return (
-    <svg viewBox="0 0 16 16" className="h-3.5 w-3.5 shrink-0" aria-hidden>
-      <path
-        d="M9.5 2 4 9h4.5L6.5 14 12 7H7.5L9.5 2Z"
-        fill="currentColor"
-      />
-    </svg>
-  );
-}
-
 function FooterColumn({
   label,
   children,
@@ -64,7 +44,7 @@ function FooterColumn({
   children: React.ReactNode;
 }) {
   return (
-    <div>
+    <div className="min-w-0">
       <p className="mb-5 text-[13px] font-medium tracking-[-0.04em] text-white/50">
         {label}
       </p>
@@ -76,43 +56,54 @@ function FooterColumn({
 function NauLogo() {
   return (
     <div className="text-left lg:text-right">
-      <p className="text-[clamp(3rem,10vw,7rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
+      <p className="text-[clamp(3rem,8vw,5.5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
         nau
       </p>
-      <p className="mt-1 text-[clamp(2rem,6vw,4.5rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white">
+      <p className="mt-1 text-[clamp(1.75rem,5vw,3.25rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white">
         Studio
       </p>
     </div>
   );
 }
 
+const legalLinks = [
+  { href: "/stickers-campaign", label: "Stickers campaign" },
+  { href: "/legal/privacy", label: "Privacy Policy" },
+  { href: "/legal/terms", label: "Terms of Service" },
+];
+
 export function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#0a0a0a] text-white">
       <NoiseOverlay />
 
-      <div className="relative px-6 pt-20 pb-12 md:px-9 md:pt-28 md:pb-14">
+      <div className="relative px-6 pt-20 pb-16 md:px-9 md:pt-28 md:pb-20">
         <div className="mx-auto w-full max-w-[1520px]">
-          <div className="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:items-end lg:gap-x-10 xl:gap-x-16">
+          <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-12 lg:items-start lg:gap-x-8 xl:gap-x-12">
             <div className="lg:col-span-3">
               <FooterColumn label="Contact">
-                <a
-                  href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
-                  className="block text-[15px] font-medium tracking-[-0.04em] text-white transition-opacity hover:opacity-70"
-                >
-                  {siteConfig.phone}
-                </a>
-                <a
-                  href={`mailto:${siteConfig.email}`}
-                  className="mt-4 inline-flex items-center gap-3 text-[15px] font-bold tracking-[-0.04em] text-white underline underline-offset-4 transition-opacity hover:opacity-70"
-                >
-                  <EmailPlusIcon />
-                  {siteConfig.email}
-                </a>
+                <ul className="space-y-3">
+                  <li>
+                    <a
+                      href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
+                      className="text-[15px] font-medium tracking-[-0.04em] text-white transition-opacity hover:opacity-70"
+                    >
+                      {siteConfig.phone}
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href={`mailto:${siteConfig.email}`}
+                      className="text-[15px] font-semibold tracking-[-0.04em] text-white underline underline-offset-4 transition-opacity hover:opacity-70"
+                    >
+                      {siteConfig.email}
+                    </a>
+                  </li>
+                </ul>
               </FooterColumn>
             </div>
 
-            <div className="grid grid-cols-2 gap-10 sm:gap-12 lg:col-span-4">
+            <div className="lg:col-span-3">
               <FooterColumn label="Navigation">
                 <ul className="space-y-3">
                   {footerNavLinks.map((link) => (
@@ -127,7 +118,9 @@ export function Footer() {
                   ))}
                 </ul>
               </FooterColumn>
+            </div>
 
+            <div className="lg:col-span-3">
               <FooterColumn label="Social">
                 <ul className="space-y-3">
                   {socialLinks.map((link) => (
@@ -147,44 +140,31 @@ export function Footer() {
               </FooterColumn>
             </div>
 
-            <div className="lg:col-span-5 lg:justify-self-end">
+            <div className="sm:col-span-2 lg:col-span-3 lg:justify-self-end">
               <NauLogo />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="relative border-t border-white/10 px-6 py-4 md:px-9">
-        <div className="mx-auto grid w-full max-w-[1520px] grid-cols-1 items-center gap-4 md:grid-cols-3">
-          <p className="text-[13px] font-medium tracking-[-0.04em] text-white/60 md:justify-self-start">
+      <div className="relative border-t border-white/10 px-6 py-5 md:px-9">
+        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <p className="text-[13px] font-medium tracking-[-0.04em] text-white/60">
             © {siteConfig.year} nau Studio. All rights reserved.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-5 md:gap-6">
-            <Link
-              href="/legal/privacy"
-              className="text-[13px] font-medium tracking-[-0.04em] text-white/60 transition-colors hover:text-white"
-            >
-              Privacy Policy
-            </Link>
-            <Link
-              href="/legal/terms"
-              className="text-[13px] font-medium tracking-[-0.04em] text-white/60 transition-colors hover:text-white"
-            >
-              Terms of Service
-            </Link>
-            <a
-              href="https://www.framer.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-[13px] font-medium tracking-[-0.04em] text-white/60 transition-colors hover:text-white"
-            >
-              <FramerBoltIcon />
-              Built in Framer
-            </a>
-          </div>
-
-          <div className="hidden md:block" aria-hidden />
+          <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
+            {legalLinks.map((link) => (
+              <li key={link.href}>
+                <Link
+                  href={link.href}
+                  className="text-[13px] font-medium tracking-[-0.04em] text-white/60 transition-colors hover:text-white"
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </footer>

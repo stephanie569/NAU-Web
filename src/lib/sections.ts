@@ -86,25 +86,24 @@ export const featuredProjects = [
 export const projectsSectionCopy = {
   count: 27,
   description:
-    "We've helped businesses across industries achieve their goals. Here are some of our recent projects.",
+    "I've worked with brands across industries to shape products and stories that connect. Here are some recent projects.",
 };
 
 export const projectsPageCopy = {
   range: "(2016-25©)",
   title: "Projects.",
   description:
-    "We've helped businesses across industries achieve their goals. Here are some of our recent projects.",
+    "I've worked with brands across industries to shape products and stories that connect. Here are some recent projects.",
   searchPlaceholder: "Search…",
   categoryLabel: "Category",
-  categories: ["Web design", "Branding", "Development", "SEO"],
+  categories: ["Product Strategy", "Product Launches", "Go-to-Market"],
   ctaLead:
-    "Whether you're looking to build a stunning website, boost your brand, or drive measurable results,",
-  ctaHighlight: "we're here to help.",
+    "Whether you need sharper product strategy, a clearer launch, or go-to-market that compounds,",
+  ctaHighlight: "I'm here to help.",
   contact: {
-    name: "George Stern",
-    role: "Client Success Manager",
-    image:
-      "https://framerusercontent.com/images/b9rHzpbKLXBm2bljru0AGCinwsg.jpg",
+    name: "Stefani Dimitrova",
+    role: "Designer & strategist",
+    image: "/images/founder-stefani.png",
   },
 };
 
@@ -114,7 +113,7 @@ export const projectsPageItems = [
     title: "Boltshift.",
     displayName: "Boltshift",
     year: "2025",
-    category: "Branding",
+    category: "Product Strategy",
     image:
       "https://framerusercontent.com/images/TQUaM9GTresksymLH16ncQaPo.jpg",
     logo: "https://framerusercontent.com/images/uesNBJIRG5fZ2tDJzkhxXbuauQw.svg",
@@ -124,7 +123,7 @@ export const projectsPageItems = [
     title: "Ephemeral.",
     displayName: "Ephemeral",
     year: "2025",
-    category: "Web design",
+    category: "Go-to-Market",
     image:
       "https://framerusercontent.com/images/r3DvXiPExOamPrqqTNfWM1K9o4.jpg",
     logo: "https://framerusercontent.com/images/PyQzA1IF3BF1gkVO1xuZHClY0c.svg",
@@ -134,7 +133,7 @@ export const projectsPageItems = [
     title: "Powersurge.",
     displayName: "Powersurge",
     year: "2024",
-    category: "Web design",
+    category: "Product Launches",
     image:
       "https://framerusercontent.com/images/UPqJOHQLdYtNuK2jee5437Lno.jpg",
     logo: "https://framerusercontent.com/images/j2k0BUaOnC0jNyx5dP4hieQnFL4.svg",
@@ -144,7 +143,7 @@ export const projectsPageItems = [
     title: "Mastermail.",
     displayName: "Mastermail",
     year: "2024",
-    category: "Branding",
+    category: "Product Strategy",
     image:
       "https://framerusercontent.com/images/HlvuJF9yIQ3Q8fP86EjFIq5ExE.jpg",
     logo: "https://framerusercontent.com/images/kH7hh1Be4txgKwuTgZl3jpdZp8.svg",
@@ -154,7 +153,7 @@ export const projectsPageItems = [
     title: "Warpspeed.",
     displayName: "Warpspeed",
     year: "2023",
-    category: "Development",
+    category: "Product Launches",
     image:
       "https://framerusercontent.com/images/0KGHRsvK3go8kOWricmADe0VWs.jpg",
     logo: "https://framerusercontent.com/images/JLzkuHlsyLa7VHaiV3ZJ16kiHhg.svg",
@@ -164,7 +163,7 @@ export const projectsPageItems = [
     title: "CloudWatch.",
     displayName: "CloudWatch",
     year: "2020",
-    category: "Development",
+    category: "Product Launches",
     image:
       "https://framerusercontent.com/images/qiCYd5j7XEmvyt9BpMldI3mNm8.jpg",
     logo: "https://framerusercontent.com/images/zCY9SAfJ5gqVMOvrM5dzywwbU.svg",
@@ -178,7 +177,7 @@ export const whyChooseUsCopy = {
   },
   description: {
     bold: "No fluff, just results.",
-    rest: "Thoughtful design and tools that make your work easier. We focus on smart design and useful features, project after project.",
+    rest: "Thoughtful design and tools that make your work easier. I focus on smart design and useful features, project after project.",
   },
   image:
     "https://framerusercontent.com/images/KL17tuoYHz5TzXCqskqaMY5Iw0.jpg",
@@ -188,7 +187,7 @@ export const whyChooseUsCopy = {
       number: "01",
       label: "Successful projects completed",
       description:
-        "We've delivered 50+ projects that help companies generate real results.",
+        "I've delivered 50+ projects that help companies generate real results.",
     },
     satisfaction: {
       value: "95%",
@@ -219,7 +218,7 @@ export const whyChooseUsCopy = {
 };
 
 export const servicesSectionCopy = {
-  count: 4,
+  count: 3,
 };
 
 const img = (id: string, size = 280) =>
@@ -228,64 +227,48 @@ const img = (id: string, size = 280) =>
 export const servicesItems = [
   {
     number: "001",
-    title: "Web design and development",
+    title: "Product Strategy",
     description:
-      "Modern, responsive, and user-friendly websites designed to engage visitors and drive conversions.",
+      "Get clear on who it is for, what changes, and which decisions should shape the product—before you spend on the wrong story.",
     thumbnail: img("vGSJoy0fkCYvuK5CETUzS64NNo"),
     categories: [
-      "Packaging design",
-      "Logo design",
-      "Rebranding",
-      "Typography",
-      "Guidelines",
-      "Visual identity",
+      "Positioning",
+      "ICP clarity",
+      "Offer design",
+      "Roadmap focus",
+      "Decision frameworks",
     ],
-    extraCount: "6+",
+    extraCount: "5+",
   },
   {
     number: "002",
-    title: "Social media marketing",
+    title: "Product Launches",
     description:
-      "Strategic, data-driven social media campaigns designed to build brand awareness and connect with your target audience.",
+      "Turn strategy into a launch people understand: narrative, experience, proof, and the path from first visit to first value.",
     thumbnail: img("qQlR5lTiRYzT2lPzSWLLVkcgH6Y"),
     categories: [
-      "Content strategy",
-      "Community management",
-      "Paid advertising",
-      "Analytics & reporting",
-      "Platform optimization",
+      "Launch narrative",
+      "Web experiences",
+      "Onboarding",
+      "Conversion",
+      "Proof systems",
     ],
-    extraCount: "6+",
+    extraCount: "5+",
   },
   {
     number: "003",
-    title: "SEO and content marketing",
+    title: "Go-to-Market",
     description:
-      "Comprehensive search optimization and engaging content that increases visibility, drives organic traffic, and establishes thought leadership.",
+      "Build distribution that compounds—messaging, organic growth, and campaigns that match what the product actually delivers.",
     thumbnail: img("9hTP0obDSaEcVCyC5kaHbx7FfI"),
     categories: [
-      "Keyword research",
-      "On-page optimization",
-      "Content creation",
-      "Link building",
+      "Organic growth",
+      "Campaign design",
+      "Community",
+      "Distribution",
+      "Message-market fit",
     ],
-    extraCount: "4+",
-  },
-  {
-    number: "004",
-    title: "Branding and identity",
-    description:
-      "Distinctive, memorable brand experiences that communicate your values and create emotional connections with your customers.",
-    thumbnail: img("6girwIRKdg1doDEWAHr4oDIbroU"),
-    categories: [
-      "Brand strategy",
-      "Logo design",
-      "Brand voice",
-      "Color systems",
-      "Brand guidelines",
-      "Identity applications",
-    ],
-    extraCount: "6+",
+    extraCount: "5+",
   },
 ];
 
@@ -298,7 +281,7 @@ export const testimonialsSectionCopy = {
     suffix: "/5",
     highlight: "56+ projects",
     text: "that help companies generate real results.",
-    intro: "We've delivered",
+    intro: "I've delivered",
     projectCount: "56+",
     trustedBy: "Trusted by clients worldwide",
     cta: "Leave a review",
@@ -314,7 +297,7 @@ export const testimonialsSectionCopy = {
       author: "James Carter",
       role: "Wilson & Co",
       quote:
-        "Incredible team! They delivered exactly what we needed, on time and beyond expectations.",
+        "Incredible work—delivered exactly what we needed, on time and beyond expectations.",
       image: "i3aEeezQjGIGVleGgSPry44QwKo",
       layout: "profile-top",
     },
@@ -322,7 +305,7 @@ export const testimonialsSectionCopy = {
       author: "Emily Davis",
       role: "StartUp Hub",
       quote:
-        "A smooth process from start to finish. Highly professional team!",
+        "A smooth process from start to finish. Highly professional and thoughtful.",
       image: "7A0a2DwVW1CflEhx9hinSNdRmw",
       layout: "profile-bottom",
     },
@@ -341,7 +324,7 @@ export const impactStats = [
   { value: 3, suffix: "m+", label: "Ad impressions managed" },
   { value: 27, suffix: "+", label: "Successful projects launched" },
   { value: 98, suffix: "%", label: "Client satisfaction rate" },
-  { value: 50, suffix: "k+", label: "Monthly visitors driven through SEO" },
+  { value: 50, suffix: "+", label: "Product narratives clarified" },
 ];
 
 export const pricingSectionCopy = {
@@ -352,8 +335,9 @@ export const pricingSectionCopy = {
     monthly: "Monthly",
   },
   addon: {
-    title: "Want more traffic and leads?",
-    description: "Get marketing and SEO that starts with your goals.",
+    title: "Need go-to-market support too?",
+    description:
+      "Add distribution, messaging, and campaign systems that match your product story.",
     price: "+$1,490",
   },
   plans: {
@@ -369,9 +353,9 @@ export const pricingSectionCopy = {
     },
   },
   features: [
-    "Homepage + up to 4 inner pages",
-    "Design and Development",
-    "Mobile-Optimized Design",
+    "Strategy workshop + clear offer narrative",
+    "Launch or go-to-market plan",
+    "Priority support during delivery",
   ],
   deliveryLabel: "Delivery time",
   cta: "Get in touch",
@@ -379,138 +363,120 @@ export const pricingSectionCopy = {
 
 export const moreServicesSectionCopy = {
   label: "Looking for more?",
-  headlineLead: "Add marketing, SEO, or content creation—",
+  headlineLead: "Add product strategy, launches, or go-to-market—",
   headlineRest:
-    "flexible tools to strengthen your project. We'll shape a solution that fits your business, not ours.",
+    "flexible tools to strengthen your project. I'll shape a solution that fits your business, not a one-size-fits-all process.",
   contact: {
-    name: "George Stern",
-    role: "Client Success Manager",
-    image:
-      "https://framerusercontent.com/images/b9rHzpbKLXBm2bljru0AGCinwsg.jpg",
+    name: "Stefani Dimitrova",
+    role: "Designer & strategist",
+    image: "/images/founder-stefani.png",
   },
 };
 
 export const teamSectionCopy = {
   brand: "nau",
-  title: "The faces",
+  title: "The person",
   titleMuted: "behind the projects.",
-  company: "at nau",
+  company: "nau",
   careers: {
-    title: "Be part of our mission",
+    title: "Let's work together",
     description:
-      "If you're ready to create and collaborate, we'd love to hear from you.",
-    cta: "Apply now",
+      "If you're ready to create something meaningful, I'd love to hear from you.",
+    cta: "Get in touch",
     href: "/contact",
   },
   collaboration: {
-    lead: "We believe great work comes",
+    lead: "I believe great work comes",
     emphasis: "from collaboration.",
-    rest: "That's why we work closely with each other to ensure every project meets your goals and exceeds expectations.",
+    rest: "That's why I partner closely with each client to make sure every project meets your goals and exceeds expectations.",
   },
 };
 
 export const teamMembers = [
   {
     name: "Stefani Dimitrova",
-    role: "Team Lead",
-    image: "/images/team-lead.png",
-  },
-  {
-    name: "Michael Wilson",
-    role: "Full Stack Developer",
-    image:
-      "https://framerusercontent.com/images/aPl6cE0jS1YZHwAFXXw61N1JkQI.jpg",
-  },
-  {
-    name: "Sarah Johnson",
-    role: "Creative Director",
-    image:
-      "https://framerusercontent.com/images/9EtXT1aFvual1dmNauTJSO1YmE.jpg",
-  },
-  {
-    name: "Christopher Miller",
-    role: "UX/UI Designer",
-    image:
-      "https://framerusercontent.com/images/2tiQFkd5S2BAWIEShaSCdLTiY.jpg",
+    role: "Designer & strategist",
+    image: "/images/founder-stefani.png",
   },
 ];
 
 export const faqSectionCopy = {
   title: "FAQ.",
   description:
-    "Got questions? We've got answers. Here's everything you need to know about working with us.",
+    "Got questions? Here are clear answers about working with me.",
 };
 
 export const faqItems = [
   {
-    question: "How long does it take to build a website?",
+    question: "What do you actually help with?",
     answer:
-      "The timeline for building a website depends on its complexity and specific requirements. On average, we'll provide a detailed timeline during the initial consultation to ensure clear expectations.",
+      "Three things: product strategy (clarity, positioning, decisions), product launches (narrative, experience, proof), and go-to-market (distribution and campaigns that match the product).",
   },
   {
-    question: "Do you offer custom websites or use templates?",
+    question: "Do you only work on websites?",
     answer:
-      "We create fully custom websites tailored to your brand. No generic templates—just unique, high-performing designs.",
+      "No. Web experiences are often part of a launch, but the work starts with strategy and the story customers need to believe—not templates for their own sake.",
   },
   {
-    question: "What's included in your SEO services?",
+    question: "What's included in go-to-market work?",
     answer:
-      "We optimize your site structure, content, and speed, ensuring better search rankings and visibility.",
+      "Messaging that travels, organic growth systems, campaign ideas tied to real product proof, and a plan for how attention becomes understanding—not just more traffic.",
   },
   {
     question: "How does the monthly subscription model work?",
     answer:
-      "You pay a fixed monthly fee, and we handle everything—design, updates, and ongoing support. No large upfront costs, just a seamless experience.",
+      "You pay a fixed monthly fee for ongoing strategy, launch support, or go-to-market iteration. No large upfront costs—just a clear, ongoing partnership.",
   },
   {
-    question: "Can you redesign my existing website?",
+    question: "Can you help if we already launched?",
     answer:
-      "Yes! We can refresh your current site while improving its design, functionality, and performance.",
+      "Yes. Many engagements start after a confused launch: we clarify the offer, fix the experience, and rebuild go-to-market around what actually works.",
   },
   {
     question: "How do I get started?",
     answer:
-      "Just reach out! We'll discuss your needs, create a plan, and get to work on your website.",
+      "Just reach out. We'll discuss your needs, I'll propose a plan, and we can get started on your project.",
   },
 ];
 
 export const blogSectionCopy = {
-  title: "Newest trends",
-  titleMuted: "and insights from our team.",
+  title: "Newest essays",
+  titleMuted: "from the journal.",
   description:
-    "Stay informed about our latest projects, trends, and industry insights.",
+    "Clear thinking on product, positioning, and conversion—written for founders who would rather understand the problem than decorate it.",
   cta: "See all",
   ctaHref: "/blog",
   brand: "nau",
-  featuredTitle: "What's new in digital?",
+  featuredTitle:
+    "Why great products fail before they ever reach product–market fit",
 };
 
 export const blogPreviewPosts = [
   {
-    slug: "well-designed-website-transform-business",
-    date: "February 2, 2025",
-    title: "How a well-designed website can transform your business",
+    slug: "audited-50-startup-websites-10-mistakes",
+    date: "July 18, 2026",
+    title:
+      "I audited 50 startup websites. Here are the 10 mistakes I saw over and over again.",
     excerpt:
-      "Discover the latest design trends shaping the digital world and how they impact business.",
-    authorImage:
-      "https://framerusercontent.com/images/3Rw5vNnsCjiRaizUQ1G8JkxJxo.jpg",
+      "Fifty early-stage sites, different niches, same conversion habits: vague headlines, weak proof, cluttered heroes, and pages that ask for interest without earning it. The mistakes—and the fixes.",
+    authorImage: "/images/blog/blog-32-50-websites.png",
   },
   {
-    slug: "psychology-of-color-branding",
-    date: "January 26, 2025",
-    title: "The Psychology of Color in Branding",
+    slug: "best-marketing-feels-like-product-design",
+    date: "July 6, 2026",
+    title:
+      "The best marketing doesn't feel like marketing—it feels like product design",
     excerpt:
-      "Colors influence emotions and decisions. Here's how to use them strategically in branding.",
-    authorImage:
-      "https://framerusercontent.com/images/vCmb1SfBKGiUHUXvbQXzqPtmFxo.jpg",
+      "When marketing sits on top of the product, it underperforms. The brands that win design belief as part of the product experience—message, UX, and proof as one system.",
+    authorImage: "/images/blog/blog-34-marketing-product.png",
   },
 ];
 
 export const blogFeaturedPost = {
-  slug: "whats-new-in-digital",
-  title: "What's new in digital?",
-  image:
-    "https://framerusercontent.com/images/stTKqZkueiEGiXkUexOWo9RjNnY.jpg",
+  slug: "why-great-products-fail-before-product-market-fit",
+  title:
+    "Why great products fail before they ever reach product–market fit",
+  image: "/images/blog/blog-31-great-products-fail.png",
 };
 
 export const contactSectionCopy = {
@@ -528,21 +494,21 @@ export const contactSectionCopy = {
     message: "Your message",
   },
   submit: "Send Message",
-  legalLead: "By submitting, you agree to our",
+  legalLead: "By submitting, you agree to my",
   legalLink: "Terms and Privacy Policy.",
   headline: "Let's talk.",
   subheadline:
-    "Tell us about your project—whether it's a website, SEO, or marketing.",
+    "Tell me about your project—whether it's product strategy, a launch, or go-to-market.",
   benefits: [
     {
       title: "Quick response.",
       description:
-        "If you're ready to create and collaborate, we'd love to hear from you.",
+        "If you're ready to create and collaborate, I'd love to hear from you.",
     },
     {
       title: "Clear next steps.",
       description:
-        "After the consultation, we'll provide you with a detailed plan and timeline.",
+        "After we talk, I'll share a clear plan and timeline for your project.",
     },
   ],
   profileCta: "Ask directly",
@@ -552,11 +518,11 @@ export const contactPageCopy = {
   title: "Get in touch.",
   subheadlineLead: "Have a project in mind?",
   subheadlineRest:
-    " Reach out to us, and we'll discuss the best way to move forward.",
+    " Reach out, and I'll discuss the best way to move forward with you.",
   teamLead: {
     name: "Stefani Dimitrova",
-    role: "Team lead",
-    image: "/images/team-lead.png",
+    role: "Designer & strategist",
+    image: "/images/founder-stefani.png",
   },
   placeholders: {
     name: "Your name *",
@@ -564,7 +530,7 @@ export const contactPageCopy = {
     message: "Your message",
   },
   submit: "Submit",
-  legalLead: "By submitting, you agree to our",
+  legalLead: "By submitting, you agree to my",
   termsLabel: "Terms",
   privacyLabel: "Privacy Policy",
 };

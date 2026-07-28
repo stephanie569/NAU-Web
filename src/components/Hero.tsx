@@ -1,13 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import { YouTubeBackgroundVideo } from "@/components/YouTubeBackgroundVideo";
 import {
   heroBackgroundVideoId,
   heroServices,
-  heroTeamLead,
 } from "@/lib/hero";
 
 function PlusIcon() {
@@ -28,51 +25,6 @@ function NoiseOverlay() {
         backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")`,
       }}
     />
-  );
-}
-
-function ContactCard() {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.7, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-      className="w-full max-w-[320px] justify-self-end overflow-hidden rounded-2xl bg-white lg:shrink-0"
-    >
-      <div className="flex gap-0">
-        <div className="w-[42%] shrink-0 p-1.5">
-          <div className="relative aspect-[170/216] w-full overflow-hidden rounded-xl">
-            <Image
-              src={heroTeamLead.image}
-              alt={heroTeamLead.name}
-              fill
-              className="object-cover"
-              sizes="140px"
-              priority
-            />
-          </div>
-        </div>
-        <div className="flex min-w-0 flex-1 flex-col justify-between gap-4 py-5 pr-4">
-          <div>
-            <p className="text-xs font-semibold tracking-[-0.04em] text-[#090909]/60">
-              Every project is personally led by
-            </p>
-            <p className="mt-1 text-[18px] leading-tight font-semibold tracking-[-0.04em] text-[#090909]">
-              {heroTeamLead.name}
-            </p>
-          </div>
-          <Link
-            href="/contact"
-            className="flex items-center justify-between rounded-full bg-[#0a0a0a] py-2.5 pr-1.5 pl-4 text-[13px] font-semibold text-white transition-opacity hover:opacity-85"
-          >
-            <span>Start a Project</span>
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white">
-              <span className="h-2 w-2 rounded-full bg-[#0a0a0a]" />
-            </span>
-          </Link>
-        </div>
-      </div>
-    </motion.div>
   );
 }
 
@@ -138,26 +90,16 @@ export function HeroCard() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.35, ease: [0.25, 0.1, 0.25, 1] }}
-            className="grid w-full grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] lg:items-end lg:gap-8"
+            className="w-full"
           >
-            <div className="max-w-2xl lg:pr-8">
-              <h2 className="text-[clamp(1.25rem,2.2vw,1.75rem)] leading-[1.35] font-semibold tracking-[-0.04em] text-white">
+            <div className="max-w-4xl">
+              <h2 className="text-[clamp(1.75rem,3.8vw,3.25rem)] leading-[1.2] font-semibold tracking-[-0.04em] text-white">
                 Building products and stories{" "}
                 <span className="text-white/70">
                   for brands that connect people with nature.
                 </span>
               </h2>
             </div>
-
-            <p className="hidden text-center text-sm font-medium tracking-[-0.02em] text-white/80 lg:block">
-              Outdoor · Ocean · Sustainability
-            </p>
-
-            <ContactCard />
-
-            <p className="text-sm font-medium tracking-[-0.02em] text-white/80 lg:hidden">
-              Outdoor · Ocean · Sustainability
-            </p>
           </motion.div>
         </div>
       </div>
