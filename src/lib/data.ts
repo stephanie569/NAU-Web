@@ -51,7 +51,7 @@ export const services = [
 ];
 
 export const stats = [
-  { value: "56+", label: "projects" },
+  { value: "27+", label: "projects" },
   { value: "98%", label: "Client satisfaction rate" },
   { value: "+30%", label: "Conversion Rate Improvement" },
   { value: "3-4 weeks", label: "Delivery time" },

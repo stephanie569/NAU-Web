@@ -1,8 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
-import { heroTeamLead, heroVideo } from "@/lib/hero";
+import { heroVideo } from "@/lib/hero";
 import { contactSectionCopy } from "@/lib/sections";
 
 function ClockIcon() {
@@ -46,50 +44,6 @@ function BenefitIcon({ type }: { type: "clock" | "steps" }) {
     <span className="mb-4 flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white">
       {type === "clock" ? <ClockIcon /> : <StepsIcon />}
     </span>
-  );
-}
-
-function ProfileCard() {
-  const { profileCta } = contactSectionCopy;
-
-  return (
-    <div className="w-full max-w-[320px] overflow-hidden rounded-[14px] bg-white lg:ml-auto">
-      <div className="flex gap-0">
-        <div className="w-[42%] shrink-0 p-1.5">
-          <div className="relative aspect-[170/216] w-full overflow-hidden rounded-[10px]">
-            <Image
-              src={heroTeamLead.image}
-              alt={heroTeamLead.name}
-              fill
-              className="object-cover"
-              sizes="140px"
-            />
-          </div>
-        </div>
-        <div className="flex min-w-0 flex-1 flex-col justify-between gap-4 py-5 pr-4">
-          <div>
-            <p className="text-[13px] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
-              {heroTeamLead.role}
-            </p>
-            <p className="text-[11px] font-semibold tracking-[-0.04em] text-[#0a0a0a]/60">
-              {heroTeamLead.company}
-            </p>
-            <p className="mt-1 text-[18px] leading-tight font-semibold tracking-[-0.04em] text-[#0a0a0a]">
-              {heroTeamLead.name}
-            </p>
-          </div>
-          <Link
-            href="/contact"
-            className="flex items-center justify-between rounded-full bg-[#0a0a0a] py-2.5 pr-1.5 pl-4 text-[13px] font-semibold tracking-[-0.04em] text-white transition-opacity hover:opacity-85"
-          >
-            <span>{profileCta}</span>
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white">
-              <span className="h-2 w-2 rounded-full bg-[#0a0a0a]" />
-            </span>
-          </Link>
-        </div>
-      </div>
-    </div>
   );
 }
 
@@ -218,8 +172,6 @@ export function ContactSection() {
               </div>
             </div>
           </div>
-
-          <ProfileCard />
         </div>
       </div>
     </section>

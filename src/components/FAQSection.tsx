@@ -67,7 +67,7 @@ export function FAQSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="bg-[#f5f5f5] px-6 pb-24 pt-0 md:px-9 md:pb-32">
+    <section className="bg-[#f5f5f5] px-6 py-24 md:px-9 md:py-32">
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,380px)_1fr] lg:items-start lg:gap-16 xl:grid-cols-[minmax(0,420px)_1fr]">
           <div>

@@ -96,7 +96,7 @@ export function HeroCard() {
               <h2 className="text-[clamp(1.75rem,3.8vw,3.25rem)] leading-[1.2] font-semibold tracking-[-0.04em] text-white">
                 Building products and stories{" "}
                 <span className="text-white/70">
-                  for brands that connect people with nature.
+                  for brands that connect people with{"\u00A0"}nature.
                 </span>
               </h2>
             </div>

@@ -1,10 +1,8 @@
 import { HeroScroll } from "@/components/HeroScroll";
 import { ClientsSection } from "@/components/ClientsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
-import { WhyChooseUsSection } from "@/components/WhyChooseUsSection";
 import { ServicesSection } from "@/components/ServicesSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
-import { ImpactStatsSection } from "@/components/ImpactStatsSection";
 import { PricingSection } from "@/components/PricingSection";
 import { TeamSection } from "@/components/TeamSection";
 import { FAQSection } from "@/components/FAQSection";
@@ -17,12 +15,10 @@ export default function HomePage() {
       <HeroScroll />
       <ClientsSection />
       <ProjectsSection />
-      <WhyChooseUsSection />
       <ServicesSection />
-      <TestimonialsSection />
-      <ImpactStatsSection />
-      <PricingSection />
       <TeamSection />
+      <TestimonialsSection />
+      <PricingSection />
       <FAQSection />
       <BlogPreviewSection />
       <ContactSection />

@@ -1,6 +1,6 @@
 export const selectedWorkSection = {
   title: "Selected Work",
-  period: "(2016–2025)",
+  period: "(2018–2026)",
   projects: [
     {
       id: "the-pine",
@@ -90,7 +90,7 @@ export const projectsSectionCopy = {
 };
 
 export const projectsPageCopy = {
-  range: "(2016-25©)",
+  range: "(2018–2026)",
   title: "Projects.",
   description:
     "I've worked with brands across industries to shape products and stories that connect. Here are some recent projects.",
@@ -170,53 +170,6 @@ export const projectsPageItems = [
   },
 ];
 
-export const whyChooseUsCopy = {
-  headline: {
-    primary: "Proven results for every project,",
-    secondary: "with a focus on design and functionality.",
-  },
-  description: {
-    bold: "No fluff, just results.",
-    rest: "Thoughtful design and tools that make your work easier. I focus on smart design and useful features, project after project.",
-  },
-  image:
-    "https://framerusercontent.com/images/KL17tuoYHz5TzXCqskqaMY5Iw0.jpg",
-  stats: {
-    projects: {
-      value: "50+",
-      number: "01",
-      label: "Successful projects completed",
-      description:
-        "I've delivered 50+ projects that help companies generate real results.",
-    },
-    satisfaction: {
-      value: "95%",
-      number: "02",
-      label: "Customer satisfaction rate",
-      logos: [
-        {
-          name: "Logoipsum",
-          src: "https://framerusercontent.com/images/wk98ext8C9l414fS0PK6BvjTA.svg",
-          width: 65,
-          height: 34,
-        },
-        {
-          name: "Logoipsum",
-          src: "https://framerusercontent.com/images/m9cv2Bx2sImOjy4Q3x1Fk5d5WGM.svg",
-          width: 86,
-          height: 22,
-        },
-        {
-          name: "Logoipsum",
-          src: "https://framerusercontent.com/images/CtaV2dn3ujpK8zv0Py3i9IJArPQ.svg",
-          width: 77,
-          height: 20,
-        },
-      ],
-    },
-  },
-};
-
 export const servicesSectionCopy = {
   count: 3,
 };
@@ -279,10 +232,10 @@ export const testimonialsSectionCopy = {
   summary: {
     rating: "4.9",
     suffix: "/5",
-    highlight: "56+ projects",
+    highlight: "27+ projects",
     text: "that help companies generate real results.",
     intro: "I've delivered",
-    projectCount: "56+",
+    projectCount: "27+",
     trustedBy: "Trusted by clients worldwide",
     cta: "Leave a review",
     avatars: [
@@ -319,13 +272,6 @@ export const testimonialsSectionCopy = {
     },
   ],
 };
-
-export const impactStats = [
-  { value: 3, suffix: "m+", label: "Ad impressions managed" },
-  { value: 27, suffix: "+", label: "Successful projects launched" },
-  { value: 98, suffix: "%", label: "Client satisfaction rate" },
-  { value: 50, suffix: "+", label: "Product narratives clarified" },
-];
 
 export const pricingSectionCopy = {
   label: "Simple pricing",
@@ -511,7 +457,6 @@ export const contactSectionCopy = {
         "After we talk, I'll share a clear plan and timeline for your project.",
     },
   ],
-  profileCta: "Ask directly",
 };
 
 export const contactPageCopy = {
