@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "I delay design tools on purpose. Strategy, customer language, and decision mapping come first—so pixels serve a real argument instead of inventing one under deadline pressure.",
   date: "July 14, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-13-no-figma.png",
   metaDescription:
     "Why starting product and website projects without Figma leads to clearer strategy, better messaging, stronger conversion design, and fewer pretty wrong answers.",

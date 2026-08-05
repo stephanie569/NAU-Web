@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A respectful strategic teardown of Airbnb’s homepage: what works for job clarity and trust, what I’d tighten for cold visitors, and principles startups can reuse.",
   date: "July 4, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-21-airbnb.png",
   metaDescription:
     "Product teardown of Airbnb’s homepage—clarity, trust, and conversion lessons startups can apply without copying marketplace complexity.",

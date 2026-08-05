@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Campaigns spike. Systems compound. How to build positioning, experience, proof, and learning so marketing stops reinventing belief every month.",
   date: "July 8, 2026",
-  category: "Go-to-Market",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-18-systems.png",
   metaDescription:
     "Why product and brand systems outperform one-off marketing campaigns—and how to build compounding clarity into your startup.",

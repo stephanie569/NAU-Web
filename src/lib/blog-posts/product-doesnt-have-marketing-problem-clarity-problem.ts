@@ -7,7 +7,7 @@ const post: BlogPost = {
   excerpt:
     "When growth stalls, founders buy ads. More often, customers still cannot explain what you do—or why it matters—in one clear sentence. Here is how to diagnose and fix the clarity stack before you spend.",
   date: "July 28, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-01-clarity.png",
   metaDescription:
     "Why stalled startup growth is usually a clarity problem, not a marketing problem—and how to fix positioning, messaging, and product narrative before you spend more on acquisition.",

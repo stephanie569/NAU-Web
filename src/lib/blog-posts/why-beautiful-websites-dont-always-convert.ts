@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Aesthetics can earn attention. Conversion requires comprehension, trust, and a clear next step—here is how to design for decisions, not decoration.",
   date: "July 19, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-09-beautiful.png",
   metaDescription:
     "Why beautiful startup websites fail to convert, and how clarity, proof, CTA design, speed, and accessibility outperform visual polish alone.",

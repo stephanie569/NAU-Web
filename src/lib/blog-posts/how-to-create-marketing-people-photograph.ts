@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "The psychology behind campaigns that spread without asking anyone to \"go viral\".",
   date: "August 2, 2026",
-  category: "Go-to-Market",
+  category: "Content creation with your team",
   image: "/images/blog/blog-41-photograph.png",
   metaDescription:
     "How to design campaigns people choose to photograph—photogenic moments, voluntary social proof, and frameworks that spread without begging anyone to go viral.",

@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Lessons from a decade of product work: clarity beats cleverness, systems beat spikes, customers pay for progress—and the best marketing starts as product strategy.",
   date: "July 16, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-11-ten-years.png",
   metaDescription:
     "Ten years of building products taught these startup lessons—on clarity, systems, customer truth, time-to-value, and why strategy must come before campaigns.",

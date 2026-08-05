@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Broad ICPs, feature theatre, and scaling before activation rarely look dramatic in the moment. Over years they destroy conversion, retention, and clarity—quietly, and at scale.",
   date: "June 25, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-29-cost-millions.png",
   metaDescription:
     "Three product decisions that quietly cost companies millions: serving everyone, shipping features instead of strategy, and scaling acquisition before activation is solved.",

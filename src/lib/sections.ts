@@ -86,23 +86,27 @@ export const featuredProjects = [
 export const projectsSectionCopy = {
   count: 27,
   description:
-    "I've worked with brands across industries to shape products and stories that connect. Here are some recent projects.",
+    "Selected work with founders and product teams—positioning, launches and content that helped products find their story.",
 };
 
 export const projectsPageCopy = {
   range: "(2018–2026)",
   title: "Projects.",
   description:
-    "I've worked with brands across industries to shape products and stories that connect. Here are some recent projects.",
+    "Selected work with founders and product teams—research, positioning, campaign strategy and content created with the people behind the product.",
   searchPlaceholder: "Search…",
   categoryLabel: "Category",
-  categories: ["Product Strategy", "Product Launches", "Go-to-Market"],
+  categories: [
+    "Product research and positioning",
+    "Go-to-market and campaign strategy",
+    "Content creation with your team",
+  ],
   ctaLead:
-    "Whether you need sharper product strategy, a clearer launch, or go-to-market that compounds,",
+    "Whether you need sharper positioning, a clearer launch plan, or content made with your team,",
   ctaHighlight: "I'm here to help.",
   contact: {
     name: "Stefani Dimitrova",
-    role: "Designer & strategist",
+    role: "Product strategist & creative partner",
     image: "/images/founder-stefani.png",
   },
 };
@@ -113,7 +117,7 @@ export const projectsPageItems = [
     title: "Boltshift.",
     displayName: "Boltshift",
     year: "2025",
-    category: "Product Strategy",
+    category: "Product research and positioning",
     image:
       "https://framerusercontent.com/images/TQUaM9GTresksymLH16ncQaPo.jpg",
     logo: "https://framerusercontent.com/images/uesNBJIRG5fZ2tDJzkhxXbuauQw.svg",
@@ -123,7 +127,7 @@ export const projectsPageItems = [
     title: "Ephemeral.",
     displayName: "Ephemeral",
     year: "2025",
-    category: "Go-to-Market",
+    category: "Go-to-market and campaign strategy",
     image:
       "https://framerusercontent.com/images/r3DvXiPExOamPrqqTNfWM1K9o4.jpg",
     logo: "https://framerusercontent.com/images/PyQzA1IF3BF1gkVO1xuZHClY0c.svg",
@@ -133,7 +137,7 @@ export const projectsPageItems = [
     title: "Powersurge.",
     displayName: "Powersurge",
     year: "2024",
-    category: "Product Launches",
+    category: "Go-to-market and campaign strategy",
     image:
       "https://framerusercontent.com/images/UPqJOHQLdYtNuK2jee5437Lno.jpg",
     logo: "https://framerusercontent.com/images/j2k0BUaOnC0jNyx5dP4hieQnFL4.svg",
@@ -143,7 +147,7 @@ export const projectsPageItems = [
     title: "Mastermail.",
     displayName: "Mastermail",
     year: "2024",
-    category: "Product Strategy",
+    category: "Product research and positioning",
     image:
       "https://framerusercontent.com/images/HlvuJF9yIQ3Q8fP86EjFIq5ExE.jpg",
     logo: "https://framerusercontent.com/images/kH7hh1Be4txgKwuTgZl3jpdZp8.svg",
@@ -153,7 +157,7 @@ export const projectsPageItems = [
     title: "Warpspeed.",
     displayName: "Warpspeed",
     year: "2023",
-    category: "Product Launches",
+    category: "Go-to-market and campaign strategy",
     image:
       "https://framerusercontent.com/images/0KGHRsvK3go8kOWricmADe0VWs.jpg",
     logo: "https://framerusercontent.com/images/JLzkuHlsyLa7VHaiV3ZJ16kiHhg.svg",
@@ -163,7 +167,7 @@ export const projectsPageItems = [
     title: "CloudWatch.",
     displayName: "CloudWatch",
     year: "2020",
-    category: "Product Launches",
+    category: "Go-to-market and campaign strategy",
     image:
       "https://framerusercontent.com/images/qiCYd5j7XEmvyt9BpMldI3mNm8.jpg",
     logo: "https://framerusercontent.com/images/zCY9SAfJ5gqVMOvrM5dzywwbU.svg",
@@ -180,48 +184,51 @@ const img = (id: string, size = 280) =>
 export const servicesItems = [
   {
     number: "001",
-    title: "Product Strategy",
+    title: "Product research and positioning",
     description:
-      "Get clear on who it is for, what changes, and which decisions should shape the product—before you spend on the wrong story.",
+      "Before creating content, I find out what the product is really competing against, who should care about it and which message has the strongest chance of connecting.",
     thumbnail: img("vGSJoy0fkCYvuK5CETUzS64NNo"),
     categories: [
-      "Positioning",
-      "ICP clarity",
-      "Offer design",
-      "Roadmap focus",
-      "Decision frameworks",
+      "Market research",
+      "Competitor analysis",
+      "Customer insight",
+      "Value proposition",
+      "Messaging",
+      "Product positioning",
     ],
-    extraCount: "5+",
+    extraCount: "6+",
   },
   {
     number: "002",
-    title: "Product Launches",
+    title: "Go-to-market and campaign strategy",
     description:
-      "Turn strategy into a launch people understand: narrative, experience, proof, and the path from first visit to first value.",
+      "I turn the research into a practical launch and campaign plan, connecting the product’s positioning with the channels, stories and creative ideas that can move it forward.",
     thumbnail: img("qQlR5lTiRYzT2lPzSWLLVkcgH6Y"),
     categories: [
-      "Launch narrative",
-      "Web experiences",
-      "Onboarding",
-      "Conversion",
-      "Proof systems",
+      "Launch strategy",
+      "Campaign concepts",
+      "Content strategy",
+      "Channel planning",
+      "Organic & outdoor ideas",
+      "Creative testing",
     ],
-    extraCount: "5+",
+    extraCount: "6+",
   },
   {
     number: "003",
-    title: "Go-to-Market",
+    title: "Content creation with your team",
     description:
-      "Build distribution that compounds—messaging, organic growth, and campaigns that match what the product actually delivers.",
+      "I create the campaign content with the people behind the product, helping founders, teams and customers communicate the story in a way that feels credible, useful and human.",
     thumbnail: img("9hTP0obDSaEcVCyC5kaHbx7FfI"),
     categories: [
-      "Organic growth",
-      "Campaign design",
-      "Community",
-      "Distribution",
-      "Message-market fit",
+      "Founder-led content",
+      "Product demos",
+      "Customer stories",
+      "Short-form video",
+      "Photography",
+      "Campaign assets",
     ],
-    extraCount: "5+",
+    extraCount: "6+",
   },
 ];
 
@@ -233,10 +240,10 @@ export const testimonialsSectionCopy = {
     rating: "4.9",
     suffix: "/5",
     highlight: "27+ projects",
-    text: "that help companies generate real results.",
-    intro: "I've delivered",
+    text: "with founders and product teams who needed clarity, not a larger agency.",
+    intro: "I've worked on",
     projectCount: "27+",
-    trustedBy: "Trusted by clients worldwide",
+    trustedBy: "Trusted by founders and product teams",
     cta: "Leave a review",
     avatars: [
       "7XElicIcn53vdnwyFHTpct98",
@@ -281,9 +288,9 @@ export const pricingSectionCopy = {
     monthly: "Monthly",
   },
   addon: {
-    title: "Need go-to-market support too?",
+    title: "Need content production too?",
     description:
-      "Add distribution, messaging, and campaign systems that match your product story.",
+      "Add founder-led video, campaign assets and team content once the positioning and plan are clear.",
     price: "+$1,490",
   },
   plans: {
@@ -299,22 +306,22 @@ export const pricingSectionCopy = {
     },
   },
   features: [
-    "Strategy workshop + clear offer narrative",
-    "Launch or go-to-market plan",
-    "Priority support during delivery",
+    "Research, positioning and messaging",
+    "Launch or campaign plan",
+    "Content direction with your team",
   ],
   deliveryLabel: "Delivery time",
-  cta: "Get in touch",
+  cta: "Work with me",
 };
 
 export const moreServicesSectionCopy = {
   label: "Looking for more?",
-  headlineLead: "Add product strategy, launches, or go-to-market—",
+  headlineLead: "Need research, a launch plan, or content with your team—",
   headlineRest:
-    "flexible tools to strengthen your project. I'll shape a solution that fits your business, not a one-size-fits-all process.",
+    "I shape the mix around your product, not a fixed agency package.",
   contact: {
     name: "Stefani Dimitrova",
-    role: "Designer & strategist",
+    role: "Product strategist & creative partner",
     image: "/images/founder-stefani.png",
   },
 };
@@ -327,21 +334,21 @@ export const teamSectionCopy = {
   careers: {
     title: "Let's work together",
     description:
-      "If you're ready to create something meaningful, I'd love to hear from you.",
-    cta: "Get in touch",
+      "If you're preparing to launch, reposition, or tell the product story with your own people, I'd love to hear from you.",
+    cta: "Work with me",
     href: "/contact",
   },
   collaboration: {
-    lead: "I believe great work comes",
-    emphasis: "from collaboration.",
-    rest: "That's why I partner closely with each client to make sure every project meets your goals and exceeds expectations.",
+    lead: "I work where product strategy, marketing and content",
+    emphasis: "meet.",
+    rest: "I rarely begin with “What should we post?” I begin with the product, the customer and the reason anyone should care—then turn that into campaigns and content your team can actually use.",
   },
 };
 
 export const teamMembers = [
   {
     name: "Stefani Dimitrova",
-    role: "Designer & strategist",
+    role: "Product strategist & creative partner",
     image: "/images/founder-stefani.png",
   },
 ];
@@ -356,32 +363,32 @@ export const faqItems = [
   {
     question: "What do you actually help with?",
     answer:
-      "Three things: product strategy (clarity, positioning, decisions), product launches (narrative, experience, proof), and go-to-market (distribution and campaigns that match the product).",
+      "Three connected areas: product research and positioning, go-to-market and campaign strategy, and content creation with your team. Strategy comes first; content brings the campaign to life.",
   },
   {
-    question: "Do you only work on websites?",
+    question: "Is this UGC or social media management?",
     answer:
-      "No. Web experiences are often part of a launch, but the work starts with strategy and the story customers need to believe—not templates for their own sake.",
+      "No. Content is part of product marketing—often founder-led, team-led, customer stories, demos and campaign assets. The research and positioning before production are essential to the work.",
   },
   {
     question: "What's included in go-to-market work?",
     answer:
-      "Messaging that travels, organic growth systems, campaign ideas tied to real product proof, and a plan for how attention becomes understanding—not just more traffic.",
+      "Launch and campaign planning, messaging hypotheses, channel ideas (including organic and outdoor where they fit), creative testing plans, and clear measures of what to watch.",
   },
   {
     question: "How does the monthly subscription model work?",
     answer:
-      "You pay a fixed monthly fee for ongoing strategy, launch support, or go-to-market iteration. No large upfront costs—just a clear, ongoing partnership.",
+      "You pay a fixed monthly fee for ongoing research, campaign iteration, or content made with your team. Clear scope, no large agency overhead.",
   },
   {
     question: "Can you help if we already launched?",
     answer:
-      "Yes. Many engagements start after a confused launch: we clarify the offer, fix the experience, and rebuild go-to-market around what actually works.",
+      "Yes. Many engagements start after a confused launch: I clarify positioning, rebuild the campaign plan, and create content that matches what the product actually delivers.",
   },
   {
     question: "How do I get started?",
     answer:
-      "Just reach out. We'll discuss your needs, I'll propose a plan, and we can get started on your project.",
+      "Reach out with a short note about your product and what you're trying to achieve. I'll suggest a clear next step.",
   },
 ];
 
@@ -389,8 +396,8 @@ export const blogSectionCopy = {
   title: "Newest essays",
   titleMuted: "from the journal.",
   description:
-    "Clear thinking on product, positioning, and conversion—written for founders who would rather understand the problem than decorate it.",
-  cta: "See all",
+    "Notes on product marketing, positioning, launches, organic campaigns, founder-led content, and how to use AI without losing judgment.",
+  cta: "Explore the journal",
   ctaHref: "/blog",
   brand: "nau",
   featuredTitle:
@@ -444,29 +451,29 @@ export const contactSectionCopy = {
   legalLink: "Terms and Privacy Policy.",
   headline: "Let's talk.",
   subheadline:
-    "Tell me about your project—whether it's product strategy, a launch, or go-to-market.",
+    "I help founders turn good products into stories people want to be part of—from market research and positioning to launch strategy and content creation.",
   benefits: [
     {
-      title: "Quick response.",
+      title: "Direct collaboration.",
       description:
-        "If you're ready to create and collaborate, I'd love to hear from you.",
+        "You work with me—not a large anonymous team. Strategy and content stay connected.",
     },
     {
       title: "Clear next steps.",
       description:
-        "After we talk, I'll share a clear plan and timeline for your project.",
+        "After we talk, I'll share a practical plan for research, campaign and content.",
     },
   ],
 };
 
 export const contactPageCopy = {
   title: "Get in touch.",
-  subheadlineLead: "Have a project in mind?",
+  subheadlineLead: "Have a product to launch or reposition?",
   subheadlineRest:
-    " Reach out, and I'll discuss the best way to move forward with you.",
+    " Reach out, and I'll suggest a clear way to move forward together.",
   teamLead: {
     name: "Stefani Dimitrova",
-    role: "Designer & strategist",
+    role: "Product strategist & creative partner",
     image: "/images/founder-stefani.png",
   },
   placeholders: {

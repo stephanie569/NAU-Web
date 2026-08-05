@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Apple sets the bar—and still leaves onboarding opportunities. A product lens on first-run clarity, setup anxiety, progressive disclosure, and time-to-delight that startups can apply at smaller scale.",
   date: "July 1, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-24-apple-onboarding.png",
   metaDescription:
     "How I'd improve Apple-style onboarding: reduce setup anxiety, accelerate time-to-delight, personalise first-run intent, and copy principles startups can use.",

@@ -28,11 +28,13 @@ export default function TermsPage() {
               About nau
             </h2>
             <p>
-              nau is a personal studio focused on product strategy, product
-              launches, and go-to-market. This website is a portfolio and
-              publishing space. It presents selected projects, Journal essays,
-              campaign pages (such as stickers), and contact options—not an
-              online shop with automated checkout for studio services.
+              nau is a personal studio focused on product research and
+              positioning, go-to-market and campaign strategy, and content
+              creation with founders and product teams. This website is a
+              portfolio and publishing space. It presents selected projects,
+              Journal essays, campaign pages (such as stickers), and contact
+              options—not an online shop with automated checkout for studio
+              services.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">

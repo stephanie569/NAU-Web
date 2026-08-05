@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Tools can draft paragraphs. They cannot decide what you uniquely see—and that is still the scarce advantage.",
   date: "August 17, 2026",
-  category: "Product Strategy",
+  category: "Content creation with your team",
   image: "/images/blog/blog-51-ai-perspective.png",
   metaDescription:
     "AI can draft content at speed, but perspective remains the scarce advantage. How to use generation tools without losing the point of view that makes work worth reading.",

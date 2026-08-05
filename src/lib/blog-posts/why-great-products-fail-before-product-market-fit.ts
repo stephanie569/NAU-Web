@@ -7,7 +7,7 @@ const post: BlogPost = {
   excerpt:
     "Strong products still fail before product–market fit when the market cannot explain the value. The early warning signs, a practical proof checklist, and what to do before you scale.",
   date: "July 22, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-31-great-products-fail.png",
   metaDescription:
     "Why strong products still fail before product–market fit, the early warning signs founders miss, and a practical way to prove demand before you scale.",

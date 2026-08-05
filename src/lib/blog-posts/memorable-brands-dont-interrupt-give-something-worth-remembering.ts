@@ -7,7 +7,7 @@ const post: BlogPost = {
   excerpt:
     "Why interruption marketing fades—and how to design moments people keep without being asked.",
   date: "July 29, 2026",
-  category: "Go-to-Market",
+  category: "Content creation with your team",
   image: "/images/blog/blog-45-memorable-brands.png",
   metaDescription:
     "The most memorable brands don't interrupt—they give something worth remembering. Why interruption fades and how to design value-first brand moments that last.",

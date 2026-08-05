@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A journey redesign approach focused on belief stages—awareness, understanding, trust, activation, and expansion—without adding unnecessary touchpoints or channel clutter.",
   date: "June 26, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-28-customer-journey.png",
   metaDescription:
     "How to redesign a brand customer journey around belief stages: awareness, understanding, trust, activation, expansion—and remove friction that blocks growth.",

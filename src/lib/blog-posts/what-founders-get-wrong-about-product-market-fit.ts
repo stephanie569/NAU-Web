@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Product–market fit is not a vibe, a launch, or a funding milestone. Founders misfire when they treat it as a finish line instead of repeated evidence of retention, demand, and willingness to pay.",
   date: "July 21, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-07-pmf-wrong.png",
   metaDescription:
     "Common founder misconceptions about product–market fit—and a clearer way to measure retention, activation, demand, and willingness to pay without vanity metrics.",

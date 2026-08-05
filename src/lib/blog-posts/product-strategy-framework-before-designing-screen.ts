@@ -7,7 +7,7 @@ const post: BlogPost = {
   excerpt:
     "Before Figma, before wireframes, before pixels: a five-box strategy framework that keeps product design attached to real customer decisions—and stops beautiful interfaces for the wrong problem.",
   date: "July 25, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-04-framework.png",
   metaDescription:
     "A practical product strategy framework to use before UI design—covering ICP, jobs-to-be-done, alternatives, outcomes, belief gaps, and conversion paths.",

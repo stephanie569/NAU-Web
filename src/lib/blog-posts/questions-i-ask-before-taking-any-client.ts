@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "How I choose collaborations: problem urgency, decision speed, openness to clarity work, and whether there is room to create measurable outcomes—not polite busywork.",
   date: "July 9, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-17-client-questions.png",
   metaDescription:
     "The questions I ask before taking clients—fit checks for strategy-led product and website work that creates measurable outcomes.",

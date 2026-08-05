@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A speculative strategy memo on strengthening Patagonia’s digital product story—protecting brand integrity while clarifying journeys from inspiration to action. Principles every mission-led startup can use.",
   date: "July 2, 2026",
-  category: "Go-to-Market",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-23-patagonia.png",
   metaDescription:
     "If Patagonia hired a product strategist: where to start on digital clarity, customer journeys, and brand-aligned conversion—lessons for mission-led startups.",

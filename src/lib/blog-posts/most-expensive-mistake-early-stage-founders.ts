@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "The costliest early-stage mistake is not a bad hire or a wrong tool. It is scaling an unclear offer—and paying for every confused visitor twice, in cash and in time.",
   date: "July 24, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-05-mistake.png",
   metaDescription:
     "The most expensive early-stage founder mistake: scaling before clarity. Why it costs more than bad tools, how to spot it early, and the cheaper sequence that actually works.",

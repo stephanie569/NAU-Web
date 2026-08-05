@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Unused features do not just waste sprint time. They slow onboarding, confuse positioning, and make every future decision more expensive—here is how to stop paying that tax.",
   date: "July 20, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-08-features.png",
   metaDescription:
     "Learn the hidden costs of shipping unused features—complexity, slower onboarding, weaker positioning—and a practical framework to build only what customers need.",

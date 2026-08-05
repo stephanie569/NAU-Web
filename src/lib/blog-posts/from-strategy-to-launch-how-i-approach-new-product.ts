@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A practical end-to-end method for taking a product from strategy to launch: clarify the offer, design the decision path, ship focused first value, then learn with discipline.",
   date: "July 11, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-15-strategy-launch.png",
   metaDescription:
     "How I take products from strategy to launch—ICP, narrative, experience design, proof, measurement, and learning loops founders can reuse.",

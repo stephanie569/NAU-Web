@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "When founders ask for more marketing, they often need sharper strategy, cleaner conversion paths, and a story customers can repeat—coherence before volume.",
   date: "July 7, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-19-not-marketing.png",
   metaDescription:
     "What founders actually need instead of more marketing: clarity, conversion design, activation, proof, and a decision cadence that earns demand.",

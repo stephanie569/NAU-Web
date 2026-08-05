@@ -7,7 +7,7 @@ export default function BlogPage() {
     <>
       <PageHero
         title="Journal"
-        subtitle="Practical notes on product strategy, websites, and the oddly expensive ways startups confuse themselves."
+        subtitle="Essays on product marketing, positioning mistakes, launch strategy, organic and outdoor campaigns, founder-led content, and using AI without losing judgment."
       />
 
       <section className="border-b border-border pb-20 md:pb-28">

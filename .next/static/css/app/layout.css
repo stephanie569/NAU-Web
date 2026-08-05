@@ -1633,6 +1633,9 @@
   .text-\[18px\] {
     font-size: 18px;
   }
+  .text-\[clamp\(0\.95rem\,1\.5vw\,1\.125rem\)\] {
+    font-size: clamp(0.95rem, 1.5vw, 1.125rem);
+  }
   .text-\[clamp\(0\.95rem\,1\.6vw\,1\.125rem\)\] {
     font-size: clamp(0.95rem, 1.6vw, 1.125rem);
   }

@@ -94,11 +94,16 @@ export function HeroCard() {
           >
             <div className="max-w-4xl">
               <h2 className="text-[clamp(1.75rem,3.8vw,3.25rem)] leading-[1.2] font-semibold tracking-[-0.04em] text-white">
-                Building products and stories{" "}
+                Good products need more than content.{" "}
                 <span className="text-white/70">
-                  for brands that connect people with{"\u00A0"}nature.
+                  They need a reason to{"\u00A0"}matter.
                 </span>
               </h2>
+              <p className="mt-5 max-w-2xl text-[clamp(0.95rem,1.5vw,1.125rem)] leading-relaxed font-medium tracking-[-0.04em] text-white/70">
+                I work alongside founders and product teams to research their
+                market, sharpen their positioning, shape their launch strategy
+                and create the content that brings it all to life.
+              </p>
             </div>
           </motion.div>
         </div>

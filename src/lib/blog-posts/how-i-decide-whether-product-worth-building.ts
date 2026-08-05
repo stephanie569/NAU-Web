@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A practical build filter for greenlighting product work: urgency, willingness to pay, differentiation, time-to-first-outcome, and kill criteria—so curiosity does not become a roadmap.",
   date: "July 13, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-14-worth-building.png",
   metaDescription:
     "How to decide if a product is worth building using urgency, willingness to pay, differentiation, time-to-value, and evidence that would kill the idea early.",

@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "The QR code was never the problem",
   excerpt: "Why context matters far more than technology.",
   date: "July 31, 2026",
-  category: "Go-to-Market",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-43-qr-code.png",
   metaDescription:
     "The QR code was never the problem—context was. Why promise-before-scan, placement, and bridge design matter far more than the scanning technology itself.",

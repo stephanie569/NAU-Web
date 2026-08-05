@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Day-one priorities for a product strategist joining an early-stage startup: diagnose belief gaps, clarify the offer, and fix the highest-leverage conversion surface before campaigns.",
   date: "July 17, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-10-joined.png",
   metaDescription:
     "What a product strategist would do first when joining a startup—48-hour diagnosis, offer rewrite, ICP lock, and conversion-path fixes before any new campaigns.",

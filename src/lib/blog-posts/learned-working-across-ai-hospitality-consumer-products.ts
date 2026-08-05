@@ -7,7 +7,7 @@ const post: BlogPost = {
   excerpt:
     "Cross-industry product work taught me that categories change vocabulary—not human decision-making. Clarity, trust, and time-to-value still decide conversion.",
   date: "July 10, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-16-ai-hospitality.png",
   metaDescription:
     "Lessons from building across AI, hospitality, and consumer products—universal principles of clarity, trust, time-to-value, and industry-specific adaptation.",

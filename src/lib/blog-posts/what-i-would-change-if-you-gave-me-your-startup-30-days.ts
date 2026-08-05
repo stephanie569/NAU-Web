@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A practical 30-day plan for early-stage startups: diagnose belief breaks, rebuild the offer, fix the conversion surface, and install a learning system—without rebrand theatre.",
   date: "July 12, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-33-30-days.png",
   metaDescription:
     "A 30-day startup turnaround plan covering positioning, website conversion, product narrative, and proof systems—for founders who need clarity fast.",

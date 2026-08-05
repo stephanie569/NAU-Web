@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A balanced landing page review framework: name what builds belief so you do not destroy strengths, then remove the friction that quietly kills conversion.",
   date: "June 27, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-27-landing-review.png",
   metaDescription:
     "Landing page review framework for startups: what helps conversions, what hurts them, how to prioritise fixes, plus exercises and an FAQ.",

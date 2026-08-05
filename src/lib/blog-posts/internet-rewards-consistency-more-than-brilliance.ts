@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "The internet rewards consistency more than brilliance",
   excerpt: "Why showing up often beats trying to go viral once.",
   date: "August 10, 2026",
-  category: "Go-to-Market",
+  category: "Content creation with your team",
   image: "/images/blog/blog-48-consistency.png",
   metaDescription:
     "The internet rewards consistency more than brilliance. Why cadence beats virality, how compounding publishing works, and systems for showing up often.",

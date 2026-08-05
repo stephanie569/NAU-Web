@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Why thinking is becoming more valuable as writing becomes easier.",
   date: "August 16, 2026",
-  category: "Product Strategy",
+  category: "Content creation with your team",
   image: "/images/blog/blog-52-thinking-advantage.png",
   metaDescription:
     "As AI makes writing cheaper, competitive advantage shifts further toward thinking, judgement, and strategy—not typing speed or output volume.",

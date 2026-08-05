@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A practical 60-minute repositioning session: who you serve, what you change, what you refuse, which category you own, and how the story should sound on the homepage—without a six-week brand project.",
   date: "July 23, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-06-reposition.png",
   metaDescription:
     "A 60-minute startup repositioning framework covering ICP, outcomes, alternatives, category, tradeoffs, homepage narrative, and proof—so your story gets sharp fast.",

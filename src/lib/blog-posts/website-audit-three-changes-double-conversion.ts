@@ -7,7 +7,7 @@ const post: BlogPost = {
   excerpt:
     "Most conversion lifts do not need a redesign. Sharper first-screen messaging, proof next to claims, and a shorter path to action often unlock the next jump—without touching the brand kit.",
   date: "July 3, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-22-double-conversion.png",
   metaDescription:
     "A practical website audit: three high-leverage changes—message, proof, and path—that can meaningfully lift conversion without a full redesign.",

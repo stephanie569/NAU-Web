@@ -7,7 +7,7 @@ const post: BlogPost = {
   excerpt:
     "A £10,000 marketing budget can create traction—or burn runway. These five questions decide which, and how to turn spend into a learning system instead of a hope ritual.",
   date: "July 27, 2026",
-  category: "Go-to-Market",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-02-budget.png",
   metaDescription:
     "Five questions to answer before spending £10,000 on startup marketing—so budget goes to conversion and clarity, not wasted traffic and vague brand awareness.",

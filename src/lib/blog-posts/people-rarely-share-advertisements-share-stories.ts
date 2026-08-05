@@ -6,7 +6,7 @@ const post: BlogPost = {
     "People rarely share advertisements. They share stories they happened to be part of.",
   excerpt: "How to design campaigns people want to talk about.",
   date: "August 6, 2026",
-  category: "Go-to-Market",
+  category: "Content creation with your team",
   image: "/images/blog/blog-37-share-stories.png",
   metaDescription:
     "People share stories they were part of—not ads. Design participation, word-of-mouth moments, and campaigns worth retelling without sounding like advertising.",

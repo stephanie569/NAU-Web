@@ -10,30 +10,41 @@ export default function StudioPage() {
     <>
       <PageHero
         title="About"
-        subtitle="Every project I take on is designed for long-term success. I partner closely with clients to make sure the work meets your goals and exceeds expectations."
+        subtitle="I help founders turn good products into stories people want to be part of—from market research and positioning to launch strategy and content creation."
       />
 
       <section className="border-b border-border py-20 md:py-28">
         <div className="mx-auto max-w-7xl px-6 md:px-10">
           <div className="grid gap-16 md:grid-cols-2">
             <FadeIn>
-              <SectionLabel>Approach</SectionLabel>
+              <SectionLabel>Process</SectionLabel>
               <h2 className="text-[clamp(1.75rem,3vw,2.5rem)] font-semibold tracking-tight">
-                Simple: clarity, purpose, and focus from collaboration.
+                Four stages: immerse, define, create, refine.
               </h2>
             </FadeIn>
             <FadeIn delay={0.1}>
-              <p className="text-muted leading-relaxed">
-                From product strategy to launches and go-to-market, I offer
-                focused support to strengthen your project. I&apos;ll shape a
-                solution that fits your business—not a one-size-fits-all
-                process.
-              </p>
-              <p className="mt-4 text-muted leading-relaxed">
-                I prioritize clarity without sacrificing craft. Whether you need
-                positioning, a launch narrative, or distribution that
-                compounds—every detail should serve your goals.
-              </p>
+              <div className="space-y-6 text-muted leading-relaxed">
+                <p>
+                  <span className="font-medium text-foreground">1. Immerse.</span>{" "}
+                  I learn how the product works, why it exists, who built it and
+                  what the company is trying to achieve.
+                </p>
+                <p>
+                  <span className="font-medium text-foreground">2. Define.</span>{" "}
+                  I research the market, clarify the audience, strengthen the
+                  positioning and identify the messages worth testing.
+                </p>
+                <p>
+                  <span className="font-medium text-foreground">3. Create.</span>{" "}
+                  I develop the campaign and produce the content alongside the
+                  founders, team, customers or community.
+                </p>
+                <p>
+                  <span className="font-medium text-foreground">4. Refine.</span>{" "}
+                  We review what performs, what resonates and what should be
+                  improved before the next iteration.
+                </p>
+              </div>
             </FadeIn>
           </div>
         </div>
@@ -69,7 +80,7 @@ export default function StudioPage() {
                 href="/contact"
                 className="mt-8 inline-block text-sm font-medium underline underline-offset-4 hover:opacity-70"
               >
-                Start a project
+                Work with me
               </Link>
             </FadeIn>
           </div>

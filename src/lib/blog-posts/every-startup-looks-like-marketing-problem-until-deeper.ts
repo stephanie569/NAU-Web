@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Surface symptoms point to marketing. Digging deeper usually reveals positioning gaps, weak activation, or a product story that never landed—here is the diagnostic order I use.",
   date: "July 15, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-12-dig-deeper.png",
   metaDescription:
     "Why startup growth issues look like marketing problems—and a practical diagnostic for clarity, activation, retention, and distribution before you spend more on channels.",

@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "Organic growth isn't free. It's earned.",
   excerpt: "The difference matters more than most founders realise.",
   date: "August 12, 2026",
-  category: "Go-to-Market",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-46-organic-earned.png",
   metaDescription:
     "Organic growth isn't free—it's earned through systems, reputation, and patience. Why paid shortcuts fail when attention must be built, not simply rented.",

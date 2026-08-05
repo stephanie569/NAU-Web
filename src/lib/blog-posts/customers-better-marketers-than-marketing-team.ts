@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "Your customers are better marketers than your marketing team",
   excerpt: "If you build something worth talking about.",
   date: "August 9, 2026",
-  category: "Go-to-Market",
+  category: "Content creation with your team",
   image: "/images/blog/blog-49-customer-marketers.png",
   metaDescription:
     "Your customers are better marketers than your team—if you build something worth talking about. Word-of-mouth design, referral loops, and customer stories.",

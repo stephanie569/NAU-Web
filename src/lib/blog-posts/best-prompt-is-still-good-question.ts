@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "The best prompt is still a good question",
   excerpt: "Why curiosity will outlast prompt engineering.",
   date: "August 14, 2026",
-  category: "Product Strategy",
+  category: "Content creation with your team",
   image: "/images/blog/blog-54-good-question.png",
   metaDescription:
     "Prompt engineering tricks fade. Curiosity and good questions remain the durable skill for research, strategy, and useful AI-assisted work.",

@@ -7,7 +7,7 @@ const post: BlogPost = {
   excerpt:
     "When a startup outgrows competitors, people credit ads or virality. Dig into the product system and you often find a clearer offer, faster time-to-value, and a narrative that matches sales reality.",
   date: "June 29, 2026",
-  category: "Product Strategy",
+  category: "Product research and positioning",
   image: "/images/blog/blog-26-growing-faster.png",
   metaDescription:
     "Product breakdown of why some startups grow faster: clearer offers, faster activation, stronger proof, tighter narratives—and how to audit your own system.",

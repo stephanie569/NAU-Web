@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "A rapid-audit format: the conversion issues that usually appear in the first five minutes—and a prioritised fix order so you do not redesign everything while the headline still says nothing.",
   date: "June 30, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-25-five-minutes.png",
   metaDescription:
     "Five-minute website audit checklist for startups: messaging, CTA design, proof, navigation, and mobile UX issues that predict weak conversion.",

@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "Don't let AI become your personality",
   excerpt: "Automation is useful. Authenticity is harder to automate.",
   date: "August 15, 2026",
-  category: "Go-to-Market",
+  category: "Content creation with your team",
   image: "/images/blog/blog-53-ai-personality.png",
   metaDescription:
     "How to use AI for content and marketing without diluting your brand voice—practical rules for authenticity when automation makes average fluency easy.",

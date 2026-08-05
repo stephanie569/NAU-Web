@@ -20,8 +20,8 @@ export default function PrivacyPage() {
               <span className="font-medium text-foreground">nau</span> (“I”,
               “me”, or “nau”), handles personal information when you visit{" "}
               thetimeisnau.com, browse the Journal, request stickers, or contact
-              me about product strategy, product launches, go-to-market, or
-              related studio work.
+              me about product research and positioning, go-to-market strategy,
+              content creation with your team, or related studio work.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
@@ -44,10 +44,12 @@ export default function PrivacyPage() {
               What this site is for
             </h2>
             <p>
-              nau is a personal studio portfolio. The site presents selected
-              work, Journal essays on product and brand strategy, a stickers
-              campaign, and ways to start a conversation about projects. It is
-              not a consumer marketplace and it does not require user accounts.
+              nau is a personal portfolio and product marketing practice. The
+              site presents selected work, Journal essays on product marketing
+              and positioning, a stickers campaign, and ways to start a
+              conversation about research, launches and content made with your
+              team. It is not a consumer marketplace and it does not require
+              user accounts.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">

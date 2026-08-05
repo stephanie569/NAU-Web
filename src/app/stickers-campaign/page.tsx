@@ -11,14 +11,14 @@ export default function StickersCampaignPage() {
         <div className="mx-auto max-w-3xl px-6 md:px-10">
           <div className="space-y-6 text-muted leading-relaxed">
             <p>
-              The nau stickers campaign is a playful way to share what I stand
-              for: nature, adventure, and conservation—out in the world, not just
-              on a screen.
+              The nau stickers campaign is a small outdoor marketing moment—
+              founder-led, physical and easy to share. It is part of how I think
+              about organic and experiential marketing: stories that travel
+              beyond a screen.
             </p>
             <p>
-              Stickers are free to friends, partners, and anyone building
-              products that connect people with the outdoors. Reach out if you
-              would like a pack.
+              Stickers are free to friends, partners, and founders building
+              products worth talking about. Reach out if you would like a pack.
             </p>
             <p>
               <a

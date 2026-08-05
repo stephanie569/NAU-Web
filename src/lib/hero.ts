@@ -1,12 +1,12 @@
 export const heroServices = [
-  "Product Strategy",
-  "Product Launches",
-  "Go-to-Market",
+  "Product research & positioning",
+  "Go-to-market strategy",
+  "Content with your team",
 ];
 
 export const heroTeamLead = {
   name: "Stefani Dimitrova",
-  role: "Designer & strategist",
+  role: "Product strategist & creative partner",
   company: "nau",
   image: "/images/founder-stefani-office.png",
 };

@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Visitors decide faster than founders expect. In the first ten seconds, unclear heroes, weak proof, and competing CTAs silently end the relationship—here is how to rebuild the first viewport as a decision environment.",
   date: "July 26, 2026",
-  category: "Product Launches",
+  category: "Go-to-market and campaign strategy",
   image: "/images/blog/blog-03-ten-seconds.png",
   metaDescription:
     "Why startup websites lose visitors in the first 10 seconds—and how to fix hero clarity, proof placement, CTA focus, and mobile comprehension for higher conversion.",
