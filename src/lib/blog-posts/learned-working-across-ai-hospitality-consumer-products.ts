@@ -3,14 +3,14 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "learned-working-across-ai-hospitality-consumer-products",
   title:
-    "What I learned working across AI, hospitality and consumer products.",
+    "What outdoor, travel and consumer brands taught me the hard way",
   excerpt:
-    "Cross-industry product work taught me that categories change vocabulary—not human decision-making. Clarity, trust, and time-to-value still decide conversion.",
+    "Cross-category lessons that transfer when you build physical products—and what doesn't.",
   date: "July 10, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-16-ai-hospitality.png",
   metaDescription:
-    "Lessons from building across AI, hospitality, and consumer products—universal principles of clarity, trust, time-to-value, and industry-specific adaptation.",
+    "What working across consumer product categories taught me about positioning, launches and storytelling that transfers.",
   content: [
     {
       type: "p",

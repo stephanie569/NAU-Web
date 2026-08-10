@@ -2,14 +2,14 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "what-i-would-change-if-you-gave-me-your-startup-30-days",
-  title: "What I would change if you gave me your startup for 30 days",
+  title: "Give me your product brand for 30 days. Here's what changes.",
   excerpt:
-    "A practical 30-day plan for early-stage startups: diagnose belief breaks, rebuild the offer, fix the conversion surface, and install a learning system—without rebrand theatre.",
+    "A four-week reset for brands launching gear, travel goods or consumer tech with a muddy story.",
   date: "July 12, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-33-30-days.png",
   metaDescription:
-    "A 30-day startup turnaround plan covering positioning, website conversion, product narrative, and proof systems—for founders who need clarity fast.",
+    "A 30-day plan to clarify positioning, go-to-market and product storytelling for premium consumer product brands.",
   content: [
     {
       type: "p",

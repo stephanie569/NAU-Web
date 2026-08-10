@@ -2,10 +2,10 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "growth-strategies-ignore-what-people-remember",
-  title: "Most growth strategies ignore the one thing people actually remember",
+  title: "Growth hacks forget the one thing people actually remember",
   excerpt: "Emotion, not optimisation.",
   date: "August 8, 2026",
-  category: "Content creation with your team",
+  category: "Team Content",
   image: "/images/blog/blog-50-emotion-memory.png",
   metaDescription:
     "Most growth strategies ignore what people actually remember: emotion, not optimisation. Memorable moments, feeling as retention, and marketing that sticks.",

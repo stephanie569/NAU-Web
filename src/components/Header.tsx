@@ -8,9 +8,9 @@ import { projectCount } from "@/lib/hero";
 
 const navLinks = [
   { href: "/studio", label: "Studio" },
-  { href: "/projects", label: "Work", count: projectCount },
-  { href: "/blog", label: "Journal" },
-  { href: "/stickers-campaign", label: "Stickers campaign" },
+  { href: "/projects", label: "Projects", count: projectCount },
+  { href: "/products", label: "Products" },
+  { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -42,7 +42,7 @@ export function Header() {
           href="/"
           className="shrink-0 text-[15px] font-bold tracking-[-0.04em] text-[#0a0a0a]"
         >
-          nau
+          nau studio
         </Link>
 
         {navLinks.map((link) => (
@@ -64,11 +64,18 @@ export function Header() {
           </Link>
         ))}
 
+        <Link
+          href="/contact"
+          className="hidden shrink-0 text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a] transition-opacity hover:opacity-70 md:block"
+        >
+          Work with me
+        </Link>
+
         <button
           type="button"
           aria-label="Toggle menu"
           aria-expanded={menuOpen}
-          className="ml-auto flex shrink-0 items-center justify-center md:ml-0"
+          className="ml-auto flex shrink-0 items-center justify-center md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <MenuIcon open={menuOpen} />
@@ -106,6 +113,13 @@ export function Header() {
                   ) : null}
                 </Link>
               ))}
+              <Link
+                href="/contact"
+                onClick={() => setMenuOpen(false)}
+                className="border-t border-[#0a0a0a]/10 py-4 text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a]"
+              >
+                Work with me
+              </Link>
             </div>
           </motion.nav>
         )}

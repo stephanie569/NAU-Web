@@ -13,18 +13,22 @@ const SORT_OPTIONS: { value: SortOption; label: string }[] = [
   { value: "a-z", label: "A–Z" },
 ];
 
+const TOPIC_FILTERS = [
+  "All",
+  "Research & Positioning",
+  "Go-to-Market",
+  "Team Content",
+] as const;
+
 function parsePostDate(date: string) {
   const parsed = Date.parse(date);
   return Number.isNaN(parsed) ? 0 : parsed;
 }
 
 export function JournalListing({ posts }: { posts: BlogPost[] }) {
-  const categories = useMemo(() => {
-    const unique = Array.from(new Set(posts.map((post) => post.category)));
-    return ["All", ...unique.sort((a, b) => a.localeCompare(b))];
-  }, [posts]);
+  const categories = TOPIC_FILTERS;
 
-  const [category, setCategory] = useState("All");
+  const [category, setCategory] = useState<string>("All");
   const [sort, setSort] = useState<SortOption>("newest");
   const [query, setQuery] = useState("");
 
@@ -55,7 +59,7 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
     <div>
       <div className="mb-10 flex flex-col gap-6 border-b border-border pb-8">
         <label className="block w-full max-w-xl">
-          <span className="sr-only">Search journal</span>
+          <span className="sr-only">Search blog</span>
           <input
             type="search"
             value={query}

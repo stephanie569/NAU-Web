@@ -3,11 +3,11 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "product-strategy-framework-before-designing-screen",
   title:
-    "The product strategy framework I use before designing a single screen.",
+    "My pre-Figma checklist before I design a single screen",
   excerpt:
     "Before Figma, before wireframes, before pixels: a five-box strategy framework that keeps product design attached to real customer decisions—and stops beautiful interfaces for the wrong problem.",
   date: "July 25, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-04-framework.png",
   metaDescription:
     "A practical product strategy framework to use before UI design—covering ICP, jobs-to-be-done, alternatives, outcomes, belief gaps, and conversion paths.",

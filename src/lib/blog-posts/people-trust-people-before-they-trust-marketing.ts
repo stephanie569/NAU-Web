@@ -2,10 +2,10 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "people-trust-people-before-they-trust-marketing",
-  title: "People trust people long before they trust marketing",
+  title: "People trust people. Marketing comes later.",
   excerpt: "Why communities outperform audiences in the long run.",
   date: "August 11, 2026",
-  category: "Content creation with your team",
+  category: "Team Content",
   image: "/images/blog/blog-47-trust-people.png",
   metaDescription:
     "People trust people long before marketing. Why communities beat audiences, how peer proof works, and how founder-led credibility compounds over time.",

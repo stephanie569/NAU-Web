@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "competitive-advantage-was-never-typing-faster",
-  title: "Your competitive advantage was never typing faster",
+  title: "Typing faster was never your edge. Taste is.",
   excerpt:
     "Why thinking is becoming more valuable as writing becomes easier.",
   date: "August 16, 2026",
-  category: "Content creation with your team",
+  category: "Go-to-Market",
   image: "/images/blog/blog-52-thinking-advantage.png",
   metaDescription:
     "As AI makes writing cheaper, competitive advantage shifts further toward thinking, judgement, and strategy—not typing speed or output volume.",

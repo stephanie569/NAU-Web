@@ -2,10 +2,10 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "dont-let-ai-become-your-personality",
-  title: "Don't let AI become your personality",
+  title: "Don't outsource your personality to ChatGPT",
   excerpt: "Automation is useful. Authenticity is harder to automate.",
   date: "August 15, 2026",
-  category: "Content creation with your team",
+  category: "Go-to-Market",
   image: "/images/blog/blog-53-ai-personality.png",
   metaDescription:
     "How to use AI for content and marketing without diluting your brand voice—practical rules for authenticity when automation makes average fluency easy.",

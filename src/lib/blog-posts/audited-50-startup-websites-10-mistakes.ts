@@ -3,14 +3,14 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "audited-50-startup-websites-10-mistakes",
   title:
-    "I audited 50 startup websites. Here are the 10 mistakes I saw over and over again.",
+    "I audited 50 product brand sites. Same 10 fails, every time.",
   excerpt:
-    "Fifty early-stage sites, different niches, same conversion habits: vague headlines, weak proof, cluttered heroes, and pages that ask for interest without earning it. The mistakes—and the fixes.",
+    "Fifty brand sites across outdoor, travel and consumer goods—same conversion habits: vague headlines, weak proof, cluttered heroes.",
   date: "July 18, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-32-50-websites.png",
   metaDescription:
-    "A practical look at 50 startup websites and the 10 conversion mistakes that kept appearing—plus fixes for messaging, UX, trust, speed, and SEO structure.",
+    "Ten recurring mistakes on product brand websites—and how to fix hero clarity, proof and conversion paths before you spend on traffic.",
   content: [
     {
       type: "p",

@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "your-city-most-underrated-marketing-channel",
-  title: "Your city is probably your most underrated marketing channel",
+  title: "Your city is an underrated growth channel. Use it.",
   excerpt:
     "What founders overlook when every strategy starts with social media.",
   date: "August 5, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Team Content",
   image: "/images/blog/blog-38-city-channel.png",
   metaDescription:
     "Your city is an underrated marketing channel—local presence, neighbourhood distribution, and why a geo strategy beats another generic social-first plan.",

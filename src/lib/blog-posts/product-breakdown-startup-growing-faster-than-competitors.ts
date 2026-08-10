@@ -3,14 +3,14 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "product-breakdown-startup-growing-faster-than-competitors",
   title:
-    "Product breakdown: why this startup is growing faster than its competitors.",
+    "Why this product brand is growing faster (and it's not the ads)",
   excerpt:
-    "When a startup outgrows competitors, people credit ads or virality. Dig into the product system and you often find a clearer offer, faster time-to-value, and a narrative that matches sales reality.",
+    "A breakdown of clarity, proof and launch discipline that outruns louder competitors.",
   date: "June 29, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-26-growing-faster.png",
   metaDescription:
-    "Product breakdown of why some startups grow faster: clearer offers, faster activation, stronger proof, tighter narratives—and how to audit your own system.",
+    "Product breakdown: why some consumer brands grow faster—positioning, first win and proof over ad spend alone.",
   content: [
     {
       type: "p",

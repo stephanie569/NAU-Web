@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Preloader } from "@/components/Preloader";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import { siteConfig } from "@/lib/data";
 
 const inter = Inter({
@@ -13,9 +14,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} ${siteConfig.tagline} – Product Marketing, Positioning & Content`,
+  title: `${siteConfig.name} ${siteConfig.tagline} by ${siteConfig.founder}`,
   description: siteConfig.description,
 };
+
+const themeInitScript = `(function(){try{var t=localStorage.getItem('nau-theme');if(t==='dark'){document.documentElement.classList.add('dark');document.documentElement.style.colorScheme='dark';}}catch(e){}})();`;
 
 export default function RootLayout({
   children,
@@ -23,12 +26,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
+      </head>
       <body className={`${inter.variable} antialiased`}>
-        <Preloader />
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <ThemeProvider>
+          <Preloader />
+          <Header />
+          <main>{children}</main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

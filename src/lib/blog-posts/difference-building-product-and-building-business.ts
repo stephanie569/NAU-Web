@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "difference-building-product-and-building-business",
-  title: "The difference between building a product and building a business.",
+  title: "Building a product ≠ building a business. Here's the gap.",
   excerpt:
     "Products ship features. Businesses create repeatable value exchange. How positioning, pricing, retention, and operational clarity turn screens into a company.",
   date: "July 5, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-20-product-business.png",
   metaDescription:
     "The difference between building a product and building a business—strategy, pricing, retention, and distribution that turn features into a company.",

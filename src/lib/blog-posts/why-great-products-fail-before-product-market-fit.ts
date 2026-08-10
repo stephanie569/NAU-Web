@@ -3,11 +3,11 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "why-great-products-fail-before-product-market-fit",
   title:
-    "Why great products fail before they ever reach product–market fit",
+    "Great products still fail before PMF. Here's why.",
   excerpt:
     "Strong products still fail before product–market fit when the market cannot explain the value. The early warning signs, a practical proof checklist, and what to do before you scale.",
   date: "July 22, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-31-great-products-fail.png",
   metaDescription:
     "Why strong products still fail before product–market fit, the early warning signs founders miss, and a practical way to prove demand before you scale.",

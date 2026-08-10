@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "three-product-decisions-cost-companies-millions",
-  title: "Three product decisions that quietly cost companies millions.",
+  title: "3 quiet product decisions that burn millions",
   excerpt:
     "Broad ICPs, feature theatre, and scaling before activation rarely look dramatic in the moment. Over years they destroy conversion, retention, and clarity—quietly, and at scale.",
   date: "June 25, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-29-cost-millions.png",
   metaDescription:
     "Three product decisions that quietly cost companies millions: serving everyone, shipping features instead of strategy, and scaling acquisition before activation is solved.",

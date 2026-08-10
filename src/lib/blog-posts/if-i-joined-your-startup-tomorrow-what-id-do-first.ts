@@ -2,14 +2,14 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "if-i-joined-your-startup-tomorrow-what-id-do-first",
-  title: "If I joined your startup tomorrow, this is what I'd do first.",
+  title: "If I joined your product brand tomorrow, day one looks like this",
   excerpt:
-    "Day-one priorities for a product strategist joining an early-stage startup: diagnose belief gaps, clarify the offer, and fix the highest-leverage conversion surface before campaigns.",
+    "First moves for a brand that makes things: diagnose the product story, then decide what to launch next.",
   date: "July 17, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-10-joined.png",
   metaDescription:
-    "What a product strategist would do first when joining a startup—48-hour diagnosis, offer rewrite, ICP lock, and conversion-path fixes before any new campaigns.",
+    "What I'd do first if I joined a product brand tomorrow—research, positioning and launch clarity before more content.",
   content: [
     {
       type: "p",

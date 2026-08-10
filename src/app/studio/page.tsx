@@ -10,7 +10,7 @@ export default function StudioPage() {
     <>
       <PageHero
         title="About"
-        subtitle="I help founders turn good products into stories people want to be part of—from market research and positioning to launch strategy and content creation."
+        subtitle="Organic go-to-market and content that matters for product brands growing steadily. The full 360 from research to storytelling is what sets me apart from creators."
       />
 
       <section className="border-b border-border py-20 md:py-28">
@@ -19,30 +19,31 @@ export default function StudioPage() {
             <FadeIn>
               <SectionLabel>Process</SectionLabel>
               <h2 className="text-[clamp(1.75rem,3vw,2.5rem)] font-semibold tracking-tight">
-                Four stages: immerse, define, create, refine.
+                One cycle: immerse, define, create, refine.
               </h2>
             </FadeIn>
             <FadeIn delay={0.1}>
               <div className="space-y-6 text-muted leading-relaxed">
                 <p>
                   <span className="font-medium text-foreground">1. Immerse.</span>{" "}
-                  I learn how the product works, why it exists, who built it and
-                  what the company is trying to achieve.
+                  How the product works, why it exists, and what steady growth
+                  actually means for the brand.
                 </p>
                 <p>
                   <span className="font-medium text-foreground">2. Define.</span>{" "}
-                  I research the market, clarify the audience, strengthen the
-                  positioning and identify the messages worth testing.
+                  Market research, audience, positioning and the messages worth
+                  testing before anyone films a post.
                 </p>
                 <p>
                   <span className="font-medium text-foreground">3. Create.</span>{" "}
-                  I develop the campaign and produce the content alongside the
-                  founders, team, customers or community.
+                  Organic go-to-market and founder-led or product-led content
+                  that matters, built with the brand team.
                 </p>
                 <p>
                   <span className="font-medium text-foreground">4. Refine.</span>{" "}
-                  We review what performs, what resonates and what should be
-                  improved before the next iteration.
+                  What compounds, what resonates, what to improve next. The
+                  cycle stays connected. That is the difference from hiring a
+                  creator alone.
                 </p>
               </div>
             </FadeIn>
@@ -66,7 +67,7 @@ export default function StudioPage() {
                   src={me.image}
                   alt={me.name}
                   fill
-                  className="object-cover grayscale"
+                  className="object-cover"
                   sizes="(max-width: 768px) 100vw, 320px"
                 />
               </div>

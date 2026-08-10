@@ -100,4 +100,34 @@ export const blogLinks = {
   goodQuestion: "/blog/best-prompt-is-still-good-question",
   repetitionJudgement:
     "/blog/ai-should-handle-repetition-you-keep-judgement",
+  solveProblemBeforeSolution:
+    "/blog/best-products-solve-problem-before-sell-solution",
+  launchesDontFailMarketing:
+    "/blog/most-product-launches-dont-fail-because-of-marketing",
+  firstCustomerTeacher:
+    "/blog/first-customer-isnt-your-market-theyre-your-teacher",
+  fiveFeatureQuestions:
+    "/blog/before-build-another-feature-ask-five-questions",
+  pmfMovingTarget:
+    "/blog/product-market-fit-isnt-milestone-moving-target",
+  betterTomorrow:
+    "/blog/people-dont-buy-products-buy-better-tomorrow",
+  launchBeforeDay:
+    "/blog/launch-campaign-starts-long-before-launch-day",
+  marketingIsProductProblem:
+    "/blog/most-marketing-problems-are-product-problems",
+  earnAttention:
+    "/blog/difference-getting-attention-and-earning-it",
+  storyBeforeLogo:
+    "/blog/every-product-deserves-story-before-logo",
+  dontAskShare:
+    "/blog/best-marketing-doesnt-ask-people-to-share",
+  internetNeedsRealWorld:
+    "/blog/internet-still-needs-the-real-world",
+  conversationNotCamera:
+    "/blog/next-campaign-begin-conversation-not-camera",
+  footprintsBeforeImpressions:
+    "/blog/good-marketing-leaves-footprints-before-impressions",
+  rememberHowFelt:
+    "/blog/people-remember-how-brand-made-them-feel",
 } as const;

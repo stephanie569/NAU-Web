@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "next-marketing-campaign-should-start-with-walk",
-  title: "Why your next marketing campaign should start with a walk",
+  title: "Your next campaign should start with a walk outside",
   excerpt:
     "Observing people is often more useful than another analytics dashboard.",
   date: "July 30, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Team Content",
   image: "/images/blog/blog-44-start-with-walk.png",
   metaDescription:
     "Why your next marketing campaign should start with a walk—field observation, real behaviour, and why watching people beats another analytics dashboard.",

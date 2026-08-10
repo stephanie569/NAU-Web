@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "how-id-improve-apple-onboarding-experience",
-  title: "How I'd improve Apple's onboarding experience.",
+  title: "If I redesigned Apple's onboarding tomorrow",
   excerpt:
     "Apple sets the bar—and still leaves onboarding opportunities. A product lens on first-run clarity, setup anxiety, progressive disclosure, and time-to-delight that startups can apply at smaller scale.",
   date: "July 1, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-24-apple-onboarding.png",
   metaDescription:
     "How I'd improve Apple-style onboarding: reduce setup anxiety, accelerate time-to-delight, personalise first-run intent, and copy principles startups can use.",

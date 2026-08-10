@@ -2,10 +2,10 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "best-prompt-is-still-good-question",
-  title: "The best prompt is still a good question",
+  title: "Your best prompt is still a better question",
   excerpt: "Why curiosity will outlast prompt engineering.",
   date: "August 14, 2026",
-  category: "Content creation with your team",
+  category: "Go-to-Market",
   image: "/images/blog/blog-54-good-question.png",
   metaDescription:
     "Prompt engineering tricks fade. Curiosity and good questions remain the durable skill for research, strategy, and useful AI-assisted work.",

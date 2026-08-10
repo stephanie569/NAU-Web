@@ -10,6 +10,7 @@ interface YTPlayer {
   destroy: () => void;
   mute: () => void;
   playVideo: () => void;
+  seekTo: (seconds: number, allowSeekAhead: boolean) => void;
   setPlaybackQuality: (quality: string) => void;
 }
 
@@ -35,6 +36,7 @@ declare global {
 
 const QUALITY_SCALE = 2;
 const HD_QUALITIES = ["hd1080", "hd720", "large"];
+const YT_ENDED = 0;
 const YT_PLAYING = 1;
 const YT_PAUSED = 2;
 const REVEAL_DELAY_MS = 500;
@@ -125,16 +127,17 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
         playerVars: {
           autoplay: 1,
           mute: 1,
-          loop: 1,
-          playlist: videoId,
           controls: 0,
-          rel: 0,
-          modestbranding: 1,
-          playsinline: 1,
           disablekb: 1,
           fs: 0,
           iv_load_policy: 3,
           cc_load_policy: 0,
+          loop: 1,
+          playlist: videoId,
+          modestbranding: 1,
+          playsinline: 1,
+          rel: 0,
+          showinfo: 0,
           enablejsapi: 1,
           origin: window.location.origin,
           vq: "hd1080",
@@ -148,23 +151,29 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
                 clearTimers();
                 return;
               }
-              target.playVideo();
+              ensurePlayback(target);
             }, 250);
           },
           onStateChange: ({ data, target }) => {
-            if (hasStartedRef.current) {
-              if (data === YT_PLAYING) requestHdQuality(target);
+            if (data === YT_ENDED) {
+              target.seekTo(0, true);
+              ensurePlayback(target);
               return;
             }
 
             if (data === YT_PAUSED) {
-              target.playVideo();
+              ensurePlayback(target);
               return;
             }
 
             if (data === YT_PLAYING) {
               requestHdQuality(target);
-              revealTimeoutRef.current = setTimeout(revealPlayer, REVEAL_DELAY_MS);
+              if (!hasStartedRef.current) {
+                revealTimeoutRef.current = setTimeout(
+                  revealPlayer,
+                  REVEAL_DELAY_MS
+                );
+              }
             }
           },
         },
@@ -189,8 +198,15 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
         <div className="absolute inset-0 z-20 bg-[#0a0a0a]" aria-hidden />
       )}
 
+      {/* Blocks hover/focus so YouTube play/seek controls never appear */}
       <div
-        className={`pointer-events-none absolute top-1/2 left-1/2 ${
+        className="absolute inset-0 z-10"
+        aria-hidden
+        style={{ background: "transparent" }}
+      />
+
+      <div
+        className={`pointer-events-none absolute top-1/2 left-1/2 z-0 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
         style={{
@@ -204,7 +220,11 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
             : "translate(-200vw, -50%) scale(0.001)",
         }}
       >
-        <div id={playerId} ref={mountRef} className="h-full w-full" />
+        <div
+          id={playerId}
+          ref={mountRef}
+          className="pointer-events-none h-full w-full [&_iframe]:pointer-events-none"
+        />
       </div>
     </div>
   );

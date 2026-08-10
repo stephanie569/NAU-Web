@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "how-i-decide-whether-product-worth-building",
-  title: "How I decide whether a product is worth building.",
+  title: "How I decide if a product is even worth building",
   excerpt:
     "A practical build filter for greenlighting product work: urgency, willingness to pay, differentiation, time-to-first-outcome, and kill criteria—so curiosity does not become a roadmap.",
   date: "July 13, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-14-worth-building.png",
   metaDescription:
     "How to decide if a product is worth building using urgency, willingness to pay, differentiation, time-to-value, and evidence that would kill the idea early.",

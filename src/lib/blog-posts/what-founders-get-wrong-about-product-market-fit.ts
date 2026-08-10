@@ -2,14 +2,14 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "what-founders-get-wrong-about-product-market-fit",
-  title: "What founders get wrong about product–market fit.",
+  title: "What product brands get wrong about PMF (every single time)",
   excerpt:
-    "Product–market fit is not a vibe, a launch, or a funding milestone. Founders misfire when they treat it as a finish line instead of repeated evidence of retention, demand, and willingness to pay.",
+    "Product-market fit isn't a slide. It's whether real customers keep choosing the thing you make.",
   date: "July 21, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-07-pmf-wrong.png",
   metaDescription:
-    "Common founder misconceptions about product–market fit—and a clearer way to measure retention, activation, demand, and willingness to pay without vanity metrics.",
+    "What product brands get wrong about product-market fit—and how to treat it as a moving target, not a milestone.",
   content: [
     {
       type: "p",

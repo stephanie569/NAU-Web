@@ -3,11 +3,11 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "product-doesnt-have-marketing-problem-clarity-problem",
   title:
-    "Your product doesn't have a marketing problem. It has a clarity problem.",
+    "You don't have a marketing problem. You have a clarity problem.",
   excerpt:
     "When growth stalls, founders buy ads. More often, customers still cannot explain what you do—or why it matters—in one clear sentence. Here is how to diagnose and fix the clarity stack before you spend.",
   date: "July 28, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-01-clarity.png",
   metaDescription:
     "Why stalled startup growth is usually a clarity problem, not a marketing problem—and how to fix positioning, messaging, and product narrative before you spend more on acquisition.",

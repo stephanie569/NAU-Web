@@ -2,10 +2,10 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "good-street-campaign-doesnt-end-on-street",
-  title: "A good street campaign doesn't end on the street",
+  title: "The street campaign isn't over when people walk past",
   excerpt: "Designing marketing that naturally moves from pavement to phone.",
   date: "August 3, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Team Content",
   image: "/images/blog/blog-40-street-to-phone.png",
   metaDescription:
     "A good street campaign doesn’t end on the street—design the offline-to-online bridge, capture paths, and follow-up systems that convert pavement into pipeline.",

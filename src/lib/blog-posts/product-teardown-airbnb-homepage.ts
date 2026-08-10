@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "product-teardown-airbnb-homepage",
-  title: "Product teardown: what I'd change about Airbnb's homepage.",
+  title: "Airbnb's homepage: what I'd change (and why)",
   excerpt:
     "A respectful strategic teardown of Airbnb’s homepage: what works for job clarity and trust, what I’d tighten for cold visitors, and principles startups can reuse.",
   date: "July 4, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-21-airbnb.png",
   metaDescription:
     "Product teardown of Airbnb’s homepage—clarity, trust, and conversion lessons startups can apply without copying marketplace complexity.",

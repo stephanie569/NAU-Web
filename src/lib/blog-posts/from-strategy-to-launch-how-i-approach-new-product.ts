@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "from-strategy-to-launch-how-i-approach-new-product",
-  title: "From strategy to launch: how I approach every new product.",
+  title: "My playbook from blank page to launch (no fluff)",
   excerpt:
     "A practical end-to-end method for taking a product from strategy to launch: clarify the offer, design the decision path, ship focused first value, then learn with discipline.",
   date: "July 11, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-15-strategy-launch.png",
   metaDescription:
     "How I take products from strategy to launch—ICP, narrative, experience design, proof, measurement, and learning loops founders can reuse.",

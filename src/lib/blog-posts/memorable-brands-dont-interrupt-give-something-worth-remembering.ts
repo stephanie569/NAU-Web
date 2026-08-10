@@ -3,11 +3,11 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "memorable-brands-dont-interrupt-give-something-worth-remembering",
   title:
-    "The most memorable brands don't interrupt people. They give them something worth remembering.",
+    "Stop interrupting people. Give them something worth keeping.",
   excerpt:
     "Why interruption marketing fades—and how to design moments people keep without being asked.",
   date: "July 29, 2026",
-  category: "Content creation with your team",
+  category: "Team Content",
   image: "/images/blog/blog-45-memorable-brands.png",
   metaDescription:
     "The most memorable brands don't interrupt—they give something worth remembering. Why interruption fades and how to design value-first brand moments that last.",

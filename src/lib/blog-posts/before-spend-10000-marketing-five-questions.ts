@@ -3,11 +3,11 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "before-spend-10000-marketing-five-questions",
   title:
-    "Before you spend £10,000 on marketing, answer these five questions.",
+    "About to drop £10k on marketing? Answer these first.",
   excerpt:
     "A £10,000 marketing budget can create traction—or burn runway. These five questions decide which, and how to turn spend into a learning system instead of a hope ritual.",
   date: "July 27, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-02-budget.png",
   metaDescription:
     "Five questions to answer before spending £10,000 on startup marketing—so budget goes to conversion and clarity, not wasted traffic and vague brand awareness.",

@@ -3,10 +3,10 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "people-rarely-share-advertisements-share-stories",
   title:
-    "People rarely share advertisements. They share stories they happened to be part of.",
+    "Nobody shares ads. They share stories they were part of.",
   excerpt: "How to design campaigns people want to talk about.",
   date: "August 6, 2026",
-  category: "Content creation with your team",
+  category: "Team Content",
   image: "/images/blog/blog-37-share-stories.png",
   metaDescription:
     "People share stories they were part of—not ads. Design participation, word-of-mouth moments, and campaigns worth retelling without sounding like advertising.",

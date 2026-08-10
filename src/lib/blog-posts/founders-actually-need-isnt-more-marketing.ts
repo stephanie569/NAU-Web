@@ -2,14 +2,14 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "founders-actually-need-isnt-more-marketing",
-  title: "What founders actually need isn't more marketing.",
+  title: "Product brands don't need more marketing. They need this.",
   excerpt:
-    "When founders ask for more marketing, they often need sharper strategy, cleaner conversion paths, and a story customers can repeat—coherence before volume.",
+    "When the fix isn't another campaign—it's research, positioning and a story the product can keep.",
   date: "July 7, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-19-not-marketing.png",
   metaDescription:
-    "What founders actually need instead of more marketing: clarity, conversion design, activation, proof, and a decision cadence that earns demand.",
+    "What product brands actually need isn't more marketing—it's clarity, positioning and go-to-market that matches the product.",
   content: [
     {
       type: "p",

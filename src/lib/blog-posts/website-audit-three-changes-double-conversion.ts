@@ -3,11 +3,11 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "website-audit-three-changes-double-conversion",
   title:
-    "Website audit: three changes that could double your conversion rate.",
+    "3 website changes that could double your conversions",
   excerpt:
     "Most conversion lifts do not need a redesign. Sharper first-screen messaging, proof next to claims, and a shorter path to action often unlock the next jump—without touching the brand kit.",
   date: "July 3, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-22-double-conversion.png",
   metaDescription:
     "A practical website audit: three high-leverage changes—message, proof, and path—that can meaningfully lift conversion without a full redesign.",

@@ -4,7 +4,14 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/ui";
 import { RichText } from "@/components/RichText";
-import { blogPosts, getBlogPost, type BlogBlock } from "@/lib/blog";
+import { BlogContinueReading } from "@/components/BlogContinueReading";
+import {
+  blogPosts,
+  getAdjacentPosts,
+  getBlogPost,
+  getRelatedPosts,
+  type BlogBlock,
+} from "@/lib/blog";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -20,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
 
   return {
-    title: `${post.title} | nau Journal`,
+    title: `${post.title} | nau Blog`,
     description: post.metaDescription,
     openGraph: {
       title: post.title,
@@ -223,6 +230,9 @@ export default async function BlogPostPage({ params }: Props) {
 
   if (!post) notFound();
 
+  const { previous, next } = getAdjacentPosts(slug);
+  const related = getRelatedPosts(slug, 3);
+
   return (
     <>
       <article className="border-b border-border pt-32 pb-16 md:pt-40">
@@ -258,12 +268,20 @@ export default async function BlogPostPage({ params }: Props) {
             <BlogContent blocks={post.content} />
           </FadeIn>
 
-          <FadeIn className="mt-16">
+          <FadeIn>
+            <BlogContinueReading
+              previous={previous}
+              next={next}
+              related={related}
+            />
+          </FadeIn>
+
+          <FadeIn className="mt-12">
             <Link
               href="/blog"
               className="text-sm font-medium underline underline-offset-4 hover:opacity-70"
             >
-              ← Back to journal
+              ← Back to blog
             </Link>
           </FadeIn>
         </div>

@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "five-minutes-on-your-website-enough-to-find-issues",
-  title: "Five minutes on your website was enough to find these issues.",
+  title: "I spent 5 minutes on your site. Here's what I found.",
   excerpt:
     "A rapid-audit format: the conversion issues that usually appear in the first five minutes—and a prioritised fix order so you do not redesign everything while the headline still says nothing.",
   date: "June 30, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-25-five-minutes.png",
   metaDescription:
     "Five-minute website audit checklist for startups: messaging, CTA design, proof, navigation, and mobile UX issues that predict weak conversion.",

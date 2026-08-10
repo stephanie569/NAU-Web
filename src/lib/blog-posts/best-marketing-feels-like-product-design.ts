@@ -3,11 +3,11 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "best-marketing-feels-like-product-design",
   title:
-    "The best marketing doesn't feel like marketing—it feels like product design",
+    "If it feels like an ad, you've already lost them",
   excerpt:
     "When marketing sits on top of the product, it underperforms. The brands that win design belief as part of the product experience—message, UX, and proof as one system.",
   date: "July 6, 2026",
-  category: "Content creation with your team",
+  category: "Go-to-Market",
   image: "/images/blog/blog-34-marketing-product.png",
   metaDescription:
     "Why the best marketing feels like product design—and how to align messaging, UX, and strategy so acquisition compounds instead of competing with the product.",

@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "why-beautiful-websites-dont-always-convert",
-  title: "Why beautiful websites don't always convert.",
+  title: "Pretty website. Dead conversions. Why?",
   excerpt:
     "Aesthetics can earn attention. Conversion requires comprehension, trust, and a clear next step—here is how to design for decisions, not decoration.",
   date: "July 19, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-09-beautiful.png",
   metaDescription:
     "Why beautiful startup websites fail to convert, and how clarity, proof, CTA design, speed, and accessibility outperform visual polish alone.",

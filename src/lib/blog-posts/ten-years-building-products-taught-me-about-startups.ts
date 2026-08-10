@@ -2,14 +2,14 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "ten-years-building-products-taught-me-about-startups",
-  title: "What ten years of building products has taught me about startups.",
+  title: "10 years with products. These lessons actually stuck.",
   excerpt:
-    "Lessons from a decade of product work: clarity beats cleverness, systems beat spikes, customers pay for progress—and the best marketing starts as product strategy.",
+    "What building and launching physical products taught me about clarity, systems and stories that sell.",
   date: "July 16, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-11-ten-years.png",
   metaDescription:
-    "Ten years of building products taught these startup lessons—on clarity, systems, customer truth, time-to-value, and why strategy must come before campaigns.",
+    "Lessons from a decade of product work: clarity beats cleverness, systems beat spikes, and the best marketing starts as product strategy.",
   content: [
     {
       type: "p",

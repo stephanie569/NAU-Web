@@ -1,9 +1,11 @@
 import Link from "next/link";
+import type { ReactNode } from "react";
 import {
   footerNavLinks,
   siteConfig,
   socialLinks,
 } from "@/lib/data";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 function NoiseOverlay() {
   return (
@@ -41,7 +43,7 @@ function FooterColumn({
   children,
 }: {
   label: string;
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
   return (
     <div className="min-w-0">
@@ -60,14 +62,17 @@ function NauLogo() {
         nau
       </p>
       <p className="mt-1 text-[clamp(1.75rem,5vw,3.25rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white">
-        Studio
+        studio
+      </p>
+      <p className="mt-3 text-[15px] font-medium tracking-[-0.04em] text-white/60">
+        by Stefani Dimitrova
       </p>
     </div>
   );
 }
 
 const legalLinks = [
-  { href: "/stickers-campaign", label: "Stickers campaign" },
+  { href: "/products", label: "Products" },
   { href: "/legal/privacy", label: "Privacy Policy" },
   { href: "/legal/terms", label: "Terms of Service" },
 ];
@@ -150,21 +155,24 @@ export function Footer() {
       <div className="relative border-t border-white/10 px-6 py-5 md:px-9">
         <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <p className="text-[13px] font-medium tracking-[-0.04em] text-white/60">
-            © {siteConfig.year} nau Studio. All rights reserved.
+            © {siteConfig.year} nau studio. All rights reserved.
           </p>
 
-          <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
-            {legalLinks.map((link) => (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className="text-[13px] font-medium tracking-[-0.04em] text-white/60 transition-colors hover:text-white"
-                >
-                  {link.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+            <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
+              {legalLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-[13px] font-medium tracking-[-0.04em] text-white/60 transition-colors hover:text-white"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </footer>

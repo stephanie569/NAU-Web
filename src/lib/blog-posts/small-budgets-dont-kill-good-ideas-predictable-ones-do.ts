@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "small-budgets-dont-kill-good-ideas-predictable-ones-do",
-  title: "Small budgets don't kill good ideas. Predictable ones do.",
+  title: "Small budgets don't kill ideas. Predictable ones do.",
   excerpt:
     "Creative marketing frameworks for founders who can't outspend the competition.",
   date: "August 1, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Team Content",
   image: "/images/blog/blog-42-small-budgets.png",
   metaDescription:
     "Small budgets don't kill good ideas—predictable ones do. Creative marketing frameworks for founders who cannot outspend competitors but can out-think them.",

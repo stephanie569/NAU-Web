@@ -14,9 +14,9 @@ export default function HomePage() {
     <>
       <HeroScroll />
       <ClientsSection />
+      <TeamSection />
       <ProjectsSection />
       <ServicesSection />
-      <TeamSection />
       <TestimonialsSection />
       <PricingSection />
       <FAQSection />

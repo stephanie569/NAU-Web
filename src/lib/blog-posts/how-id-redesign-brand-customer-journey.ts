@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "how-id-redesign-brand-customer-journey",
-  title: "How I'd redesign this brand's customer journey.",
+  title: "I'd redesign this brand's whole customer journey. Here's how.",
   excerpt:
     "A journey redesign approach focused on belief stages—awareness, understanding, trust, activation, and expansion—without adding unnecessary touchpoints or channel clutter.",
   date: "June 26, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-28-customer-journey.png",
   metaDescription:
     "How to redesign a brand customer journey around belief stages: awareness, understanding, trust, activation, expansion—and remove friction that blocks growth.",

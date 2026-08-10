@@ -2,14 +2,14 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "questions-i-ask-before-taking-any-client",
-  title: "The questions I ask before taking on any client.",
+  title: "The questions I ask before I take any product brand",
   excerpt:
-    "How I choose collaborations: problem urgency, decision speed, openness to clarity work, and whether there is room to create measurable outcomes—not polite busywork.",
+    "Fit questions for outdoor, travel, marine, tech and lifestyle brands before we start.",
   date: "July 9, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-17-client-questions.png",
   metaDescription:
-    "The questions I ask before taking clients—fit checks for strategy-led product and website work that creates measurable outcomes.",
+    "The questions I ask before working with a product brand—so research, positioning and launches stay honest.",
   content: [
     {
       type: "p",

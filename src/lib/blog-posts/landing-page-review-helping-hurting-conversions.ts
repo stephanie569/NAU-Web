@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "landing-page-review-helping-hurting-conversions",
-  title: "Landing page review: what's helping—and hurting—conversions.",
+  title: "Your landing page: what's helping vs quietly killing conversions",
   excerpt:
     "A balanced landing page review framework: name what builds belief so you do not destroy strengths, then remove the friction that quietly kills conversion.",
   date: "June 27, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-27-landing-review.png",
   metaDescription:
     "Landing page review framework for startups: what helps conversions, what hurts them, how to prioritise fixes, plus exercises and an FAQ.",

@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "how-to-create-marketing-people-photograph",
-  title: "How to create marketing people choose to photograph",
+  title: "Make marketing people actually want to photograph",
   excerpt:
     "The psychology behind campaigns that spread without asking anyone to \"go viral\".",
   date: "August 2, 2026",
-  category: "Content creation with your team",
+  category: "Team Content",
   image: "/images/blog/blog-41-photograph.png",
   metaDescription:
     "How to design campaigns people choose to photograph—photogenic moments, voluntary social proof, and frameworks that spread without begging anyone to go viral.",

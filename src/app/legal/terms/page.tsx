@@ -28,13 +28,10 @@ export default function TermsPage() {
               About nau
             </h2>
             <p>
-              nau is a personal studio focused on product research and
-              positioning, go-to-market and campaign strategy, and content
-              creation with founders and product teams. This website is a
-              portfolio and publishing space. It presents selected projects,
-              Journal essays, campaign pages (such as stickers), and contact
-              options—not an online shop with automated checkout for studio
-              services.
+              nau is a personal studio for Research & Positioning, organic
+              Go-to-Market and Team Content with product brands growing
+              steadily. This site is a portfolio and publishing space, not an
+              online shop for studio services.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
@@ -48,7 +45,7 @@ export default function TermsPage() {
               purposes.
             </p>
             <p>
-              Content is provided for general information. Journal articles share
+              Content is provided for general information. Blog articles share
               strategic perspectives and educational frameworks; they are not
               legal, financial, investment, or tax advice, and they are not a
               substitute for tailored professional counsel on your situation.
@@ -75,7 +72,7 @@ export default function TermsPage() {
             </h2>
             <p>
               Unless otherwise stated, the website’s text, design, graphics,
-              logos, images, layouts, and Journal content are owned by Stefani
+              logos, images, layouts, and Blog content are owned by Stefani
               Dimitrova (nau) or used under licence. You may view and share
               links to public pages for ordinary personal or professional
               reference. You may not copy, reproduce, republish, or commercially

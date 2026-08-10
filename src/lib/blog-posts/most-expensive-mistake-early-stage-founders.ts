@@ -2,14 +2,14 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "most-expensive-mistake-early-stage-founders",
-  title: "The most expensive mistake early-stage founders keep making.",
+  title: "The most expensive brand mistake? Still doing this.",
   excerpt:
-    "The costliest early-stage mistake is not a bad hire or a wrong tool. It is scaling an unclear offer—and paying for every confused visitor twice, in cash and in time.",
+    "Scaling noise before the product has a clear reason to matter—and how to stop.",
   date: "July 24, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-05-mistake.png",
   metaDescription:
-    "The most expensive early-stage founder mistake: scaling before clarity. Why it costs more than bad tools, how to spot it early, and the cheaper sequence that actually works.",
+    "The costly habit product brands repeat: amplifying an unclear offer. Fix positioning before you scale spend.",
   content: [
     {
       type: "p",

@@ -2,10 +2,10 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "internet-rewards-consistency-more-than-brilliance",
-  title: "The internet rewards consistency more than brilliance",
+  title: "The internet doesn't care if you're brilliant once",
   excerpt: "Why showing up often beats trying to go viral once.",
   date: "August 10, 2026",
-  category: "Content creation with your team",
+  category: "Go-to-Market",
   image: "/images/blog/blog-48-consistency.png",
   metaDescription:
     "The internet rewards consistency more than brilliance. Why cadence beats virality, how compounding publishing works, and systems for showing up often.",

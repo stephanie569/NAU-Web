@@ -2,10 +2,10 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "qr-code-was-never-the-problem",
-  title: "The QR code was never the problem",
+  title: "The QR code was never the problem. The story was.",
   excerpt: "Why context matters far more than technology.",
   date: "July 31, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Team Content",
   image: "/images/blog/blog-43-qr-code.png",
   metaDescription:
     "The QR code was never the problem—context was. Why promise-before-scan, placement, and bridge design matter far more than the scanning technology itself.",

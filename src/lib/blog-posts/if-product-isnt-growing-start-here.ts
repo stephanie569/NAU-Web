@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "if-product-isnt-growing-start-here",
-  title: "If your product isn't growing, start here.",
+  title: "Product stuck? Don't touch ads yet. Start here.",
   excerpt:
     "When growth stalls, founders reach for channels. Start instead with a diagnostic: clarity, activation, proof, retention—then distribution. A practical sequence for stuck products.",
   date: "June 24, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-30-start-here.png",
   metaDescription:
     "If your product isn’t growing, start with clarity, activation, proof, and retention—not more channels. A practical diagnostic framework for stalled startups.",

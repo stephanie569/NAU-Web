@@ -56,7 +56,38 @@ import post_dont_let_ai_become_your_personality from "./dont-let-ai-become-your-
 import post_best_prompt_is_still_good_question from "./best-prompt-is-still-good-question";
 import post_ai_should_handle_repetition_you_keep_judgement from "./ai-should-handle-repetition-you-keep-judgement";
 
+import post_best_products_solve_problem_before_sell_solution from "./best-products-solve-problem-before-sell-solution";
+import post_most_product_launches_dont_fail_because_of_marketing from "./most-product-launches-dont-fail-because-of-marketing";
+import post_first_customer_isnt_your_market_theyre_your_teacher from "./first-customer-isnt-your-market-theyre-your-teacher";
+import post_before_build_another_feature_ask_five_questions from "./before-build-another-feature-ask-five-questions";
+import post_product_market_fit_isnt_milestone_moving_target from "./product-market-fit-isnt-milestone-moving-target";
+import post_people_dont_buy_products_buy_better_tomorrow from "./people-dont-buy-products-buy-better-tomorrow";
+import post_launch_campaign_starts_long_before_launch_day from "./launch-campaign-starts-long-before-launch-day";
+import post_most_marketing_problems_are_product_problems from "./most-marketing-problems-are-product-problems";
+import post_difference_getting_attention_and_earning_it from "./difference-getting-attention-and-earning-it";
+import post_every_product_deserves_story_before_logo from "./every-product-deserves-story-before-logo";
+import post_best_marketing_doesnt_ask_people_to_share from "./best-marketing-doesnt-ask-people-to-share";
+import post_internet_still_needs_the_real_world from "./internet-still-needs-the-real-world";
+import post_next_campaign_begin_conversation_not_camera from "./next-campaign-begin-conversation-not-camera";
+import post_good_marketing_leaves_footprints_before_impressions from "./good-marketing-leaves-footprints-before-impressions";
+import post_people_remember_how_brand_made_them_feel from "./people-remember-how-brand-made-them-feel";
+
 export const allBlogPosts: BlogPost[] = [
+  post_best_products_solve_problem_before_sell_solution,
+  post_most_product_launches_dont_fail_because_of_marketing,
+  post_first_customer_isnt_your_market_theyre_your_teacher,
+  post_before_build_another_feature_ask_five_questions,
+  post_product_market_fit_isnt_milestone_moving_target,
+  post_people_dont_buy_products_buy_better_tomorrow,
+  post_launch_campaign_starts_long_before_launch_day,
+  post_most_marketing_problems_are_product_problems,
+  post_difference_getting_attention_and_earning_it,
+  post_every_product_deserves_story_before_logo,
+  post_best_marketing_doesnt_ask_people_to_share,
+  post_internet_still_needs_the_real_world,
+  post_next_campaign_begin_conversation_not_camera,
+  post_good_marketing_leaves_footprints_before_impressions,
+  post_people_remember_how_brand_made_them_feel,
   post_ai_can_write_content_cant_replace_perspective,
   post_competitive_advantage_was_never_typing_faster,
   post_dont_let_ai_become_your_personality,

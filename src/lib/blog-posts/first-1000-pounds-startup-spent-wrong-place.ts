@@ -3,14 +3,14 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "first-1000-pounds-startup-spent-wrong-place",
   title:
-    "The first £1,000 you spend on a startup is usually spent in the wrong place",
+    "Your first £1,000? You're probably spending it wrong.",
   excerpt:
-    "Early budget decisions reveal strategy. Most founders spend the first £1,000 on tools, logos, and ads—when clarity, proof, and conversion infrastructure would compound faster.",
+    "Where early product brands waste budget—and what to fund before ads, logos or tool stacks.",
   date: "June 28, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-35-first-1000.png",
   metaDescription:
-    "Where startups should spend their first £1,000—and why tools, ads, and logos often come before the investments that create real traction.",
+    "Where product brands should spend their first £1,000—clarity and proof before ads, logos and unused tools.",
   content: [
     {
       type: "p",

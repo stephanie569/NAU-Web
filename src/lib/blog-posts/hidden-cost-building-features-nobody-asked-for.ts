@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "hidden-cost-building-features-nobody-asked-for",
-  title: "The hidden cost of building features nobody asked for.",
+  title: "That feature nobody asked for? It's quietly costing you.",
   excerpt:
     "Unused features do not just waste sprint time. They slow onboarding, confuse positioning, and make every future decision more expensive—here is how to stop paying that tax.",
   date: "July 20, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-08-features.png",
   metaDescription:
     "Learn the hidden costs of shipping unused features—complexity, slower onboarding, weaker positioning—and a practical framework to build only what customers need.",

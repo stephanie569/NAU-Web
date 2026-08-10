@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "if-patagonia-hired-me-tomorrow-where-id-start",
-  title: "If Patagonia hired me tomorrow, here's where I'd start.",
+  title: "If Patagonia hired me tomorrow, I'd start here",
   excerpt:
     "A speculative strategy memo on strengthening Patagonia’s digital product story—protecting brand integrity while clarifying journeys from inspiration to action. Principles every mission-led startup can use.",
   date: "July 2, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-23-patagonia.png",
   metaDescription:
     "If Patagonia hired a product strategist: where to start on digital clarity, customer journeys, and brand-aligned conversion—lessons for mission-led startups.",

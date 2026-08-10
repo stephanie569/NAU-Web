@@ -1,8 +1,173 @@
 [
   {
+    "slug": "best-products-solve-problem-before-sell-solution",
+    "title": "Sell the problem first. The solution can wait.",
+    "category": "Research & Positioning",
+    "image": "/images/blog/blog-56-solve-problem.png",
+    "date": "September 1, 2026",
+    "excerpt": "Features are answers. Problems are the reason anyone listens.",
+    "mids": [
+      "/images/blog/blog-mid-02.png"
+    ]
+  },
+  {
+    "slug": "most-product-launches-dont-fail-because-of-marketing",
+    "title": "Your launch didn't fail because of marketing",
+    "category": "Research & Positioning",
+    "image": "/images/blog/blog-57-launch-fail.png",
+    "date": "August 31, 2026",
+    "excerpt": "When the launch underperforms, the channel is rarely the first place to look.",
+    "mids": [
+      "/images/blog/blog-mid-04.png"
+    ]
+  },
+  {
+    "slug": "first-customer-isnt-your-market-theyre-your-teacher",
+    "title": "Your first customer isn't a market. They're your teacher.",
+    "category": "Research & Positioning",
+    "image": "/images/blog/blog-58-first-customer.png",
+    "date": "August 30, 2026",
+    "excerpt": "Treat early buyers as a curriculum, not a crowd to scale.",
+    "mids": [
+      "/images/blog/blog-mid-05.png"
+    ]
+  },
+  {
+    "slug": "before-build-another-feature-ask-five-questions",
+    "title": "About to ship another feature? Ask these 5 first.",
+    "category": "Research & Positioning",
+    "image": "/images/blog/blog-59-five-questions-feature.png",
+    "date": "August 29, 2026",
+    "excerpt": "A checklist for stopping roadmap theatre before it ships.",
+    "mids": [
+      "/images/blog/blog-mid-07.png"
+    ]
+  },
+  {
+    "slug": "product-market-fit-isnt-milestone-moving-target",
+    "title": "PMF isn't a milestone. It's a moving target.",
+    "category": "Research & Positioning",
+    "image": "/images/blog/blog-60-pmf-moving.png",
+    "date": "August 28, 2026",
+    "excerpt": "Why “we’ve got PMF” is often a pause button disguised as progress.",
+    "mids": [
+      "/images/blog/blog-mid-08.png"
+    ]
+  },
+  {
+    "slug": "people-dont-buy-products-buy-better-tomorrow",
+    "title": "Nobody buys your product. They buy a better tomorrow.",
+    "category": "Go-to-Market",
+    "image": "/images/blog/blog-61-better-tomorrow.png",
+    "date": "August 27, 2026",
+    "excerpt": "Sell the progress, not the packing list.",
+    "mids": [
+      "/images/blog/blog-mid-02.png"
+    ]
+  },
+  {
+    "slug": "launch-campaign-starts-long-before-launch-day",
+    "title": "Launch day is late. The campaign should've already started.",
+    "category": "Go-to-Market",
+    "image": "/images/blog/blog-62-before-launch.png",
+    "date": "August 26, 2026",
+    "excerpt": "The day you hit publish is rarely the day the story begins.",
+    "mids": [
+      "/images/blog/blog-mid-03.png"
+    ]
+  },
+  {
+    "slug": "most-marketing-problems-are-product-problems",
+    "title": "That marketing problem is usually a product problem in disguise",
+    "category": "Go-to-Market",
+    "image": "/images/blog/blog-63-marketing-product-problems.png",
+    "date": "August 25, 2026",
+    "excerpt": "When growth stalls, check the offer before you check the calendar.",
+    "mids": [
+      "/images/blog/blog-mid-04.png"
+    ]
+  },
+  {
+    "slug": "difference-getting-attention-and-earning-it",
+    "title": "Getting attention is easy. Earning it is the actual job.",
+    "category": "Go-to-Market",
+    "image": "/images/blog/blog-64-earn-attention.png",
+    "date": "August 24, 2026",
+    "excerpt": "Reach is easy to rent. Belief is harder—and more durable.",
+    "mids": [
+      "/images/blog/blog-mid-01.png"
+    ]
+  },
+  {
+    "slug": "every-product-deserves-story-before-logo",
+    "title": "Skip the logo. Write the story first.",
+    "category": "Go-to-Market",
+    "image": "/images/blog/blog-65-story-before-logo.png",
+    "date": "August 23, 2026",
+    "excerpt": "Identity without narrative is decoration with a higher invoice.",
+    "mids": [
+      "/images/blog/blog-mid-05.png"
+    ]
+  },
+  {
+    "slug": "best-marketing-doesnt-ask-people-to-share",
+    "title": "Stop asking people to share. Make something they want to.",
+    "category": "Team Content",
+    "image": "/images/blog/blog-66-dont-ask-share.png",
+    "date": "August 22, 2026",
+    "excerpt": "If you have to beg for shares, the moment was never worth sharing.",
+    "mids": [
+      "/images/blog/blog-mid-03.png"
+    ]
+  },
+  {
+    "slug": "internet-still-needs-the-real-world",
+    "title": "Hot take: the internet still needs the real world",
+    "category": "Team Content",
+    "image": "/images/blog/blog-67-real-world-needs.png",
+    "date": "August 21, 2026",
+    "excerpt": "Digital belief is cheaper when something physical made it true first.",
+    "mids": [
+      "/images/blog/blog-mid-07.png"
+    ]
+  },
+  {
+    "slug": "next-campaign-begin-conversation-not-camera",
+    "title": "Start the campaign with a conversation, not a camera",
+    "category": "Team Content",
+    "image": "/images/blog/blog-68-conversation-first.png",
+    "date": "August 20, 2026",
+    "excerpt": "Shoot later. Listen first.",
+    "mids": [
+      "/images/blog/blog-mid-05.png"
+    ]
+  },
+  {
+    "slug": "good-marketing-leaves-footprints-before-impressions",
+    "title": "Impressions fade. Footprints stick.",
+    "category": "Team Content",
+    "image": "/images/blog/blog-69-footprints.png",
+    "date": "August 19, 2026",
+    "excerpt": "Traces in the world beat vanity metrics on a dashboard.",
+    "mids": [
+      "/images/blog/blog-mid-02.png"
+    ]
+  },
+  {
+    "slug": "people-remember-how-brand-made-them-feel",
+    "title": "They won't remember the post. They'll remember the feeling.",
+    "category": "Team Content",
+    "image": "/images/blog/blog-70-how-brand-felt.png",
+    "date": "August 18, 2026",
+    "excerpt": "Feeds forget. Feelings don't.",
+    "mids": [
+      "/images/blog/blog-mid-04.png"
+    ]
+  },
+  {
     "slug": "ai-can-write-content-cant-replace-perspective",
-    "title": "AI can write your content. It can't replace your perspective.",
-    "category": "Content creation with your team",
+    "title": "AI can write the post. It can't be you.",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-51-ai-perspective.png",
     "date": "August 17, 2026",
     "excerpt": "Tools can draft paragraphs. They cannot decide what you uniquely see—and that is still the scarce advantage.",
@@ -12,8 +177,8 @@
   },
   {
     "slug": "competitive-advantage-was-never-typing-faster",
-    "title": "Your competitive advantage was never typing faster",
-    "category": "Content creation with your team",
+    "title": "Typing faster was never your edge. Taste is.",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-52-thinking-advantage.png",
     "date": "August 16, 2026",
     "excerpt": "Why thinking is becoming more valuable as writing becomes easier.",
@@ -23,8 +188,8 @@
   },
   {
     "slug": "dont-let-ai-become-your-personality",
-    "title": "Don't let AI become your personality",
-    "category": "Content creation with your team",
+    "title": "Don't outsource your personality to ChatGPT",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-53-ai-personality.png",
     "date": "August 15, 2026",
     "excerpt": "Automation is useful. Authenticity is harder to automate.",
@@ -34,8 +199,8 @@
   },
   {
     "slug": "best-prompt-is-still-good-question",
-    "title": "The best prompt is still a good question",
-    "category": "Content creation with your team",
+    "title": "Your best prompt is still a better question",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-54-good-question.png",
     "date": "August 14, 2026",
     "excerpt": "Why curiosity will outlast prompt engineering.",
@@ -45,8 +210,8 @@
   },
   {
     "slug": "ai-should-handle-repetition-you-keep-judgement",
-    "title": "AI should handle the repetition. You should keep the judgement.",
-    "category": "Content creation with your team",
+    "title": "Let AI do the boring bits. You keep the taste.",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-55-repetition-judgement.png",
     "date": "August 13, 2026",
     "excerpt": "Scale the busywork. Protect the decisions that define the work.",
@@ -56,8 +221,8 @@
   },
   {
     "slug": "organic-growth-isnt-free-its-earned",
-    "title": "Organic growth isn't free. It's earned.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Organic isn't free. It's earned—and here's how.",
+    "category": "Team Content",
     "image": "/images/blog/blog-46-organic-earned.png",
     "date": "August 12, 2026",
     "excerpt": "The difference matters more than most founders realise.",
@@ -67,8 +232,8 @@
   },
   {
     "slug": "people-trust-people-before-they-trust-marketing",
-    "title": "People trust people long before they trust marketing",
-    "category": "Content creation with your team",
+    "title": "People trust people. Marketing comes later.",
+    "category": "Team Content",
     "image": "/images/blog/blog-47-trust-people.png",
     "date": "August 11, 2026",
     "excerpt": "Why communities outperform audiences in the long run.",
@@ -78,8 +243,8 @@
   },
   {
     "slug": "internet-rewards-consistency-more-than-brilliance",
-    "title": "The internet rewards consistency more than brilliance",
-    "category": "Content creation with your team",
+    "title": "The internet doesn't care if you're brilliant once",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-48-consistency.png",
     "date": "August 10, 2026",
     "excerpt": "Why showing up often beats trying to go viral once.",
@@ -89,8 +254,8 @@
   },
   {
     "slug": "customers-better-marketers-than-marketing-team",
-    "title": "Your customers are better marketers than your marketing team",
-    "category": "Content creation with your team",
+    "title": "Your customers market better than your marketing team",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-49-customer-marketers.png",
     "date": "August 9, 2026",
     "excerpt": "If you build something worth talking about.",
@@ -100,8 +265,8 @@
   },
   {
     "slug": "growth-strategies-ignore-what-people-remember",
-    "title": "Most growth strategies ignore the one thing people actually remember",
-    "category": "Content creation with your team",
+    "title": "Growth hacks forget the one thing people actually remember",
+    "category": "Team Content",
     "image": "/images/blog/blog-50-emotion-memory.png",
     "date": "August 8, 2026",
     "excerpt": "Emotion, not optimisation.",
@@ -111,8 +276,8 @@
   },
   {
     "slug": "best-marketing-doesnt-always-start-behind-screen",
-    "title": "The best marketing doesn't always start behind a screen",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Your best campaign might not start on a screen",
+    "category": "Team Content",
     "image": "/images/blog/blog-36-offline-marketing.png",
     "date": "August 7, 2026",
     "excerpt": "Why some of the most effective campaigns begin where Wi-Fi is least relevant.",
@@ -122,8 +287,8 @@
   },
   {
     "slug": "people-rarely-share-advertisements-share-stories",
-    "title": "People rarely share advertisements. They share stories they happened to be part of.",
-    "category": "Content creation with your team",
+    "title": "Nobody shares ads. They share stories they were part of.",
+    "category": "Team Content",
     "image": "/images/blog/blog-37-share-stories.png",
     "date": "August 6, 2026",
     "excerpt": "How to design campaigns people want to talk about.",
@@ -133,8 +298,8 @@
   },
   {
     "slug": "your-city-most-underrated-marketing-channel",
-    "title": "Your city is probably your most underrated marketing channel",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Your city is an underrated growth channel. Use it.",
+    "category": "Team Content",
     "image": "/images/blog/blog-38-city-channel.png",
     "date": "August 5, 2026",
     "excerpt": "What founders overlook when every strategy starts with social media.",
@@ -144,8 +309,8 @@
   },
   {
     "slug": "why-internet-still-needs-real-world",
-    "title": "Why the internet still needs the real world",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Why the feed still needs the real world",
+    "category": "Team Content",
     "image": "/images/blog/blog-39-real-world.png",
     "date": "August 4, 2026",
     "excerpt": "How physical experiences make digital marketing significantly more believable.",
@@ -155,8 +320,8 @@
   },
   {
     "slug": "good-street-campaign-doesnt-end-on-street",
-    "title": "A good street campaign doesn't end on the street",
-    "category": "Go-to-market and campaign strategy",
+    "title": "The street campaign isn't over when people walk past",
+    "category": "Team Content",
     "image": "/images/blog/blog-40-street-to-phone.png",
     "date": "August 3, 2026",
     "excerpt": "Designing marketing that naturally moves from pavement to phone.",
@@ -166,8 +331,8 @@
   },
   {
     "slug": "how-to-create-marketing-people-photograph",
-    "title": "How to create marketing people choose to photograph",
-    "category": "Content creation with your team",
+    "title": "Make marketing people actually want to photograph",
+    "category": "Team Content",
     "image": "/images/blog/blog-41-photograph.png",
     "date": "August 2, 2026",
     "excerpt": "The psychology behind campaigns that spread without asking anyone to \"go viral\".",
@@ -177,8 +342,8 @@
   },
   {
     "slug": "small-budgets-dont-kill-good-ideas-predictable-ones-do",
-    "title": "Small budgets don't kill good ideas. Predictable ones do.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Small budgets don't kill ideas. Predictable ones do.",
+    "category": "Team Content",
     "image": "/images/blog/blog-42-small-budgets.png",
     "date": "August 1, 2026",
     "excerpt": "Creative marketing frameworks for founders who can't outspend the competition.",
@@ -188,8 +353,8 @@
   },
   {
     "slug": "qr-code-was-never-the-problem",
-    "title": "The QR code was never the problem",
-    "category": "Go-to-market and campaign strategy",
+    "title": "The QR code was never the problem. The story was.",
+    "category": "Team Content",
     "image": "/images/blog/blog-43-qr-code.png",
     "date": "July 31, 2026",
     "excerpt": "Why context matters far more than technology.",
@@ -199,8 +364,8 @@
   },
   {
     "slug": "next-marketing-campaign-should-start-with-walk",
-    "title": "Why your next marketing campaign should start with a walk",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Your next campaign should start with a walk outside",
+    "category": "Team Content",
     "image": "/images/blog/blog-44-start-with-walk.png",
     "date": "July 30, 2026",
     "excerpt": "Observing people is often more useful than another analytics dashboard.",
@@ -210,8 +375,8 @@
   },
   {
     "slug": "memorable-brands-dont-interrupt-give-something-worth-remembering",
-    "title": "The most memorable brands don't interrupt people. They give them something worth remembering.",
-    "category": "Content creation with your team",
+    "title": "Stop interrupting people. Give them something worth keeping.",
+    "category": "Team Content",
     "image": "/images/blog/blog-45-memorable-brands.png",
     "date": "July 29, 2026",
     "excerpt": "Why interruption marketing fades—and how to design moments people keep without being asked.",
@@ -221,8 +386,8 @@
   },
   {
     "slug": "product-doesnt-have-marketing-problem-clarity-problem",
-    "title": "Your product doesn't have a marketing problem. It has a clarity problem.",
-    "category": "Product research and positioning",
+    "title": "You don't have a marketing problem. You have a clarity problem.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-01-clarity.png",
     "date": "July 28, 2026",
     "excerpt": "When growth stalls, founders buy ads. More often, customers still cannot explain what you do—or why it matters—in one clear sentence.",
@@ -232,8 +397,8 @@
   },
   {
     "slug": "before-spend-10000-marketing-five-questions",
-    "title": "Before you spend £10,000 on marketing, answer these five questions.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "About to drop £10k on marketing? Answer these first.",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-02-budget.png",
     "date": "July 27, 2026",
     "excerpt": "A £10,000 marketing budget can create traction—or burn runway. These five questions decide which.",
@@ -241,17 +406,17 @@
   },
   {
     "slug": "why-startup-websites-fail-first-10-seconds",
-    "title": "Why most startup websites fail in the first 10 seconds.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Most product brand sites die in the first 10 seconds",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-03-ten-seconds.png",
     "date": "July 26, 2026",
-    "excerpt": "Visitors decide faster than founders expect. In the first ten seconds, unclear heroes, weak proof, and competing CTAs silently end the relationship.",
+    "excerpt": "Why outdoor, travel and tech brand websites lose shoppers before the scroll—and how to fix it.",
     "mids": []
   },
   {
     "slug": "product-strategy-framework-before-designing-screen",
-    "title": "The product strategy framework I use before designing a single screen.",
-    "category": "Product research and positioning",
+    "title": "My pre-Figma checklist before I design a single screen",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-04-framework.png",
     "date": "July 25, 2026",
     "excerpt": "Before Figma, before wireframes, before pixels: a simple strategy framework that keeps product design attached to real customer decisions.",
@@ -261,35 +426,35 @@
   },
   {
     "slug": "most-expensive-mistake-early-stage-founders",
-    "title": "The most expensive mistake early-stage founders keep making.",
-    "category": "Product research and positioning",
+    "title": "The most expensive brand mistake? Still doing this.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-05-mistake.png",
     "date": "July 24, 2026",
-    "excerpt": "The costliest early-stage mistake is not a bad hire or a wrong tool. It is scaling an unclear offer—and paying for every confused visitor twice.",
+    "excerpt": "Scaling noise before the product has a clear reason to matter—and how to stop.",
     "mids": []
   },
   {
     "slug": "how-id-reposition-your-startup-in-60-minutes",
-    "title": "How I'd reposition your startup in 60 minutes.",
-    "category": "Product research and positioning",
+    "title": "Give me 60 minutes. I'll reposition your product brand.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-06-reposition.png",
     "date": "July 23, 2026",
-    "excerpt": "A practical 60-minute repositioning session: who you serve, what you change, what you refuse, and how the story should sound on the homepage.",
+    "excerpt": "A fast repositioning workout for outdoor, travel and lifestyle brands that need a sharper reason to matter.",
     "mids": []
   },
   {
     "slug": "what-founders-get-wrong-about-product-market-fit",
-    "title": "What founders get wrong about product–market fit.",
-    "category": "Product research and positioning",
+    "title": "What product brands get wrong about PMF (every single time)",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-07-pmf-wrong.png",
     "date": "July 21, 2026",
-    "excerpt": "Product–market fit is not a vibe, a launch, or a funding milestone. Founders misfire when they treat it as a finish line instead of measurable evidence.",
+    "excerpt": "Product-market fit isn't a slide. It's whether real customers keep choosing the thing you make.",
     "mids": []
   },
   {
     "slug": "hidden-cost-building-features-nobody-asked-for",
-    "title": "The hidden cost of building features nobody asked for.",
-    "category": "Product research and positioning",
+    "title": "That feature nobody asked for? It's quietly costing you.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-08-features.png",
     "date": "July 20, 2026",
     "excerpt": "Unused features do not just waste sprint time. They slow onboarding, confuse positioning, and make every future decision more expensive.",
@@ -297,8 +462,8 @@
   },
   {
     "slug": "why-beautiful-websites-dont-always-convert",
-    "title": "Why beautiful websites don't always convert.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Pretty website. Dead conversions. Why?",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-09-beautiful.png",
     "date": "July 19, 2026",
     "excerpt": "Aesthetics can earn attention. Conversion requires comprehension, trust, and a clear next step. Pretty is not the same as persuasive.",
@@ -306,28 +471,28 @@
   },
   {
     "slug": "if-i-joined-your-startup-tomorrow-what-id-do-first",
-    "title": "If I joined your startup tomorrow, this is what I'd do first.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "If I joined your product brand tomorrow, day one looks like this",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-10-joined.png",
     "date": "July 17, 2026",
-    "excerpt": "Day-one priorities for a product strategist joining an early-stage startup: diagnose belief gaps, clarify the offer, and fix the highest-leverage conversion surface.",
+    "excerpt": "First moves for a brand that makes things: diagnose the product story, then decide what to launch next.",
     "mids": [
       "/images/blog/blog-mid-03.png"
     ]
   },
   {
     "slug": "ten-years-building-products-taught-me-about-startups",
-    "title": "What ten years of building products has taught me about startups.",
-    "category": "Product research and positioning",
+    "title": "10 years with products. These lessons actually stuck.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-11-ten-years.png",
     "date": "July 16, 2026",
-    "excerpt": "A personal reflection on a decade of product work: clarity beats cleverness, systems beat spikes, and the best marketing starts as product strategy.",
+    "excerpt": "What building and launching physical products taught me about clarity, systems and stories that sell.",
     "mids": []
   },
   {
     "slug": "every-startup-looks-like-marketing-problem-until-deeper",
-    "title": "Every startup looks like a marketing problem until you dig deeper.",
-    "category": "Product research and positioning",
+    "title": "It looks like a marketing problem. Dig once.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-12-dig-deeper.png",
     "date": "July 15, 2026",
     "excerpt": "Surface symptoms point to marketing. Digging deeper usually reveals positioning gaps, weak activation, or a product story that never landed.",
@@ -335,8 +500,8 @@
   },
   {
     "slug": "why-i-start-every-project-without-opening-figma",
-    "title": "Why I start every project without opening Figma.",
-    "category": "Product research and positioning",
+    "title": "I don't open Figma first. Here's why.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-13-no-figma.png",
     "date": "July 14, 2026",
     "excerpt": "I delay design tools on purpose. Strategy, customer language, and decision mapping come first—so pixels serve a real argument.",
@@ -344,8 +509,8 @@
   },
   {
     "slug": "how-i-decide-whether-product-worth-building",
-    "title": "How I decide whether a product is worth building.",
-    "category": "Product research and positioning",
+    "title": "How I decide if a product is even worth building",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-14-worth-building.png",
     "date": "July 13, 2026",
     "excerpt": "A personal filter for greenlighting product work: urgency, willingness to pay, differentiation, and a path to a clear first outcome.",
@@ -353,8 +518,8 @@
   },
   {
     "slug": "from-strategy-to-launch-how-i-approach-new-product",
-    "title": "From strategy to launch: how I approach every new product.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "My playbook from blank page to launch (no fluff)",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-15-strategy-launch.png",
     "date": "July 11, 2026",
     "excerpt": "My end-to-end approach: clarify the offer, design the decision path, ship a focused first experience, then learn with discipline.",
@@ -362,26 +527,26 @@
   },
   {
     "slug": "learned-working-across-ai-hospitality-consumer-products",
-    "title": "What I learned working across AI, hospitality and consumer products.",
-    "category": "Product research and positioning",
+    "title": "What outdoor, travel and consumer brands taught me the hard way",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-16-ai-hospitality.png",
     "date": "July 10, 2026",
-    "excerpt": "Cross-industry product work taught me that categories differ—but clarity, trust, and time-to-value are universal conversion laws.",
+    "excerpt": "Cross-category lessons that transfer when you build physical products—and what doesn't.",
     "mids": []
   },
   {
     "slug": "questions-i-ask-before-taking-any-client",
-    "title": "The questions I ask before taking on any client.",
-    "category": "Product research and positioning",
+    "title": "The questions I ask before I take any product brand",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-17-client-questions.png",
     "date": "July 9, 2026",
-    "excerpt": "A transparent look at how I choose collaborations: problem urgency, decision speed, openness to clarity work, and room to create real outcomes.",
+    "excerpt": "Fit questions for outdoor, travel, marine, tech and lifestyle brands before we start.",
     "mids": []
   },
   {
     "slug": "why-i-care-more-about-systems-than-campaigns",
-    "title": "Why I care more about systems than campaigns.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Why I pick systems over one-hit campaigns",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-18-systems.png",
     "date": "July 8, 2026",
     "excerpt": "Campaigns spike. Systems compound. I design positioning, experience, and proof so marketing does not have to reinvent belief every month.",
@@ -389,17 +554,17 @@
   },
   {
     "slug": "founders-actually-need-isnt-more-marketing",
-    "title": "What founders actually need isn't more marketing.",
-    "category": "Product research and positioning",
+    "title": "Product brands don't need more marketing. They need this.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-19-not-marketing.png",
     "date": "July 7, 2026",
-    "excerpt": "Founders ask for more marketing when they often need sharper product strategy, cleaner conversion paths, and a story customers can repeat.",
+    "excerpt": "When the fix isn't another campaign—it's research, positioning and a story the product can keep.",
     "mids": []
   },
   {
     "slug": "difference-building-product-and-building-business",
-    "title": "The difference between building a product and building a business.",
-    "category": "Product research and positioning",
+    "title": "Building a product ≠ building a business. Here's the gap.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-20-product-business.png",
     "date": "July 5, 2026",
     "excerpt": "Products ship features. Businesses create repeatable value exchange. The difference shows up in positioning, pricing, retention, and operational clarity.",
@@ -407,8 +572,8 @@
   },
   {
     "slug": "product-teardown-airbnb-homepage",
-    "title": "Product teardown: what I'd change about Airbnb's homepage.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Airbnb's homepage: what I'd change (and why)",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-21-airbnb.png",
     "date": "July 4, 2026",
     "excerpt": "A strategic teardown of Airbnb’s homepage through a conversion and clarity lens—what works, what I’d tighten, and why.",
@@ -416,8 +581,8 @@
   },
   {
     "slug": "website-audit-three-changes-double-conversion",
-    "title": "Website audit: three changes that could double your conversion rate.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "3 website changes that could double your conversions",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-22-double-conversion.png",
     "date": "July 3, 2026",
     "excerpt": "Most conversion lifts do not need a full redesign. These three changes—message, proof, and path—often unlock the next jump.",
@@ -427,8 +592,8 @@
   },
   {
     "slug": "if-patagonia-hired-me-tomorrow-where-id-start",
-    "title": "If Patagonia hired me tomorrow, here's where I'd start.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "If Patagonia hired me tomorrow, I'd start here",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-23-patagonia.png",
     "date": "July 2, 2026",
     "excerpt": "A speculative strategy memo: where I would begin if asked to strengthen Patagonia’s digital product story—without diluting brand integrity.",
@@ -436,8 +601,8 @@
   },
   {
     "slug": "how-id-improve-apple-onboarding-experience",
-    "title": "How I'd improve Apple's onboarding experience.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "If I redesigned Apple's onboarding tomorrow",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-24-apple-onboarding.png",
     "date": "July 1, 2026",
     "excerpt": "Apple sets the bar—and still leaves onboarding opportunities. A product lens on first-run clarity, setup anxiety, and time-to-delight.",
@@ -445,8 +610,8 @@
   },
   {
     "slug": "five-minutes-on-your-website-enough-to-find-issues",
-    "title": "Five minutes on your website was enough to find these issues.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "I spent 5 minutes on your site. Here's what I found.",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-25-five-minutes.png",
     "date": "June 30, 2026",
     "excerpt": "A rapid-audit format: the issues that usually appear in the first five minutes—and why they predict conversion problems later.",
@@ -454,17 +619,17 @@
   },
   {
     "slug": "product-breakdown-startup-growing-faster-than-competitors",
-    "title": "Product breakdown: why this startup is growing faster than its competitors.",
-    "category": "Product research and positioning",
+    "title": "Why this product brand is growing faster (and it's not the ads)",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-26-growing-faster.png",
     "date": "June 29, 2026",
-    "excerpt": "A breakdown of growth advantages that look like marketing wins but usually come from sharper offers, faster time-to-value, and cleaner narratives.",
+    "excerpt": "A breakdown of clarity, proof and launch discipline that outruns louder competitors.",
     "mids": []
   },
   {
     "slug": "landing-page-review-helping-hurting-conversions",
-    "title": "Landing page review: what's helping—and hurting—conversions.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Your landing page: what's helping vs quietly killing conversions",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-27-landing-review.png",
     "date": "June 27, 2026",
     "excerpt": "A practical landing page review framework: identify the elements that build belief, and the ones that quietly create friction.",
@@ -472,8 +637,8 @@
   },
   {
     "slug": "how-id-redesign-brand-customer-journey",
-    "title": "How I'd redesign this brand's customer journey.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "I'd redesign this brand's whole customer journey. Here's how.",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-28-customer-journey.png",
     "date": "June 26, 2026",
     "excerpt": "A journey redesign approach focused on belief stages: awareness, understanding, trust, activation, and expansion—without adding unnecessary touchpoints.",
@@ -481,8 +646,8 @@
   },
   {
     "slug": "three-product-decisions-cost-companies-millions",
-    "title": "Three product decisions that quietly cost companies millions.",
-    "category": "Product research and positioning",
+    "title": "3 quiet product decisions that burn millions",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-29-cost-millions.png",
     "date": "June 25, 2026",
     "excerpt": "Not all expensive mistakes look dramatic. These three product decisions quietly destroy conversion, retention, and clarity over years.",
@@ -490,8 +655,8 @@
   },
   {
     "slug": "if-product-isnt-growing-start-here",
-    "title": "If your product isn't growing, start here.",
-    "category": "Product research and positioning",
+    "title": "Product stuck? Don't touch ads yet. Start here.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-30-start-here.png",
     "date": "June 24, 2026",
     "excerpt": "A practical starting point for stalled products: diagnose clarity, activation, and proof before you change channels or rebuild the roadmap.",
@@ -499,8 +664,8 @@
   },
   {
     "slug": "why-great-products-fail-before-product-market-fit",
-    "title": "Why great products fail before they ever reach product–market fit",
-    "category": "Product research and positioning",
+    "title": "Great products still fail before PMF. Here's why.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-31-great-products-fail.png",
     "date": "July 22, 2026",
     "excerpt": "Most startups don’t fail because the idea is weak. They fail because the product never becomes clear to the right customer—and the burn rate finishes the conversation.",
@@ -510,30 +675,30 @@
   },
   {
     "slug": "audited-50-startup-websites-10-mistakes",
-    "title": "I audited 50 startup websites. Here are the 10 mistakes I saw over and over again.",
-    "category": "Go-to-market and campaign strategy",
+    "title": "I audited 50 product brand sites. Same 10 fails, every time.",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-32-50-websites.png",
     "date": "July 18, 2026",
-    "excerpt": "After reviewing fifty early-stage sites, the same conversion problems kept appearing—vague headlines, weak trust cues, and pages that asked for interest without earning it.",
+    "excerpt": "Fifty brand sites across outdoor, travel and consumer goods—same conversion habits: vague headlines, weak proof, cluttered heroes.",
     "mids": [
       "/images/blog/blog-mid-06.png"
     ]
   },
   {
     "slug": "what-i-would-change-if-you-gave-me-your-startup-30-days",
-    "title": "What I would change if you gave me your startup for 30 days",
-    "category": "Go-to-market and campaign strategy",
+    "title": "Give me your product brand for 30 days. Here's what changes.",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-33-30-days.png",
     "date": "July 12, 2026",
-    "excerpt": "A practical 30-day plan for early-stage startups: clarify the offer, fix the experience, and build proof that compounds—without a rebrand theatre production.",
+    "excerpt": "A four-week reset for brands launching gear, travel goods or consumer tech with a muddy story.",
     "mids": [
       "/images/blog/blog-mid-07.png"
     ]
   },
   {
     "slug": "best-marketing-feels-like-product-design",
-    "title": "The best marketing doesn't feel like marketing—it feels like product design",
-    "category": "Content creation with your team",
+    "title": "If it feels like an ad, you've already lost them",
+    "category": "Go-to-Market",
     "image": "/images/blog/blog-34-marketing-product.png",
     "date": "July 6, 2026",
     "excerpt": "When marketing sits on top of the product, it underperforms. The brands that win design the message as part of the product experience itself.",
@@ -543,11 +708,11 @@
   },
   {
     "slug": "first-1000-pounds-startup-spent-wrong-place",
-    "title": "The first £1,000 you spend on a startup is usually spent in the wrong place",
-    "category": "Product research and positioning",
+    "title": "Your first £1,000? You're probably spending it wrong.",
+    "category": "Research & Positioning",
     "image": "/images/blog/blog-35-first-1000.png",
     "date": "June 28, 2026",
-    "excerpt": "Early budget decisions reveal strategy. Most founders spend the first £1,000 on tools and tactics—when clarity, proof, and conversion would compound faster.",
+    "excerpt": "Where early product brands waste budget—and what to fund before ads, logos or tool stacks.",
     "mids": [
       "/images/blog/blog-mid-09.png"
     ]

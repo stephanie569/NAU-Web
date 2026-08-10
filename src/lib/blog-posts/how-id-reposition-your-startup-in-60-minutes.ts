@@ -2,14 +2,14 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "how-id-reposition-your-startup-in-60-minutes",
-  title: "How I'd reposition your startup in 60 minutes.",
+  title: "Give me 60 minutes. I'll reposition your product brand.",
   excerpt:
-    "A practical 60-minute repositioning session: who you serve, what you change, what you refuse, which category you own, and how the story should sound on the homepage—without a six-week brand project.",
+    "A fast repositioning workout for outdoor, travel and lifestyle brands that need a sharper reason to matter.",
   date: "July 23, 2026",
-  category: "Product research and positioning",
+  category: "Research & Positioning",
   image: "/images/blog/blog-06-reposition.png",
   metaDescription:
-    "A 60-minute startup repositioning framework covering ICP, outcomes, alternatives, category, tradeoffs, homepage narrative, and proof—so your story gets sharp fast.",
+    "A 60-minute repositioning method for premium product brands—clarify audience, category and message before the next launch.",
   content: [
     {
       type: "p",

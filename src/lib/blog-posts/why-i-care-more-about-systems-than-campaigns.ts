@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "why-i-care-more-about-systems-than-campaigns",
-  title: "Why I care more about systems than campaigns.",
+  title: "Why I pick systems over one-hit campaigns",
   excerpt:
     "Campaigns spike. Systems compound. How to build positioning, experience, proof, and learning so marketing stops reinventing belief every month.",
   date: "July 8, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Go-to-Market",
   image: "/images/blog/blog-18-systems.png",
   metaDescription:
     "Why product and brand systems outperform one-off marketing campaigns—and how to build compounding clarity into your startup.",

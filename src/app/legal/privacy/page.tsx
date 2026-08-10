@@ -19,9 +19,9 @@ export default function PrivacyPage() {
               This Privacy Policy explains how Stefani Dimitrova, operating as{" "}
               <span className="font-medium text-foreground">nau</span> (“I”,
               “me”, or “nau”), handles personal information when you visit{" "}
-              thetimeisnau.com, browse the Journal, request stickers, or contact
-              me about product research and positioning, go-to-market strategy,
-              content creation with your team, or related studio work.
+              thetimeisnau.com, browse the Blog, request stickers, or contact
+              me about Research & Positioning, Go-to-Market,
+              Team Content, or related studio work.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
@@ -44,12 +44,11 @@ export default function PrivacyPage() {
               What this site is for
             </h2>
             <p>
-              nau is a personal portfolio and product marketing practice. The
-              site presents selected work, Journal essays on product marketing
-              and positioning, a stickers campaign, and ways to start a
-              conversation about research, launches and content made with your
-              team. It is not a consumer marketplace and it does not require
-              user accounts.
+              nau is a personal portfolio and product marketing practice for
+              brands that make physical products and want steady growth.
+              Selected work, Blog essays, stickers and digital products, and
+              ways to start a conversation. Not a marketplace, and no user
+              accounts required.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">

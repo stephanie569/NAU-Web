@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "why-internet-still-needs-real-world",
-  title: "Why the internet still needs the real world",
+  title: "Why the feed still needs the real world",
   excerpt:
     "How physical experiences make digital marketing significantly more believable.",
   date: "August 4, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Team Content",
   image: "/images/blog/blog-39-real-world.png",
   metaDescription:
     "Why digital marketing still needs the real world—how physical experiences transfer credibility online and make campaigns feel significantly more believable.",

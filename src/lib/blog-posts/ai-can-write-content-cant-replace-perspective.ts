@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "ai-can-write-content-cant-replace-perspective",
-  title: "AI can write your content. It can't replace your perspective.",
+  title: "AI can write the post. It can't be you.",
   excerpt:
     "Tools can draft paragraphs. They cannot decide what you uniquely see—and that is still the scarce advantage.",
   date: "August 17, 2026",
-  category: "Content creation with your team",
+  category: "Go-to-Market",
   image: "/images/blog/blog-51-ai-perspective.png",
   metaDescription:
     "AI can draft content at speed, but perspective remains the scarce advantage. How to use generation tools without losing the point of view that makes work worth reading.",

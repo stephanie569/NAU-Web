@@ -2,11 +2,11 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "ai-should-handle-repetition-you-keep-judgement",
-  title: "AI should handle the repetition. You should keep the judgement.",
+  title: "Let AI do the boring bits. You keep the taste.",
   excerpt:
     "Scale the busywork. Protect the decisions that define the work.",
   date: "August 13, 2026",
-  category: "Content creation with your team",
+  category: "Go-to-Market",
   image: "/images/blog/blog-55-repetition-judgement.png",
   metaDescription:
     "A practical division of labour with AI: automate repetition and protect judgement—what to delegate to tools and what founders must still own.",

@@ -2,10 +2,10 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "organic-growth-isnt-free-its-earned",
-  title: "Organic growth isn't free. It's earned.",
+  title: "Organic isn't free. It's earned—and here's how.",
   excerpt: "The difference matters more than most founders realise.",
   date: "August 12, 2026",
-  category: "Go-to-market and campaign strategy",
+  category: "Team Content",
   image: "/images/blog/blog-46-organic-earned.png",
   metaDescription:
     "Organic growth isn't free—it's earned through systems, reputation, and patience. Why paid shortcuts fail when attention must be built, not simply rented.",
