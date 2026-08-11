@@ -108,7 +108,7 @@ export function Header() {
   return (
     <header
       className={`sticky top-0 z-50 transition-colors duration-300 ${
-        isDark ? "bg-[#0a0a0a]" : "bg-white"
+        isDark ? "bg-[#0a0a0a]" : "bg-[#f5f5f5]"
       }`}
     >
       <div className="mx-auto flex h-[61px] max-w-[1520px] items-center px-6 md:px-9">
@@ -154,7 +154,7 @@ export function Header() {
             className={`overflow-hidden border-t md:hidden ${
               isDark
                 ? "border-white/10 bg-[#0a0a0a]"
-                : "border-[#0a0a0a]/10 bg-white"
+                : "border-[#0a0a0a]/10 bg-[#f5f5f5]"
             }`}
           >
             <div className="flex flex-col gap-1 px-6 py-4">

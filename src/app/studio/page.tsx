@@ -45,7 +45,7 @@ const jsonLd = {
   founder: {
     "@type": "Person",
     name: "Stefani Dimitrova",
-    jobTitle: "Founder · Organic GTM & Product Storytelling",
+    jobTitle: "Founder · Organic GTM & Product Storyteller",
     image: "https://thetimeisnau.com/images/stefani-studio-portrait.jpg",
   },
   address: {
@@ -80,10 +80,7 @@ export default function StudioPage() {
       />
 
       {/* 1. Intro header */}
-      <section
-        className="bg-[#f5f5f5] px-1 pb-1 pt-1"
-        data-header-theme="dark"
-      >
+      <section className="bg-[#f5f5f5] px-1 pb-1 pt-1">
         <div className="relative min-h-[min(62svh,560px)] overflow-hidden rounded-[25px] bg-[#0a0a0a] md:min-h-[min(68svh,640px)]">
           <Image
             src={intro.photo.src}

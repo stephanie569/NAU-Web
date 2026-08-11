@@ -2,5 +2,6 @@
   "/page": "app/page.js",
   "/studio/page": "app/studio/page.js",
   "/contact/page": "app/contact/page.js",
-  "/packages/page": "app/packages/page.js"
+  "/packages/page": "app/packages/page.js",
+  "/clients/page": "app/clients/page.js"
 }

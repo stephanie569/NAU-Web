@@ -112,7 +112,7 @@ export const projectsPageCopy = {
   ctaHighlight: "I'm here to help.",
   contact: {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & Product Storytelling",
+    role: "Organic GTM & Product Storyteller",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
 };
@@ -597,7 +597,7 @@ export const moreServicesSectionCopy = {
   headlineRest: "I shape the mix around your product. The full cycle stays connected.",
   contact: {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & Product Storytelling",
+    role: "Organic GTM & Product Storyteller",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
 };
@@ -632,14 +632,14 @@ export const teamSectionCopy = {
     src: "/images/stefani-dimitrova-portrait.jpg",
     alt: "Stefani Dimitrova, founder of nau studio",
     caption: "Stefani Dimitrova",
-    role: "Organic GTM & Product Storytelling",
+    role: "Organic GTM & Product Storyteller",
   },
 };
 
 export const teamMembers = [
   {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & Product Storytelling",
+    role: "Organic GTM & Product Storyteller",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
 ];
@@ -763,7 +763,7 @@ export const contactPageCopy = {
     " Reach out. I'll suggest a next step across Research & Positioning, Marketing Strategy or Content Creation.",
   teamLead: {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & Product Storytelling",
+    role: "Organic GTM & Product Storyteller",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
   placeholders: {
@@ -807,7 +807,7 @@ export const studioPageCopy = {
   story: {
     label: "Story",
     title: "The story of me.",
-    role: "Founder · Organic GTM & Product Storytelling",
+    role: "Founder · Organic GTM & Product Storyteller",
     photo: {
       src: "/images/stefani-studio-portrait.jpg",
       alt: "Stefani Dimitrova, founder of nau studio, holding a camera outdoors in Europe",

@@ -1,6 +1,6 @@
 export const heroTeamLead = {
   name: "Stefani Dimitrova",
-  role: "Organic GTM & Product Storytelling",
+  role: "Organic GTM & Product Storyteller",
   company: "nau",
   image: "/images/stefani-dimitrova-portrait.jpg",
 };

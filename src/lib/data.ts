@@ -19,7 +19,6 @@ export const navLinks = [
 ];
 
 export const footerNavLinks = [
-  { href: "/", label: "Home" },
   { href: "/studio", label: "Studio" },
   { href: "/clients", label: "Clients" },
   { href: "/packages", label: "Packages" },
@@ -201,7 +200,7 @@ export const faqs = [
 export const team = [
   {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & Product Storytelling",
+    role: "Organic GTM & Product Storyteller",
     bio: "I build for people who sell movement, escape and adventure. My work spans hospitality, outdoor products, adventure experiences and travel technology. You bring the expertise. I help turn it into demand.",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
