@@ -796,7 +796,7 @@ export function PricingSection() {
                 <span className="text-white">{storeTeaser.delivery}</span>
               </div>
               <div className="w-full shrink-0 lg:w-auto lg:justify-self-end">
-                <NauButton href={storeTeaser.href} variant="light">
+                <NauButton href="/packages" variant="light" electric={false}>
                   {storeTeaser.cta}
                 </NauButton>
               </div>

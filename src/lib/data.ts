@@ -54,7 +54,7 @@ export const services = [
     number: "004",
     title: "Digital Guides",
     description:
-      "Self-paced playbooks when you want clarity without a full engagement - ready to buy, or free if you find a nau QR across Europe.",
+      "I write self-paced playbooks for when you want clarity without a full engagement - positioning, launch planning and GTM on paper, ready to buy.",
   },
 ];
 

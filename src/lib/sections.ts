@@ -91,7 +91,7 @@ export const projectsSectionCopy = {
   count: "20+",
   description:
     "Selected work with product brands growing steadily: organic go-to-market, positioning and content that matters.",
-  cta: "View all clients",
+  cta: "View all",
   ctaHref: "/clients",
   homeLimit: 4,
 };
@@ -240,7 +240,7 @@ export const servicesItems = [
     number: "004",
     title: "Digital Guides",
     description:
-      "Self-paced playbooks when you want clarity without a full engagement - positioning, launch planning and GTM on paper, ready to buy or free if you find a nau QR across Europe.",
+      "I write self-paced playbooks for when you want clarity without a full engagement - positioning, launch planning and GTM on paper, ready to buy.",
     thumbnail: "/images/guides/travel-lake.jpg",
     categories: [
       "Organic marketing ideas",
@@ -311,7 +311,7 @@ export const pricingSectionCopy = {
   outcomeLabel: "Outcome",
   collaborationLabel: "Collaboration",
   includesLabel: "You get",
-  cta: "Work with me",
+  cta: "Purchase",
       contentAddonsLabel: "Add content",
   contentAddonsSummary: "Optional · keep Strategy only, or add UGC / team day",
   contentAddons: [
@@ -467,7 +467,7 @@ export const pricingSectionCopy = {
     outcome:
       "Self-paced playbooks when you want clarity without a full engagement. Pick a guide, apply it and move at your own speed.",
     delivery: "Instant download",
-    cta: "Explore packages",
+    cta: "Purchase",
     href: "/packages",
   },
 };
@@ -611,9 +611,9 @@ export const teamSectionCopy = {
   company: "nau studio",
   lead: "I work with founders who are great at the product, but still find growth harder than it should\u00A0be.",
   field:
-    "Together we get clear on who your new product is for, how to talk about it, and what content will actually earn attention - so growth feels steady, not\u00A0forced.",
+    "Together we get clear on who your new product is for, how to talk about it, and what content will actually earn attention - the sort that grows steadily instead of arriving in a panic.",
   proof:
-    "So the right people understand it faster - and find you without another paid push.",
+    "Then the right people understand it faster, and find you without another paid push whispering 'please notice us' into the void.",
   closeLead: "You bring the\u00A0expertise.",
   closeEmphasis: "I help turn it into\u00A0demand.",
   metrics: [
@@ -692,7 +692,7 @@ export const blogSectionCopy = {
   titleMuted: "from the blog.",
   description:
     "Organic growth, positioning and content that matters for brands that make things.",
-  cta: "Explore the blog",
+  cta: "Read",
   ctaHref: "/blog",
   brand: "nau",
   featuredTitle:
