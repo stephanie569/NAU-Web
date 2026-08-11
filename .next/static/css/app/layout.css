@@ -3538,6 +3538,11 @@
       min-height: 28rem;
     }
   }
+  .lg\:min-h-\[36rem\] {
+    @media (width >= 64rem) {
+      min-height: 36rem;
+    }
+  }
   .lg\:min-h-\[calc\(100\%\+2cm\)\] {
     @media (width >= 64rem) {
       min-height: calc(100% + 2cm);
@@ -3833,6 +3838,11 @@
       padding-block: calc(var(--spacing) * 4);
     }
   }
+  .lg\:py-8 {
+    @media (width >= 64rem) {
+      padding-block: calc(var(--spacing) * 8);
+    }
+  }
   .lg\:py-16 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 16);
@@ -3881,6 +3891,11 @@
   .lg\:text-right {
     @media (width >= 64rem) {
       text-align: right;
+    }
+  }
+  .xl\:min-h-\[40rem\] {
+    @media (width >= 80rem) {
+      min-height: 40rem;
     }
   }
   .xl\:grid-cols-4 {

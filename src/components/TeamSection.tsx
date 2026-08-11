@@ -160,12 +160,12 @@ export function TeamSection() {
         </div>
 
         <div className="grid w-full grid-cols-1 gap-8 rounded-[24px] bg-white p-5 md:gap-10 md:p-8 lg:grid-cols-2 lg:items-stretch lg:gap-10 lg:p-10">
-          <div className="flex min-w-0 flex-col">
-            <h3 className="max-w-[20ch] text-[clamp(1.45rem,2.6vw,1.95rem)] leading-[1.15] font-semibold tracking-[-0.045em] text-[#0a0a0a]">
+          <div className="flex min-w-0 flex-col justify-center py-2 lg:py-8">
+            <p className="max-w-[34rem] text-[15px] leading-relaxed font-semibold tracking-[-0.04em] text-pretty text-[#0a0a0a] md:text-[16px]">
               {title}
-            </h3>
+            </p>
 
-            <p className="mt-5 max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a] md:text-[16px]">
+            <p className="mt-4 max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a] md:text-[16px]">
               {lead}
             </p>
 
@@ -198,7 +198,7 @@ export function TeamSection() {
             </div>
           </div>
 
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-[440px] overflow-hidden rounded-[18px] bg-[#f0f0f0] lg:mx-0 lg:aspect-auto lg:h-full lg:min-h-0 lg:max-w-none">
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-[440px] overflow-hidden rounded-[18px] bg-[#f0f0f0] lg:mx-0 lg:aspect-auto lg:h-full lg:min-h-[36rem] lg:max-w-none xl:min-h-[40rem]">
             <Image
               src={imageSrc}
               alt={imageAlt}

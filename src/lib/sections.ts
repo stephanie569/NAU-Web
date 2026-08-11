@@ -607,7 +607,7 @@ export const teamSectionCopy = {
   sectionLabel: "Who I am",
   sectionTitleLead: "meet the",
   sectionTitle: "Founder.",
-  title: "Hi - I'm Stefani. Here's a bit about me.",
+  title: "Hi - I'm Stefani. It's good to have you here.",
   company: "nau studio",
   lead: "I work with founders who are great at the product, but still find growth harder than it should\u00A0be.",
   field:
