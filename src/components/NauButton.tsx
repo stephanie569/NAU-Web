@@ -1,5 +1,7 @@
+"use client";
+
 import Link from "next/link";
-import type { ButtonHTMLAttributes, MouseEventHandler, ReactNode } from "react";
+import type { ButtonHTMLAttributes, MouseEvent, MouseEventHandler, ReactNode } from "react";
 
 const baseClass =
   "inline-flex items-center gap-3 rounded-full py-1.5 pr-1.5 pl-4 text-[13px] font-semibold tracking-[-0.04em] transition-opacity hover:opacity-85";
@@ -23,7 +25,7 @@ type NauButtonProps = {
   children: ReactNode;
   className?: string;
   fullWidth?: boolean;
-  /** Pulsating electric cyan glow. Defaults to on for `href="/contact"` (Work with me). */
+  /** Pulsating electric cyan glow. Defaults to on for Work with me / contact links. */
   electric?: boolean;
   /** `dark` = menu style (black). `light` = inverted for dark backgrounds. */
   variant?: keyof typeof variants;
@@ -54,6 +56,34 @@ function NauButtonInner({
   );
 }
 
+function isContactHref(href?: string) {
+  return href === "/contact" || href === "/#contact" || href === "#contact";
+}
+
+function handleHashLinkClick(
+  event: MouseEvent<HTMLAnchorElement>,
+  href: string,
+  onClick?: MouseEventHandler<HTMLAnchorElement | HTMLButtonElement>,
+) {
+  onClick?.(event);
+  if (event.defaultPrevented) return;
+  if (!href.includes("#")) return;
+
+  const id = href.split("#")[1];
+  if (!id) return;
+
+  const onHome =
+    window.location.pathname === "/" || window.location.pathname === "";
+  if (!onHome && href.startsWith("/#")) return;
+
+  const target = document.getElementById(id);
+  if (!target) return;
+
+  event.preventDefault();
+  target.scrollIntoView({ behavior: "smooth" });
+  window.history.replaceState(null, "", `/#${id}`);
+}
+
 export function NauButton({
   children,
   className = "",
@@ -65,7 +95,7 @@ export function NauButton({
   onClick,
   ...rest
 }: NauButtonProps) {
-  const isElectric = electric ?? href === "/contact";
+  const isElectric = electric ?? isContactHref(href);
   const colors = variants[variant];
 
   const wantsFullWidth = fullWidth || /\bw-full\b/.test(className);
@@ -77,7 +107,11 @@ export function NauButton({
   }`.trim();
 
   const button = href ? (
-    <Link href={href} className={buttonClasses} onClick={onClick}>
+    <Link
+      href={href}
+      className={buttonClasses}
+      onClick={(event) => handleHashLinkClick(event, href, onClick)}
+    >
       <NauButtonInner variant={variant}>{children}</NauButtonInner>
     </Link>
   ) : (

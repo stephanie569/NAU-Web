@@ -181,7 +181,7 @@ export const projectsPageItems = [
 ];
 
 export const servicesSectionCopy = {
-  count: 2,
+  count: 4,
 };
 
 const img = (id: string, size = 280) =>
@@ -236,6 +236,22 @@ export const servicesItems = [
     ],
     extraCount: "6+",
   },
+  {
+    number: "004",
+    title: "Digital Guides",
+    description:
+      "Self-paced playbooks when you want clarity without a full engagement - positioning, launch planning and GTM on paper, ready to buy or free if you find a nau QR across Europe.",
+    thumbnail: "/images/guides/travel-lake.jpg",
+    categories: [
+      "Organic marketing ideas",
+      "Positioning workbook",
+      "Launch planning",
+      "Go-to-market playbook",
+      "Product validation",
+      "Research to launch",
+    ],
+    extraCount: "6+",
+  },
 ];
 
 export const testimonialsSectionCopy = {
@@ -287,8 +303,8 @@ export const testimonialsSectionCopy = {
 };
 
 export const pricingSectionCopy = {
-  label: "Simple pricing",
-  title: "Pricing.",
+  label: "Simple packages",
+  title: "Packages.",
   vatNote: "All prices excl. VAT.",
   recommendedBadge: "Recommended",
   deliveryLabel: "Delivery",
@@ -296,19 +312,18 @@ export const pricingSectionCopy = {
   collaborationLabel: "Collaboration",
   includesLabel: "You get",
   cta: "Work with me",
-  contentAddonsLabel: "Add content",
-  contentAddonsSummary: "Optional add-on",
+      contentAddonsLabel: "Add content",
+  contentAddonsSummary: "Optional · keep Strategy only, or add UGC / team day",
   contentAddons: [
     {
       id: "ugc-creator",
       title: "Remote UGC content",
       summary:
         "I create the content on camera - authentic UGC your brand can run across organic and paid. Shot remotely.",
-      price: "From +€900",
-      standalonePrice: "From €1,000",
+      price: "From +€1,200",
+      standalonePrice: "From €1,200",
       features: [
-        "1 remote shoot block",
-        "4-6 UGC-style short videos, edited (15-45s)",
+        "12 storytelling videos (one per week) as a series, edited (15-45s)",
         "Hooks and scripts aligned to your messaging",
         "Product-in-hand and talking-to-camera formats",
         "Captions and file handoff",
@@ -320,12 +335,12 @@ export const pricingSectionCopy = {
       title: "Team content",
       regionNote: "Europe only",
       summary:
-        "A full content day with founder, product and campaign video - shot on-site only.",
+        "Two full content days with founder, product and campaign video - shot on-site only.",
       price: "From +€1,400",
       standalonePrice: "From €1,400",
       features: [
-        "1 full-day content session (founder + product)",
-        "6-8 short-form videos, edited (15-45s)",
+        "2 full-day content sessions (founder + product)",
+        "12 short-form videos, edited (15-45s)",
         "1 product demo cut (60-90s)",
         "Website hero video + 3 campaign cuts",
         "Shot list, captions and file handoff",
@@ -334,50 +349,6 @@ export const pricingSectionCopy = {
     },
   ],
   packages: [
-    {
-      id: "launch-partner",
-      name: "Full launch",
-      price: "From €2,400",
-      originalPrice: "From €4,800",
-      discountLabel: "50% off",
-      unit: "",
-      forWhom: "Step 2 · Strategy, go-to-market and content included.",
-      delivery: "4-6 weeks",
-      recommended: true,
-      collaboration: [
-        "Free discovery call (30 min) before you commit",
-        "Kickoff workshop (90 min)",
-        "4 working sessions (60 min each)",
-        "Mid-point review (45 min)",
-        "Final walkthrough (60 min)",
-        "Async feedback in shared docs",
-        "2 revision rounds on the full pack",
-      ],
-      includes: [
-        "Everything in Strategy",
-        "Organic GTM plan, 5-10 pages: channels, sequence, owners",
-        "90-day launch roadmap with weekly milestones",
-        "Campaign strategy: 2-3 launch angles with hooks",
-        "Content strategy: pillars + 30-day calendar",
-        "Founder content plan: 8-12 shot / story ideas",
-        "Website messaging outline: home + 3 key pages",
-        "Creative direction notes (mood, references, formats)",
-        "Organic growth ideas list (15-20 tactics)",
-        "KPI sheet: what to measure in the first 90 days",
-        "Content production included - remote UGC or team content day",
-      ],
-      highlights: [
-        "Everything in Strategy",
-        "90-day GTM roadmap",
-        "Content included · UGC or team day",
-      ],
-      outcome: "A plan you can run week by week, with content included.",
-      allowsAddon: true,
-      contentAddonChoice: true,
-      contentAddonLabel: "Choose your content format",
-      contentAddonSummary: "Included in the price · pick one before you contact me",
-      contentIncluded: true,
-    },
     {
       id: "strategy-sprint",
       name: "Strategy sprint",
@@ -399,7 +370,7 @@ export const pricingSectionCopy = {
         "Competitor teardown: 5-8 brands",
         "2-3 customer personas with jobs-to-be-done",
         "Positioning one-pager (who it's for, why it wins)",
-        "Value proposition + messaging framework, 6-8 pages",
+        "Value proposition + messaging framework, 2 pages",
         "Tone of voice starter (do / don't examples)",
         "Recommendations brief with next steps (2-3 pages)",
       ],
@@ -413,11 +384,52 @@ export const pricingSectionCopy = {
       contentAddonChoice: true,
     },
     {
+      id: "launch-partner",
+      name: "Full launch",
+      price: "From €3,420",
+      originalPrice: "From €3,800",
+      discountLabel: "10% off",
+      unit: "",
+      forWhom: "Step 2 · Strategy, go-to-market and content included.",
+      delivery: "4-6 weeks",
+      recommended: true,
+      collaboration: [
+        "Free discovery call (30 min) before you commit",
+        "Kickoff workshop (90 min)",
+        "4 working sessions (60 min each)",
+        "Mid-point review (45 min)",
+        "Final walkthrough (60 min)",
+        "Async feedback in shared docs",
+        "2 revision rounds on the full pack",
+      ],
+      includes: [
+        "Everything in Strategy",
+        "Organic GTM plan, 5-10 pages: channels, sequence, owners",
+        "Campaign strategy: 2-3 launch angles with hooks",
+        "Website messaging outline: home + 3 key pages",
+        "Creative direction notes (mood, references, formats)",
+        "Organic growth ideas list (15-20 tactics)",
+        "KPI sheet: what to measure in the first 90 days",
+        "Content production included - remote UGC or team content day",
+      ],
+      highlights: [
+        "Everything in Strategy",
+        "90-day GTM roadmap",
+        "Content included · UGC or team day",
+      ],
+      outcome: "A plan you can run week by week, with content included.",
+      allowsAddon: true,
+      contentAddonChoice: true,
+      contentAddonLabel: "Choose your content format",
+      contentAddonSummary: "Included in the price · pick one before purchasing",
+      contentIncluded: true,
+    },
+    {
       id: "content-sprint",
       name: "Content sprint",
-      price: "From €1,000",
+      price: "From €1,200",
       unit: "",
-      forWhom: "Already have a plan? Video only.",
+      forWhom: "Step 3 · Already have a plan? Video only.",
       delivery: "1-2 weeks",
       recommended: false,
       collaboration: [
@@ -441,7 +453,7 @@ export const pricingSectionCopy = {
       allowsAddon: false,
       contentAddonChoice: true,
       contentAddonLabel: "Choose format",
-      contentAddonSummary: "Required · pick UGC or team day before you contact me",
+      contentAddonSummary: "Required · pick UGC or team day before purchasing",
       contentOnly: true,
     },
   ],
@@ -451,17 +463,17 @@ export const pricingSectionCopy = {
     eyebrow: "Self-paced",
     price: "From $19",
     forWhom:
-      "If you already have a strategy and you enjoy doing your content, but you need just a little reassurance and polishing - here is a portal to my store, where you can find digital guides created from me to you.",
+      "If you already have a strategy and you enjoy doing your content, but you need just a little reassurance and polishing - here is a portal to my packages, where you can find digital guides created from me to you.",
     outcome:
       "Self-paced playbooks when you want clarity without a full engagement. Pick a guide, apply it and move at your own speed.",
     delivery: "Instant download",
-    cta: "Explore the store",
-    href: "/store",
+    cta: "Explore packages",
+    href: "/packages",
   },
 };
 
 export const storeSectionCopy = {
-  title: "Store",
+  title: "Packages",
   subtitle: "Digital guides. Paid online - or free if you find a QR across Europe.",
   intro:
     "Self-paced strategy on paper before you hire anyone. Find a nau QR on a sticker somewhere across Europe and that same guide is free - say where you found it and I'll send the file.",
@@ -599,9 +611,9 @@ export const teamSectionCopy = {
   company: "nau studio",
   lead: "I work with founders who are great at the product, but still find growth harder than it should\u00A0be.",
   field:
-    "My work spans hospitality, outdoor products, adventure experiences and travel technology. I help brands sharpen positioning, find their audience and build organic growth around products worth talking\u00A0about.",
+    "Together we get clear on who your new product is for, how to talk about it, and what content will actually earn attention - so growth feels steady, not\u00A0forced.",
   proof:
-    "Along the way, I've helped turn early-stage ideas into market-ready products, reposition brands around clearer customer needs, build go-to-market strategies from scratch and launch new digital experiences. Where I go deepest is content: the plan, the making of it, or guiding your team through it, so the brand earns organic reach instead of buying\u00A0attention.",
+    "So the right people understand it faster - and find you without another paid push.",
   closeLead: "You bring the\u00A0expertise.",
   closeEmphasis: "I help turn it into\u00A0demand.",
   metrics: [
@@ -724,26 +736,24 @@ export const contactSectionCopy = {
   placeholders: {
     name: "John Doe",
     email: "you@brand.com",
-    message: "Tell me about the product and where growth feels stuck.",
+    message:
+      "Product, who it's for, where growth feels stuck, and a link if you have one.",
   },
   submit: "Send Message",
   legalLead: "By submitting, you agree to my",
-  legalLink: "Terms and Privacy Policy.",
+  termsLabel: "Terms",
+  privacyLabel: "Privacy Policy",
   headline: "Let's talk.",
   subheadline:
     "I work with brands that sell movement, escape and adventure - outdoor, travel, experiences and product brands that want steady organic growth.",
-  benefits: [
-    {
-      title: "Research to Content Creation.",
-      description:
-        "Research & Positioning, Marketing Strategy and Content Creation stay one 360 cycle - so the story matches the product and the growth plan holds.",
-    },
-    {
-      title: "A clear next step.",
-      description:
-        "Share a short note about your brand. I'll suggest whether you need clarity, a launch plan, or content that finally matches what you sell.",
-    },
+  prepLabel: "Include in your message",
+  prepItems: [
+    "The product and what stage it's at",
+    "Who it's for",
+    "Where growth feels stuck",
+    "A link to the website or deck",
   ],
+  replyNote: "I read every note before we talk and reply within 2 business days.",
 };
 
 export const contactPageCopy = {

@@ -14,8 +14,7 @@ export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/studio", label: "Studio" },
   { href: "/clients", label: "Clients" },
-  { href: "/#pricing", label: "Pricing" },
-  { href: "/store", label: "Store" },
+  { href: "/packages", label: "Packages" },
   { href: "/blog", label: "Blog" },
 ];
 
@@ -23,10 +22,8 @@ export const footerNavLinks = [
   { href: "/", label: "Home" },
   { href: "/studio", label: "Studio" },
   { href: "/clients", label: "Clients" },
-  { href: "/#pricing", label: "Pricing" },
-  { href: "/store", label: "Store" },
+  { href: "/packages", label: "Packages" },
   { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export const socialLinks = [
@@ -52,6 +49,12 @@ export const services = [
     title: "Content Creation",
     description:
       "I build the content plan, make the work, or guide your team-so the brand earns organic reach instead of buying attention.",
+  },
+  {
+    number: "004",
+    title: "Digital Guides",
+    description:
+      "Self-paced playbooks when you want clarity without a full engagement - ready to buy, or free if you find a nau QR across Europe.",
   },
 ];
 

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { ClientsSection } from "@/components/ClientsSection";
-import { ContactSection } from "@/components/ContactSection";
 import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
 import { siteConfig } from "@/lib/data";
@@ -381,12 +380,10 @@ export default function StudioPage() {
           </div>
 
           <div className="mt-10">
-            <NauButton href="/#pricing">See pricing</NauButton>
+            <NauButton href="/#packages">See packages</NauButton>
           </div>
         </div>
       </section>
-
-      <ContactSection />
     </>
   );
 }

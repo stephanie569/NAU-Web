@@ -35,8 +35,8 @@ export async function POST(request: Request) {
           },
         },
       ],
-      success_url: `${origin}/store?checkout=success&guide=${encodeURIComponent(guide.id)}`,
-      cancel_url: `${origin}/store?checkout=cancel&guide=${encodeURIComponent(guide.id)}`,
+      success_url: `${origin}/packages?checkout=success&guide=${encodeURIComponent(guide.id)}`,
+      cancel_url: `${origin}/packages?checkout=cancel&guide=${encodeURIComponent(guide.id)}`,
       metadata: {
         guideId: guide.id,
         guideTitle: guide.title,

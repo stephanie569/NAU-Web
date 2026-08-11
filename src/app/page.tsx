@@ -7,7 +7,6 @@ import { PricingSection } from "@/components/PricingSection";
 import { TeamSection } from "@/components/TeamSection";
 import { FAQSection } from "@/components/FAQSection";
 import { BlogPreviewSection } from "@/components/BlogPreviewSection";
-import { ContactSection } from "@/components/ContactSection";
 
 export default function HomePage() {
   return (
@@ -21,7 +20,6 @@ export default function HomePage() {
       <PricingSection />
       <FAQSection />
       <BlogPreviewSection />
-      <ContactSection />
     </>
   );
 }

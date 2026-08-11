@@ -1,53 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
 import { heroVideo } from "@/lib/hero";
 import { contactSectionCopy } from "@/lib/sections";
-
-function ClockIcon() {
-  return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" aria-hidden>
-      <circle
-        cx="12"
-        cy="12"
-        r="8"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-      />
-      <path
-        d="M12 8v4l2.5 2.5"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
-
-function StepsIcon() {
-  return (
-    <svg viewBox="0 0 24 24" className="h-4 w-4" aria-hidden>
-      <path
-        d="M4 18h4V14H4v4zm6-6h4v4h-4v-4zm6-8h4v4h-4V4z"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
-function BenefitIcon({ type }: { type: "clock" | "steps" }) {
-  return (
-    <span className="mb-4 flex h-9 w-9 items-center justify-center rounded-full border border-white/20 text-white">
-      {type === "clock" ? <ClockIcon /> : <StepsIcon />}
-    </span>
-  );
-}
 
 export function ContactSection() {
   const {
@@ -57,16 +14,20 @@ export function ContactSection() {
     placeholders,
     submit,
     legalLead,
-    legalLink,
+    termsLabel,
+    privacyLabel,
     headline,
     subheadline,
-    benefits,
+    prepLabel,
+    prepItems,
+    replyNote,
   } = contactSectionCopy;
 
   return (
     <section
+      id="contact"
       data-header-theme="dark"
-      className="relative overflow-hidden px-6 py-24 md:px-9 md:py-32"
+      className="relative min-h-[calc(100vh-61px)] scroll-mt-[61px] overflow-hidden px-6 py-16 md:px-9 md:py-20 lg:py-24"
     >
       <div className="absolute inset-0 bg-[#0a0a0a]">
         <div className="absolute inset-0 grayscale opacity-70">
@@ -81,24 +42,57 @@ export function ContactSection() {
             <source src={heroVideo} type="video/mp4" />
           </video>
         </div>
-        <div className="absolute inset-0 bg-[#0a0a0a]/35" />
+        <div className="absolute inset-0 bg-[#0a0a0a]/45" />
       </div>
 
-      <div className="relative mx-auto grid w-full max-w-[1520px] grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start lg:gap-12 xl:gap-16">
-        <div className="rounded-[20px] bg-white p-8 md:p-10">
+      <div className="relative mx-auto grid w-full max-w-[1200px] grid-cols-1 items-stretch gap-10 lg:grid-cols-2 lg:gap-14 xl:gap-16">
+        <div className="flex flex-col justify-between gap-10 lg:py-1">
+          <div>
+            <h1 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-white">
+              {headline}
+            </h1>
+            <p className="mt-5 max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-white/75 md:text-[16px]">
+              {subheadline}
+            </p>
+          </div>
+
+          <div className="max-w-[34rem]">
+            <p className="text-[12px] font-semibold uppercase tracking-[0.14em] text-white/45">
+              {prepLabel}
+            </p>
+            <ul className="mt-4 border-t border-white/15">
+              {prepItems.map((item) => (
+                <li
+                  key={item}
+                  className="border-b border-white/15 py-3.5 text-[15px] font-medium tracking-[-0.03em] text-white/85"
+                >
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="max-w-[34rem] border-t border-white/15 pt-6">
+            <p className="text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-white/55">
+              {replyNote}
+            </p>
+          </div>
+        </div>
+
+        <div className="flex h-full flex-col rounded-[20px] bg-white p-7 sm:p-8 md:p-9">
           <NauLogoMark size="xs" className="text-[#0a0a0a]" />
 
-          <h2 className="mt-8 text-[clamp(1.75rem,3vw,2.25rem)] leading-tight font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+          <h2 className="mt-7 text-[clamp(1.6rem,2.8vw,2.1rem)] leading-tight font-semibold tracking-[-0.055em] text-[#0a0a0a]">
             {formTitle}{" "}
-            <span className="text-[#0a0a0a]/60">{formTitleMuted}</span>
+            <span className="text-[#0a0a0a]/55">{formTitleMuted}</span>
           </h2>
 
           <form
-            className="mt-8 space-y-5"
+            className="mt-7 flex flex-1 flex-col gap-5"
             onSubmit={(event) => event.preventDefault()}
           >
             <label className="block">
-              <span className="mb-2 block text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+              <span className="mb-2 block text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
                 {fields.name}
               </span>
               <input
@@ -111,7 +105,7 @@ export function ContactSection() {
             </label>
 
             <label className="block">
-              <span className="mb-2 block text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+              <span className="mb-2 block text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
                 {fields.email}
               </span>
               <input
@@ -123,54 +117,42 @@ export function ContactSection() {
               />
             </label>
 
-            <label className="block">
-              <span className="mb-2 block text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+            <label className="flex flex-1 flex-col">
+              <span className="mb-2 block text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
                 {fields.message}
               </span>
               <textarea
                 name="message"
-                rows={5}
+                rows={6}
                 placeholder={placeholders.message}
-                className="w-full resize-none rounded-[10px] bg-[#f5f5f5] px-4 py-3.5 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none placeholder:text-[#0a0a0a]/35"
+                className="min-h-[9.5rem] w-full flex-1 resize-none rounded-[10px] bg-[#f5f5f5] px-4 py-3.5 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none placeholder:text-[#0a0a0a]/35"
               />
             </label>
 
-            <NauButton type="submit" fullWidth className="mt-2">
-              {submit}
-            </NauButton>
+            <div className="mt-auto pt-1">
+              <NauButton type="submit" fullWidth>
+                {submit}
+              </NauButton>
 
-            <p className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
-              {legalLead}{" "}
-              <span className="underline underline-offset-2">{legalLink}</span>
-            </p>
-          </form>
-        </div>
-
-        <div className="flex flex-col justify-between gap-12 lg:min-h-full lg:py-4">
-          <div>
-            <h2 className="text-[clamp(3rem,8vw,5.5rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white">
-              {headline}
-            </h2>
-            <p className="mt-6 max-w-[520px] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/80">
-              {subheadline}
-            </p>
-
-            <div className="mt-10 border-t border-white/15 pt-10">
-              <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
-                {benefits.map((benefit, index) => (
-                  <div key={benefit.title}>
-                    <BenefitIcon type={index === 0 ? "clock" : "steps"} />
-                    <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
-                      {benefit.title}
-                    </p>
-                    <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/60">
-                      {benefit.description}
-                    </p>
-                  </div>
-                ))}
-              </div>
+              <p className="mt-3 text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
+                {legalLead}{" "}
+                <Link
+                  href="/legal/terms"
+                  className="underline underline-offset-2"
+                >
+                  {termsLabel}
+                </Link>{" "}
+                and{" "}
+                <Link
+                  href="/legal/privacy"
+                  className="underline underline-offset-2"
+                >
+                  {privacyLabel}
+                </Link>
+                .
+              </p>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </section>

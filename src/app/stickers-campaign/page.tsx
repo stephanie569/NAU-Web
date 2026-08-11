@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
 
 export default function StickersCampaignRedirect() {
-  redirect("/store");
+  redirect("/packages");
 }

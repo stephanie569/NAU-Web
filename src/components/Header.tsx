@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState, type MouseEvent } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NauButton } from "@/components/NauButton";
 import { projectCount } from "@/lib/hero";
@@ -12,8 +12,7 @@ const HEADER_HEIGHT = 61;
 const navLinks = [
   { href: "/studio", label: "Studio" },
   { href: "/clients", label: "Clients", count: projectCount },
-  { href: "/#pricing", label: "Pricing" },
-  { href: "/store", label: "Store" },
+  { href: "/packages", label: "Packages" },
   { href: "/blog", label: "Blog" },
 ];
 
@@ -73,21 +72,6 @@ function HomeLink({
   );
 }
 
-function handlePricingClick(
-  event: MouseEvent<HTMLAnchorElement>,
-  href: string,
-  pathname: string,
-) {
-  if (!href.startsWith("/#") || pathname !== "/") return;
-
-  const id = href.split("#")[1];
-  if (!id) return;
-
-  event.preventDefault();
-  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-  window.history.replaceState(null, "", `/#${id}`);
-}
-
 export function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -134,7 +118,6 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              onClick={(event) => handlePricingClick(event, link.href, pathname)}
               className={`shrink-0 text-[15px] font-medium tracking-[-0.04em] transition-opacity ${linkClass}`}
             >
               {link.label}
@@ -186,10 +169,7 @@ export function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  onClick={(event) => {
-                    handlePricingClick(event, link.href, pathname);
-                    setMenuOpen(false);
-                  }}
+                  onClick={() => setMenuOpen(false)}
                   className={`py-3 text-[15px] font-medium tracking-[-0.04em] ${
                     isDark ? "text-white" : "text-[#0a0a0a]"
                   }`}

@@ -49,21 +49,23 @@ function CountUpMetric({
   active: boolean;
 }) {
   const { target, prefix, suffix } = parseMetricValue(value);
-  const [display, setDisplay] = useState(1);
+  const [display, setDisplay] = useState(target);
   const startedRef = useRef(false);
 
   useEffect(() => {
     if (!active || startedRef.current) return;
     startedRef.current = true;
 
+    const from = target > 1 ? 1 : 0;
     const duration = 1200;
     const start = performance.now();
     let frame = 0;
+    setDisplay(from);
 
     const tick = (now: number) => {
       const progress = Math.min((now - start) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      setDisplay(1 + (target - 1) * eased);
+      setDisplay(from + (target - from) * eased);
 
       if (progress < 1) {
         frame = requestAnimationFrame(tick);
@@ -78,12 +80,12 @@ function CountUpMetric({
 
   return (
     <li className="min-w-0">
-      <p className="flex items-baseline gap-1.5 tracking-[-0.04em] text-[#0a0a0a]">
-        <span className="text-[22px] font-semibold tabular-nums md:text-[26px]">
+      <p className="tracking-[-0.04em] text-[#0a0a0a]">
+        <span className="block text-[22px] font-semibold tabular-nums md:text-[26px]">
           {prefix}
           {formatCountedValue(display, suffix)}
         </span>
-        <span className="text-[12px] font-medium tracking-[-0.03em] text-[#0a0a0a]/45 md:text-[13px]">
+        <span className="mt-1 block text-[12px] font-medium tracking-[-0.03em] text-[#0a0a0a]/45 md:text-[13px]">
           {label}
         </span>
       </p>
@@ -124,7 +126,7 @@ export function TeamSection() {
           observer.disconnect();
         }
       },
-      { threshold: 0.2, rootMargin: "0px 0px 15% 0px" },
+      { threshold: 0, rootMargin: "0px 0px -10% 0px" },
     );
 
     observer.observe(node);
@@ -134,7 +136,7 @@ export function TeamSection() {
   return (
     <section
       id="work-with-me"
-      className="box-border flex min-h-[calc(100svh-61px)] flex-col justify-center bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-12"
+      className="box-border bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-14"
     >
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="mb-6 grid grid-cols-1 items-center gap-4 lg:mb-7 lg:grid-cols-3 lg:gap-4">
@@ -157,50 +159,52 @@ export function TeamSection() {
           <div className="order-3 hidden lg:block" aria-hidden />
         </div>
 
-        <div className="grid w-full grid-cols-1 gap-8 rounded-[24px] bg-white p-5 md:gap-10 md:p-8 lg:grid-cols-[3fr_2fr] lg:items-stretch lg:gap-12 lg:p-10">
-          <div className="flex min-w-0 flex-col gap-6">
-            <div className="max-w-[36rem]">
-              <h3 className="text-[clamp(1.35rem,2.4vw,1.85rem)] leading-snug font-medium tracking-[-0.04em] text-[#0a0a0a]">
-                {title}
-              </h3>
+        <div className="grid w-full grid-cols-1 gap-8 rounded-[24px] bg-white p-5 md:gap-10 md:p-8 lg:grid-cols-2 lg:items-stretch lg:gap-10 lg:p-10">
+          <div className="flex min-w-0 flex-col">
+            <h3 className="max-w-[20ch] text-[clamp(1.45rem,2.6vw,1.95rem)] leading-[1.15] font-semibold tracking-[-0.045em] text-[#0a0a0a]">
+              {title}
+            </h3>
 
-              <div className="mt-4 space-y-3.5 text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-pretty md:text-[15px]">
-                <p className="text-[#0a0a0a]">{lead}</p>
-                <p className="text-[#0a0a0a]/60">{field}</p>
-                <p className="text-[#0a0a0a]/60">{proof}</p>
-                <p className="text-[#0a0a0a]">
-                  {closeLead}{" "}
-                  <span className="font-semibold">{closeEmphasis}</span>
-                </p>
-              </div>
+            <p className="mt-5 max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a] md:text-[16px]">
+              {lead}
+            </p>
 
-              <ul
-                ref={metricsRef}
-                className="mt-6 flex flex-wrap gap-x-6 gap-y-2 border-t border-[#0a0a0a]/8 pt-5"
-              >
-                {metrics.map((metric) => (
-                  <CountUpMetric
-                    key={metric.label}
-                    value={metric.value}
-                    label={metric.label}
-                    active={metricsActive}
-                  />
-                ))}
-              </ul>
+            <div className="mt-5 max-w-[34rem] space-y-3 border-l-2 border-[#0a0a0a]/10 pl-4 text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/55 md:text-[15px]">
+              <p>{field}</p>
+              <p>{proof}</p>
             </div>
 
-            <div className="shrink-0">
+            <p className="mt-6 max-w-[34rem] text-[15px] leading-snug font-medium tracking-[-0.04em] text-[#0a0a0a] md:text-[16px]">
+              {closeLead}{" "}
+              <span className="font-semibold">{closeEmphasis}</span>
+            </p>
+
+            <ul
+              ref={metricsRef}
+              className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 border-t border-[#0a0a0a]/10 pt-6 sm:grid-cols-4"
+            >
+              {metrics.map((metric) => (
+                <CountUpMetric
+                  key={metric.label}
+                  value={metric.value}
+                  label={metric.label}
+                  active={metricsActive}
+                />
+              ))}
+            </ul>
+
+            <div className="mt-8">
               <NauButton href={careers.href}>{careers.cta}</NauButton>
             </div>
           </div>
 
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-[360px] overflow-hidden rounded-[18px] bg-[#f0f0f0] lg:mx-0 lg:aspect-auto lg:h-auto lg:min-h-full lg:max-w-none">
+          <div className="relative mx-auto aspect-[3/4] w-full max-w-[440px] overflow-hidden rounded-[18px] bg-[#f0f0f0] lg:mx-0 lg:aspect-auto lg:h-full lg:min-h-0 lg:max-w-none">
             <Image
               src={imageSrc}
               alt={imageAlt}
               fill
-              className="object-cover object-[center_72%]"
-              sizes="(max-width: 1024px) 360px, 40vw"
+              className="object-cover object-center"
+              sizes="(max-width: 1024px) 440px, 50vw"
               priority={false}
             />
 

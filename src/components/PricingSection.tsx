@@ -210,18 +210,56 @@ function ContentFormatPicker({
           <span className="inline-flex items-center rounded-full border border-white/20 bg-white/[0.06] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.1em] text-white/70">
             Required
           </span>
-        ) : null}
+        ) : (
+          <span className="inline-flex items-center rounded-full border border-white/12 bg-white/[0.04] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.1em] text-white/45">
+            Optional
+          </span>
+        )}
       </div>
-      {hint ? (
+      {(hint || !required) ? (
         <p
           className={`mt-1 text-[12px] font-medium tracking-[-0.03em] ${
             needsChoice ? "text-white/70" : "text-white/40"
           }`}
         >
-          {hint}
+          {required
+            ? hint
+            : hint ||
+              "Optional · skip to keep strategy only. Tap a selected option again to clear."}
         </p>
       ) : null}
       <div className="mt-2.5 flex flex-col gap-1.5">
+        {!required ? (
+          <button
+            type="button"
+            onClick={() => {
+              setExpandedId(null);
+              onSelect(null);
+            }}
+            aria-pressed={selectedId === null}
+            className={`flex w-full items-center gap-3 rounded-[14px] border px-3.5 py-2.5 text-left transition-colors hover:bg-white/[0.03] ${
+              selectedId === null
+                ? "border-white/40 bg-white/[0.1]"
+                : "border-white/10 bg-white/[0.02]"
+            }`}
+          >
+            <span
+              aria-hidden
+              className={`flex h-4 w-4 shrink-0 items-center justify-center rounded-full border ${
+                selectedId === null
+                  ? "border-white bg-white"
+                  : "border-white/35 bg-transparent"
+              }`}
+            >
+              {selectedId === null ? (
+                <span className="h-1.5 w-1.5 rounded-full bg-[#0a0a0a]" />
+              ) : null}
+            </span>
+            <p className="text-[14px] font-semibold tracking-[-0.04em] text-white">
+              Strategy only · no content
+            </p>
+          </button>
+        ) : null}
         {options.map((option) => {
           const selected = selectedId === option.id;
           const expanded = expandedId === option.id;
@@ -248,8 +286,13 @@ function ContentFormatPicker({
               <button
                 type="button"
                 onClick={() => {
-                  if (expanded) {
-                    setExpandedId(null);
+                  if (selected) {
+                    if (!required) {
+                      setExpandedId(null);
+                      onSelect(null);
+                      return;
+                    }
+                    setExpandedId(expanded ? null : option.id);
                     return;
                   }
                   setExpandedId(option.id);
@@ -532,20 +575,15 @@ export function PricingSection() {
     Record<string, string | null>
   >({});
 
-  const isGuides = activeId === storeTeaser.id;
-
   const activePackage = useMemo(
     () => packages.find((pkg) => pkg.id === activeId) ?? packages[0],
     [activeId, packages],
   );
 
   const isContentOnly =
-    !isGuides &&
-    "contentOnly" in activePackage &&
-    activePackage.contentOnly === true;
+    "contentOnly" in activePackage && activePackage.contentOnly === true;
 
   const isContentIncluded =
-    !isGuides &&
     "contentIncluded" in activePackage &&
     activePackage.contentIncluded === true;
 
@@ -554,210 +592,218 @@ export function PricingSection() {
   );
 
   const usesContentChoice =
-    !isGuides &&
     "contentAddonChoice" in activePackage &&
     activePackage.contentAddonChoice === true;
 
   const contentChoiceRequired =
     usesContentChoice && (isContentIncluded || isContentOnly);
-  const canContact =
-    !contentChoiceRequired || Boolean(selectedContent);
+  const canContact = !contentChoiceRequired || Boolean(selectedContent);
 
-  const menuItems = [
-    ...packages.map((pkg) => ({
-      id: pkg.id,
-      name: pkg.name,
-      recommended: pkg.recommended,
-      discountLabel:
-        "discountLabel" in pkg ? pkg.discountLabel : undefined,
-    })),
-    {
-      id: storeTeaser.id,
-      name: storeTeaser.name,
-      recommended: false,
-    },
-  ];
+  const menuItems = packages.map((pkg) => ({
+    id: pkg.id,
+    name: pkg.name,
+    recommended: pkg.recommended,
+    discountLabel: "discountLabel" in pkg ? pkg.discountLabel : undefined,
+  }));
 
   useEffect(() => {
     setDetailsOpen(false);
   }, [activeId]);
 
   return (
-    <section
-      id="pricing"
-      data-header-theme="dark"
-      className="relative scroll-mt-[61px] overflow-x-hidden bg-[#0a0a0a] px-6 py-16 md:px-9 md:py-20 lg:py-24"
-    >
-      <NoiseOverlay />
+    <>
+      <section
+        id="packages"
+        data-header-theme="dark"
+        className="relative scroll-mt-[61px] overflow-x-hidden bg-[#0a0a0a] px-6 pt-16 pb-10 md:px-9 md:pt-20 md:pb-12 lg:pt-24 lg:pb-14"
+      >
+        <NoiseOverlay />
 
-      <div className="relative mx-auto w-full max-w-[1520px]">
-        <div className="mb-8 flex items-center gap-3 md:mb-10">
-          <PlusBadge />
-          <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
-            {label}
-          </p>
-        </div>
+        <div className="relative mx-auto w-full max-w-[1520px]">
+          <div className="mb-8 flex items-center gap-3 md:mb-10">
+            <PlusBadge />
+            <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
+              {label}
+            </p>
+          </div>
 
-        <div className="mb-8 text-center md:mb-10">
-          <h2 className="text-[clamp(3.25rem,8vw,5.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
-            {title}
-          </h2>
-        </div>
+          <div className="mb-8 text-center md:mb-10">
+            <h2 className="text-[clamp(3.25rem,8vw,5.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
+              {title}
+            </h2>
+          </div>
 
-        <div className="mb-5 flex justify-center lg:mb-6">
-          <div className="flex max-w-full gap-1 overflow-x-auto rounded-full bg-white/[0.06] p-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-            {menuItems.map((item) => {
-              const active = item.id === activeId;
-              return (
-                <button
-                  key={item.id}
-                  type="button"
-                  onClick={() => setActiveId(item.id)}
-                  className={`relative shrink-0 rounded-full px-3.5 py-2 text-[13px] font-medium tracking-[-0.04em] transition-colors sm:px-5 sm:py-2.5 sm:text-[14px] ${
-                    active
-                      ? "pricing-tab-active"
-                      : item.recommended
-                        ? "text-white/70 ring-1 ring-inset ring-white/10 hover:text-white/90"
-                        : "text-white/55 hover:text-white/80"
-                  }`}
-                >
-                  <span className="inline-flex items-center gap-1.5 whitespace-nowrap">
-                    {item.name}
-                    {"discountLabel" in item && item.discountLabel ? (
-                      <span
-                        className={`inline-flex shrink-0 items-center rounded-full border px-1.5 py-0.5 text-[10px] font-semibold tracking-[-0.02em] sm:px-2 ${
-                          active
-                            ? "pricing-discount-on-active"
-                            : "border-white/12 bg-white/[0.05] text-white/65"
-                        }`}
-                      >
-                        {item.discountLabel}
-                      </span>
-                    ) : null}
-                    {item.recommended && !active ? (
-                      <span className="text-[10px] font-normal tracking-normal text-white/30">
-                        · full path
-                      </span>
-                    ) : null}
-                  </span>
-                </button>
-              );
-            })}
+          <div className="mb-5 flex justify-center lg:mb-6">
+            <div className="flex max-w-full gap-1 overflow-x-auto rounded-full bg-white/[0.06] p-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+              {menuItems.map((item) => {
+                const active = item.id === activeId;
+                return (
+                  <button
+                    key={item.id}
+                    type="button"
+                    onClick={() => setActiveId(item.id)}
+                    className={`relative shrink-0 rounded-full px-3.5 py-2 text-[13px] font-medium tracking-[-0.04em] transition-colors sm:px-5 sm:py-2.5 sm:text-[14px] ${
+                      active
+                        ? "pricing-tab-active"
+                        : item.recommended
+                          ? "text-white/70 ring-1 ring-inset ring-white/10 hover:text-white/90"
+                          : "text-white/55 hover:text-white/80"
+                    }`}
+                  >
+                    <span className="inline-flex items-center gap-1.5 whitespace-nowrap">
+                      {item.name}
+                      {"discountLabel" in item && item.discountLabel ? (
+                        <span
+                          className={`inline-flex shrink-0 items-center rounded-full border px-1.5 py-0.5 text-[10px] font-semibold tracking-[-0.02em] sm:px-2 ${
+                            active
+                              ? "pricing-discount-on-active"
+                              : "border-white/12 bg-white/[0.05] text-white/65"
+                          }`}
+                        >
+                          {item.discountLabel}
+                        </span>
+                      ) : null}
+                      {item.recommended && !active ? (
+                        <span className="text-[10px] font-normal tracking-normal text-white/30">
+                          · full path
+                        </span>
+                      ) : null}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="overflow-visible rounded-[20px] bg-white/[0.04]">
+            <PackagePanel
+              pkg={activePackage}
+              recommendedBadge={recommendedBadge}
+              outcomeLabel={outcomeLabel}
+              collaborationLabel={collaborationLabel}
+              includesLabel={includesLabel}
+              vatNote={vatNote}
+              contentAddons={contentAddons}
+              contentAddonsLabel={contentAddonsLabel}
+              contentAddonsSummary={contentAddonsSummary}
+              selectedContentId={contentSelection[activePackage.id] ?? null}
+              onSelectContent={(id) =>
+                setContentSelection((prev) => ({
+                  ...prev,
+                  [activePackage.id]: id,
+                }))
+              }
+              detailsOpen={detailsOpen}
+              onToggleDetails={() => setDetailsOpen((open) => !open)}
+            />
+
+            <div className="flex flex-col gap-4 overflow-visible border-t border-white/10 px-5 py-4 sm:px-6 md:px-7 lg:flex-row lg:items-center lg:justify-between lg:gap-8 lg:px-8">
+              <div className="flex flex-wrap items-center gap-x-8 gap-y-2 text-[14px] font-medium tracking-[-0.04em] md:text-[15px]">
+                <div className="flex items-center gap-3">
+                  <span className="text-white/60">{deliveryLabel}</span>
+                  <span className="text-white">{activePackage.delivery}</span>
+                </div>
+                {usesContentChoice &&
+                selectedContent &&
+                !isContentOnly &&
+                !isContentIncluded ? (
+                  <div className="flex items-center gap-3">
+                    <span className="text-white/60">Content</span>
+                    <PriceLine
+                      price={selectedContent.price}
+                      discountLabel={
+                        "discountLabel" in selectedContent &&
+                        typeof selectedContent.discountLabel === "string"
+                          ? selectedContent.discountLabel
+                          : undefined
+                      }
+                      size="small"
+                    />
+                  </div>
+                ) : null}
+              </div>
+              <div className="flex w-full shrink-0 flex-col items-stretch gap-2 lg:w-auto lg:items-end lg:justify-self-end">
+                {contentChoiceRequired && !canContact ? (
+                  <p className="text-[12px] font-medium tracking-[-0.03em] text-white/55 lg:text-right">
+                    Choose UGC or team day before purchasing
+                  </p>
+                ) : null}
+                {canContact ? (
+                    <NauButton href="/contact" variant="light">
+                    {cta}
+                  </NauButton>
+                ) : (
+                  <NauButton
+                    variant="light"
+                    disabled
+                    aria-disabled
+                    className="cursor-not-allowed opacity-40"
+                  >
+                    {cta}
+                  </NauButton>
+                )}
+              </div>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div className="overflow-visible rounded-[20px] bg-white/[0.04]">
-          {isGuides ? (
-            <>
-              <div className="grid items-start gap-6 p-5 sm:p-6 lg:grid-cols-2 lg:gap-8 lg:p-7 xl:p-8">
-                <div className="flex flex-col">
-                  <p className="mb-3 text-[12px] font-semibold uppercase tracking-[0.12em] text-white/45">
-                    {storeTeaser.eyebrow}
+      <section
+        id="digital-guides"
+        data-header-theme="dark"
+        className="relative scroll-mt-[61px] overflow-x-hidden bg-[#0a0a0a] px-6 pt-6 pb-16 md:px-9 md:pt-8 md:pb-20 lg:pt-10 lg:pb-24"
+      >
+        <NoiseOverlay />
+
+        <div className="relative mx-auto w-full max-w-[1520px]">
+          <div className="mb-6 flex items-center gap-3 md:mb-8">
+            <PlusBadge />
+            <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
+              {storeTeaser.eyebrow}
+            </p>
+          </div>
+
+          <div className="mb-6 text-center md:mb-8">
+            <h2 className="text-[clamp(2.5rem,6vw,4.25rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-white">
+              {storeTeaser.name}.
+            </h2>
+          </div>
+
+          <div className="overflow-visible rounded-[20px] bg-white/[0.04]">
+            <div className="grid items-start gap-6 p-5 sm:p-6 lg:grid-cols-2 lg:gap-8 lg:p-7 xl:p-8">
+              <div className="flex flex-col">
+                <h3 className="text-[clamp(1.65rem,3.2vw,2.35rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
+                  {storeTeaser.price}
+                </h3>
+                <p className="mt-4 max-w-xl text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-white/65 md:text-[15px]">
+                  {storeTeaser.forWhom}
+                </p>
+                <div className="mt-6 border-t border-white/10 pt-5">
+                  <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/40">
+                    {outcomeLabel}
                   </p>
-                  <h3 className="text-[clamp(1.65rem,3.2vw,2.35rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
-                    {storeTeaser.price}
-                  </h3>
-                  <p className="mt-4 max-w-xl text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-white/65 md:text-[15px]">
-                    {storeTeaser.forWhom}
+                  <p className="mt-2.5 text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-white md:text-[15px]">
+                    {storeTeaser.outcome}
                   </p>
-                  <div className="mt-6 border-t border-white/10 pt-5">
-                    <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/40">
-                      {outcomeLabel}
-                    </p>
-                    <p className="mt-2.5 text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-white md:text-[15px]">
-                      {storeTeaser.outcome}
-                    </p>
-                  </div>
                 </div>
-                <GuideShowcase guides={storeSectionCopy.items} />
               </div>
+              <GuideShowcase guides={storeSectionCopy.items} />
+            </div>
 
-              <div className="flex flex-col gap-4 overflow-visible border-t border-white/10 px-5 py-4 sm:px-6 md:px-7 lg:flex-row lg:items-center lg:justify-between lg:gap-8 lg:px-8">
-                <div className="flex items-center gap-3 text-[14px] font-medium tracking-[-0.04em] md:text-[15px]">
-                  <span className="text-white/60">{deliveryLabel}</span>
-                  <span className="text-white">{storeTeaser.delivery}</span>
-                </div>
-                <div className="w-full shrink-0 lg:w-auto lg:justify-self-end">
-                  <NauButton href={storeTeaser.href} variant="light">
-                    {storeTeaser.cta}
-                  </NauButton>
-                </div>
+            <div className="flex flex-col gap-4 overflow-visible border-t border-white/10 px-5 py-4 sm:px-6 md:px-7 lg:flex-row lg:items-center lg:justify-between lg:gap-8 lg:px-8">
+              <div className="flex items-center gap-3 text-[14px] font-medium tracking-[-0.04em] md:text-[15px]">
+                <span className="text-white/60">{deliveryLabel}</span>
+                <span className="text-white">{storeTeaser.delivery}</span>
               </div>
-            </>
-          ) : (
-            <>
-              <PackagePanel
-                pkg={activePackage}
-                recommendedBadge={recommendedBadge}
-                outcomeLabel={outcomeLabel}
-                collaborationLabel={collaborationLabel}
-                includesLabel={includesLabel}
-                vatNote={vatNote}
-                contentAddons={contentAddons}
-                contentAddonsLabel={contentAddonsLabel}
-                contentAddonsSummary={contentAddonsSummary}
-                selectedContentId={contentSelection[activePackage.id] ?? null}
-                onSelectContent={(id) =>
-                  setContentSelection((prev) => ({
-                    ...prev,
-                    [activePackage.id]: id,
-                  }))
-                }
-                detailsOpen={detailsOpen}
-                onToggleDetails={() => setDetailsOpen((open) => !open)}
-              />
-
-              <div className="flex flex-col gap-4 overflow-visible border-t border-white/10 px-5 py-4 sm:px-6 md:px-7 lg:flex-row lg:items-center lg:justify-between lg:gap-8 lg:px-8">
-                <div className="flex flex-wrap items-center gap-x-8 gap-y-2 text-[14px] font-medium tracking-[-0.04em] md:text-[15px]">
-                  <div className="flex items-center gap-3">
-                    <span className="text-white/60">{deliveryLabel}</span>
-                    <span className="text-white">{activePackage.delivery}</span>
-                  </div>
-                  {usesContentChoice &&
-                  selectedContent &&
-                  !isContentOnly &&
-                  !isContentIncluded ? (
-                    <div className="flex items-center gap-3">
-                      <span className="text-white/60">Content</span>
-                      <PriceLine
-                        price={selectedContent.price}
-                        discountLabel={
-                          "discountLabel" in selectedContent &&
-                          typeof selectedContent.discountLabel === "string"
-                            ? selectedContent.discountLabel
-                            : undefined
-                        }
-                        size="small"
-                      />
-                    </div>
-                  ) : null}
-                </div>
-                <div className="flex w-full shrink-0 flex-col items-stretch gap-2 lg:w-auto lg:items-end lg:justify-self-end">
-                  {contentChoiceRequired && !canContact ? (
-                    <p className="text-[12px] font-medium tracking-[-0.03em] text-white/55 lg:text-right">
-                      Choose UGC or team day before contacting me
-                    </p>
-                  ) : null}
-                  {canContact ? (
-                    <NauButton href="/contact" variant="light">
-                      {cta}
-                    </NauButton>
-                  ) : (
-                    <NauButton
-                      variant="light"
-                      disabled
-                      aria-disabled
-                      className="cursor-not-allowed opacity-40"
-                    >
-                      {cta}
-                    </NauButton>
-                  )}
-                </div>
+              <div className="w-full shrink-0 lg:w-auto lg:justify-self-end">
+                <NauButton href={storeTeaser.href} variant="light">
+                  {storeTeaser.cta}
+                </NauButton>
               </div>
-            </>
-          )}
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
