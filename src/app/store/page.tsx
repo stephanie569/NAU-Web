@@ -1,4 +1,5 @@
 import { NauButton } from "@/components/NauButton";
+import { BuyGuideButton } from "@/components/BuyGuideButton";
 import { PageHero } from "@/components/ui";
 import { siteConfig } from "@/lib/data";
 import { storeSectionCopy } from "@/lib/sections";
@@ -12,21 +13,17 @@ function FeaturePlusIcon() {
   );
 }
 
-function buyMailto(title: string, price: string) {
-  return `mailto:${siteConfig.email}?subject=${encodeURIComponent(
-    `Guide: ${title}`,
-  )}&body=${encodeURIComponent(
-    `Hi Stefani,\n\nI'd like the ${title} (${price}).\n\nThanks.`,
-  )}`;
-}
-
 const qrMailto = `mailto:${siteConfig.email}?subject=${encodeURIComponent(
   "Found a QR - free guide",
 )}&body=${encodeURIComponent(
   "Hi Stefani,\n\nI found a nau QR code.\n\nWhere: \nWhich guide I'd like: \n\nThanks.",
 )}`;
 
-export default function StorePage() {
+export default async function StorePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ checkout?: string; guide?: string }>;
+}) {
   const {
     title,
     subtitle,
@@ -38,6 +35,10 @@ export default function StorePage() {
     cta,
     items,
   } = storeSectionCopy;
+
+  const params = await searchParams;
+  const checkoutState = params.checkout;
+  const checkoutGuide = items.find((item) => item.id === params.guide);
 
   return (
     <>
@@ -52,6 +53,30 @@ export default function StorePage() {
             <p className="mt-4 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
               {stickers}
             </p>
+
+            {checkoutState === "success" ? (
+              <div className="mt-6 rounded-[16px] border border-[#0a0a0a]/10 bg-white px-5 py-4">
+                <p className="text-[14px] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
+                  Payment received
+                  {checkoutGuide ? ` · ${checkoutGuide.title}` : ""}
+                </p>
+                <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
+                  Thanks - I&apos;ll email your guide shortly. This is test mode
+                  until you switch Stripe to live keys.
+                </p>
+              </div>
+            ) : null}
+
+            {checkoutState === "cancel" ? (
+              <div className="mt-6 rounded-[16px] border border-[#0a0a0a]/10 bg-white px-5 py-4">
+                <p className="text-[14px] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
+                  Checkout cancelled
+                </p>
+                <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
+                  No charge was made. Pick a guide whenever you&apos;re ready.
+                </p>
+              </div>
+            ) : null}
 
             <div className="mt-8 flex flex-col gap-3 rounded-[16px] border border-[#0a0a0a]/10 bg-white px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
@@ -95,9 +120,7 @@ export default function StorePage() {
                     <p className="text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a] tabular-nums">
                       {guide.price}
                     </p>
-                    <NauButton href={buyMailto(guide.title, guide.price)}>
-                      {cta}
-                    </NauButton>
+                    <BuyGuideButton guideId={guide.id} label={cta} />
                   </div>
                 </li>
               ))}

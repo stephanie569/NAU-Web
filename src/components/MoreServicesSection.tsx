@@ -17,7 +17,7 @@ export function MoreServicesSection() {
   const { label, headlineLead, headlineRest, contact } = moreServicesSectionCopy;
 
   return (
-    <section className="relative overflow-hidden bg-[#0a0a0a] px-6 pb-[110px] pt-0 md:px-9 md:pb-[130px]">
+    <section className="relative overflow-hidden bg-[#0a0a0a] px-6 pb-16 pt-0 md:px-9 md:pb-20" data-header-theme="dark">
       <NoiseOverlay />
 
       <div className="relative mx-auto w-full max-w-[1520px]">

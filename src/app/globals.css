@@ -121,6 +121,18 @@
   animation: nau-electric-pulse-light 2.8s ease-in-out infinite;
 }
 
+/* Keep active pricing tabs readable on dark sections in both themes */
+.pricing-tab-active {
+  background-color: #ffffff !important;
+  color: #0a0a0a !important;
+}
+
+.pricing-discount-on-active {
+  border-color: rgb(10 10 10 / 0.18) !important;
+  background-color: rgb(10 10 10 / 0.06) !important;
+  color: #0a0a0a !important;
+}
+
 html {
   scroll-behavior: smooth;
 }

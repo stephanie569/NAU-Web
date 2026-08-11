@@ -156,12 +156,12 @@ export function ServicesSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="relative overflow-hidden bg-[#121212] px-6 pb-28 md:px-9">
+    <section className="relative overflow-hidden bg-[#121212] px-6 pb-16 md:px-9 md:pb-20">
       <NoiseOverlay />
 
       <div className="relative mx-auto w-full max-w-[1520px]">
-        <div className="border-b border-white/10 py-[110px] md:py-[130px]">
-          <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-3 lg:gap-4">
+        <div className="border-b border-white/10 py-10 md:py-12">
+          <div className="grid grid-cols-1 items-center gap-4 lg:grid-cols-3 lg:gap-4">
             <div className="flex items-center justify-center gap-3 lg:justify-self-start">
               <PlusBadge />
               <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
@@ -170,9 +170,9 @@ export function ServicesSection() {
             </div>
 
             <div className="text-center">
-              <h2 className="text-[clamp(4rem,12vw,9rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
+              <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
                 Services.
-                <sup className="ml-2 align-super text-[clamp(1rem,2vw,1.375rem)] font-semibold tracking-[-0.06em] text-white/60">
+                <sup className="ml-2 align-super text-[clamp(0.9rem,1.6vw,1.15rem)] font-semibold tracking-[-0.06em] text-white/60">
                   ({servicesSectionCopy.count})
                 </sup>
               </h2>

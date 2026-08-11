@@ -88,7 +88,7 @@ export const featuredProjects = [
 ];
 
 export const projectsSectionCopy = {
-  count: 27,
+  count: "20+",
   description:
     "Selected work with product brands growing steadily: organic go-to-market, positioning and content that matters.",
   cta: "View all clients",
@@ -181,7 +181,7 @@ export const projectsPageItems = [
 ];
 
 export const servicesSectionCopy = {
-  count: 3,
+  count: 2,
 };
 
 const img = (id: string, size = 280) =>
@@ -245,10 +245,10 @@ export const testimonialsSectionCopy = {
   summary: {
     rating: "4.9",
     suffix: "/5",
-    highlight: "27+ projects",
+    highlight: "20+ projects",
     text: "with product brands that needed organic growth plans and content that matched the product.",
     intro: "I've worked on",
-    projectCount: "27+",
+    projectCount: "20+",
     trustedBy: "Trusted by brands in movement, escape and adventure",
     cta: "Work with me",
     avatars: [
@@ -289,6 +289,7 @@ export const testimonialsSectionCopy = {
 export const pricingSectionCopy = {
   label: "Simple pricing",
   title: "Pricing.",
+  vatNote: "All prices excl. VAT.",
   recommendedBadge: "Recommended",
   deliveryLabel: "Delivery",
   outcomeLabel: "Outcome",
@@ -296,7 +297,7 @@ export const pricingSectionCopy = {
   includesLabel: "You get",
   cta: "Work with me",
   contentAddonsLabel: "Add content",
-  contentAddonsSummary: "Optional after strategy is locked",
+  contentAddonsSummary: "Optional add-on",
   contentAddons: [
     {
       id: "ugc-creator",
@@ -304,6 +305,7 @@ export const pricingSectionCopy = {
       summary:
         "I create the content on camera - authentic UGC your brand can run across organic and paid. Shot remotely.",
       price: "From +€900",
+      standalonePrice: "From €1,000",
       features: [
         "1 remote shoot block",
         "4-6 UGC-style short videos, edited (15-45s)",
@@ -316,9 +318,11 @@ export const pricingSectionCopy = {
     {
       id: "production-sprint",
       title: "Team content",
+      regionNote: "Europe only",
       summary:
-        "A full content day with founder, product and campaign video - shot remotely or on-site in Europe.",
+        "A full content day with founder, product and campaign video - shot on-site only.",
       price: "From +€1,400",
+      standalonePrice: "From €1,400",
       features: [
         "1 full-day content session (founder + product)",
         "6-8 short-form videos, edited (15-45s)",
@@ -331,11 +335,55 @@ export const pricingSectionCopy = {
   ],
   packages: [
     {
+      id: "launch-partner",
+      name: "Full launch",
+      price: "From €2,400",
+      originalPrice: "From €4,800",
+      discountLabel: "50% off",
+      unit: "",
+      forWhom: "Step 2 · Strategy, go-to-market and content included.",
+      delivery: "4-6 weeks",
+      recommended: true,
+      collaboration: [
+        "Free discovery call (30 min) before you commit",
+        "Kickoff workshop (90 min)",
+        "4 working sessions (60 min each)",
+        "Mid-point review (45 min)",
+        "Final walkthrough (60 min)",
+        "Async feedback in shared docs",
+        "2 revision rounds on the full pack",
+      ],
+      includes: [
+        "Everything in Strategy",
+        "Organic GTM plan, 5-10 pages: channels, sequence, owners",
+        "90-day launch roadmap with weekly milestones",
+        "Campaign strategy: 2-3 launch angles with hooks",
+        "Content strategy: pillars + 30-day calendar",
+        "Founder content plan: 8-12 shot / story ideas",
+        "Website messaging outline: home + 3 key pages",
+        "Creative direction notes (mood, references, formats)",
+        "Organic growth ideas list (15-20 tactics)",
+        "KPI sheet: what to measure in the first 90 days",
+        "Content production included - remote UGC or team content day",
+      ],
+      highlights: [
+        "Everything in Strategy",
+        "90-day GTM roadmap",
+        "Content included · UGC or team day",
+      ],
+      outcome: "A plan you can run week by week, with content included.",
+      allowsAddon: true,
+      contentAddonChoice: true,
+      contentAddonLabel: "Choose your content format",
+      contentAddonSummary: "Included in the price · pick one before you contact me",
+      contentIncluded: true,
+    },
+    {
       id: "strategy-sprint",
-      name: "Strategy Sprint",
+      name: "Strategy sprint",
       price: "From €2,400",
       unit: "",
-      forWhom: "Clarity first. Grow steadily later.",
+      forWhom: "Step 1 · Research and positioning. Content optional.",
       delivery: "2-3 weeks",
       recommended: false,
       collaboration: [
@@ -356,55 +404,20 @@ export const pricingSectionCopy = {
         "Recommendations brief with next steps (2-3 pages)",
       ],
       highlights: [
-        "Research pack, 10-14 pages: market, category, product audit",
-        "Competitor teardown: 5-8 brands",
-        "2-3 customer personas with jobs-to-be-done",
-        "4-6 UGC-style short videos, edited (15-45s)",
+        "Market research + competitor teardown",
+        "Positioning and messaging framework",
+        "Personas, tone of voice and next steps",
       ],
-      outcome: "Who it's for, why it matters, how to say it.",
+      outcome: "Who it's for, why it wins, how to say it.",
       allowsAddon: true,
       contentAddonChoice: true,
-    },
-    {
-      id: "launch-partner",
-      name: "Launch Partner",
-      price: "From €4,800",
-      unit: "",
-      forWhom: "Organic go-to-market you can actually run.",
-      delivery: "4-6 weeks",
-      recommended: true,
-      collaboration: [
-        "Free discovery call (30 min) before you commit",
-        "Kickoff workshop (90 min)",
-        "4 working sessions (60 min each)",
-        "Mid-point review (45 min)",
-        "Final walkthrough (60 min)",
-        "Async feedback in shared docs",
-        "2 revision rounds on the full pack",
-      ],
-      includes: [
-        "Everything in Strategy Sprint",
-        "Organic GTM plan, 5-10 pages: channels, sequence, owners",
-        "90-day launch roadmap with weekly milestones",
-        "Campaign strategy: 2-3 launch angles with hooks",
-        "Content strategy: pillars + 30-day calendar",
-        "Founder content plan: 8-12 shot / story ideas",
-        "Website messaging outline: home + 3 key pages",
-        "Creative direction notes (mood, references, formats)",
-        "Organic growth ideas list (15-20 tactics)",
-        "KPI sheet: what to measure in the first 90 days",
-      ],
-      outcome: "A steady growth plan, not a launch-day spike.",
-      allowsAddon: true,
-      contentAddonChoice: true,
-      contentAddonLabel: "Bring it to life",
     },
     {
       id: "content-sprint",
-      name: "Content Sprint",
-      price: "From €900",
+      name: "Content sprint",
+      price: "From €1,000",
       unit: "",
-      forWhom: "You already have the vision. You need content that matches it.",
+      forWhom: "Already have a plan? Video only.",
       delivery: "1-2 weeks",
       recommended: false,
       collaboration: [
@@ -414,36 +427,36 @@ export const pricingSectionCopy = {
         "2 revision rounds",
       ],
       includes: [
-        "Your existing strategy is the brief - no repositioning work",
         "Hooks and scripts aligned to your messaging before we shoot",
         "Shot list and production plan",
         "Captions and organised file handoff",
+        "2 revision rounds on selects",
       ],
-      outcome: "Content you can post - without redoing strategy.",
+      highlights: [
+        "Remote UGC or team content day",
+        "4-6 short videos, edited",
+        "No strategy or repositioning",
+      ],
+      outcome: "Edited deliverables ready to post.",
       allowsAddon: false,
       contentAddonChoice: true,
       contentAddonLabel: "Choose format",
-      contentAddonSummary: "Remote UGC or a team content day",
+      contentAddonSummary: "Required · pick UGC or team day before you contact me",
       contentOnly: true,
     },
   ],
   storeTeaser: {
     id: "digital-guides",
-    name: "Digital Guides",
+    name: "Digital guides",
     eyebrow: "Self-paced",
     price: "From $19",
     forWhom:
       "If you already have a strategy and you enjoy doing your content, but you need just a little reassurance and polishing - here is a portal to my store, where you can find digital guides created from me to you.",
-    outcome: "Strategy on paper. Pick what you need, when you need it.",
+    outcome:
+      "Self-paced playbooks when you want clarity without a full engagement. Pick a guide, apply it and move at your own speed.",
     delivery: "Instant download",
     cta: "Explore the store",
     href: "/store",
-    highlights: [
-      "Positioning, launch and organic growth playbooks",
-      "Built from real client work - not generic templates",
-      "Use them alone, or before you hire me",
-      "Paid online - or free if you find a nau QR across Europe",
-    ],
   },
 };
 
@@ -464,39 +477,107 @@ export const storeSectionCopy = {
       title: "Organic marketing ideas",
       price: "$19",
       blurb: "Earned ideas - not another content calendar.",
+      poster: {
+        label: "Organic",
+        headline: "ORGANIC",
+        subline: "MARKETING IDEAS",
+        tagline: "Earned attention only",
+        image: "/images/guides/travel.jpg",
+        industry: "Travel",
+        gradientFrom: "#1c1810",
+        gradientTo: "#5a3d1c",
+        accent: "#f0c56e",
+      },
     },
     {
       id: "product-positioning-workbook",
       title: "Product positioning workbook",
       price: "$29",
       blurb: "Who it's for, why it matters, how to say it.",
+      poster: {
+        label: "Positioning",
+        headline: "POSITIONING",
+        subline: "WORKBOOK",
+        tagline: "Who it's for & why it wins",
+        image: "/images/guides/outdoor.jpg",
+        industry: "Outdoor",
+        gradientFrom: "#0e1218",
+        gradientTo: "#1f3d5c",
+        accent: "#9fd0ff",
+      },
     },
     {
       id: "launch-planning-template",
       title: "Launch planning template",
       price: "$39",
       blurb: "A roadmap you can actually run.",
+      poster: {
+        label: "Launch",
+        headline: "LAUNCH",
+        subline: "PLANNING",
+        tagline: "A roadmap you can run",
+        image: "/images/guides/adventure.jpg",
+        industry: "Adventure",
+        gradientFrom: "#160e12",
+        gradientTo: "#5a2438",
+        accent: "#ffb0c8",
+      },
     },
     {
       id: "go-to-market-playbook",
       title: "Go-to-market playbook",
       price: "$49",
       blurb: "Channels, story and a launch sequence that holds.",
+      poster: {
+        label: "GTM",
+        headline: "GO-TO-MARKET",
+        subline: "PLAYBOOK",
+        tagline: "Channels · story · sequence",
+        image: "/images/guides/hospitality.jpg",
+        industry: "Hospitality",
+        gradientFrom: "#0a1210",
+        gradientTo: "#164840",
+        accent: "#7ef0d4",
+      },
     },
     {
       id: "product-validation-guide",
       title: "Product validation guide",
       price: "$79",
       blurb: "Test the product before you spend on the story.",
+      poster: {
+        label: "Validation",
+        headline: "VALIDATION",
+        subline: "GUIDE",
+        tagline: "Test before you spend",
+        image: "/images/guides/hospitality-lobby.jpg",
+        industry: "Hospitality",
+        gradientFrom: "#120e18",
+        gradientTo: "#3a2458",
+        accent: "#d4b0ff",
+      },
     },
     {
       id: "from-research-to-launch",
       title: "From research to launch",
       price: "$99",
       blurb: "The full path in one guide - strategy before spend.",
+      poster: {
+        label: "Full path",
+        headline: "RESEARCH",
+        subline: "TO LAUNCH",
+        tagline: "The full path in one guide",
+        image: "/images/guides/travel-lake.jpg",
+        industry: "Travel tech",
+        gradientFrom: "#111111",
+        gradientTo: "#2e2e2e",
+        accent: "#ffffff",
+      },
     },
   ],
 };
+
+export type StoreGuide = (typeof storeSectionCopy.items)[number];
 
 export const moreServicesSectionCopy = {
   label: "Looking for more?",
@@ -511,19 +592,24 @@ export const moreServicesSectionCopy = {
 
 export const teamSectionCopy = {
   brand: "nau studio",
-  title: "Who you'll",
-  titleMuted: "work with.",
+  sectionLabel: "Who I am",
+  sectionTitleLead: "meet the",
+  sectionTitle: "Founder.",
+  title: "Hi - I'm Stefani. Here's a bit about me.",
   company: "nau studio",
-  lead: "Good to have you here. Chances are, you're already very good at what you do. You just need more of the right people to know about it.",
-  tension:
-    "Maybe growth has stalled. Maybe marketing keeps falling to the bottom of the list. Or maybe you're simply done being the product person, strategist, marketer and content team all at once. So you found me.",
-  focus: "I build for people who sell movement, escape and adventure.",
+  lead: "I work with founders who are great at the product, but still find growth harder than it should\u00A0be.",
   field:
-    "My work spans hospitality, outdoor products, adventure experiences and travel technology. I help brands sharpen positioning, find their audience and build organic growth around products worth talking about.",
+    "My work spans hospitality, outdoor products, adventure experiences and travel technology. I help brands sharpen positioning, find their audience and build organic growth around products worth talking\u00A0about.",
   proof:
-    "Along the way, I've helped turn early-stage ideas into market-ready products, reposition brands around clearer customer needs, build go-to-market strategies from scratch and launch new digital experiences. Where I go deepest is content: the plan, the making of it, or guiding your team through it, so the brand earns organic reach instead of buying attention.",
-  closeLead: "You bring the expertise.",
-  closeEmphasis: "I help turn it into demand.",
+    "Along the way, I've helped turn early-stage ideas into market-ready products, reposition brands around clearer customer needs, build go-to-market strategies from scratch and launch new digital experiences. Where I go deepest is content: the plan, the making of it, or guiding your team through it, so the brand earns organic reach instead of buying\u00A0attention.",
+  closeLead: "You bring the\u00A0expertise.",
+  closeEmphasis: "I help turn it into\u00A0demand.",
+  metrics: [
+    { value: "20+", label: "Brands" },
+    { value: "60+", label: "Campaigns" },
+    { value: "500+", label: "Videos" },
+    { value: "1M+", label: "Views" },
+  ],
   careers: {
     title: "Start here",
     description: "Tell me about the product and where growth feels stuck.",
@@ -679,4 +765,150 @@ export const contactPageCopy = {
   legalLead: "By submitting, you agree to my",
   termsLabel: "Terms",
   privacyLabel: "Privacy Policy",
+};
+
+export const studioPageCopy = {
+  meta: {
+    title: "Studio | Stefani Dimitrova - nau studio Europe",
+    description:
+      "Meet Stefani Dimitrova and nau studio: organic go-to-market, product positioning and content for outdoor, travel and hospitality brands across Europe. Full cycle from research to launch.",
+  },
+  intro: {
+    label: "Studio",
+    title: "nau studio.",
+    location: "Bulgaria · Europe",
+    since: "Founded 2023",
+    photo: {
+      src: "/images/studio-header-ripples.jpg",
+      alt: "Black and white water ripples",
+    },
+  },
+  impact: {
+    stats: [
+      { value: "1M+", label: "Organic views" },
+      { value: "27+", label: "Projects launched" },
+      { value: "98%", label: "Client satisfaction" },
+      { value: "500+", label: "Videos produced" },
+    ],
+  },
+  approach: {
+    lead: "A one-founder practice for product brands - research, positioning and organic content in one\u00A0cycle.",
+  },
+  story: {
+    label: "Story",
+    title: "The story of me.",
+    role: "Founder · Organic GTM & Product Storytelling",
+    photo: {
+      src: "/images/stefani-studio-portrait.jpg",
+      alt: "Stefani Dimitrova, founder of nau studio, holding a camera outdoors in Europe",
+      caption: "Stefani Dimitrova",
+    },
+    paragraphs: [
+      "I started nau because too many product brands were hiring for posts before they had a story worth posting. Outdoor, travel, hospitality and consumer goods teams were shipping real products - then asking a creator to invent the narrative on the day of the shoot.",
+      "My path sits between strategy and making. I research markets, sharpen who the product is for, build organic launch plans, then create or direct the content that carries that plan - remote UGC or on-site team days across Europe.",
+      "You keep the expertise. I help turn it into clear positioning, a go-to-market you can run, and storytelling that earns attention instead of renting it.",
+    ],
+    facts: [
+      { label: "Based", value: "Bulgaria" },
+      { label: "Reach", value: "Europe" },
+      { label: "Focus", value: "Products" },
+      { label: "Since", value: "2023" },
+    ],
+  },
+  aboutStudio: {
+    label: "Practice",
+    title: "What is nau studio?",
+    lead:
+      "A one-founder practice for product brands that want steady organic growth.",
+    body: [
+      "Outdoor, travel, hospitality and lifestyle products across Europe - not service businesses.",
+      "Research, strategy and content in one cycle. Enter at strategy, full launch, or content-only.",
+    ],
+    pillars: [
+      {
+        number: "001",
+        title: "Clarity",
+        text: "Who it is for and why it wins - before the camera.",
+      },
+      {
+        number: "002",
+        title: "Organic",
+        text: "Channels and sequence built to compound.",
+      },
+      {
+        number: "003",
+        title: "Content",
+        text: "Remote UGC or Europe team days, on-brief.",
+      },
+    ],
+  },
+  collaborationPhoto: {
+    src: "/images/studio-collaboration.jpg",
+    alt: "Working session at nau studio - reviewing product storytelling and go-to-market on laptop",
+    caption: "In session",
+  },
+  cycle: {
+    label: "Method",
+    title: "The full cycle of my work.",
+    lead:
+      "One 360 path from blank page to assets you can run. Most creators start at the post. I start earlier and finish later.",
+    columns: {
+      stage: "Stage",
+      focus: "Focus",
+      outcome: "Outcome",
+    },
+    steps: [
+      {
+        number: "001",
+        title: "Immerse",
+        focus: "Truth",
+        text: "How the product works and what steady growth means for this brand.",
+      },
+      {
+        number: "002",
+        title: "Define",
+        focus: "Position",
+        text: "Research, personas and messaging before anyone films a post.",
+      },
+      {
+        number: "003",
+        title: "Plan",
+        focus: "GTM",
+        text: "Channels, launch sequence and a 90-day roadmap with KPIs.",
+      },
+      {
+        number: "004",
+        title: "Create",
+        focus: "Content",
+        text: "Founder-led or product-led work - remote UGC or Europe team day.",
+      },
+      {
+        number: "005",
+        title: "Refine",
+        focus: "Learn",
+        text: "What resonates, what to cut, what to ship next.",
+      },
+    ],
+  },
+  collab: {
+    label: "Collaborations",
+    title: "Custom collaborations.",
+    lead:
+      "Have a product launch, repositioning or Europe content day that does not fit a template? Tell me about the brand and where growth feels stuck. I reply with a clear next step - strategy sprint, full launch or content-only.",
+    email: "info@thetimeisnau.com",
+    phone: "+359 888 32 9667",
+    locationNote: "Working remotely across Europe · Team content days in Europe only",
+    placeholders: {
+      name: "Your name *",
+      email: "Work email *",
+      company: "Brand / company",
+      location: "Where are you based? (city, country)",
+      message:
+        "Product, audience, and what you need help with - launch, positioning, GTM or content.",
+    },
+    submit: "Send collaboration request",
+    legalLead: "By submitting, you agree to my",
+    termsLabel: "Terms",
+    privacyLabel: "Privacy Policy",
+  },
 };

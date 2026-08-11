@@ -103,7 +103,7 @@ export function HeroCard() {
 
         <div className="relative z-10 flex h-full flex-col justify-between px-5 py-8 sm:px-6 sm:py-10 md:px-9 md:py-14 lg:py-[72px]">
           {/* Top: brand + services */}
-          <div className="flex items-start justify-between gap-8">
+          <div className="flex items-center justify-between gap-8">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
@@ -113,7 +113,7 @@ export function HeroCard() {
                 <span className="sr-only">nau studio</span>
                 <NauLogoMark className="text-white drop-shadow-[0_8px_24px_rgba(0,0,0,0.45)]" />
               </h1>
-              <p className="mt-2 pl-0.5 text-[clamp(1.15rem,2.2vw,1.75rem)] font-medium tracking-[-0.04em] text-white/75">
+              <p className="mt-3 pl-0.5 text-[clamp(1.55rem,3.1vw,2.4rem)] font-medium tracking-[-0.04em] text-white/75">
                 Studio
               </p>
             </motion.div>
@@ -130,7 +130,7 @@ export function HeroCard() {
                   initial={{ opacity: 0, x: 16 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.45, delay: 0.28 + i * 0.08 }}
-                  className="text-right text-[clamp(0.9rem,1.4vw,1.05rem)] font-medium leading-none tracking-[-0.04em] text-white/85"
+                  className="text-right text-[clamp(1rem,1.6vw,1.2rem)] font-medium leading-none tracking-[-0.04em] text-white/85"
                 >
                   {label}
                 </motion.li>
@@ -160,9 +160,9 @@ export function HeroCard() {
                 delay: 0.35,
                 ease: [0.25, 0.1, 0.25, 1],
               }}
-              className="max-w-md lg:max-w-lg"
+              className="max-w-md lg:max-w-xl"
             >
-              <p className="text-[clamp(1.35rem,2.8vw,2.35rem)] leading-[1.2] font-semibold tracking-[-0.04em] text-white">
+              <p className="text-[clamp(1.75rem,3.8vw,3.15rem)] leading-[1.12] font-semibold tracking-[-0.04em] text-white">
                 Making good products hard to{"\u00A0"}ignore.
               </p>
             </motion.div>

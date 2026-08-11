@@ -2,10 +2,12 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, type MouseEvent } from "react";
+import { useEffect, useState, type MouseEvent } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NauButton } from "@/components/NauButton";
 import { projectCount } from "@/lib/hero";
+
+const HEADER_HEIGHT = 61;
 
 const navLinks = [
   { href: "/studio", label: "Studio" },
@@ -15,16 +17,33 @@ const navLinks = [
   { href: "/blog", label: "Blog" },
 ];
 
-function MenuIcon({ open }: { open: boolean }) {
+function isOverDarkSection() {
+  const x = Math.round(window.innerWidth / 2);
+  let node = document.elementFromPoint(
+    x,
+    HEADER_HEIGHT + 1,
+  ) as HTMLElement | null;
+
+  while (node) {
+    if (node.dataset.headerTheme === "dark") return true;
+    node = node.parentElement;
+  }
+
+  return false;
+}
+
+function MenuIcon({ open, dark }: { open: boolean; dark?: boolean }) {
+  const bar = dark ? "bg-white" : "bg-[#0a0a0a]";
+
   return (
     <span className="relative flex h-3.5 w-7 flex-col justify-between">
       <span
-        className={`block h-px w-full bg-[#0a0a0a] transition-transform duration-200 ${
+        className={`block h-px w-full ${bar} transition-transform duration-200 ${
           open ? "translate-y-[7px] rotate-45" : ""
         }`}
       />
       <span
-        className={`block h-px w-full bg-[#0a0a0a] transition-transform duration-200 ${
+        className={`block h-px w-full ${bar} transition-transform duration-200 ${
           open ? "-translate-y-[7px] -rotate-45" : ""
         }`}
       />
@@ -34,16 +53,20 @@ function MenuIcon({ open }: { open: boolean }) {
 
 function HomeLink({
   className = "",
+  dark = false,
   onClick,
 }: {
   className?: string;
+  dark?: boolean;
   onClick?: () => void;
 }) {
   return (
     <Link
       href="/"
       onClick={onClick}
-      className={`shrink-0 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] transition-opacity hover:opacity-70 ${className}`}
+      className={`shrink-0 text-[15px] font-medium tracking-[-0.04em] transition-opacity hover:opacity-70 ${
+        dark ? "text-white" : "text-[#0a0a0a]"
+      } ${className}`}
     >
       Home
     </Link>
@@ -68,25 +91,51 @@ function handlePricingClick(
 export function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isDark, setIsDark] = useState(false);
   const showHome = pathname !== "/";
 
+  useEffect(() => {
+    let raf = 0;
+
+    const update = () => {
+      setIsDark(isOverDarkSection());
+    };
+
+    const onChange = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(update);
+    };
+
+    window.addEventListener("scroll", onChange, { passive: true });
+    window.addEventListener("resize", onChange);
+    update();
+
+    return () => {
+      cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", onChange);
+      window.removeEventListener("resize", onChange);
+    };
+  }, [pathname]);
+
+  const linkClass = isDark
+    ? "text-white hover:opacity-70"
+    : "text-[#0a0a0a] hover:opacity-70";
+
   return (
-    <header className="sticky top-0 z-50 bg-white">
+    <header
+      className={`sticky top-0 z-50 transition-colors duration-300 ${
+        isDark ? "bg-[#0a0a0a]" : "bg-white"
+      }`}
+    >
       <div className="mx-auto flex h-[61px] max-w-[1520px] items-center px-6 md:px-9">
         <nav className="hidden w-full items-center justify-between md:flex">
-          {showHome ? <HomeLink /> : null}
+          {showHome ? <HomeLink dark={isDark} /> : null}
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
               onClick={(event) => handlePricingClick(event, link.href, pathname)}
-              className={`shrink-0 text-[15px] font-medium tracking-[-0.04em] transition-opacity ${
-                pathname === link.href ||
-                pathname.startsWith(`${link.href}/`) ||
-                (link.href === "/#pricing" && pathname === "/")
-                  ? "text-[#0a0a0a]"
-                  : "text-[#0a0a0a] hover:opacity-70"
-              }`}
+              className={`shrink-0 text-[15px] font-medium tracking-[-0.04em] transition-opacity ${linkClass}`}
             >
               {link.label}
               {"count" in link && link.count ? (
@@ -97,7 +146,9 @@ export function Header() {
             </Link>
           ))}
 
-          <NauButton href="/contact">Work with me</NauButton>
+          <NauButton href="/contact" variant={isDark ? "light" : "dark"}>
+            Work with me
+          </NauButton>
         </nav>
 
         <button
@@ -107,7 +158,7 @@ export function Header() {
           className="ml-auto flex shrink-0 items-center justify-center md:hidden"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          <MenuIcon open={menuOpen} />
+          <MenuIcon open={menuOpen} dark={isDark} />
         </button>
       </div>
 
@@ -117,11 +168,16 @@ export function Header() {
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
-            className="overflow-hidden border-t border-[#0a0a0a]/10 bg-white md:hidden"
+            className={`overflow-hidden border-t md:hidden ${
+              isDark
+                ? "border-white/10 bg-[#0a0a0a]"
+                : "border-[#0a0a0a]/10 bg-white"
+            }`}
           >
             <div className="flex flex-col gap-1 px-6 py-4">
               {showHome ? (
                 <HomeLink
+                  dark={isDark}
                   className="py-3"
                   onClick={() => setMenuOpen(false)}
                 />
@@ -134,7 +190,9 @@ export function Header() {
                     handlePricingClick(event, link.href, pathname);
                     setMenuOpen(false);
                   }}
-                  className="py-3 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]"
+                  className={`py-3 text-[15px] font-medium tracking-[-0.04em] ${
+                    isDark ? "text-white" : "text-[#0a0a0a]"
+                  }`}
                 >
                   {link.label}
                   {"count" in link && link.count ? (
@@ -146,6 +204,7 @@ export function Header() {
               ))}
               <NauButton
                 href="/contact"
+                variant={isDark ? "light" : "dark"}
                 className="mt-2"
                 onClick={() => setMenuOpen(false)}
               >

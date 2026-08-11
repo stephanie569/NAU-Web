@@ -43,7 +43,7 @@ function ProjectCard({
             </div>
             <DotsMenu />
           </div>
-          <div className="relative mx-1 mb-1 aspect-[16/10] overflow-hidden rounded-[12px] sm:aspect-[750/480]">
+          <div className="relative mx-1 mb-1 aspect-[16/9] overflow-hidden rounded-[12px] sm:aspect-[16/10]">
             <Image
               src={project.image}
               alt={project.title}
@@ -64,24 +64,24 @@ export function ProjectsSection() {
   const projects = featuredProjects.slice(0, homeLimit);
 
   return (
-    <section className="bg-[#f5f5f5] px-6 pt-[110px] pb-28 md:px-9">
+    <section className="box-border flex min-h-[calc(100svh-61px)] flex-col justify-center bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-12">
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-[70px] grid grid-cols-1 gap-8 lg:mb-[90px] lg:grid-cols-3 lg:items-start lg:gap-4">
+        <div className="mb-6 grid grid-cols-1 gap-5 lg:mb-7 lg:grid-cols-3 lg:items-start lg:gap-4">
           <p className="order-2 text-center text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:order-1 lg:pt-1 lg:text-left">
             ({count})
           </p>
 
           <div className="order-1 text-center lg:order-2">
-            <h2 className="text-[clamp(3.5rem,10vw,7.5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+            <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
               Clients.
             </h2>
-            <p className="mt-3 text-[clamp(1.15rem,2.2vw,2rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+            <p className="mt-2 text-[clamp(1rem,1.8vw,1.5rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
               Founded 2023
             </p>
           </div>
 
-          <div className="order-3 flex max-w-[260px] flex-col items-center gap-5 justify-self-center lg:items-start lg:justify-self-end">
-            <p className="text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:text-left">
+          <div className="order-3 flex max-w-[260px] flex-col items-center gap-4 justify-self-center lg:items-start lg:justify-self-end">
+            <p className="text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:text-left md:text-[15px]">
               {description}
             </p>
             <NauButton href={ctaHref}>{cta}</NauButton>

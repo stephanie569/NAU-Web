@@ -113,7 +113,7 @@ function SummaryCard() {
   const { summary } = testimonialsSectionCopy;
 
   return (
-    <div className="flex min-h-[520px] flex-col justify-between rounded-[18px] bg-white p-6 md:p-8">
+    <div className="flex min-h-[min(420px,52svh)] flex-col justify-between rounded-[18px] bg-white p-5 md:p-6">
       <div className="flex items-start justify-between gap-6">
         <div className="flex items-start gap-1">
           <span className="text-[clamp(2.5rem,5vw,3.5rem)] leading-none font-semibold tracking-[-0.06em] text-[#0a0a0a]">
@@ -202,7 +202,7 @@ function ReviewCard({
   );
 
   return (
-    <div className="flex min-h-[520px] flex-col justify-between rounded-[18px] bg-white p-6 md:p-8">
+    <div className="flex min-h-[min(420px,52svh)] flex-col justify-between rounded-[18px] bg-white p-5 md:p-6">
       {review.layout === "profile-top" && profile}
       {review.layout === "profile-top-box" && profile}
       {review.layout === "profile-bottom" && quote}
@@ -220,22 +220,26 @@ export function TestimonialsSection() {
   const { label, title, year, reviews } = testimonialsSectionCopy;
 
   return (
-    <section className="bg-[#f5f5f5] px-6 pt-[110px] pb-28 md:px-9">
+    <section className="box-border flex min-h-[calc(100svh-61px)] flex-col justify-center bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-12">
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-[90px] flex items-center gap-3">
-          <PlusBadge />
-          <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-            {label}
-          </p>
-        </div>
+        <div className="mb-6 grid grid-cols-1 items-end gap-4 lg:mb-7 lg:grid-cols-3 lg:gap-4">
+          <div className="flex items-center justify-center gap-3 lg:justify-self-start">
+            <PlusBadge />
+            <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
+              {label}
+            </p>
+          </div>
 
-        <div className="mb-[90px]">
-          <h2 className="text-[clamp(4rem,12vw,9rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-            {title}
-          </h2>
-          <p className="mt-3 text-[clamp(1.25rem,2.5vw,2.25rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-            {year}
-          </p>
+          <div className="text-center">
+            <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+              {title}
+            </h2>
+            <p className="mt-2 text-[clamp(1rem,1.8vw,1.5rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+              {year}
+            </p>
+          </div>
+
+          <div className="hidden lg:block" aria-hidden />
         </div>
 
         <div className="grid grid-cols-1 gap-1 md:grid-cols-2 xl:grid-cols-4">

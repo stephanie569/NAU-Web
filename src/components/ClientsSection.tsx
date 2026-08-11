@@ -52,16 +52,17 @@ function LogoMarquee() {
   );
 }
 
-export function ClientsSection() {
+export function ClientsSection({ label }: { label?: string } = {}) {
   const { title } = selectedWorkSection;
+  const sectionLabel = label ?? title;
 
   return (
-    <section className="bg-[#f5f5f5] px-6 pb-24 md:px-9">
+    <section className="bg-[#f5f5f5] px-6 pb-6 pt-4 md:px-9 md:pb-8 md:pt-6">
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-[70px] flex items-center gap-3">
+        <div className="mb-6 flex items-center gap-3 md:mb-8">
           <PlusBadge />
           <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-            {title}
+            {sectionLabel}
           </p>
         </div>
       </div>

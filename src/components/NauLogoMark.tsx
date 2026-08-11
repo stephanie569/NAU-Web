@@ -11,7 +11,7 @@ const nauMark = Bagel_Fat_One({
 });
 
 const sizes = {
-  hero: "text-[clamp(4.75rem,13vw,10.5rem)]",
+  hero: "text-[clamp(6.5rem,16.5vw,14rem)]",
   display: "text-[clamp(3rem,8vw,5.5rem)]",
   footer: "text-[clamp(2.75rem,6vw,4rem)]",
   lg: "text-[clamp(2.5rem,8vw,5rem)]",

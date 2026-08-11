@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { NauButton } from "@/components/NauButton";
-import { pricingSectionCopy } from "@/lib/sections";
+import { GuideShowcase } from "@/components/GuideShowcase";
+import { pricingSectionCopy, storeSectionCopy } from "@/lib/sections";
 
 type Package = (typeof pricingSectionCopy.packages)[number];
 type ContentAddon = (typeof pricingSectionCopy.contentAddons)[number];
@@ -58,45 +59,10 @@ function Chevron({ open }: { open: boolean }) {
   );
 }
 
-function RecommendedMark({
-  label = "Recommended",
-  variant = "panel",
-}: {
-  label?: string;
-  variant?: "tab-inactive" | "tab-active" | "panel";
-}) {
-  if (variant === "panel") {
-    return (
-      <span className="inline-flex items-center gap-1.5 rounded-full border border-cyan-400/35 bg-cyan-400/[0.06] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-cyan-100/80 shadow-[0_0_14px_rgb(34_211_238/0.12)]">
-        <span
-          className="relative flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_0_8px_rgb(34_211_238/0.45)]"
-          aria-hidden
-        >
-          <span className="h-1 w-1 rounded-full bg-[#0a0a0a]" />
-        </span>
-        {label}
-      </span>
-    );
-  }
-
-  const onLightTab = variant === "tab-active";
-
+function RecommendedMark({ label = "Recommended" }: { label?: string }) {
   return (
-    <span
-      className={`inline-flex shrink-0 items-center justify-center rounded-full ${
-        onLightTab
-          ? "bg-[#0a0a0a] ring-1 ring-cyan-400/40"
-          : "bg-white ring-1 ring-cyan-300/50 shadow-[0_0_10px_rgb(34_211_238/0.35)]"
-      } h-[17px] w-[17px]`}
-      aria-label="Recommended"
-      title="Recommended"
-    >
-      <span
-        className={`rounded-full ${
-          onLightTab ? "bg-white" : "bg-[#0a0a0a]"
-        } h-1 w-1`}
-        aria-hidden
-      />
+    <span className="inline-flex items-center rounded-full border border-white/12 bg-white/[0.04] px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.12em] text-white/45">
+      {label}
     </span>
   );
 }
@@ -120,7 +86,7 @@ function CollapsiblePanel({
         type="button"
         onClick={onToggle}
         aria-expanded={open}
-        className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-white/[0.03] md:px-6"
+        className="flex w-full items-center justify-between gap-4 px-4 py-3.5 text-left transition-colors hover:bg-white/[0.03] md:px-5"
       >
         <div className="min-w-0">
           <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
@@ -147,6 +113,56 @@ function CollapsiblePanel({
   );
 }
 
+function PriceLine({
+  price,
+  originalPrice,
+  discountLabel,
+  size = "large",
+}: {
+  price: string;
+  originalPrice?: string;
+  discountLabel?: string;
+  size?: "large" | "small";
+}) {
+  const isLarge = size === "large";
+
+  return (
+    <div className="flex flex-col gap-1">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+        <span
+          className={`tracking-[-0.04em] text-white tabular-nums ${
+            isLarge
+              ? "text-[clamp(1.65rem,3.2vw,2.35rem)] leading-[1.05] font-semibold"
+              : "text-[13px] font-semibold"
+          }`}
+        >
+          {price}
+        </span>
+        {discountLabel ? (
+          <span
+            className={`inline-flex shrink-0 items-center rounded-full border border-white/12 bg-white/[0.05] font-semibold tracking-[-0.02em] text-white/65 ${
+              isLarge
+                ? "px-2.5 py-1 text-[12px]"
+                : "px-2 py-0.5 text-[10px]"
+            }`}
+          >
+            {discountLabel}
+          </span>
+        ) : null}
+      </div>
+      {originalPrice ? (
+        <p
+          className={`font-medium tracking-[-0.03em] text-white/35 tabular-nums ${
+            isLarge ? "text-[13px]" : "text-[11px]"
+          }`}
+        >
+          Regularly {originalPrice}
+        </p>
+      ) : null}
+    </div>
+  );
+}
+
 function ContentFormatPicker({
   label,
   hint,
@@ -154,6 +170,8 @@ function ContentFormatPicker({
   selectedId,
   onSelect,
   primarySelection = false,
+  includedInPrice = false,
+  required = false,
 }: {
   label: string;
   hint: string;
@@ -161,60 +179,119 @@ function ContentFormatPicker({
   selectedId: string | null;
   onSelect: (id: string | null) => void;
   primarySelection?: boolean;
+  includedInPrice?: boolean;
+  required?: boolean;
 }) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
+  const needsChoice = required && !selectedId;
+
+  const formatPrice = (option: ContentAddon) => {
+    if (includedInPrice) return "Included";
+    if (primarySelection) {
+      return (
+        option.standalonePrice ??
+        option.price.replace(/^From \+/, "From ")
+      );
+    }
+    return option.price;
+  };
 
   return (
-    <div className="rounded-[16px] border border-white/10 bg-white/[0.03] px-5 py-4 md:px-6">
-      <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
-        {label}
-      </p>
-      <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-white/50">
-        {hint}
-      </p>
-      <div className="mt-3 flex flex-col gap-2">
+    <div
+      className={`rounded-[16px] border bg-white/[0.03] px-4 py-3.5 md:px-5 ${
+        needsChoice ? "border-white/35" : "border-white/10"
+      }`}
+    >
+      <div className="flex flex-wrap items-center gap-2">
+        <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
+          {label}
+        </p>
+        {required ? (
+          <span className="inline-flex items-center rounded-full border border-white/20 bg-white/[0.06] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.1em] text-white/70">
+            Required
+          </span>
+        ) : null}
+      </div>
+      {hint ? (
+        <p
+          className={`mt-1 text-[12px] font-medium tracking-[-0.03em] ${
+            needsChoice ? "text-white/70" : "text-white/40"
+          }`}
+        >
+          {hint}
+        </p>
+      ) : null}
+      <div className="mt-2.5 flex flex-col gap-1.5">
         {options.map((option) => {
           const selected = selectedId === option.id;
           const expanded = expandedId === option.id;
-          const displayPrice = primarySelection
-            ? option.price.replace(/^From \+/, "From ")
-            : option.price;
+          const displayPrice = formatPrice(option);
+          const displayDiscountLabel =
+            !includedInPrice &&
+            !primarySelection &&
+            "discountLabel" in option &&
+            typeof option.discountLabel === "string"
+              ? option.discountLabel
+              : undefined;
 
           return (
             <div
               key={option.id}
               className={`rounded-[14px] border transition-colors ${
                 selected
-                  ? "border-white/30 bg-white/[0.08]"
-                  : "border-white/10 bg-white/[0.02]"
+                  ? "border-white/40 bg-white/[0.1]"
+                  : needsChoice
+                    ? "border-white/20 bg-white/[0.03]"
+                    : "border-white/10 bg-white/[0.02]"
               }`}
             >
-              <div className="flex items-center gap-2 px-4 py-3">
-                <button
-                  type="button"
-                  onClick={() => onSelect(selected ? null : option.id)}
-                  aria-pressed={selected}
-                  className="min-w-0 flex-1 text-left"
+              <button
+                type="button"
+                onClick={() => {
+                  if (expanded) {
+                    setExpandedId(null);
+                    return;
+                  }
+                  setExpandedId(option.id);
+                  onSelect(option.id);
+                }}
+                aria-expanded={expanded}
+                aria-pressed={selected}
+                className="flex w-full items-center gap-3 px-3.5 py-2.5 text-left transition-colors hover:bg-white/[0.03]"
+              >
+                <span
+                  aria-hidden
+                  className={`flex h-4 w-4 shrink-0 items-center justify-center rounded-full border ${
+                    selected
+                      ? "border-white bg-white"
+                      : "border-white/35 bg-transparent"
+                  }`}
                 >
-                  <div className="flex items-center justify-between gap-3">
+                  {selected ? (
+                    <span className="h-1.5 w-1.5 rounded-full bg-[#0a0a0a]" />
+                  ) : null}
+                </span>
+                <div className="flex min-w-0 flex-1 items-center justify-between gap-3">
+                  <div className="flex min-w-0 flex-wrap items-center gap-x-2 gap-y-1">
                     <p className="text-[14px] font-semibold tracking-[-0.04em] text-white">
                       {option.title}
                     </p>
-                    <span className="shrink-0 text-[13px] font-semibold tracking-[-0.04em] text-white tabular-nums">
-                      {displayPrice}
-                    </span>
+                    {"regionNote" in option && option.regionNote ? (
+                      <span className="inline-flex shrink-0 items-center rounded-full border border-white/12 bg-white/[0.05] px-2 py-0.5 text-[10px] font-semibold tracking-[-0.02em] text-white/55">
+                        {option.regionNote}
+                      </span>
+                    ) : null}
                   </div>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setExpandedId(expanded ? null : option.id)}
-                  aria-expanded={expanded}
-                  aria-label={expanded ? "Hide details" : "Show details"}
-                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-white/50 transition-colors hover:bg-white/[0.06] hover:text-white/80"
-                >
-                  <Chevron open={expanded} />
-                </button>
-              </div>
+                  <div className="shrink-0 text-right">
+                    <PriceLine
+                      price={displayPrice}
+                      discountLabel={displayDiscountLabel}
+                      size="small"
+                    />
+                  </div>
+                </div>
+                <Chevron open={expanded} />
+              </button>
 
               <div
                 className={`grid transition-[grid-template-rows] duration-300 ease-out ${
@@ -253,6 +330,7 @@ function PackagePanel({
   outcomeLabel,
   collaborationLabel,
   includesLabel,
+  vatNote,
   contentAddons,
   contentAddonsLabel,
   contentAddonsSummary,
@@ -266,6 +344,7 @@ function PackagePanel({
   outcomeLabel: string;
   collaborationLabel: string;
   includesLabel: string;
+  vatNote: string;
   contentAddons: ContentAddon[];
   contentAddonsLabel: string;
   contentAddonsSummary: string;
@@ -277,6 +356,8 @@ function PackagePanel({
   const usesContentChoice =
     "contentAddonChoice" in pkg && pkg.contentAddonChoice === true;
   const isContentOnly = "contentOnly" in pkg && pkg.contentOnly === true;
+  const isContentIncluded =
+    "contentIncluded" in pkg && pkg.contentIncluded === true;
   const contentLabel =
     "contentAddonLabel" in pkg && pkg.contentAddonLabel
       ? pkg.contentAddonLabel
@@ -292,30 +373,43 @@ function PackagePanel({
 
   const displayPrice =
     isContentOnly && selectedContent
-      ? selectedContent.price.replace(/^From \+/, "From ")
+      ? selectedContent.standalonePrice ??
+        selectedContent.price.replace(/^From \+/, "From ")
       : pkg.price;
 
-  const highlights =
+  const displayOriginalPrice =
+    isContentOnly && selectedContent
+      ? undefined
+      : "originalPrice" in pkg
+        ? pkg.originalPrice
+        : undefined;
+
+  const highlights = (
     "highlights" in pkg && Array.isArray(pkg.highlights)
       ? pkg.highlights
-      : pkg.includes.slice(0, 3);
+      : pkg.includes.slice(0, 3)
+  ).slice(0, 3);
 
   return (
-    <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-12 lg:p-10">
-      <div>
+    <div className="grid items-start gap-6 p-5 sm:p-6 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-8 lg:p-7 xl:p-8">
+      <div className="min-w-0">
         {pkg.recommended ? (
-          <div className="mb-4">
+          <div className="mb-2.5">
             <RecommendedMark label={recommendedBadge} />
           </div>
         ) : null}
-        <h3 className="text-[clamp(1.85rem,3.8vw,2.85rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
-          {displayPrice}
-        </h3>
-        <p className="mt-4 max-w-xl text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/65">
+        <PriceLine
+          price={displayPrice}
+          originalPrice={displayOriginalPrice}
+        />
+        <p className="mt-1 text-[12px] font-medium tracking-[-0.03em] text-white/40">
+          {vatNote}
+        </p>
+        <p className="mt-4 max-w-md text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/70 md:text-[15px]">
           {pkg.forWhom}
         </p>
 
-        <ul className="mt-6 space-y-3">
+        <ul className="mt-5 space-y-3">
           {highlights.map((item) => (
             <li key={item} className="flex items-start gap-3">
               <FeaturePlusIcon />
@@ -326,17 +420,17 @@ function PackagePanel({
           ))}
         </ul>
 
-        <div className="mt-8 border-t border-white/10 pt-6">
-          <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/40">
+        <div className="mt-6 border-t border-white/10 pt-5">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/40">
             {outcomeLabel}
           </p>
-          <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white">
+          <p className="mt-2.5 text-[14px] leading-snug font-medium tracking-[-0.04em] text-white md:text-[15px]">
             {pkg.outcome}
           </p>
         </div>
       </div>
 
-      <div className="flex flex-col gap-3">
+      <div className="flex min-w-0 flex-col gap-2.5">
         {usesContentChoice ? (
           <ContentFormatPicker
             label={contentLabel}
@@ -345,16 +439,14 @@ function PackagePanel({
             selectedId={selectedContentId}
             onSelect={onSelectContent}
             primarySelection={isContentOnly}
+            includedInPrice={isContentIncluded}
+            required={isContentIncluded || isContentOnly}
           />
         ) : null}
 
         <CollapsiblePanel
           title="Full breakdown"
-          summary={
-            detailsOpen
-              ? "Hide collaboration and deliverables"
-              : "Collaboration, deliverables and more"
-          }
+          summary={detailsOpen ? "Hide details" : "See everything included"}
           open={detailsOpen}
           onToggle={onToggleDetails}
         >
@@ -422,6 +514,7 @@ export function PricingSection() {
     outcomeLabel,
     collaborationLabel,
     includesLabel,
+    vatNote,
     cta,
     contentAddonsLabel,
     contentAddonsSummary,
@@ -451,6 +544,11 @@ export function PricingSection() {
     "contentOnly" in activePackage &&
     activePackage.contentOnly === true;
 
+  const isContentIncluded =
+    !isGuides &&
+    "contentIncluded" in activePackage &&
+    activePackage.contentIncluded === true;
+
   const selectedContent = contentAddons.find(
     (option) => option.id === contentSelection[activePackage.id],
   );
@@ -460,11 +558,18 @@ export function PricingSection() {
     "contentAddonChoice" in activePackage &&
     activePackage.contentAddonChoice === true;
 
+  const contentChoiceRequired =
+    usesContentChoice && (isContentIncluded || isContentOnly);
+  const canContact =
+    !contentChoiceRequired || Boolean(selectedContent);
+
   const menuItems = [
     ...packages.map((pkg) => ({
       id: pkg.id,
       name: pkg.name,
       recommended: pkg.recommended,
+      discountLabel:
+        "discountLabel" in pkg ? pkg.discountLabel : undefined,
     })),
     {
       id: storeTeaser.id,
@@ -480,25 +585,26 @@ export function PricingSection() {
   return (
     <section
       id="pricing"
-      className="relative overflow-hidden bg-[#0a0a0a] px-6 py-[110px] md:px-9 md:py-[130px]"
+      data-header-theme="dark"
+      className="relative scroll-mt-[61px] overflow-x-hidden bg-[#0a0a0a] px-6 py-16 md:px-9 md:py-20 lg:py-24"
     >
       <NoiseOverlay />
 
       <div className="relative mx-auto w-full max-w-[1520px]">
-        <div className="mb-[90px] flex items-center gap-3">
+        <div className="mb-8 flex items-center gap-3 md:mb-10">
           <PlusBadge />
           <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
             {label}
           </p>
         </div>
 
-        <div className="mb-10 text-center">
-          <h2 className="text-[clamp(4rem,12vw,9rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
+        <div className="mb-8 text-center md:mb-10">
+          <h2 className="text-[clamp(3.25rem,8vw,5.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
             {title}
           </h2>
         </div>
 
-        <div className="mb-8 flex justify-center md:mb-12">
+        <div className="mb-5 flex justify-center lg:mb-6">
           <div className="flex max-w-full gap-1 overflow-x-auto rounded-full bg-white/[0.06] p-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {menuItems.map((item) => {
               const active = item.id === activeId;
@@ -507,25 +613,32 @@ export function PricingSection() {
                   key={item.id}
                   type="button"
                   onClick={() => setActiveId(item.id)}
-                  className={`relative shrink-0 rounded-full px-4 py-2.5 text-[14px] font-medium tracking-[-0.04em] transition-colors sm:px-6 sm:text-[15px] ${
+                  className={`relative shrink-0 rounded-full px-3.5 py-2 text-[13px] font-medium tracking-[-0.04em] transition-colors sm:px-5 sm:py-2.5 sm:text-[14px] ${
                     active
-                      ? "bg-white text-[#0a0a0a]"
-                      : "text-white/55 hover:text-white/80"
-                  } ${
-                    item.recommended
-                      ? active
-                        ? "pricing-tab-electric-active"
-                        : "pricing-tab-electric-inactive"
-                      : ""
+                      ? "pricing-tab-active"
+                      : item.recommended
+                        ? "text-white/70 ring-1 ring-inset ring-white/10 hover:text-white/90"
+                        : "text-white/55 hover:text-white/80"
                   }`}
                 >
                   <span className="inline-flex items-center gap-1.5 whitespace-nowrap">
-                    {item.recommended ? (
-                      <RecommendedMark
-                        variant={active ? "tab-active" : "tab-inactive"}
-                      />
-                    ) : null}
                     {item.name}
+                    {"discountLabel" in item && item.discountLabel ? (
+                      <span
+                        className={`inline-flex shrink-0 items-center rounded-full border px-1.5 py-0.5 text-[10px] font-semibold tracking-[-0.02em] sm:px-2 ${
+                          active
+                            ? "pricing-discount-on-active"
+                            : "border-white/12 bg-white/[0.05] text-white/65"
+                        }`}
+                      >
+                        {item.discountLabel}
+                      </span>
+                    ) : null}
+                    {item.recommended && !active ? (
+                      <span className="text-[10px] font-normal tracking-normal text-white/30">
+                        · full path
+                      </span>
+                    ) : null}
                   </span>
                 </button>
               );
@@ -536,40 +649,31 @@ export function PricingSection() {
         <div className="overflow-visible rounded-[20px] bg-white/[0.04]">
           {isGuides ? (
             <>
-              <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-12 lg:p-10">
-                <div>
-                  <p className="mb-4 text-[12px] font-semibold uppercase tracking-[0.12em] text-white/45">
+              <div className="grid items-start gap-6 p-5 sm:p-6 lg:grid-cols-2 lg:gap-8 lg:p-7 xl:p-8">
+                <div className="flex flex-col">
+                  <p className="mb-3 text-[12px] font-semibold uppercase tracking-[0.12em] text-white/45">
                     {storeTeaser.eyebrow}
                   </p>
-                  <h3 className="text-[clamp(1.85rem,3.8vw,2.85rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
+                  <h3 className="text-[clamp(1.65rem,3.2vw,2.35rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
                     {storeTeaser.price}
                   </h3>
-                  <p className="mt-5 max-w-xl text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/65">
+                  <p className="mt-4 max-w-xl text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-white/65 md:text-[15px]">
                     {storeTeaser.forWhom}
                   </p>
-                  <div className="mt-8 border-t border-white/10 pt-6">
+                  <div className="mt-6 border-t border-white/10 pt-5">
                     <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/40">
                       {outcomeLabel}
                     </p>
-                    <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white">
+                    <p className="mt-2.5 text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-white md:text-[15px]">
                       {storeTeaser.outcome}
                     </p>
                   </div>
                 </div>
-                <ul className="space-y-3.5">
-                  {storeTeaser.highlights.map((item) => (
-                    <li key={item} className="flex items-start gap-3">
-                      <FeaturePlusIcon />
-                      <span className="text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/90">
-                        {item}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
+                <GuideShowcase guides={storeSectionCopy.items} />
               </div>
 
-              <div className="flex flex-col gap-6 overflow-visible border-t border-white/10 px-6 py-6 sm:px-8 md:px-10 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
-                <div className="flex items-center gap-3 text-[15px] font-medium tracking-[-0.04em]">
+              <div className="flex flex-col gap-4 overflow-visible border-t border-white/10 px-5 py-4 sm:px-6 md:px-7 lg:flex-row lg:items-center lg:justify-between lg:gap-8 lg:px-8">
+                <div className="flex items-center gap-3 text-[14px] font-medium tracking-[-0.04em] md:text-[15px]">
                   <span className="text-white/60">{deliveryLabel}</span>
                   <span className="text-white">{storeTeaser.delivery}</span>
                 </div>
@@ -588,6 +692,7 @@ export function PricingSection() {
                 outcomeLabel={outcomeLabel}
                 collaborationLabel={collaborationLabel}
                 includesLabel={includesLabel}
+                vatNote={vatNote}
                 contentAddons={contentAddons}
                 contentAddonsLabel={contentAddonsLabel}
                 contentAddonsSummary={contentAddonsSummary}
@@ -602,23 +707,51 @@ export function PricingSection() {
                 onToggleDetails={() => setDetailsOpen((open) => !open)}
               />
 
-              <div className="flex flex-col gap-6 overflow-visible border-t border-white/10 px-6 py-6 sm:px-8 md:px-10 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
-                <div className="flex flex-wrap items-center gap-x-8 gap-y-2 text-[15px] font-medium tracking-[-0.04em]">
+              <div className="flex flex-col gap-4 overflow-visible border-t border-white/10 px-5 py-4 sm:px-6 md:px-7 lg:flex-row lg:items-center lg:justify-between lg:gap-8 lg:px-8">
+                <div className="flex flex-wrap items-center gap-x-8 gap-y-2 text-[14px] font-medium tracking-[-0.04em] md:text-[15px]">
                   <div className="flex items-center gap-3">
                     <span className="text-white/60">{deliveryLabel}</span>
                     <span className="text-white">{activePackage.delivery}</span>
                   </div>
-                  {usesContentChoice && selectedContent && !isContentOnly ? (
+                  {usesContentChoice &&
+                  selectedContent &&
+                  !isContentOnly &&
+                  !isContentIncluded ? (
                     <div className="flex items-center gap-3">
                       <span className="text-white/60">Content</span>
-                      <span className="text-white">{selectedContent.price}</span>
+                      <PriceLine
+                        price={selectedContent.price}
+                        discountLabel={
+                          "discountLabel" in selectedContent &&
+                          typeof selectedContent.discountLabel === "string"
+                            ? selectedContent.discountLabel
+                            : undefined
+                        }
+                        size="small"
+                      />
                     </div>
                   ) : null}
                 </div>
-                <div className="w-full shrink-0 lg:w-auto lg:justify-self-end">
-                  <NauButton href="/contact" variant="light">
-                    {cta}
-                  </NauButton>
+                <div className="flex w-full shrink-0 flex-col items-stretch gap-2 lg:w-auto lg:items-end lg:justify-self-end">
+                  {contentChoiceRequired && !canContact ? (
+                    <p className="text-[12px] font-medium tracking-[-0.03em] text-white/55 lg:text-right">
+                      Choose UGC or team day before contacting me
+                    </p>
+                  ) : null}
+                  {canContact ? (
+                    <NauButton href="/contact" variant="light">
+                      {cta}
+                    </NauButton>
+                  ) : (
+                    <NauButton
+                      variant="light"
+                      disabled
+                      aria-disabled
+                      className="cursor-not-allowed opacity-40"
+                    >
+                      {cta}
+                    </NauButton>
+                  )}
                 </div>
               </div>
             </>

@@ -64,7 +64,10 @@ export function ContactSection() {
   } = contactSectionCopy;
 
   return (
-    <section className="relative overflow-hidden px-6 py-24 md:px-9 md:py-32">
+    <section
+      data-header-theme="dark"
+      className="relative overflow-hidden px-6 py-24 md:px-9 md:py-32"
+    >
       <div className="absolute inset-0 bg-[#0a0a0a]">
         <div className="absolute inset-0 grayscale opacity-70">
           <video

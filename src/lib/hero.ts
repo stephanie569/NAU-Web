@@ -10,4 +10,4 @@ export const heroVideo = "/videos/hero-4k.mp4";
 export const heroBackgroundVideoUrl = "https://youtu.be/ZeIR4YnlSiE";
 export const heroBackgroundVideoId = "ZeIR4YnlSiE";
 
-export const projectCount = 27;
+export const projectCount = "20+";

@@ -5,7 +5,6 @@ import {
   siteConfig,
   socialLinks,
 } from "@/lib/data";
-import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
 
 function NoiseOverlay() {
@@ -69,33 +68,22 @@ const linkClass =
 
 export function Footer() {
   return (
-    <footer className="relative bg-[#0a0a0a] text-white">
+    <footer data-header-theme="dark" className="relative bg-[#0a0a0a] text-white">
       <NoiseOverlay />
 
       <div className="relative px-6 py-12 md:px-9 md:py-14">
         <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-10">
-          {/* Brand + CTA */}
-          <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
-            <div className="min-w-0">
-              <Link href="/" className="group inline-block">
-                <NauLogoMark
-                  size="footer"
-                  className="text-white transition-opacity group-hover:opacity-85"
-                />
-                <p className="mt-1.5 text-[clamp(1rem,2vw,1.25rem)] leading-none font-medium tracking-[0.22em] text-white/85 uppercase">
-                  Studio
-                </p>
-              </Link>
-              <p className="mt-3 max-w-md text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/55">
-                Organic GTM and content for brands that sell movement, escape
-                and adventure.{" "}
-                <span className="text-white/40">by {siteConfig.founder}</span>
+          {/* Brand */}
+          <div className="min-w-0">
+            <Link href="/" className="group inline-block">
+              <NauLogoMark
+                size="footer"
+                className="text-white transition-opacity group-hover:opacity-85"
+              />
+              <p className="mt-1.5 text-[clamp(1rem,2vw,1.25rem)] leading-none font-medium tracking-[0.22em] text-white/85 uppercase">
+                Studio
               </p>
-            </div>
-
-            <NauButton href="/contact" variant="light" className="shrink-0">
-              Work with me
-            </NauButton>
+            </Link>
           </div>
 
           {/* Even 4-column link row */}
