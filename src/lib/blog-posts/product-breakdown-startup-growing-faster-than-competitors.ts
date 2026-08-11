@@ -10,15 +10,15 @@ const post: BlogPost = {
   category: "Research & Positioning",
   image: "/images/blog/blog-26-growing-faster.png",
   metaDescription:
-    "Product breakdown: why some consumer brands grow faster—positioning, first win and proof over ad spend alone.",
+    "Product breakdown: why some consumer brands grow faster-positioning, first win and proof over ad spend alone.",
   content: [
     {
       type: "p",
-      text: "When a startup outgrows competitors, people credit ads or virality. Dig into the product system and you often find a clearer offer, a faster path to value, and messaging that matches sales reality. The glamorous explanation is rarely the accurate one. Compounding clarity is less photogenic than a launch video—and considerably harder to copy.",
+      text: "When a startup outgrows competitors, people credit ads or virality. Dig into the product system and you often find a clearer offer, a faster path to value, and messaging that matches sales reality. The glamorous explanation is rarely the accurate one. Compounding clarity is less photogenic than a launch video-and considerably harder to copy.",
     },
     {
       type: "p",
-      text: "This breakdown is a teaching model, not a gossip column about a named unicorn. I will walk through the growth advantages that repeatedly show up when one early-stage company pulls away from a crowded category—and how to audit whether you have those advantages or only the appearance of motion.",
+      text: "This breakdown is a teaching model, not a gossip column about a named unicorn. I will walk through the growth advantages that repeatedly show up when one early-stage company pulls away from a crowded category-and how to audit whether you have those advantages or only the appearance of motion.",
     },
     {
       type: "callout",
@@ -31,15 +31,15 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Competitors love to reverse-engineer tactics: the same LinkedIn cadence, the same webinar format, the same referral copy. Tactics travel. Coherence does not photocopy well. First Round Review’s company deep-dives often show growth emerging from product and go-to-market alignment rather than a lone channel—browse [First Round Review](https://review.firstround.com/). YC’s library makes a similar point from the builder side: [ycombinator.com/library](https://www.ycombinator.com/library).",
+      text: "Competitors love to reverse-engineer tactics: the same LinkedIn cadence, the same webinar format, the same referral copy. Tactics travel. Coherence does not photocopy well. First Round Review’s company deep-dives often show growth emerging from product and go-to-market alignment rather than a lone channel-browse [First Round Review](https://review.firstround.com/). YC’s library makes a similar point from the builder side: [ycombinator.com/library](https://www.ycombinator.com/library).",
     },
     {
       type: "p",
-      text: "If your category suddenly has a breakout player, ask what became easier for their customer—not only what became louder in their marketing. Related: [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If your category suddenly has a breakout player, ask what became easier for their customer-not only what became louder in their marketing. Related: [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "takeaway",
-      text: "Before you copy a competitor’s campaign, copy their clarity system—if you can find it.",
+      text: "Before you copy a competitor’s campaign, copy their clarity system-if you can find it.",
     },
     {
       type: "h2",
@@ -61,11 +61,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Breakout startups often look smaller on paper. They refuse to be for everyone in the category. That refusal produces sharper homepage language, cleaner sales qualification, and product decisions that do not drown in edge cases. Linear’s early focus and tone are a useful public example of category sharpness; Notion’s expansion came after a strong wedge of flexible docs/wiki use—not from launching as “all software for all teams” on day one.",
+      text: "Breakout startups often look smaller on paper. They refuse to be for everyone in the category. That refusal produces sharper homepage language, cleaner sales qualification, and product decisions that do not drown in edge cases. Linear’s early focus and tone are a useful public example of category sharpness; Notion’s expansion came after a strong wedge of flexible docs/wiki use-not from launching as “all software for all teams” on day one.",
     },
     {
       type: "p",
-      text: "Fictional contrast: two inventory tools. One sells to “any business with stock.” The other sells to “DTC brands doing £1–10M who outgrew spreadsheets but not enterprise ERPs.” The second will sound repetitive in meetings and precise on the website. Precision converts.",
+      text: "Fictional contrast: two inventory tools. One sells to “any business with stock.” The other sells to “DTC brands doing £1-10M who outgrew spreadsheets but not enterprise ERPs.” The second will sound repetitive in meetings and precise on the website. Precision converts.",
     },
     {
       type: "h3",
@@ -89,7 +89,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Feature-count pricing pages train buyers to comparison-shop checklists. Value-tied pricing language trains them to estimate outcomes. The faster company often explains who each plan is for and what becomes possible—not only how many seats and integrations are unlocked. Honesty about limits builds trust; mystery tiers build sales calls that should have been self-serve.",
+      text: "Feature-count pricing pages train buyers to comparison-shop checklists. Value-tied pricing language trains them to estimate outcomes. The faster company often explains who each plan is for and what becomes possible-not only how many seats and integrations are unlocked. Honesty about limits builds trust; mystery tiers build sales calls that should have been self-serve.",
     },
     {
       type: "h3",
@@ -97,7 +97,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The unsexy advantage: a cadence. Every week, something gets clearer—onboarding copy, activation emails, pricing FAQ, sales one-pager alignment with homepage. Competitors ship big redesigns twice a year. The faster company ships small truth repairs continuously. That is a system, not a campaign—see [systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "The unsexy advantage: a cadence. Every week, something gets clearer-onboarding copy, activation emails, pricing FAQ, sales one-pager alignment with homepage. Competitors ship big redesigns twice a year. The faster company ships small truth repairs continuously. That is a system, not a campaign-see [systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "takeaway",
@@ -148,12 +148,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Northline is a composite of B2B patterns I see often. Category: customer onboarding software for Series A–B SaaS. Competitors sold “onboarding platforms.” Northline sold “cut time-to-first-value for new accounts by standardising the first 14 days.”",
+      text: "Northline is a composite of B2B patterns I see often. Category: customer onboarding software for Series A-B SaaS. Competitors sold “onboarding platforms.” Northline sold “cut time-to-first-value for new accounts by standardising the first 14 days.”",
     },
     {
       type: "ul",
       items: [
-        "ICP: onboarding/CS leads at product-led SaaS, 20–150 employees.",
+        "ICP: onboarding/CS leads at product-led SaaS, 20-150 employees.",
         "First win: launch a 14-day template with checklist and emails in under 30 minutes.",
         "Proof: template library from similar companies; public ROI calculator with conservative defaults.",
         "Pricing: named by outcome stage (Launch / Scale), not by feature wallpaper.",
@@ -178,7 +178,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Run a coherence test quarterly. Record three sales calls. Screenshot the homepage hero and the first-run empty state. Highlight the outcome language in each. If the nouns differ—platform vs outcome, efficiency vs revenue, collaboration vs control—you have found a growth tax. Fix the language system before you hire another demand-gen contractor. Related reading: [best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "Run a coherence test quarterly. Record three sales calls. Screenshot the homepage hero and the first-run empty state. Highlight the outcome language in each. If the nouns differ-platform vs outcome, efficiency vs revenue, collaboration vs control-you have found a growth tax. Fix the language system before you hire another demand-gen contractor. Related reading: [best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
     },
     {
       type: "ol",
@@ -191,7 +191,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Distribution still matters—just not as a substitute for clarity",
+      text: "Distribution still matters-just not as a substitute for clarity",
     },
     {
       type: "p",
@@ -199,11 +199,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are choosing between another channel experiment and a week of offer/onboarding clarity, choose clarity unless you already convert and activate well. If you already convert well and still grow slowly, then distribution and packaging deserve the spotlight—see [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
+      text: "If you are choosing between another channel experiment and a week of offer/onboarding clarity, choose clarity unless you already convert and activate well. If you already convert well and still grow slowly, then distribution and packaging deserve the spotlight-see [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
     },
     {
       type: "p",
-      text: "A useful diagnostic: if paid CAC looks “fine” but sales cycles feel exhausting, your clarity system is incomplete—marketing creates interest, product and narrative fail to finish belief. If CAC looks terrible but demos that happen close fast, you may have a distribution problem on top of a working offer. Do not treat those as the same fire. Diagnose the bottleneck stage, then spend accordingly.",
+      text: "A useful diagnostic: if paid CAC looks “fine” but sales cycles feel exhausting, your clarity system is incomplete-marketing creates interest, product and narrative fail to finish belief. If CAC looks terrible but demos that happen close fast, you may have a distribution problem on top of a working offer. Do not treat those as the same fire. Diagnose the bottleneck stage, then spend accordingly.",
     },
     {
       type: "takeaway",
@@ -216,7 +216,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Their entire ICP if your strengths differ—steal the sharpness, not the segment, unless it fits.",
+        "Their entire ICP if your strengths differ-steal the sharpness, not the segment, unless it fits.",
         "Growth loops that depend on a network you do not have.",
         "Enterprise features that slow your activation for theatre.",
         "Tone of voice that conflicts with your founders’ real credibility.",
@@ -225,7 +225,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Harvard Business Review’s strategy writing is full of warnings about imitation without fit—see [hbr.org](https://hbr.org/). Fit includes team skills, distribution, and product architecture. Copying outcomes without copying constraints is how you get a cargo-cult roadmap.",
+      text: "Harvard Business Review’s strategy writing is full of warnings about imitation without fit-see [hbr.org](https://hbr.org/). Fit includes team skills, distribution, and product architecture. Copying outcomes without copying constraints is how you get a cargo-cult roadmap.",
     },
     {
       type: "h2",
@@ -237,7 +237,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Complete: “We are not for ___ because ___.” If you cannot exclude, you cannot focus. Publish the positive version on the site; keep the exclusion sentence internal if needed—but write it.",
+      text: "Complete: “We are not for ___ because ___.” If you cannot exclude, you cannot focus. Publish the positive version on the site; keep the exclusion sentence internal if needed-but write it.",
     },
     {
       type: "h3",
@@ -245,7 +245,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Instrument it. Review it weekly. Cut steps that do not serve it. If product and marketing disagree on the outcome sentence, fix that disagreement before you buy more ads—especially before you [spend serious money on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Instrument it. Review it weekly. Cut steps that do not serve it. If product and marketing disagree on the outcome sentence, fix that disagreement before you buy more ads-especially before you [spend serious money on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h3",
@@ -258,11 +258,11 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this (half day)",
-      text: "Build a one-page “clarity scorecard” for you vs two competitors: ICP narrowness (1–5), time-to-first-win estimate, proof quality near CTA, pricing comprehensibility, and evidence of weekly clarity shipping. Score honestly. Pick the lowest score and ship one improvement in seven days.",
+      text: "Build a one-page “clarity scorecard” for you vs two competitors: ICP narrowness (1-5), time-to-first-win estimate, proof quality near CTA, pricing comprehensibility, and evidence of weekly clarity shipping. Score honestly. Pick the lowest score and ship one improvement in seven days.",
     },
     {
       type: "takeaway",
-      text: "You can copy tactics and still lose. Building a clarity system is slower—and more durable.",
+      text: "You can copy tactics and still lose. Building a clarity system is slower-and more durable.",
     },
     {
       type: "h2",
@@ -270,11 +270,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes the faster company truly has distribution privilege, regulatory timing, or a founder network you cannot replicate this quarter. Acknowledge that. Still audit clarity—because clarity compounds even when distribution differs. And sometimes the “faster” company is burning cash for logo acquisition; inspect retention before you envy top-line motion.",
+      text: "Sometimes the faster company truly has distribution privilege, regulatory timing, or a founder network you cannot replicate this quarter. Acknowledge that. Still audit clarity-because clarity compounds even when distribution differs. And sometimes the “faster” company is burning cash for logo acquisition; inspect retention before you envy top-line motion.",
     },
     {
       type: "p",
-      text: "If growth is stuck despite a clear story, you may be earlier on [product–market fit](/blog/what-founders-get-wrong-about-product-market-fit) than the narrative admits. Clarity cannot invent pull. It can reveal whether pull exists.",
+      text: "If growth is stuck despite a clear story, you may be earlier on [product-market fit](/blog/what-founders-get-wrong-about-product-market-fit) than the narrative admits. Clarity cannot invent pull. It can reveal whether pull exists.",
     },
     {
       type: "h2",
@@ -301,7 +301,7 @@ const post: BlogPost = {
         {
           question: "What should we measure weekly?",
           answer:
-            "Time-to-first-win, activation rate by intent path, qualitative objections from sales/support, and count of clarity fixes shipped—not only feature releases.",
+            "Time-to-first-win, activation rate by intent path, qualitative objections from sales/support, and count of clarity fixes shipped-not only feature releases.",
         },
       ],
     },

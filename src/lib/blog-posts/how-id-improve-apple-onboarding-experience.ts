@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "how-id-improve-apple-onboarding-experience",
   title: "If I redesigned Apple's onboarding tomorrow",
   excerpt:
-    "Apple sets the bar—and still leaves onboarding opportunities. A product lens on first-run clarity, setup anxiety, progressive disclosure, and time-to-delight that startups can apply at smaller scale.",
+    "Apple sets the bar-and still leaves onboarding opportunities. A product lens on first-run clarity, setup anxiety, progressive disclosure, and time-to-delight that startups can apply at smaller scale.",
   date: "July 1, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-24-apple-onboarding.png",
@@ -13,7 +13,7 @@ const post: BlogPost = {
   content: [
     {
       type: "p",
-      text: "Apple’s onboarding is often excellent. Studying it is still useful because even strong experiences can reduce anxiety further and accelerate the first “this was worth it” moment. Excellence is not the same as finished. And for startups, Apple is less a brand to imitate pixel-for-pixel than a clarity standard to steal from with humility—and a reminder that brand equity can hide onboarding sins your product cannot afford.",
+      text: "Apple’s onboarding is often excellent. Studying it is still useful because even strong experiences can reduce anxiety further and accelerate the first “this was worth it” moment. Excellence is not the same as finished. And for startups, Apple is less a brand to imitate pixel-for-pixel than a clarity standard to steal from with humility-and a reminder that brand equity can hide onboarding sins your product cannot afford.",
     },
     {
       type: "p",
@@ -30,11 +30,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Onboarding is not a tutorial dump. It is a guided reduction of uncertainty until the user reaches a first meaningful outcome. The Interaction Design Foundation frames onboarding around helping users achieve goals with minimum friction—see [Interaction Design Foundation](https://www.interaction-design.org/). Nielsen Norman Group’s usability work on progressive disclosure and error prevention is equally relevant: [nngroup.com](https://www.nngroup.com/).",
+      text: "Onboarding is not a tutorial dump. It is a guided reduction of uncertainty until the user reaches a first meaningful outcome. The Interaction Design Foundation frames onboarding around helping users achieve goals with minimum friction-see [Interaction Design Foundation](https://www.interaction-design.org/). Nielsen Norman Group’s usability work on progressive disclosure and error prevention is equally relevant: [nngroup.com](https://www.nngroup.com/).",
     },
     {
       type: "p",
-      text: "Apple typically excels at calm pacing, clear defaults, and a sense that the system is competent even when the human is not yet. Startups often reverse the emotional contract: they ask for permissions, integrations, and taxonomy decisions before the product has shown why any of it matters. That is how you get “activated” users who never returned—and dashboards that look busy in Mixpanel while the product feels empty in real life.",
+      text: "Apple typically excels at calm pacing, clear defaults, and a sense that the system is competent even when the human is not yet. Startups often reverse the emotional contract: they ask for permissions, integrations, and taxonomy decisions before the product has shown why any of it matters. That is how you get “activated” users who never returned-and dashboards that look busy in Mixpanel while the product feels empty in real life.",
     },
     {
       type: "takeaway",
@@ -59,7 +59,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Show the next required decision, not the whole operating manual. Device setup flows that layer language, Apple ID, and features over time respect cognitive load. Your SaaS equivalent: connect one data source, create one object, invite one teammate—later. Notion and Linear both tend to get users to a useful surface quickly, then reveal power features through use. That sequencing is the real lesson.",
+      text: "Show the next required decision, not the whole operating manual. Device setup flows that layer language, Apple ID, and features over time respect cognitive load. Your SaaS equivalent: connect one data source, create one object, invite one teammate-later. Notion and Linear both tend to get users to a useful surface quickly, then reveal power features through use. That sequencing is the real lesson.",
     },
     {
       type: "h3",
@@ -83,7 +83,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Calm is not emptiness for its own sake. It is a signal that the product will not punish you for not knowing yet. Crowded first-run screens signal anxiety—the product’s, projected onto the user. If you want a broader argument about systems over noisy campaigns, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Calm is not emptiness for its own sake. It is a signal that the product will not punish you for not knowing yet. Crowded first-run screens signal anxiety-the product’s, projected onto the user. If you want a broader argument about systems over noisy campaigns, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "takeaway",
@@ -95,7 +95,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Even strong onboarding can improve along two axes: intent personalisation and visible “why this step matters.” I would personalise first-run guidance more aggressively by intent, and make the reason for each step legible without clutter. Startups can apply the same idea at much smaller scale—and usually need to, because they do not have Apple’s brand equity to carry confusion.",
+      text: "Even strong onboarding can improve along two axes: intent personalisation and visible “why this step matters.” I would personalise first-run guidance more aggressively by intent, and make the reason for each step legible without clutter. Startups can apply the same idea at much smaller scale-and usually need to, because they do not have Apple’s brand equity to carry confusion.",
     },
     {
       type: "h3",
@@ -107,7 +107,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Figma’s growth into a multiplayer tool succeeded partly because first value could be felt quickly—open a file, see the canvas—while deeper collaboration setup could follow. Intent branching is how you protect that early win for different jobs.",
+      text: "Figma’s growth into a multiplayer tool succeeded partly because first value could be felt quickly-open a file, see the canvas-while deeper collaboration setup could follow. Intent branching is how you protect that early win for different jobs.",
     },
     {
       type: "h3",
@@ -115,7 +115,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Permissions screens and account steps often explain the what and skip the why. A single line—“so your photos appear on all your devices”—reduces suspicion. Startups asking for Salesforce OAuth should be at least as polite. If you cannot explain why in one sentence, reconsider whether the step belongs in first run.",
+      text: "Permissions screens and account steps often explain the what and skip the why. A single line-“so your photos appear on all your devices”-reduces suspicion. Startups asking for Salesforce OAuth should be at least as polite. If you cannot explain why in one sentence, reconsider whether the step belongs in first run.",
     },
     {
       type: "callout",
@@ -160,7 +160,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Most broken onboarding starts at Power. Teams are proud of integrations, so integrations become step one. Users experience that as homework. Flip the order. YC’s library is full of reminders to get to value quickly in product development—see [Y Combinator Library](https://www.ycombinator.com/library)—and onboarding is simply that advice applied to the first session.",
+      text: "Most broken onboarding starts at Power. Teams are proud of integrations, so integrations become step one. Users experience that as homework. Flip the order. YC’s library is full of reminders to get to value quickly in product development-see [Y Combinator Library](https://www.ycombinator.com/library)-and onboarding is simply that advice applied to the first session.",
     },
     {
       type: "h2",
@@ -174,12 +174,12 @@ const post: BlogPost = {
         "Forced tours that block the UI the user is trying to understand.",
         "Asking for billing before value, without a clear trial boundary.",
         "Mobile first-run that assumes desktop mental models.",
-        "Accessibility afterthoughts—focus order, contrast, and screen reader labels treated as polish.",
+        "Accessibility afterthoughts-focus order, contrast, and screen reader labels treated as polish.",
       ],
     },
     {
       type: "p",
-      text: "On accessibility: follow [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) for controls and status messages in onboarding. A calm visual design that cannot be operated by keyboard is not calm; it is exclusive. Performance matters too—[web.dev](https://web.dev/) guidance on loading and interaction readiness applies to first-run as much as marketing pages.",
+      text: "On accessibility: follow [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) for controls and status messages in onboarding. A calm visual design that cannot be operated by keyboard is not calm; it is exclusive. Performance matters too-[web.dev](https://web.dev/) guidance on loading and interaction readiness applies to first-run as much as marketing pages.",
     },
     {
       type: "h2",
@@ -225,7 +225,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s better moments treat defaults as a design responsibility: the safe, reversible choice is easy; the powerful, sticky choice requires a clear opt-in. Startups often invert this. Marketing wants notifications on. Sales wants calendar access. Growth wants contacts. The first-run becomes a permission harvest. Users feel it—and they punish it later by ignoring every notification you “earned.”",
+      text: "Apple’s better moments treat defaults as a design responsibility: the safe, reversible choice is easy; the powerful, sticky choice requires a clear opt-in. Startups often invert this. Marketing wants notifications on. Sales wants calendar access. Growth wants contacts. The first-run becomes a permission harvest. Users feel it-and they punish it later by ignoring every notification you “earned.”",
     },
     {
       type: "p",
@@ -250,7 +250,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Compare cohorts after each sequencing change. If a prettier tour raises completion but lowers day-7 return, you did not improve onboarding—you improved compliance. Teams that report only completion rates will keep shipping compliance.",
+      text: "Compare cohorts after each sequencing change. If a prettier tour raises completion but lowers day-7 return, you did not improve onboarding-you improved compliance. Teams that report only completion rates will keep shipping compliance.",
     },
     {
       type: "takeaway",
@@ -275,11 +275,11 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the shoulder test",
-      text: "In user sessions, ignore what people say is “fine.” Watch for hesitation before clicks—paused cursor, re-reading, asking you what happens next. Those moments are your onboarding backlog, ranked by flinch intensity.",
+      text: "In user sessions, ignore what people say is “fine.” Watch for hesitation before clicks-paused cursor, re-reading, asking you what happens next. Those moments are your onboarding backlog, ranked by flinch intensity.",
     },
     {
       type: "p",
-      text: "If onboarding improvements still do not move retention, zoom out: you may have a deeper product–market issue. See [why great products fail before product–market fit](/blog/why-great-products-fail-before-product-market-fit) and [what founders get wrong about PMF](/blog/what-founders-get-wrong-about-product-market-fit). Onboarding cannot invent value that is not there—it can only reveal it faster.",
+      text: "If onboarding improvements still do not move retention, zoom out: you may have a deeper product-market issue. See [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit) and [what founders get wrong about PMF](/blog/what-founders-get-wrong-about-product-market-fit). Onboarding cannot invent value that is not there-it can only reveal it faster.",
     },
     {
       type: "h2",
@@ -321,7 +321,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s onboarding is a high bar worth studying. The startup move is not to worship it—it is to adopt its respect for anxiety and its discipline around first value, then push harder on intent and explanation because you need to. Your brand will not apologise for a confusing first hour. Your product has to earn the second.",
+      text: "Apple’s onboarding is a high bar worth studying. The startup move is not to worship it-it is to adopt its respect for anxiety and its discipline around first value, then push harder on intent and explanation because you need to. Your brand will not apologise for a confusing first hour. Your product has to earn the second.",
     },
     {
       type: "p",

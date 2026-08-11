@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { FadeIn } from "@/components/ui";
+import { NauButton } from "@/components/NauButton";
 import { RichText } from "@/components/RichText";
 import { BlogContinueReading } from "@/components/BlogContinueReading";
 import {
@@ -205,15 +206,9 @@ function BlogContent({ blocks }: { blocks: BlogBlock[] }) {
                 <p className="text-lg font-semibold tracking-tight text-foreground">
                   {block.lead}
                 </p>
-                <Link
-                  href={block.href}
-                  className="mt-5 inline-flex items-center justify-between gap-4 rounded-full bg-[#0a0a0a] py-2.5 pr-2 pl-5 text-sm font-semibold text-white transition-opacity hover:opacity-85"
-                >
-                  <span>{block.button}</span>
-                  <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white">
-                    <span className="h-2 w-2 rounded-full bg-[#0a0a0a]" />
-                  </span>
-                </Link>
+                <NauButton href={block.href} className="mt-5">
+                  {block.button}
+                </NauButton>
               </div>
             );
           default:

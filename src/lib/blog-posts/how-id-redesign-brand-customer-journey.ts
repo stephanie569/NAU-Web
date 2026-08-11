@@ -4,16 +4,16 @@ const post: BlogPost = {
   slug: "how-id-redesign-brand-customer-journey",
   title: "I'd redesign this brand's whole customer journey. Here's how.",
   excerpt:
-    "A journey redesign approach focused on belief stages—awareness, understanding, trust, activation, and expansion—without adding unnecessary touchpoints or channel clutter.",
+    "A journey redesign approach focused on belief stages-awareness, understanding, trust, activation, and expansion-without adding unnecessary touchpoints or channel clutter.",
   date: "June 26, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-28-customer-journey.png",
   metaDescription:
-    "How to redesign a brand customer journey around belief stages: awareness, understanding, trust, activation, expansion—and remove friction that blocks growth.",
+    "How to redesign a brand customer journey around belief stages: awareness, understanding, trust, activation, expansion-and remove friction that blocks growth.",
   content: [
     {
       type: "p",
-      text: "Customer journey redesigns fail when they add steps. I redesign journeys by clarifying stages of belief and removing anything that does not advance the next decision. More touchpoints are not a strategy. They are often a calendar problem wearing a customer-experience badge—and a fine way to spend a quarter building email number fourteen while checkout still confuses people.",
+      text: "Customer journey redesigns fail when they add steps. I redesign journeys by clarifying stages of belief and removing anything that does not advance the next decision. More touchpoints are not a strategy. They are often a calendar problem wearing a customer-experience badge-and a fine way to spend a quarter building email number fourteen while checkout still confuses people.",
     },
     {
       type: "p",
@@ -30,7 +30,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Classic journey maps often become inventories of every email, ad, SMS, in-app tip, and Retargeting Idea™ someone pitched in a workshop. The wall looks impressive. The customer still stalls between “interested” and “activated.” Interaction Design Foundation resources on journeys and UX process are useful when maps stay tied to user goals—see [interaction-design.org](https://www.interaction-design.org/)—rather than internal department ownership.",
+      text: "Classic journey maps often become inventories of every email, ad, SMS, in-app tip, and Retargeting Idea™ someone pitched in a workshop. The wall looks impressive. The customer still stalls between “interested” and “activated.” Interaction Design Foundation resources on journeys and UX process are useful when maps stay tied to user goals-see [interaction-design.org](https://www.interaction-design.org/)-rather than internal department ownership.",
     },
     {
       type: "p",
@@ -56,7 +56,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Each stage gets one primary artifact—page, email, in-product moment—not five. Simplicity is a strategy. Complexity is what happens when nobody chooses. This pairs with the [Patagonia-style memo on protecting meaning while designing paths](/blog/if-patagonia-hired-me-tomorrow-where-id-start): belief without a path is inspiration; a path without belief is extraction.",
+      text: "Each stage gets one primary artifact-page, email, in-product moment-not five. Simplicity is a strategy. Complexity is what happens when nobody chooses. This pairs with the [Patagonia-style memo on protecting meaning while designing paths](/blog/if-patagonia-hired-me-tomorrow-where-id-start): belief without a path is inspiration; a path without belief is extraction.",
     },
     {
       type: "h3",
@@ -104,11 +104,11 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Awareness — why should I care?",
+      text: "Awareness - why should I care?",
     },
     {
       type: "p",
-      text: "Awareness fails when campaigns talk about the company instead of the customer’s felt problem. Airbnb’s early growth stories (widely discussed in public founder interviews and case archives) centred on a job—find a place to stay—more than on corporate identity. Your awareness artifact should name a tension the ICP already feels.",
+      text: "Awareness fails when campaigns talk about the company instead of the customer’s felt problem. Airbnb’s early growth stories (widely discussed in public founder interviews and case archives) centred on a job-find a place to stay-more than on corporate identity. Your awareness artifact should name a tension the ICP already feels.",
     },
     {
       type: "p",
@@ -116,11 +116,11 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Understanding — what changes for me?",
+      text: "Understanding - what changes for me?",
     },
     {
       type: "p",
-      text: "This is usually the homepage or core offer page. It must translate features into life-after. Stripe and Notion are strong public references for making capability feel concrete without drowning the first viewport. If understanding is weak, paid awareness becomes an expensive bounce generator—see also [clarity versus marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "This is usually the homepage or core offer page. It must translate features into life-after. Stripe and Notion are strong public references for making capability feel concrete without drowning the first viewport. If understanding is weak, paid awareness becomes an expensive bounce generator-see also [clarity versus marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "p",
@@ -128,19 +128,19 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Trust — why believe you?",
+      text: "Trust - why believe you?",
     },
     {
       type: "p",
-      text: "Trust is not a logo strip alone. It is evidence matched to risk: security for enterprise, outcomes for ROI buyers, craft for design tools, community for consumer brands. Figma’s product visibility and customer stories do different trust jobs than a bank’s compliance page—and should.",
+      text: "Trust is not a logo strip alone. It is evidence matched to risk: security for enterprise, outcomes for ROI buyers, craft for design tools, community for consumer brands. Figma’s product visibility and customer stories do different trust jobs than a bank’s compliance page-and should.",
     },
     {
       type: "p",
-      text: "Redesign move: list the top three doubts from sales and support. Build or relocate proof that answers those doubts within the journey—ideally before the hardest ask. Baymard’s decision-point research mindset applies: [baymard.com/blog](https://baymard.com/blog).",
+      text: "Redesign move: list the top three doubts from sales and support. Build or relocate proof that answers those doubts within the journey-ideally before the hardest ask. Baymard’s decision-point research mindset applies: [baymard.com/blog](https://baymard.com/blog).",
     },
     {
       type: "h3",
-      text: "Activation — how do I get value quickly?",
+      text: "Activation - how do I get value quickly?",
     },
     {
       type: "p",
@@ -148,19 +148,19 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Redesign move: define activation as a felt outcome, instrument time-to-that-outcome, and cut steps that do not serve it. Accessibility and performance count here—[WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) and [web.dev](https://web.dev/) are part of respecting the user’s first hour.",
+      text: "Redesign move: define activation as a felt outcome, instrument time-to-that-outcome, and cut steps that do not serve it. Accessibility and performance count here-[WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) and [web.dev](https://web.dev/) are part of respecting the user’s first hour.",
     },
     {
       type: "h3",
-      text: "Expansion — why stay and grow?",
+      text: "Expansion - why stay and grow?",
     },
     {
       type: "p",
-      text: "Expansion should feel like earned next value, not a hostage upsell. Good expansion journeys surface new capabilities when the user hits a real limit—seats, volume, collaboration—not when the billing team hits a quarterly target. Linear and other product-led tools often expand through workflow depth; consumer brands expand through trust and habit.",
+      text: "Expansion should feel like earned next value, not a hostage upsell. Good expansion journeys surface new capabilities when the user hits a real limit-seats, volume, collaboration-not when the billing team hits a quarterly target. Linear and other product-led tools often expand through workflow depth; consumer brands expand through trust and habit.",
     },
     {
       type: "p",
-      text: "Redesign move: map the first natural expansion trigger in the product. Build one clear path. Delete two premature upgrade nags. Your future self—and your churn chart—will thank you.",
+      text: "Redesign move: map the first natural expansion trigger in the product. Build one clear path. Delete two premature upgrade nags. Your future self-and your churn chart-will thank you.",
     },
     {
       type: "takeaway",
@@ -220,11 +220,11 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Awareness: keep one campaign theme—“quiet coastal stays for deep-work weekends”—not five vibes.",
+        "Awareness: keep one campaign theme-“quiet coastal stays for deep-work weekends”-not five vibes.",
         "Understanding: rebuild homepage around that job; remove blog modules from the first viewport.",
         "Trust: surface house rules, host response norms, and real guest outcomes near booking.",
         "Activation: simplify booking to fewer steps; confirmations that set arrival expectations.",
-        "Expansion: post-stay path to return booking and referrals—not a spray of unrelated city guides.",
+        "Expansion: post-stay path to return booking and referrals-not a spray of unrelated city guides.",
       ],
     },
     {
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Notice what did not get added: a podcast, a community Discord, a newsletter, and a partner webinar series in month one. Those can arrive later as support for a stage that already works. Premature channel sprawl is how B2B teams confuse motion with progress—then hire someone to “own lifecycle” while activation still takes a fortnight.",
+      text: "Notice what did not get added: a podcast, a community Discord, a newsletter, and a partner webinar series in month one. Those can arrive later as support for a stage that already works. Premature channel sprawl is how B2B teams confuse motion with progress-then hire someone to “own lifecycle” while activation still takes a fortnight.",
     },
     {
       type: "ul",
@@ -255,7 +255,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "SaaS journeys fail most often between Understanding and Activation—the promise is clear, the first win is not. Fix that seam before you fund more top-of-funnel.",
+      text: "SaaS journeys fail most often between Understanding and Activation-the promise is clear, the first win is not. Fix that seam before you fund more top-of-funnel.",
     },
     {
       type: "h2",
@@ -263,7 +263,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Journey redesign is product strategy in slow motion. If activation cannot deliver the understanding-stage promise, you do not have a lifecycle email problem—you have a product problem. YC’s library repeatedly returns to talking to users and shipping value—[ycombinator.com/library](https://www.ycombinator.com/library). HBR’s customer experience pieces similarly warn against theatre without operational change—[hbr.org](https://hbr.org/).",
+      text: "Journey redesign is product strategy in slow motion. If activation cannot deliver the understanding-stage promise, you do not have a lifecycle email problem-you have a product problem. YC’s library repeatedly returns to talking to users and shipping value-[ycombinator.com/library](https://www.ycombinator.com/library). HBR’s customer experience pieces similarly warn against theatre without operational change-[hbr.org](https://hbr.org/).",
     },
     {
       type: "p",
@@ -309,7 +309,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Restraint is part of the craft. First Round Review often highlights companies that win by focus—[review.firstround.com](https://review.firstround.com/). Your journey can borrow that ethic without borrowing someone else’s playbook wholesale.",
+      text: "Restraint is part of the craft. First Round Review often highlights companies that win by focus-[review.firstround.com](https://review.firstround.com/). Your journey can borrow that ethic without borrowing someone else’s playbook wholesale.",
     },
     {
       type: "h2",
@@ -321,7 +321,7 @@ const post: BlogPost = {
         {
           question: "Do we need different journeys for every persona?",
           answer:
-            "Start with one primary ICP journey. Add a second only when evidence shows a different belief sequence—not merely a different job title. Shared stages with branched artifacts beat six parallel maps nobody maintains.",
+            "Start with one primary ICP journey. Add a second only when evidence shows a different belief sequence-not merely a different job title. Shared stages with branched artifacts beat six parallel maps nobody maintains.",
         },
         {
           question: "Where do sales calls fit?",
@@ -351,7 +351,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I redesign journeys by clarifying belief stages and removing anything that does not advance the next decision. Awareness, understanding, trust, activation, expansion—each with one primary artifact and a clear success signal. Everything else earns its place as support or gets cut.",
+      text: "I redesign journeys by clarifying belief stages and removing anything that does not advance the next decision. Awareness, understanding, trust, activation, expansion-each with one primary artifact and a clear success signal. Everything else earns its place as support or gets cut.",
     },
     {
       type: "p",

@@ -8,15 +8,15 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-67-real-world-needs.png",
   metaDescription:
-    "The internet still needs the real world—why digital belief is cheaper when physical proof comes first, and how brands use scarcity, place, and bodies as infrastructure for online trust.",
+    "The internet still needs the real world-why digital belief is cheaper when physical proof comes first, and how brands use scarcity, place, and bodies as infrastructure for online trust.",
   content: [
     {
       type: "p",
-      text: "Digital belief has become oddly expensive. Not always in media spend—though that too—but in the amount of polish, repetition, and persuasion required to make a stranger take you seriously. Feeds are saturated with competent-looking claims. Competence alone no longer clears the bar.",
+      text: "Digital belief has become oddly expensive. Not always in media spend-though that too-but in the amount of polish, repetition, and persuasion required to make a stranger take you seriously. Feeds are saturated with competent-looking claims. Competence alone no longer clears the bar.",
     },
     {
       type: "p",
-      text: "The internet still needs the real world because something physical can make a claim true before the pixels try to. When bodies, places, and inconvenience have already done the hard work of proof, digital marketing stops inventing reality and starts distributing it. Belief gets cheaper. Not free—cheaper.",
+      text: "The internet still needs the real world because something physical can make a claim true before the pixels try to. When bodies, places, and inconvenience have already done the hard work of proof, digital marketing stops inventing reality and starts distributing it. Belief gets cheaper. Not free-cheaper.",
     },
     {
       type: "p",
@@ -28,7 +28,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When everyone can generate a finished-looking brand overnight, finished-looking stops signalling seriousness. Audiences discount ads the way they discount spam—efficiently. You respond by spending more: more creative variants, more influencers, more retargeting, more adjectives. The invoice rises. The prior stays sceptical.",
+      text: "When everyone can generate a finished-looking brand overnight, finished-looking stops signalling seriousness. Audiences discount ads the way they discount spam-efficiently. You respond by spending more: more creative variants, more influencers, more retargeting, more adjectives. The invoice rises. The prior stays sceptical.",
     },
     {
       type: "ul",
@@ -36,7 +36,7 @@ const post: BlogPost = {
         "Infinite supply of polish collapses the value of polish.",
         "Cold claims online require more repetition to approach the same trust warm proof creates once.",
         "Suspicion is rational; your job is to lower the cost of belief, not to shout louder at sceptics.",
-        "Physical constraints—time, place, queue, weather—are costly in ways templates cannot fake cheaply.",
+        "Physical constraints-time, place, queue, weather-are costly in ways templates cannot fake cheaply.",
       ],
     },
     {
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once the prior is warm, paid and owned channels change job. They remind, extend, and invite the next contact. They stop trying to conjure seriousness from typography. That is where media efficiency usually hides—not in a clever bid strategy alone, but in a cheaper story to sell.",
+      text: "Once the prior is warm, paid and owned channels change job. They remind, extend, and invite the next contact. They stop trying to conjure seriousness from typography. That is where media efficiency usually hides-not in a clever bid strategy alone, but in a cheaper story to sell.",
     },
     {
       type: "h3",
@@ -150,7 +150,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Purely online brands often feel light. That can be charming until purchase risk rises. Then lightness reads as vapour. Physical gravity—packaging you can hold, a temporary shop, a founder dinner, a service moment in public—adds mass. Mass is what makes later content land with less persuasion.",
+      text: "Purely online brands often feel light. That can be charming until purchase risk rises. Then lightness reads as vapour. Physical gravity-packaging you can hold, a temporary shop, a founder dinner, a service moment in public-adds mass. Mass is what makes later content land with less persuasion.",
     },
     {
       type: "p",
@@ -163,10 +163,10 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Impose mutual inconvenience—the strongest cheap signal of seriousness.",
+        "Impose mutual inconvenience-the strongest cheap signal of seriousness.",
         "Create witnesses who can contradict or confirm you later.",
         "Generate sensory detail that survives scepticism better than adjectives.",
-        "Produce artefacts people photograph without being asked—see [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
+        "Produce artefacts people photograph without being asked-see [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
         "Warm the prior so the next click feels like continuation, not a cold open.",
       ],
     },
@@ -180,7 +180,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Retail as marketing infrastructure (not merely distribution) is the classic case: touch reduces uncertainty ads cannot. Community rituals—training clubs, tasting calendars, open workshops—do the same for smaller brands. Even a single well-run Saturday can change the temperature of a month of ads.",
+      text: "Retail as marketing infrastructure (not merely distribution) is the classic case: touch reduces uncertainty ads cannot. Community rituals-training clubs, tasting calendars, open workshops-do the same for smaller brands. Even a single well-run Saturday can change the temperature of a month of ads.",
     },
     {
       type: "p",
@@ -197,7 +197,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Physical infrastructure fails when it is theatre for a camera. Begin with conversations in the wild—objections, vernacular, jobs people are already doing in a place. Shoot later. Listen first: [why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera). A walk still beats a mood board: [your next marketing campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
+      text: "Physical infrastructure fails when it is theatre for a camera. Begin with conversations in the wild-objections, vernacular, jobs people are already doing in a place. Shoot later. Listen first: [why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera). A walk still beats a mood board: [your next marketing campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
     },
     {
       type: "h2",
@@ -240,7 +240,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People still share what they were part of more readily than what they were sold—[people rarely share advertisements—they share stories](/blog/people-rarely-share-advertisements-share-stories)—and the best marketing still [doesn’t ask people to share it](/blog/best-marketing-doesnt-ask-people-to-share). Feeling remains the residue that outlives the post: [people remember how your brand made them feel, not what it posted](/blog/people-remember-how-brand-made-them-feel).",
+      text: "People still share what they were part of more readily than what they were sold-[people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories)-and the best marketing still [doesn’t ask people to share it](/blog/best-marketing-doesnt-ask-people-to-share). Feeling remains the residue that outlives the post: [people remember how your brand made them feel, not what it posted](/blog/people-remember-how-brand-made-them-feel).",
     },
     {
       type: "h2",
@@ -256,7 +256,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "At nau I treat physical proof as part of the growth system, not as a seasonal stunt. Websites convert better when they sit on top of reality. Ads waste less when they remind. If you want the transfer mechanics in more detail, read the companion essay [why the internet still needs the real world](/blog/why-internet-still-needs-real-world). If you want memorable presence over interruption, start with [memorable brands don’t interrupt—they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "At nau I treat physical proof as part of the growth system, not as a seasonal stunt. Websites convert better when they sit on top of reality. Ads waste less when they remind. If you want the transfer mechanics in more detail, read the companion essay [why the internet still needs the real world](/blog/why-internet-still-needs-real-world). If you want memorable presence over interruption, start with [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "faq",
@@ -264,7 +264,7 @@ const post: BlogPost = {
         {
           question: "Isn’t this just “do events”?",
           answer:
-            "No. Events are one form of anchor. The point is checkable commitment that warms the prior—clinics, stalls, rituals, service in public. Spectacle is optional. Specificity is not.",
+            "No. Events are one form of anchor. The point is checkable commitment that warms the prior-clinics, stalls, rituals, service in public. Spectacle is optional. Specificity is not.",
         },
         {
           question: "What if our audience is global and sparse?",
@@ -274,7 +274,7 @@ const post: BlogPost = {
         {
           question: "How much physical proof is enough before we buy ads?",
           answer:
-            "Enough that creative can show receipts instead of adjectives. One honest cycle beats a year of inventing vibes—then amplify.",
+            "Enough that creative can show receipts instead of adjectives. One honest cycle beats a year of inventing vibes-then amplify.",
         },
         {
           question: "How is this different from credibility-transfer articles?",
@@ -289,7 +289,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The internet still needs the real world because the feed is a brilliant amplifier and a mediocre forge. Forge belief where forgery is expensive. Then let pixels do what they do best: carry a true story farther than your feet can—at a price your CAC can live with.",
+      text: "The internet still needs the real world because the feed is a brilliant amplifier and a mediocre forge. Forge belief where forgery is expensive. Then let pixels do what they do best: carry a true story farther than your feet can-at a price your CAC can live with.",
     },
     {
       type: "cta",

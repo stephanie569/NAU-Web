@@ -8,7 +8,7 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-53-ai-personality.png",
   metaDescription:
-    "How to use AI for content and marketing without diluting your brand voice—practical rules for authenticity when automation makes average fluency easy.",
+    "How to use AI for content and marketing without diluting your brand voice-practical rules for authenticity when automation makes average fluency easy.",
   content: [
     {
       type: "p",
@@ -16,7 +16,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Automation is useful. Authenticity is harder to automate. Don’t let AI become your personality. Use it as labour. Keep the quirks, constraints, and convictions that make a human voice recognisable—and a brand trustworthy.",
+      text: "Automation is useful. Authenticity is harder to automate. Don’t let AI become your personality. Use it as labour. Keep the quirks, constraints, and convictions that make a human voice recognisable-and a brand trustworthy.",
     },
     {
       type: "p",
@@ -24,7 +24,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "You do not need to become a poet. You need to become harder to substitute. In a market where everyone can generate competent paragraphs, the brands that win are the ones that still sound like a particular intelligence—one that has met customers, made trade-offs, and is willing to say so.",
+      text: "You do not need to become a poet. You need to become harder to substitute. In a market where everyone can generate competent paragraphs, the brands that win are the ones that still sound like a particular intelligence-one that has met customers, made trade-offs, and is willing to say so.",
     },
     {
       type: "h2",
@@ -54,7 +54,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders often treat authenticity as sincerity of feeling. Feelings do not scale. Systems do. An authentic brand voice is a documented set of permissions and prohibitions: what we say, what we never say, which metaphors we own, which customer words we preserve, how we handle disagreement. Without that system, every prompt becomes a roll of the dice—and the dice are weighted toward the median.",
+      text: "Founders often treat authenticity as sincerity of feeling. Feelings do not scale. Systems do. An authentic brand voice is a documented set of permissions and prohibitions: what we say, what we never say, which metaphors we own, which customer words we preserve, how we handle disagreement. Without that system, every prompt becomes a roll of the dice-and the dice are weighted toward the median.",
     },
     {
       type: "p",
@@ -110,7 +110,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the voice crate",
-      text: "Create a folder with ten artefacts that sound unmistakably like your brand—and five that sound like “corporate generic.” Write three bullet rules that separate the two piles. Those bullets become your first voice spec. Do not skip the negative pile; knowing what you are not is half the personality.",
+      text: "Create a folder with ten artefacts that sound unmistakably like your brand-and five that sound like “corporate generic.” Write three bullet rules that separate the two piles. Those bullets become your first voice spec. Do not skip the negative pile; knowing what you are not is half the personality.",
     },
     {
       type: "h3",
@@ -118,7 +118,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A voice spec need not be a novel. One page is enough: tone spectrum, words we favour, words we ban, humour allowance, certainty level, how we talk about competitors, how we admit limits. Codify enough that a contractor—or a model—can stay inside the fence. Related: [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "A voice spec need not be a novel. One page is enough: tone spectrum, words we favour, words we ban, humour allowance, certainty level, how we talk about competitors, how we admit limits. Codify enough that a contractor-or a model-can stay inside the fence. Related: [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h3",
@@ -126,7 +126,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Constraints are kindness. Tell the tool what not to do. Provide examples. Require structure options before final prose. Never ask for “engaging LinkedIn post about our product” with no spine. Curiosity still beats clever prompting—see [the best prompt is still a good question](/blog/best-prompt-is-still-good-question)—but questions without constraints still produce median answers.",
+      text: "Constraints are kindness. Tell the tool what not to do. Provide examples. Require structure options before final prose. Never ask for “engaging LinkedIn post about our product” with no spine. Curiosity still beats clever prompting-see [the best prompt is still a good question](/blog/best-prompt-is-still-good-question)-but questions without constraints still produce median answers.",
     },
     {
       type: "ol",
@@ -134,7 +134,7 @@ const post: BlogPost = {
         "Paste the voice rules into the system brief every time (or store them as a reusable template).",
         "Provide two positive examples and one anti-example.",
         "Ask for outlines first; approve the stake before drafting.",
-        "Generate, then human-edit for texture—not the reverse.",
+        "Generate, then human-edit for texture-not the reverse.",
         "Reject any draft that removes a necessary edge to sound “nicer.”",
       ],
     },
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Voice drifts under deadline pressure. Schedule a fifteen-minute review: pick three recent outputs, score them against the voice crate, note new banned phrases the model invented. Correction is how authenticity survives scale. Consistency of voice is a form of earned trust—as is consistency of publishing: [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Voice drifts under deadline pressure. Schedule a fifteen-minute review: pick three recent outputs, score them against the voice crate, note new banned phrases the model invented. Correction is how authenticity survives scale. Consistency of voice is a form of earned trust-as is consistency of publishing: [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "takeaway",
@@ -174,7 +174,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Human first line or last line—often both.",
+        "Human first line or last line-often both.",
         "At least one lived detail the model could not invent.",
         "One deliberate refusal (what you will not claim).",
         "Edit pass dedicated to removing false symmetry.",
@@ -187,11 +187,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Deadlines are where personality dies. Someone needs a post by 4pm. The model offers something acceptable. Acceptable ships. Multiply that by sixty days and you have trained your audience—and your team—to expect bland competence. Recovering a voice after that is harder than protecting it weekly.",
+      text: "Deadlines are where personality dies. Someone needs a post by 4pm. The model offers something acceptable. Acceptable ships. Multiply that by sixty days and you have trained your audience-and your team-to expect bland competence. Recovering a voice after that is harder than protecting it weekly.",
     },
     {
       type: "p",
-      text: "Build a pre-ship checklist that is short enough to survive a bad day: stake present, lived detail present, banned phrase absent, human line intact, claim still true. If a draft fails two checks, it does not ship—even if the calendar looks empty. Empty calendars recover. Diluted brands do not recover on demand. Organic attention still has to be earned with something recognisable: [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "Build a pre-ship checklist that is short enough to survive a bad day: stake present, lived detail present, banned phrase absent, human line intact, claim still true. If a draft fails two checks, it does not ship-even if the calendar looks empty. Empty calendars recover. Diluted brands do not recover on demand. Organic attention still has to be earned with something recognisable: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "p",
@@ -202,7 +202,7 @@ const post: BlogPost = {
       items: [
         "Write the five-check list above into your publishing tool or Notion template.",
         "Assign one person as voice owner for the month (rotate if needed).",
-        "Reject “we’ll fix voice in the next batch”—batches are how drift becomes culture.",
+        "Reject “we’ll fix voice in the next batch”-batches are how drift becomes culture.",
         "Keep a public internal channel for “sentences that sound like us.”",
         "Once a month, rewrite one successful AI-assisted piece from scratch as a calibration exercise.",
       ],
@@ -210,7 +210,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the swap test",
-      text: "Take your homepage hero, your latest email, and one social post. Cover the logo and brand name. Ask two people who know your market whether they can identify the company. If they cannot, you do not have a personality problem in theory—you have one in the artefacts. Rewrite the identifiable line first; let AI help only after that line exists.",
+      text: "Take your homepage hero, your latest email, and one social post. Cover the logo and brand name. Ask two people who know your market whether they can identify the company. If they cannot, you do not have a personality problem in theory-you have one in the artefacts. Rewrite the identifiable line first; let AI help only after that line exists.",
     },
     {
       type: "callout",
@@ -223,7 +223,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For how brand meaning forms through repeated signals, [Harvard Business Review](https://hbr.org/) is consistently useful. [Nielsen Norman Group](https://www.nngroup.com/) helps when voice must become UX microcopy without losing clarity. The [Content Design London](https://contentdesign.london/) community materials are practical on plain language that still has character—authenticity is rarely the same as ornament.",
+      text: "For how brand meaning forms through repeated signals, [Harvard Business Review](https://hbr.org/) is consistently useful. [Nielsen Norman Group](https://www.nngroup.com/) helps when voice must become UX microcopy without losing clarity. The [Content Design London](https://contentdesign.london/) community materials are practical on plain language that still has character-authenticity is rarely the same as ornament.",
     },
     {
       type: "h2",
@@ -231,7 +231,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help teams build voice systems alongside growth systems—so AI can draft without flattening the brand into category mush. Marketing should still feel designed, not mass-produced: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design). And when you decide what to automate versus what to own, keep judgement human: [AI should handle the repetition; you should keep the judgement](/blog/ai-should-handle-repetition-you-keep-judgement).",
+      text: "I help teams build voice systems alongside growth systems-so AI can draft without flattening the brand into category mush. Marketing should still feel designed, not mass-produced: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design). And when you decide what to automate versus what to own, keep judgement human: [AI should handle the repetition; you should keep the judgement](/blog/ai-should-handle-repetition-you-keep-judgement).",
     },
     {
       type: "p",
@@ -243,7 +243,7 @@ const post: BlogPost = {
         {
           question: "Isn’t a consistent AI voice better than an inconsistent human one?",
           answer:
-            "Consistency matters. Homogeneity does not. Aim for consistent human standards—not consistently median prose.",
+            "Consistency matters. Homogeneity does not. Aim for consistent human standards-not consistently median prose.",
         },
         {
           question: "What if our founders are not natural writers?",
@@ -253,12 +253,12 @@ const post: BlogPost = {
         {
           question: "How do we stay authentic in regulated industries?",
           answer:
-            "Authenticity can be precise and careful. Document approved claims, then invest personality in process, customer reality, and clarity—not in reckless promises.",
+            "Authenticity can be precise and careful. Document approved claims, then invest personality in process, customer reality, and clarity-not in reckless promises.",
         },
         {
           question: "Can we use AI for social and keep humans for the website?",
           answer:
-            "You can—but customers experience one brand. If social becomes generic, the website’s care starts to look like a costume. Apply the same voice system everywhere, with different depth.",
+            "You can-but customers experience one brand. If social becomes generic, the website’s care starts to look like a costume. Apply the same voice system everywhere, with different depth.",
         },
       ],
     },
@@ -268,7 +268,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Models are excellent at making you sound like everyone who trained them. Your job is to keep the strange bits that make you recognisable: the blunt sentence, the specific example, the refusal, the humour that is actually yours. Automation can carry the load. It should not wear your face. Don’t let AI become your personality. Let it become your assistant—and keep the personality where trust lives.",
+      text: "Models are excellent at making you sound like everyone who trained them. Your job is to keep the strange bits that make you recognisable: the blunt sentence, the specific example, the refusal, the humour that is actually yours. Automation can carry the load. It should not wear your face. Don’t let AI become your personality. Let it become your assistant-and keep the personality where trust lives.",
     },
     {
       type: "cta",

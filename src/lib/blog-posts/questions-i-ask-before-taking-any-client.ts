@@ -9,15 +9,15 @@ const post: BlogPost = {
   category: "Research & Positioning",
   image: "/images/blog/blog-17-client-questions.png",
   metaDescription:
-    "The questions I ask before working with a product brand—so research, positioning and launches stay honest.",
+    "The questions I ask before working with a product brand-so research, positioning and launches stay honest.",
   content: [
     {
       type: "p",
-      text: "Not every project is a fit. Before I say yes, I ask questions that protect both sides from polite failure—the kind where everyone is nice, the work looks busy, and nothing actually changes. Charm is not a brief. Budget is not a strategy. And “we just need a quick redesign” is occasionally true, but more often a symptom wearing lipstick.",
+      text: "Not every project is a fit. Before I say yes, I ask questions that protect both sides from polite failure-the kind where everyone is nice, the work looks busy, and nothing actually changes. Charm is not a brief. Budget is not a strategy. And “we just need a quick redesign” is occasionally true, but more often a symptom wearing lipstick.",
     },
     {
       type: "p",
-      text: "This is a transparent look at how I choose collaborations for strategy-led product and web work. Founders can use the same list in reverse: if you cannot answer these well, you may not be ready for an external partner—or you may need a clarity sprint before a build sprint. Related reading: [before you spend £10,000 on marketing, five questions](/blog/before-spend-10000-marketing-five-questions).",
+      text: "This is a transparent look at how I choose collaborations for strategy-led product and web work. Founders can use the same list in reverse: if you cannot answer these well, you may not be ready for an external partner-or you may need a clarity sprint before a build sprint. Related reading: [before you spend £10,000 on marketing, five questions](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -25,7 +25,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Chemistry gets projects started. Fit keeps them useful. Mis-fit work wastes the client’s runway and the strategist’s attention—then both parties write vague testimonials about “great process” while the metrics stay flat.",
+      text: "Chemistry gets projects started. Fit keeps them useful. Mis-fit work wastes the client’s runway and the strategist’s attention-then both parties write vague testimonials about “great process” while the metrics stay flat.",
     },
     {
       type: "p",
@@ -48,7 +48,7 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "What decision are you trying to make easier for customers?",
-        "What have you already tried—and what did you learn?",
+        "What have you already tried-and what did you learn?",
         "Who decides, and how quickly can we ship changes?",
         "Are you open to cutting features, copy, or channels?",
         "What does success look like in 30 and 90 days?",
@@ -87,7 +87,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 1 — what decision are you trying to make easier?",
+      text: "Question 1 - what decision are you trying to make easier?",
     },
     {
       type: "p",
@@ -95,7 +95,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the answer is “all of them,” we do not have a project—we have a wish list. [Product strategy before screens](/blog/product-strategy-framework-before-designing-screen) exists for this moment. So does [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes) when the decision itself is muddy.",
+      text: "If the answer is “all of them,” we do not have a project-we have a wish list. [Product strategy before screens](/blog/product-strategy-framework-before-designing-screen) exists for this moment. So does [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes) when the decision itself is muddy.",
     },
     {
       type: "p",
@@ -104,7 +104,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this before our call",
-      text: "Write one sentence: “We help [ICP] decide to [action] by making [belief] easier to hold.” If you cannot finish it, that becomes the first workshop—not a redesign kickoff.",
+      text: "Write one sentence: “We help [ICP] decide to [action] by making [belief] easier to hold.” If you cannot finish it, that becomes the first workshop-not a redesign kickoff.",
     },
     {
       type: "takeaway",
@@ -112,7 +112,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 2 — what have you already tried—and learned?",
+      text: "Question 2 - what have you already tried-and learned?",
     },
     {
       type: "p",
@@ -121,8 +121,8 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Useful: “We ran paid search for six weeks; CTR was fine, activation was poor—so we suspect onboarding.”",
-        "Useful: “We redesigned once; demos rose, close rate did not—sales still fights pricing confusion.”",
+        "Useful: “We ran paid search for six weeks; CTR was fine, activation was poor-so we suspect onboarding.”",
+        "Useful: “We redesigned once; demos rose, close rate did not-sales still fights pricing confusion.”",
         "Risky: “We need fresh creative” with no theory of why the old creative failed.",
         "Risky: “Agencies didn’t get us” with no detail on what was asked or measured.",
       ],
@@ -133,7 +133,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 3 — who decides, and how quickly can we ship?",
+      text: "Question 3 - who decides, and how quickly can we ship?",
     },
     {
       type: "p",
@@ -141,7 +141,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe- and Linear-like operating cultures—small teams, clear owners, high craft bar—can move fast without chaos. Not every client needs to be them. They do need a path from insight to live change measured in days or a couple of weeks, not quarters.",
+      text: "Stripe- and Linear-like operating cultures-small teams, clear owners, high craft bar-can move fast without chaos. Not every client needs to be them. They do need a path from insight to live change measured in days or a couple of weeks, not quarters.",
     },
     {
       type: "p",
@@ -153,11 +153,11 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 4 — are you open to cutting?",
+      text: "Question 4 - are you open to cutting?",
     },
     {
       type: "p",
-      text: "Clarity work is mostly subtraction. Features, channels, claims, nav items, CTAs—someone’s favourite thing usually has to go. If the answer is “we can add, but we can’t remove,” we are negotiating decoration.",
+      text: "Clarity work is mostly subtraction. Features, channels, claims, nav items, CTAs-someone’s favourite thing usually has to go. If the answer is “we can add, but we can’t remove,” we are negotiating decoration.",
     },
     {
       type: "p",
@@ -166,7 +166,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "A practical cut test",
-      text: "If we removed half the homepage modules for two weeks, what would you fear losing—and how would we measure whether that fear was real? Teams willing to run that thought experiment are usually ready for real work.",
+      text: "If we removed half the homepage modules for two weeks, what would you fear losing-and how would we measure whether that fear was real? Teams willing to run that thought experiment are usually ready for real work.",
     },
     {
       type: "takeaway",
@@ -174,7 +174,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 5 — what does success look like in 30 and 90 days?",
+      text: "Question 5 - what does success look like in 30 and 90 days?",
     },
     {
       type: "p",
@@ -210,7 +210,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I look for problems worth solving for real customers—not growth theatre. [Whether a product is worth building](/blog/how-i-decide-whether-product-worth-building) is a question I ask myself as much as clients. If the product is fundamentally unwanted, a prettier funnel is not kindness.",
+      text: "I look for problems worth solving for real customers-not growth theatre. [Whether a product is worth building](/blog/how-i-decide-whether-product-worth-building) is a question I ask myself as much as clients. If the product is fundamentally unwanted, a prettier funnel is not kindness.",
     },
     {
       type: "h3",
@@ -226,7 +226,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Rebuild the brand, website, product, and growth engine in six weeks” is not ambition. It is a scheduling hallucination. I would rather narrow scope and leave a system behind—see [systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns)—than promise a transformation montage.",
+      text: "“Rebuild the brand, website, product, and growth engine in six weeks” is not ambition. It is a scheduling hallucination. I would rather narrow scope and leave a system behind-see [systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns)-than promise a transformation montage.",
     },
     {
       type: "h2",
@@ -234,7 +234,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I do not send a fifty-question form and call it discovery. We talk. I ask the five questions in plain language, listen for specifics, and mirror back what I think the constraint is. If we disagree about the constraint, that disagreement is valuable—better now than after a redesign kickoff.",
+      text: "I do not send a fifty-question form and call it discovery. We talk. I ask the five questions in plain language, listen for specifics, and mirror back what I think the constraint is. If we disagree about the constraint, that disagreement is valuable-better now than after a redesign kickoff.",
     },
     {
       type: "ol",
@@ -249,7 +249,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes founders expect a pitch deck about deliverables. I would rather be slightly awkward and precise. Polite ambiguity is how projects become expensive calendars. If you want a sense of how I prioritise once inside, [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) is the operating flavour—not a bait-and-switch into endless workshops.",
+      text: "Sometimes founders expect a pitch deck about deliverables. I would rather be slightly awkward and precise. Polite ambiguity is how projects become expensive calendars. If you want a sense of how I prioritise once inside, [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) is the operating flavour-not a bait-and-switch into endless workshops.",
     },
     {
       type: "h3",
@@ -262,7 +262,7 @@ const post: BlogPost = {
         [
           "We just need it to look premium",
           "Unclear offer or weak proof",
-          "Premium compared to whom—and for which decision?",
+          "Premium compared to whom-and for which decision?",
         ],
         [
           "Our product is too complex to explain simply",
@@ -283,12 +283,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "None of these phrases are automatic disqualifiers. They are smoke. The follow-up finds whether there is fire—or just a team that has not been asked hard questions kindly enough.",
+      text: "None of these phrases are automatic disqualifiers. They are smoke. The follow-up finds whether there is fire-or just a team that has not been asked hard questions kindly enough.",
     },
     {
       type: "callout",
       title: "Founder exercise: interview yourself",
-      text: "Record a five-minute voice note answering the five fit questions without notes. Play it back. Wherever you hand-wave, that is pre-work before hiring anyone—agency, freelancer, or strategist. Clarity is cheaper when you produce it yourself first.",
+      text: "Record a five-minute voice note answering the five fit questions without notes. Play it back. Wherever you hand-wave, that is pre-work before hiring anyone-agency, freelancer, or strategist. Clarity is cheaper when you produce it yourself first.",
     },
     {
       type: "h2",
@@ -321,7 +321,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Automatic pauses look more like this: no decision owner, refusal to measure, insistence that the only problem is “awareness,” or a request to manufacture urgency for a product the team does not believe in. Waiting is underrated. So is saying no early—before invoices create false commitment.",
+      text: "Automatic pauses look more like this: no decision owner, refusal to measure, insistence that the only problem is “awareness,” or a request to manufacture urgency for a product the team does not believe in. Waiting is underrated. So is saying no early-before invoices create false commitment.",
     },
     {
       type: "h2",
@@ -329,7 +329,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founder A wants a “world-class site.” Answers: decision = more demos; tried paid ads (traffic up, demos flat); CPO decides weekly; open to cutting features; 90-day success = higher qualified demo rate and clearer pricing conversations. Fit: yes—likely a clarity and path problem.",
+      text: "Founder A wants a “world-class site.” Answers: decision = more demos; tried paid ads (traffic up, demos flat); CPO decides weekly; open to cutting features; 90-day success = higher qualified demo rate and clearer pricing conversations. Fit: yes-likely a clarity and path problem.",
     },
     {
       type: "p",
@@ -337,7 +337,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Same category, different readiness. The questions revealed it in thirty minutes—cheaper than a three-month polite failure.",
+      text: "Same category, different readiness. The questions revealed it in thirty minutes-cheaper than a three-month polite failure.",
     },
     {
       type: "faq",
@@ -355,7 +355,7 @@ const post: BlogPost = {
         {
           question: "Do you only take clients who already have strong positioning?",
           answer:
-            "No. Many engagements start because positioning is weak. I need willingness to work on it—not perfection on day one.",
+            "No. Many engagements start because positioning is weak. I need willingness to work on it-not perfection on day one.",
         },
         {
           question: "Can these questions help me hire an agency or freelancer?",
@@ -380,7 +380,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If those answers are clear, we can do sharp work. If not, we create that clarity together—or we wait. For a deeper diagnostic when everything “looks like a marketing problem,” read [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If those answers are clear, we can do sharp work. If not, we create that clarity together-or we wait. For a deeper diagnostic when everything “looks like a marketing problem,” read [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "cta",

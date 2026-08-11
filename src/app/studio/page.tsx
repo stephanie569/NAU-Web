@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 import { PageHero, FadeIn, SectionLabel } from "@/components/ui";
+import { NauButton } from "@/components/NauButton";
 import { team } from "@/lib/data";
 
 export default function StudioPage() {
@@ -77,12 +77,9 @@ export default function StudioPage() {
               <p className="mt-4 max-w-xl text-lg leading-relaxed text-muted">
                 {me.bio}
               </p>
-              <Link
-                href="/contact"
-                className="mt-8 inline-block text-sm font-medium underline underline-offset-4 hover:opacity-70"
-              >
+              <NauButton href="/contact" className="mt-8">
                 Work with me
-              </Link>
+              </NauButton>
             </FadeIn>
           </div>
         </div>

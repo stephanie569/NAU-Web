@@ -4,16 +4,16 @@ const post: BlogPost = {
   slug: "if-product-isnt-growing-start-here",
   title: "Product stuck? Don't touch ads yet. Start here.",
   excerpt:
-    "When growth stalls, founders reach for channels. Start instead with a diagnostic: clarity, activation, proof, retention—then distribution. A practical sequence for stuck products.",
+    "When growth stalls, founders reach for channels. Start instead with a diagnostic: clarity, activation, proof, retention-then distribution. A practical sequence for stuck products.",
   date: "June 24, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-30-start-here.png",
   metaDescription:
-    "If your product isn’t growing, start with clarity, activation, proof, and retention—not more channels. A practical diagnostic framework for stalled startups.",
+    "If your product isn’t growing, start with clarity, activation, proof, and retention-not more channels. A practical diagnostic framework for stalled startups.",
   content: [
     {
       type: "p",
-      text: "If your product is not growing, do not start with a new channel plan. Start with a diagnostic that separates symptoms from causes. New channels are easy to buy. Clear diagnosis is harder—and usually cheaper.",
+      text: "If your product is not growing, do not start with a new channel plan. Start with a diagnostic that separates symptoms from causes. New channels are easy to buy. Clear diagnosis is harder-and usually cheaper.",
     },
     {
       type: "p",
@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the starting sequence I use with founders at nau. It is deliberately unglamorous. It will not give you a viral hook. It will tell you whether the product is ready to be amplified—or whether amplification would only make the confusion louder.",
+      text: "This is the starting sequence I use with founders at nau. It is deliberately unglamorous. It will not give you a viral hook. It will tell you whether the product is ready to be amplified-or whether amplification would only make the confusion louder.",
     },
     {
       type: "callout",
@@ -76,7 +76,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe’s early clarity was developer-shaped. Notion eventually became many things, but the early pull was a clear job for teams drowning in docs. Linear made project tracking feel opinionated rather than endless. Clarity is a product decision expressed on a page—not a slogan contest.",
+      text: "Stripe’s early clarity was developer-shaped. Notion eventually became many things, but the early pull was a clear job for teams drowning in docs. Linear made project tracking feel opinionated rather than endless. Clarity is a product decision expressed on a page-not a slogan contest.",
     },
     {
       type: "h3",
@@ -106,7 +106,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Activation is the first meaningful outcome—not signup. Many products celebrate account creation while the actual aha moment is buried behind setup, empty states, permissions, or a blank canvas that asks the user to be imaginative on day one. That is a design failure, not a user failure.",
+      text: "Activation is the first meaningful outcome-not signup. Many products celebrate account creation while the actual aha moment is buried behind setup, empty states, permissions, or a blank canvas that asks the user to be imaginative on day one. That is a design failure, not a user failure.",
     },
     {
       type: "p",
@@ -128,7 +128,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For research on friction and usability patterns, [Nielsen Norman Group](https://www.nngroup.com/) and [Baymard](https://baymard.com/blog) are practical. For performance as part of first experience, [web.dev’s Core Web Vitals](https://web.dev/articles/vitals) is a useful baseline—slow pages are activation problems in disguise.",
+      text: "For research on friction and usability patterns, [Nielsen Norman Group](https://www.nngroup.com/) and [Baymard](https://baymard.com/blog) are practical. For performance as part of first experience, [web.dev’s Core Web Vitals](https://web.dev/articles/vitals) is a useful baseline-slow pages are activation problems in disguise.",
     },
     {
       type: "takeaway",
@@ -140,7 +140,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Proof is not a logos row at the bottom of the page. Proof is risk reduction placed next to the claim that creates the risk. If you claim time savings, show a specific outcome near that claim. If pricing creates hesitation, put a relevant case study near pricing—not in a forgotten `/customers` graveyard.",
+      text: "Proof is not a logos row at the bottom of the page. Proof is risk reduction placed next to the claim that creates the risk. If you claim time savings, show a specific outcome near that claim. If pricing creates hesitation, put a relevant case study near pricing-not in a forgotten `/customers` graveyard.",
     },
     {
       type: "p",
@@ -182,7 +182,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Retention is the honesty metric. You can buy signups. You can temporarily buy attention with promotions. You cannot permanently buy the feeling that the product is necessary. If cohorts only return when discounted, you have a value problem—or a habit problem—masked as a growth problem.",
+      text: "Retention is the honesty metric. You can buy signups. You can temporarily buy attention with promotions. You cannot permanently buy the feeling that the product is necessary. If cohorts only return when discounted, you have a value problem-or a habit problem-masked as a growth problem.",
     },
     {
       type: "ul",
@@ -190,12 +190,12 @@ const post: BlogPost = {
         "Look at retention by cohort and by segment, not only aggregate MAU.",
         "Separate “logged in” from “completed the core job again.”",
         "Interview churned users with one question: what failed to become inevitable?",
-        "Check whether expansion revenue comes from the same job you acquired for—or from unrelated add-ons that confuse the story.",
+        "Check whether expansion revenue comes from the same job you acquired for-or from unrelated add-ons that confuse the story.",
       ],
     },
     {
       type: "p",
-      text: "This is where many teams discover they never had product–market fit—they had a launch spike. For the deeper cut, see [why great products fail before product–market fit](/blog/why-great-products-fail-before-product-market-fit) and [what founders get wrong about product–market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "This is where many teams discover they never had product-market fit-they had a launch spike. For the deeper cut, see [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit) and [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "takeaway",
@@ -211,7 +211,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Until then, keep distribution in “learning mode”: small budgets, tight segments, ruthless review of message match and activation—not vanity reach.",
+      text: "Until then, keep distribution in “learning mode”: small budgets, tight segments, ruthless review of message match and activation-not vanity reach.",
     },
     {
       type: "h3",
@@ -220,7 +220,7 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "One primary channel for 30 days—not five half-attempts.",
+        "One primary channel for 30 days-not five half-attempts.",
         "Creative and landing page share one promise.",
         "Weekly review: cost per activated user, not cost per click.",
         "Pause anything that produces signups without activation.",
@@ -241,7 +241,7 @@ const post: BlogPost = {
         "Clarity: strangers describe Harbor as “hotel software.” Harbor actually helps boutique operators recover missed upsells from guest messaging. Fail.",
         "Activation: signup is easy; first value requires importing three systems and waiting for a “insights ready” email 48 hours later. Fail.",
         "Proof: homepage logos from unrelated brands; no outcome metrics near pricing. Fail.",
-        "Retention: operators who completed first upsell campaign return weekly; others ghost. Mixed—but instructive.",
+        "Retention: operators who completed first upsell campaign return weekly; others ghost. Mixed-but instructive.",
       ],
     },
     {
@@ -286,7 +286,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the five-call mirror",
-      text: "This week, call five recent signups (active and inactive). Ask only: What did you think this was? What almost stopped you? When did it first feel useful—or never? Write their answers verbatim. Your next homepage draft should sound more like them than like your deck.",
+      text: "This week, call five recent signups (active and inactive). Ask only: What did you think this was? What almost stopped you? When did it first feel useful-or never? Write their answers verbatim. Your next homepage draft should sound more like them than like your deck.",
     },
     {
       type: "h2",
@@ -303,7 +303,7 @@ const post: BlogPost = {
         "Calling signup “activation” because the real outcome is hard to instrument.",
         "Treating one enthusiastic design partner as segment-wide proof.",
         "Skipping retention review because “we’re still early” while spending like you are not.",
-        "Jumping to distribution because diagnosis feels slow—and then calling the resulting mess a channel problem.",
+        "Jumping to distribution because diagnosis feels slow-and then calling the resulting mess a channel problem.",
       ],
     },
     {
@@ -321,7 +321,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "At nau, I usually start with positioning, the conversion surface (website), and the first-session narrative—because that is where belief is won or lost. We do not begin with a channel brainstorm. We begin with the system that makes channels worth buying.",
+      text: "At nau, I usually start with positioning, the conversion surface (website), and the first-session narrative-because that is where belief is won or lost. We do not begin with a channel brainstorm. We begin with the system that makes channels worth buying.",
     },
     {
       type: "p",
@@ -329,7 +329,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Useful external reading when you need frameworks beyond this page: [Y Combinator’s Library](https://www.ycombinator.com/library) on early product learning, [First Round Review](https://review.firstround.com/) on go-to-market systems, and [Harvard Business Review](https://hbr.org/) for strategic framing when the team needs shared language—not more slogans.",
+      text: "Useful external reading when you need frameworks beyond this page: [Y Combinator’s Library](https://www.ycombinator.com/library) on early product learning, [First Round Review](https://review.firstround.com/) on go-to-market systems, and [Harvard Business Review](https://hbr.org/) for strategic framing when the team needs shared language-not more slogans.",
     },
     {
       type: "faq",
@@ -358,7 +358,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Start here—then stay disciplined",
+      text: "Start here-then stay disciplined",
     },
     {
       type: "p",
@@ -366,11 +366,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Clarity. Activation. Proof. Retention. Then distribution. It is not a slogan. It is the order in which reality usually reveals itself—whether your roadmap likes it or not.",
+      text: "Clarity. Activation. Proof. Retention. Then distribution. It is not a slogan. It is the order in which reality usually reveals itself-whether your roadmap likes it or not.",
     },
     {
       type: "cta",
-      lead: "If growth is stuck, start with a clear diagnosis—not another tactic. I can help you find the real bottleneck.",
+      lead: "If growth is stuck, start with a clear diagnosis-not another tactic. I can help you find the real bottleneck.",
       button: "Start here with me",
       href: "/contact",
     },

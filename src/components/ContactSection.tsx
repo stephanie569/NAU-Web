@@ -1,5 +1,7 @@
 "use client";
 
+import { NauButton } from "@/components/NauButton";
+import { NauLogoMark } from "@/components/NauLogoMark";
 import { heroVideo } from "@/lib/hero";
 import { contactSectionCopy } from "@/lib/sections";
 
@@ -49,7 +51,6 @@ function BenefitIcon({ type }: { type: "clock" | "steps" }) {
 
 export function ContactSection() {
   const {
-    brand,
     formTitle,
     formTitleMuted,
     fields,
@@ -82,9 +83,7 @@ export function ContactSection() {
 
       <div className="relative mx-auto grid w-full max-w-[1520px] grid-cols-1 gap-10 lg:grid-cols-2 lg:items-start lg:gap-12 xl:gap-16">
         <div className="rounded-[20px] bg-white p-8 md:p-10">
-          <p className="text-[15px] font-bold tracking-[-0.04em] text-[#0a0a0a]">
-            {brand}
-          </p>
+          <NauLogoMark size="xs" className="text-[#0a0a0a]" />
 
           <h2 className="mt-8 text-[clamp(1.75rem,3vw,2.25rem)] leading-tight font-semibold tracking-[-0.06em] text-[#0a0a0a]">
             {formTitle}{" "}
@@ -133,12 +132,9 @@ export function ContactSection() {
               />
             </label>
 
-            <button
-              type="submit"
-              className="mt-2 w-full rounded-full bg-[#0a0a0a] py-4 text-[15px] font-semibold tracking-[-0.04em] text-white transition-opacity hover:opacity-85"
-            >
+            <NauButton type="submit" fullWidth className="mt-2">
               {submit}
-            </button>
+            </NauButton>
 
             <p className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
               {legalLead}{" "}

@@ -5,16 +5,16 @@ const post: BlogPost = {
   title:
     "Your first £1,000? You're probably spending it wrong.",
   excerpt:
-    "Where early product brands waste budget—and what to fund before ads, logos or tool stacks.",
+    "Where early product brands waste budget-and what to fund before ads, logos or tool stacks.",
   date: "June 28, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-35-first-1000.png",
   metaDescription:
-    "Where product brands should spend their first £1,000—clarity and proof before ads, logos and unused tools.",
+    "Where product brands should spend their first £1,000-clarity and proof before ads, logos and unused tools.",
   content: [
     {
       type: "p",
-      text: "The first £1,000 you spend on a startup is a strategy decision disguised as shopping. Most founders spend it on logos, software seats, stock photography, or a burst of ads—before they have an offer clear enough to convert.",
+      text: "The first £1,000 you spend on a startup is a strategy decision disguised as shopping. Most founders spend it on logos, software seats, stock photography, or a burst of ads-before they have an offer clear enough to convert.",
     },
     {
       type: "p",
@@ -31,7 +31,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Where the first £1,000 usually goes—and why it underperforms",
+      text: "Where the first £1,000 usually goes-and why it underperforms",
     },
     {
       type: "ul",
@@ -104,7 +104,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe’s early trust came from product clarity and developer experience more than ornamental branding. Notion and Linear earned design reputations after the product job was sharp—not by purchasing prestige assets first. You can have craft and clarity. Clarity still comes first.",
+      text: "Stripe’s early trust came from product clarity and developer experience more than ornamental branding. Notion and Linear earned design reputations after the product job was sharp-not by purchasing prestige assets first. You can have craft and clarity. Clarity still comes first.",
     },
     {
       type: "ul",
@@ -153,7 +153,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "The first £1,000 should purchase learning and belief—not the illusion of looking like a funded company.",
+      text: "The first £1,000 should purchase learning and belief-not the illusion of looking like a funded company.",
     },
     {
       type: "takeaway",
@@ -166,10 +166,10 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "£250 — structured customer interviews and synthesis.",
-        "£350 — conversion-focused landing page and messaging sprint.",
-        "£200 — proof capture (case snippet, demo assets, basic creative).",
-        "£200 — a small, measured traffic test once the page is clear.",
+        "£250 - structured customer interviews and synthesis.",
+        "£350 - conversion-focused landing page and messaging sprint.",
+        "£200 - proof capture (case snippet, demo assets, basic creative).",
+        "£200 - a small, measured traffic test once the page is clear.",
       ],
     },
     {
@@ -225,7 +225,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Same £1,000. Interviews reveal the urgent job is late invoices and cashflow anxiety for solo designers—not “finance platform” identity. A plain page promises “get unpaid invoices chased without awkward emails,” with two pilot outcomes and a short booking CTA. A £200 test to that audience produces fewer clicks and more conversations. Less theatre. More signal.",
+      text: "Same £1,000. Interviews reveal the urgent job is late invoices and cashflow anxiety for solo designers-not “finance platform” identity. A plain page promises “get unpaid invoices chased without awkward emails,” with two pilot outcomes and a short booking CTA. A £200 test to that audience produces fewer clicks and more conversations. Less theatre. More signal.",
     },
     {
       type: "h2",
@@ -260,7 +260,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the stranger £20 test",
-      text: "Before buying ads, pay five strangers £10–20 (or equivalent value) to review your page for two minutes and explain the offer back. If they cannot, your ad budget is not late—it is early. Painfully early.",
+      text: "Before buying ads, pay five strangers £10-20 (or equivalent value) to review your page for two minutes and explain the offer back. If they cannot, your ad budget is not late-it is early. Painfully early.",
     },
     {
       type: "h2",
@@ -273,20 +273,20 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Days 1–3: eight interviews in one suspected wedge. Pay for incentives if needed. Synthesise language and urgency.",
-        "Days 4–6: write the offer canvas and a plain landing page. No brand theatre. One CTA.",
-        "Days 7–8: capture proof from any pilots, users, or even structured founder demos with measurable outcomes.",
-        "Days 9–10: mobile + speed pass; reduce form fields; place proof beside the primary claim.",
-        "Days 11–14: spend the remaining budget on a measured traffic or outbound test. Review cost per activated conversation—not clicks.",
+        "Days 1-3: eight interviews in one suspected wedge. Pay for incentives if needed. Synthesise language and urgency.",
+        "Days 4-6: write the offer canvas and a plain landing page. No brand theatre. One CTA.",
+        "Days 7-8: capture proof from any pilots, users, or even structured founder demos with measurable outcomes.",
+        "Days 9-10: mobile + speed pass; reduce form fields; place proof beside the primary claim.",
+        "Days 11-14: spend the remaining budget on a measured traffic or outbound test. Review cost per activated conversation-not clicks.",
       ],
     },
     {
       type: "p",
-      text: "At the end of fourteen days you should know whether the story converts cold attention into belief. If it does not, you still bought learning—which is the point of early money. If it does, you have an asset worth amplifying with the next thousand pounds.",
+      text: "At the end of fourteen days you should know whether the story converts cold attention into belief. If it does not, you still bought learning-which is the point of early money. If it does, you have an asset worth amplifying with the next thousand pounds.",
     },
     {
       type: "p",
-      text: "This pairs cleanly with [a 30-day startup reset](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days) when you have more than a fortnight, and with [why great products fail before product–market fit](/blog/why-great-products-fail-before-product-market-fit) when the deeper question is whether demand is real.",
+      text: "This pairs cleanly with [a 30-day startup reset](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days) when you have more than a fortnight, and with [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit) when the deeper question is whether demand is real.",
     },
     {
       type: "takeaway",
@@ -331,7 +331,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes. If a tool is required to deliver the core job (payments, hosting, analytics you will actually read), buy it. If a minimal visual system prevents looking accidental in a trust-sensitive category, buy a restrained version. The test is still: does this reduce uncertainty or enable the promised outcome—or does it mainly soothe founder nerves?",
+      text: "Sometimes. If a tool is required to deliver the core job (payments, hosting, analytics you will actually read), buy it. If a minimal visual system prevents looking accidental in a trust-sensitive category, buy a restrained version. The test is still: does this reduce uncertainty or enable the promised outcome-or does it mainly soothe founder nerves?",
     },
     {
       type: "p",
@@ -347,7 +347,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your early budget feels busy but not clarifying, we can reset the sequence—starting with product strategy and the experience that converts. Companion reads: [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here), [what I would change in 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days), and [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "If your early budget feels busy but not clarifying, we can reset the sequence-starting with product strategy and the experience that converts. Companion reads: [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here), [what I would change in 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days), and [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "p",
@@ -364,12 +364,12 @@ const post: BlogPost = {
         {
           question: "Should we ever spend on ads first?",
           answer:
-            "Only as a tiny learning budget against a clear page and a defined activation measure. Ads as brand therapy come later—ideally never.",
+            "Only as a tiny learning budget against a clear page and a defined activation measure. Ads as brand therapy come later-ideally never.",
         },
         {
           question: "Is DIY always better than hiring help early?",
           answer:
-            "No. Hiring help for clarity and conversion can be the highest-ROI early spend—if scoped to learning outcomes, not retainers without a brief.",
+            "No. Hiring help for clarity and conversion can be the highest-ROI early spend-if scoped to learning outcomes, not retainers without a brief.",
         },
         {
           question: "How do we know the sequence is working?",
@@ -392,7 +392,7 @@ const post: BlogPost = {
     },
     {
       type: "cta",
-      lead: "Want help deciding where your next £1,000 should go—so it creates traction, not noise?",
+      lead: "Want help deciding where your next £1,000 should go-so it creates traction, not noise?",
       button: "Get a spend-to-strategy review",
       href: "/contact",
     },

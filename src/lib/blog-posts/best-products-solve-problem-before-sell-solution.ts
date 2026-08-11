@@ -12,7 +12,7 @@ const post: BlogPost = {
   content: [
     {
       type: "p",
-      text: "Most pitch decks open with the product. Slide one is a screenshot. Slide two is a feature list dressed as a vision. Slide three is a market size number large enough to make everyone slightly nervous. Somewhere around slide seven, if you are lucky, someone mentions the customer’s actual Tuesday. By then the room has already decided whether they like the solution—without agreeing on the problem.",
+      text: "Most pitch decks open with the product. Slide one is a screenshot. Slide two is a feature list dressed as a vision. Slide three is a market size number large enough to make everyone slightly nervous. Somewhere around slide seven, if you are lucky, someone mentions the customer’s actual Tuesday. By then the room has already decided whether they like the solution-without agreeing on the problem.",
     },
     {
       type: "p",
@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about building and positioning products so the problem arrives first—in research, in copy, in demos, and in the roadmap. It sits alongside [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building) and [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit). If you are already mid-launch and wondering why the channel feels broken, start here instead of the ad account: [most product launches don't fail because of marketing](/blog/most-product-launches-dont-fail-because-of-marketing).",
+      text: "This piece is about building and positioning products so the problem arrives first-in research, in copy, in demos, and in the roadmap. It sits alongside [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building) and [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit). If you are already mid-launch and wondering why the channel feels broken, start here instead of the ad account: [most product launches don't fail because of marketing](/blog/most-product-launches-dont-fail-because-of-marketing).",
     },
     {
       type: "h2",
@@ -33,7 +33,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Solution-first copy sounds clever and lands soft—nobody feels seen.",
+        "Solution-first copy sounds clever and lands soft-nobody feels seen.",
         "Solution-first demos show capability; buyers buy relief.",
         "Solution-first roadmaps accumulate features without accumulating belief.",
         "Solution-first fundraising trains you to sell theatre to people who will never use the product.",
@@ -61,7 +61,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Ask what breaks if they wait another quarter. Money, time, reputation, compliance, sleep—pick the currency that already appears on their calendar. Mild inconvenience is not a market. Chronic, costly friction is. Jobs-to-be-done language helps here; the [Interaction Design Foundation](https://www.interaction-design.org/) has clear primers if you want the theory without the cult.",
+      text: "Ask what breaks if they wait another quarter. Money, time, reputation, compliance, sleep-pick the currency that already appears on their calendar. Mild inconvenience is not a market. Chronic, costly friction is. Jobs-to-be-done language helps here; the [Interaction Design Foundation](https://www.interaction-design.org/) has clear primers if you want the theory without the cult.",
     },
     {
       type: "h3",
@@ -77,7 +77,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A case study, a before/after, a two-minute teardown, a spreadsheet that already works—anything that proves the pain can move. Proof is not a feature tour. Proof is evidence that Tuesday got shorter.",
+      text: "A case study, a before/after, a two-minute teardown, a spreadsheet that already works-anything that proves the pain can move. Proof is not a feature tour. Proof is evidence that Tuesday got shorter.",
     },
     {
       type: "h3",
@@ -90,7 +90,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Write your homepage headline as a problem statement with no product nouns. If you cannot, you do not have positioning—you have a brochure. Then write one sentence of proof. Only after that may you name the product.",
+      text: "Write your homepage headline as a problem statement with no product nouns. If you cannot, you do not have positioning-you have a brochure. Then write one sentence of proof. Only after that may you name the product.",
     },
     {
       type: "h2",
@@ -142,12 +142,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Before design, before Figma, before the sprint—write a one-page problem brief. I refuse to open a layout tool until this exists, which is why [I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma). The brief is not a PRD. It is a discipline.",
+      text: "Before design, before Figma, before the sprint-write a one-page problem brief. I refuse to open a layout tool until this exists, which is why [I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma). The brief is not a PRD. It is a discipline.",
     },
     {
       type: "ol",
       items: [
-        "Who specifically feels this (role, context, constraint)—not “SMBs.”",
+        "Who specifically feels this (role, context, constraint)-not “SMBs.”",
         "What they do today when it hurts (tools, people, workarounds).",
         "How often it hits and what it costs in their currency.",
         "What “solved” looks like in the first week of use.",
@@ -164,7 +164,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founder A launches “InvoiceOS—AI-native billing for modern teams.” The site lists integrations, templates, and a chatbot. Demos start on the dashboard. Trial users poke around and leave. Support tickets ask what the product is for.",
+      text: "Founder A launches “InvoiceOS-AI-native billing for modern teams.” The site lists integrations, templates, and a chatbot. Demos start on the dashboard. Trial users poke around and leave. Support tickets ask what the product is for.",
     },
     {
       type: "p",
@@ -193,7 +193,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "It also breaks when founders confuse their own annoyance with a market. Your Friday night frustration is a hypothesis, not proof. Treat early buyers as teachers—more on that in [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher)—and keep updating the problem statement as language sharpens.",
+      text: "It also breaks when founders confuse their own annoyance with a market. Your Friday night frustration is a hypothesis, not proof. Treat early buyers as teachers-more on that in [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher)-and keep updating the problem statement as language sharpens.",
     },
     {
       type: "p",
@@ -205,7 +205,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The discipline only works if it survives contact with every surface. Website, sales deck, onboarding email, in-product empty states, support macros—each one either reinforces the problem or quietly reverts to feature theatre. I have seen a sharp homepage undone by a demo that opens on settings. I have seen a sharp demo undone by an onboarding checklist that asks for integrations before any relief appears.",
+      text: "The discipline only works if it survives contact with every surface. Website, sales deck, onboarding email, in-product empty states, support macros-each one either reinforces the problem or quietly reverts to feature theatre. I have seen a sharp homepage undone by a demo that opens on settings. I have seen a sharp demo undone by an onboarding checklist that asks for integrations before any relief appears.",
     },
     {
       type: "ul",
@@ -219,7 +219,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When those surfaces disagree, the customer learns not to trust the first sentence they read. Consistency is not brand fussiness. It is how problem clarity becomes belief. Airbnb’s early pages worked because they made the awkward lodging problem feel solvable before they sold “a platform.” Figma won attention by making multiplayer design pain obvious in the product itself—not by listing vector tools first.",
+      text: "When those surfaces disagree, the customer learns not to trust the first sentence they read. Consistency is not brand fussiness. It is how problem clarity becomes belief. Airbnb’s early pages worked because they made the awkward lodging problem feel solvable before they sold “a platform.” Figma won attention by making multiplayer design pain obvious in the product itself-not by listing vector tools first.",
     },
     {
       type: "h2",
@@ -227,11 +227,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once a week, take one sales call recording or support thread and extract a single verbatim problem sentence. Put it next to your homepage hero. If they do not rhyme, rewrite the hero—or rewrite the ICP. Do not debate adjectives in a vacuum. Debate against the words people already use when they are annoyed.",
+      text: "Once a week, take one sales call recording or support thread and extract a single verbatim problem sentence. Put it next to your homepage hero. If they do not rhyme, rewrite the hero-or rewrite the ICP. Do not debate adjectives in a vacuum. Debate against the words people already use when they are annoyed.",
     },
     {
       type: "p",
-      text: "This habit also protects you from PMF theatre. Declaring fit while the public sentence and the private rant diverge is how teams freeze a story the market has already left. Keep the problem moving as evidence moves—fit is not a trophy, which is why [product-market fit isn't a milestone. It's a moving target](/blog/product-market-fit-isnt-milestone-moving-target).",
+      text: "This habit also protects you from PMF theatre. Declaring fit while the public sentence and the private rant diverge is how teams freeze a story the market has already left. Keep the problem moving as evidence moves-fit is not a trophy, which is why [product-market fit isn't a milestone. It's a moving target](/blog/product-market-fit-isnt-milestone-moving-target).",
     },
     {
       type: "h2",
@@ -272,7 +272,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The best products do not open with their own cleverness. They open with a problem the buyer already pays for—with time, money, or quiet dread. Solve that on the page, in the demo, and in the first week of use. Sell the solution only after someone feels understood. Features will wait. Attention will not.",
+      text: "The best products do not open with their own cleverness. They open with a problem the buyer already pays for-with time, money, or quiet dread. Solve that on the page, in the demo, and in the first week of use. Sell the solution only after someone feels understood. Features will wait. Attention will not.",
     },
     {
       type: "cta",

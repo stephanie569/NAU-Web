@@ -5,16 +5,16 @@ const post: BlogPost = {
   title:
     "Stop interrupting people. Give them something worth keeping.",
   excerpt:
-    "Why interruption marketing fades—and how to design moments people keep without being asked.",
+    "Why interruption marketing fades-and how to design moments people keep without being asked.",
   date: "July 29, 2026",
   category: "Team Content",
   image: "/images/blog/blog-45-memorable-brands.png",
   metaDescription:
-    "The most memorable brands don't interrupt—they give something worth remembering. Why interruption fades and how to design value-first brand moments that last.",
+    "The most memorable brands don't interrupt-they give something worth remembering. Why interruption fades and how to design value-first brand moments that last.",
   content: [
     {
       type: "p",
-      text: "Interruption was once a viable business model because attention was cheap and choice was limited. That world is gone. People now carry a device that can escape any ad in half a second—and a nervous system trained to treat most brand speech as noise. Yet teams still brief campaigns as if the main job is to break into someone’s day.",
+      text: "Interruption was once a viable business model because attention was cheap and choice was limited. That world is gone. People now carry a device that can escape any ad in half a second-and a nervous system trained to treat most brand speech as noise. Yet teams still brief campaigns as if the main job is to break into someone’s day.",
     },
     {
       type: "p",
@@ -22,7 +22,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about designing for memory over reach—gift logic, anti-interruption craft, and why “shareable” is a side effect of generosity, not a demand. It connects to [why people rarely share advertisements—they share stories](/blog/people-rarely-share-advertisements-share-stories) and [how to create marketing people choose to photograph](/blog/how-to-create-marketing-people-photograph).",
+      text: "This piece is about designing for memory over reach-gift logic, anti-interruption craft, and why “shareable” is a side effect of generosity, not a demand. It connects to [why people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories) and [how to create marketing people choose to photograph](/blog/how-to-create-marketing-people-photograph).",
     },
     {
       type: "h2",
@@ -75,13 +75,13 @@ const post: BlogPost = {
         [
           "Return path",
           "Is there a dignified next step if they want more?",
-          "You leave value on the table—or you ambush",
+          "You leave value on the table-or you ambush",
         ],
       ],
     },
     {
       type: "p",
-      text: "Gifts can be intangible: clarity, humour, status, relief, competence. They can be tangible: a template, a sample, a map, a seat, a better queue. The form matters less than the felt generosity—and the link to what you actually sell.",
+      text: "Gifts can be intangible: clarity, humour, status, relief, competence. They can be tangible: a template, a sample, a map, a seat, a better queue. The form matters less than the felt generosity-and the link to what you actually sell.",
     },
     {
       type: "image",
@@ -98,7 +98,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Give people something that helps them do a job related to your category—ideally before you ask for an email. Calculators, checklists, templates, public tools, and clear explainers still outperform cleverness that helps only the brand.",
+      text: "Give people something that helps them do a job related to your category-ideally before you ask for an email. Calculators, checklists, templates, public tools, and clear explainers still outperform cleverness that helps only the brand.",
     },
     {
       type: "h3",
@@ -122,7 +122,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Give a story people can retell without a brand kit. Stories are portable memory. Ads are usually not. If the tale dies when the logo is removed, it was never a story—it was a claim with production value.",
+      text: "Give a story people can retell without a brand kit. Stories are portable memory. Ads are usually not. If the tale dies when the logo is removed, it was never a story-it was a claim with production value.",
     },
     {
       type: "callout",
@@ -161,7 +161,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Invitation is not passivity. It is confidence. You design something good enough that people approach. That may produce fewer raw impressions and better downstream economics—higher trust, better retention, lower support load from mismatched expectations.",
+      text: "Invitation is not passivity. It is confidence. You design something good enough that people approach. That may produce fewer raw impressions and better downstream economics-higher trust, better retention, lower support load from mismatched expectations.",
     },
     {
       type: "takeaway",
@@ -173,7 +173,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Memory prefers distinctiveness, emotion, and repetition with variation—not repetition alone. A single sharp gift repeated across surfaces will beat twelve disconnected interruptions. This is systems thinking applied to brand: one promise, many generous expressions. More on that posture in [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Memory prefers distinctiveness, emotion, and repetition with variation-not repetition alone. A single sharp gift repeated across surfaces will beat twelve disconnected interruptions. This is systems thinking applied to brand: one promise, many generous expressions. More on that posture in [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "ol",
@@ -181,13 +181,13 @@ const post: BlogPost = {
         "Choose one memory you want to own in the category (not ten).",
         "Design three gifts that encode that memory.",
         "Place them where interruption is unnecessary because the context invites pause.",
-        "Measure residue: unaided recall, organic mentions, saved assets, return visits—not only reach.",
+        "Measure residue: unaided recall, organic mentions, saved assets, return visits-not only reach.",
         "Retire tactics that create reach while destroying liking.",
       ],
     },
     {
       type: "p",
-      text: "Physical space helps because it can gift without a feed’s competitive screaming. Digital helps when it gifts utility at the exact moment of need. Hybrid work—street to screen—works when the bridge is respectful; see [why the internet still needs the real world](/blog/why-internet-still-needs-real-world) and [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "Physical space helps because it can gift without a feed’s competitive screaming. Digital helps when it gifts utility at the exact moment of need. Hybrid work-street to screen-works when the bridge is respectful; see [why the internet still needs the real world](/blog/why-internet-still-needs-real-world) and [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "h2",
@@ -196,7 +196,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise (30 minutes)",
-      text: "Show your campaign to five people. Ask: “What would you keep from this—if anything?” Keep means save, screenshot, retell, revisit, or physically take. If the honest answer is “nothing,” you have an interruption dressed as content. Redesign the gift before you buy media.",
+      text: "Show your campaign to five people. Ask: “What would you keep from this-if anything?” Keep means save, screenshot, retell, revisit, or physically take. If the honest answer is “nothing,” you have an interruption dressed as content. Redesign the gift before you buy media.",
     },
     {
       type: "h2",
@@ -204,7 +204,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Memory work often looks underfunded on a media spreadsheet and overperforming in the world. Fund the gift quality first. Amplify second. If you reverse that, you amplify emptiness. For founders under constraint, read [small budgets don’t kill good ideas—predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do) and [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Memory work often looks underfunded on a media spreadsheet and overperforming in the world. Fund the gift quality first. Amplify second. If you reverse that, you amplify emptiness. For founders under constraint, read [small budgets don’t kill good ideas-predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do) and [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -212,7 +212,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For how ideas travel through social currency and practical value, [Jonah Berger’s work](https://jonahberger.com/) is useful. For attention and humane design, [Nielsen Norman Group](https://www.nngroup.com/) stays sober. For brand as long-term memory system rather than campaign theatre, [Ehrenberg-Bass Institute](https://www.marketingscience.info/) research on mental availability is a corrective to short-termism—use it as discipline, not as an excuse for bland distinctiveness.",
+      text: "For how ideas travel through social currency and practical value, [Jonah Berger’s work](https://jonahberger.com/) is useful. For attention and humane design, [Nielsen Norman Group](https://www.nngroup.com/) stays sober. For brand as long-term memory system rather than campaign theatre, [Ehrenberg-Bass Institute](https://www.marketingscience.info/) research on mental availability is a corrective to short-termism-use it as discipline, not as an excuse for bland distinctiveness.",
     },
     {
       type: "faq",
@@ -220,7 +220,7 @@ const post: BlogPost = {
         {
           question: "Does this mean we should never run ads?",
           answer:
-            "No. It means ads should carry gifts and distinctiveness—not merely volume. Paid can invite. It does not have to ambush.",
+            "No. It means ads should carry gifts and distinctiveness-not merely volume. Paid can invite. It does not have to ambush.",
         },
         {
           question: "What if our category is low-interest?",
@@ -245,7 +245,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The most memorable brands do not win the interruption contest. They win the keep test. They leave people better equipped, better recognised, or better amused—and somehow that generosity points back to a product promise without needing a hostage situation.",
+      text: "The most memorable brands do not win the interruption contest. They win the keep test. They leave people better equipped, better recognised, or better amused-and somehow that generosity points back to a product promise without needing a hostage situation.",
     },
     {
       type: "p",

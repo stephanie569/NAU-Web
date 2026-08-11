@@ -4,16 +4,16 @@ const post: BlogPost = {
   slug: "why-startup-websites-fail-first-10-seconds",
   title: "Most product brand sites die in the first 10 seconds",
   excerpt:
-    "Why outdoor, travel and tech brand websites lose shoppers before the scroll—and how to fix it.",
+    "Why outdoor, travel and tech brand websites lose shoppers before the scroll-and how to fix it.",
   date: "July 26, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-03-ten-seconds.png",
   metaDescription:
-    "Why product brand websites lose visitors in the first 10 seconds—and how to fix hero clarity, proof and CTAs.",
+    "Why product brand websites lose visitors in the first 10 seconds-and how to fix hero clarity, proof and CTAs.",
   content: [
     {
       type: "p",
-      text: "Most startup websites do not fail at checkout. They fail in the first ten seconds—before the visitor scrolls, before the demo video loads, before your carefully written feature grid gets a chance to impress anyone who has already left.",
+      text: "Most startup websites do not fail at checkout. They fail in the first ten seconds-before the visitor scrolls, before the demo video loads, before your carefully written feature grid gets a chance to impress anyone who has already left.",
     },
     {
       type: "p",
@@ -37,7 +37,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "In practice, the first viewport must do four jobs almost at once: name who it is for, state the outcome, show enough proof to reduce risk, and offer one clear next step. Miss two of those and the bounce is rational—not rude.",
+      text: "In practice, the first viewport must do four jobs almost at once: name who it is for, state the outcome, show enough proof to reduce risk, and offer one clear next step. Miss two of those and the bounce is rational-not rude.",
     },
     {
       type: "ul",
@@ -77,11 +77,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Book a demo,” “Start free,” “Watch video,” “Read docs,” “Join community,” and a chat widget all in the first viewport is not hospitality. It is decision fatigue with better kerning. Pick one primary action for the next thirty days. Secondary actions can exist—quietly.",
+      text: "“Book a demo,” “Start free,” “Watch video,” “Read docs,” “Join community,” and a chat widget all in the first viewport is not hospitality. It is decision fatigue with better kerning. Pick one primary action for the next thirty days. Secondary actions can exist-quietly.",
     },
     {
       type: "p",
-      text: "Stripe’s product surfaces tend to guide you toward a clear start. Apple product pages push one dominant action. You can still explore—but the page is not a buffet designed by a committee afraid of missing a conversion path.",
+      text: "Stripe’s product surfaces tend to guide you toward a clear start. Apple product pages push one dominant action. You can still explore-but the page is not a buffet designed by a committee afraid of missing a conversion path.",
     },
     {
       type: "table",
@@ -115,7 +115,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Trusted by leading teams” under a gradient is not proof. Proof is specific. A metric. A name your ICP recognises. A short clip of the outcome happening. Place it beside the claim that creates doubt—usually the hero—not in a logo strip that appears after the visitor has already left.",
+      text: "“Trusted by leading teams” under a gradient is not proof. Proof is specific. A metric. A name your ICP recognises. A short clip of the outcome happening. Place it beside the claim that creates doubt-usually the hero-not in a logo strip that appears after the visitor has already left.",
     },
     {
       type: "p",
@@ -127,7 +127,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Motion, illustration, and product UI shots can help—when they clarify. When they delay meaning, they cost you the lease. Performance matters too: if the hero takes forever to become readable, you failed the ten-second test on technical grounds. Google’s guidance on [Core Web Vitals](https://web.dev/articles/vitals) is not only an SEO topic; it is a first-impression topic.",
+      text: "Motion, illustration, and product UI shots can help-when they clarify. When they delay meaning, they cost you the lease. Performance matters too: if the hero takes forever to become readable, you failed the ten-second test on technical grounds. Google’s guidance on [Core Web Vitals](https://web.dev/articles/vitals) is not only an SEO topic; it is a first-impression topic.",
     },
     {
       type: "p",
@@ -143,11 +143,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Many startup heroes are designed on large monitors and tolerated on phones. On mobile, the headline truncates oddly, the proof disappears below a fold that never gets scrolled, and the primary CTA sits under a decorative product shot. Test the first ten seconds on a phone in one hand on a bad train signal—not on your studio Wi‑Fi.",
+      text: "Many startup heroes are designed on large monitors and tolerated on phones. On mobile, the headline truncates oddly, the proof disappears below a fold that never gets scrolled, and the primary CTA sits under a decorative product shot. Test the first ten seconds on a phone in one hand on a bad train signal-not on your studio Wi‑Fi.",
     },
     {
       type: "p",
-      text: "A fictional example: BeaconHQ, an analytics tool, had a gorgeous desktop hero with a layered dashboard mockup. On mobile, the mockup pushed the CTA below the fold and the headline wrapped into nonsense. Desktop demo requests looked “fine.” Mobile traffic—half their paid spend—converted like a polite shrug. They did not need a rebrand. They needed the outcome and the button visible without a gymnastic scroll.",
+      text: "A fictional example: BeaconHQ, an analytics tool, had a gorgeous desktop hero with a layered dashboard mockup. On mobile, the mockup pushed the CTA below the fold and the headline wrapped into nonsense. Desktop demo requests looked “fine.” Mobile traffic-half their paid spend-converted like a polite shrug. They did not need a rebrand. They needed the outcome and the button visible without a gymnastic scroll.",
     },
     {
       type: "h2",
@@ -160,12 +160,12 @@ const post: BlogPost = {
         "One outcome in the supporting line.",
         "One primary CTA.",
         "One trust signal visible without scrolling.",
-        "One visual that supports the outcome—not a generic stock mood.",
+        "One visual that supports the outcome-not a generic stock mood.",
       ],
     },
     {
       type: "quote",
-      text: "If a stranger cannot explain your product after ten seconds, your website is not “minimal”—it is unfinished.",
+      text: "If a stranger cannot explain your product after ten seconds, your website is not “minimal”-it is unfinished.",
     },
     {
       type: "h2",
@@ -184,7 +184,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Pass criteria",
-      text: "You pass when strangers use roughly your intended audience and outcome words—and point to the primary CTA without hunting. Anything else is a draft, however expensive the design system.",
+      text: "You pass when strangers use roughly your intended audience and outcome words-and point to the primary CTA without hunting. Anything else is a draft, however expensive the design system.",
     },
     {
       type: "h2",
@@ -212,14 +212,14 @@ const post: BlogPost = {
             "Only if it communicates the outcome faster than text and still works when it does not autoplay. A silent, slow, branding-led video is often a ten-second tax.",
         },
         {
-          question: "What about SEO—don’t we need more text above the fold?",
+          question: "What about SEO-don’t we need more text above the fold?",
           answer:
             "SEO needs clear topical relevance and helpful content, not a wall of keywords in the hero. Google’s [Search documentation](https://developers.google.com/search/docs) rewards usable pages. Clarity and performance help both humans and crawlers.",
         },
         {
           question: "How do interaction design principles apply here?",
           answer:
-            "Hierarchy, affordance, and feedback matter in the first viewport as much as in-app. The [Interaction Design Foundation](https://www.interaction-design.org/) is a solid primer—but principles only help once the sentence is worth reading.",
+            "Hierarchy, affordance, and feedback matter in the first viewport as much as in-app. The [Interaction Design Foundation](https://www.interaction-design.org/) is a solid primer-but principles only help once the sentence is worth reading.",
         },
       ],
     },
@@ -229,7 +229,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Open your homepage on a phone. Do not scroll. Answer yes or no—no “kind of.”",
+      text: "Open your homepage on a phone. Do not scroll. Answer yes or no-no “kind of.”",
     },
     {
       type: "ul",
@@ -261,12 +261,12 @@ const post: BlogPost = {
       items: [
         "Audience + outcome: “For ops leads who need blockers visible without another status meeting.”",
         "Outcome + alternative: “Replace spreadsheet forecasting with a weekly view finance trusts.”",
-        "Job + time: “Launch customer onboarding in a day—not a quarter.”",
+        "Job + time: “Launch customer onboarding in a day-not a quarter.”",
       ],
     },
     {
       type: "p",
-      text: "Supporting lines should remove one objection, not add a second slogan. “No engineering required to go live” or “Works beside your CRM—doesn’t replace it in week one” beat “Empowering teams to unlock potential,” which empowers nobody and unlocks nothing except a yawn.",
+      text: "Supporting lines should remove one objection, not add a second slogan. “No engineering required to go live” or “Works beside your CRM-doesn’t replace it in week one” beat “Empowering teams to unlock potential,” which empowers nobody and unlocks nothing except a yawn.",
     },
     {
       type: "h2",
@@ -274,15 +274,15 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A polished design system can still fail in ten seconds if hierarchy is wrong. Type scales, spacing, and components help consistency. They do not choose the sentence. I have seen immaculate systems carry headlines that could belong to any of twelve competitors. Consistency around a vague claim is still vague—just more evenly padded.",
+      text: "A polished design system can still fail in ten seconds if hierarchy is wrong. Type scales, spacing, and components help consistency. They do not choose the sentence. I have seen immaculate systems carry headlines that could belong to any of twelve competitors. Consistency around a vague claim is still vague-just more evenly padded.",
     },
     {
       type: "p",
-      text: "Prioritise decision hierarchy: audience, outcome, proof, action. Then apply craft. [web.dev](https://web.dev/) guidance on performance and UX is practical here—fast, readable pages help the decision happen before patience expires. Pair that with accessibility basics from [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) so the decision is available to more people.",
+      text: "Prioritise decision hierarchy: audience, outcome, proof, action. Then apply craft. [web.dev](https://web.dev/) guidance on performance and UX is practical here-fast, readable pages help the decision happen before patience expires. Pair that with accessibility basics from [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) so the decision is available to more people.",
     },
     {
       type: "takeaway",
-      text: "Craft serves comprehension. When craft competes with comprehension, comprehension should win—every time.",
+      text: "Craft serves comprehension. When craft competes with comprehension, comprehension should win-every time.",
     },
     {
       type: "h2",
@@ -301,7 +301,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "That sequence often lifts conversion without a full redesign. When you need more structural changes, [three website changes that can double conversion](/blog/website-audit-three-changes-double-conversion) is a useful companion. And if the offer itself is the problem, no hero layout will save you—return to [clarity before marketing](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "That sequence often lifts conversion without a full redesign. When you need more structural changes, [three website changes that can double conversion](/blog/website-audit-three-changes-double-conversion) is a useful companion. And if the offer itself is the problem, no hero layout will save you-return to [clarity before marketing](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "h2",
@@ -309,11 +309,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes the big headline is fine and the small text ruins belief. “No credit card required” hidden below a fold. “Cancel anytime” missing next to a trial CTA. A chat widget that opens with “How can we help?” before the visitor knows what you sell. Microcopy is not decoration—it is risk management in a smaller font.",
+      text: "Sometimes the big headline is fine and the small text ruins belief. “No credit card required” hidden below a fold. “Cancel anytime” missing next to a trial CTA. A chat widget that opens with “How can we help?” before the visitor knows what you sell. Microcopy is not decoration-it is risk management in a smaller font.",
     },
     {
       type: "p",
-      text: "Also watch placeholder trust: anonymous testimonials, stock avatars, and metric claims without context. Visitors are not naïve; they are busy. Busy people discount vague proof instantly. Specificity is a courtesy and a conversion tool. If you only have early proof, say so honestly—“Pilot with three DTC brands; average WISMO tickets down 28%”—rather than cosplaying as a global platform.",
+      text: "Also watch placeholder trust: anonymous testimonials, stock avatars, and metric claims without context. Visitors are not naïve; they are busy. Busy people discount vague proof instantly. Specificity is a courtesy and a conversion tool. If you only have early proof, say so honestly-“Pilot with three DTC brands; average WISMO tickets down 28%”-rather than cosplaying as a global platform.",
     },
     {
       type: "ul",
@@ -330,7 +330,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders sometimes defend a sparse hero as minimalism. Minimalism without a decision path is emptiness. A clear headline, one outcome line, one CTA, and one proof point is minimal. A floating logo and a mysterious tagline is not—however expensive the whitespace. Whitespace should frame meaning, not replace it.",
+      text: "Founders sometimes defend a sparse hero as minimalism. Minimalism without a decision path is emptiness. A clear headline, one outcome line, one CTA, and one proof point is minimal. A floating logo and a mysterious tagline is not-however expensive the whitespace. Whitespace should frame meaning, not replace it.",
     },
     {
       type: "p",

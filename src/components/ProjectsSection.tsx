@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { NauButton } from "@/components/NauButton";
 import { featuredProjects, projectsSectionCopy } from "@/lib/sections";
 
 function DotsMenu() {
@@ -29,26 +30,26 @@ function ProjectCard({
       viewport={{ once: true, margin: "-60px" }}
       transition={{ duration: 0.55, delay: index * 0.05 }}
     >
-      <Link href={`/projects/${project.slug}`} className="group block">
-        <div className="overflow-hidden rounded-[18px] bg-white">
-          <div className="flex items-center justify-between px-6 py-5">
-            <div className="flex items-baseline gap-1">
-              <span className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
+      <Link href={`/clients/${project.slug}`} className="group block h-full">
+        <div className="overflow-hidden rounded-[14px] bg-white">
+          <div className="flex items-center justify-between px-4 py-3.5 sm:px-5 sm:py-4">
+            <div className="flex min-w-0 items-baseline gap-1">
+              <span className="truncate text-[14px] font-medium tracking-[-0.04em] text-[#0a0a0a] sm:text-[15px]">
                 {project.title}
               </span>
-              <span className="text-xs font-medium text-[#090909]/60">
+              <span className="shrink-0 text-[11px] font-medium text-[#090909]/60 sm:text-xs">
                 /{project.year}
               </span>
             </div>
             <DotsMenu />
           </div>
-          <div className="relative aspect-[750/540] overflow-hidden rounded-[16px]">
+          <div className="relative mx-1 mb-1 aspect-[16/10] overflow-hidden rounded-[12px] sm:aspect-[750/480]">
             <Image
               src={project.image}
               alt={project.title}
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-              sizes="(max-width: 768px) 100vw, 50vw"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 720px"
             />
             <div className="absolute inset-0 bg-[#0a0a0a]/15" />
           </div>
@@ -59,30 +60,36 @@ function ProjectCard({
 }
 
 export function ProjectsSection() {
+  const { count, description, cta, ctaHref, homeLimit } = projectsSectionCopy;
+  const projects = featuredProjects.slice(0, homeLimit);
+
   return (
     <section className="bg-[#f5f5f5] px-6 pt-[110px] pb-28 md:px-9">
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-[90px] grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-center lg:gap-4">
-          <p className="order-2 text-center text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:order-1 lg:self-start lg:pt-1 lg:text-left">
-            ({projectsSectionCopy.count})
+        <div className="mb-[70px] grid grid-cols-1 gap-8 lg:mb-[90px] lg:grid-cols-3 lg:items-start lg:gap-4">
+          <p className="order-2 text-center text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:order-1 lg:pt-1 lg:text-left">
+            ({count})
           </p>
 
           <div className="order-1 text-center lg:order-2">
-            <h2 className="text-[clamp(4rem,12vw,9rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-              Projects.
+            <h2 className="text-[clamp(3.5rem,10vw,7.5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+              Clients.
             </h2>
-            <p className="mt-3 text-[clamp(1.25rem,2.5vw,2.25rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-              ©2025
+            <p className="mt-3 text-[clamp(1.15rem,2.2vw,2rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+              Founded 2023
             </p>
           </div>
 
-          <p className="order-3 max-w-[220px] justify-self-center text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:justify-self-end lg:text-left">
-            {projectsSectionCopy.description}
-          </p>
+          <div className="order-3 flex max-w-[260px] flex-col items-center gap-5 justify-self-center lg:items-start lg:justify-self-end">
+            <p className="text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:text-left">
+              {description}
+            </p>
+            <NauButton href={ctaHref}>{cta}</NauButton>
+          </div>
         </div>
 
-        <div className="grid gap-1 md:grid-cols-2">
-          {featuredProjects.map((project, i) => (
+        <div className="grid gap-3 sm:grid-cols-2 md:gap-4">
+          {projects.map((project, i) => (
             <ProjectCard key={project.slug} project={project} index={i} />
           ))}
         </div>

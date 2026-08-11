@@ -4,12 +4,12 @@ const post: BlogPost = {
   slug: "every-startup-looks-like-marketing-problem-until-deeper",
   title: "It looks like a marketing problem. Dig once.",
   excerpt:
-    "Surface symptoms point to marketing. Digging deeper usually reveals positioning gaps, weak activation, or a product story that never landed—here is the diagnostic order I use.",
+    "Surface symptoms point to marketing. Digging deeper usually reveals positioning gaps, weak activation, or a product story that never landed-here is the diagnostic order I use.",
   date: "July 15, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-12-dig-deeper.png",
   metaDescription:
-    "Why startup growth issues look like marketing problems—and a practical diagnostic for clarity, activation, retention, and distribution before you spend more on channels.",
+    "Why startup growth issues look like marketing problems-and a practical diagnostic for clarity, activation, retention, and distribution before you spend more on channels.",
   content: [
     {
       type: "p",
@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-marketing. I am anti-misdiagnosis. Amplifying a fuzzy offer makes the confusion louder and the CAC sadder. The teams that recover fastest are the ones willing to dig past the symptom. This is the diagnostic order I use at nau—and the reason I often disappoint founders who want a channel plan on day one before anyone can finish a sentence about the customer.",
+      text: "I am not anti-marketing. I am anti-misdiagnosis. Amplifying a fuzzy offer makes the confusion louder and the CAC sadder. The teams that recover fastest are the ones willing to dig past the symptom. This is the diagnostic order I use at nau-and the reason I often disappoint founders who want a channel plan on day one before anyone can finish a sentence about the customer.",
     },
     {
       type: "h2",
@@ -29,7 +29,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Y Combinator’s library keeps returning to product and users before scale—[Y Combinator Library](https://www.ycombinator.com/library). First Round’s operator essays show how often “growth problems” dissolve once positioning and onboarding harden—[First Round Review](https://review.firstround.com/). Harvard Business Review’s strategy writing still names the trap of treating symptoms as root causes—[HBR](https://hbr.org/).",
+      text: "Y Combinator’s library keeps returning to product and users before scale-[Y Combinator Library](https://www.ycombinator.com/library). First Round’s operator essays show how often “growth problems” dissolve once positioning and onboarding harden-[First Round Review](https://review.firstround.com/). Harvard Business Review’s strategy writing still names the trap of treating symptoms as root causes-[HBR](https://hbr.org/).",
     },
     {
       type: "callout",
@@ -59,11 +59,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Open the homepage in incognito on a phone. Time-to-paraphrase should be short. If a stranger cannot say who it is for and what changes, distribution will punish you. Nielsen Norman Group’s research on how people scan and decide is a helpful external check—[NN/g](https://www.nngroup.com/). Google’s guidance on helpful content assumes the page actually helps someone specific—[Google Search Central](https://developers.google.com/search/docs).",
+      text: "Open the homepage in incognito on a phone. Time-to-paraphrase should be short. If a stranger cannot say who it is for and what changes, distribution will punish you. Nielsen Norman Group’s research on how people scan and decide is a helpful external check-[NN/g](https://www.nngroup.com/). Google’s guidance on helpful content assumes the page actually helps someone specific-[Google Search Central](https://developers.google.com/search/docs).",
     },
     {
       type: "p",
-      text: "Symptoms of a comprehension gap: rising traffic with flat demos; sales restarting the pitch every call; ads that must over-explain; customers describing five different products. Fixes live in ICP, offer sentence, hero, and proof placement—not in another blog series. Related: [why websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds).",
+      text: "Symptoms of a comprehension gap: rising traffic with flat demos; sales restarting the pitch every call; ads that must over-explain; customers describing five different products. Fixes live in ICP, offer sentence, hero, and proof placement-not in another blog series. Related: [why websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds).",
     },
     {
       type: "h3",
@@ -71,7 +71,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If people sign up and stall, you may have sold a story the first session cannot keep. Time-to-value is a product strategy metric. Empty-state tours, forced education, and feature museums are common villains. Stripe and Figma made early value feel obvious; that was not an accident of taste alone. Accessibility and performance matter here too—slow or unusable paths fake “activation problems” that are really quality problems ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/), [web.dev vitals](https://web.dev/articles/vitals)).",
+      text: "If people sign up and stall, you may have sold a story the first session cannot keep. Time-to-value is a product strategy metric. Empty-state tours, forced education, and feature museums are common villains. Stripe and Figma made early value feel obvious; that was not an accident of taste alone. Accessibility and performance matter here too-slow or unusable paths fake “activation problems” that are really quality problems ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/), [web.dev vitals](https://web.dev/articles/vitals)).",
     },
     {
       type: "h3",
@@ -79,7 +79,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Ask ten retained users what they hire you for. If answers scatter, your product is a toolkit without a centre—or your marketing invited the wrong crowd. Consistency is a signal of fit. Scatter is a signal to narrow. This is adjacent to [what founders get wrong about product–market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "Ask ten retained users what they hire you for. If answers scatter, your product is a toolkit without a centre-or your marketing invited the wrong crowd. Consistency is a signal of fit. Scatter is a signal to narrow. This is adjacent to [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "h3",
@@ -125,7 +125,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "MeadowHR sells “people ops for growing teams.” Pipeline softens. The board wants LinkedIn Ads. Digging deeper: the homepage never names a company stage; onboarding forces a full HRIS setup before any win; retained customers are mostly 40–80 person tech firms who use it for holiday and sickness tracking—not “people ops.” Ads would have bought the wrong audience into a heavyweight setup. Fixes: ICP exclusions, hero rewrite around leave tracking for mid-size tech, onboarding that completes one leave policy in minutes, sales script aligned. Distribution came later—and cheaper per qualified lead.",
+      text: "MeadowHR sells “people ops for growing teams.” Pipeline softens. The board wants LinkedIn Ads. Digging deeper: the homepage never names a company stage; onboarding forces a full HRIS setup before any win; retained customers are mostly 40-80 person tech firms who use it for holiday and sickness tracking-not “people ops.” Ads would have bought the wrong audience into a heavyweight setup. Fixes: ICP exclusions, hero rewrite around leave tracking for mid-size tech, onboarding that completes one leave policy in minutes, sales script aligned. Distribution came later-and cheaper per qualified lead.",
     },
     {
       type: "p",
@@ -138,16 +138,16 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "“We need more content” when the ICP is undefined—content cannot aim itself.",
-        "“We need a rebrand” when the offer sentence is unfinished—paint is not strategy.",
-        "“We need more features” when activation is buried—see [unused feature costs](/blog/hidden-cost-building-features-nobody-asked-for).",
+        "“We need more content” when the ICP is undefined-content cannot aim itself.",
+        "“We need a rebrand” when the offer sentence is unfinished-paint is not strategy.",
+        "“We need more features” when activation is buried-see [unused feature costs](/blog/hidden-cost-building-features-nobody-asked-for).",
         "“We need better creatives” when the landing page contradicts the ad.",
         "“We need a growth hire” when no one owns the primary conversion path.",
       ],
     },
     {
       type: "p",
-      text: "Baymard’s research discipline—find the real friction—is a good cultural import even for SaaS marketing sites: [Baymard](https://baymard.com/blog). The Interaction Design Foundation’s UX research primers help teams structure interviews so “digging deeper” is not just founder intuition: [Interaction Design Foundation](https://www.interaction-design.org/).",
+      text: "Baymard’s research discipline-find the real friction-is a good cultural import even for SaaS marketing sites: [Baymard](https://baymard.com/blog). The Interaction Design Foundation’s UX research primers help teams structure interviews so “digging deeper” is not just founder intuition: [Interaction Design Foundation](https://www.interaction-design.org/).",
     },
     {
       type: "h2",
@@ -155,7 +155,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Digging fails when vocabulary stays vague. “Engagement is down” can mean anything. Force precision: which stage, which segment, which device, which offer version. Replace “we need growth” with “qualified demo rate from cold UK traffic fell after the reposition.” Precision makes the next experiment obvious. Vagueness invites another campaign brainstorm—the organisational comfort blanket.",
+      text: "Digging fails when vocabulary stays vague. “Engagement is down” can mean anything. Force precision: which stage, which segment, which device, which offer version. Replace “we need growth” with “qualified demo rate from cold UK traffic fell after the reposition.” Precision makes the next experiment obvious. Vagueness invites another campaign brainstorm-the organisational comfort blanket.",
     },
     {
       type: "p",
@@ -183,7 +183,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When teams insist the brand is the issue, I ask whether a colder, clearer page with the same brand assets would convert better. Often it would. Brand then becomes a craft layer on a working argument—not a ransom note holding strategy hostage. For website-specific surgery after the dig, [landing page review](/blog/landing-page-review-helping-hurting-conversions) and [why sites fail in ten seconds](/blog/why-startup-websites-fail-first-10-seconds) stay on the shortlist.",
+      text: "When teams insist the brand is the issue, I ask whether a colder, clearer page with the same brand assets would convert better. Often it would. Brand then becomes a craft layer on a working argument-not a ransom note holding strategy hostage. For website-specific surgery after the dig, [landing page review](/blog/landing-page-review-helping-hurting-conversions) and [why sites fail in ten seconds](/blog/why-startup-websites-fail-first-10-seconds) stay on the shortlist.",
     },
     {
       type: "h2",
@@ -191,7 +191,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Digging deeper can feel politically risky. Marketing spend is a visible response to board pressure. Clarity work can look like “just copy changes.” I reframe it as risk removal: every pound spent amplifying confusion has a cost beyond CAC—it teaches the organisation the wrong lesson about what works. Show the stage metrics. Show the paraphrase failures. Make the invisible constraint visible enough that busywork looks expensive.",
+      text: "Digging deeper can feel politically risky. Marketing spend is a visible response to board pressure. Clarity work can look like “just copy changes.” I reframe it as risk removal: every pound spent amplifying confusion has a cost beyond CAC-it teaches the organisation the wrong lesson about what works. Show the stage metrics. Show the paraphrase failures. Make the invisible constraint visible enough that busywork looks expensive.",
     },
     {
       type: "p",
@@ -199,7 +199,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "One more practical habit: write the diagnostic answer as a memo the team can reopen in a month. Memory edits history toward whatever spend felt busiest. A dated leakage map keeps everyone honest when the next “we need marketing” wave arrives—and it will. Attach the cold paraphrases; they are harder to argue with than opinions about brand energy.",
+      text: "One more practical habit: write the diagnostic answer as a memo the team can reopen in a month. Memory edits history toward whatever spend felt busiest. A dated leakage map keeps everyone honest when the next “we need marketing” wave arrives-and it will. Attach the cold paraphrases; they are harder to argue with than opinions about brand energy.",
     },
     {
       type: "h2",
@@ -222,7 +222,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Marketing still matters",
-      text: "Once the path is sound, marketing is how you earn attention at scale. The point is sequence—not purity. Amplify what is true.",
+      text: "Once the path is sound, marketing is how you earn attention at scale. The point is sequence-not purity. Amplify what is true.",
     },
     {
       type: "h2",
@@ -233,7 +233,7 @@ const post: BlogPost = {
       items: [
         "Write the four diagnostic questions on a page. Answer with evidence, not vibes.",
         "For the first failed question, list three concrete fixes you could ship in two weeks.",
-        "Put a hold on new channel experiments until those fixes land—or until you document why the path is already healthy.",
+        "Put a hold on new channel experiments until those fixes land-or until you document why the path is already healthy.",
         "Share the one-page dig with the team. Invite disagreement with data attached.",
         "Schedule a follow-up to re-measure the same stage.",
       ],
@@ -261,7 +261,7 @@ const post: BlogPost = {
         {
           question: "Can we dig and run small ads in parallel?",
           answer:
-            "Small tests that learn message-market fit can help—if you treat them as research, not a scale plan, and if landing pages match the creative.",
+            "Small tests that learn message-market fit can help-if you treat them as research, not a scale plan, and if landing pages match the creative.",
         },
         {
           question: "How do we know distribution is finally the constraint?",
@@ -284,7 +284,7 @@ const post: BlogPost = {
       items: [
         "Run the four-question diagnostic with evidence attached.",
         "Pick the earliest failed stage and assign an owner.",
-        "Pause net-new channel spend until the fix is in flight—or justified.",
+        "Pause net-new channel spend until the fix is in flight-or justified.",
         "Align homepage, sales, and onboarding to one offer sentence.",
         "Re-measure the same stage in fourteen days.",
         "Save the dated memo so the next growth panic starts from evidence, not folklore.",
@@ -292,7 +292,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Every startup looks like a marketing problem from the hallway. From the funnel, the recordings, and the first session, it usually looks like something more specific—and more fixable. Dig. Then spend. That order is the whole job—and the difference between durable growth work and expensive noise.",
+      text: "Every startup looks like a marketing problem from the hallway. From the funnel, the recordings, and the first session, it usually looks like something more specific-and more fixable. Dig. Then spend. That order is the whole job-and the difference between durable growth work and expensive noise.",
     },
     {
       type: "cta",

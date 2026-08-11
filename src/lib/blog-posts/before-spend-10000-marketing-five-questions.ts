@@ -5,12 +5,12 @@ const post: BlogPost = {
   title:
     "About to drop £10k on marketing? Answer these first.",
   excerpt:
-    "A £10,000 marketing budget can create traction—or burn runway. These five questions decide which, and how to turn spend into a learning system instead of a hope ritual.",
+    "A £10,000 marketing budget can create traction-or burn runway. These five questions decide which, and how to turn spend into a learning system instead of a hope ritual.",
   date: "July 27, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-02-budget.png",
   metaDescription:
-    "Five questions to answer before spending £10,000 on startup marketing—so budget goes to conversion and clarity, not wasted traffic and vague brand awareness.",
+    "Five questions to answer before spending £10,000 on startup marketing-so budget goes to conversion and clarity, not wasted traffic and vague brand awareness.",
   content: [
     {
       type: "p",
@@ -18,16 +18,16 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-marketing. I am anti-spending money to discover, publicly and at scale, that your homepage still cannot finish a sentence. Paid acquisition is a amplifier. Amplifiers do not invent clarity, product value, or follow-up systems. They reveal whatever you already have—sometimes with unfortunate speed.",
+      text: "I am not anti-marketing. I am anti-spending money to discover, publicly and at scale, that your homepage still cannot finish a sentence. Paid acquisition is a amplifier. Amplifiers do not invent clarity, product value, or follow-up systems. They reveal whatever you already have-sometimes with unfortunate speed.",
     },
     {
       type: "p",
-      text: "Early-stage teams often treat a marketing budget like a rite of passage: we raised, therefore we advertise. That sequence skips the part where someone proves a cold visitor can understand the offer and take a meaningful next step. If you want a deeper take on why growth stalls look like marketing issues, read [your product doesn’t have a marketing problem—it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Early-stage teams often treat a marketing budget like a rite of passage: we raised, therefore we advertise. That sequence skips the part where someone proves a cold visitor can understand the offer and take a meaningful next step. If you want a deeper take on why growth stalls look like marketing issues, read [your product doesn’t have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "callout",
       title: "What £10,000 is for",
-      text: "Treat this budget as a learning instrument first and a growth instrument second. If you cannot state what you will learn from failure, you are not running a campaign—you are buying a mood.",
+      text: "Treat this budget as a learning instrument first and a growth instrument second. If you cannot state what you will learn from failure, you are not running a campaign-you are buying a mood.",
     },
     {
       type: "h2",
@@ -51,7 +51,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the answer is “anyone who might need us,” pause. Broad audiences inflate cost-per-click and dilute creative. Narrow your ideal customer profile first. Specificity is not exclusion for its own sake—it is how you stop paying to confuse strangers.",
+      text: "If the answer is “anyone who might need us,” pause. Broad audiences inflate cost-per-click and dilute creative. Narrow your ideal customer profile first. Specificity is not exclusion for its own sake-it is how you stop paying to confuse strangers.",
     },
     {
       type: "p",
@@ -59,14 +59,14 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe did not start by advertising to “everyone who accepts payments.” Early focus was developers who hated payment integration pain. Linear spoke to teams who felt issue trackers were slow and noisy. That sharpness made creative and landing pages easier—because the audience was not a committee of maybes.",
+      text: "Stripe did not start by advertising to “everyone who accepts payments.” Early focus was developers who hated payment integration pain. Linear spoke to teams who felt issue trackers were slow and noisy. That sharpness made creative and landing pages easier-because the audience was not a committee of maybes.",
     },
     {
       type: "ul",
       items: [
         "Name the role, company stage/size, and the trigger that makes them search now.",
         "Write an explicit exclusion list (who you will not target with this £10k).",
-        "Confirm you can reach them in a channel you actually understand—not a channel that merely looks modern.",
+        "Confirm you can reach them in a channel you actually understand-not a channel that merely looks modern.",
       ],
     },
     {
@@ -87,7 +87,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Match the ad promise to the first viewport. If the ad says “cut onboarding time in half” and the page opens with a brand manifesto, you paid for a bait-and-switch. [Nielsen Norman Group](https://www.nngroup.com/) has spent decades showing that people scan for relevance and next steps—not for your mission statement. Honour that behaviour.",
+      text: "Match the ad promise to the first viewport. If the ad says “cut onboarding time in half” and the page opens with a brand manifesto, you paid for a bait-and-switch. [Nielsen Norman Group](https://www.nngroup.com/) has spent decades showing that people scan for relevance and next steps-not for your mission statement. Honour that behaviour.",
     },
     {
       type: "callout",
@@ -100,11 +100,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Metrics, case snippets, demos, founder credibility—pick something real. Unproven claims raise customer acquisition cost because people correctly assume risk when you ask them to take it on faith.",
+      text: "Metrics, case snippets, demos, founder credibility-pick something real. Unproven claims raise customer acquisition cost because people correctly assume risk when you ask them to take it on faith.",
     },
     {
       type: "p",
-      text: "Proof does not have to be a Fortune 500 logo. Early-stage proof can be: a quantified pilot, a short clip of the product delivering the outcome, a named customer quote with a specific result, or a transparent before/after. Fake social proof trains buyers to distrust you—and trains your team to believe theatre equals traction.",
+      text: "Proof does not have to be a Fortune 500 logo. Early-stage proof can be: a quantified pilot, a short clip of the product delivering the outcome, a named customer quote with a specific result, or a transparent before/after. Fake social proof trains buyers to distrust you-and trains your team to believe theatre equals traction.",
     },
     {
       type: "table",
@@ -134,7 +134,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Place proof next to the claim on the landing page—not in a carousel three scrolls down. For conversion-focused page structure, [Baymard Institute](https://baymard.com/blog) research on ecommerce UX is a useful reminder that trust and clarity beat decorative complexity—even when you are selling software, not shoes.",
+      text: "Place proof next to the claim on the landing page-not in a carousel three scrolls down. For conversion-focused page structure, [Baymard Institute](https://baymard.com/blog) research on ecommerce UX is a useful reminder that trust and clarity beat decorative complexity-even when you are selling software, not shoes.",
     },
     {
       type: "h2",
@@ -142,7 +142,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Not “brand awareness.” A booked call, activated trial, or paid conversion—tied to a follow-up system that someone owns. If the event cannot be named, the budget cannot be judged.",
+      text: "Not “brand awareness.” A booked call, activated trial, or paid conversion-tied to a follow-up system that someone owns. If the event cannot be named, the budget cannot be judged.",
     },
     {
       type: "p",
@@ -154,7 +154,7 @@ const post: BlogPost = {
         "Name the primary conversion event in one line.",
         "Name the secondary learning metrics (CTR, landing bounce, activation).",
         "Set a kill threshold before you launch (e.g. cost per qualified demo above X after Y spend).",
-        "Confirm who replies within one business day—and what they say.",
+        "Confirm who replies within one business day-and what they say.",
       ],
     },
     {
@@ -224,7 +224,7 @@ const post: BlogPost = {
         "Primary conversion event defined and instrumented.",
         "Follow-up owner named.",
         "Failure hypotheses written in advance.",
-        "Kill threshold agreed by founders—not “we’ll see how it feels.”",
+        "Kill threshold agreed by founders-not “we’ll see how it feels.”",
       ],
     },
     {
@@ -237,7 +237,7 @@ const post: BlogPost = {
         {
           question: "Is £10,000 enough to learn anything meaningful?",
           answer:
-            "Yes—if the offer is clear and the experiment is narrow. No—if you spray across five channels with five messages and a muddy page. Learning requires constraints.",
+            "Yes-if the offer is clear and the experiment is narrow. No-if you spray across five channels with five messages and a muddy page. Learning requires constraints.",
         },
         {
           question: "Should we hire an agency before answering these?",
@@ -247,18 +247,18 @@ const post: BlogPost = {
         {
           question: "What if we need brand awareness for a long sales cycle?",
           answer:
-            "Awareness without a measurable next step is hard to manage at early stage. Pair any awareness with a concrete conversion event—even if it is “join a monthly briefing” with ICP qualification.",
+            "Awareness without a measurable next step is hard to manage at early stage. Pair any awareness with a concrete conversion event-even if it is “join a monthly briefing” with ICP qualification.",
         },
         {
           question: "Where should we look for practical acquisition thinking?",
           answer:
-            "Beyond channel tutorials, read operator writing in the [Y Combinator Library](https://www.ycombinator.com/library) and [First Round Review](https://review.firstround.com/). Pair that with on-page clarity work—spend cannot outrun a confusing first viewport.",
+            "Beyond channel tutorials, read operator writing in the [Y Combinator Library](https://www.ycombinator.com/library) and [First Round Review](https://review.firstround.com/). Pair that with on-page clarity work-spend cannot outrun a confusing first viewport.",
         },
       ],
     },
     {
       type: "h2",
-      text: "Channel choice after the questions—not before",
+      text: "Channel choice after the questions-not before",
     },
     {
       type: "p",
@@ -267,10 +267,10 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Search works when intent exists and your page matches the query’s job—not when you hope to invent demand with a vague brand term.",
+        "Search works when intent exists and your page matches the query’s job-not when you hope to invent demand with a vague brand term.",
         "LinkedIn/social works when the message is sharp enough to survive a scroll and the CTA is obvious.",
         "Partnerships work when the partner’s audience is your ICP, not merely adjacent and flattered.",
-        "Content works when it answers a real job and routes to a conversion event—not when it exists to “feed the algorithm.”",
+        "Content works when it answers a real job and routes to a conversion event-not when it exists to “feed the algorithm.”",
       ],
     },
     {
@@ -288,10 +288,10 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "£1,500: landing and analytics hygiene—event tracking, speed, mobile CTA visibility, proof placement.",
+        "£1,500: landing and analytics hygiene-event tracking, speed, mobile CTA visibility, proof placement.",
         "£3,000: message and audience tests on one channel (three ads × two audiences, capped).",
         "£3,500: scale the winning combination only after the conversion event hits an agreed cost band.",
-        "£1,500: founder-led follow-up capacity—calls, Loom replies, onboarding help for early converters.",
+        "£1,500: founder-led follow-up capacity-calls, Loom replies, onboarding help for early converters.",
         "£500: contingency for the surprise that always appears (tracking breaks, creative fatigue, a form bug).",
       ],
     },
@@ -310,11 +310,11 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "CTR is fine but the conversion event never fires—inspect the page and the offer, not only the bid strategy.",
-        "Sales says every lead needs a 20-minute “what we do” primer—your creative is over-promising or your page is under-explaining.",
-        "You keep widening the audience to “get volume”—you are buying cheaper confusion.",
-        "Nobody owns reply latency—leads older than a day are archaeological artefacts, not opportunities.",
-        "You cannot state which hypothesis is being tested this week—you are pacing spend, not learning.",
+        "CTR is fine but the conversion event never fires-inspect the page and the offer, not only the bid strategy.",
+        "Sales says every lead needs a 20-minute “what we do” primer-your creative is over-promising or your page is under-explaining.",
+        "You keep widening the audience to “get volume”-you are buying cheaper confusion.",
+        "Nobody owns reply latency-leads older than a day are archaeological artefacts, not opportunities.",
+        "You cannot state which hypothesis is being tested this week-you are pacing spend, not learning.",
       ],
     },
     {
@@ -327,7 +327,7 @@ const post: BlogPost = {
     },
     {
       type: "cta",
-      lead: "Need help turning a marketing budget into a learning system—not a burn event?",
+      lead: "Need help turning a marketing budget into a learning system-not a burn event?",
       button: "Plan your next £10k with me",
       href: "/contact",
     },

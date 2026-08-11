@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "five-minutes-on-your-website-enough-to-find-issues",
   title: "I spent 5 minutes on your site. Here's what I found.",
   excerpt:
-    "A rapid-audit format: the conversion issues that usually appear in the first five minutes—and a prioritised fix order so you do not redesign everything while the headline still says nothing.",
+    "A rapid-audit format: the conversion issues that usually appear in the first five minutes-and a prioritised fix order so you do not redesign everything while the headline still says nothing.",
   date: "June 30, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-25-five-minutes.png",
@@ -22,7 +22,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "What five minutes is for",
-      text: "Five minutes finds structural clarity problems. It does not replace analytics, user interviews, or accessibility testing. Use it to build a prioritised fix list—not to declare the brand finished or doomed.",
+      text: "Five minutes finds structural clarity problems. It does not replace analytics, user interviews, or accessibility testing. Use it to build a prioritised fix list-not to declare the brand finished or doomed.",
     },
     {
       type: "h2",
@@ -30,7 +30,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Visitors decide relevance quickly. Nielsen Norman Group’s research on scanning and first impressions is the backdrop here—see [nngroup.com](https://www.nngroup.com/). If a strategist cannot understand the offer fast, neither can a cold visitor with less patience and less context. Your five-minute confusion is a proxy for their five-second bounce.",
+      text: "Visitors decide relevance quickly. Nielsen Norman Group’s research on scanning and first impressions is the backdrop here-see [nngroup.com](https://www.nngroup.com/). If a strategist cannot understand the offer fast, neither can a cold visitor with less patience and less context. Your five-minute confusion is a proxy for their five-second bounce.",
     },
     {
       type: "p",
@@ -69,7 +69,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“AI-powered platform for modern teams.” “Smarter workflows for growing companies.” “The future of [category].” These lines are polite and empty. A strong headline names a person, a pain, and a result. If swapping your logo for a competitor’s still works, the headline is not doing a job—it is occupying space.",
+      text: "“AI-powered platform for modern teams.” “Smarter workflows for growing companies.” “The future of [category].” These lines are polite and empty. A strong headline names a person, a pain, and a result. If swapping your logo for a competitor’s still works, the headline is not doing a job-it is occupying space.",
     },
     {
       type: "h3",
@@ -85,7 +85,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Logos below the fold, testimonials in a lonely carousel, case studies in a nav item nobody reaches—these help late readers, not deciders. Belief is local. Put evidence near the claim and the ask. Baymard’s work on decision-point trust is useful context: [baymard.com/blog](https://baymard.com/blog).",
+      text: "Logos below the fold, testimonials in a lonely carousel, case studies in a nav item nobody reaches-these help late readers, not deciders. Belief is local. Put evidence near the claim and the ask. Baymard’s work on decision-point trust is useful context: [baymard.com/blog](https://baymard.com/blog).",
     },
     {
       type: "h3",
@@ -101,7 +101,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Heroes that take three scrolls to reveal the offer, tap targets that fight thumbs, type that shrinks into mystery, and sticky bars that cover the CTA—all of these show up in minute one on a phone. Performance delays comprehension too; [Core Web Vitals](https://web.dev/articles/vitals) are not only an SEO concern.",
+      text: "Heroes that take three scrolls to reveal the offer, tap targets that fight thumbs, type that shrinks into mystery, and sticky bars that cover the CTA-all of these show up in minute one on a phone. Performance delays comprehension too; [Core Web Vitals](https://web.dev/articles/vitals) are not only an SEO concern.",
     },
     {
       type: "table",
@@ -149,7 +149,7 @@ const post: BlogPost = {
         "Feature grids with no outcomes attached.",
         "Stock photography that could advertise a bank, a CRM, or a yoghurt.",
         "Blog CTAs competing with product CTAs in the hero.",
-        "Accessibility red flags: low contrast, missing labels, keyboard traps—see [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).",
+        "Accessibility red flags: low contrast, missing labels, keyboard traps-see [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).",
         "Cookie banners that eat the first viewport like a hostile roommate.",
       ],
     },
@@ -163,7 +163,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I turn five-minute findings into a prioritised fix list: clarity first, proof second, path third. That order protects budget—and prevents teams from redesigning everything while the headline still says nothing. It is the same sequence as the [three changes that can lift conversion](/blog/website-audit-three-changes-double-conversion).",
+      text: "I turn five-minute findings into a prioritised fix list: clarity first, proof second, path third. That order protects budget-and prevents teams from redesigning everything while the headline still says nothing. It is the same sequence as the [three changes that can lift conversion](/blog/website-audit-three-changes-double-conversion).",
     },
     {
       type: "ol",
@@ -175,7 +175,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Only after those three do I entertain larger visual work. Polish is a multiplier. It multiplies whatever argument you already have—including a weak one. Related reading: [why beautiful websites do not always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "Only after those three do I entertain larger visual work. Polish is a multiplier. It multiplies whatever argument you already have-including a weak one. Related reading: [why beautiful websites do not always convert](/blog/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "callout",
@@ -188,11 +188,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Site: “HelmHR — people infrastructure for ambitious companies.” Five-minute notes: headline could be any HRIS; CTA “Get started” leads to a nine-field form; logos appear after a long feature wall; mobile hero is half animation; nav has eight equal items.",
+      text: "Site: “HelmHR - people infrastructure for ambitious companies.” Five-minute notes: headline could be any HRIS; CTA “Get started” leads to a nine-field form; logos appear after a long feature wall; mobile hero is half animation; nav has eight equal items.",
     },
     {
       type: "p",
-      text: "Prioritised fixes for week one: (1) Headline → “HR leads at 40–200 person companies: run reviews without spreadsheet chaos.” (2) CTA → “Book a 15-minute reviews walkthrough.” (3) Move one customer quote about review cycle time next to the CTA. (4) Cut nav to Product, Customers, Pricing, Login. (5) Kill the hero animation on mobile.",
+      text: "Prioritised fixes for week one: (1) Headline → “HR leads at 40-200 person companies: run reviews without spreadsheet chaos.” (2) CTA → “Book a 15-minute reviews walkthrough.” (3) Move one customer quote about review cycle time next to the CTA. (4) Cut nav to Product, Customers, Pricing, Login. (5) Kill the hero animation on mobile.",
     },
     {
       type: "p",
@@ -204,11 +204,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A rapid audit fails when everything is “urgent.” Use a simple 1–5 score for each finding on two axes: conversion impact (how much this likely blocks the next step) and fix cost (hours, not political capital). Ship high-impact, low-cost items within a week. Schedule high-impact, high-cost items as a project. Archive low-impact items into a taste backlog where they can live peacefully without blocking demos.",
+      text: "A rapid audit fails when everything is “urgent.” Use a simple 1-5 score for each finding on two axes: conversion impact (how much this likely blocks the next step) and fix cost (hours, not political capital). Ship high-impact, low-cost items within a week. Schedule high-impact, high-cost items as a project. Archive low-impact items into a taste backlog where they can live peacefully without blocking demos.",
     },
     {
       type: "table",
-      headers: ["Finding", "Impact (1–5)", "Cost (1–5)", "Ship when"],
+      headers: ["Finding", "Impact (1-5)", "Cost (1-5)", "Ship when"],
       rows: [
         [
           "Generic headline",
@@ -236,7 +236,7 @@ const post: BlogPost = {
         ],
         [
           "Full visual refresh",
-          "2–5 (unknown)",
+          "2-5 (unknown)",
           "5",
           "After clarity fixes",
         ],
@@ -256,11 +256,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Also check speed on a throttled mobile connection. A beautiful hero that loads late is, for paid traffic, a refund to the ad platform. Performance guidance on [web.dev](https://web.dev/) is practical here—not academic. Pair that with the [landing page helping/hurting framework](/blog/landing-page-review-helping-hurting-conversions) when you are ready for a fuller review.",
+      text: "Also check speed on a throttled mobile connection. A beautiful hero that loads late is, for paid traffic, a refund to the ad platform. Performance guidance on [web.dev](https://web.dev/) is practical here-not academic. Pair that with the [landing page helping/hurting framework](/blog/landing-page-review-helping-hurting-conversions) when you are ready for a fuller review.",
     },
     {
       type: "takeaway",
-      text: "For paid pages, five minutes should include ad–hero match and mobile load behaviour—not only copy taste.",
+      text: "For paid pages, five minutes should include ad-hero match and mobile load behaviour-not only copy taste.",
     },
     {
       type: "h2",
@@ -278,7 +278,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a longer catalogue of recurring patterns, use [the ten mistakes from fifty startup website audits](/blog/audited-50-startup-websites-10-mistakes) as a second pass—after the rapid list is already in motion.",
+      text: "If you want a longer catalogue of recurring patterns, use [the ten mistakes from fifty startup website audits](/blog/audited-50-startup-websites-10-mistakes) as a second pass-after the rapid list is already in motion.",
     },
     {
       type: "h2",
@@ -286,7 +286,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Complex multi-product companies, regulated flows, and internationalisation need deeper work. So do sites where analytics disagree with the eyeball test—e.g. high conversion despite ugly clarity, which sometimes means demand is so strong the site cannot kill it. In those cases, dig into funnel data, search intent ([Google Search Central](https://developers.google.com/search/docs)), and moderated sessions.",
+      text: "Complex multi-product companies, regulated flows, and internationalisation need deeper work. So do sites where analytics disagree with the eyeball test-e.g. high conversion despite ugly clarity, which sometimes means demand is so strong the site cannot kill it. In those cases, dig into funnel data, search intent ([Google Search Central](https://developers.google.com/search/docs)), and moderated sessions.",
     },
     {
       type: "p",
@@ -327,7 +327,7 @@ const post: BlogPost = {
         {
           question: "Can I audit my own site in five minutes?",
           answer:
-            "You can try, but you will fill gaps subconsciously. Use a colleague from another function—or an external strategist—for the stranger sentence test.",
+            "You can try, but you will fill gaps subconsciously. Use a colleague from another function-or an external strategist-for the stranger sentence test.",
         },
         {
           question: "Should we redesign based on a five-minute review?",
@@ -352,7 +352,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Five minutes will not replace a full engagement. It will stop you from pretending the problems are mysterious. Most conversion issues announce themselves immediately—then wait politely while the team debates button radius.",
+      text: "Five minutes will not replace a full engagement. It will stop you from pretending the problems are mysterious. Most conversion issues announce themselves immediately-then wait politely while the team debates button radius.",
     },
     {
       type: "p",

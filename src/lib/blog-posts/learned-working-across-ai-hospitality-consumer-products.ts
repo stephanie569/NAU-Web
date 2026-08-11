@@ -5,7 +5,7 @@ const post: BlogPost = {
   title:
     "What outdoor, travel and consumer brands taught me the hard way",
   excerpt:
-    "Cross-category lessons that transfer when you build physical products—and what doesn't.",
+    "Cross-category lessons that transfer when you build physical products-and what doesn't.",
   date: "July 10, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-16-ai-hospitality.png",
@@ -14,11 +14,11 @@ const post: BlogPost = {
   content: [
     {
       type: "p",
-      text: "Working across AI, hospitality, and consumer products can look scattered on a CV. In practice, it sharpened a useful pattern: industries change vocabulary, not human decision-making. People still need to understand, trust, and get value—preferably before they lose patience. The rest is costume.",
+      text: "Working across AI, hospitality, and consumer products can look scattered on a CV. In practice, it sharpened a useful pattern: industries change vocabulary, not human decision-making. People still need to understand, trust, and get value-preferably before they lose patience. The rest is costume.",
     },
     {
       type: "p",
-      text: "This piece is what transferred, what did not, and how I adapt strategy without abandoning standards. If you build in one category and feel tempted to borrow “best practices” wholesale from another, treat this as a translation guide—not a licence to copy someone else’s homepage structure and hope the category gods are kind.",
+      text: "This piece is what transferred, what did not, and how I adapt strategy without abandoning standards. If you build in one category and feel tempted to borrow “best practices” wholesale from another, treat this as a translation guide-not a licence to copy someone else’s homepage structure and hope the category gods are kind.",
     },
     {
       type: "h2",
@@ -26,7 +26,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Specialists deepen craft. Cross-category work deepens diagnosis. When you have watched the same conversion failure wear three different outfits—an AI waitlist, a hotel booking flow, a DTC landing page—you stop blaming the industry and start fixing the decision path.",
+      text: "Specialists deepen craft. Cross-category work deepens diagnosis. When you have watched the same conversion failure wear three different outfits-an AI waitlist, a hotel booking flow, a DTC landing page-you stop blaming the industry and start fixing the decision path.",
     },
     {
       type: "p",
@@ -39,7 +39,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Industries teach constraints. Humans teach conversion. Learn both—and never confuse jargon for strategy.",
+      text: "Industries teach constraints. Humans teach conversion. Learn both-and never confuse jargon for strategy.",
     },
     {
       type: "h2",
@@ -52,7 +52,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "People buy reduced risk and increased progress—not feature lists.",
+        "People buy reduced risk and increased progress-not feature lists.",
         "Trust design matters as much as feature design.",
         "First-session value predicts retention better than polish.",
         "Category jargon is a conversion tax everywhere.",
@@ -76,7 +76,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Teams often treat trust as a logo row. Useful trust is contextual: security near data claims, reviews near booking, process clarity near “how AI works.” Baymard’s [UX research](https://baymard.com/blog) and Nielsen Norman Group’s [trust and credibility findings](https://www.nngroup.com/) keep confirming that people look for specific cues at decision moments—not vibes.",
+      text: "Teams often treat trust as a logo row. Useful trust is contextual: security near data claims, reviews near booking, process clarity near “how AI works.” Baymard’s [UX research](https://baymard.com/blog) and Nielsen Norman Group’s [trust and credibility findings](https://www.nngroup.com/) keep confirming that people look for specific cues at decision moments-not vibes.",
     },
     {
       type: "h3",
@@ -92,7 +92,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Agentic workflows,” “revPAR optimisation,” “community-led growth loops”—sometimes accurate, often a fog machine. If the customer cannot reuse your language in a conversation with a colleague, you do not have positioning. You have a glossary. That is why [clarity problems masquerade as marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem) so often.",
+      text: "“Agentic workflows,” “revPAR optimisation,” “community-led growth loops”-sometimes accurate, often a fog machine. If the customer cannot reuse your language in a conversation with a colleague, you do not have positioning. You have a glossary. That is why [clarity problems masquerade as marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem) so often.",
     },
     {
       type: "takeaway",
@@ -140,7 +140,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Fictional example: “Lumen,” an AI contract review tool for small legal teams. Early homepage: “Next-gen legal intelligence.” After adaptation: “Flag risky clauses in vendor contracts before you sign—built for lean in-house teams.” Onboarding asks for one contract and returns annotated risk in minutes. The model still matters. The demystification matters more for conversion.",
+      text: "Fictional example: “Lumen,” an AI contract review tool for small legal teams. Early homepage: “Next-gen legal intelligence.” After adaptation: “Flag risky clauses in vendor contracts before you sign-built for lean in-house teams.” Onboarding asks for one contract and returns annotated risk in minutes. The model still matters. The demystification matters more for conversion.",
     },
     {
       type: "ul",
@@ -148,7 +148,7 @@ const post: BlogPost = {
         "Show the workflow, not the neural romance.",
         "Put human override and review in the story early.",
         "Use proof that names accuracy bounds without fake precision.",
-        "Avoid “AI-powered” as a headline—say the job.",
+        "Avoid “AI-powered” as a headline-say the job.",
       ],
     },
     {
@@ -161,11 +161,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Working with hospitality teams taught me to design for the person who books and the person who arrives. Marketing sells the dream; operations must survive Tuesday. Product experiences that ignore staff workflows eventually collapse the guest promise—something consumer SaaS founders sometimes miss when they treat hotels like “users.”",
+      text: "Working with hospitality teams taught me to design for the person who books and the person who arrives. Marketing sells the dream; operations must survive Tuesday. Product experiences that ignore staff workflows eventually collapse the guest promise-something consumer SaaS founders sometimes miss when they treat hotels like “users.”",
     },
     {
       type: "p",
-      text: "Airbnb’s strength—explored further in my [homepage teardown](/blog/product-teardown-airbnb-homepage)—is job clarity plus visual proof. Independent hotels can steal the principle without copying the marketplace UI: own the stay promise early, reduce uncertainty, make the next step obvious.",
+      text: "Airbnb’s strength-explored further in my [homepage teardown](/blog/product-teardown-airbnb-homepage)-is job clarity plus visual proof. Independent hotels can steal the principle without copying the marketplace UI: own the stay promise early, reduce uncertainty, make the next step obvious.",
     },
     {
       type: "h3",
@@ -177,7 +177,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Fictional example: “North,” a consumer budgeting app. Feature-led homepage listed sync, charts, and AI insights. Relevance-led rewrite: “See where next month’s money actually goes—before it disappears.” First session forces a two-minute categorisation win. Retention improved because the product finally behaved like the promise.",
+      text: "Fictional example: “North,” a consumer budgeting app. Feature-led homepage listed sync, charts, and AI insights. Relevance-led rewrite: “See where next month’s money actually goes-before it disappears.” First session forces a two-minute categorisation win. Retention improved because the product finally behaved like the promise.",
     },
     {
       type: "takeaway",
@@ -206,7 +206,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this across any category (60 minutes)",
-      text: "Interview or review five customer quotes. Circle every word a stranger would not use. Rewrite your homepage headline using only circled-out language’s opposite: plain words. Then time a first-run of your product with a stopwatch. If first value takes longer than a coffee goes cold, you have a time-to-value problem—regardless of industry.",
+      text: "Interview or review five customer quotes. Circle every word a stranger would not use. Rewrite your homepage headline using only circled-out language’s opposite: plain words. Then time a first-run of your product with a stopwatch. If first value takes longer than a coffee goes cold, you have a time-to-value problem-regardless of industry.",
     },
     {
       type: "h2",
@@ -224,7 +224,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "These mistakes show up in [startup website audits](/blog/audited-50-startup-websites-10-mistakes) constantly. The AI company and the skincare brand make the same error with different adjectives. That is oddly comforting—and useful, because the fixes transfer.",
+      text: "These mistakes show up in [startup website audits](/blog/audited-50-startup-websites-10-mistakes) constantly. The AI company and the skincare brand make the same error with different adjectives. That is oddly comforting-and useful, because the fixes transfer.",
     },
     {
       type: "h2",
@@ -268,7 +268,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When I audit an experience, I ignore the industry slide deck and ask: where does comprehension break, where does risk spike, where does the path fork without guidance? That diagnostic works in a model playground and in a guest app. The fixes differ in flavour—tooltips versus photography, eval notes versus house rules—but the diagnosis method does not.",
+      text: "When I audit an experience, I ignore the industry slide deck and ask: where does comprehension break, where does risk spike, where does the path fork without guidance? That diagnostic works in a model playground and in a guest app. The fixes differ in flavour-tooltips versus photography, eval notes versus house rules-but the diagnosis method does not.",
     },
     {
       type: "h3",
@@ -305,7 +305,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: three-industry rewrite",
-      text: "Take your current homepage headline. Rewrite it three ways as if you were launching in AI, hospitality, and consumer tomorrow—using only demystification, certainty, or relevance as the lead. Then pick the rewrite that matches your actual category. The point is not theatrics; it is noticing which clarity muscle you underuse.",
+      text: "Take your current homepage headline. Rewrite it three ways as if you were launching in AI, hospitality, and consumer tomorrow-using only demystification, certainty, or relevance as the lead. Then pick the rewrite that matches your actual category. The point is not theatrics; it is noticing which clarity muscle you underuse.",
     },
     {
       type: "h2",
@@ -319,7 +319,7 @@ const post: BlogPost = {
       type: "ul",
       items: [
         "Pair a category expert with a clarity generalist early.",
-        "Ban unexplained jargon in shared briefs—define or delete.",
+        "Ban unexplained jargon in shared briefs-define or delete.",
         "Test copy with someone outside the industry before polish.",
         "Keep a living glossary of customer words versus internal words.",
       ],
@@ -334,7 +334,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Campaign tactics are local. Systems are portable. A positioning system, proof system, and learning cadence work in AI and hotels alike—see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns). A TikTok playbook from consumer rarely ports cleanly into enterprise AI sales cycles, and forcing it is how you get awkward webinars with ring lights.",
+      text: "Campaign tactics are local. Systems are portable. A positioning system, proof system, and learning cadence work in AI and hotels alike-see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns). A TikTok playbook from consumer rarely ports cleanly into enterprise AI sales cycles, and forcing it is how you get awkward webinars with ring lights.",
     },
     {
       type: "p",
@@ -354,7 +354,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Without that separation, Grove becomes a muddy “AI hospitality platform” nobody can pitch. With it, the company can still share a system underneath—but markets two jobs with two narratives. That is [product versus business](/blog/difference-building-product-and-building-business) thinking in miniature: features alone do not create a repeatable value exchange.",
+      text: "Without that separation, Grove becomes a muddy “AI hospitality platform” nobody can pitch. With it, the company can still share a system underneath-but markets two jobs with two narratives. That is [product versus business](/blog/difference-building-product-and-building-business) thinking in miniature: features alone do not create a repeatable value exchange.",
     },
     {
       type: "faq",
@@ -391,7 +391,7 @@ const post: BlogPost = {
         "Collect ten customer phrases; ban internal jargon for a week of copy edits.",
         "Map the top five objections by category audience you serve.",
         "Time first value with a stopwatch and a non-expert user.",
-        "Rewrite one viewport for demystification, certainty, or relevance—whichever your category needs most.",
+        "Rewrite one viewport for demystification, certainty, or relevance-whichever your category needs most.",
         "Keep a “portable principles” doc so tactics stay local and standards stay stable.",
       ],
     },

@@ -8,11 +8,11 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-40-street-to-phone.png",
   metaDescription:
-    "A good street campaign doesn’t end on the street—design the offline-to-online bridge, capture paths, and follow-up systems that convert pavement into pipeline.",
+    "A good street campaign doesn’t end on the street-design the offline-to-online bridge, capture paths, and follow-up systems that convert pavement into pipeline.",
   content: [
     {
       type: "p",
-      text: "I have seen beautiful street campaigns die at the kerb. Crowds, smiles, branded cups, a hundred stories for the team Slack—and then silence in the CRM. The pavement did its job. The system after the pavement did not exist.",
+      text: "I have seen beautiful street campaigns die at the kerb. Crowds, smiles, branded cups, a hundred stories for the team Slack-and then silence in the CRM. The pavement did its job. The system after the pavement did not exist.",
     },
     {
       type: "p",
@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about that handoff—capture, continuity, and follow-up—so experiential energy becomes pipeline instead of nostalgia.",
+      text: "This piece is about that handoff-capture, continuity, and follow-up-so experiential energy becomes pipeline instead of nostalgia.",
     },
     {
       type: "h2",
@@ -33,7 +33,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Capture while motivation is high—not the next morning.",
+        "Capture while motivation is high-not the next morning.",
         "Continue the same story on the first digital screen.",
         "Follow up like an operator with a calendar, not a mood.",
         "Measure the bridge, not only the crowd.",
@@ -45,7 +45,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If your street campaign has no phone-shaped next step, you built a moment—not a channel.",
+      text: "If your street campaign has no phone-shaped next step, you built a moment-not a channel.",
     },
     {
       type: "h2",
@@ -89,7 +89,7 @@ const post: BlogPost = {
       items: [
         "UTM or unique codes per location and day.",
         "Headline that names the event or street offer.",
-        "One primary CTA—not a navigation maze.",
+        "One primary CTA-not a navigation maze.",
         "Proof from the same campaign visible above the fold.",
       ],
     },
@@ -161,7 +161,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Most street campaigns fail in the boring middle—the bridge—not in the decorating.",
+      text: "Most street campaigns fail in the boring middle-the bridge-not in the decorating.",
     },
     {
       type: "h2",
@@ -225,7 +225,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Treat follow-up as product operations. Define states: scanned, landed, actioned, activated, stalled. Define owners and SLAs. Write message templates that sound like the street team, not a corporate newsletter that wandered in. Include a path back to another local moment so the city loop continues—see [your city as a marketing channel](/blog/your-city-most-underrated-marketing-channel) for the wider nest strategy.",
+      text: "Treat follow-up as product operations. Define states: scanned, landed, actioned, activated, stalled. Define owners and SLAs. Write message templates that sound like the street team, not a corporate newsletter that wandered in. Include a path back to another local moment so the city loop continues-see [your city as a marketing channel](/blog/your-city-most-underrated-marketing-channel) for the wider nest strategy.",
     },
     {
       type: "p",
@@ -237,7 +237,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you cannot explain the offer in one sentence, stay off the high street. If you have no capture page, stay off the high street. If nobody owns follow-up after 6pm, stay off the high street. Fix clarity and operations first—[it may not be a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem), and [digging deeper often reveals that](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If you cannot explain the offer in one sentence, stay off the high street. If you have no capture page, stay off the high street. If nobody owns follow-up after 6pm, stay off the high street. Fix clarity and operations first-[it may not be a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem), and [digging deeper often reveals that](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "h2",
@@ -253,7 +253,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help founders connect story, product, and web into one system. Street campaigns are simply another front door. If that door does not lead somewhere coherent, you have decorated a pavement. If it does, you have built a growth loop people can walk into—and tap through.",
+      text: "I help founders connect story, product, and web into one system. Street campaigns are simply another front door. If that door does not lead somewhere coherent, you have decorated a pavement. If it does, you have built a growth loop people can walk into-and tap through.",
     },
     {
       type: "p",
@@ -265,7 +265,7 @@ const post: BlogPost = {
         {
           question: "What capture method works best?",
           answer:
-            "The one your audience already uses and that gets them to value fastest—often QR to a fast mobile page or a messaging start. Test; do not romanticise a channel.",
+            "The one your audience already uses and that gets them to value fastest-often QR to a fast mobile page or a messaging start. Test; do not romanticise a channel.",
         },
         {
           question: "How fast should follow-up be?",
@@ -294,7 +294,7 @@ const post: BlogPost = {
     },
     {
       type: "cta",
-      lead: "Want help designing street-to-phone campaigns that actually convert—not just look busy?",
+      lead: "Want help designing street-to-phone campaigns that actually convert-not just look busy?",
       button: "Talk about your capture system",
       href: "/contact",
     },

@@ -9,7 +9,7 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-37-share-stories.png",
   metaDescription:
-    "People share stories they were part of—not ads. Design participation, word-of-mouth moments, and campaigns worth retelling without sounding like advertising.",
+    "People share stories they were part of-not ads. Design participation, word-of-mouth moments, and campaigns worth retelling without sounding like advertising.",
   content: [
     {
       type: "p",
@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about designing for talkability—word-of-mouth as a designed outcome, not a hopeful side effect. Frameworks, examples, and a few exercises you can run before you spend another pound on creative that nobody will forward.",
+      text: "This piece is about designing for talkability-word-of-mouth as a designed outcome, not a hopeful side effect. Frameworks, examples, and a few exercises you can run before you spend another pound on creative that nobody will forward.",
     },
     {
       type: "h2",
@@ -35,7 +35,7 @@ const post: BlogPost = {
       type: "ul",
       items: [
         "Status: does sharing make them look sharp, generous, or in-the-know?",
-        "Emotion: is there a spike—delight, surprise, mild outrage, pride?",
+        "Emotion: is there a spike-delight, surprise, mild outrage, pride?",
         "Utility: can a friend act on this without a long explanation?",
         "Identity: does the story fit who they already believe they are?",
       ],
@@ -82,7 +82,7 @@ const post: BlogPost = {
       items: [
         "Define the smallest meaningful action that creates ownership.",
         "Make the action public enough to feel real, private enough to feel safe.",
-        "Reward with recognition, access, or a better outcome—not only a discount code.",
+        "Reward with recognition, access, or a better outcome-not only a discount code.",
         "Remove steps that exist only for your CRM comfort.",
       ],
     },
@@ -140,7 +140,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "Word of mouth is not a channel you rent. It is a behaviour you design for—and then get out of the way.",
+      text: "Word of mouth is not a channel you rent. It is a behaviour you design for-and then get out of the way.",
     },
     {
       type: "h2",
@@ -156,7 +156,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If you have to bribe people heavily to create content, you do not have a story problem—you have a moment problem.",
+      text: "If you have to bribe people heavily to create content, you do not have a story problem-you have a moment problem.",
     },
     {
       type: "h2",
@@ -168,7 +168,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Fictional contrast: “Ledgerly,” a finance app. They launch a polished ad about “taking control.” Nobody shares it. Then they run a “money date night” kit for couples—prompts, a shared goal tracker, a photo booth prop that is slightly ridiculous. Suddenly people post because they look fun together, not because they love APR. Same product category. Different casting.",
+      text: "Fictional contrast: “Ledgerly,” a finance app. They launch a polished ad about “taking control.” Nobody shares it. Then they run a “money date night” kit for couples-prompts, a shared goal tracker, a photo booth prop that is slightly ridiculous. Suddenly people post because they look fun together, not because they love APR. Same product category. Different casting.",
     },
     {
       type: "h2",
@@ -198,11 +198,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Track referral invites, share rate, phrase mentions in support tickets and sales calls, secondary attendance (“brought a friend”), and qualitative retellings. Vanity reach still matters for paid amplification—but only after you have a story worth amplifying. Otherwise you are paying to distribute a shrug.",
+      text: "Track referral invites, share rate, phrase mentions in support tickets and sales calls, secondary attendance (“brought a friend”), and qualitative retellings. Vanity reach still matters for paid amplification-but only after you have a story worth amplifying. Otherwise you are paying to distribute a shrug.",
     },
     {
       type: "p",
-      text: "If growth is stuck, diagnose whether you have a story people can carry—or only a funnel. Start with [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). If you are pouring budget into noise, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "If growth is stuck, diagnose whether you have a story people can carry-or only a funnel. Start with [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). If you are pouring budget into noise, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -210,7 +210,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "One viral spike is luck. A story engine is operations: a calendar of moments, a capture kit, a response ritual for people who share, and a feedback loop into product. Treat talkability like activation—something you instrument and improve weekly.",
+      text: "One viral spike is luck. A story engine is operations: a calendar of moments, a capture kit, a response ritual for people who share, and a feedback loop into product. Treat talkability like activation-something you instrument and improve weekly.",
     },
     {
       type: "table",
@@ -253,7 +253,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Jonah Berger’s research on why things catch on remains a useful checklist for talkability drivers—start from [Contagious / Wharton resources](https://jonahberger.com/). For practical brand community craft, [First Round Review](https://review.firstround.com/) and [Y Combinator’s Library](https://www.ycombinator.com/library) still publish high-signal essays on distribution that does not pretend virality is a strategy. For behavioural UX that supports sharing flows, [Nielsen Norman Group](https://www.nngroup.com/) helps you stop designing share buttons nobody trusts.",
+      text: "Jonah Berger’s research on why things catch on remains a useful checklist for talkability drivers-start from [Contagious / Wharton resources](https://jonahberger.com/). For practical brand community craft, [First Round Review](https://review.firstround.com/) and [Y Combinator’s Library](https://www.ycombinator.com/library) still publish high-signal essays on distribution that does not pretend virality is a strategy. For behavioural UX that supports sharing flows, [Nielsen Norman Group](https://www.nngroup.com/) helps you stop designing share buttons nobody trusts.",
     },
     {
       type: "h2",
@@ -261,7 +261,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help founders design belief systems—product, web, and story as one. Campaigns that nobody can participate in are expensive monologues. Campaigns that cast the customer as the protagonist tend to need less shouting later. That is not mysticism. It is sequencing: story first, megaphone second.",
+      text: "I help founders design belief systems-product, web, and story as one. Campaigns that nobody can participate in are expensive monologues. Campaigns that cast the customer as the protagonist tend to need less shouting later. That is not mysticism. It is sequencing: story first, megaphone second.",
     },
     {
       type: "p",
@@ -273,7 +273,7 @@ const post: BlogPost = {
         {
           question: "Does this mean we should stop running ads?",
           answer:
-            "No. Run ads to amplify stories people already want to tell—or to invite them into a moment. Ads as the only story usually underperform ads as distribution for a lived beat.",
+            "No. Run ads to amplify stories people already want to tell-or to invite them into a moment. Ads as the only story usually underperform ads as distribution for a lived beat.",
         },
         {
           question: "What if our product is B2B and “boring”?",
@@ -298,11 +298,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People rarely share advertisements because advertisements cast the brand as the star. Design a moment, a role, a relic, and a relay. Give someone a story they happened to be part of—and then let them talk. Your job is to make that talk accurate, easy, and true.",
+      text: "People rarely share advertisements because advertisements cast the brand as the star. Design a moment, a role, a relic, and a relay. Give someone a story they happened to be part of-and then let them talk. Your job is to make that talk accurate, easy, and true.",
     },
     {
       type: "cta",
-      lead: "Want help designing campaigns people actually want to talk about—not just scroll past?",
+      lead: "Want help designing campaigns people actually want to talk about-not just scroll past?",
       button: "Talk about your story system",
       href: "/contact",
     },

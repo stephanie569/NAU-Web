@@ -9,15 +9,15 @@ const post: BlogPost = {
   category: "Research & Positioning",
   image: "/images/blog/blog-20-product-business.png",
   metaDescription:
-    "The difference between building a product and building a business—strategy, pricing, retention, and distribution that turn features into a company.",
+    "The difference between building a product and building a business-strategy, pricing, retention, and distribution that turn features into a company.",
   content: [
     {
       type: "p",
-      text: "Building a product and building a business are related—and dangerously easy to confuse. A product can be elegant and still not be a business. A business needs a repeatable reason customers pay and stay. Elegance without economics is a hobby with better typography.",
+      text: "Building a product and building a business are related-and dangerously easy to confuse. A product can be elegant and still not be a business. A business needs a repeatable reason customers pay and stay. Elegance without economics is a hobby with better typography.",
     },
     {
       type: "p",
-      text: "I work at the seam between the two: narrative, experience, and proof that support willingness to pay. This article separates the workstreams so founders stop shipping features as a substitute for commercial clarity—and so product teams stop treating pricing pages as someone else’s problem. For the “is it worth building?” filter, see [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+      text: "I work at the seam between the two: narrative, experience, and proof that support willingness to pay. This article separates the workstreams so founders stop shipping features as a substitute for commercial clarity-and so product teams stop treating pricing pages as someone else’s problem. For the “is it worth building?” filter, see [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
     },
     {
       type: "h2",
@@ -55,7 +55,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Product answers “can it?” Business answers “will they pay repeatedly—and can we deliver without chaos?”",
+      text: "Product answers “can it?” Business answers “will they pay repeatedly-and can we deliver without chaos?”",
     },
     {
       type: "h2",
@@ -88,7 +88,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe’s business clarity was not “we built APIs.” It was “developers can accept payments without becoming a payments company”—a paid progress story. Figma’s business was not “vector tools.” It was collaborative interface design as a multiplayer workflow companies pay for. The product enabled the business; the narrative made exchange repeatable.",
+      text: "Stripe’s business clarity was not “we built APIs.” It was “developers can accept payments without becoming a payments company”-a paid progress story. Figma’s business was not “vector tools.” It was collaborative interface design as a multiplayer workflow companies pay for. The product enabled the business; the narrative made exchange repeatable.",
     },
     {
       type: "p",
@@ -106,7 +106,7 @@ const post: BlogPost = {
       type: "ul",
       items: [
         "Name the outcome in the plan names where possible.",
-        "Align limits to value drivers (seats, usage, projects)—not arbitrary gates.",
+        "Align limits to value drivers (seats, usage, projects)-not arbitrary gates.",
         "Put risk reducers near price (trials, guarantees, clear cancellation).",
         "Ensure the product actually delivers the plan’s promise in-session.",
       ],
@@ -121,7 +121,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A product without distribution is a secret. A business designs paths: product-led discovery, sales-led motion, partnerships, search, community. Distribution must match the offer. Enterprise buying committees do not live on TikTok—except recreationally.",
+      text: "A product without distribution is a secret. A business designs paths: product-led discovery, sales-led motion, partnerships, search, community. Distribution must match the offer. Enterprise buying committees do not live on TikTok-except recreationally.",
     },
     {
       type: "p",
@@ -137,7 +137,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Hospitality taught me this viscerally—see [lessons across AI, hospitality, and consumer](/blog/learned-working-across-ai-hospitality-consumer-products). A gorgeous booking experience that collapses at check-in is not a business. It is a disappointment machine with a brand.",
+      text: "Hospitality taught me this viscerally-see [lessons across AI, hospitality, and consumer](/blog/learned-working-across-ai-hospitality-consumer-products). A gorgeous booking experience that collapses at check-in is not a business. It is a disappointment machine with a brand.",
     },
     {
       type: "takeaway",
@@ -153,7 +153,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Use the site to express the exchange: who it is for, what progress costs (time/money/risk), why you win, what happens next. Performance and accessibility—[Core Web Vitals](https://web.dev/articles/vitals), [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)—are part of trust in that exchange, not nerdy extras.",
+      text: "Use the site to express the exchange: who it is for, what progress costs (time/money/risk), why you win, what happens next. Performance and accessibility-[Core Web Vitals](https://web.dev/articles/vitals), [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)-are part of trust in that exchange, not nerdy extras.",
     },
     {
       type: "h2",
@@ -174,7 +174,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise (90 minutes)",
-      text: "Draw three columns: Capability, Exchange, Compounding. List your top ten roadmap items under Capability. For each, write how it improves Exchange (acquisition, conversion, price realisation, retention) or Compounding (learning, proof, operational leverage). Anything that maps to neither is a candidate cut—see also [features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
+      text: "Draw three columns: Capability, Exchange, Compounding. List your top ten roadmap items under Capability. For each, write how it improves Exchange (acquisition, conversion, price realisation, retention) or Compounding (learning, proof, operational leverage). Anything that maps to neither is a candidate cut-see also [features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
     },
     {
       type: "h2",
@@ -186,7 +186,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Notion’s flexibility is product power; the business sharpened around teams standardising workflows and paying for collaboration. Airbnb’s product is inventory and booking; the business is trust infrastructure at scale—reviews, payments, standards—not merely a search box. Apple’s product craft is famous; the business includes ecosystem lock-in and services attached to devices. Study the exchange, not only the UI.",
+      text: "Notion’s flexibility is product power; the business sharpened around teams standardising workflows and paying for collaboration. Airbnb’s product is inventory and booking; the business is trust infrastructure at scale-reviews, payments, standards-not merely a search box. Apple’s product craft is famous; the business includes ecosystem lock-in and services attached to devices. Study the exchange, not only the UI.",
     },
     {
       type: "h3",
@@ -202,7 +202,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "If your most engaged users are never the buyers, you do not have product-market fit—you have a fan club with a burn rate.",
+      text: "If your most engaged users are never the buyers, you do not have product-market fit-you have a fan club with a burn rate.",
     },
     {
       type: "h2",
@@ -210,7 +210,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Product teams celebrate ships, activation experiments, and NPS. Business teams watch pay conversion, expansion, gross margin, and payback. You need both dashboards—and a translation layer between them.",
+      text: "Product teams celebrate ships, activation experiments, and NPS. Business teams watch pay conversion, expansion, gross margin, and payback. You need both dashboards-and a translation layer between them.",
     },
     {
       type: "table",
@@ -226,7 +226,7 @@ const post: BlogPost = {
         ],
         [
           "Feature adoption",
-          "Does this capability support paid progress—or hobby usage?",
+          "Does this capability support paid progress-or hobby usage?",
         ],
         [
           "Retention / churn reasons",
@@ -240,12 +240,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When product metrics look healthy and revenue does not, you are often serving the wrong persona brilliantly. When revenue looks fine and product metrics wobble, you may be selling heroics—custom work disguised as software. Both are business problems wearing different masks.",
+      text: "When product metrics look healthy and revenue does not, you are often serving the wrong persona brilliantly. When revenue looks fine and product metrics wobble, you may be selling heroics-custom work disguised as software. Both are business problems wearing different masks.",
     },
     {
       type: "callout",
       title: "Try this in your next planning meeting",
-      text: "For every major initiative, complete: “This helps [payer] achieve [progress] so they will [start paying / keep paying / pay more] because [mechanism].” If you cannot finish the sentence, it is still a product idea—not yet a business investment.",
+      text: "For every major initiative, complete: “This helps [payer] achieve [progress] so they will [start paying / keep paying / pay more] because [mechanism].” If you cannot finish the sentence, it is still a product idea-not yet a business investment.",
     },
     {
       type: "h2",
@@ -253,11 +253,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Many technical founders love building because it is controllable. Markets are rude. Pricing is political. Sales conversations bruise the ego. So the roadmap becomes a shelter. I say this with sympathy—I like craft too—and with urgency, because shelter is not a strategy.",
+      text: "Many technical founders love building because it is controllable. Markets are rude. Pricing is political. Sales conversations bruise the ego. So the roadmap becomes a shelter. I say this with sympathy-I like craft too-and with urgency, because shelter is not a strategy.",
     },
     {
       type: "p",
-      text: "The antidote is not “become a sales bro.” It is to treat commercial learning with the same seriousness as engineering quality. Instrument the funnel. Sit in calls. Read cancellations. Update the offer. That is product work in the broad sense—the sense [Y Combinator](https://www.ycombinator.com/library) keeps pointing at when they say talk to users and find what they pay for.",
+      text: "The antidote is not “become a sales bro.” It is to treat commercial learning with the same seriousness as engineering quality. Instrument the funnel. Sit in calls. Read cancellations. Update the offer. That is product work in the broad sense-the sense [Y Combinator](https://www.ycombinator.com/library) keeps pointing at when they say talk to users and find what they pay for.",
     },
     {
       type: "p",
@@ -296,7 +296,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Nielsen Norman Group’s [UX evaluation methods](https://www.nngroup.com/) help validate capability and comprehension. Pair them with commercial reviews so you do not perfect a path nobody pays to walk. Interaction Design Foundation’s [UX foundations](https://www.interaction-design.org/) similarly remind teams that usefulness beats novelty—usefulness includes economic usefulness.",
+      text: "Nielsen Norman Group’s [UX evaluation methods](https://www.nngroup.com/) help validate capability and comprehension. Pair them with commercial reviews so you do not perfect a path nobody pays to walk. Interaction Design Foundation’s [UX foundations](https://www.interaction-design.org/) similarly remind teams that usefulness beats novelty-usefulness includes economic usefulness.",
     },
     {
       type: "h2",
@@ -304,28 +304,28 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A common false business: high-touch delivery sold as scalable software. Revenue exists; margins and founder calendars tell the truth. The fix is not shame—it is honesty. Either productise the delivery (templates, defaults, tighter ICP) or price and staff it as services while you earn the right to productise.",
+      text: "A common false business: high-touch delivery sold as scalable software. Revenue exists; margins and founder calendars tell the truth. The fix is not shame-it is honesty. Either productise the delivery (templates, defaults, tighter ICP) or price and staff it as services while you earn the right to productise.",
     },
     {
       type: "p",
-      text: "The reverse also happens: a product with clear capability and weak commercial motion, surviving on hope and a thin waitlist. That needs offer design, distribution experiments, and proof—not another feature sprint. [Most expensive early-stage mistakes](/blog/most-expensive-mistake-early-stage-founders) often live in this confusion.",
+      text: "The reverse also happens: a product with clear capability and weak commercial motion, surviving on hope and a thin waitlist. That needs offer design, distribution experiments, and proof-not another feature sprint. [Most expensive early-stage mistakes](/blog/most-expensive-mistake-early-stage-founders) often live in this confusion.",
     },
     {
       type: "ul",
       items: [
         "Track hours of human delivery per new customer.",
         "Separate roadmap items that reduce delivery cost from items that only delight.",
-        "Price pilots to learn willingness to pay—not to win vanity logos free forever.",
+        "Price pilots to learn willingness to pay-not to win vanity logos free forever.",
         "Write down the path from bespoke to repeatable in ninety-day increments.",
       ],
     },
     {
       type: "p",
-      text: "Baymard’s [research habit](https://baymard.com/blog)—observe real behaviour before declaring UX truth—applies commercially too. Observe how deals actually close and how accounts actually renew. Folklore is a poor CFO.",
+      text: "Baymard’s [research habit](https://baymard.com/blog)-observe real behaviour before declaring UX truth-applies commercially too. Observe how deals actually close and how accounts actually renew. Folklore is a poor CFO.",
     },
     {
       type: "takeaway",
-      text: "If revenue requires constant heroics, you have a services business—or a product still waiting to become one. Name it so you can steer it.",
+      text: "If revenue requires constant heroics, you have a services business-or a product still waiting to become one. Name it so you can steer it.",
     },
     {
       type: "faq",
@@ -348,12 +348,12 @@ const post: BlogPost = {
         {
           question: "Where do brand and marketing fit?",
           answer:
-            "They express and amplify the exchange. They are not a substitute for it. Sequence matters—clarity and activation before volume.",
+            "They express and amplify the exchange. They are not a substitute for it. Sequence matters-clarity and activation before volume.",
         },
         {
           question: "Should every feature have a revenue hypothesis?",
           answer:
-            "Every major investment should. Small craft fixes can be hygiene. Large bets need an exchange story—or they are hobbies funded by runway.",
+            "Every major investment should. Small craft fixes can be hygiene. Large bets need an exchange story-or they are hobbies funded by runway.",
         },
       ],
     },
@@ -374,7 +374,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I connect product strategy to commercial reality because screens without exchange are unfinished companies. Build the product. Build the business. Then keep the bridge maintained—because left alone, teams happily wander back to the comfort of shipping. For a sequenced method, use [from strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product).",
+      text: "I connect product strategy to commercial reality because screens without exchange are unfinished companies. Build the product. Build the business. Then keep the bridge maintained-because left alone, teams happily wander back to the comfort of shipping. For a sequenced method, use [from strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product).",
     },
     {
       type: "cta",

@@ -9,11 +9,11 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-55-repetition-judgement.png",
   metaDescription:
-    "A practical division of labour with AI: automate repetition and protect judgement—what to delegate to tools and what founders must still own.",
+    "A practical division of labour with AI: automate repetition and protect judgement-what to delegate to tools and what founders must still own.",
   content: [
     {
       type: "p",
-      text: "The most expensive AI mistake I see is not using the tools. It is using them on the wrong layer of the work. Teams automate the decision and hand-craft the busywork—or worse, automate both and call the resulting fog a workflow. Then they wonder why everything is faster and somehow worse.",
+      text: "The most expensive AI mistake I see is not using the tools. It is using them on the wrong layer of the work. Teams automate the decision and hand-craft the busywork-or worse, automate both and call the resulting fog a workflow. Then they wonder why everything is faster and somehow worse.",
     },
     {
       type: "p",
@@ -45,7 +45,7 @@ const post: BlogPost = {
         "Repetition loves templates, examples, and constraints.",
         "Judgement loves evidence, stakes, and accountability.",
         "Mixing them without a gate creates fluent errors at scale.",
-        "Owning judgement does not mean doing every task yourself—it means owning the standard.",
+        "Owning judgement does not mean doing every task yourself-it means owning the standard.",
       ],
     },
     {
@@ -64,31 +64,31 @@ const post: BlogPost = {
           "Research synthesis",
           "Clustering notes, summarising transcripts",
           "Which insight changes the roadmap",
-          "Yes—before strategy shifts",
+          "Yes-before strategy shifts",
         ],
         [
           "Content production",
           "Outlines, variations, formatting",
           "Stake, voice, proof, final publish",
-          "Yes—before anything public",
+          "Yes-before anything public",
         ],
         [
           "Support macros",
           "Draft replies from policy",
           "Edge cases, apologies, exceptions",
-          "Yes—for tone and risk",
+          "Yes-for tone and risk",
         ],
         [
           "Analytics",
           "Charting, anomaly lists",
           "Causal interpretation and next experiment",
-          "Yes—before budget moves",
+          "Yes-before budget moves",
         ],
         [
           "Design exploration",
           "Layout options from a brief",
           "Product narrative and UX priorities",
-          "Yes—before build",
+          "Yes-before build",
         ],
       ],
     },
@@ -127,7 +127,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Assistants fail when the job is “do marketing.” They succeed when the job is “turn this approved stake into three outlines” or “extract objections from these eight call notes.” Narrow jobs. Rich inputs. Human selection afterward. Curiosity still beats prompt costumes—[the best prompt is still a good question](/blog/best-prompt-is-still-good-question).",
+      text: "Assistants fail when the job is “do marketing.” They succeed when the job is “turn this approved stake into three outlines” or “extract objections from these eight call notes.” Narrow jobs. Rich inputs. Human selection afterward. Curiosity still beats prompt costumes-[the best prompt is still a good question](/blog/best-prompt-is-still-good-question).",
     },
     {
       type: "ol",
@@ -145,7 +145,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Audits catch drift: voice dilution, invented proof, overconfident summaries, customer language replaced by jargon. Schedule them. Treat audit findings as system updates, not blame. Authenticity erodes quietly—see [don’t let AI become your personality](/blog/dont-let-ai-become-your-personality).",
+      text: "Audits catch drift: voice dilution, invented proof, overconfident summaries, customer language replaced by jargon. Schedule them. Treat audit findings as system updates, not blame. Authenticity erodes quietly-see [don’t let AI become your personality](/blog/dont-let-ai-become-your-personality).",
     },
     {
       type: "takeaway",
@@ -192,7 +192,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Teams that skip this step often create a second job—editing machine sludge—that feels like productivity because it fills the day. It is not. It is unpaid quality control for a process you refused to design. Design the process: standards, inputs, gates, audits. Then let repetition run. Consistency of system still outperforms brilliance of one-off heroics: [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Teams that skip this step often create a second job-editing machine sludge-that feels like productivity because it fills the day. It is not. It is unpaid quality control for a process you refused to design. Design the process: standards, inputs, gates, audits. Then let repetition run. Consistency of system still outperforms brilliance of one-off heroics: [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "p",
@@ -211,12 +211,12 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the two-column week",
-      text: "For five working days, keep a two-column log: Repetition completed with AI assist, and Judgements made without outsourcing the final call. At the end of the week, ask whether the second column is embarrassingly short. If it is, you did not lack tools—you lacked ownership. Rebalance before you add another integration.",
+      text: "For five working days, keep a two-column log: Repetition completed with AI assist, and Judgements made without outsourcing the final call. At the end of the week, ask whether the second column is embarrassingly short. If it is, you did not lack tools-you lacked ownership. Rebalance before you add another integration.",
     },
     {
       type: "callout",
       title: "Try this",
-      text: "Write a one-page “judgement charter”: five decisions AI may not finalise, three artefacts that always need a named human approver, and two metrics that trigger an audit. Put it where the team can see it. If someone cannot find the charter, you do not have a charter—you have a hope.",
+      text: "Write a one-page “judgement charter”: five decisions AI may not finalise, three artefacts that always need a named human approver, and two metrics that trigger an audit. Put it where the team can see it. If someone cannot find the charter, you do not have a charter-you have a hope.",
     },
     {
       type: "h2",
@@ -224,7 +224,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For human–AI collaboration patterns, [Harvard Business Review](https://hbr.org/) regularly covers augmentation versus substitution. [Nielsen Norman Group](https://www.nngroup.com/) is practical when automation touches UX and content quality. The [UK Government’s guidance on using AI in the public sector](https://www.gov.uk/government/publications/guidance-to-civil-servants-on-use-of-generative-ai) is unexpectedly clear on keeping humans accountable for outputs—worth reading even if you are not a civil servant.",
+      text: "For human-AI collaboration patterns, [Harvard Business Review](https://hbr.org/) regularly covers augmentation versus substitution. [Nielsen Norman Group](https://www.nngroup.com/) is practical when automation touches UX and content quality. The [UK Government’s guidance on using AI in the public sector](https://www.gov.uk/government/publications/guidance-to-civil-servants-on-use-of-generative-ai) is unexpectedly clear on keeping humans accountable for outputs-worth reading even if you are not a civil servant.",
     },
     {
       type: "h2",
@@ -232,7 +232,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help founders design growth systems where AI compresses repetition and humans keep the stakes. That usually means clearer briefs, stronger voice rules, and fewer campaigns that try to invent belief from scratch. If belief still has to be earned the long way, start with [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned). If trust is the real bottleneck, read [people trust people before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "I help founders design growth systems where AI compresses repetition and humans keep the stakes. That usually means clearer briefs, stronger voice rules, and fewer campaigns that try to invent belief from scratch. If belief still has to be earned the long way, start with [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned). If trust is the real bottleneck, read [people trust people before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "p",
@@ -273,7 +273,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "AI is excellent at repetition and indifferent to responsibility. Your advantage is the opposite profile. Let tools carry the pattern work. Keep the judgements that define product, promise, and personality. Draw the line on purpose—or the market will draw it for you when everything you publish sounds fast, fluent, and forgettable.",
+      text: "AI is excellent at repetition and indifferent to responsibility. Your advantage is the opposite profile. Let tools carry the pattern work. Keep the judgements that define product, promise, and personality. Draw the line on purpose-or the market will draw it for you when everything you publish sounds fast, fluent, and forgettable.",
     },
     {
       type: "cta",

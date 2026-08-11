@@ -9,7 +9,7 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-39-real-world.png",
   metaDescription:
-    "Why digital marketing still needs the real world—how physical experiences transfer credibility online and make campaigns feel significantly more believable.",
+    "Why digital marketing still needs the real world-how physical experiences transfer credibility online and make campaigns feel significantly more believable.",
   content: [
     {
       type: "p",
@@ -42,7 +42,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When I audit startup websites, the ones that convert rarely look the most expensive. They look the most specific. Specificity often comes from contact with reality—customers named, places referenced, constraints admitted. Related: [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "When I audit startup websites, the ones that convert rarely look the most expensive. They look the most specific. Specificity often comes from contact with reality-customers named, places referenced, constraints admitted. Related: [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "takeaway",
@@ -79,7 +79,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Digital narrative should carry the texture of contact—not bleach it into brand adjectives. Keep names, places, numbers, and awkward truths where they help. Sterile case studies feel like compliance documents. Lived case studies feel like evidence.",
+      text: "Digital narrative should carry the texture of contact-not bleach it into brand adjectives. Keep names, places, numbers, and awkward truths where they help. Sterile case studies feel like compliance documents. Lived case studies feel like evidence.",
     },
     {
       type: "h3",
@@ -135,11 +135,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Physical experience reduces perceived risk. Buyers who have seen you operate—even briefly—arrive online with a different prior. Ads feel like reminders instead of cold claims. Landing pages feel like continuations instead of first dates. Sales calls start mid-conversation.",
+      text: "Physical experience reduces perceived risk. Buyers who have seen you operate-even briefly-arrive online with a different prior. Ads feel like reminders instead of cold claims. Landing pages feel like continuations instead of first dates. Sales calls start mid-conversation.",
     },
     {
       type: "p",
-      text: "This is why brands with retail, events, or strong community rituals often look “better at digital.” Sometimes they are simply better supplied with proof. Creative teams with true material outperform creative teams inventing vibes. If your funnel is weak, the issue may be missing proof rather than missing spend—see [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "This is why brands with retail, events, or strong community rituals often look “better at digital.” Sometimes they are simply better supplied with proof. Creative teams with true material outperform creative teams inventing vibes. If your funnel is weak, the issue may be missing proof rather than missing spend-see [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -150,14 +150,14 @@ const post: BlogPost = {
       items: [
         "Plan documentation as part of the experience, not an afterthought.",
         "Prefer honest mess over fake perfection in secondary content.",
-        "Put proof next to claims and CTAs—not buried in a blog archive.",
+        "Put proof next to claims and CTAs-not buried in a blog archive.",
         "Keep the same promise from pavement to page (no personality swap).",
         "Update digital assets as physical proof accumulates; stale proof is a bug.",
       ],
     },
     {
       type: "takeaway",
-      text: "Believability is a product of contact plus honest translation—not of louder claims.",
+      text: "Believability is a product of contact plus honest translation-not of louder claims.",
     },
     {
       type: "h2",
@@ -165,7 +165,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s stores are marketing infrastructure for the entire digital funnel—touch reduces uncertainty that ads cannot. Gymshark’s community training culture gave social content a spine. Even SaaS companies that host sharp in-person summits find their webinars convert better afterward because the brand has been “witnessed.”",
+      text: "Apple’s stores are marketing infrastructure for the entire digital funnel-touch reduces uncertainty that ads cannot. Gymshark’s community training culture gave social content a spine. Even SaaS companies that host sharp in-person summits find their webinars convert better afterward because the brand has been “witnessed.”",
     },
     {
       type: "p",
@@ -174,7 +174,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the receipt audit",
-      text: "Open your homepage and primary ad. Highlight every claim. For each, ask: what real-world receipt do we have? If the answer is “we could shoot something,” you have a content idea. If the answer is “nothing yet,” you have a contact problem—not a copy problem.",
+      text: "Open your homepage and primary ad. Highlight every claim. For each, ask: what real-world receipt do we have? If the answer is “we could shoot something,” you have a content idea. If the answer is “nothing yet,” you have a contact problem-not a copy problem.",
     },
     {
       type: "h2",
@@ -182,7 +182,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Physical for physical’s sake becomes another vanity layer: elaborate sets, low conversation quality, content that looks like a music video for a product nobody understands. The test is still comprehension and next steps. If attendees cannot explain you, the installation failed—regardless of how good the reel looks.",
+      text: "Physical for physical’s sake becomes another vanity layer: elaborate sets, low conversation quality, content that looks like a music video for a product nobody understands. The test is still comprehension and next steps. If attendees cannot explain you, the installation failed-regardless of how good the reel looks.",
     },
     {
       type: "p",
@@ -233,16 +233,16 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Days 1–2: list every major claim on your homepage and primary ads.",
-        "Days 3–4: design one small public or invite-only contact moment tied to those claims.",
-        "Days 5–7: run it; capture artefacts and objections with consent.",
-        "Days 8–10: place the strongest proof beside CTAs; rewrite one claim in customer language.",
-        "Days 11–14: amplify with documentation, not invention; measure comprehension and next-step completion.",
+        "Days 1-2: list every major claim on your homepage and primary ads.",
+        "Days 3-4: design one small public or invite-only contact moment tied to those claims.",
+        "Days 5-7: run it; capture artefacts and objections with consent.",
+        "Days 8-10: place the strongest proof beside CTAs; rewrite one claim in customer language.",
+        "Days 11-14: amplify with documentation, not invention; measure comprehension and next-step completion.",
       ],
     },
     {
       type: "p",
-      text: "At the end of two weeks you will know whether your digital story lacks creative—or lacks contact. Most teams discover the latter and feel oddly relieved. Relief is useful. It means the fix is concrete.",
+      text: "At the end of two weeks you will know whether your digital story lacks creative-or lacks contact. Most teams discover the latter and feel oddly relieved. Relief is useful. It means the fix is concrete.",
     },
     {
       type: "h2",
@@ -275,7 +275,7 @@ const post: BlogPost = {
         {
           question: "What if our audience is global and remote?",
           answer:
-            "Use hub cities, travelling clinics, partner offices, or high-signal dinners. Remote does not mean disembodied—it means you choose contact points deliberately.",
+            "Use hub cities, travelling clinics, partner offices, or high-signal dinners. Remote does not mean disembodied-it means you choose contact points deliberately.",
         },
         {
           question: "How do we keep content from looking staged?",
@@ -285,7 +285,7 @@ const post: BlogPost = {
         {
           question: "Can digital communities replace physical proof?",
           answer:
-            "They help, especially with ongoing conversation. They rarely replace the scarcity signal of showing up in shared space—use both.",
+            "They help, especially with ongoing conversation. They rarely replace the scarcity signal of showing up in shared space-use both.",
         },
       ],
     },

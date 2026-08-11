@@ -70,7 +70,7 @@ export default function PrivacyPage() {
               Like most websites, hosting and security providers may process
               limited technical data such as IP address, browser type, device
               information, and pages visited. This is typically used for
-              operating, securing, and understanding aggregate use of the site—not
+              operating, securing, and understanding aggregate use of the site-not
               for building marketing profiles for sale.
             </p>
             <p>
@@ -111,8 +111,8 @@ export default function PrivacyPage() {
             <p>
               I do not sell your personal information. I may share information
               with trusted service providers who help run the site or
-              communications—for example hosting, email, analytics, or form
-              delivery—only as needed for those purposes, and under appropriate
+              communications-for example hosting, email, analytics, or form
+              delivery-only as needed for those purposes, and under appropriate
               confidentiality expectations.
             </p>
             <p>
@@ -137,7 +137,7 @@ export default function PrivacyPage() {
             <p>
               Contact and project correspondence is kept only as long as needed
               to manage the conversation, deliver work, meet record-keeping
-              needs, or resolve disputes—then deleted or archived according to
+              needs, or resolve disputes-then deleted or archived according to
               ordinary business practice. Technical logs are retained for shorter
               operational periods unless a security or legal reason requires
               longer retention.

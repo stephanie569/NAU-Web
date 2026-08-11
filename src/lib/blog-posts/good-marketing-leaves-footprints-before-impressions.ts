@@ -8,7 +8,7 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-69-footprints.png",
   metaDescription:
-    "Good marketing leaves footprints before impressions—why traces in the physical world beat vanity metrics, and how to design proof people can follow back to your brand.",
+    "Good marketing leaves footprints before impressions-why traces in the physical world beat vanity metrics, and how to design proof people can follow back to your brand.",
   content: [
     {
       type: "p",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not arguing against measurement. I am arguing against worshipping the wrong unit. If your plan only produces impressions, you are renting glances. If it produces footprints, you are manufacturing priors that make later impressions cheaper to believe—[the internet still needs the real world](/blog/internet-still-needs-the-real-world).",
+      text: "I am not arguing against measurement. I am arguing against worshipping the wrong unit. If your plan only produces impressions, you are renting glances. If it produces footprints, you are manufacturing priors that make later impressions cheaper to believe-[the internet still needs the real world](/blog/internet-still-needs-the-real-world).",
     },
     {
       type: "takeaway",
@@ -53,7 +53,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A footprint is any durable residue of brand contact outside the ephemeral feed: a physical artefact, a recurring ritual, a marked place, a witnessed demonstration, a local phrase, a line people join, a sticker that stays because it looks good rather than because you paid for placement. Soft footprints count too—unprompted mentions, named referrals, “I saw you at…” openings on sales calls.",
+      text: "A footprint is any durable residue of brand contact outside the ephemeral feed: a physical artefact, a recurring ritual, a marked place, a witnessed demonstration, a local phrase, a line people join, a sticker that stays because it looks good rather than because you paid for placement. Soft footprints count too-unprompted mentions, named referrals, “I saw you at…” openings on sales calls.",
     },
     {
       type: "p",
@@ -122,7 +122,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Residue is the artefact or ritual mark: stamped maps, cards, temporary installations that invite photography, public demos that create witnesses. Design for keepability and photographability without begging—[how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph) and [the best marketing doesn’t ask people to share it](/blog/best-marketing-doesnt-ask-people-to-share).",
+      text: "Residue is the artefact or ritual mark: stamped maps, cards, temporary installations that invite photography, public demos that create witnesses. Design for keepability and photographability without begging-[how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph) and [the best marketing doesn’t ask people to share it](/blog/best-marketing-doesnt-ask-people-to-share).",
     },
     {
       type: "ul",
@@ -139,7 +139,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A footprint without a path is nostalgia. Invite the next action while the contact is warm: book, join, try, return next Saturday. Keep the path coherent from pavement to page—[a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "A footprint without a path is nostalgia. Invite the next action while the contact is warm: book, join, try, return next Saturday. Keep the path coherent from pavement to page-[a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "h3",
@@ -163,7 +163,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Conversation-first work reduces that panic because you stop guessing what residue should say—[why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera). A walk still beats a brainstorm that never leaves the office: [your next marketing campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
+      text: "Conversation-first work reduces that panic because you stop guessing what residue should say-[why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera). A walk still beats a brainstorm that never leaves the office: [your next marketing campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
     },
     {
       type: "h2",
@@ -181,7 +181,7 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "Define the footprint before you define the media buy.",
-        "Budget for residue (artefacts, staffing, capture) as core creative—not extras.",
+        "Budget for residue (artefacts, staffing, capture) as core creative-not extras.",
         "Require one checkable place/time in every campaign brief.",
         "Measure traces and next-step completion beside reach.",
         "Retire creative that cannot point to a footprint within thirty days.",
@@ -198,7 +198,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People rarely share advertisements; they share stories they were part of—[people rarely share advertisements—they share stories](/blog/people-rarely-share-advertisements-share-stories). Footprints are what make participation visible after the fact. Memorable brands interrupt less and leave more: [memorable brands don’t interrupt—they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "People rarely share advertisements; they share stories they were part of-[people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories). Footprints are what make participation visible after the fact. Memorable brands interrupt less and leave more: [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "h2",
@@ -257,7 +257,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I design growth systems that treat physical and social residue as first-class assets. Websites and ads then have something true to point at. Footprints first, impressions second—not as a slogan, as a sequence. Earned attention still costs effort: [organic growth isn’t free; it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "I design growth systems that treat physical and social residue as first-class assets. Websites and ads then have something true to point at. Footprints first, impressions second-not as a slogan, as a sequence. Earned attention still costs effort: [organic growth isn’t free; it’s earned](/blog/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "faq",
@@ -265,7 +265,7 @@ const post: BlogPost = {
         {
           question: "Do footprints always mean offline?",
           answer:
-            "Usually they start with contact in the world, but digital can carry residue—saved tools, recurring rituals, public proof libraries. The test is durability and checkability, not nostalgia.",
+            "Usually they start with contact in the world, but digital can carry residue-saved tools, recurring rituals, public proof libraries. The test is durability and checkability, not nostalgia.",
         },
         {
           question: "What if we sell nationally from day one?",
@@ -290,11 +290,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Good marketing leaves footprints before it leaves impressions because contact is still the scarce input in a world of infinite renderings. Mark the ground. Leave residue. Invite the next step. Then—and only then—buy the glances that remind people where you have already been.",
+      text: "Good marketing leaves footprints before it leaves impressions because contact is still the scarce input in a world of infinite renderings. Mark the ground. Leave residue. Invite the next step. Then-and only then-buy the glances that remind people where you have already been.",
     },
     {
       type: "cta",
-      lead: "Want help designing campaigns that leave traces people can follow—not just impressions they forget?",
+      lead: "Want help designing campaigns that leave traces people can follow-not just impressions they forget?",
       button: "Talk about your growth system",
       href: "/contact",
     },

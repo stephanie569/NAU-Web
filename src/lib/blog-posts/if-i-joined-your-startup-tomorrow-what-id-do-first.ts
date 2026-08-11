@@ -9,15 +9,15 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-10-joined.png",
   metaDescription:
-    "What I'd do first if I joined a product brand tomorrow—research, positioning and launch clarity before more content.",
+    "What I'd do first if I joined a product brand tomorrow-research, positioning and launch clarity before more content.",
   content: [
     {
       type: "p",
-      text: "If I joined your startup tomorrow, I would not start with a rebrand, a new campaign calendar, or a feature brainstorm. I would start with the places where customers decide—and where belief currently breaks. The rest can wait until we know what we are fixing. Ambition without a diagnosis is just expensive motion.",
+      text: "If I joined your startup tomorrow, I would not start with a rebrand, a new campaign calendar, or a feature brainstorm. I would start with the places where customers decide-and where belief currently breaks. The rest can wait until we know what we are fixing. Ambition without a diagnosis is just expensive motion.",
     },
     {
       type: "p",
-      text: "This is the same instinct behind [what I would change in your first 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days), compressed into a first-principles sequence. Whether you hire me full-time or bring nau in for a working partnership, the order stays: listen, clarify, fix the path, then amplify. Campaigns come after the path makes sense. Otherwise you are buying traffic into confusion—and paying for the privilege.",
+      text: "This is the same instinct behind [what I would change in your first 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days), compressed into a first-principles sequence. Whether you hire me full-time or bring nau in for a working partnership, the order stays: listen, clarify, fix the path, then amplify. Campaigns come after the path makes sense. Otherwise you are buying traffic into confusion-and paying for the privilege.",
     },
     {
       type: "h2",
@@ -29,7 +29,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I have joined—or advised—teams where the homepage, the deck, and the product onboarding told three different stories. Marketing was asked to “fix growth.” Growth was not broken. Consistency was. First Round’s archives are full of similar recovery stories; start at [First Round Review](https://review.firstround.com/) when you need peer language for sequencing work under pressure.",
+      text: "I have joined-or advised-teams where the homepage, the deck, and the product onboarding told three different stories. Marketing was asked to “fix growth.” Growth was not broken. Consistency was. First Round’s archives are full of similar recovery stories; start at [First Round Review](https://review.firstround.com/) when you need peer language for sequencing work under pressure.",
     },
     {
       type: "callout",
@@ -43,7 +43,7 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Listen to five sales or support recordings end to end—not highlight reels.",
+        "Listen to five sales or support recordings end to end-not highlight reels.",
         "Review funnel metrics by stage (visit → signup → activation → paid), not vanity totals.",
         "Rewrite the current offer in one sentence a cold reader could repeat.",
         "Walk the website and first-run experience as a stranger on a phone.",
@@ -56,7 +56,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I listen for the customer’s words for the problem, the alternatives they already tried, and the moment they hesitate. Hesitation is a map. If they hesitate on “who is this for,” you have an ICP problem. If they hesitate on “will this work for us,” you have a proof problem. If they hesitate on “what happens after I sign up,” you have an activation story problem. Harvard Business Review’s pieces on customer discovery still hold: curiosity beats pitching—browse [HBR](https://hbr.org/).",
+      text: "I listen for the customer’s words for the problem, the alternatives they already tried, and the moment they hesitate. Hesitation is a map. If they hesitate on “who is this for,” you have an ICP problem. If they hesitate on “will this work for us,” you have a proof problem. If they hesitate on “what happens after I sign up,” you have an activation story problem. Harvard Business Review’s pieces on customer discovery still hold: curiosity beats pitching-browse [HBR](https://hbr.org/).",
     },
     {
       type: "h3",
@@ -64,7 +64,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stage metrics tell you where the system leaks. Flat demos with rising traffic point to comprehension or relevance. Strong signups with weak activation point to first-value failure. Strong activation with weak retention points to a job that was not urgent enough—or a product that does not keep delivering. This is the diagnostic order in [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "Stage metrics tell you where the system leaks. Flat demos with rising traffic point to comprehension or relevance. Strong signups with weak activation point to first-value failure. Strong activation with weak retention points to a job that was not urgent enough-or a product that does not keep delivering. This is the diagnostic order in [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "table",
@@ -94,7 +94,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "In the first 48 hours, your job is not to look busy—it is to locate the belief break with recordings, stage metrics, and a cold walkthrough.",
+      text: "In the first 48 hours, your job is not to look busy-it is to locate the belief break with recordings, stage metrics, and a cold walkthrough.",
     },
     {
       type: "h2",
@@ -103,7 +103,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Lock ICP and exclusions—who we will disappoint on purpose.",
+        "Lock ICP and exclusions-who we will disappoint on purpose.",
         "Fix the homepage and primary CTA path so they match the one-sentence offer.",
         "Align sales language with product reality (no promises the product cannot keep this month).",
         "Define three learning metrics for the next month, not twelve dashboards.",
@@ -117,7 +117,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "ICP work is uncomfortable because it excludes. Exclusion is the point. “SMBs” is not an ICP. “UK e-commerce ops leads at brands doing £1–10m who currently stitch inventory in spreadsheets” is. Without exclusions, the homepage becomes a compromise document. For positioning speed, see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "ICP work is uncomfortable because it excludes. Exclusion is the point. “SMBs” is not an ICP. “UK e-commerce ops leads at brands doing £1-10m who currently stitch inventory in spreadsheets” is. Without exclusions, the homepage becomes a compromise document. For positioning speed, see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "h3",
@@ -125,7 +125,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I treat the homepage as the highest-leverage conversion surface for most early teams. It must answer who it is for, what changes, why believe, and what to do next. Beauty helps only after those answers are sharp—[why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert). Nielsen Norman Group’s research on how users scan and decide is a useful external discipline: [NN/g](https://www.nngroup.com/).",
+      text: "I treat the homepage as the highest-leverage conversion surface for most early teams. It must answer who it is for, what changes, why believe, and what to do next. Beauty helps only after those answers are sharp-[why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert). Nielsen Norman Group’s research on how users scan and decide is a useful external discipline: [NN/g](https://www.nngroup.com/).",
     },
     {
       type: "h3",
@@ -133,12 +133,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If sales sells a future roadmap and the product delivers a thinner present, churn and reputation pay the bill. Align language to what is true this month. Put the roadmap in a labelled section, not in the hero. This is product strategy showing up as go-to-market hygiene—related to [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "If sales sells a future roadmap and the product delivers a thinner present, churn and reputation pay the bill. Align language to what is true this month. Put the roadmap in a labelled section, not in the hero. This is product strategy showing up as go-to-market hygiene-related to [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
     },
     {
       type: "callout",
       title: "Three learning metrics, not a dashboard zoo",
-      text: "Example set: qualified CTA rate, time-to-first-value, and paid conversion by ICP segment. Everything else can wait until these move—or explain why they will not.",
+      text: "Example set: qualified CTA rate, time-to-first-value, and paid conversion by ICP segment. Everything else can wait until these move-or explain why they will not.",
     },
     {
       type: "h2",
@@ -146,7 +146,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Northline is a fictional AI scheduling tool for clinic managers. Day one, I hear calls where managers ask whether it replaces their EHR. The homepage says “AI for modern care teams.” Funnel: solid traffic, weak demos. Offer rewrite: “Fill cancelled appointment slots automatically for multi-location dental clinics—without replacing your EHR.” ICP exclusions: hospitals, solo practitioners, wellness coaches. Homepage and demo script update in week one. Week two: onboarding goes straight to connecting the calendar and recovering one cancelled slot—not a tour of AI features. Demo rate rises before any new ads. The product did not change much. The decision path did.",
+      text: "Northline is a fictional AI scheduling tool for clinic managers. Day one, I hear calls where managers ask whether it replaces their EHR. The homepage says “AI for modern care teams.” Funnel: solid traffic, weak demos. Offer rewrite: “Fill cancelled appointment slots automatically for multi-location dental clinics-without replacing your EHR.” ICP exclusions: hospitals, solo practitioners, wellness coaches. Homepage and demo script update in week one. Week two: onboarding goes straight to connecting the calendar and recovering one cancelled slot-not a tour of AI features. Demo rate rises before any new ads. The product did not change much. The decision path did.",
     },
     {
       type: "p",
@@ -161,18 +161,18 @@ const post: BlogPost = {
       items: [
         "Full brand identity systems before the offer sentence is stable.",
         "Multi-channel paid experiments before the primary path converts cold visitors.",
-        "Large feature bets justified only by one prospect—see [the hidden cost of unused features](/blog/hidden-cost-building-features-nobody-asked-for).",
+        "Large feature bets justified only by one prospect-see [the hidden cost of unused features](/blog/hidden-cost-building-features-nobody-asked-for).",
         "Rebuilding the entire site when five sections and one CTA would do.",
         "Hiring a content army to publish into a fuzzy ICP.",
       ],
     },
     {
       type: "p",
-      text: "Postponing is not passivity. It is sequencing. Google’s guidance on helpful content assumes you know who you are helping—[Google Search Central](https://developers.google.com/search/docs). Same for product: know who, then distribute.",
+      text: "Postponing is not passivity. It is sequencing. Google’s guidance on helpful content assumes you know who you are helping-[Google Search Central](https://developers.google.com/search/docs). Same for product: know who, then distribute.",
     },
     {
       type: "takeaway",
-      text: "Weeks one and two lock ICP, offer, homepage path, sales alignment, and learning metrics—campaigns and rebrands wait until the path can carry them.",
+      text: "Weeks one and two lock ICP, offer, homepage path, sales alignment, and learning metrics-campaigns and rebrands wait until the path can carry them.",
     },
     {
       type: "h2",
@@ -181,7 +181,7 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Block four hours. No Slack. Phone on do not disturb—unless you enjoy theatrical urgency.",
+        "Block four hours. No Slack. Phone on do not disturb-unless you enjoy theatrical urgency.",
         "Pull five recent call recordings and a funnel export by stage.",
         "Write the offer sentence on paper. Cross out every adjective you could not defend to a sceptical buyer.",
         "Do a cold mobile walkthrough; note the first point of confusion.",
@@ -202,7 +202,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I also separate what we will ship in two weeks from what we will study. Shipping a clearer hero is a fix. Running three new paid channels is a study that usually waits. If the team needs a visible win for morale, pick a conversion-path win—not a brand exploration. Related: [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders) is often sequencing theatre before truth.",
+      text: "I also separate what we will ship in two weeks from what we will study. Shipping a clearer hero is a fix. Running three new paid channels is a study that usually waits. If the team needs a visible win for morale, pick a conversion-path win-not a brand exploration. Related: [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders) is often sequencing theatre before truth.",
     },
     {
       type: "h3",
@@ -220,7 +220,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "By Friday the company should feel slightly quieter and slightly sharper. If it feels louder—more initiatives, more channels—you slipped back into motion-as-progress. Return to the leakage map. For product-versus-business clarity when the team confuses shipping with surviving, see [the difference between building a product and a business](/blog/difference-building-product-and-building-business).",
+      text: "By Friday the company should feel slightly quieter and slightly sharper. If it feels louder-more initiatives, more channels-you slipped back into motion-as-progress. Return to the leakage map. For product-versus-business clarity when the team confuses shipping with surviving, see [the difference between building a product and a business](/blog/difference-building-product-and-building-business).",
     },
     {
       type: "h3",
@@ -232,7 +232,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When the path is clearer, instrumentation gets more interesting—funnels by ICP segment, time-to-value histograms, qualitative tags on lost demos. Until then, more dashboards mostly help people argue with charts instead of sentences. web.dev’s performance work is worth scheduling once the story is stable enough to deserve speed investment—[web.dev](https://web.dev/).",
+      text: "When the path is clearer, instrumentation gets more interesting-funnels by ICP segment, time-to-value histograms, qualitative tags on lost demos. Until then, more dashboards mostly help people argue with charts instead of sentences. web.dev’s performance work is worth scheduling once the story is stable enough to deserve speed investment-[web.dev](https://web.dev/).",
     },
     {
       type: "h2",
@@ -240,7 +240,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once the path is clearer, I install a light weekly rhythm: one customer-truth hour (calls or interviews), one conversion review (site + onboarding), one prioritisation pass against the Core job. Systems beat heroic sprints—see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns). Accessibility and performance stay on the list because they are part of conversion, not separate chores—[WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) and [web.dev vitals](https://web.dev/articles/vitals).",
+      text: "Once the path is clearer, I install a light weekly rhythm: one customer-truth hour (calls or interviews), one conversion review (site + onboarding), one prioritisation pass against the Core job. Systems beat heroic sprints-see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns). Accessibility and performance stay on the list because they are part of conversion, not separate chores-[WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) and [web.dev vitals](https://web.dev/articles/vitals).",
     },
     {
       type: "p",
@@ -248,7 +248,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "Campaigns come after the path makes sense. Otherwise you are buying traffic into confusion—and paying for the privilege.",
+      text: "Campaigns come after the path makes sense. Otherwise you are buying traffic into confusion-and paying for the privilege.",
     },
     {
       type: "faq",
@@ -261,17 +261,17 @@ const post: BlogPost = {
         {
           question: "How do I handle conflicting feedback from investors?",
           answer:
-            "Bring stage metrics and call quotes to the conversation. Opinions lose cleanly to leakage maps. Invite investors to name which stage they believe is broken—and what evidence would change their mind.",
+            "Bring stage metrics and call quotes to the conversation. Opinions lose cleanly to leakage maps. Invite investors to name which stage they believe is broken-and what evidence would change their mind.",
         },
         {
           question: "Is two weeks enough to change conversion?",
           answer:
-            "Enough to remove the loudest confusion and align the story. Not enough to finish product–market fit. Treat it as clearing the fog so learning can resume.",
+            "Enough to remove the loudest confusion and align the story. Not enough to finish product-market fit. Treat it as clearing the fog so learning can resume.",
         },
         {
           question: "What if we truly have a distribution problem?",
           answer:
-            "You will know after cold visitors understand the offer and new users reach value. If those are healthy and volume is not, then—and only then—scale channels.",
+            "You will know after cold visitors understand the offer and new users reach value. If those are healthy and volume is not, then-and only then-scale channels.",
         },
       ],
     },
@@ -295,7 +295,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If that sounds less exciting than a launch campaign, good. Exciting is easy to buy. Clear is harder—and rarer. Clear is what I would do first.",
+      text: "If that sounds less exciting than a launch campaign, good. Exciting is easy to buy. Clear is harder-and rarer. Clear is what I would do first.",
     },
     {
       type: "cta",

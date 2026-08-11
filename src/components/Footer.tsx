@@ -5,7 +5,8 @@ import {
   siteConfig,
   socialLinks,
 } from "@/lib/data";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { NauButton } from "@/components/NauButton";
+import { NauLogoMark } from "@/components/NauLogoMark";
 
 function NoiseOverlay() {
   return (
@@ -47,7 +48,7 @@ function FooterColumn({
 }) {
   return (
     <div className="min-w-0">
-      <p className="mb-5 text-[13px] font-medium tracking-[-0.04em] text-white/50">
+      <p className="mb-3 text-[12px] font-medium tracking-[0.08em] text-white/45 uppercase">
         {label}
       </p>
       {children}
@@ -55,123 +56,112 @@ function FooterColumn({
   );
 }
 
-function NauLogo() {
-  return (
-    <div className="text-left lg:text-right">
-      <p className="text-[clamp(3rem,8vw,5.5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
-        nau
-      </p>
-      <p className="mt-1 text-[clamp(1.75rem,5vw,3.25rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white">
-        studio
-      </p>
-      <p className="mt-3 text-[15px] font-medium tracking-[-0.04em] text-white/60">
-        by Stefani Dimitrova
-      </p>
-    </div>
-  );
-}
-
-const legalLinks = [
-  { href: "/products", label: "Products" },
+const legalNavLinks = [
   { href: "/legal/privacy", label: "Privacy Policy" },
   { href: "/legal/terms", label: "Terms of Service" },
 ];
 
+const pageLinks = footerNavLinks.slice(0, 4);
+const moreLinks = [...footerNavLinks.slice(4), ...legalNavLinks];
+
+const linkClass =
+  "text-[15px] font-semibold tracking-[-0.04em] text-white transition-opacity hover:opacity-70";
+
 export function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-[#0a0a0a] text-white">
+    <footer className="relative bg-[#0a0a0a] text-white">
       <NoiseOverlay />
 
-      <div className="relative px-6 pt-20 pb-16 md:px-9 md:pt-28 md:pb-20">
-        <div className="mx-auto w-full max-w-[1520px]">
-          <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-12 lg:items-start lg:gap-x-8 xl:gap-x-12">
-            <div className="lg:col-span-3">
-              <FooterColumn label="Contact">
-                <ul className="space-y-3">
-                  <li>
-                    <a
-                      href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
-                      className="text-[15px] font-medium tracking-[-0.04em] text-white transition-opacity hover:opacity-70"
-                    >
-                      {siteConfig.phone}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href={`mailto:${siteConfig.email}`}
-                      className="text-[15px] font-semibold tracking-[-0.04em] text-white underline underline-offset-4 transition-opacity hover:opacity-70"
-                    >
-                      {siteConfig.email}
-                    </a>
-                  </li>
-                </ul>
-              </FooterColumn>
+      <div className="relative px-6 py-12 md:px-9 md:py-14">
+        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-10">
+          {/* Brand + CTA */}
+          <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
+            <div className="min-w-0">
+              <Link href="/" className="group inline-block">
+                <NauLogoMark
+                  size="footer"
+                  className="text-white transition-opacity group-hover:opacity-85"
+                />
+                <p className="mt-1.5 text-[clamp(1rem,2vw,1.25rem)] leading-none font-medium tracking-[0.22em] text-white/85 uppercase">
+                  Studio
+                </p>
+              </Link>
+              <p className="mt-3 max-w-md text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/55">
+                Organic GTM and content for brands that sell movement, escape
+                and adventure.{" "}
+                <span className="text-white/40">by {siteConfig.founder}</span>
+              </p>
             </div>
 
-            <div className="lg:col-span-3">
-              <FooterColumn label="Navigation">
-                <ul className="space-y-3">
-                  {footerNavLinks.map((link) => (
-                    <li key={link.href}>
-                      <Link
-                        href={link.href}
-                        className="text-[15px] font-semibold tracking-[-0.04em] text-white transition-opacity hover:opacity-70"
-                      >
-                        {link.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </FooterColumn>
-            </div>
-
-            <div className="lg:col-span-3">
-              <FooterColumn label="Social">
-                <ul className="space-y-3">
-                  {socialLinks.map((link) => (
-                    <li key={link.href}>
-                      <a
-                        href={link.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-[15px] font-semibold tracking-[-0.04em] text-white transition-opacity hover:opacity-70"
-                      >
-                        {link.label}
-                        <ExternalArrowIcon />
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </FooterColumn>
-            </div>
-
-            <div className="sm:col-span-2 lg:col-span-3 lg:justify-self-end">
-              <NauLogo />
-            </div>
+            <NauButton href="/contact" variant="light" className="shrink-0">
+              Work with me
+            </NauButton>
           </div>
-        </div>
-      </div>
 
-      <div className="relative border-t border-white/10 px-6 py-5 md:px-9">
-        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <p className="text-[13px] font-medium tracking-[-0.04em] text-white/60">
-            © {siteConfig.year} nau studio. All rights reserved.
-          </p>
-
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
-            <ul className="flex flex-wrap items-center gap-x-6 gap-y-2">
-              {legalLinks.map((link) => (
-                <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-[13px] font-medium tracking-[-0.04em] text-white/60 transition-colors hover:text-white"
+          {/* Even 4-column link row */}
+          <div className="grid grid-cols-2 gap-x-6 gap-y-8 border-t border-white/10 pt-8 md:grid-cols-4 md:gap-8">
+            <FooterColumn label="Contact">
+              <ul className="space-y-2.5">
+                <li>
+                  <a
+                    href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
+                    className={linkClass}
                   >
-                    {link.label}
-                  </Link>
+                    {siteConfig.phone}
+                  </a>
                 </li>
-              ))}
-            </ul>
-            <ThemeToggle />
+                <li>
+                  <a
+                    href={`mailto:${siteConfig.email}`}
+                    className={`${linkClass} break-all underline underline-offset-4`}
+                  >
+                    {siteConfig.email}
+                  </a>
+                </li>
+              </ul>
+            </FooterColumn>
+
+            <FooterColumn label="Pages">
+              <ul className="space-y-2.5">
+                {pageLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className={linkClass}>
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </FooterColumn>
+
+            <FooterColumn label="More">
+              <ul className="space-y-2.5">
+                {moreLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className={linkClass}>
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </FooterColumn>
+
+            <FooterColumn label="Social">
+              <ul className="space-y-2.5">
+                {socialLinks.map((link) => (
+                  <li key={link.href}>
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`inline-flex items-center gap-2 ${linkClass}`}
+                    >
+                      {link.label}
+                      <ExternalArrowIcon />
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </FooterColumn>
           </div>
         </div>
       </div>

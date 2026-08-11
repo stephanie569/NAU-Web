@@ -33,7 +33,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Price and retention follow felt progress. Feature counts follow internal politics—do not confuse the two.",
+      text: "Price and retention follow felt progress. Feature counts follow internal politics-do not confuse the two.",
     },
     {
       type: "h2",
@@ -41,11 +41,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Clever lines win workshops. Sharp sentences win cold traffic. “Reimagine collaboration” can hang in a lobby. “Your design team can comment on the live file—no more exporting PDFs for feedback” can close a trial. I have rewritten more heroes than I have designed net-new illustrations, and the rewrites moved metrics more often. Clarity problems masquerade as marketing problems—[your product’s clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Clever lines win workshops. Sharp sentences win cold traffic. “Reimagine collaboration” can hang in a lobby. “Your design team can comment on the live file-no more exporting PDFs for feedback” can close a trial. I have rewritten more heroes than I have designed net-new illustrations, and the rewrites moved metrics more often. Clarity problems masquerade as marketing problems-[your product’s clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "p",
-      text: "Nielsen Norman Group’s work on content and comprehension keeps validating the obvious: people skim, decide fast, and punish vagueness—[NN/g](https://www.nngroup.com/). Google’s people-first guidance in [Google Search Central](https://developers.google.com/search/docs) is another external nudge toward usefulness over performance theatre.",
+      text: "Nielsen Norman Group’s work on content and comprehension keeps validating the obvious: people skim, decide fast, and punish vagueness-[NN/g](https://www.nngroup.com/). Google’s people-first guidance in [Google Search Central](https://developers.google.com/search/docs) is another external nudge toward usefulness over performance theatre.",
     },
     {
       type: "callout",
@@ -58,7 +58,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Move-fast culture without a Core job produces beautifully deployed confusion. I have seen teams ship weekly and still not learn, because each release answered a different question. Speed is a multiplier. Multipliers need a number worth multiplying. Y Combinator’s library returns to focus and user truth constantly—[Y Combinator Library](https://www.ycombinator.com/library). First Round’s operator stories show the same pattern under different logos: [First Round Review](https://review.firstround.com/).",
+      text: "Move-fast culture without a Core job produces beautifully deployed confusion. I have seen teams ship weekly and still not learn, because each release answered a different question. Speed is a multiplier. Multipliers need a number worth multiplying. Y Combinator’s library returns to focus and user truth constantly-[Y Combinator Library](https://www.ycombinator.com/library). First Round’s operator stories show the same pattern under different logos: [First Round Review](https://review.firstround.com/).",
     },
     {
       type: "p",
@@ -70,11 +70,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Treating the site as a brochure is how teams create a gap between promise and first session. The homepage sets expectations the onboarding must keep. When they diverge, trust drops before the product has a chance. Airbnb’s public pages and product experience historically worked hard to feel like one system—I explore related territory in [the Airbnb homepage teardown](/blog/product-teardown-airbnb-homepage).",
+      text: "Treating the site as a brochure is how teams create a gap between promise and first session. The homepage sets expectations the onboarding must keep. When they diverge, trust drops before the product has a chance. Airbnb’s public pages and product experience historically worked hard to feel like one system-I explore related territory in [the Airbnb homepage teardown](/blog/product-teardown-airbnb-homepage).",
     },
     {
       type: "p",
-      text: "Performance and accessibility are product quality, not “web nice-to-haves.” A slow, inaccessible path is a broken feature. Keep [web.dev vitals](https://web.dev/articles/vitals) and [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) in the same conversation as activation. Baymard’s research culture—evidence over opinion—is a healthy influence even outside e-commerce: [Baymard](https://baymard.com/blog).",
+      text: "Performance and accessibility are product quality, not “web nice-to-haves.” A slow, inaccessible path is a broken feature. Keep [web.dev vitals](https://web.dev/articles/vitals) and [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) in the same conversation as activation. Baymard’s research culture-evidence over opinion-is a healthy influence even outside e-commerce: [Baymard](https://baymard.com/blog).",
     },
     {
       type: "table",
@@ -99,19 +99,19 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Website, onboarding, and sales script are one product story told in three rooms—keep them aligned or pay in bounce and churn.",
+      text: "Website, onboarding, and sales script are one product story told in three rooms-keep them aligned or pay in bounce and churn.",
     },
     {
       type: "h2",
-      text: "Lesson 5: founders who listen carefully ship less—and win more",
+      text: "Lesson 5: founders who listen carefully ship less-and win more",
     },
     {
       type: "p",
-      text: "Listening is not collecting compliments. It is hunting for the cost of the status quo in the customer’s own words. The best founders I have worked with schedule contact with reality the way others schedule stand-ups. They kill features cheerfully. They disappoint the wrong segment early. They ask what would make a buyer act this month—not someday.",
+      text: "Listening is not collecting compliments. It is hunting for the cost of the status quo in the customer’s own words. The best founders I have worked with schedule contact with reality the way others schedule stand-ups. They kill features cheerfully. They disappoint the wrong segment early. They ask what would make a buyer act this month-not someday.",
     },
     {
       type: "p",
-      text: "Harvard Business Review’s enduring material on discovery and strategy-as-choice still beats most Twitter threads—[HBR](https://hbr.org/). When listening is weak, teams invent requirements. When listening is strong, roadmaps shrink and conversion paths get kinder. That is also how I filter ideas worth building: [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+      text: "Harvard Business Review’s enduring material on discovery and strategy-as-choice still beats most Twitter threads-[HBR](https://hbr.org/). When listening is weak, teams invent requirements. When listening is strong, roadmaps shrink and conversion paths get kinder. That is also how I filter ideas worth building: [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
     },
     {
       type: "h2",
@@ -128,13 +128,13 @@ const post: BlogPost = {
         "Weekly: one conversion review of the primary path on mobile.",
         "Biweekly: kill or clarify one orphan message, feature, or audience.",
         "Monthly: rewrite the offer sentence until a stranger can repeat it.",
-        "Quarterly: check whether Core progress got faster for the ICP—not whether the roadmap got longer.",
+        "Quarterly: check whether Core progress got faster for the ICP-not whether the roadmap got longer.",
       ],
     },
     {
       type: "callout",
       title: "Spikes still matter",
-      text: "Launches, PR, and bursts of distribution are useful after the path converts. Before that, they are a tax on learning—louder data that still confuses you.",
+      text: "Launches, PR, and bursts of distribution are useful after the path converts. Before that, they are a tax on learning-louder data that still confuses you.",
     },
     {
       type: "h2",
@@ -142,7 +142,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Early in my career I treated testimonials as marketing garnish. Now I treat proof as part of the experience architecture. Claims without nearby evidence create doubt; doubt creates demos that should have been self-serve wins—or silent bounces. Place metrics, named customers, and concrete outcomes beside the bravest sentences. Update proof when the product changes so the site does not sell a museum piece.",
+      text: "Early in my career I treated testimonials as marketing garnish. Now I treat proof as part of the experience architecture. Claims without nearby evidence create doubt; doubt creates demos that should have been self-serve wins-or silent bounces. Place metrics, named customers, and concrete outcomes beside the bravest sentences. Update proof when the product changes so the site does not sell a museum piece.",
     },
     {
       type: "p",
@@ -154,7 +154,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The decade taught me that taste is often the courage to disappoint a loud minority. Roadmaps fill with polite obligations: a prospect’s wishlist, a competitor’s checkbox, a board member’s pet theory. Without a Core job written in ink, every request sounds reasonable. With it, most requests become sequenced—or declined. Apple’s public restraint is easy to mythologise; the transferable habit is fewer simultaneous promises.",
+      text: "The decade taught me that taste is often the courage to disappoint a loud minority. Roadmaps fill with polite obligations: a prospect’s wishlist, a competitor’s checkbox, a board member’s pet theory. Without a Core job written in ink, every request sounds reasonable. With it, most requests become sequenced-or declined. Apple’s public restraint is easy to mythologise; the transferable habit is fewer simultaneous promises.",
     },
     {
       type: "p",
@@ -166,11 +166,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I once helped ship a feature set because a single enterprise prospect “needed it to sign.” They did not sign. The features remained, confusing everyone else. I once approved a homepage that won internal applause and lost external comprehension. I once treated a traffic spike as product–market fit because hope is a powerful analyst. Each mistake taught the same correction: return to the customer’s cost, the offer sentence, and the first session.",
+      text: "I once helped ship a feature set because a single enterprise prospect “needed it to sign.” They did not sign. The features remained, confusing everyone else. I once approved a homepage that won internal applause and lost external comprehension. I once treated a traffic spike as product-market fit because hope is a powerful analyst. Each mistake taught the same correction: return to the customer’s cost, the offer sentence, and the first session.",
     },
     {
       type: "p",
-      text: "The corrective habits are dull on purpose. Dull scales. Drama does not. When a project feels exciting for the wrong reasons—new category narratives, sudden pivots without evidence, redesigns as conflict avoidance—I slow the room down with questions from [questions I ask before taking any client](/blog/questions-i-ask-before-taking-any-client). Excitement that cannot survive those questions usually cannot survive the market either.",
+      text: "The corrective habits are dull on purpose. Dull scales. Drama does not. When a project feels exciting for the wrong reasons-new category narratives, sudden pivots without evidence, redesigns as conflict avoidance-I slow the room down with questions from [questions I ask before taking any client](/blog/questions-i-ask-before-taking-any-client). Excitement that cannot survive those questions usually cannot survive the market either.",
     },
     {
       type: "p",
@@ -182,11 +182,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Theory is cheap until it changes the calendar. On a normal Tuesday I expect to see: a customer-truth block that is not optional, a conversion path reviewed on mobile, a roadmap argument that cites the Core job, and at least one explicit no. If the Tuesday is only stand-ups, Slack archaeology, and polishing a launch that lacks a sentence, the lessons have not landed—they are posters.",
+      text: "Theory is cheap until it changes the calendar. On a normal Tuesday I expect to see: a customer-truth block that is not optional, a conversion path reviewed on mobile, a roadmap argument that cites the Core job, and at least one explicit no. If the Tuesday is only stand-ups, Slack archaeology, and polishing a launch that lacks a sentence, the lessons have not landed-they are posters.",
     },
     {
       type: "p",
-      text: "I also expect the website and the product to be discussed in the same meeting occasionally. Separate ownership is fine; separate stories are not. When marketing ships a promise product cannot keep this month, someone has to catch it before customers do. That catch is strategy, not nitpicking. web.dev and accessibility standards keep that joint conversation honest about quality—[web.dev](https://web.dev/), [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).",
+      text: "I also expect the website and the product to be discussed in the same meeting occasionally. Separate ownership is fine; separate stories are not. When marketing ships a promise product cannot keep this month, someone has to catch it before customers do. That catch is strategy, not nitpicking. web.dev and accessibility standards keep that joint conversation honest about quality-[web.dev](https://web.dev/), [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).",
     },
     {
       type: "h2",
@@ -194,7 +194,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I optimise for systems that create compounding understanding: positioning, experience design, and proof. Campaigns come after. That is the spine of my work at nau. Cross-industry work taught me the same constraints wear different clothes—[what I learned across AI, hospitality, and consumer](/blog/learned-working-across-ai-hospitality-consumer-products). The questions I ask before taking a client exist to protect this focus: [questions before any client](/blog/questions-i-ask-before-taking-any-client).",
+      text: "I optimise for systems that create compounding understanding: positioning, experience design, and proof. Campaigns come after. That is the spine of my work at nau. Cross-industry work taught me the same constraints wear different clothes-[what I learned across AI, hospitality, and consumer](/blog/learned-working-across-ai-hospitality-consumer-products). The questions I ask before taking a client exist to protect this focus: [questions before any client](/blog/questions-i-ask-before-taking-any-client).",
     },
     {
       type: "p",
@@ -206,7 +206,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A hospitality startup once asked for “a bolder brand and more content.” Traffic was fine. Bookings were not. Calls revealed hosts feared damage and unclear payouts—not a lack of blog posts. We rewrote the offer around trust and payout clarity, rebuilt the first-run checklist to deliver one confirmed booking path, and cut three feature teasers that promised a future platform. Content came later, aimed at the objections we actually heard. Bookings moved. The brand got bolder after it had something true to say. The lesson was not “content is useless.” It was “sequence truth before volume.”",
+      text: "A hospitality startup once asked for “a bolder brand and more content.” Traffic was fine. Bookings were not. Calls revealed hosts feared damage and unclear payouts-not a lack of blog posts. We rewrote the offer around trust and payout clarity, rebuilt the first-run checklist to deliver one confirmed booking path, and cut three feature teasers that promised a future platform. Content came later, aimed at the objections we actually heard. Bookings moved. The brand got bolder after it had something true to say. The lesson was not “content is useless.” It was “sequence truth before volume.”",
     },
     {
       type: "quote",
@@ -272,7 +272,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I still like beautiful work. I still like ambitious roadmaps. I just refuse to let either pretend they are strategy. Strategy is the set of choices that make progress obvious to the right customer—and make everything else wait its turn. Ten years in, that is still the work.",
+      text: "I still like beautiful work. I still like ambitious roadmaps. I just refuse to let either pretend they are strategy. Strategy is the set of choices that make progress obvious to the right customer-and make everything else wait its turn. Ten years in, that is still the work.",
     },
     {
       type: "cta",

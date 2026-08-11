@@ -4,20 +4,20 @@ const post: BlogPost = {
   slug: "founders-actually-need-isnt-more-marketing",
   title: "Product brands don't need more marketing. They need this.",
   excerpt:
-    "When the fix isn't another campaign—it's research, positioning and a story the product can keep.",
+    "When the fix isn't another campaign-it's research, positioning and a story the product can keep.",
   date: "July 7, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-19-not-marketing.png",
   metaDescription:
-    "What product brands actually need isn't more marketing—it's clarity, positioning and go-to-market that matches the product.",
+    "What product brands actually need isn't more marketing-it's clarity, positioning and go-to-market that matches the product.",
   content: [
     {
       type: "p",
-      text: "“We need more marketing” is often code for “we need more results.” The missing ingredient is rarely volume. It is coherence. More volume applied to incoherence is just a louder version of the same problem—like turning up the music to fix a flat tyre. Energetic. Irrelevant.",
+      text: "“We need more marketing” is often code for “we need more results.” The missing ingredient is rarely volume. It is coherence. More volume applied to incoherence is just a louder version of the same problem-like turning up the music to fix a flat tyre. Energetic. Irrelevant.",
     },
     {
       type: "p",
-      text: "I hear the request weekly: more content, more ads, more social, more events. Sometimes those are right. Often they are a bypass around harder work—offer clarity, conversion design, activation, proof, and learning. This article is a diagnostic for which is which. Pair it with [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "I hear the request weekly: more content, more ads, more social, more events. Sometimes those are right. Often they are a bypass around harder work-offer clarity, conversion design, activation, proof, and learning. This article is a diagnostic for which is which. Pair it with [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "h2",
@@ -29,12 +29,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "[Y Combinator’s Library](https://www.ycombinator.com/library) keeps nudging founders back to talking to users and sharpening the wedge. [HBR](https://hbr.org/) keeps returning to jobs-to-be-done and value propositions. Neither tradition begins with “have you tried posting more?”—except as satire.",
+      text: "[Y Combinator’s Library](https://www.ycombinator.com/library) keeps nudging founders back to talking to users and sharpening the wedge. [HBR](https://hbr.org/) keeps returning to jobs-to-be-done and value propositions. Neither tradition begins with “have you tried posting more?”-except as satire.",
     },
     {
       type: "callout",
       title: "A better first question",
-      text: "If we doubled traffic tomorrow, would the experience convert and retain—or would we simply pay more for the same drop-offs? Answer that before you buy volume.",
+      text: "If we doubled traffic tomorrow, would the experience convert and retain-or would we simply pay more for the same drop-offs? Answer that before you buy volume.",
     },
     {
       type: "takeaway",
@@ -95,7 +95,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Linear did not win by being for every team with tasks. Notion did not start by being everything to everyone in practice—even when the product was flexible. Stripe’s early sharpness is legendary for a reason. Tight offers create repeatable stories. Tight stories make channels work.",
+      text: "Linear did not win by being for every team with tasks. Notion did not start by being everything to everyone in practice-even when the product was flexible. Stripe’s early sharpness is legendary for a reason. Tight offers create repeatable stories. Tight stories make channels work.",
     },
     {
       type: "p",
@@ -120,7 +120,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a teardown mindset, read [what I’d change about Airbnb’s homepage](/blog/product-teardown-airbnb-homepage)—not to copy a marketplace giant, but to see how job ownership in the first viewport works when it is done well.",
+      text: "If you want a teardown mindset, read [what I’d change about Airbnb’s homepage](/blog/product-teardown-airbnb-homepage)-not to copy a marketplace giant, but to see how job ownership in the first viewport works when it is done well.",
     },
     {
       type: "takeaway",
@@ -132,7 +132,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Signup spikes with flat retention are not a top-of-funnel win. They are a product experience problem with a marketing costume. First-session design—the path to a felt outcome—deserves more budget than another channel experiment.",
+      text: "Signup spikes with flat retention are not a top-of-funnel win. They are a product experience problem with a marketing costume. First-session design-the path to a felt outcome-deserves more budget than another channel experiment.",
     },
     {
       type: "ul",
@@ -153,11 +153,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders ask for more leads when the real leak is trust. Sales cycles stretch because claims are unverified. Marketing then generates more conversations that die the same death—an expensive way to stay busy.",
+      text: "Founders ask for more leads when the real leak is trust. Sales cycles stretch because claims are unverified. Marketing then generates more conversations that die the same death-an expensive way to stay busy.",
     },
     {
       type: "p",
-      text: "Build a proof system: outcome stories, process demystification, relevant logos with context, risk reducers near pricing. Place proof beside objections, not in a graveyard footer. Beautiful sites without proof still fail—see [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "Build a proof system: outcome stories, process demystification, relevant logos with context, risk reducers near pricing. Place proof beside objections, not in a graveyard footer. Beautiful sites without proof still fail-see [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "h2",
@@ -178,7 +178,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "If your calendar is full of campaigns and empty of decisions, you are performing growth—not practising it.",
+      text: "If your calendar is full of campaigns and empty of decisions, you are performing growth-not practising it.",
     },
     {
       type: "h2",
@@ -207,12 +207,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If steps 1–3 fail, channel choice is rearranging deck chairs. If they pass, marketing becomes a craft problem worth funding—creative, media, partnerships, SEO with proper [Search Central](https://developers.google.com/search/docs) foundations, performance hygiene via [Core Web Vitals](https://web.dev/articles/vitals).",
+      text: "If steps 1-3 fail, channel choice is rearranging deck chairs. If they pass, marketing becomes a craft problem worth funding-creative, media, partnerships, SEO with proper [Search Central](https://developers.google.com/search/docs) foundations, performance hygiene via [Core Web Vitals](https://web.dev/articles/vitals).",
     },
     {
       type: "callout",
       title: "Workshop prompt for your next leadership meeting",
-      text: "Write the sentence: “Our constraint this month is ___ because ___.” Force one constraint. If the room cannot agree, you do not need more marketing—you need alignment. Then assign a single owner and a two-week ship list against that constraint only.",
+      text: "Write the sentence: “Our constraint this month is ___ because ___.” Force one constraint. If the room cannot agree, you do not need more marketing-you need alignment. Then assign a single owner and a two-week ship list against that constraint only.",
     },
     {
       type: "h2",
@@ -246,11 +246,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Language shapes budgets. Soften the myth that marketing is the only grown-up lever. Product strategy, conversion design, and activation are growth work. [Best marketing feels like product design](/blog/best-marketing-feels-like-product-design) because customers experience one company—not your org chart.",
+      text: "Language shapes budgets. Soften the myth that marketing is the only grown-up lever. Product strategy, conversion design, and activation are growth work. [Best marketing feels like product design](/blog/best-marketing-feels-like-product-design) because customers experience one company-not your org chart.",
     },
     {
       type: "p",
-      text: "Accessibility and clarity are part of that same growth work. [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) is not a compliance side quest if excluded users never become customers. Inclusivity is commercial, not merely moral—though the moral case would be enough.",
+      text: "Accessibility and clarity are part of that same growth work. [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) is not a compliance side quest if excluded users never become customers. Inclusivity is commercial, not merely moral-though the moral case would be enough.",
     },
     {
       type: "h2",
@@ -267,7 +267,7 @@ const post: BlogPost = {
         "Activation and early retention are healthy enough to learn from.",
         "Proof exists and sales can reuse it.",
         "You have a measurement plan and an owner for learning.",
-        "The constraint truly is reach—not comprehension.",
+        "The constraint truly is reach-not comprehension.",
       ],
     },
     {
@@ -284,11 +284,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "We pause the content treadmill for two weeks—yes, including the sacred posting calendar. Tighten ICP to product-led B2B teams drowning in tool dashboards. Rewrite homepage around one job. Ship a sample-data activation path. Add two specific outcome stories. Restart content only on topics that support that wedge.",
+      text: "We pause the content treadmill for two weeks-yes, including the sacred posting calendar. Tighten ICP to product-led B2B teams drowning in tool dashboards. Rewrite homepage around one job. Ship a sample-data activation path. Add two specific outcome stories. Restart content only on topics that support that wedge.",
     },
     {
       type: "p",
-      text: "Content starts working because it finally amplifies something understandable. That is not magic. It is sequence—the same sequence behind [before you spend £10k on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Content starts working because it finally amplifies something understandable. That is not magic. It is sequence-the same sequence behind [before you spend £10k on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -296,8 +296,8 @@ const post: BlogPost = {
     },
     {
       type: "callout",
-      title: "Score yourself 1–5",
-      text: "ICP sharpness. Homepage clarity for a stranger. Time-to-first-value. Proof quality beside objections. Weekly shipping cadence. If any score is ≤2, fix that before scaling channels. If all are ≥4, you may genuinely need more marketing—and you will get more from it.",
+      title: "Score yourself 1-5",
+      text: "ICP sharpness. Homepage clarity for a stranger. Time-to-first-value. Proof quality beside objections. Weekly shipping cadence. If any score is ≤2, fix that before scaling channels. If all are ≥4, you may genuinely need more marketing-and you will get more from it.",
     },
     {
       type: "table",
@@ -336,16 +336,16 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Days 1–2: Rewrite ICP/job/outcome; list who is out.",
-        "Days 3–5: Rebuild the first viewport and primary CTA path.",
-        "Days 6–8: Cut onboarding steps; define and instrument activation.",
-        "Days 9–11: Place proof beside the top three objections.",
-        "Days 12–14: Run five user or prospect reviews; ship fixes; only then plan a thin channel test.",
+        "Days 1-2: Rewrite ICP/job/outcome; list who is out.",
+        "Days 3-5: Rebuild the first viewport and primary CTA path.",
+        "Days 6-8: Cut onboarding steps; define and instrument activation.",
+        "Days 9-11: Place proof beside the top three objections.",
+        "Days 12-14: Run five user or prospect reviews; ship fixes; only then plan a thin channel test.",
       ],
     },
     {
       type: "p",
-      text: "Teams that skip straight to “always-on content” often discover, three months later, that they built a publishing habit around an unclear wedge. Habits are sticky. Make sure the first habit you install is understanding—not output volume. NN/g’s guidance on [usability testing](https://www.nngroup.com/) is enough methodology for those five reviews; you do not need a research department to learn you are confusing people.",
+      text: "Teams that skip straight to “always-on content” often discover, three months later, that they built a publishing habit around an unclear wedge. Habits are sticky. Make sure the first habit you install is understanding-not output volume. NN/g’s guidance on [usability testing](https://www.nngroup.com/) is enough methodology for those five reviews; you do not need a research department to learn you are confusing people.",
     },
     {
       type: "takeaway",
@@ -357,7 +357,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once the story converts, marketing stops being a plea and becomes a portfolio: search with durable pages, measured paid tests, partnerships, and product-led loops that match how buyers already decide. You will still miss sometimes. You will miss cheaper—and learn faster—because the underlying exchange is clear.",
+      text: "Once the story converts, marketing stops being a plea and becomes a portfolio: search with durable pages, measured paid tests, partnerships, and product-led loops that match how buyers already decide. You will still miss sometimes. You will miss cheaper-and learn faster-because the underlying exchange is clear.",
     },
     {
       type: "p",
@@ -369,12 +369,12 @@ const post: BlogPost = {
         {
           question: "Are you saying marketing doesn’t matter?",
           answer:
-            "No. Marketing matters enormously once there is something coherent to amplify. The argument is about sequence and diagnosis—not about monastic silence.",
+            "No. Marketing matters enormously once there is something coherent to amplify. The argument is about sequence and diagnosis-not about monastic silence.",
         },
         {
           question: "What if investors are pushing for growth marketing now?",
           answer:
-            "Show the constraint analysis. Propose a parallel plan: two weeks of clarity/activation fixes plus a thin, measured channel test. Serious investors prefer learning over theatre—eventually.",
+            "Show the constraint analysis. Propose a parallel plan: two weeks of clarity/activation fixes plus a thin, measured channel test. Serious investors prefer learning over theatre-eventually.",
         },
         {
           question: "How do I convince a co-founder who loves campaigns?",
@@ -389,7 +389,7 @@ const post: BlogPost = {
         {
           question: "Does this apply to sales-led companies too?",
           answer:
-            "Yes—sometimes more so. Sales-led teams can hide website confusion behind charismatic calls. That works until you hire a second rep who cannot finish the pitch the site abandoned.",
+            "Yes-sometimes more so. Sales-led teams can hide website confusion behind charismatic calls. That works until you hire a second rep who cannot finish the pitch the site abandoned.",
         },
       ],
     },
@@ -399,11 +399,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Swap “we need more marketing” for “we need more customers who understand, trust, and get value quickly.” That sentence points to strategy, experience, proof, and cadence. Do those well, and marketing suddenly looks more effective—because it is amplifying something understandable.",
+      text: "Swap “we need more marketing” for “we need more customers who understand, trust, and get value quickly.” That sentence points to strategy, experience, proof, and cadence. Do those well, and marketing suddenly looks more effective-because it is amplifying something understandable.",
     },
     {
       type: "p",
-      text: "For the commercial framing behind this, continue with [the difference between building a product and building a business](/blog/difference-building-product-and-building-business). Products ship features. Businesses create repeatable value exchange—and marketing only scales what already exchanges cleanly.",
+      text: "For the commercial framing behind this, continue with [the difference between building a product and building a business](/blog/difference-building-product-and-building-business). Products ship features. Businesses create repeatable value exchange-and marketing only scales what already exchanges cleanly.",
     },
     {
       type: "cta",

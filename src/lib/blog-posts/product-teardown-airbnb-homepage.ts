@@ -9,11 +9,11 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-21-airbnb.png",
   metaDescription:
-    "Product teardown of Airbnb’s homepage—clarity, trust, and conversion lessons startups can apply without copying marketplace complexity.",
+    "Product teardown of Airbnb’s homepage-clarity, trust, and conversion lessons startups can apply without copying marketplace complexity.",
   content: [
     {
       type: "p",
-      text: "Airbnb’s homepage is a masterclass in category ownership—and still has tradeoffs worth studying. Teardowns are useful when they extract principles startups can use, not when they dunk on brands that have already earned their place. Airbnb can afford complexity most early products should not imitate. That gap is the lesson.",
+      text: "Airbnb’s homepage is a masterclass in category ownership-and still has tradeoffs worth studying. Teardowns are useful when they extract principles startups can use, not when they dunk on brands that have already earned their place. Airbnb can afford complexity most early products should not imitate. That gap is the lesson.",
     },
     {
       type: "p",
@@ -56,7 +56,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The dominant job is unmistakable: find a place to stay. Search is not a buried CTA under a manifesto. For a cold traveller, that clarity is enormous. Many startups open with category poetry—“reimagining the future of X”—and hide the job. Airbnb leads with the verb.",
+      text: "The dominant job is unmistakable: find a place to stay. Search is not a buried CTA under a manifesto. For a cold traveller, that clarity is enormous. Many startups open with category poetry-“reimagining the future of X”-and hide the job. Airbnb leads with the verb.",
     },
     {
       type: "h3",
@@ -64,7 +64,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Imagery does real commercial work. It reduces imaginative risk: what might this trip feel like? Hospitality lives on emotional certainty—something I cover in [cross-industry lessons](/blog/learned-working-across-ai-hospitality-consumer-products). Airbnb’s visual density is not random decoration; it is proof of inventory and atmosphere.",
+      text: "Imagery does real commercial work. It reduces imaginative risk: what might this trip feel like? Hospitality lives on emotional certainty-something I cover in [cross-industry lessons](/blog/learned-working-across-ai-hospitality-consumer-products). Airbnb’s visual density is not random decoration; it is proof of inventory and atmosphere.",
     },
     {
       type: "h3",
@@ -72,7 +72,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Making search the hero action matches intent. Compare that to SaaS sites with five competing CTAs before the visitor knows the offer. One composition, one job, one next step—Airbnb mostly honours that in the first viewport even as secondary modules proliferate below.",
+      text: "Making search the hero action matches intent. Compare that to SaaS sites with five competing CTAs before the visitor knows the offer. One composition, one job, one next step-Airbnb mostly honours that in the first viewport even as secondary modules proliferate below.",
     },
     {
       type: "h3",
@@ -80,7 +80,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The page assumes—and reinforces—that this is where you start trip planning. That is brand gravity earned over years. Startups sometimes copy the gravity (complex nav, endless modules) without earning the trust. That costume tears quickly.",
+      text: "The page assumes-and reinforces-that this is where you start trip planning. That is brand gravity earned over years. Startups sometimes copy the gravity (complex nav, endless modules) without earning the trust. That costume tears quickly.",
     },
     {
       type: "ul",
@@ -109,11 +109,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Return users know the drill. New segments—first-time bookers, travellers new to the category, people comparing against hotels—may need a clearer “why Airbnb for this trip” moment without slowing searchers who already know. Progressive disclosure could help: a concise value line near search for cold traffic, dismissible for returners.",
+      text: "Return users know the drill. New segments-first-time bookers, travellers new to the category, people comparing against hotels-may need a clearer “why Airbnb for this trip” moment without slowing searchers who already know. Progressive disclosure could help: a concise value line near search for cold traffic, dismissible for returners.",
     },
     {
       type: "p",
-      text: "Startups should note the principle: do not assume category literacy. Airbnb has literacy. You probably do not—yet.",
+      text: "Startups should note the principle: do not assume category literacy. Airbnb has literacy. You probably do not-yet.",
     },
     {
       type: "h3",
@@ -121,7 +121,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Below the fold, modules multiply: inspirations, categories, host prompts, experiences, seasonal themes. For engaged return users, this is discovery. For overwhelmed cold visitors, it can dilute the primary job. I would test calmer information architecture for first sessions—fewer competing invitations until intent is clearer.",
+      text: "Below the fold, modules multiply: inspirations, categories, host prompts, experiences, seasonal themes. For engaged return users, this is discovery. For overwhelmed cold visitors, it can dilute the primary job. I would test calmer information architecture for first sessions-fewer competing invitations until intent is clearer.",
     },
     {
       type: "p",
@@ -133,7 +133,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Trust is earned across the funnel—profiles, reviews, policies, support—but the homepage could experiment with first-time-specific reassurance near the start of search (guest protection framing, what happens if something goes wrong) without cluttering power users. Baymard’s [trust cue research](https://baymard.com/blog) suggests timely reassurance beats generic badges.",
+      text: "Trust is earned across the funnel-profiles, reviews, policies, support-but the homepage could experiment with first-time-specific reassurance near the start of search (guest protection framing, what happens if something goes wrong) without cluttering power users. Baymard’s [trust cue research](https://baymard.com/blog) suggests timely reassurance beats generic badges.",
     },
     {
       type: "ol",
@@ -145,7 +145,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "The lesson for startups: own the job in the first viewport, then remove every decision that does not help the visitor take the next step. Airbnb can afford complexity. Most early products cannot—and should not try to look as if they can.",
+      text: "The lesson for startups: own the job in the first viewport, then remove every decision that does not help the visitor take the next step. Airbnb can afford complexity. Most early products cannot-and should not try to look as if they can.",
     },
     {
       type: "h2",
@@ -179,7 +179,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Principle A — job before identity",
+      text: "Principle A - job before identity",
     },
     {
       type: "p",
@@ -187,15 +187,15 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Principle B — action is part of the message",
+      text: "Principle B - action is part of the message",
     },
     {
       type: "p",
-      text: "Search-as-hero teaches that the interface can be the pitch. SaaS equivalent: interactive demos, calculators, sample workspaces—when they reduce belief gaps. Do not add interactivity as decoration.",
+      text: "Search-as-hero teaches that the interface can be the pitch. SaaS equivalent: interactive demos, calculators, sample workspaces-when they reduce belief gaps. Do not add interactivity as decoration.",
     },
     {
       type: "h3",
-      text: "Principle C — proof is experiential",
+      text: "Principle C - proof is experiential",
     },
     {
       type: "p",
@@ -203,7 +203,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Principle D — complexity is a privilege",
+      text: "Principle D - complexity is a privilege",
     },
     {
       type: "p",
@@ -211,7 +211,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Steal job clarity, action primacy, experiential proof, and restraint—not the right to be complicated.",
+      text: "Steal job clarity, action primacy, experiential proof, and restraint-not the right to be complicated.",
     },
     {
       type: "h2",
@@ -220,11 +220,11 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this (60 minutes)",
-      text: "Open your homepage beside Airbnb’s. Without copying layout, score yourself 1–5 on: job clarity, primary action clarity, experiential proof, trust placement, module restraint. Rewrite only the first viewport until a stranger can state your job in one sentence. Then delete one secondary module you kept “because competitors have it.”",
+      text: "Open your homepage beside Airbnb’s. Without copying layout, score yourself 1-5 on: job clarity, primary action clarity, experiential proof, trust placement, module restraint. Rewrite only the first viewport until a stranger can state your job in one sentence. Then delete one secondary module you kept “because competitors have it.”",
     },
     {
       type: "p",
-      text: "Fictional example: “Lodgekit,” software for small rental managers. Before: “All-in-one hospitality OS.” After applying Airbnb’s job lesson: “Keep guest preferences and bookings aligned across your rentals—built for managers of 5–40 listings.” Primary CTA: start with your property list. Visual proof: a before/after of a messy inbox versus a clear arrival view. They did not need Airbnb’s category carousels. They needed Airbnb’s ruthlessness about the job.",
+      text: "Fictional example: “Lodgekit,” software for small rental managers. Before: “All-in-one hospitality OS.” After applying Airbnb’s job lesson: “Keep guest preferences and bookings aligned across your rentals-built for managers of 5-40 listings.” Primary CTA: start with your property list. Visual proof: a before/after of a messy inbox versus a clear arrival view. They did not need Airbnb’s category carousels. They needed Airbnb’s ruthlessness about the job.",
     },
     {
       type: "h2",
@@ -237,7 +237,7 @@ const post: BlogPost = {
         "Nav complexity that assumes habitual users.",
         "Visual density that slows [Core Web Vitals](https://web.dev/articles/vitals) on your thinner stack.",
         "Assuming trust is already earned.",
-        "Treating accessibility as optional—follow [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) regardless of brand scale.",
+        "Treating accessibility as optional-follow [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) regardless of brand scale.",
       ],
     },
     {
@@ -250,7 +250,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When I teardown any homepage—including Airbnb’s—I walk it in layers. First viewport: job, action, trust skim. Second: how it works / proof depth. Third: secondary intents. Fourth: footer utility. Most startup sites fail layer one and then decorate layers three and four like a consolation prize.",
+      text: "When I teardown any homepage-including Airbnb’s-I walk it in layers. First viewport: job, action, trust skim. Second: how it works / proof depth. Third: secondary intents. Fourth: footer utility. Most startup sites fail layer one and then decorate layers three and four like a consolation prize.",
     },
     {
       type: "ul",
@@ -263,7 +263,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Airbnb is strong at Layer 1 for its core job. Layer 3 is where scale-driven discovery lives—and where cold visitors can feel choice fatigue. Your teardown notes should separate “works for power users” from “works for first sessions.” Mixing those audiences is how teams justify clutter.",
+      text: "Airbnb is strong at Layer 1 for its core job. Layer 3 is where scale-driven discovery lives-and where cold visitors can feel choice fatigue. Your teardown notes should separate “works for power users” from “works for first sessions.” Mixing those audiences is how teams justify clutter.",
     },
     {
       type: "h3",
@@ -275,7 +275,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Accessibility belongs in the same bucket. Keyboard flows, contrast, labels, and alternatives are part of whether search and booking are truly usable—see [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/). Inclusive design is not a tax on beauty; it is how more people complete the job you claim to own.",
+      text: "Accessibility belongs in the same bucket. Keyboard flows, contrast, labels, and alternatives are part of whether search and booking are truly usable-see [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/). Inclusive design is not a tax on beauty; it is how more people complete the job you claim to own.",
     },
     {
       type: "callout",
@@ -319,7 +319,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "These contrasts echo patterns from [auditing fifty startup websites](/blog/audited-50-startup-websites-10-mistakes). Airbnb is not perfect; it is instructive. Instruction is the point of a teardown—especially when ego wants to declare winners and losers.",
+      text: "These contrasts echo patterns from [auditing fifty startup websites](/blog/audited-50-startup-websites-10-mistakes). Airbnb is not perfect; it is instructive. Instruction is the point of a teardown-especially when ego wants to declare winners and losers.",
     },
     {
       type: "p",
@@ -343,7 +343,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Earn adjacent jobs after the core exchange is healthy. That is [product versus business](/blog/difference-building-product-and-building-business) again: capability expansion without exchange clarity creates a museum of half-used modules. If you add a second job, give it a clear entry point—and protect the first viewport for the job that pays the bills today.",
+      text: "Earn adjacent jobs after the core exchange is healthy. That is [product versus business](/blog/difference-building-product-and-building-business) again: capability expansion without exchange clarity creates a museum of half-used modules. If you add a second job, give it a clear entry point-and protect the first viewport for the job that pays the bills today.",
     },
     {
       type: "takeaway",
@@ -355,7 +355,7 @@ const post: BlogPost = {
         {
           question: "Isn’t it arrogant to suggest changes to Airbnb?",
           answer:
-            "It would be—if the goal were to “fix” them. The goal is to learn publicly from a strong reference and translate tradeoffs for earlier-stage products. Strong products still have experiments worth running.",
+            "It would be-if the goal were to “fix” them. The goal is to learn publicly from a strong reference and translate tradeoffs for earlier-stage products. Strong products still have experiments worth running.",
         },
         {
           question: "Should my SaaS homepage look like a marketplace search UI?",
@@ -365,7 +365,7 @@ const post: BlogPost = {
         {
           question: "How often do homepage patterns from big brands mislead startups?",
           answer:
-            "Constantly. Scale hides sins. Habit hides confusion. Copy structure after you copy the job definition—and after you have evidence your audience shares that literacy.",
+            "Constantly. Scale hides sins. Habit hides confusion. Copy structure after you copy the job definition-and after you have evidence your audience shares that literacy.",
         },
         {
           question: "What’s the single highest-leverage takeaway?",
@@ -385,7 +385,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Airbnb’s homepage works because it respects the job, leads with action, and proves the experience visually—while carrying complexity that scale can support. What I would tighten is mostly about first-time clarity and choice load. What you should take home is simpler: own the job early, remove decisions that do not help, and do not cosplay a marketplace giant before you have marketplace gravity.",
+      text: "Airbnb’s homepage works because it respects the job, leads with action, and proves the experience visually-while carrying complexity that scale can support. What I would tighten is mostly about first-time clarity and choice load. What you should take home is simpler: own the job early, remove decisions that do not help, and do not cosplay a marketplace giant before you have marketplace gravity.",
     },
     {
       type: "p",

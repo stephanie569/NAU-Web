@@ -5,54 +5,54 @@ const post: BlogPost = {
   title:
     "Great products still fail before PMF. Here's why.",
   excerpt:
-    "Strong products still fail before product–market fit when the market cannot explain the value. The early warning signs, a practical proof checklist, and what to do before you scale.",
+    "Strong products still fail before product-market fit when the market cannot explain the value. The early warning signs, a practical proof checklist, and what to do before you scale.",
   date: "July 22, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-31-great-products-fail.png",
   metaDescription:
-    "Why strong products still fail before product–market fit, the early warning signs founders miss, and a practical way to prove demand before you scale.",
+    "Why strong products still fail before product-market fit, the early warning signs founders miss, and a practical way to prove demand before you scale.",
   content: [
     {
       type: "p",
-      text: "Product–market fit is often treated like a finish line you cross with enough effort. In practice, most products never get near it—not because the team lacked talent, but because they built for momentum instead of proof.",
+      text: "Product-market fit is often treated like a finish line you cross with enough effort. In practice, most products never get near it-not because the team lacked talent, but because they built for momentum instead of proof.",
     },
     {
       type: "p",
-      text: "If you are stuck between “we’re almost there” and “nothing is converting,” this is usually why. The product may be strong. The market still cannot explain what it is for. Great products fail before product–market fit when they chase features, funding stories, or internal taste—while customers still cannot name the value in one sentence. The market is not rejecting your ambition. It is rejecting fog.",
+      text: "If you are stuck between “we’re almost there” and “nothing is converting,” this is usually why. The product may be strong. The market still cannot explain what it is for. Great products fail before product-market fit when they chase features, funding stories, or internal taste-while customers still cannot name the value in one sentence. The market is not rejecting your ambition. It is rejecting fog.",
     },
     {
       type: "p",
-      text: "I work with founders who feel busy and unclear at the same time. The product has depth. The deck is polished. The roadmap is full. And yet growth feels like pushing a wardrobe uphill in soft sand. This piece is about recognising that pattern early—and installing a proof system before the burn rate finishes the conversation.",
+      text: "I work with founders who feel busy and unclear at the same time. The product has depth. The deck is polished. The roadmap is full. And yet growth feels like pushing a wardrobe uphill in soft sand. This piece is about recognising that pattern early-and installing a proof system before the burn rate finishes the conversation.",
     },
     {
       type: "h2",
-      text: "Product–market fit is evidence, not a launch date",
+      text: "Product-market fit is evidence, not a launch date",
     },
     {
       type: "p",
-      text: "It is not a press mention, a spike in signups, or a polished deck. It is repeated proof that a defined customer gets enough value to return, pay, and recommend—without you rewriting the pitch every week.",
+      text: "It is not a press mention, a spike in signups, or a polished deck. It is repeated proof that a defined customer gets enough value to return, pay, and recommend-without you rewriting the pitch every week.",
     },
     {
       type: "ul",
       items: [
         "A specific customer can describe the problem in their own words.",
-        "Your product is the preferred answer to that problem—not a nice-to-have.",
+        "Your product is the preferred answer to that problem-not a nice-to-have.",
         "Retention and willingness to pay improve without constant discounts.",
         "Growth starts to feel earned, not propped up by ads alone.",
       ],
     },
     {
       type: "p",
-      text: "Sean Ellis’s classic “very disappointed” survey is often cited in [Y Combinator’s Library](https://www.ycombinator.com/library) discussions of fit—but the deeper point is simpler: fit is a behaviour pattern, not a vibe. If you need a weekly narrative reset to explain why people should care, you do not have fit. You have hope with analytics.",
+      text: "Sean Ellis’s classic “very disappointed” survey is often cited in [Y Combinator’s Library](https://www.ycombinator.com/library) discussions of fit-but the deeper point is simpler: fit is a behaviour pattern, not a vibe. If you need a weekly narrative reset to explain why people should care, you do not have fit. You have hope with analytics.",
     },
     {
       type: "callout",
       title: "A precise definition you can use in a team meeting",
-      text: "Product–market fit means a narrow customer segment repeatedly chooses your product for a specific job, retains without bribes, and can explain the value without your slide deck in the room.",
+      text: "Product-market fit means a narrow customer segment repeatedly chooses your product for a specific job, retains without bribes, and can explain the value without your slide deck in the room.",
     },
     {
       type: "takeaway",
-      text: "Treat product–market fit as a claim that requires evidence. Launch day is not evidence. Neither is a waitlist. Retention and willingness to pay are.",
+      text: "Treat product-market fit as a claim that requires evidence. Launch day is not evidence. Neither is a waitlist. Retention and willingness to pay are.",
     },
     {
       type: "h2",
@@ -75,7 +75,7 @@ const post: BlogPost = {
       items: [
         "Ask: what happens if they do nothing for 90 days?",
         "If the answer is “mild annoyance,” you may have a feature, not a company.",
-        "Urgency can be financial, emotional, regulatory, or competitive—but it must be felt.",
+        "Urgency can be financial, emotional, regulatory, or competitive-but it must be felt.",
       ],
     },
     {
@@ -127,7 +127,7 @@ const post: BlogPost = {
       type: "table",
       headers: ["Busy metric", "Learning metric"],
       rows: [
-        ["Waitlist size", "% who convert when invited—and activate"],
+        ["Waitlist size", "% who convert when invited-and activate"],
         ["Pageviews", "CTA click → qualified conversation"],
         ["Feature ships", "Outcome improvement for wedge ICP"],
         ["Social engagement", "Retention and referral by cohort"],
@@ -148,7 +148,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the expensive cousin of “almost working.” You can look busy, raise on momentum, and still never reach fit—because every pound of distribution is teaching the market a vague story. For the spend sequence, see [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "This is the expensive cousin of “almost working.” You can look busy, raise on momentum, and still never reach fit-because every pound of distribution is teaching the market a vague story. For the spend sequence, see [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "quote",
@@ -197,7 +197,7 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Interview 10 people in one narrow segment this month—not five segments.",
+        "Interview 10 people in one narrow segment this month-not five segments.",
         "Rewrite your homepage for one job, one outcome, one proof point.",
         "Measure activation as “first meaningful outcome,” not “account created.”",
         "Kill or pause one feature that does not support that outcome.",
@@ -267,11 +267,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "At nau, I work with founders who are moving constantly and still unsure what is working. We usually start with positioning, customer clarity, and the experience that carries the value—website, onboarding story, and the product narrative people actually believe.",
+      text: "At nau, I work with founders who are moving constantly and still unsure what is working. We usually start with positioning, customer clarity, and the experience that carries the value-website, onboarding story, and the product narrative people actually believe.",
     },
     {
       type: "p",
-      text: "Most founders respond to slow growth by adding more features. This is understandable, in the same way that adding another cupboard is an understandable response to losing your keys. If the product is strong but growth is stuck before product–market fit, the next move is sharper proof—not a longer roadmap.",
+      text: "Most founders respond to slow growth by adding more features. This is understandable, in the same way that adding another cupboard is an understandable response to losing your keys. If the product is strong but growth is stuck before product-market fit, the next move is sharper proof-not a longer roadmap.",
     },
     {
       type: "p",
@@ -283,12 +283,12 @@ const post: BlogPost = {
         {
           question: "How long should it take to know if fit is possible?",
           answer:
-            "Enough time to run a focused learning loop with one segment: interviews, a sharp offer, a measurable activation path, and cohort retention. For many early teams that is weeks to a few months of disciplined focus—not years of feature accumulation.",
+            "Enough time to run a focused learning loop with one segment: interviews, a sharp offer, a measurable activation path, and cohort retention. For many early teams that is weeks to a few months of disciplined focus-not years of feature accumulation.",
         },
         {
           question: "Can we have fit in one segment and not another?",
           answer:
-            "Yes. That is common—and useful. Scale the segment where preference exists. Stop pretending average metrics across mismatched segments are a strategy.",
+            "Yes. That is common-and useful. Scale the segment where preference exists. Stop pretending average metrics across mismatched segments are a strategy.",
         },
         {
           question: "What if customers love the product but won’t pay?",
@@ -298,7 +298,7 @@ const post: BlogPost = {
         {
           question: "Should we pause fundraising until we have fit?",
           answer:
-            "Not always—but you should stop telling a fit story you cannot evidence. Raise on a clear learning plan and wedge traction, not on fog dressed as momentum.",
+            "Not always-but you should stop telling a fit story you cannot evidence. Raise on a clear learning plan and wedge traction, not on fog dressed as momentum.",
         },
       ],
     },
@@ -308,15 +308,15 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Great products fail before product–market fit when teams confuse motion with proof. The market does not owe you understanding. You earn it with a sharp customer, an urgent job, a first session that repays attention, and evidence that preference is forming.",
+      text: "Great products fail before product-market fit when teams confuse motion with proof. The market does not owe you understanding. You earn it with a sharp customer, an urgent job, a first session that repays attention, and evidence that preference is forming.",
     },
     {
       type: "p",
-      text: "If you take one action this week, make it this: pick one segment, one outcome, and one proof metric. Align the homepage and first session to that triangle. Everything else can wait—including the feature that feels urgent only because deciding feels hard.",
+      text: "If you take one action this week, make it this: pick one segment, one outcome, and one proof metric. Align the homepage and first session to that triangle. Everything else can wait-including the feature that feels urgent only because deciding feels hard.",
     },
     {
       type: "cta",
-      lead: "Want a clear read on where your product is losing belief before product–market fit?",
+      lead: "Want a clear read on where your product is losing belief before product-market fit?",
       button: "Book a strategy conversation",
       href: "/contact",
     },

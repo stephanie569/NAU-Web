@@ -2,17 +2,17 @@ import type { BlogPost } from "@/lib/blog-types";
 
 const post: BlogPost = {
   slug: "organic-growth-isnt-free-its-earned",
-  title: "Organic isn't free. It's earned—and here's how.",
+  title: "Organic isn't free. It's earned-and here's how.",
   excerpt: "The difference matters more than most founders realise.",
   date: "August 12, 2026",
   category: "Team Content",
   image: "/images/blog/blog-46-organic-earned.png",
   metaDescription:
-    "Organic growth isn't free—it's earned through systems, reputation, and patience. Why paid shortcuts fail when attention must be built, not simply rented.",
+    "Organic growth isn't free-it's earned through systems, reputation, and patience. Why paid shortcuts fail when attention must be built, not simply rented.",
   content: [
     {
       type: "p",
-      text: "Founders love the word organic. It sounds thrifty. Virtuous. Almost accidental—as if the market might wake up one Tuesday and decide you deserve customers. I have sat through enough strategy calls to know what they usually mean: growth without a media budget. That is not a strategy. That is a wish with better branding.",
+      text: "Founders love the word organic. It sounds thrifty. Virtuous. Almost accidental-as if the market might wake up one Tuesday and decide you deserve customers. I have sat through enough strategy calls to know what they usually mean: growth without a media budget. That is not a strategy. That is a wish with better branding.",
     },
     {
       type: "p",
@@ -53,7 +53,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Rented attention arrives when you bid for it. Earned attention arrives when someone chooses to give it—because a peer mentioned you, a search result felt trustworthy, a piece of work was useful enough to bookmark, or a founder said something true in public. The behaviours look similar in analytics. The economics do not.",
+      text: "Rented attention arrives when you bid for it. Earned attention arrives when someone chooses to give it-because a peer mentioned you, a search result felt trustworthy, a piece of work was useful enough to bookmark, or a founder said something true in public. The behaviours look similar in analytics. The economics do not.",
     },
     {
       type: "table",
@@ -100,12 +100,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Earned growth requires a cadence you can defend on a bad week. Publishing, founder-led conversations, useful tools, customer stories, community presence—pick the few you can sustain. Brilliance without cadence is a fireworks show. Cadence without substance is spam. You need both, but cadence is the scarcer founder skill. More on that in [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Earned growth requires a cadence you can defend on a bad week. Publishing, founder-led conversations, useful tools, customer stories, community presence-pick the few you can sustain. Brilliance without cadence is a fireworks show. Cadence without substance is spam. You need both, but cadence is the scarcer founder skill. More on that in [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "callout",
       title: "Try this",
-      text: "Write three channels you could still work if paid ads vanished tomorrow. For each, name the weekly artefact (post, email, demo, conversation) and the proof it creates. If you cannot name the proof, you are producing activity—not earning attention.",
+      text: "Write three channels you could still work if paid ads vanished tomorrow. For each, name the weekly artefact (post, email, demo, conversation) and the proof it creates. If you cannot name the proof, you are producing activity-not earning attention.",
     },
     {
       type: "h3",
@@ -119,7 +119,7 @@ const post: BlogPost = {
       type: "ul",
       items: [
         "Ship one artefact per week that a peer could forward without embarrassment.",
-        "Prefer specifics over adjectives—numbers, constraints, trade-offs.",
+        "Prefer specifics over adjectives-numbers, constraints, trade-offs.",
         "Capture objections in public answers; they become FAQ gold later.",
         "Treat every piece as a brick in a library, not a firework.",
       ],
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Reputation is what happens when evidence accumulates in other people's heads. It is slow, unfairly distributed, and extraordinarily leverageable once it exists. People trust people before they trust marketing—so founder visibility and customer voices often outperform brand accounts. See [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "Reputation is what happens when evidence accumulates in other people's heads. It is slow, unfairly distributed, and extraordinarily leverageable once it exists. People trust people before they trust marketing-so founder visibility and customer voices often outperform brand accounts. See [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "h3",
@@ -167,7 +167,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Organic growth is not one channel. It is a portfolio of earning mechanisms. Search when your answers are better than the category noise. Social when your point of view is sharp enough to be quoted. Email when people opt into a relationship. Community when peers vouch for you. Product-led loops when the experience itself creates talkability. Word of mouth when customers become better marketers than your marketing team—if you build something worth talking about: [your customers are better marketers than your marketing team](/blog/customers-better-marketers-than-marketing-team).",
+      text: "Organic growth is not one channel. It is a portfolio of earning mechanisms. Search when your answers are better than the category noise. Social when your point of view is sharp enough to be quoted. Email when people opt into a relationship. Community when peers vouch for you. Product-led loops when the experience itself creates talkability. Word of mouth when customers become better marketers than your marketing team-if you build something worth talking about: [your customers are better marketers than your marketing team](/blog/customers-better-marketers-than-marketing-team).",
     },
     {
       type: "ol",
@@ -182,7 +182,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the no-ad P&L",
-      text: "Imagine paid acquisition is banned for ninety days. Draft a one-page P&L of effort: hours per week, artefacts shipped, conversations started, evidence captured. If the page is empty, you do not have an organic strategy—you have a dependency. Fill the page before you refill the ad account.",
+      text: "Imagine paid acquisition is banned for ninety days. Draft a one-page P&L of effort: hours per week, artefacts shipped, conversations started, evidence captured. If the page is empty, you do not have an organic strategy-you have a dependency. Fill the page before you refill the ad account.",
     },
     {
       type: "h2",
@@ -266,7 +266,7 @@ const post: BlogPost = {
         {
           question: "How long does earned growth take?",
           answer:
-            "Longer than a sprint, shorter than forever—if you ship evidence weekly. Most teams quit in the quiet middle, which is exactly when compounding starts.",
+            "Longer than a sprint, shorter than forever-if you ship evidence weekly. Most teams quit in the quiet middle, which is exactly when compounding starts.",
         },
         {
           question: "What if we have almost no time?",

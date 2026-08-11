@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "most-expensive-mistake-early-stage-founders",
   title: "The most expensive brand mistake? Still doing this.",
   excerpt:
-    "Scaling noise before the product has a clear reason to matter—and how to stop.",
+    "Scaling noise before the product has a clear reason to matter-and how to stop.",
   date: "July 24, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-05-mistake.png",
@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "You pay once for the spend. You pay again in time—support tickets, long sales cycles, churn, and the quiet drain of something that is “almost working.” Almost is an expensive neighbourhood.",
+      text: "You pay once for the spend. You pay again in time-support tickets, long sales cycles, churn, and the quiet drain of something that is “almost working.” Almost is an expensive neighbourhood.",
     },
     {
       type: "p",
@@ -69,7 +69,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A marketer cannot invent your ICP in a vacuum while shipping campaigns. They can help refine it—but if founders still disagree on who the product is for, the hire becomes a project manager for ambiguity. Expensive ambiguity.",
+      text: "A marketer cannot invent your ICP in a vacuum while shipping campaigns. They can help refine it-but if founders still disagree on who the product is for, the hire becomes a project manager for ambiguity. Expensive ambiguity.",
     },
     {
       type: "h3",
@@ -93,7 +93,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Signups, waitlists, impressions, and “engaged” users can rise while retention and willingness to pay stay flat. Scale then celebrates the wrong curve. Product–market fit theatre is still theatre. See [what founders get wrong about product–market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "Signups, waitlists, impressions, and “engaged” users can rise while retention and willingness to pay stay flat. Scale then celebrates the wrong curve. Product-market fit theatre is still theatre. See [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "h2",
@@ -101,11 +101,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe’s early growth was famously helped by a product developers could understand and integrate without suffering. The story was sharp: payments without the pain. Linear earned attention among teams who felt existing tools were slow—clarity of taste and outcome before a sprawling category play. Notion expanded after a coherent workspace idea was legible. These companies still market hard. They did not ask marketing to compensate for a blurry first sentence forever.",
+      text: "Stripe’s early growth was famously helped by a product developers could understand and integrate without suffering. The story was sharp: payments without the pain. Linear earned attention among teams who felt existing tools were slow-clarity of taste and outcome before a sprawling category play. Notion expanded after a coherent workspace idea was legible. These companies still market hard. They did not ask marketing to compensate for a blurry first sentence forever.",
     },
     {
       type: "p",
-      text: "Contrast a fictional startup, MeridianOps. MeridianOps raised a seed round on a broad “AI operations platform” story. They hired two growth roles, launched paid search, and sponsored newsletters. CAC climbed. Sales cycles lengthened because every prospect thought MeridianOps did something different. Support invented onboarding paths per persona. Six months later, the expensive lesson was obvious: they had scaled a committee product. When they finally narrowed to “COO chiefs of staff at 40–120 person SaaS companies drowning in tool sprawl,” channels started to work—with less spend than the fog era required.",
+      text: "Contrast a fictional startup, MeridianOps. MeridianOps raised a seed round on a broad “AI operations platform” story. They hired two growth roles, launched paid search, and sponsored newsletters. CAC climbed. Sales cycles lengthened because every prospect thought MeridianOps did something different. Support invented onboarding paths per persona. Six months later, the expensive lesson was obvious: they had scaled a committee product. When they finally narrowed to “COO chiefs of staff at 40-120 person SaaS companies drowning in tool sprawl,” channels started to work-with less spend than the fog era required.",
     },
     {
       type: "quote",
@@ -158,7 +158,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Scale channels where the creative does not need a TED Talk to compensate for the page. Scale messages that customers already repeat. Scale when follow-up capacity exists. Otherwise you are buying leads you will ignore—an elite form of waste.",
+      text: "Scale channels where the creative does not need a TED Talk to compensate for the page. Scale messages that customers already repeat. Scale when follow-up capacity exists. Otherwise you are buying leads you will ignore-an elite form of waste.",
     },
     {
       type: "table",
@@ -190,7 +190,7 @@ const post: BlogPost = {
       items: [
         "Write your outcome sentence. Ask two outsiders to restate it after seeing the homepage for ten seconds.",
         "Pull the last twenty sales or onboarding conversations. Count how often you re-explain what the product is.",
-        "Check activation: what percentage of signups reach the first meaningful outcome within 24–72 hours?",
+        "Check activation: what percentage of signups reach the first meaningful outcome within 24-72 hours?",
         "List every active growth channel. For each, ask: does this channel require over-explaining to work?",
         "Freeze new channel spend for two weeks if outsiders cannot restate the offer. Use the time on clarity and activation.",
         "Only unfreeze spend against a named conversion event and a kill threshold.",
@@ -223,7 +223,7 @@ const post: BlogPost = {
         {
           question: "Isn’t some paid spend useful for learning even before clarity?",
           answer:
-            "Small, structured tests can teach—if the hypotheses are explicit and the page is at least coherent. Large spend before coherence mostly teaches you that fog is expensive.",
+            "Small, structured tests can teach-if the hypotheses are explicit and the page is at least coherent. Large spend before coherence mostly teaches you that fog is expensive.",
         },
         {
           question: "What if investors expect growth metrics now?",
@@ -252,7 +252,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I ask founders to estimate hours per week spent re-explaining what the product is. If the number is large and not shrinking, scale is not the next chapter—definition is. [What I’d do first if I joined tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) usually starts there, not with a channel brainstorm.",
+      text: "I ask founders to estimate hours per week spent re-explaining what the product is. If the number is large and not shrinking, scale is not the next chapter-definition is. [What I’d do first if I joined tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) usually starts there, not with a channel brainstorm.",
     },
     {
       type: "h2",
@@ -260,11 +260,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Startup A and Startup B both spend £20k on acquisition in a quarter. Startup A has a sharp ICP, a clear outcome sentence, proof beside claims, and activation that delivers value in the first session. Startup B has a broader story, a feature-led homepage, and onboarding that begins with settings. Same media budget. Different results—not because Startup A found a secret ad format, but because amplification had something worth amplifying.",
+      text: "Startup A and Startup B both spend £20k on acquisition in a quarter. Startup A has a sharp ICP, a clear outcome sentence, proof beside claims, and activation that delivers value in the first session. Startup B has a broader story, a feature-led homepage, and onboarding that begins with settings. Same media budget. Different results-not because Startup A found a secret ad format, but because amplification had something worth amplifying.",
     },
     {
       type: "p",
-      text: "Startup B then “optimises creative” for six weeks. Creative cannot permanently compensate for a page that still cannot finish a thought. This is the expensive loop. Break it by returning to clarity and the conversion path—see [landing page review](/blog/landing-page-review-helping-hurting-conversions)—before you renew the ad invoice.",
+      text: "Startup B then “optimises creative” for six weeks. Creative cannot permanently compensate for a page that still cannot finish a thought. This is the expensive loop. Break it by returning to clarity and the conversion path-see [landing page review](/blog/landing-page-review-helping-hurting-conversions)-before you renew the ad invoice.",
     },
     {
       type: "table",
@@ -306,7 +306,7 @@ const post: BlogPost = {
         "Publish the readiness gate where the team can see it.",
         "Review it before any new channel or hire tied to growth.",
         "Celebrate learning milestones, not only spend milestones.",
-        "Keep a parked list of scale ideas for after the gates pass—so ambition has a home that is not “do it now anyway.”",
+        "Keep a parked list of scale ideas for after the gates pass-so ambition has a home that is not “do it now anyway.”",
       ],
     },
     {
@@ -323,14 +323,14 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Board conversations go better with evidence of learning: interview counts, sentence tests, activation curves, and a dated readiness gate. Charts of spend alone teach the wrong lesson—that motion equals progress. Motion is easy to buy. Progress is earned in comprehension and retention.",
+      text: "Board conversations go better with evidence of learning: interview counts, sentence tests, activation curves, and a dated readiness gate. Charts of spend alone teach the wrong lesson-that motion equals progress. Motion is easy to buy. Progress is earned in comprehension and retention.",
     },
     {
       type: "ul",
       items: [
         "Bring the cold comprehension results to the meeting.",
         "Show activation by cohort for the primary ICP.",
-        "Show cost per meaningful event—not only CPC.",
+        "Show cost per meaningful event-not only CPC.",
         "Propose the next clarity fix with an owner and a date.",
       ],
     },
@@ -340,7 +340,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders fear looking slow. Clarity work looks slow from the outside and fast from the inside—because it prevents months of expensive thrash. Looking busy is not a strategy. Looking decisive about sequencing is. If a competitor scales fog successfully for a while, remember that fog eventually invoices everyone; some invoices just arrive later.",
+      text: "Founders fear looking slow. Clarity work looks slow from the outside and fast from the inside-because it prevents months of expensive thrash. Looking busy is not a strategy. Looking decisive about sequencing is. If a competitor scales fog successfully for a while, remember that fog eventually invoices everyone; some invoices just arrive later.",
     },
     {
       type: "p",

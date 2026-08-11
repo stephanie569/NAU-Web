@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { selectedWorkSection } from "@/lib/sections";
 
 function PlusBadge() {
@@ -15,58 +14,60 @@ function PlusBadge() {
 
 function LogoCard({
   project,
-  index,
 }: {
   project: (typeof selectedWorkSection.projects)[number];
-  index: number;
 }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-40px" }}
-      transition={{ duration: 0.45, delay: index * 0.05 }}
-      className="flex h-[180px] items-center justify-center rounded-[14px] bg-white px-5"
-    >
-      <div className="relative mx-auto size-[104px] sm:size-[112px]">
+    <div className="flex h-[180px] w-[min(55vw,300px)] shrink-0 items-center justify-center rounded-[14px] bg-white px-5 sm:w-[340px] sm:px-6">
+      <div className="relative h-[130px] w-full max-w-[240px] sm:h-[140px] sm:max-w-[260px]">
         <Image
           src={project.src}
           alt={project.name}
           fill
           className="object-contain"
-          sizes="112px"
+          sizes="260px"
           quality={100}
         />
       </div>
-    </motion.div>
+    </div>
+  );
+}
+
+function LogoMarquee() {
+  const { projects } = selectedWorkSection;
+  // Duplicate for seamless loop
+  const track = [...projects, ...projects];
+
+  return (
+    <div className="group relative overflow-hidden">
+      <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-[#f5f5f5] to-transparent sm:w-16" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-[#f5f5f5] to-transparent sm:w-16" />
+
+      <div className="flex w-max gap-3 animate-logo-marquee group-hover:[animation-play-state:paused] md:gap-4">
+        {track.map((project, i) => (
+          <LogoCard key={`${project.id}-${i}`} project={project} />
+        ))}
+      </div>
+    </div>
   );
 }
 
 export function ClientsSection() {
-  const { title, period, projects } = selectedWorkSection;
+  const { title } = selectedWorkSection;
 
   return (
     <section className="bg-[#f5f5f5] px-6 pb-24 md:px-9">
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-[70px] grid grid-cols-1 items-center gap-6 md:grid-cols-4 md:gap-[30px]">
-          <div className="flex items-center gap-3">
-            <PlusBadge />
-            <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-              {title}
-            </p>
-          </div>
-          <div className="md:col-span-3 md:text-center">
-            <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-              {period}
-            </p>
-          </div>
+        <div className="mb-[70px] flex items-center gap-3">
+          <PlusBadge />
+          <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
+            {title}
+          </p>
         </div>
+      </div>
 
-        <div className="grid grid-cols-2 gap-1 sm:grid-cols-3 lg:grid-cols-6">
-          {projects.map((project, i) => (
-            <LogoCard key={project.id} project={project} index={i} />
-          ))}
-        </div>
+      <div className="mx-auto w-full max-w-[1520px]">
+        <LogoMarquee />
       </div>
     </section>
   );

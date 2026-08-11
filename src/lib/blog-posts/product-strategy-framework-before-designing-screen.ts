@@ -5,12 +5,12 @@ const post: BlogPost = {
   title:
     "My pre-Figma checklist before I design a single screen",
   excerpt:
-    "Before Figma, before wireframes, before pixels: a five-box strategy framework that keeps product design attached to real customer decisions—and stops beautiful interfaces for the wrong problem.",
+    "Before Figma, before wireframes, before pixels: a five-box strategy framework that keeps product design attached to real customer decisions-and stops beautiful interfaces for the wrong problem.",
   date: "July 25, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-04-framework.png",
   metaDescription:
-    "A practical product strategy framework to use before UI design—covering ICP, jobs-to-be-done, alternatives, outcomes, belief gaps, and conversion paths.",
+    "A practical product strategy framework to use before UI design-covering ICP, jobs-to-be-done, alternatives, outcomes, belief gaps, and conversion paths.",
   content: [
     {
       type: "p",
@@ -22,7 +22,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why I [start projects without opening Figma](/blog/why-i-start-every-project-without-opening-figma). Not as a personality quirk. As risk management. Pixels create false consensus—“we all like this layout”—while the customer, job, and belief gaps remain unnamed.",
+      text: "This is why I [start projects without opening Figma](/blog/why-i-start-every-project-without-opening-figma). Not as a personality quirk. As risk management. Pixels create false consensus-“we all like this layout”-while the customer, job, and belief gaps remain unnamed.",
     },
     {
       type: "callout",
@@ -39,11 +39,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Figma and Linear are excellent tools for building software experiences. They do not decide your ICP. Airbnb’s product clarity did not come from a component library first; it came from a sharp understanding of hosts, guests, and trust. Apple’s onboarding discipline starts from what the customer must believe and feel—not from a screen inventory. Tools amplify intent. They do not invent it.",
+      text: "Figma and Linear are excellent tools for building software experiences. They do not decide your ICP. Airbnb’s product clarity did not come from a component library first; it came from a sharp understanding of hosts, guests, and trust. Apple’s onboarding discipline starts from what the customer must believe and feel-not from a screen inventory. Tools amplify intent. They do not invent it.",
     },
     {
       type: "takeaway",
-      text: "If you cannot fill five strategy boxes in plain English, you are not ready to design screens—you are ready to guess in higher resolution.",
+      text: "If you cannot fill five strategy boxes in plain English, you are not ready to design screens-you are ready to guess in higher resolution.",
     },
     {
       type: "h2",
@@ -61,7 +61,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Box 1 — customer: who is in, who is out",
+      text: "Box 1 - customer: who is in, who is out",
     },
     {
       type: "p",
@@ -69,11 +69,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Example: “Head of Customer Success at B2B SaaS companies with 15–60 CSMs, post-Series A, whose renewals depend on messy spreadsheets.” Out: consumer support teams, pure sales tools buyers, enterprises with two-year procurement cycles (for now).",
+      text: "Example: “Head of Customer Success at B2B SaaS companies with 15-60 CSMs, post-Series A, whose renewals depend on messy spreadsheets.” Out: consumer support teams, pure sales tools buyers, enterprises with two-year procurement cycles (for now).",
     },
     {
       type: "h3",
-      text: "Box 2 — job-to-be-done: the progress they want",
+      text: "Box 2 - job-to-be-done: the progress they want",
     },
     {
       type: "p",
@@ -81,11 +81,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A useful prompt: When ___ happens, I want to ___, so I can ___. Fill it with customer language from interviews—not from your roadmap vocabulary. The [Interaction Design Foundation](https://www.interaction-design.org/) has accessible primers on user-centred framing; the point is not academic purity. The point is designing for progress.",
+      text: "A useful prompt: When ___ happens, I want to ___, so I can ___. Fill it with customer language from interviews-not from your roadmap vocabulary. The [Interaction Design Foundation](https://www.interaction-design.org/) has accessible primers on user-centred framing; the point is not academic purity. The point is designing for progress.",
     },
     {
       type: "h3",
-      text: "Box 3 — current alternatives (including doing nothing)",
+      text: "Box 3 - current alternatives (including doing nothing)",
     },
     {
       type: "p",
@@ -97,7 +97,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Box 4 — outcome: the measurable change",
+      text: "Box 4 - outcome: the measurable change",
     },
     {
       type: "p",
@@ -109,7 +109,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Box 5 — belief gap: what they must believe",
+      text: "Box 5 - belief gap: what they must believe",
     },
     {
       type: "p",
@@ -151,7 +151,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "UI becomes a translation layer: each screen should reduce a belief gap or advance a job. If a screen does neither, it is decoration—however lovely the spacing.",
+      text: "UI becomes a translation layer: each screen should reduce a belief gap or advance a job. If a screen does neither, it is decoration-however lovely the spacing.",
     },
     {
       type: "ul",
@@ -159,7 +159,7 @@ const post: BlogPost = {
         "Homepage answers belief gaps for cold traffic.",
         "Onboarding delivers the first outcome fast.",
         "Pricing pages resolve risk and value comparison.",
-        "Feature pages map to jobs—not internal modules.",
+        "Feature pages map to jobs-not internal modules.",
         "Empty states teach the next action, not the brand story.",
       ],
     },
@@ -170,7 +170,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When the five boxes are filled, design stops being improvisation and starts being argument made visible. Wireframes get easier because you know what each frame must accomplish. Critiques get sharper because “I don’t like blue” is no longer the main feedback genre—though someone will still mention blue. People are consistent that way.",
+      text: "When the five boxes are filled, design stops being improvisation and starts being argument made visible. Wireframes get easier because you know what each frame must accomplish. Critiques get sharper because “I don’t like blue” is no longer the main feedback genre-though someone will still mention blue. People are consistent that way.",
     },
     {
       type: "h2",
@@ -183,7 +183,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Customer: Ops lead at DTC brands doing £2–15M online, shipping from 1–2 warehouses, currently living in Shopify + spreadsheets.",
+        "Customer: Ops lead at DTC brands doing £2-15M online, shipping from 1-2 warehouses, currently living in Shopify + spreadsheets.",
         "Job: Prevent “where is my order?” chaos during peak without hiring another coordinator.",
         "Alternatives: Spreadsheets, Slack threads, overpaying a 3PL for visibility they still do not trust, doing nothing until Black Friday pain.",
         "Outcome: Reduce WISMO tickets by 30% in 60 days; same-day anomaly detection on delayed parcels.",
@@ -206,7 +206,7 @@ const post: BlogPost = {
         "For box 5, list at least five belief gaps and rank by how often they kill deals or activation.",
         "Map your current homepage and onboarding: which gaps do they close? Which do they ignore?",
         "Choose the single gap to close next. Design only for that until it moves a metric.",
-        "Only then open a design tool—with the boxes pinned above the canvas.",
+        "Only then open a design tool-with the boxes pinned above the canvas.",
       ],
     },
     {
@@ -220,11 +220,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The five boxes are the spine behind repositioning work—see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes). They also prevent the expensive habit of scaling an unclear offer, covered in [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders). And they keep product–market fit conversations honest: fit requires a defined customer and a valued outcome, not a vibe—more in [what founders get wrong about product–market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "The five boxes are the spine behind repositioning work-see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes). They also prevent the expensive habit of scaling an unclear offer, covered in [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders). And they keep product-market fit conversations honest: fit requires a defined customer and a valued outcome, not a vibe-more in [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "p",
-      text: "For operators who want external reading on building products that map to real decisions, [Harvard Business Review](https://hbr.org/) and [First Round Review](https://review.firstround.com/) regularly cover strategy-before-execution lessons. Pair them with primary customer conversations. Frameworks are not a substitute for contact with reality—they are a way to remember what you learned.",
+      text: "For operators who want external reading on building products that map to real decisions, [Harvard Business Review](https://hbr.org/) and [First Round Review](https://review.firstround.com/) regularly cover strategy-before-execution lessons. Pair them with primary customer conversations. Frameworks are not a substitute for contact with reality-they are a way to remember what you learned.",
     },
     {
       type: "faq",
@@ -242,12 +242,12 @@ const post: BlogPost = {
         {
           question: "Can design systems replace this?",
           answer:
-            "Design systems improve consistency and speed. They do not choose customers or outcomes. Use both—in the right order.",
+            "Design systems improve consistency and speed. They do not choose customers or outcomes. Use both-in the right order.",
         },
         {
           question: "How does this relate to whether something is worth building?",
           answer:
-            "If boxes 1–4 are weak, pause build. I expand that decision process in [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+            "If boxes 1-4 are weak, pause build. I expand that decision process in [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
         },
       ],
     },
@@ -286,13 +286,13 @@ const post: BlogPost = {
         "Which job does this screen advance?",
         "Which belief gap does it reduce?",
         "What would a user do if this screen disappeared?",
-        "Does this serve the primary ICP—or an excluded segment we already refused?",
+        "Does this serve the primary ICP-or an excluded segment we already refused?",
         "Where is the proof for the claim this screen makes?",
       ],
     },
     {
       type: "p",
-      text: "If the room cannot answer, the screen is premature—even if it is pretty. Pretty is not a strategy KPI, however much Behance would like it to be.",
+      text: "If the room cannot answer, the screen is premature-even if it is pretty. Pretty is not a strategy KPI, however much Behance would like it to be.",
     },
     {
       type: "h2",
@@ -327,7 +327,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Keep the five boxes on a single page—literally one page—so they stay alive. Title it with the product name and the date. When the page gets longer than one screen, you are collecting essays instead of decisions. Decisions should be short enough to argue about.",
+      text: "Keep the five boxes on a single page-literally one page-so they stay alive. Title it with the product name and the date. When the page gets longer than one screen, you are collecting essays instead of decisions. Decisions should be short enough to argue about.",
     },
     {
       type: "ul",
@@ -336,7 +336,7 @@ const post: BlogPost = {
         "Job-to-be-done (when / want / so I can)",
         "Alternatives (including doing nothing)",
         "Outcome (observable change + timeframe)",
-        "Belief gaps (ranked 1–5 with owners)",
+        "Belief gaps (ranked 1-5 with owners)",
         "This month’s design priority (one gap, one surface)",
       ],
     },
@@ -350,11 +350,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Reopen them when a new segment shows unexpected pull, when activation stalls after a promise change, or when sales keeps inventing a different story than the homepage. Do not reopen them every time someone has a feature idea—that is how strategy becomes a revolving door. Stability is the point; revision is the exception with a reason.",
+      text: "Reopen them when a new segment shows unexpected pull, when activation stalls after a promise change, or when sales keeps inventing a different story than the homepage. Do not reopen them every time someone has a feature idea-that is how strategy becomes a revolving door. Stability is the point; revision is the exception with a reason.",
     },
     {
       type: "p",
-      text: "Fill the boxes. Then design like you mean it. And if someone tries to open Figma mid-sentence during the workshop, gently close the laptop. The pixels will still be there after the thinking. The reverse is less true—unthinking pixels have a long half-life.",
+      text: "Fill the boxes. Then design like you mean it. And if someone tries to open Figma mid-sentence during the workshop, gently close the laptop. The pixels will still be there after the thinking. The reverse is less true-unthinking pixels have a long half-life.",
     },
     {
       type: "cta",

@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "three-product-decisions-cost-companies-millions",
   title: "3 quiet product decisions that burn millions",
   excerpt:
-    "Broad ICPs, feature theatre, and scaling before activation rarely look dramatic in the moment. Over years they destroy conversion, retention, and clarity—quietly, and at scale.",
+    "Broad ICPs, feature theatre, and scaling before activation rarely look dramatic in the moment. Over years they destroy conversion, retention, and clarity-quietly, and at scale.",
   date: "June 25, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-29-cost-millions.png",
@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "After years of product strategy and web experience work with early-stage teams, I keep seeing the same three decisions do the most damage. Not because founders are careless—because the decisions feel safe while they are being made. This piece breaks down each one: what it looks like, why it costs so much, what better looks like, and how to reverse it before the bill compounds.",
+      text: "After years of product strategy and web experience work with early-stage teams, I keep seeing the same three decisions do the most damage. Not because founders are careless-because the decisions feel safe while they are being made. This piece breaks down each one: what it looks like, why it costs so much, what better looks like, and how to reverse it before the bill compounds.",
     },
     {
       type: "callout",
@@ -38,7 +38,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe did not win by being “payments for everyone imaginable” in language that meant nothing. Early Stripe made developers feel understood. Airbnb did not open with “hospitality for all humans.” It made hosts and guests see a specific job. Notion eventually became broad—but it earned breadth after a clear wedge, not before. Broad without a wedge is not ambition. It is fog with a larger TAM slide.",
+      text: "Stripe did not win by being “payments for everyone imaginable” in language that meant nothing. Early Stripe made developers feel understood. Airbnb did not open with “hospitality for all humans.” It made hosts and guests see a specific job. Notion eventually became broad-but it earned breadth after a clear wedge, not before. Broad without a wedge is not ambition. It is fog with a larger TAM slide.",
     },
     {
       type: "h3",
@@ -56,7 +56,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The quiet cost is not one failed campaign. It is years of average performance that never becomes sharp enough to compound. Competitors with a narrower story start winning the same accounts—not because their product is better, but because the buyer feels recognised faster.",
+      text: "The quiet cost is not one failed campaign. It is years of average performance that never becomes sharp enough to compound. Competitors with a narrower story start winning the same accounts-not because their product is better, but because the buyer feels recognised faster.",
     },
     {
       type: "h3",
@@ -67,7 +67,7 @@ const post: BlogPost = {
       items: [
         "Wedge: pick one customer, one urgent job, one outcome you can deliver in the first session.",
         "Proof: get retention, referrals, and language from that wedge before you broaden copy.",
-        "Expand: only then widen ICP, channels, and feature surface—using evidence, not optimism.",
+        "Expand: only then widen ICP, channels, and feature surface-using evidence, not optimism.",
       ],
     },
     {
@@ -137,7 +137,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "A useful test",
-      text: "If removing a feature would not change your primary customer’s first-week outcome, it is probably not strategy—it is anxiety with a pull request. The [hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for) is rarely the build week. It is the years of explaining, supporting, and navigating around it.",
+      text: "If removing a feature would not change your primary customer’s first-week outcome, it is probably not strategy-it is anxiety with a pull request. The [hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for) is rarely the build week. It is the years of explaining, supporting, and navigating around it.",
     },
     {
       type: "h3",
@@ -145,14 +145,14 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Rewrite the next quarter’s backlog as outcomes a defined customer must reach. Features become hypotheses for those outcomes—not commitments because a competitor shipped something shiny.",
+      text: "Rewrite the next quarter’s backlog as outcomes a defined customer must reach. Features become hypotheses for those outcomes-not commitments because a competitor shipped something shiny.",
     },
     {
       type: "ol",
       items: [
         "Name the primary outcome for your wedge ICP in the first session and first month.",
         "Score every request by how directly it moves that outcome.",
-        "Cap “exploratory” features to a small percentage of capacity—then review ruthlessly.",
+        "Cap “exploratory” features to a small percentage of capacity-then review ruthlessly.",
         "Kill or pause one active initiative that only exists to avoid a positioning decision.",
       ],
     },
@@ -170,15 +170,15 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Buying traffic into a weak first-run experience multiplies waste. You are not buying growth. You are funding confusion at scale—which is an impressive way to spend money, if not a sensible one.",
+      text: "Buying traffic into a weak first-run experience multiplies waste. You are not buying growth. You are funding confusion at scale-which is an impressive way to spend money, if not a sensible one.",
     },
     {
       type: "p",
-      text: "Activation is the moment a new user reaches a meaningful outcome—not account creation, not “completed profile,” not “invited a teammate because the checklist said so.” If time-to-value is long, unclear, or dependent on a heroic onboarding call every time, paid acquisition will look like a channel problem when it is an experience problem.",
+      text: "Activation is the moment a new user reaches a meaningful outcome-not account creation, not “completed profile,” not “invited a teammate because the checklist said so.” If time-to-value is long, unclear, or dependent on a heroic onboarding call every time, paid acquisition will look like a channel problem when it is an experience problem.",
     },
     {
       type: "p",
-      text: "This is why so many teams “test ads” and conclude the channel does not work. The channel worked. It delivered people into a product that did not repay attention quickly enough. For a related pattern, see [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders) and [what founders get wrong about product–market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "This is why so many teams “test ads” and conclude the channel does not work. The channel worked. It delivered people into a product that did not repay attention quickly enough. For a related pattern, see [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders) and [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "h3",
@@ -187,7 +187,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "One primary path to first value—not five optional tours.",
+        "One primary path to first value-not five optional tours.",
         "Defaults that create a useful starting state instead of an empty canvas.",
         "Copy that matches the acquisition promise (ad → page → first session).",
         "Instrumentation that measures outcome, not only funnel steps.",
@@ -196,7 +196,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s onboarding discipline—and more generally, products that treat first-run as part of the product, not a tutorial bolted on—show the same principle: belief is designed, not hoped for. If you want a concrete teardown angle on that idea, I wrote about [how I’d improve Apple’s onboarding experience](/blog/how-id-improve-apple-onboarding-experience).",
+      text: "Apple’s onboarding discipline-and more generally, products that treat first-run as part of the product, not a tutorial bolted on-show the same principle: belief is designed, not hoped for. If you want a concrete teardown angle on that idea, I wrote about [how I’d improve Apple’s onboarding experience](/blog/how-id-improve-apple-onboarding-experience).",
     },
     {
       type: "h3",
@@ -246,7 +246,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "Quiet product decisions do not fail loudly. They fail as permanently average growth—and average growth is how companies run out of time while still looking busy.",
+      text: "Quiet product decisions do not fail loudly. They fail as permanently average growth-and average growth is how companies run out of time while still looking busy.",
     },
     {
       type: "h2",
@@ -261,7 +261,7 @@ const post: BlogPost = {
       items: [
         "Write your ICP in one sentence. Then write who you will refuse for 90 days. If you cannot refuse anyone, Decision 1 is active.",
         "List the last six shipped features. For each, name the customer outcome improved. If you cannot, Decision 2 is active.",
-        "Pull activation by cohort for the last 8 weeks. If paid cohorts activate worse than organic—or activation is undefined—Decision 3 is active.",
+        "Pull activation by cohort for the last 8 weeks. If paid cohorts activate worse than organic-or activation is undefined-Decision 3 is active.",
         "Pick one decision to reverse for 30 days. Only one. Reversal requires focus, not a manifesto.",
         "Rewrite homepage + first-session success criteria to match that reversal before you change channels.",
       ],
@@ -289,7 +289,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Freeze net-new surface area for two sprints. Use the capacity to improve time-to-value, empty states, and the primary workflow. Communicate the freeze as strategy, not scarcity. Customers respect focus more than founders expect—especially when the product finally feels inevitable.",
+      text: "Freeze net-new surface area for two sprints. Use the capacity to improve time-to-value, empty states, and the primary workflow. Communicate the freeze as strategy, not scarcity. Customers respect focus more than founders expect-especially when the product finally feels inevitable.",
     },
     {
       type: "h3",
@@ -305,7 +305,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Usability and conversion research will not invent your strategy, but it will stop you guessing about friction. The [Nielsen Norman Group](https://www.nngroup.com/) remains a practical library for usability patterns. [Baymard’s research](https://baymard.com/blog) is excellent on checkout and form friction—even if you are B2B SaaS, the principles transfer. For product learning culture, [Y Combinator’s Library](https://www.ycombinator.com/library) and [First Round Review](https://review.firstround.com/) are still worth reading when you need outside perspective without agency theatre.",
+      text: "Usability and conversion research will not invent your strategy, but it will stop you guessing about friction. The [Nielsen Norman Group](https://www.nngroup.com/) remains a practical library for usability patterns. [Baymard’s research](https://baymard.com/blog) is excellent on checkout and form friction-even if you are B2B SaaS, the principles transfer. For product learning culture, [Y Combinator’s Library](https://www.ycombinator.com/library) and [First Round Review](https://review.firstround.com/) are still worth reading when you need outside perspective without agency theatre.",
     },
     {
       type: "p",
@@ -332,7 +332,7 @@ const post: BlogPost = {
         {
           question: "When is it actually time to scale acquisition?",
           answer:
-            "When a cold visitor can understand the offer, reach a meaningful outcome without heroics, and return without discounts—and when unit economics hold for that segment. Until then, treat paid spend as a diagnostic tool, not a growth engine.",
+            "When a cold visitor can understand the offer, reach a meaningful outcome without heroics, and return without discounts-and when unit economics hold for that segment. Until then, treat paid spend as a diagnostic tool, not a growth engine.",
         },
       ],
     },
@@ -346,11 +346,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you recognise one of these decisions in your company, do not try to fix all three this month. Pick the quietest expensive one—the one that makes every other investment underperform—and reverse it with discipline. Clarity compounds. So does fog. Choose which interest rate you want to pay.",
+      text: "If you recognise one of these decisions in your company, do not try to fix all three this month. Pick the quietest expensive one-the one that makes every other investment underperform-and reverse it with discipline. Clarity compounds. So does fog. Choose which interest rate you want to pay.",
     },
     {
       type: "p",
-      text: "If you want a practical starting diagnostic after this, read [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). If the deeper issue is belief before scale, read [why great products fail before product–market fit](/blog/why-great-products-fail-before-product-market-fit).",
+      text: "If you want a practical starting diagnostic after this, read [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). If the deeper issue is belief before scale, read [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit).",
     },
     {
       type: "cta",

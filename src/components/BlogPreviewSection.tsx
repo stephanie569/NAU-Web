@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { NauButton } from "@/components/NauButton";
+import { NauLogoMark } from "@/components/NauLogoMark";
 import {
   blogFeaturedPost,
   blogPreviewPosts,
@@ -21,21 +23,6 @@ function FeaturedPlusIcon() {
       <span className="absolute top-1/2 left-0 h-px w-full -translate-y-1/2 bg-white" />
       <span className="absolute top-0 left-1/2 h-full w-px -translate-x-1/2 bg-white" />
     </span>
-  );
-}
-
-function ArrowIcon() {
-  return (
-    <svg viewBox="0 0 16 16" className="h-3.5 w-3.5" aria-hidden>
-      <path
-        d="M3 8h8M9 5l3 3-3 3"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
   );
 }
 
@@ -78,7 +65,7 @@ function BlogCard({
 }
 
 function FeaturedBlogCard() {
-  const { brand, featuredTitle } = blogSectionCopy;
+  const { featuredTitle } = blogSectionCopy;
 
   return (
     <Link
@@ -96,9 +83,7 @@ function FeaturedBlogCard() {
 
       <div className="absolute inset-0 flex flex-col justify-between p-6 md:p-7">
         <div className="flex items-start justify-between gap-4">
-          <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
-            {brand}
-          </p>
+          <NauLogoMark size="xs" className="text-white" />
           <FeaturedPlusIcon />
         </div>
 
@@ -126,17 +111,9 @@ export function BlogPreviewSection() {
             {description}
           </p>
 
-          <Link
-            href={ctaHref}
-            className="inline-flex w-fit items-center gap-5 rounded-full bg-[#0a0a0a] py-2.5 pr-2.5 pl-6 transition-opacity hover:opacity-85 lg:justify-self-end"
-          >
-            <span className="text-[13px] font-semibold tracking-[-0.04em] text-white">
-              {cta}
-            </span>
-            <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-[#0a0a0a]">
-              <ArrowIcon />
-            </span>
-          </Link>
+          <NauButton href={ctaHref} className="lg:justify-self-end">
+            {cta}
+          </NauButton>
         </div>
 
         <div className="grid grid-cols-1 items-stretch gap-1 md:grid-cols-2 lg:grid-cols-4">

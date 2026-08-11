@@ -9,11 +9,11 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-18-systems.png",
   metaDescription:
-    "Why product and brand systems outperform one-off marketing campaigns—and how to build compounding clarity into your startup.",
+    "Why product and brand systems outperform one-off marketing campaigns-and how to build compounding clarity into your startup.",
   content: [
     {
       type: "p",
-      text: "Campaigns are tempting because they feel like events. Systems are quieter—and more valuable. I care more about systems because they make every future campaign cheaper and clearer. Events make noise. Systems make progress. If that sounds less exciting than a launch week, congratulations: you have met adulthood in marketing.",
+      text: "Campaigns are tempting because they feel like events. Systems are quieter-and more valuable. I care more about systems because they make every future campaign cheaper and clearer. Events make noise. Systems make progress. If that sounds less exciting than a launch week, congratulations: you have met adulthood in marketing.",
     },
     {
       type: "p",
@@ -51,7 +51,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple can run campaigns because the product story system is strong. Stripe can sponsor and publish because the developer experience system holds. Notion’s community moments work because the product narrative is coherent enough to travel. Campaigns ride systems. Startups often try to ride a campaign like a bicycle with no wheels—then blame the road.",
+      text: "Apple can run campaigns because the product story system is strong. Stripe can sponsor and publish because the developer experience system holds. Notion’s community moments work because the product narrative is coherent enough to travel. Campaigns ride systems. Startups often try to ride a campaign like a bicycle with no wheels-then blame the road.",
     },
     {
       type: "quote",
@@ -84,7 +84,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I keep positioning in a short brief everyone can find—not a brand book nobody opens. When someone proposes a campaign angle that breaks the ICP, the system says no faster than a meeting. For the method, see [the product strategy framework I use before screens](/blog/product-strategy-framework-before-designing-screen) and [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "I keep positioning in a short brief everyone can find-not a brand book nobody opens. When someone proposes a campaign angle that breaks the ICP, the system says no faster than a meeting. For the method, see [the product strategy framework I use before screens](/blog/product-strategy-framework-before-designing-screen) and [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "callout",
@@ -105,7 +105,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Hygiene still counts. [Core Web Vitals](https://web.dev/articles/vitals), clear information architecture, and [accessibility basics](https://www.w3.org/WAI/standards-guidelines/wcag/) are part of the system—not a later polish pass. Slow, confusing, inaccessible experiences force campaigns to work harder for worse outcomes.",
+      text: "Hygiene still counts. [Core Web Vitals](https://web.dev/articles/vitals), clear information architecture, and [accessibility basics](https://www.w3.org/WAI/standards-guidelines/wcag/) are part of the system-not a later polish pass. Slow, confusing, inaccessible experiences force campaigns to work harder for worse outcomes.",
     },
     {
       type: "h3",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Proof should be collected as an operation, not begged for the night before a launch. Wins, quotes, metrics, screenshots, security notes—captured, tagged by claim, placed where objections appear.",
+      text: "Proof should be collected as an operation, not begged for the night before a launch. Wins, quotes, metrics, screenshots, security notes-captured, tagged by claim, placed where objections appear.",
     },
     {
       type: "ul",
@@ -139,7 +139,7 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Pick 3–5 metrics tied to the current constraint (not vanity).",
+        "Pick 3-5 metrics tied to the current constraint (not vanity).",
         "Review weekly with a named owner.",
         "End every review with a change, a test, or an explicit non-change.",
         "Keep a log so campaigns inherit learning instead of restarting folklore.",
@@ -147,7 +147,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Positioning, experience, proof, learning: four systems. Campaigns should plug into them—not replace them.",
+      text: "Positioning, experience, proof, learning: four systems. Campaigns should plug into them-not replace them.",
     },
     {
       type: "h2",
@@ -155,11 +155,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Campaigns are visible. Systems are invisible until they fail. Investors can screenshot a launch. Nobody applauds a tidy objection log. Also, campaigns create the comforting illusion of control: pick a date, make assets, hit publish. Systems require ongoing ownership—less glamorous, more adult.",
+      text: "Campaigns are visible. Systems are invisible until they fail. Investors can screenshot a launch. Nobody applauds a tidy objection log. Also, campaigns create the comforting illusion of control: pick a date, make assets, hit publish. Systems require ongoing ownership-less glamorous, more adult.",
     },
     {
       type: "p",
-      text: "There is also a sequencing trap. Teams buy ads before the homepage finishes the pitch—then conclude paid “doesn’t work.” Paid worked. It delivered strangers to confusion. That pattern shows up in [why websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds) and [spending the first £1,000 in the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place).",
+      text: "There is also a sequencing trap. Teams buy ads before the homepage finishes the pitch-then conclude paid “doesn’t work.” Paid worked. It delivered strangers to confusion. That pattern shows up in [why websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds) and [spending the first £1,000 in the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place).",
     },
     {
       type: "h2",
@@ -187,7 +187,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: campaign autopsy",
-      text: "Take your last campaign. Score 1–5: Did positioning stay consistent? Did landing experience match the promise? Was proof specific? Did you capture learning into a next decision? Anything under 3 is a system gap—not a creative talent gap.",
+      text: "Take your last campaign. Score 1-5: Did positioning stay consistent? Did landing experience match the promise? Was proof specific? Did you capture learning into a next decision? Anything under 3 is a system gap-not a creative talent gap.",
     },
     {
       type: "h2",
@@ -203,7 +203,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Same budget later performs better—not because LinkedIn magic arrived, but because the system stopped contradicting the ads. Shocking, I know.",
+      text: "Same budget later performs better-not because LinkedIn magic arrived, but because the system stopped contradicting the ads. Shocking, I know.",
     },
     {
       type: "h2",
@@ -221,7 +221,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Google’s [Search Central guidance](https://developers.google.com/search/docs) is a good metaphor: durable discovery comes from clear structure and helpful content systems, not from stunts alone. Paid and social obey similar physics—clarity compounds; gimmicks expire.",
+      text: "Google’s [Search Central guidance](https://developers.google.com/search/docs) is a good metaphor: durable discovery comes from clear structure and helpful content systems, not from stunts alone. Paid and social obey similar physics-clarity compounds; gimmicks expire.",
     },
     {
       type: "h2",
@@ -229,7 +229,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders hear “system” and imagine enterprise process. That is how systems die—overbuilt, unread, resented. Week one should feel almost embarrassingly small.",
+      text: "Founders hear “system” and imagine enterprise process. That is how systems die-overbuilt, unread, resented. Week one should feel almost embarrassingly small.",
     },
     {
       type: "ol",
@@ -243,7 +243,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "That is enough to change how the next campaign gets briefed. You are no longer starting from vibes and a Figma file named Launch_Real. You are starting from constraints and unpaid debts—in the useful sense.",
+      text: "That is enough to change how the next campaign gets briefed. You are no longer starting from vibes and a Figma file named Launch_Real. You are starting from constraints and unpaid debts-in the useful sense.",
     },
     {
       type: "h3",
@@ -256,7 +256,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Anti-patterns to kill early",
-      text: "Separate ‘brand truth’ and ‘growth truth.’ Campaign landing pages that contradict the product. Proof stored in personal Drive folders. Learning trapped in Slack folklore. Monthly meetings that only admire dashboards. If you recognise three of five, you do not have a creativity problem—you have a systems problem wearing sneakers.",
+      text: "Separate ‘brand truth’ and ‘growth truth.’ Campaign landing pages that contradict the product. Proof stored in personal Drive folders. Learning trapped in Slack folklore. Monthly meetings that only admire dashboards. If you recognise three of five, you do not have a creativity problem-you have a systems problem wearing sneakers.",
     },
     {
       type: "h2",
@@ -278,7 +278,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Lagging indicators still matter—conversion, retention, sales cycle—but if you only watch lagging metrics, you will keep buying campaigns as painkillers. Pair this with [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here) when you need a constraint map.",
+      text: "Lagging indicators still matter-conversion, retention, sales cycle-but if you only watch lagging metrics, you will keep buying campaigns as painkillers. Pair this with [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here) when you need a constraint map.",
     },
     {
       type: "p",
@@ -316,7 +316,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A healthy pattern looks like this: pick one hypothesis (“mid-market ops leads respond to time-saved proof more than AI novelty”), choose one channel, match one landing narrative, define one success metric, run for a fixed window, write the learning into the hub. That is marketing as science-adjacent craft—not as quarterly reinvention theatre.",
+      text: "A healthy pattern looks like this: pick one hypothesis (“mid-market ops leads respond to time-saved proof more than AI novelty”), choose one channel, match one landing narrative, define one success metric, run for a fixed window, write the learning into the hub. That is marketing as science-adjacent craft-not as quarterly reinvention theatre.",
     },
     {
       type: "ul",
@@ -329,11 +329,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "HBR’s writing on [strategy and focus](https://hbr.org/) and YC’s emphasis on [learning velocity](https://www.ycombinator.com/library) both reward this discipline. Speed without a system is thrash. A system without occasional campaigns can become monastic. You want compounding clarity with periodic, honest amplification—see also [what founders need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing) for the diagnosis that decides which mode you are in.",
+      text: "HBR’s writing on [strategy and focus](https://hbr.org/) and YC’s emphasis on [learning velocity](https://www.ycombinator.com/library) both reward this discipline. Speed without a system is thrash. A system without occasional campaigns can become monastic. You want compounding clarity with periodic, honest amplification-see also [what founders need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing) for the diagnosis that decides which mode you are in.",
     },
     {
       type: "takeaway",
-      text: "After systems exist, campaigns should feel easier to brief and sharper to judge—not louder by default.",
+      text: "After systems exist, campaigns should feel easier to brief and sharper to judge-not louder by default.",
     },
     {
       type: "faq",
@@ -377,12 +377,12 @@ const post: BlogPost = {
         "Create a proof inbox (Notion/Slack) with claim tags.",
         "Schedule a weekly learning review with decision rules.",
         "Brief the next campaign only after the above exist in draft.",
-        "Run one campaign autopsy using the 1–5 system scores.",
+        "Run one campaign autopsy using the 1-5 system scores.",
       ],
     },
     {
       type: "p",
-      text: "Care about systems because compounding is the only unfair advantage most early teams can actually build. Campaigns will still matter—especially once [clarity is in place](/blog/product-doesnt-have-marketing-problem-clarity-problem). Until then, another spark is just another chance to admire smoke.",
+      text: "Care about systems because compounding is the only unfair advantage most early teams can actually build. Campaigns will still matter-especially once [clarity is in place](/blog/product-doesnt-have-marketing-problem-clarity-problem). Until then, another spark is just another chance to admire smoke.",
     },
     {
       type: "cta",

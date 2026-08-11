@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the plan I would run. It is for founders who feel busy, under pressure, and unsure why growth is not matching effort. Thirty days will not invent luck. It can remove confusion—and confusion is usually the silent growth tax.",
+      text: "This is the plan I would run. It is for founders who feel busy, under pressure, and unsure why growth is not matching effort. Thirty days will not invent luck. It can remove confusion-and confusion is usually the silent growth tax.",
     },
     {
       type: "p",
@@ -26,11 +26,11 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "What 30 days can and cannot do",
-      text: "Can: sharpen positioning, align homepage and first-session story, place proof where objections live, define activation, and create a weekly decision cadence. Cannot: manufacture product–market fit from nothing, replace a missing market, or heal a team that refuses to choose an ICP.",
+      text: "Can: sharpen positioning, align homepage and first-session story, place proof where objections live, define activation, and create a weekly decision cadence. Cannot: manufacture product-market fit from nothing, replace a missing market, or heal a team that refuses to choose an ICP.",
     },
     {
       type: "h2",
-      text: "Days 1–7: find where belief actually breaks",
+      text: "Days 1-7: find where belief actually breaks",
     },
     {
       type: "p",
@@ -39,7 +39,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Review analytics for drop-off by stage—not vanity totals.",
+        "Review analytics for drop-off by stage-not vanity totals.",
         "Interview five recent customers and five lost leads.",
         "Rewrite the current offer in one sentence and test it with strangers.",
         "Map the first-session experience from ad or search to the aha moment.",
@@ -90,7 +90,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Days 8–14: rebuild the offer and the story",
+      text: "Days 8-14: rebuild the offer and the story",
     },
     {
       type: "p",
@@ -99,7 +99,7 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Define who is not a fit—and stop marketing to them.",
+        "Define who is not a fit-and stop marketing to them.",
         "Create a homepage narrative that matches sales conversations.",
         "Align pricing language with outcomes, not feature volume.",
         "Draft a proof plan: case snippets, metrics, and demos that remove risk.",
@@ -140,7 +140,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Days 15–21: fix the conversion surface",
+      text: "Days 15-21: fix the conversion surface",
     },
     {
       type: "p",
@@ -157,7 +157,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I borrow ruthlessly from conversion and usability discipline—[Nielsen Norman Group](https://www.nngroup.com/) for interaction clarity, [Baymard](https://baymard.com/blog) for form and checkout-like friction, [web.dev](https://web.dev/) for performance. The aesthetic can stay yours. The comprehension must become public.",
+      text: "I borrow ruthlessly from conversion and usability discipline-[Nielsen Norman Group](https://www.nngroup.com/) for interaction clarity, [Baymard](https://baymard.com/blog) for form and checkout-like friction, [web.dev](https://web.dev/) for performance. The aesthetic can stay yours. The comprehension must become public.",
     },
     {
       type: "h3",
@@ -184,7 +184,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Days 22–30: install a learning system",
+      text: "Days 22-30: install a learning system",
     },
     {
       type: "p",
@@ -194,7 +194,7 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "Pick three weekly metrics tied to revenue reality.",
-        "Run one offer test and one experience test—not ten.",
+        "Run one offer test and one experience test-not ten.",
         "Document what customers say in their language.",
         "Keep a simple cadence: learn → decide → ship → measure.",
       ],
@@ -226,7 +226,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "In 30 days you cannot invent luck. You can remove confusion—and confusion is usually the silent growth tax.",
+      text: "In 30 days you cannot invent luck. You can remove confusion-and confusion is usually the silent growth tax.",
     },
     {
       type: "h2",
@@ -247,7 +247,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This format can become a series—industry by industry—but the spine stays the same: clarity, experience, proof. For the philosophy underneath, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns) and [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first).",
+      text: "This format can become a series-industry by industry-but the spine stays the same: clarity, experience, proof. For the philosophy underneath, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns) and [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first).",
     },
     {
       type: "h2",
@@ -260,8 +260,8 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Day 1–2: analytics + funnel map.",
-        "Day 3–5: customer and lost-lead interviews.",
+        "Day 1-2: analytics + funnel map.",
+        "Day 3-5: customer and lost-lead interviews.",
         "Day 6: stranger clarity tests on current homepage.",
         "Day 7: write the belief-break diagnosis; align founders.",
       ],
@@ -273,9 +273,9 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Day 8–9: ICP wedge and anti-ICP.",
-        "Day 10–11: offer canvas + sales narrative alignment.",
-        "Day 12–13: proof inventory and gaps.",
+        "Day 8-9: ICP wedge and anti-ICP.",
+        "Day 10-11: offer canvas + sales narrative alignment.",
+        "Day 12-13: proof inventory and gaps.",
         "Day 14: freeze the offer language for the sprint.",
       ],
     },
@@ -286,8 +286,8 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Day 15–17: homepage / primary landing rebuild.",
-        "Day 18–19: pricing or plan page + proof placement.",
+        "Day 15-17: homepage / primary landing rebuild.",
+        "Day 18-19: pricing or plan page + proof placement.",
         "Day 20: mobile and performance pass.",
         "Day 21: first-session handoff alignment with product.",
       ],
@@ -299,16 +299,16 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Day 22–23: instrumentation and metric definitions.",
-        "Day 24–26: one offer test + one experience test live.",
-        "Day 27–28: interview follow-ups; capture language.",
-        "Day 29–30: decision memo—what continues, what stops, what scales next.",
+        "Day 22-23: instrumentation and metric definitions.",
+        "Day 24-26: one offer test + one experience test live.",
+        "Day 27-28: interview follow-ups; capture language.",
+        "Day 29-30: decision memo-what continues, what stops, what scales next.",
       ],
     },
     {
       type: "callout",
       title: "Exercise: the day-30 memo",
-      text: "Write one page: what we believed on day 1, what evidence changed, what we shipped, what we will not do in the next 60 days. If you cannot write the “will not do” list, the sprint failed—because focus is the deliverable.",
+      text: "Write one page: what we believed on day 1, what evidence changed, what we shipped, what we will not do in the next 60 days. If you cannot write the “will not do” list, the sprint failed-because focus is the deliverable.",
     },
     {
       type: "h2",
@@ -316,7 +316,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Northline sells ops visibility for multi-location retailers. Growth flat. Ads expensive. In 30 days we find belief breaks at understanding and activation: the site says “AI retail platform,” while buyers care about reducing stockouts at store level. Week two locks a wedge: regional ops managers at 15–80 store retailers. Week three rebuilds the homepage around stockout reduction with proof from three pilots. Week four measures activation as “first stockout alert acted on,” not “dashboard viewed.” Ads resume at learning budget only for that wedge. Same product. Different honesty.",
+      text: "Northline sells ops visibility for multi-location retailers. Growth flat. Ads expensive. In 30 days we find belief breaks at understanding and activation: the site says “AI retail platform,” while buyers care about reducing stockouts at store level. Week two locks a wedge: regional ops managers at 15-80 store retailers. Week three rebuilds the homepage around stockout reduction with proof from three pilots. Week four measures activation as “first stockout alert acted on,” not “dashboard viewed.” Ads resume at learning budget only for that wedge. Same product. Different honesty.",
     },
     {
       type: "h2",
@@ -324,7 +324,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A 30-day plan fails when it stays inspirational. It works when people know what to produce by which day. Here is the operating kit I insist on—even for tiny teams.",
+      text: "A 30-day plan fails when it stays inspirational. It works when people know what to produce by which day. Here is the operating kit I insist on-even for tiny teams.",
     },
     {
       type: "h3",
@@ -391,7 +391,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "[Y Combinator’s Library](https://www.ycombinator.com/library) for early product discipline, [First Round Review](https://review.firstround.com/) for operating cadence, and [Harvard Business Review](https://hbr.org/) when you need shared strategic language with a board or sceptical co-founder. Use them as thinking tools—not as permission to delay your own interviews.",
+      text: "[Y Combinator’s Library](https://www.ycombinator.com/library) for early product discipline, [First Round Review](https://review.firstround.com/) for operating cadence, and [Harvard Business Review](https://hbr.org/) when you need shared strategic language with a board or sceptical co-founder. Use them as thinking tools-not as permission to delay your own interviews.",
     },
     {
       type: "faq",
@@ -404,7 +404,7 @@ const post: BlogPost = {
         {
           question: "Can this work for a consumer app?",
           answer:
-            "Yes—with activation and retention definitions tuned to consumer behaviour. The mistake is copying B2B demo CTAs onto a consumer habit product.",
+            "Yes-with activation and retention definitions tuned to consumer behaviour. The mistake is copying B2B demo CTAs onto a consumer habit product.",
         },
         {
           question: "What team do I need for 30 days?",
@@ -424,7 +424,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Thirty days is enough to stop paying the confusion tax. It is not enough to replace strategy forever. Treat the sprint as a reset of the system that makes growth possible—then protect the focus you bought.",
+      text: "Thirty days is enough to stop paying the confusion tax. It is not enough to replace strategy forever. Treat the sprint as a reset of the system that makes growth possible-then protect the focus you bought.",
     },
     {
       type: "p",
@@ -432,7 +432,7 @@ const post: BlogPost = {
     },
     {
       type: "cta",
-      lead: "Want a 30-day plan for your startup—not a generic playbook?",
+      lead: "Want a 30-day plan for your startup-not a generic playbook?",
       button: "Start a 30-day sprint conversation",
       href: "/contact",
     },

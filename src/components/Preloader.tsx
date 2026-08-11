@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { NauLogoMark } from "@/components/NauLogoMark";
 
 export function Preloader() {
   const [visible, setVisible] = useState(true);
@@ -65,9 +66,7 @@ export function Preloader() {
       aria-hidden="true"
     >
       <div className="text-center">
-        <p className="text-[clamp(2.5rem,8vw,5rem)] font-semibold tracking-tight text-white">
-          nau
-        </p>
+        <NauLogoMark size="lg" className="text-white" />
         <div className="relative mx-auto mt-6 h-px w-[120px] overflow-hidden bg-white/20">
           <div
             className="h-full bg-white transition-[width] duration-150 ease-out"
@@ -77,4 +76,4 @@ export function Preloader() {
       </div>
     </div>
   );
-};
+}

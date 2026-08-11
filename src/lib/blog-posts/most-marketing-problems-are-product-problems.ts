@@ -28,12 +28,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Calling it a marketing problem is emotionally convenient. Marketing problems sound fixable with budget and hustle. Product problems sound like admitting the thing is unfinished—or worse, unwanted. So teams buy ads for an offer nobody can explain in one sentence. They A/B test headlines on a homepage that still cannot answer “who is this for?” They launch campaigns for a tomorrow the product does not deliver by day seven.",
+      text: "Calling it a marketing problem is emotionally convenient. Marketing problems sound fixable with budget and hustle. Product problems sound like admitting the thing is unfinished-or worse, unwanted. So teams buy ads for an offer nobody can explain in one sentence. They A/B test headlines on a homepage that still cannot answer “who is this for?” They launch campaigns for a tomorrow the product does not deliver by day seven.",
     },
     {
       type: "ul",
       items: [
-        "Low conversion often starts with unclear value—not weak creative.",
+        "Low conversion often starts with unclear value-not weak creative.",
         "High CAC can mean the market understands you and still declines.",
         "Churn after a “successful” acquisition is a product verdict with a marketing invoice.",
         "If every channel fails the same way, the channel is not the common factor.",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not saying marketing never fails on its own. I am saying founders under-diagnose the offer. Related: [your product doesn’t have a marketing problem—it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "I am not saying marketing never fails on its own. I am saying founders under-diagnose the offer. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "takeaway",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "An offer is not a feature list plus a price. It is a promised better tomorrow for a defined someone, under named constraints, at a cost that feels fair for the change. If you cannot say that in plain English, marketing will improvise—and improvisation is expensive. Progress-led framing lives here: [people don’t buy products—they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
+      text: "An offer is not a feature list plus a price. It is a promised better tomorrow for a defined someone, under named constraints, at a cost that feels fair for the change. If you cannot say that in plain English, marketing will improvise-and improvisation is expensive. Progress-led framing lives here: [people don’t buy products-they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
     },
     {
       type: "callout",
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Product problems hide behind adjectives. Proof kills the hiding place: outcomes, constraints, named stories, before/after. If proof is thin, you may not have a messaging gap—you may have an offer that has not earned public evidence yet. Build evidence before you scale spend.",
+      text: "Product problems hide behind adjectives. Proof kills the hiding place: outcomes, constraints, named stories, before/after. If proof is thin, you may not have a messaging gap-you may have an offer that has not earned public evidence yet. Build evidence before you scale spend.",
     },
     {
       type: "h3",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Promotion is the last mile. Calendar, creatives, channels, launch theatre—all useful once offer, experience, and proof hold. Amplifying a broken offer is how CAC becomes a personality trait. For the spend checklist: [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Promotion is the last mile. Calendar, creatives, channels, launch theatre-all useful once offer, experience, and proof hold. Amplifying a broken offer is how CAC becomes a personality trait. For the spend checklist: [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "takeaway",
@@ -163,14 +163,14 @@ const post: BlogPost = {
         "Pull the last twenty lost deals or churned accounts and cluster reasons.",
         "Map each cluster to offer, experience, proof, or true channel failure.",
         "Fix the largest product/offer cluster before adding a new channel.",
-        "Rewrite the homepage to match the fixed promise—not the old packing list.",
+        "Rewrite the homepage to match the fixed promise-not the old packing list.",
         "Only then reopen the campaign calendar with a sharper story.",
       ],
     },
     {
       type: "callout",
       title: "Exercise: the identical-fail test",
-      text: "List every acquisition channel you have tried in the last six months. For each, write the failure mode in one line. If the lines rhyme—“unclear value,” “too expensive for what it does,” “nice but not necessary”—you do not have five channel problems. You have one offer problem with five costumes. Fix the rhyme before you buy a sixth costume.",
+      text: "List every acquisition channel you have tried in the last six months. For each, write the failure mode in one line. If the lines rhyme-“unclear value,” “too expensive for what it does,” “nice but not necessary”-you do not have five channel problems. You have one offer problem with five costumes. Fix the rhyme before you buy a sixth costume.",
     },
     {
       type: "h2",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes the offer is sharp, the experience delivers, proof exists—and distribution is simply underbuilt. Sparse presence. Inconsistent cadence. No launch runway. No earned attention system. Those are marketing problems. Solve them with systems, not panic: [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned). And remember that launch work starts early: [your launch campaign starts long before launch day](/blog/launch-campaign-starts-long-before-launch-day).",
+      text: "Sometimes the offer is sharp, the experience delivers, proof exists-and distribution is simply underbuilt. Sparse presence. Inconsistent cadence. No launch runway. No earned attention system. Those are marketing problems. Solve them with systems, not panic: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned). And remember that launch work starts early: [your launch campaign starts long before launch day](/blog/launch-campaign-starts-long-before-launch-day).",
     },
     {
       type: "table",
@@ -224,7 +224,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes the product is fine and the frame is wrong. Wrong neighbour category. Wrong primary buyer. Wrong tomorrow. That is still a product-marketing problem—not a media-buying problem. A tight repositioning pass can save months of calendar theatre. Try [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Sometimes the product is fine and the frame is wrong. Wrong neighbour category. Wrong primary buyer. Wrong tomorrow. That is still a product-marketing problem-not a media-buying problem. A tight repositioning pass can save months of calendar theatre. Try [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "h2",
@@ -251,7 +251,7 @@ const post: BlogPost = {
             "If qualitative objections rhyme across channels, and activation or retention is soft after conversion, start with offer and experience. Creative rarely fixes a promise the product does not keep.",
         },
         {
-          question: "We have product-market fit—can it still be a product problem?",
+          question: "We have product-market fit-can it still be a product problem?",
           answer:
             "Yes. Fit can be narrow, fragile, or poorly expressed. Expanding to a new segment often resurfaces offer and onboarding issues that looked “solved” for early fans.",
         },
@@ -273,7 +273,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Most marketing problems are product problems in disguise—offer, experience, proof wearing a campaign costume. Check the offer before you check the calendar. Fix what the product must keep. Then promote what survives. Growth gets honest when the disguise comes off.",
+      text: "Most marketing problems are product problems in disguise-offer, experience, proof wearing a campaign costume. Check the offer before you check the calendar. Fix what the product must keep. Then promote what survives. Growth gets honest when the disguise comes off.",
     },
     {
       type: "cta",

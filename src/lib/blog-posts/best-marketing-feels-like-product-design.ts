@@ -5,24 +5,24 @@ const post: BlogPost = {
   title:
     "If it feels like an ad, you've already lost them",
   excerpt:
-    "When marketing sits on top of the product, it underperforms. The brands that win design belief as part of the product experience—message, UX, and proof as one system.",
+    "When marketing sits on top of the product, it underperforms. The brands that win design belief as part of the product experience-message, UX, and proof as one system.",
   date: "July 6, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-34-marketing-product.png",
   metaDescription:
-    "Why the best marketing feels like product design—and how to align messaging, UX, and strategy so acquisition compounds instead of competing with the product.",
+    "Why the best marketing feels like product design-and how to align messaging, UX, and strategy so acquisition compounds instead of competing with the product.",
   content: [
     {
       type: "p",
-      text: "The best marketing does not feel like marketing. It feels inevitable—as if the product is simply continuing a conversation the customer already started. That is not a slogan. It is a design principle.",
+      text: "The best marketing does not feel like marketing. It feels inevitable-as if the product is simply continuing a conversation the customer already started. That is not a slogan. It is a design principle.",
     },
     {
       type: "p",
-      text: "When founders split “product” and “marketing,” they create two truths: one inside the app, one on the website. Customers notice. Conversion drops. Trust becomes expensive to rebuild. You end up paying twice—once to attract attention, again to apologise for the mismatch.",
+      text: "When founders split “product” and “marketing,” they create two truths: one inside the app, one on the website. Customers notice. Conversion drops. Trust becomes expensive to rebuild. You end up paying twice-once to attract attention, again to apologise for the mismatch.",
     },
     {
       type: "p",
-      text: "This piece is about treating marketing as the design of belief around your product: who it is for, what it changes, and why it is credible. The website, onboarding, demos, and campaigns become interfaces for that belief—not campaigns bolted on later.",
+      text: "This piece is about treating marketing as the design of belief around your product: who it is for, what it changes, and why it is credible. The website, onboarding, demos, and campaigns become interfaces for that belief-not campaigns bolted on later.",
     },
     {
       type: "h2",
@@ -36,7 +36,7 @@ const post: BlogPost = {
       type: "ul",
       items: [
         "Same promise in ads, homepage, sales deck, and first-run experience.",
-        "Same language customers use in interviews—not internal jargon.",
+        "Same language customers use in interviews-not internal jargon.",
         "Same proof standards: outcomes over adjectives.",
         "Same restraint: fewer claims, stronger delivery.",
       ],
@@ -99,7 +99,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "If your marketing needs to oversell, your product experience is under-designed. Fix the product story—then amplify it.",
+      text: "If your marketing needs to oversell, your product experience is under-designed. Fix the product story-then amplify it.",
     },
     {
       type: "h2",
@@ -153,13 +153,13 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Case studies, metrics, demos, and founder-led explanations are not “content assets.” They are risk-reduction features in the buying experience. Place them where risk appears—not in a blog nobody reaches until after the decision.",
+      text: "Case studies, metrics, demos, and founder-led explanations are not “content assets.” They are risk-reduction features in the buying experience. Place them where risk appears-not in a blog nobody reaches until after the decision.",
     },
     {
       type: "ol",
       items: [
         "Inventory every claim on your primary pages.",
-        "Attach one concrete proof element to each claim—or remove the claim.",
+        "Attach one concrete proof element to each claim-or remove the claim.",
         "Prefer specific outcomes over adjective stacks.",
         "Update proof as the product improves; stale proof is a trust bug.",
       ],
@@ -216,11 +216,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe’s marketing works because the product story is coherent from landing page to docs to dashboard. You are not baited into a fantasy and then abandoned in setup hell. Notion’s growth owed as much to templates and sharable artefacts—product surfaces that market themselves—as to conventional campaigns. Figma’s collaborative canvas was the demo.",
+      text: "Stripe’s marketing works because the product story is coherent from landing page to docs to dashboard. You are not baited into a fantasy and then abandoned in setup hell. Notion’s growth owed as much to templates and sharable artefacts-product surfaces that market themselves-as to conventional campaigns. Figma’s collaborative canvas was the demo.",
     },
     {
       type: "p",
-      text: "Now a fictional contrast: “Pulse,” a wellness B2B app. Marketing runs a polished campaign about “culture transformation.” The product opens to a blank survey builder and a 14-field admin setup. Pulse does not have a creative problem. It has a designed-belief problem. The fix is not a louder campaign. It is aligning the first session to the promise—and then amplifying that truth.",
+      text: "Now a fictional contrast: “Pulse,” a wellness B2B app. Marketing runs a polished campaign about “culture transformation.” The product opens to a blank survey builder and a 14-field admin setup. Pulse does not have a creative problem. It has a designed-belief problem. The fix is not a louder campaign. It is aligning the first session to the promise-and then amplifying that truth.",
     },
     {
       type: "h2",
@@ -300,7 +300,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Marketing that feels like product design is coherent across time—not just clever at the moment of click.",
+      text: "Marketing that feels like product design is coherent across time-not just clever at the moment of click.",
     },
     {
       type: "h2",
@@ -312,7 +312,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Process changes too. Campaign briefs should include the activation definition. Product specs should include the promise being made outside the app. Weekly reviews should inspect seams—not only spend. That sounds heavier than a content calendar. It is lighter than rebuilding trust after a mismatched launch.",
+      text: "Process changes too. Campaign briefs should include the activation definition. Product specs should include the promise being made outside the app. Weekly reviews should inspect seams-not only spend. That sounds heavier than a content calendar. It is lighter than rebuilding trust after a mismatched launch.",
     },
     {
       type: "h2",
@@ -320,11 +320,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If marketing is belief design, measurement must change. Vanity reach is not enough. Track whether cold visitors can explain the offer, whether activated users match the promised segment, and whether retention follows the job you marketed. Creative tests still matter—but only after the promise is stable enough to test honestly.",
+      text: "If marketing is belief design, measurement must change. Vanity reach is not enough. Track whether cold visitors can explain the offer, whether activated users match the promised segment, and whether retention follows the job you marketed. Creative tests still matter-but only after the promise is stable enough to test honestly.",
     },
     {
       type: "p",
-      text: "A practical weekly trio: comprehension (qualitative or five-second tests), activation for the marketed promise, and cost per activated conversation. Everything else is colour. Colour is fine. Navigation is better. If those three move in the right direction, your marketing is starting to behave like a product surface—not a megaphone aimed at fog.",
+      text: "A practical weekly trio: comprehension (qualitative or five-second tests), activation for the marketed promise, and cost per activated conversation. Everything else is colour. Colour is fine. Navigation is better. If those three move in the right direction, your marketing is starting to behave like a product surface-not a megaphone aimed at fog.",
     },
     {
       type: "h2",
@@ -332,7 +332,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Usability research helps you stop guessing about friction: [Nielsen Norman Group](https://www.nngroup.com/), [Baymard](https://baymard.com/blog), and the [Interaction Design Foundation](https://www.interaction-design.org/). Performance is part of belief—see [Core Web Vitals](https://web.dev/articles/vitals). For go-to-market operating judgement, [First Round Review](https://review.firstround.com/) and [Y Combinator’s Library](https://www.ycombinator.com/library) remain high-signal. None of them will invent your promise. They will help you deliver it without self-sabotage.",
+      text: "Usability research helps you stop guessing about friction: [Nielsen Norman Group](https://www.nngroup.com/), [Baymard](https://baymard.com/blog), and the [Interaction Design Foundation](https://www.interaction-design.org/). Performance is part of belief-see [Core Web Vitals](https://web.dev/articles/vitals). For go-to-market operating judgement, [First Round Review](https://review.firstround.com/) and [Y Combinator’s Library](https://www.ycombinator.com/library) remain high-signal. None of them will invent your promise. They will help you deliver it without self-sabotage.",
     },
     {
       type: "h2",
@@ -340,7 +340,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the philosophy behind my work: product strategy, web experiences, and storytelling as one system—so marketing feels like product design, not noise. The alternative is spending more to explain what the product should have made obvious.",
+      text: "This is the philosophy behind my work: product strategy, web experiences, and storytelling as one system-so marketing feels like product design, not noise. The alternative is spending more to explain what the product should have made obvious.",
     },
     {
       type: "p",
@@ -352,10 +352,10 @@ const post: BlogPost = {
         {
           question: "Does this mean we shouldn’t run campaigns?",
           answer:
-            "No. It means campaigns should amplify a coherent product story. Run them when Promise, Path, and Proof are aligned—or run small tests that teach you where they are not.",
+            "No. It means campaigns should amplify a coherent product story. Run them when Promise, Path, and Proof are aligned-or run small tests that teach you where they are not.",
         },
         {
-          question: "Who should own the website—product or marketing?",
+          question: "Who should own the website-product or marketing?",
           answer:
             "Own it jointly with one narrative source of truth. When ownership is a turf war, customers inherit the seams.",
         },

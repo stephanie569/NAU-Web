@@ -6,23 +6,25 @@ export const siteConfig = {
     "nau studio by Stefani Dimitrova. Organic go-to-market and content that matters for product brands growing steadily.",
   email: "info@thetimeisnau.com",
   phone: "+359 888 32 9667",
-  year: "2025",
+  year: "2023",
+  founded: "2023",
 };
 
 export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/studio", label: "Studio" },
-  { href: "/projects", label: "Projects" },
-  { href: "/products", label: "Products" },
+  { href: "/clients", label: "Clients" },
+  { href: "/#pricing", label: "Pricing" },
+  { href: "/store", label: "Store" },
   { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export const footerNavLinks = [
   { href: "/", label: "Home" },
   { href: "/studio", label: "Studio" },
-  { href: "/projects", label: "Projects" },
-  { href: "/products", label: "Products" },
+  { href: "/clients", label: "Clients" },
+  { href: "/#pricing", label: "Pricing" },
+  { href: "/store", label: "Store" },
   { href: "/blog", label: "Blog" },
   { href: "/contact", label: "Contact" },
 ];
@@ -41,15 +43,15 @@ export const services = [
   },
   {
     number: "002",
-    title: "Go-to-Market",
+    title: "Marketing Strategy",
     description:
-      "I turn research into organic go-to-market you can actually run: channels, stories and creative that compound for steady growth.",
+      "I turn research into a marketing strategy you can actually run: channels, stories and creative that compound for steady organic growth.",
   },
   {
     number: "003",
-    title: "Team Content",
+    title: "Content Creation",
     description:
-      "I build founder-led and product-led content that matters, so customers understand the product, not just another post.",
+      "I build the content plan, make the work, or guide your team-so the brand earns organic reach instead of buying attention.",
   },
 ];
 
@@ -135,27 +137,21 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Stefani helped us clarify who the product was for before we spent another euro on content.",
-    author: "Angela Smith",
-    role: "Founder, outdoor apparel brand",
+      "Full 360 - research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
+    author: "The Pine",
+    role: "Outdoor apparel",
   },
   {
     quote:
-      "We needed an organic go-to-market plan, not another social calendar. Strategic, calm and easy to act on.",
-    author: "Christopher Miller",
-    role: "Brand lead, travel products",
+      "We came with the strategy. She built the content that finally sounds like us in the field - stories people actually save and share.",
+    author: "Go Guide",
+    role: "Adventure experiences",
   },
   {
     quote:
-      "Smooth from research to campaign assets. She understands how product customers decide.",
-    author: "Emily Davis",
-    role: "Marketing director, lifestyle products",
-  },
-  {
-    quote:
-      "Clear organic growth thinking for consumer tech. Finally a story the product could live up to.",
-    author: "Anna Martinez",
-    role: "Product marketing, consumer technology",
+      "Sharp market and competitor research that clarified where we actually stand - and who we need to win.",
+    author: "Fly the Earth",
+    role: "Travel brand",
   },
 ];
 
@@ -183,14 +179,9 @@ export const faqs = [
       "No. Content is the last step of the cycle: founder-led and product-led storytelling, proof and campaign assets. Research and positioning come first.",
   },
   {
-    question: "What's included in Go-to-Market work?",
+    question: "What's included in Marketing Strategy work?",
     answer:
       "Organic launch planning, messaging, channel ideas that compound, creative testing and what to measure. Built for steady growth, not a one-week spike.",
-  },
-  {
-    question: "How does Embedded Partner work?",
-    answer:
-      "We agree a custom engagement based on your product and timeline. I work alongside your team across the full cycle: research, positioning, organic launches and content.",
   },
   {
     question: "Can you help if we already launched?",
@@ -207,7 +198,7 @@ export const faqs = [
 export const team = [
   {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & product storytelling",
+    role: "Organic GTM & Product Storytelling",
     bio: "I build for people who sell movement, escape and adventure. My work spans hospitality, outdoor products, adventure experiences and travel technology. You bring the expertise. I help turn it into demand.",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },

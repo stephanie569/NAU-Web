@@ -3,7 +3,7 @@ import type { BlogPost } from "@/lib/blog-types";
 const post: BlogPost = {
   slug: "difference-getting-attention-and-earning-it",
   title: "Getting attention is easy. Earning it is the actual job.",
-  excerpt: "Reach is easy to rent. Belief is harder—and more durable.",
+  excerpt: "Reach is easy to rent. Belief is harder-and more durable.",
   date: "August 24, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-64-earn-attention.png",
@@ -16,7 +16,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Earning attention is a different craft. Someone chooses to give you mindshare because the work was useful, the story was true, a peer vouched, or the product created a moment worth repeating. Reach is easy to rent. Belief is harder—and more durable. If your growth plan only works while the auction runs, you do not have an audience. You have a tab open on someone else’s marketplace.",
+      text: "Earning attention is a different craft. Someone chooses to give you mindshare because the work was useful, the story was true, a peer vouched, or the product created a moment worth repeating. Reach is easy to rent. Belief is harder-and more durable. If your growth plan only works while the auction runs, you do not have an audience. You have a tab open on someone else’s marketplace.",
     },
     {
       type: "p",
@@ -28,12 +28,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Attention is a glance. Belief is a willingness to act, return, or recommend. You can buy the glance. You cannot buy the willingness—only create conditions where it becomes rational. Marketing that optimises purely for attention eventually trains the team to chase spikes. Spikes feel like strategy in the weekly meeting. They feel like nothing in the cohort report.",
+      text: "Attention is a glance. Belief is a willingness to act, return, or recommend. You can buy the glance. You cannot buy the willingness-only create conditions where it becomes rational. Marketing that optimises purely for attention eventually trains the team to chase spikes. Spikes feel like strategy in the weekly meeting. They feel like nothing in the cohort report.",
     },
     {
       type: "ul",
       items: [
-        "Rented attention ends when spend ends—or when the creative fatigues.",
+        "Rented attention ends when spend ends-or when the creative fatigues.",
         "Earned attention lives in memory, habit, and peer recommendation.",
         "Impressions measure exposure. Mentions and return visits measure storage.",
         "Loud is not the same as lasting. Novelty is not the same as trust.",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-paid. I am anti-mistaking a lease for an asset. Related: [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "I am not anti-paid. I am anti-mistaking a lease for an asset. Related: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -53,7 +53,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Rented attention is efficient for testing and amplification. Earned attention is efficient for compounding. The mistake is using rent as a substitute for earning—or treating earning as a vibe instead of a system.",
+      text: "Rented attention is efficient for testing and amplification. Earned attention is efficient for compounding. The mistake is using rent as a substitute for earning-or treating earning as a vibe instead of a system.",
     },
     {
       type: "table",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Interruption gets you into the room. Ads, cold outreach, launch bursts. Fine—when the room contains a story worth staying for. Interruption without a landing belief is how you fund other platforms’ growth targets. Before you scale interruption, ask the five questions in [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Interruption gets you into the room. Ads, cold outreach, launch bursts. Fine-when the room contains a story worth staying for. Interruption without a landing belief is how you fund other platforms’ growth targets. Before you scale interruption, ask the five questions in [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "callout",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Interest starts when someone sees a better tomorrow that matches their friction—not when they see your logo. Progress-led narrative is how attention becomes relevant. Feature packing lists get glances; futures get consideration. See [people don’t buy products—they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
+      text: "Interest starts when someone sees a better tomorrow that matches their friction-not when they see your logo. Progress-led narrative is how attention becomes relevant. Feature packing lists get glances; futures get consideration. See [people don’t buy products-they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
     },
     {
       type: "h3",
@@ -121,7 +121,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Earned attention requires inspectability. Proof, constraints, demos, customer language. People earn the right to be believed by making claims checkable. Vague inspiration is easy to scroll past. Specific evidence is harder to dismiss—and easier to forward.",
+      text: "Earned attention requires inspectability. Proof, constraints, demos, customer language. People earn the right to be believed by making claims checkable. Vague inspiration is easy to scroll past. Specific evidence is harder to dismiss-and easier to forward.",
     },
     {
       type: "ul",
@@ -129,7 +129,7 @@ const post: BlogPost = {
         "Prefer one sharp number over five adjectives.",
         "Show the constraint you designed around; honesty earns more than gloss.",
         "Capture objections in public; answers become assets.",
-        "Make the product experience match the claimed progress—fast.",
+        "Make the product experience match the claimed progress-fast.",
       ],
     },
     {
@@ -155,11 +155,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Getting is legible. Boards understand spend. Agencies understand auctions. Earning is opaque: reputation, cadence, craft. Opaque work looks risky until you notice that rented attention has its own risk—dependency. When the CPMs rise or the creative dies, the company discovers it never owned the relationship.",
+      text: "Getting is legible. Boards understand spend. Agencies understand auctions. Earning is opaque: reputation, cadence, craft. Opaque work looks risky until you notice that rented attention has its own risk-dependency. When the CPMs rise or the creative dies, the company discovers it never owned the relationship.",
     },
     {
       type: "p",
-      text: "There is also a product dodge. It is easier to buy reach than to fix an unclear offer. If every channel underperforms the same way, you may be renting attention for a story that cannot hold it—see [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
+      text: "There is also a product dodge. It is easier to buy reach than to fix an unclear offer. If every channel underperforms the same way, you may be renting attention for a story that cannot hold it-see [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
     },
     {
       type: "h2",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Launch days are classic getting-attention theatre. Useful as a checkpoint. Dangerous as a strategy. Earned launches start weeks earlier with seeded problems, allies, and proof—so day zero concentrates belief instead of begging for strangers. Build the runway: [your launch campaign starts long before launch day](/blog/launch-campaign-starts-long-before-launch-day).",
+      text: "Launch days are classic getting-attention theatre. Useful as a checkpoint. Dangerous as a strategy. Earned launches start weeks earlier with seeded problems, allies, and proof-so day zero concentrates belief instead of begging for strangers. Build the runway: [your launch campaign starts long before launch day](/blog/launch-campaign-starts-long-before-launch-day).",
     },
     {
       type: "h2",
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I build sites and growth systems that treat attention as something to earn and store—not only rent. That usually means clearer story, better proof, and distribution designed as a system. If you are tired of leasing belief, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing). And if marketing should feel less like interruption and more like craft: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "I build sites and growth systems that treat attention as something to earn and store-not only rent. That usually means clearer story, better proof, and distribution designed as a system. If you are tired of leasing belief, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing). And if marketing should feel less like interruption and more like craft: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
     },
     {
       type: "faq",
@@ -249,12 +249,12 @@ const post: BlogPost = {
         {
           question: "Can we earn attention and still run ads?",
           answer:
-            "Yes. Ads work best as amplification of something already believable. Earn first, rent to scale—not the other way around as a permanent lifestyle.",
+            "Yes. Ads work best as amplification of something already believable. Earn first, rent to scale-not the other way around as a permanent lifestyle.",
         },
         {
           question: "Isn’t earning just “content marketing”?",
           answer:
-            "Only if you reduce it to posting. Earning includes product moments, customer stories, founder clarity, community, search usefulness, and peer trust. Content is one instrument—not the orchestra.",
+            "Only if you reduce it to posting. Earning includes product moments, customer stories, founder clarity, community, search usefulness, and peer trust. Content is one instrument-not the orchestra.",
         },
         {
           question: "How long before earned attention shows up?",
@@ -274,7 +274,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Getting attention is easy to buy and easy to lose. Earning attention is harder and compounds. Reach without belief is a lease. Belief without reach still has a future. Build for storage—progress, proof, cadence—and rent only when you have something worth amplifying.",
+      text: "Getting attention is easy to buy and easy to lose. Earning attention is harder and compounds. Reach without belief is a lease. Belief without reach still has a future. Build for storage-progress, proof, cadence-and rent only when you have something worth amplifying.",
     },
     {
       type: "cta",

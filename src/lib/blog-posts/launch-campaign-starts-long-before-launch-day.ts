@@ -8,7 +8,7 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-62-before-launch.png",
   metaDescription:
-    "Your launch campaign starts long before launch day. How to build anticipation, proof, and distribution before you hit publish—so launch day isn’t a cold open.",
+    "Your launch campaign starts long before launch day. How to build anticipation, proof, and distribution before you hit publish-so launch day isn’t a cold open.",
   content: [
     {
       type: "p",
@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about treating launch as a runway, not a moment—what to build before day zero, how to sequence narrative and proof, and why the quiet work before publish determines whether publish matters.",
+      text: "This piece is about treating launch as a runway, not a moment-what to build before day zero, how to sequence narrative and proof, and why the quiet work before publish determines whether publish matters.",
     },
     {
       type: "h2",
@@ -36,7 +36,7 @@ const post: BlogPost = {
         "Launch day concentrates attention for people who already notice you.",
         "Pre-launch builds the reasons strangers might notice you at all.",
         "A date on a calendar does not create demand. It reveals whether demand was prepared.",
-        "If your plan is “post and hope,” you have a announcement—not a campaign.",
+        "If your plan is “post and hope,” you have a announcement-not a campaign.",
       ],
     },
     {
@@ -45,7 +45,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Treat launch day as the moment the runway becomes visible—not the day you start building the runway.",
+      text: "Treat launch day as the moment the runway becomes visible-not the day you start building the runway.",
     },
     {
       type: "h2",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Weeks before ship, start naming the unsatisfactory present. Teach the market the vocabulary of the friction—without pitching the product every time. Seeding is not teaser theatre. It is making the problem feel shared and urgent so the solution has somewhere to land.",
+      text: "Weeks before ship, start naming the unsatisfactory present. Teach the market the vocabulary of the friction-without pitching the product every time. Seeding is not teaser theatre. It is making the problem feel shared and urgent so the solution has somewhere to land.",
     },
     {
       type: "callout",
@@ -109,7 +109,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "2. Signal: show that something is coming—with substance",
+      text: "2. Signal: show that something is coming-with substance",
     },
     {
       type: "p",
@@ -119,7 +119,7 @@ const post: BlogPost = {
       type: "ul",
       items: [
         "Ask waitlist joiners one question that teaches you messaging.",
-        "Share one constraint you are designing around—specificity builds trust.",
+        "Share one constraint you are designing around-specificity builds trust.",
         "Invite a small group who will give you quotes, not just clicks.",
         "Resist counting signups as product-market fit.",
       ],
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Before launch day, decide the better version of tomorrow you are selling—not the feature list. Launch creative should repeat one progress claim until it sticks. If the story is still being debated in Slack on ship morning, you are launching fog. See [people don’t buy products—they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
+      text: "Before launch day, decide the better version of tomorrow you are selling-not the feature list. Launch creative should repeat one progress claim until it sticks. If the story is still being debated in Slack on ship morning, you are launching fog. See [people don’t buy products-they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
     },
     {
       type: "h3",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "On the day, amplify what you already earned. Brief allies. Point to proof. Use channels that were warmed. Paid can help—but only as amplification of something already legible. Before you open the ad account, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "On the day, amplify what you already earned. Brief allies. Point to proof. Use channels that were warmed. Paid can help-but only as amplification of something already legible. Before you open the ad account, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h3",
@@ -146,7 +146,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The week after launch is where most campaigns die of exhaustion. Plan the sustain layer before you ship: follow-up stories, objection FAQs, customer proof, next product moments. Attention without a second act is a spike. Spikes do not compound. For the earned version of this discipline, see [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "The week after launch is where most campaigns die of exhaustion. Plan the sustain layer before you ship: follow-up stories, objection FAQs, customer proof, next product moments. Attention without a second act is a spike. Spikes do not compound. For the earned version of this discipline, see [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -167,7 +167,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Team B spends eight weeks publishing problem essays, interviewing ten design partners in public summaries, running a waitlist with one sharp qualifying question, and briefing five customers who already use a messy workaround. Launch day is louder—but more importantly, week three still has inbound that speaks the same language. Same category. Different preparation invoice.",
+      text: "Team B spends eight weeks publishing problem essays, interviewing ten design partners in public summaries, running a waitlist with one sharp qualifying question, and briefing five customers who already use a messy workaround. Launch day is louder-but more importantly, week three still has inbound that speaks the same language. Same category. Different preparation invoice.",
     },
     {
       type: "ol",
@@ -182,7 +182,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the reverse launch calendar",
-      text: "Draw a twelve-week timeline ending on launch day. Place one seed artefact every fortnight, one signal artefact every week in the final month, and three proof assets that must exist before publish. If the left side of the timeline is empty, you do not have a campaign—you have a date.",
+      text: "Draw a twelve-week timeline ending on launch day. Place one seed artefact every fortnight, one signal artefact every week in the final month, and three proof assets that must exist before publish. If the left side of the timeline is empty, you do not have a campaign-you have a date.",
     },
     {
       type: "h2",
@@ -194,7 +194,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When teams skip market readiness, they often diagnose a “marketing problem” after launch. Sometimes it is. Often it is a product-story problem wearing a campaign costume—see [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
+      text: "When teams skip market readiness, they often diagnose a “marketing problem” after launch. Sometimes it is. Often it is a product-story problem wearing a campaign costume-see [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
     },
     {
       type: "h2",
@@ -202,7 +202,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Pre-launch is when you turn strangers into allies: early users, peers, newsletter writers, community hosts. Allies need briefing, not blasting. Give them a sentence they can own, a proof point they trust, and a reason to care before the algorithmic rush. Earned amplification beats rented reach on day one—and it is cheaper in the long run. More on that distinction: [the difference between getting attention and earning it](/blog/difference-getting-attention-and-earning-it).",
+      text: "Pre-launch is when you turn strangers into allies: early users, peers, newsletter writers, community hosts. Allies need briefing, not blasting. Give them a sentence they can own, a proof point they trust, and a reason to care before the algorithmic rush. Earned amplification beats rented reach on day one-and it is cheaper in the long run. More on that distinction: [the difference between getting attention and earning it](/blog/difference-getting-attention-and-earning-it).",
     },
     {
       type: "table",
@@ -224,7 +224,7 @@ const post: BlogPost = {
           "Specific outcomes, not adjectives",
         ],
         [
-          "Ally brief (5–15 people)",
+          "Ally brief (5-15 people)",
           "Founder",
           "They can retell your tomorrow in one line",
         ],
@@ -249,7 +249,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I treat launch as a system: narrative, site, proof, and distribution designed together—often starting weeks before anything public looks like a “campaign.” If what you need is not another announcement template, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "I treat launch as a system: narrative, site, proof, and distribution designed together-often starting weeks before anything public looks like a “campaign.” If what you need is not another announcement template, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "faq",
@@ -257,10 +257,10 @@ const post: BlogPost = {
         {
           question: "How long before launch should the campaign start?",
           answer:
-            "Long enough to test language and gather proof—often six to twelve weeks for early-stage. Shorter is fine if you already have allies and clarity. Zero weeks is a press release with anxiety.",
+            "Long enough to test language and gather proof-often six to twelve weeks for early-stage. Shorter is fine if you already have allies and clarity. Zero weeks is a press release with anxiety.",
         },
         {
-          question: "What if we’re still building—can we seed without spoiling?",
+          question: "What if we’re still building-can we seed without spoiling?",
           answer:
             "Yes. Seed the problem and the criteria for a good solution. Signal constraints and learning. You do not need to leak the roadmap to earn attention for the friction you solve.",
         },
@@ -282,7 +282,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Your launch campaign starts long before launch day—when you name the problem, gather proof, brief allies, and lock a tomorrow people can retell. Publish day should feel like a concentration of belief, not a cold open. Build the runway. Then the moment matters.",
+      text: "Your launch campaign starts long before launch day-when you name the problem, gather proof, brief allies, and lock a tomorrow people can retell. Publish day should feel like a concentration of belief, not a cold open. Build the runway. Then the moment matters.",
     },
     {
       type: "cta",

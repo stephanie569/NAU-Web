@@ -9,15 +9,15 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-52-thinking-advantage.png",
   metaDescription:
-    "As AI makes writing cheaper, competitive advantage shifts further toward thinking, judgement, and strategy—not typing speed or output volume.",
+    "As AI makes writing cheaper, competitive advantage shifts further toward thinking, judgement, and strategy-not typing speed or output volume.",
   content: [
     {
       type: "p",
-      text: "There was a brief cultural moment when typing fast looked like competence. Fingers flying. Slack green. Documents multiplying. I have never been convinced. Speed at the keyboard was always a thin proxy for value—useful for deadlines, useless as a strategy. Now that models can generate drafts in seconds, the proxy has finally collapsed in public.",
+      text: "There was a brief cultural moment when typing fast looked like competence. Fingers flying. Slack green. Documents multiplying. I have never been convinced. Speed at the keyboard was always a thin proxy for value-useful for deadlines, useless as a strategy. Now that models can generate drafts in seconds, the proxy has finally collapsed in public.",
     },
     {
       type: "p",
-      text: "Your competitive advantage was never typing faster. It was knowing what deserved to be typed at all. As writing becomes easier, thinking becomes more valuable—not less. The market is flooding with articulate output. The scarce resource is judgement about direction, trade-offs, and taste.",
+      text: "Your competitive advantage was never typing faster. It was knowing what deserved to be typed at all. As writing becomes easier, thinking becomes more valuable-not less. The market is flooding with articulate output. The scarce resource is judgement about direction, trade-offs, and taste.",
     },
     {
       type: "p",
@@ -105,7 +105,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Not every decision needs a war room. The ones that set direction do: audience, offer, positioning, pricing logic, proof standards, what you will not say. Block thinking time as if it were a client meeting. Because it is—future-you is the client. Strategy before screens still applies; see [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma).",
+      text: "Not every decision needs a war room. The ones that set direction do: audience, offer, positioning, pricing logic, proof standards, what you will not say. Block thinking time as if it were a client meeting. Because it is-future-you is the client. Strategy before screens still applies; see [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma).",
     },
     {
       type: "callout",
@@ -173,7 +173,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why product strategy before designing a screen still matters—and why marketing that feels like product design outperforms marketing that feels like content factory work. See [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design) and [a product strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen).",
+      text: "This is why product strategy before designing a screen still matters-and why marketing that feels like product design outperforms marketing that feels like content factory work. See [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design) and [a product strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen).",
     },
     {
       type: "ul",
@@ -206,7 +206,7 @@ const post: BlogPost = {
         "Before generating assets, write the decision each asset depends on.",
         "If the decision is missing, stop generating and decide.",
         "Cap weekly public artefacts until the spine is stable for fourteen days.",
-        "Use AI to explore options inside the decision—not to postpone it.",
+        "Use AI to explore options inside the decision-not to postpone it.",
         "Review whether last week’s output made this week’s decisions easier.",
       ],
     },
@@ -226,7 +226,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For decision quality under uncertainty, [Harvard Business Review](https://hbr.org/) remains a practical source on judgement and strategy. [Nielsen Norman Group](https://www.nngroup.com/) is useful when “thinking” must become usable interfaces and content. Daniel Kahneman’s work on [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) is a reminder that fluency is not the same as correctness—especially relevant when models make fluency effortless.",
+      text: "For decision quality under uncertainty, [Harvard Business Review](https://hbr.org/) remains a practical source on judgement and strategy. [Nielsen Norman Group](https://www.nngroup.com/) is useful when “thinking” must become usable interfaces and content. Daniel Kahneman’s work on [Thinking, Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow) is a reminder that fluency is not the same as correctness-especially relevant when models make fluency effortless.",
     },
     {
       type: "h2",
@@ -250,7 +250,7 @@ const post: BlogPost = {
         {
           question: "Are you saying writing skill no longer matters?",
           answer:
-            "Writing skill still matters—especially editing, structure, and voice. What no longer differentiates is raw production speed. Taste and clarity still do.",
+            "Writing skill still matters-especially editing, structure, and voice. What no longer differentiates is raw production speed. Taste and clarity still do.",
         },
         {
           question: "What if my competitors publish ten times more than us?",
@@ -279,7 +279,7 @@ const post: BlogPost = {
     },
     {
       type: "cta",
-      lead: "Want help redesigning your marketing system around judgement and leverage—not output theatre?",
+      lead: "Want help redesigning your marketing system around judgement and leverage-not output theatre?",
       button: "Talk about how you work",
       href: "/contact",
     },

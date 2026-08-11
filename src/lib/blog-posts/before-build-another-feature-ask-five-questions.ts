@@ -8,7 +8,7 @@ const post: BlogPost = {
   category: "Research & Positioning",
   image: "/images/blog/blog-59-five-questions-feature.png",
   metaDescription:
-    "Five questions to ask before building another feature—pain evidence, who benefits, opportunity cost, first-win path, and kill criteria—to stop roadmap theatre.",
+    "Five questions to ask before building another feature-pain evidence, who benefits, opportunity cost, first-win path, and kill criteria-to stop roadmap theatre.",
   content: [
     {
       type: "p",
@@ -16,7 +16,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I have helped kill more features on paper than I have designed in Figma—and that is intentional. Building is the expensive step. Asking better questions is the cheap one. This checklist is for stopping roadmap theatre before it ships.",
+      text: "I have helped kill more features on paper than I have designed in Figma-and that is intentional. Building is the expensive step. Asking better questions is the cheap one. This checklist is for stopping roadmap theatre before it ships.",
     },
     {
       type: "p",
@@ -49,7 +49,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "1. What painful behaviour does this change—and how do we know?",
+      text: "1. What painful behaviour does this change-and how do we know?",
     },
     {
       type: "p",
@@ -57,7 +57,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "2. Who gets the value—and are they the ones who renew?",
+      text: "2. Who gets the value-and are they the ones who renew?",
     },
     {
       type: "p",
@@ -69,7 +69,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Opportunity cost is the adult question. A feature is not plus-one. It is minus something else: the first-win path, the performance work, the onboarding rewrite, the sales cycle shortening. If you cannot name the sacrifice, you are not prioritising—you are collecting.",
+      text: "Opportunity cost is the adult question. A feature is not plus-one. It is minus something else: the first-win path, the performance work, the onboarding rewrite, the sales cycle shortening. If you cannot name the sacrifice, you are not prioritising-you are collecting.",
     },
     {
       type: "h3",
@@ -90,7 +90,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Print the five questions at the top of every PRD or linear ticket template. Refuse estimation until all five have answers in plain language. Incomplete answers are a valid reason to park work—more valid than “we already designed the screens.”",
+      text: "Print the five questions at the top of every PRD or linear ticket template. Refuse estimation until all five have answers in plain language. Incomplete answers are a valid reason to park work-more valid than “we already designed the screens.”",
     },
     {
       type: "h2",
@@ -147,7 +147,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When a feature clears the five questions, still ship it as a trial: limited surface, clear success metric, review date. Marriage can wait. This is especially true when early customers are teaching you—see [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher).",
+      text: "When a feature clears the five questions, still ship it as a trial: limited surface, clear success metric, review date. Marriage can wait. This is especially true when early customers are teaching you-see [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher).",
     },
     {
       type: "ol",
@@ -156,7 +156,7 @@ const post: BlogPost = {
         "Instrument one primary metric and two guardrails (e.g. activation, support volume).",
         "Set a review date before the sprint starts.",
         "Publish the kill criteria in the same channel as the launch note.",
-        "If it fails, remove it—do not hide it in a settings graveyard.",
+        "If it fails, remove it-do not hide it in a settings graveyard.",
       ],
     },
     {
@@ -182,7 +182,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise",
-      text: "Pick three features shipped in the last six months. Run them backwards through the five questions using today’s data. Which would you still green-light? Which were roadmap theatre? Write one paragraph per feature. Share it without blame—this is calibration, not a tribunal. Then apply the same bar to the next item in the queue.",
+      text: "Pick three features shipped in the last six months. Run them backwards through the five questions using today’s data. Which would you still green-light? Which were roadmap theatre? Write one paragraph per feature. Share it without blame-this is calibration, not a tribunal. Then apply the same bar to the next item in the queue.",
     },
     {
       type: "h2",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes speed beats ceremony: a legal requirement, a clear blocker to activation, a bet with a tiny blast radius and a fixed review date. The five questions still help—they just resolve quickly. What they prevent is the vague middle: medium effort, unclear owner, eternal maintenance.",
+      text: "Sometimes speed beats ceremony: a legal requirement, a clear blocker to activation, a bet with a tiny blast radius and a fixed review date. The five questions still help-they just resolve quickly. What they prevent is the vague middle: medium effort, unclear owner, eternal maintenance.",
     },
     {
       type: "p",
@@ -202,14 +202,14 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If product writes a green-lit brief and design invents three extra modes “while we’re here,” you have not asked the questions—you have hosted them. The five questions belong in critique. Designers ask whether the interaction shortens first-win. Engineers ask whether the abstraction creates permanent surface area for a temporary bet. QA asks what failure would look like against the kill criteria.",
+      text: "If product writes a green-lit brief and design invents three extra modes “while we’re here,” you have not asked the questions-you have hosted them. The five questions belong in critique. Designers ask whether the interaction shortens first-win. Engineers ask whether the abstraction creates permanent surface area for a temporary bet. QA asks what failure would look like against the kill criteria.",
     },
     {
       type: "ul",
       items: [
         "Design critique: remove anything that does not serve the stated behaviour change.",
         "Engineering estimate: include maintenance and support load, not only build hours.",
-        "Release note: restate the painful behaviour you intended to change—so success is checkable.",
+        "Release note: restate the painful behaviour you intended to change-so success is checkable.",
         "Retro: compare outcome to kill criteria without protecting egos or tickets.",
       ],
     },
@@ -227,7 +227,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "That is why the opportunity-cost question is not philosophical. It is compound interest on distraction. If your launch underperformed and the instinct is to ship “one more differentiator,” pause. Differentiator theatre is still theatre. Diagnose readiness first—then decide whether a feature is the lever at all.",
+      text: "That is why the opportunity-cost question is not philosophical. It is compound interest on distraction. If your launch underperformed and the instinct is to ship “one more differentiator,” pause. Differentiator theatre is still theatre. Diagnose readiness first-then decide whether a feature is the lever at all.",
     },
     {
       type: "h2",

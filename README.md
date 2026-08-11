@@ -1,10 +1,10 @@
-# Fabrica® Studio — NAU Site
+# Fabrica® Studio - NAU Site
 
 A Fabrica-inspired creative studio portfolio built with Next.js, inspired by the [Fabrica Framer template](https://www.framer.com/community/marketplace/templates/fabrica/) by Anatolii Dmitrienko.
 
 ## About this project
 
-This is a **code recreation** of the Fabrica template's design language — monochrome aesthetic, large typography, grid layout, and all core pages. It is **not** the official Framer template files.
+This is a **code recreation** of the Fabrica template's design language - monochrome aesthetic, large typography, grid layout, and all core pages. It is **not** the official Framer template files.
 
 To use the **official Fabrica template** in Framer:
 
@@ -14,12 +14,12 @@ To use the **official Fabrica template** in Framer:
 
 ## Pages
 
-- **Home** — Hero, services, stats, clients, projects, testimonials, blog preview, FAQ
-- **Studio** — About, team, careers
-- **Projects** — Filterable project grid with case study detail pages
-- **Blog** — Article listing and detail pages
-- **Contact** — Contact form and info
-- **Legal** — Privacy Policy, Terms of Service
+- **Home** - Hero, services, stats, clients, projects, testimonials, blog preview, FAQ
+- **Studio** - About, team, careers
+- **Projects** - Filterable project grid with case study detail pages
+- **Blog** - Article listing and detail pages
+- **Contact** - Contact form and info
+- **Legal** - Privacy Policy, Terms of Service
 
 ## Getting started
 

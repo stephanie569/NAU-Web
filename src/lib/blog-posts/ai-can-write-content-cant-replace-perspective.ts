@@ -4,7 +4,7 @@ const post: BlogPost = {
   slug: "ai-can-write-content-cant-replace-perspective",
   title: "AI can write the post. It can't be you.",
   excerpt:
-    "Tools can draft paragraphs. They cannot decide what you uniquely see—and that is still the scarce advantage.",
+    "Tools can draft paragraphs. They cannot decide what you uniquely see-and that is still the scarce advantage.",
   date: "August 17, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-51-ai-perspective.png",
@@ -13,7 +13,7 @@ const post: BlogPost = {
   content: [
     {
       type: "p",
-      text: "I have watched founders paste a bland brief into a model, receive a polished paragraph, and look briefly relieved—as if the hard part of marketing had been solved by fluent sentences. The sentences were fine. The problem is that fine sentences are now abundant. What remains scarce is the thing the model cannot invent without you: a point of view earned from contact with reality.",
+      text: "I have watched founders paste a bland brief into a model, receive a polished paragraph, and look briefly relieved-as if the hard part of marketing had been solved by fluent sentences. The sentences were fine. The problem is that fine sentences are now abundant. What remains scarce is the thing the model cannot invent without you: a point of view earned from contact with reality.",
     },
     {
       type: "p",
@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about why perspective is still the moat, when AI content feels empty even when it is competent, and how to use drafting tools as labour—not as a substitute for judgement. Related: [your competitive advantage was never typing faster](/blog/competitive-advantage-was-never-typing-faster).",
+      text: "This piece is about why perspective is still the moat, when AI content feels empty even when it is competent, and how to use drafting tools as labour-not as a substitute for judgement. Related: [your competitive advantage was never typing faster](/blog/competitive-advantage-was-never-typing-faster).",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
         "Fluent prose can now be produced without a fluent mind behind it.",
         "Readers still detect when nothing is at stake in the argument.",
         "Perspective is what makes one piece worth forwarding when ten others cover the “same” topic.",
-        "If your draft could be published by any competitor with a different logo, you do not have a perspective problem—you have a commodity.",
+        "If your draft could be published by any competitor with a different logo, you do not have a perspective problem-you have a commodity.",
       ],
     },
     {
@@ -58,7 +58,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Models are trained on averages. Averages are useful for orientation and dangerous as a brand voice. When you ship average thinking in elegant packaging, the packaging becomes the product—and packaging does not compound. For how trust actually forms, see [people trust people before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "Models are trained on averages. Averages are useful for orientation and dangerous as a brand voice. When you ship average thinking in elegant packaging, the packaging becomes the product-and packaging does not compound. For how trust actually forms, see [people trust people before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "table",
@@ -105,7 +105,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Perspective begins before the blank page. It begins in sales calls, support tickets, failed experiments, awkward product decisions, and the sentence a customer used that no competitor’s landing page repeats. Keep a raw log. Not polished insights—raw notices. Models can rearrange notices. They cannot attend your Tuesday demos.",
+      text: "Perspective begins before the blank page. It begins in sales calls, support tickets, failed experiments, awkward product decisions, and the sentence a customer used that no competitor’s landing page repeats. Keep a raw log. Not polished insights-raw notices. Models can rearrange notices. They cannot attend your Tuesday demos.",
     },
     {
       type: "callout",
@@ -118,7 +118,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A stake is a sentence that commits. “Consistency beats brilliance” is a stake. “Here are five tips for growth” is not. Before you open a drafting tool, write one stake in plain language. If you cannot, you are not ready to generate—you are ready to research. Curiosity still beats prompt tricks; more on that in [the best prompt is still a good question](/blog/best-prompt-is-still-good-question).",
+      text: "A stake is a sentence that commits. “Consistency beats brilliance” is a stake. “Here are five tips for growth” is not. Before you open a drafting tool, write one stake in plain language. If you cannot, you are not ready to generate-you are ready to research. Curiosity still beats prompt tricks; more on that in [the best prompt is still a good question](/blog/best-prompt-is-still-good-question).",
     },
     {
       type: "h3",
@@ -133,7 +133,7 @@ const post: BlogPost = {
       items: [
         "Write the stake and the audience in one sentence each.",
         "List two lived examples the model cannot invent (names changed as needed).",
-        "Ask for structure options—not final copy.",
+        "Ask for structure options-not final copy.",
         "Draft or expand only after you choose the structure.",
         "Edit for voice until a colleague could identify it as yours without looking at the byline.",
       ],
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Polish without perspective is a well-ironed empty shirt. Ship the claim. Accept that someone will disagree. Disagreement is often a sign you said something. Silence is what commodity content receives. Cadence still matters—perspective compounds when it is repeated with integrity, not when it is reinvented weekly. See [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Polish without perspective is a well-ironed empty shirt. Ship the claim. Accept that someone will disagree. Disagreement is often a sign you said something. Silence is what commodity content receives. Cadence still matters-perspective compounds when it is repeated with integrity, not when it is reinvented weekly. See [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "takeaway",
@@ -173,11 +173,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A moat is not a slogan about uniqueness. It is a reason a peer prefers your articulation when alternatives exist. Perspective becomes a moat when it is specific, repeated, and tied to proof. Specificity comes from contact. Repetition comes from systems. Proof comes from product and customer reality—not from adjectives.",
+      text: "A moat is not a slogan about uniqueness. It is a reason a peer prefers your articulation when alternatives exist. Perspective becomes a moat when it is specific, repeated, and tied to proof. Specificity comes from contact. Repetition comes from systems. Proof comes from product and customer reality-not from adjectives.",
     },
     {
       type: "p",
-      text: "This is why organic growth still has to be earned even when drafting is free: [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned). Free words do not equal earned attention. Attention still tracks belief.",
+      text: "This is why organic growth still has to be earned even when drafting is free: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned). Free words do not equal earned attention. Attention still tracks belief.",
     },
     {
       type: "ul",
@@ -204,7 +204,7 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "Audit the last six published pieces for a single spine you could name in one sentence.",
-        "If you cannot name it, write the spine before the next draft—not after.",
+        "If you cannot name it, write the spine before the next draft-not after.",
         "Replace one “tips” piece with one stake drawn from a real conversation.",
         "Keep AI for expansion and structure once the stake and examples exist.",
         "Measure replies and forwards, not only impressions, for four weeks.",
@@ -213,7 +213,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Take your last three AI-assisted posts. Delete the first paragraph of each. If what remains could belong to any brand in your category, rewrite from a stake before you schedule anything else. Volume that dilutes perspective is not a content strategy—it is identity erosion. Related: [don’t let AI become your personality](/blog/dont-let-ai-become-your-personality).",
+      text: "Take your last three AI-assisted posts. Delete the first paragraph of each. If what remains could belong to any brand in your category, rewrite from a stake before you schedule anything else. Volume that dilutes perspective is not a content strategy-it is identity erosion. Related: [don’t let AI become your personality](/blog/dont-let-ai-become-your-personality).",
     },
     {
       type: "h2",
@@ -221,7 +221,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For how people evaluate credibility online, [Nielsen Norman Group](https://www.nngroup.com/) remains practical on trust heuristics. [Harvard Business Review](https://hbr.org/) regularly covers differentiation and brand meaning without reducing everything to content hacks. The [Stanford Encyclopedia of Philosophy entry on points of view](https://plato.stanford.edu/) is denser than a growth tweet—and occasionally useful when you need language for why “seeing-as” matters. None of these replace sitting with customers.",
+      text: "For how people evaluate credibility online, [Nielsen Norman Group](https://www.nngroup.com/) remains practical on trust heuristics. [Harvard Business Review](https://hbr.org/) regularly covers differentiation and brand meaning without reducing everything to content hacks. The [Stanford Encyclopedia of Philosophy entry on points of view](https://plato.stanford.edu/) is denser than a growth tweet-and occasionally useful when you need language for why “seeing-as” matters. None of these replace sitting with customers.",
     },
     {
       type: "h2",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "And when the work gets operational—what to automate versus what to own—read [AI should handle the repetition; you should keep the judgement](/blog/ai-should-handle-repetition-you-keep-judgement).",
+      text: "And when the work gets operational-what to automate versus what to own-read [AI should handle the repetition; you should keep the judgement](/blog/ai-should-handle-repetition-you-keep-judgement).",
     },
     {
       type: "faq",
@@ -246,7 +246,7 @@ const post: BlogPost = {
         {
           question: "How do I know if a piece has perspective?",
           answer:
-            "Ask: could a competitor publish this unchanged? Would a sceptical customer recognise their world in it? Does it risk a claim? If the answers are yes, no, and no—rewrite.",
+            "Ask: could a competitor publish this unchanged? Would a sceptical customer recognise their world in it? Does it risk a claim? If the answers are yes, no, and no-rewrite.",
         },
         {
           question: "What if my industry is heavily regulated and I cannot be opinionated?",
@@ -266,7 +266,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "AI will keep getting better at producing paragraphs. That is not a threat to people who have something to say. It is a threat to people who mistook paragraph production for strategy. Protect the notice. Force the stake. Let tools shape the labour. Ship the perspective. That is still the advantage—and it was never available in the autocomplete.",
+      text: "AI will keep getting better at producing paragraphs. That is not a threat to people who have something to say. It is a threat to people who mistook paragraph production for strategy. Protect the notice. Force the stake. Let tools shape the labour. Ship the perspective. That is still the advantage-and it was never available in the autocomplete.",
     },
     {
       type: "cta",

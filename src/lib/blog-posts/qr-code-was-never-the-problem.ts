@@ -8,11 +8,11 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-43-qr-code.png",
   metaDescription:
-    "The QR code was never the problem—context was. Why promise-before-scan, placement, and bridge design matter far more than the scanning technology itself.",
+    "The QR code was never the problem-context was. Why promise-before-scan, placement, and bridge design matter far more than the scanning technology itself.",
   content: [
     {
       type: "p",
-      text: "Every few years the industry rediscovers QR codes, declares them back, then blames the technology when campaigns flop. That is a category error. The QR code is a door. Doors are not interesting. What is on either side of the door—and why someone would walk through—is the entire craft.",
+      text: "Every few years the industry rediscovers QR codes, declares them back, then blames the technology when campaigns flop. That is a category error. The QR code is a door. Doors are not interesting. What is on either side of the door-and why someone would walk through-is the entire craft.",
     },
     {
       type: "p",
@@ -36,7 +36,7 @@ const post: BlogPost = {
         "It is not a creative idea.",
         "It is not a strategy.",
         "It is not proof of innovation.",
-        "It is a bridge between two moments—if both moments deserve each other.",
+        "It is a bridge between two moments-if both moments deserve each other.",
       ],
     },
     {
@@ -49,7 +49,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I evaluate QR usage with a three-part bridge. Fail any span and the whole thing collapses—usually onto a slow landing page that looks like it was built for desktop in 2019.",
+      text: "I evaluate QR usage with a three-part bridge. Fail any span and the whole thing collapses-usually onto a slow landing page that looks like it was built for desktop in 2019.",
     },
     {
       type: "table",
@@ -74,7 +74,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Promise is the most neglected. Marketers obsess over code aesthetics and UTM hygiene while putting nothing human-readable next to the square. Strangers do not scan mysteries unless the mystery is the product—and even then, only if the culture around it supports play.",
+      text: "Promise is the most neglected. Marketers obsess over code aesthetics and UTM hygiene while putting nothing human-readable next to the square. Strangers do not scan mysteries unless the mystery is the product-and even then, only if the culture around it supports play.",
     },
     {
       type: "image",
@@ -91,7 +91,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A commute scan must be faster than a gallery scan. A queue can tolerate a slightly richer payoff than a pavement dash. Design for the seconds people actually have—not the seconds your analytics dashboard wishes they had.",
+      text: "A commute scan must be faster than a gallery scan. A queue can tolerate a slightly richer payoff than a pavement dash. Design for the seconds people actually have-not the seconds your analytics dashboard wishes they had.",
     },
     {
       type: "h3",
@@ -142,7 +142,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Treat the post-scan page as a first-run experience. One job. One primary action. Proof adjacent to the claim. Fast load. No bait-and-switch. If the poster promised a map, open the map. If it promised a sample request, show a three-field form—not your company’s life story.",
+      text: "Treat the post-scan page as a first-run experience. One job. One primary action. Proof adjacent to the claim. Fast load. No bait-and-switch. If the poster promised a map, open the map. If it promised a sample request, show a three-field form-not your company’s life story.",
     },
     {
       type: "ul",
@@ -150,12 +150,12 @@ const post: BlogPost = {
         "Unique URL per placement so you can learn which contexts convert.",
         "Mobile-first layout tested on mid-range Android in sunlight.",
         "Offline fallback where relevant (festival wifi is a rumour).",
-        "A thank-you state that can be screenshotted—people like receipts.",
+        "A thank-you state that can be screenshotted-people like receipts.",
       ],
     },
     {
       type: "p",
-      text: "This is the same discipline as web conversion work—see [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert) and [why startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds)—applied to a colder start. The user did not search for you. They interrupted themselves for you. Repay that.",
+      text: "This is the same discipline as web conversion work-see [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert) and [why startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds)-applied to a colder start. The user did not search for you. They interrupted themselves for you. Repay that.",
     },
     {
       type: "h2",
@@ -181,7 +181,7 @@ const post: BlogPost = {
         "Check size, height, contrast, and glare at the real location.",
         "Time the path from scan to promised value on a mid-range phone.",
         "Kill or redirect any code that dumps to a generic homepage.",
-        "Add one metric that matters (completion of the promised action)—not just scans.",
+        "Add one metric that matters (completion of the promised action)-not just scans.",
       ],
     },
     {
@@ -232,7 +232,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "At nau, I treat QR—and any physical-to-digital handoff—as product design in public. Context first. Promise second. Payoff third. Tracking last. If you reverse that order, you get dashboards full of scans and customers full of regret.",
+      text: "At nau, I treat QR-and any physical-to-digital handoff-as product design in public. Context first. Promise second. Payoff third. Tracking last. If you reverse that order, you get dashboards full of scans and customers full of regret.",
     },
     {
       type: "cta",

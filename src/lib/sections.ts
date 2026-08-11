@@ -1,11 +1,15 @@
 export const selectedWorkSection = {
   title: "Selected Work",
-  period: "(2018–2026)",
   projects: [
     {
       id: "the-pine",
       name: "The Pine",
       src: "/logos/the-pine.png",
+    },
+    {
+      id: "go-guide",
+      name: "Go Guide",
+      src: "/logos/go-guide.png",
     },
     {
       id: "yan-bibiyan",
@@ -14,12 +18,12 @@ export const selectedWorkSection = {
     },
     {
       id: "fly-the-earth",
-      name: "Fly The Earth",
+      name: "Fly the Earth",
       src: "/logos/fly-the-earth.png",
     },
     {
       id: "dea-accelerate",
-      name: "DEA Accelerate",
+      name: "DEA",
       src: "/logos/dea.png",
     },
     {
@@ -29,7 +33,7 @@ export const selectedWorkSection = {
     },
     {
       id: "patronaj",
-      name: "Patronaj",
+      name: "Patronaj.net",
       src: "/logos/patronaj.png",
     },
   ],
@@ -87,26 +91,28 @@ export const projectsSectionCopy = {
   count: 27,
   description:
     "Selected work with product brands growing steadily: organic go-to-market, positioning and content that matters.",
+  cta: "View all clients",
+  ctaHref: "/clients",
+  homeLimit: 4,
 };
 
 export const projectsPageCopy = {
-  range: "(2018–2026)",
-  title: "Projects.",
+  title: "Clients.",
   description:
-    "Work across the full cycle: Research & Positioning, organic Go-to-Market, and Team Content.",
+    "Work across the full cycle: Research & Positioning, Marketing Strategy, and Content Creation.",
   searchPlaceholder: "Search…",
   categoryLabel: "Category",
   categories: [
     "Research & Positioning",
-    "Go-to-Market",
-    "Team Content",
+    "Marketing Strategy",
+    "Content Creation",
   ],
   ctaLead:
-    "Need Research & Positioning, organic Go-to-Market, or content that matters?",
+    "Need Research & Positioning, Marketing Strategy, or content that matters?",
   ctaHighlight: "I'm here to help.",
   contact: {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & product storytelling",
+    role: "Organic GTM & Product Storytelling",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
 };
@@ -127,7 +133,7 @@ export const projectsPageItems = [
     title: "Shoreline.",
     displayName: "Shoreline",
     year: "2025",
-    category: "Go-to-Market",
+    category: "Marketing Strategy",
     image:
       "https://framerusercontent.com/images/r3DvXiPExOamPrqqTNfWM1K9o4.jpg",
     logo: "https://framerusercontent.com/images/PyQzA1IF3BF1gkVO1xuZHClY0c.svg",
@@ -137,7 +143,7 @@ export const projectsPageItems = [
     title: "Fieldkit.",
     displayName: "Fieldkit",
     year: "2024",
-    category: "Go-to-Market",
+    category: "Marketing Strategy",
     image:
       "https://framerusercontent.com/images/UPqJOHQLdYtNuK2jee5437Lno.jpg",
     logo: "https://framerusercontent.com/images/j2k0BUaOnC0jNyx5dP4hieQnFL4.svg",
@@ -157,7 +163,7 @@ export const projectsPageItems = [
     title: "Summit Co.",
     displayName: "Summit Co.",
     year: "2023",
-    category: "Go-to-Market",
+    category: "Marketing Strategy",
     image:
       "https://framerusercontent.com/images/0KGHRsvK3go8kOWricmADe0VWs.jpg",
     logo: "https://framerusercontent.com/images/JLzkuHlsyLa7VHaiV3ZJ16kiHhg.svg",
@@ -167,7 +173,7 @@ export const projectsPageItems = [
     title: "Lenscraft.",
     displayName: "Lenscraft",
     year: "2020",
-    category: "Go-to-Market",
+    category: "Marketing Strategy",
     image:
       "https://framerusercontent.com/images/qiCYd5j7XEmvyt9BpMldI3mNm8.jpg",
     logo: "https://framerusercontent.com/images/zCY9SAfJ5gqVMOvrM5dzywwbU.svg",
@@ -200,13 +206,13 @@ export const servicesItems = [
   },
   {
     number: "002",
-    title: "Go-to-Market",
+    title: "Marketing Strategy",
     description:
-      "I turn research into organic go-to-market you can actually run: channels, stories and creative that compound for steady growth.",
+      "I turn research into a marketing strategy you can actually run: channels, stories and creative that compound for steady organic growth.",
     thumbnail: img("qQlR5lTiRYzT2lPzSWLLVkcgH6Y"),
     categories: [
-      "Organic GTM",
-      "Launch strategy",
+      "Organic growth strategy",
+      "Launch planning",
       "Channel planning",
       "Campaign concepts",
       "Product storytelling",
@@ -216,16 +222,16 @@ export const servicesItems = [
   },
   {
     number: "003",
-    title: "Team Content",
+    title: "Content Creation",
     description:
-      "I build founder-led and product-led content that matters, so customers understand the product, not just another post.",
-    thumbnail: img("9hTP0obDSaEcVCyC5kaHbx7FfI"),
+      "I plan it, make it, or guide your team - so brands that sell movement, escape and adventure earn organic reach instead of buying attention.",
+    thumbnail: "/images/service-content-creation.png",
     categories: [
+      "Content planning",
       "Founder-led content",
-      "Product-led storytelling",
-      "Customer stories",
+      "Product storytelling",
+      "Team guidance",
       "Short-form video",
-      "Product photography",
       "Campaign assets",
     ],
     extraCount: "6+",
@@ -235,7 +241,7 @@ export const servicesItems = [
 export const testimonialsSectionCopy = {
   label: "Testimonials",
   title: "Experiences.",
-  year: "©2025",
+  year: "Founded 2023",
   summary: {
     rating: "4.9",
     suffix: "/5",
@@ -243,38 +249,38 @@ export const testimonialsSectionCopy = {
     text: "with product brands that needed organic growth plans and content that matched the product.",
     intro: "I've worked on",
     projectCount: "27+",
-    trustedBy: "Trusted by product brands growing steadily",
-    cta: "Leave a review",
+    trustedBy: "Trusted by brands in movement, escape and adventure",
+    cta: "Work with me",
     avatars: [
-      "7XElicIcn53vdnwyFHTpct98",
-      "D53nCbgrC45WamdByYxomUf9c",
-      "fqOOPJWEd96G4368QW9n1dcVU",
-      "lVMA2BWo8D0yz8GINpzGpDx4",
+      "/logos/testimonial-the-pine.png",
+      "/logos/testimonial-go-guide.png",
+      "/logos/testimonial-fly-the-earth.png",
+      "/logos/yan-bibiyan.png",
     ],
   },
   reviews: [
     {
-      author: "James Carter",
-      role: "Outdoor apparel brand",
+      author: "The Pine",
+      role: "Outdoor apparel",
       quote:
-        "Incredible work—delivered exactly what we needed, on time and beyond expectations.",
-      image: "i3aEeezQjGIGVleGgSPry44QwKo",
-      layout: "profile-top",
+        "Full 360 - research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
+      image: "/logos/testimonial-the-pine.png",
+      layout: "profile-top-box",
     },
     {
-      author: "Emily Davis",
-      role: "Travel products brand",
+      author: "Go Guide",
+      role: "Adventure experiences",
       quote:
-        "A smooth process from start to finish. Highly professional and thoughtful.",
-      image: "7A0a2DwVW1CflEhx9hinSNdRmw",
+        "We came with the strategy. She built the content that finally sounds like us in the field - stories people actually save and share.",
+      image: "/logos/testimonial-go-guide.png",
       layout: "profile-bottom",
     },
     {
-      author: "Anna Martinez",
-      role: "Consumer technology",
+      author: "Fly the Earth",
+      role: "Travel brand",
       quote:
-        "Our new branding is exactly what we envisioned—clean, modern, and unique.",
-      image: "Lr6nDfwod2cfh3RCn5wxChQoOg",
+        "Sharp market and competitor research that clarified where we actually stand - and who we need to win.",
+      image: "/logos/testimonial-fly-the-earth.png",
       layout: "profile-top-box",
     },
   ],
@@ -286,158 +292,219 @@ export const pricingSectionCopy = {
   recommendedBadge: "Recommended",
   deliveryLabel: "Delivery",
   outcomeLabel: "Outcome",
-  includesLabel: "Includes",
+  collaborationLabel: "Collaboration",
+  includesLabel: "You get",
   cta: "Work with me",
-  embeddedNote: {
-    title: "Strategy + production, included",
-    description:
-      "Organic GTM, creative direction and content that matters come with the engagement.",
-  },
-  addon: {
-    title: "Bring it to life",
-    description:
-      "Once positioning is clear, I'll make the content with your team.",
-    price: "+$1,500",
-    features: [
-      "Founder videos",
-      "Team content",
-      "Product photography",
-      "Product demos",
-      "Website assets",
-      "Campaign content",
-      "Short-form video",
-      "Behind-the-scenes",
-    ],
-  },
+  contentAddonsLabel: "Add content",
+  contentAddonsSummary: "Optional after strategy is locked",
+  contentAddons: [
+    {
+      id: "ugc-creator",
+      title: "Remote UGC content",
+      summary:
+        "I create the content on camera - authentic UGC your brand can run across organic and paid. Shot remotely.",
+      price: "From +€900",
+      features: [
+        "1 remote shoot block",
+        "4-6 UGC-style short videos, edited (15-45s)",
+        "Hooks and scripts aligned to your messaging",
+        "Product-in-hand and talking-to-camera formats",
+        "Captions and file handoff",
+        "2 revision rounds on selects",
+      ],
+    },
+    {
+      id: "production-sprint",
+      title: "Team content",
+      summary:
+        "A full content day with founder, product and campaign video - shot remotely or on-site in Europe.",
+      price: "From +€1,400",
+      features: [
+        "1 full-day content session (founder + product)",
+        "6-8 short-form videos, edited (15-45s)",
+        "1 product demo cut (60-90s)",
+        "Website hero video + 3 campaign cuts",
+        "Shot list, captions and file handoff",
+        "2 revision rounds on selects",
+      ],
+    },
+  ],
   packages: [
     {
       id: "strategy-sprint",
       name: "Strategy Sprint",
-      price: "From $2,500",
+      price: "From €2,400",
       unit: "",
       forWhom: "Clarity first. Grow steadily later.",
-      delivery: "2–3 weeks",
+      delivery: "2-3 weeks",
       recommended: false,
+      collaboration: [
+        "Free discovery call (30 min) before you commit",
+        "Kickoff workshop (90 min)",
+        "2 working sessions (60 min each)",
+        "Final walkthrough (60 min)",
+        "Async feedback in shared docs",
+        "2 revision rounds on the pack",
+      ],
       includes: [
-        "Market research",
-        "Competitor analysis",
-        "Product positioning",
-        "Customer personas",
-        "Value proposition",
-        "Messaging framework",
-        "Product audit",
-        "Recommendations",
+        "Research pack, 10-14 pages: market, category, product audit",
+        "Competitor teardown: 5-8 brands",
+        "2-3 customer personas with jobs-to-be-done",
+        "Positioning one-pager (who it's for, why it wins)",
+        "Value proposition + messaging framework, 6-8 pages",
+        "Tone of voice starter (do / don't examples)",
+        "Recommendations brief with next steps (2-3 pages)",
+      ],
+      highlights: [
+        "Research pack, 10-14 pages: market, category, product audit",
+        "Competitor teardown: 5-8 brands",
+        "2-3 customer personas with jobs-to-be-done",
+        "4-6 UGC-style short videos, edited (15-45s)",
       ],
       outcome: "Who it's for, why it matters, how to say it.",
       allowsAddon: true,
+      contentAddonChoice: true,
     },
     {
       id: "launch-partner",
       name: "Launch Partner",
-      price: "From $5,000",
+      price: "From €4,800",
       unit: "",
       forWhom: "Organic go-to-market you can actually run.",
-      delivery: "4–6 weeks",
+      delivery: "4-6 weeks",
       recommended: true,
+      collaboration: [
+        "Free discovery call (30 min) before you commit",
+        "Kickoff workshop (90 min)",
+        "4 working sessions (60 min each)",
+        "Mid-point review (45 min)",
+        "Final walkthrough (60 min)",
+        "Async feedback in shared docs",
+        "2 revision rounds on the full pack",
+      ],
       includes: [
         "Everything in Strategy Sprint",
-        "Organic go-to-market strategy",
-        "Campaign strategy",
-        "Content strategy",
-        "Launch roadmap",
-        "Website messaging",
-        "Creative direction",
-        "Founder content plan",
-        "Organic growth ideas",
-        "Success metrics",
+        "Organic GTM plan, 5-10 pages: channels, sequence, owners",
+        "90-day launch roadmap with weekly milestones",
+        "Campaign strategy: 2-3 launch angles with hooks",
+        "Content strategy: pillars + 30-day calendar",
+        "Founder content plan: 8-12 shot / story ideas",
+        "Website messaging outline: home + 3 key pages",
+        "Creative direction notes (mood, references, formats)",
+        "Organic growth ideas list (15-20 tactics)",
+        "KPI sheet: what to measure in the first 90 days",
       ],
       outcome: "A steady growth plan, not a launch-day spike.",
       allowsAddon: true,
+      contentAddonChoice: true,
+      contentAddonLabel: "Bring it to life",
     },
     {
-      id: "embedded-partner",
-      name: "Embedded Partner",
-      price: "Custom",
+      id: "content-sprint",
+      name: "Content Sprint",
+      price: "From €900",
       unit: "",
-      forWhom: "The full 360. Research to content that matters.",
-      delivery: "Ongoing",
+      forWhom: "You already have the vision. You need content that matches it.",
+      delivery: "1-2 weeks",
       recommended: false,
-      includes: [
-        "Product immersion",
-        "Strategy workshops",
-        "Customer interviews",
-        "Product positioning",
-        "Ongoing organic GTM",
-        "Creative direction",
-        "Founder-led content",
-        "Team content",
-        "Product photography",
-        "Campaign production",
-        "Launch assets",
-        "Iteration",
+      collaboration: [
+        "Free discovery call (30 min) - confirm fit, not a strategy deep-dive",
+        "Creative alignment session (45 min) on hooks, tone and formats",
+        "Async feedback on selects",
+        "2 revision rounds",
       ],
-      outcome: "A partner across the whole cycle, not a one-off creator.",
+      includes: [
+        "Your existing strategy is the brief - no repositioning work",
+        "Hooks and scripts aligned to your messaging before we shoot",
+        "Shot list and production plan",
+        "Captions and organised file handoff",
+      ],
+      outcome: "Content you can post - without redoing strategy.",
       allowsAddon: false,
+      contentAddonChoice: true,
+      contentAddonLabel: "Choose format",
+      contentAddonSummary: "Remote UGC or a team content day",
+      contentOnly: true,
     },
   ],
-  guides: {
-    eyebrow: "Start smaller",
-    title: "Digital guides",
-    price: "$19–99",
-    forWhom: "Self-paced. Strategy on paper before you hire anyone.",
-    note: "Paid online. Find a QR across Europe and they're free.",
-    cta: "Get it",
-    qrCta: "Found a QR?",
-    qrNote: "Email me where you found it—I'll send the guide free.",
-    qrLinkLabel: "Claim free →",
-    items: [
-      {
-        id: "organic-marketing-ideas",
-        title: "Organic marketing ideas",
-        price: "$19",
-        blurb: "Earned ideas—not another content calendar.",
-      },
-      {
-        id: "product-positioning-workbook",
-        title: "Product positioning workbook",
-        price: "$29",
-        blurb: "Who it's for, why it matters, how to say it.",
-      },
-      {
-        id: "launch-planning-template",
-        title: "Launch planning template",
-        price: "$39",
-        blurb: "A roadmap you can actually run.",
-      },
-      {
-        id: "go-to-market-playbook",
-        title: "Go-to-market playbook",
-        price: "$49",
-        blurb: "Channels, story and a launch sequence that holds.",
-      },
-      {
-        id: "product-validation-guide",
-        title: "Product validation guide",
-        price: "$79",
-        blurb: "Test the product before you spend on the story.",
-      },
-      {
-        id: "from-research-to-launch",
-        title: "From research to launch",
-        price: "$99",
-        blurb: "The full path in one guide—strategy before spend.",
-      },
+  storeTeaser: {
+    id: "digital-guides",
+    name: "Digital Guides",
+    eyebrow: "Self-paced",
+    price: "From $19",
+    forWhom:
+      "If you already have a strategy and you enjoy doing your content, but you need just a little reassurance and polishing - here is a portal to my store, where you can find digital guides created from me to you.",
+    outcome: "Strategy on paper. Pick what you need, when you need it.",
+    delivery: "Instant download",
+    cta: "Explore the store",
+    href: "/store",
+    highlights: [
+      "Positioning, launch and organic growth playbooks",
+      "Built from real client work - not generic templates",
+      "Use them alone, or before you hire me",
+      "Paid online - or free if you find a nau QR across Europe",
     ],
   },
 };
 
+export const storeSectionCopy = {
+  title: "Store",
+  subtitle: "Digital guides. Paid online - or free if you find a QR across Europe.",
+  intro:
+    "Self-paced strategy on paper before you hire anyone. Find a nau QR on a sticker somewhere across Europe and that same guide is free - say where you found it and I'll send the file.",
+  stickers:
+    "Stickers are free to friends, partners and brands building gear worth talking about.",
+  qrCta: "Found a QR?",
+  qrNote: "Email me where you found it - I'll send the guide free.",
+  qrLinkLabel: "Claim free",
+  cta: "Get it",
+  items: [
+    {
+      id: "organic-marketing-ideas",
+      title: "Organic marketing ideas",
+      price: "$19",
+      blurb: "Earned ideas - not another content calendar.",
+    },
+    {
+      id: "product-positioning-workbook",
+      title: "Product positioning workbook",
+      price: "$29",
+      blurb: "Who it's for, why it matters, how to say it.",
+    },
+    {
+      id: "launch-planning-template",
+      title: "Launch planning template",
+      price: "$39",
+      blurb: "A roadmap you can actually run.",
+    },
+    {
+      id: "go-to-market-playbook",
+      title: "Go-to-market playbook",
+      price: "$49",
+      blurb: "Channels, story and a launch sequence that holds.",
+    },
+    {
+      id: "product-validation-guide",
+      title: "Product validation guide",
+      price: "$79",
+      blurb: "Test the product before you spend on the story.",
+    },
+    {
+      id: "from-research-to-launch",
+      title: "From research to launch",
+      price: "$99",
+      blurb: "The full path in one guide - strategy before spend.",
+    },
+  ],
+};
+
 export const moreServicesSectionCopy = {
   label: "Looking for more?",
-  headlineLead: "Need Research & Positioning, organic Go-to-Market, or content that matters.",
+  headlineLead: "Need Research & Positioning, Marketing Strategy, or content that matters.",
   headlineRest: "I shape the mix around your product. The full cycle stays connected.",
   contact: {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & product storytelling",
+    role: "Organic GTM & Product Storytelling",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
 };
@@ -467,14 +534,14 @@ export const teamSectionCopy = {
     src: "/images/stefani-dimitrova-portrait.jpg",
     alt: "Stefani Dimitrova, founder of nau studio",
     caption: "Stefani Dimitrova",
-    role: "Organic GTM & product storytelling",
+    role: "Organic GTM & Product Storytelling",
   },
 };
 
 export const teamMembers = [
   {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & product storytelling",
+    role: "Organic GTM & Product Storytelling",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
 ];
@@ -506,14 +573,9 @@ export const faqItems = [
       "No. Content is the last step of the cycle: founder-led and product-led storytelling, proof and campaign assets. Research and positioning come first.",
   },
   {
-    question: "What's included in Go-to-Market work?",
+    question: "What's included in Marketing Strategy work?",
     answer:
       "Organic launch planning, messaging, channel ideas that compound, creative testing and what to measure. Built for steady growth, not a one-week spike.",
-  },
-  {
-    question: "How does Embedded Partner work?",
-    answer:
-      "We agree a custom engagement based on your product and timeline. I work alongside your team across the full cycle: research, positioning, organic launches and content.",
   },
   {
     question: "Can you help if we already launched?",
@@ -575,44 +637,45 @@ export const contactSectionCopy = {
   },
   placeholders: {
     name: "John Doe",
-    email: "hello@site.com",
-    message: "Your message",
+    email: "you@brand.com",
+    message: "Tell me about the product and where growth feels stuck.",
   },
   submit: "Send Message",
   legalLead: "By submitting, you agree to my",
   legalLink: "Terms and Privacy Policy.",
   headline: "Let's talk.",
   subheadline:
-    "Organic go-to-market and content that matters for product brands growing steadily. The full cycle from research to storytelling stays connected.",
+    "I work with brands that sell movement, escape and adventure - outdoor, travel, experiences and product brands that want steady organic growth.",
   benefits: [
     {
-      title: "Full cycle, not just posts.",
+      title: "Research to Content Creation.",
       description:
-        "Research, positioning, organic GTM and content stay one path. That's the difference from hiring a creator alone.",
+        "Research & Positioning, Marketing Strategy and Content Creation stay one 360 cycle - so the story matches the product and the growth plan holds.",
     },
     {
-      title: "Clear next steps.",
+      title: "A clear next step.",
       description:
-        "After we talk, I'll share a practical plan to move forward.",
+        "Share a short note about your brand. I'll suggest whether you need clarity, a launch plan, or content that finally matches what you sell.",
     },
   ],
 };
 
 export const contactPageCopy = {
   title: "Get in touch.",
-  subheadlineLead: "Growing a product brand steadily?",
-  subheadlineRest: " Reach out. I'll suggest a clear next step.",
+  subheadlineLead: "Selling movement, escape or adventure?",
+  subheadlineRest:
+    " Reach out. I'll suggest a next step across Research & Positioning, Marketing Strategy or Content Creation.",
   teamLead: {
     name: "Stefani Dimitrova",
-    role: "Organic GTM & product storytelling",
+    role: "Organic GTM & Product Storytelling",
     image: "/images/stefani-dimitrova-portrait.jpg",
   },
   placeholders: {
     name: "Your name *",
     email: "Email *",
-    message: "Your message",
+    message: "Tell me about the product and where growth feels stuck.",
   },
-  submit: "Submit",
+  submit: "Send Message",
   legalLead: "By submitting, you agree to my",
   termsLabel: "Terms",
   privacyLabel: "Privacy Policy",

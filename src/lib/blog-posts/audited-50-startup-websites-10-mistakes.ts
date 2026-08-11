@@ -5,12 +5,12 @@ const post: BlogPost = {
   title:
     "I audited 50 product brand sites. Same 10 fails, every time.",
   excerpt:
-    "Fifty brand sites across outdoor, travel and consumer goods—same conversion habits: vague headlines, weak proof, cluttered heroes.",
+    "Fifty brand sites across outdoor, travel and consumer goods-same conversion habits: vague headlines, weak proof, cluttered heroes.",
   date: "July 18, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-32-50-websites.png",
   metaDescription:
-    "Ten recurring mistakes on product brand websites—and how to fix hero clarity, proof and conversion paths before you spend on traffic.",
+    "Ten recurring mistakes on product brand websites-and how to fix hero clarity, proof and conversion paths before you spend on traffic.",
   content: [
     {
       type: "p",
@@ -18,11 +18,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If traffic is decent but demos, trials, or inbound leads are weak, start here. These are the ten mistakes I saw again and again—and what to do instead. This is not a taste lecture. It is a conversion autopsy.",
+      text: "If traffic is decent but demos, trials, or inbound leads are weak, start here. These are the ten mistakes I saw again and again-and what to do instead. This is not a taste lecture. It is a conversion autopsy.",
     },
     {
       type: "p",
-      text: "A note on method: I reviewed public marketing sites the way a cold visitor would—first viewport, mobile path, proof placement, forms, speed feel, and whether a stranger could explain the offer. Patterns beat anecdotes. These ten showed up often enough to treat as a checklist, not a mood.",
+      text: "A note on method: I reviewed public marketing sites the way a cold visitor would-first viewport, mobile path, proof placement, forms, speed feel, and whether a stranger could explain the offer. Patterns beat anecdotes. These ten showed up often enough to treat as a checklist, not a mood.",
     },
     {
       type: "callout",
@@ -69,13 +69,13 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "Keep brand, headline, one support line, and one CTA group above the fold.",
-        "Move secondary proof below the first scroll—still early, not stacked into chaos.",
+        "Move secondary proof below the first scroll-still early, not stacked into chaos.",
         "Delete any hero element that does not help the visitor decide “this is for me.”",
       ],
     },
     {
       type: "h2",
-      text: "3. Social proof arrives late—or looks empty",
+      text: "3. Social proof arrives late-or looks empty",
     },
     {
       type: "p",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Rewrite your top six features as “So that…” statements. If you cannot finish the sentence with a customer outcome, cut or demote the feature on the marketing site—even if it still exists in the product.",
+      text: "Rewrite your top six features as “So that…” statements. If you cannot finish the sentence with a customer outcome, cut or demote the feature on the marketing site-even if it still exists in the product.",
     },
     {
       type: "h2",
@@ -167,7 +167,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Long forms on cold traffic signal risk. Ask for the minimum needed to start a conversation—then earn the right to ask for more.",
+      text: "Long forms on cold traffic signal risk. Ask for the minimum needed to start a conversation-then earn the right to ask for more.",
     },
     {
       type: "p",
@@ -179,7 +179,7 @@ const post: BlogPost = {
         "For cold traffic: name + work email may be enough to start.",
         "Add fields only when conversion quality measurably improves.",
         "Offer a low-commitment alternative (short video, interactive demo, sample report).",
-        "Say what happens after submit—and mean it.",
+        "Say what happens after submit-and mean it.",
       ],
     },
     {
@@ -188,7 +188,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Heavy hero videos, unoptimised images, and script bloat punish both search and conversion. Performance is part of the product experience—especially for first-time visitors.",
+      text: "Heavy hero videos, unoptimised images, and script bloat punish both search and conversion. Performance is part of the product experience-especially for first-time visitors.",
     },
     {
       type: "p",
@@ -204,7 +204,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Beautiful pages with vague H1s, missing meta descriptions, and no internal links leave search engines—and answer engines—with nothing clear to cite. Structure is strategy.",
+      text: "Beautiful pages with vague H1s, missing meta descriptions, and no internal links leave search engines-and answer engines-with nothing clear to cite. Structure is strategy.",
     },
     {
       type: "ul",
@@ -212,7 +212,7 @@ const post: BlogPost = {
         "One clear H1 that matches the page’s job.",
         "Meta description that states outcome + audience without clickbait nonsense.",
         "Internal links between related proof, pricing, and use-case pages.",
-        "Descriptive titles that a human would click—and a crawler can interpret.",
+        "Descriptive titles that a human would click-and a crawler can interpret.",
       ],
     },
     {
@@ -253,7 +253,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "A startup website’s job is not to impress peers. It is to make the right customer feel understood—and take one confident next step.",
+      text: "A startup website’s job is not to impress peers. It is to make the right customer feel understood-and take one confident next step.",
     },
     {
       type: "h2",
@@ -264,9 +264,9 @@ const post: BlogPost = {
       items: [
         "Read your homepage out loud. Can a stranger repeat the offer?",
         "On mobile, is the main CTA obvious in under five seconds?",
-        "Check one proof point per major claim—or remove the claim.",
+        "Check one proof point per major claim-or remove the claim.",
         "Reduce the first viewport to brand, headline, support line, and one CTA group.",
-        "Measure form completion and bounce by device—not just traffic.",
+        "Measure form completion and bounce by device-not just traffic.",
       ],
     },
     {
@@ -280,7 +280,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Several sites failed basic readability: low contrast, missing labels, keyboard traps in cookie banners. That is not only unethical product behaviour—it is conversion loss you will never see cleanly in a dashboard. Use [WCAG guidance](https://www.w3.org/WAI/standards-guidelines/wcag/) as a practical standard, not a legal panic button.",
+      text: "Several sites failed basic readability: low contrast, missing labels, keyboard traps in cookie banners. That is not only unethical product behaviour-it is conversion loss you will never see cleanly in a dashboard. Use [WCAG guidance](https://www.w3.org/WAI/standards-guidelines/wcag/) as a practical standard, not a legal panic button.",
     },
     {
       type: "h2",
@@ -304,7 +304,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Late or empty proof, forms that demand commitment early, and no clear path after interest. The visitor understands roughly what you do—and still does not feel safe taking the next step. Place risk reduction beside risk. Reduce asks until belief is earned.",
+      text: "Late or empty proof, forms that demand commitment early, and no clear path after interest. The visitor understands roughly what you do-and still does not feel safe taking the next step. Place risk reduction beside risk. Reduce asks until belief is earned.",
     },
     {
       type: "h3",
@@ -312,7 +312,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Mobile afterthoughts, slow pages, inaccessible patterns, and SEO structure that fights the story. The visitor might have believed you—if the page had not punished their attention. Performance and structure are part of conversion, not “engineering chores.”",
+      text: "Mobile afterthoughts, slow pages, inaccessible patterns, and SEO structure that fights the story. The visitor might have believed you-if the page had not punished their attention. Performance and structure are part of conversion, not “engineering chores.”",
     },
     {
       type: "p",
@@ -321,7 +321,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Prioritisation rule",
-      text: "Comprehension first, then trust, then experience polish. A fast, accessible page with a vague promise still fails. A clear promise on a slightly imperfect page can still convert—and then you earn the right to refine craft.",
+      text: "Comprehension first, then trust, then experience polish. A fast, accessible page with a vague promise still fails. A clear promise on a slightly imperfect page can still convert-and then you earn the right to refine craft.",
     },
     {
       type: "h2",
@@ -329,7 +329,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a sharper site that converts, I help founders rebuild messaging, structure, and design around buyer intent—not internal assumptions. The goal is fewer clever sections and more clear ones.",
+      text: "If you want a sharper site that converts, I help founders rebuild messaging, structure, and design around buyer intent-not internal assumptions. The goal is fewer clever sections and more clear ones.",
     },
     {
       type: "p",
@@ -341,7 +341,7 @@ const post: BlogPost = {
         {
           question: "Do we need a full redesign to fix these?",
           answer:
-            "Usually no. Many of the highest-ROI fixes are messaging, hierarchy, proof placement, form length, and performance. Redesign when structure cannot carry the story—not when the team is bored of the colour palette.",
+            "Usually no. Many of the highest-ROI fixes are messaging, hierarchy, proof placement, form length, and performance. Redesign when structure cannot carry the story-not when the team is bored of the colour palette.",
         },
         {
           question: "What if our category is complex?",
@@ -366,11 +366,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The fifty sites were not failing because teams lacked taste. They were failing because the page asked visitors to work too hard for too little certainty. Fix the ten habits above and your traffic starts behaving like an asset again—instead of a polite crowd that applauds and leaves.",
+      text: "The fifty sites were not failing because teams lacked taste. They were failing because the page asked visitors to work too hard for too little certainty. Fix the ten habits above and your traffic starts behaving like an asset again-instead of a polite crowd that applauds and leaves.",
     },
     {
       type: "cta",
-      lead: "Need an honest look at your startup website—and a clear plan for what is blocking conversions?",
+      lead: "Need an honest look at your startup website-and a clear plan for what is blocking conversions?",
       button: "Request a website review",
       href: "/contact",
     },

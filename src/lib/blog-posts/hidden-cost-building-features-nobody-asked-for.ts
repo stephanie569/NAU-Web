@@ -4,12 +4,12 @@ const post: BlogPost = {
   slug: "hidden-cost-building-features-nobody-asked-for",
   title: "That feature nobody asked for? It's quietly costing you.",
   excerpt:
-    "Unused features do not just waste sprint time. They slow onboarding, confuse positioning, and make every future decision more expensive—here is how to stop paying that tax.",
+    "Unused features do not just waste sprint time. They slow onboarding, confuse positioning, and make every future decision more expensive-here is how to stop paying that tax.",
   date: "July 20, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-08-features.png",
   metaDescription:
-    "Learn the hidden costs of shipping unused features—complexity, slower onboarding, weaker positioning—and a practical framework to build only what customers need.",
+    "Learn the hidden costs of shipping unused features-complexity, slower onboarding, weaker positioning-and a practical framework to build only what customers need.",
   content: [
     {
       type: "p",
@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I have watched this pattern across early-stage products in AI, hospitality, and consumer tools. The team is rarely careless. They are trying to be helpful. Helpfulness without a job-to-be-done is how products become museums of unfinished intentions. If you are deciding what to build next quarter—or what to cut—this is the discipline I use at nau.",
+      text: "I have watched this pattern across early-stage products in AI, hospitality, and consumer tools. The team is rarely careless. They are trying to be helpful. Helpfulness without a job-to-be-done is how products become museums of unfinished intentions. If you are deciding what to build next quarter-or what to cut-this is the discipline I use at nau.",
     },
     {
       type: "h2",
@@ -29,7 +29,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Y Combinator’s library on product and growth repeatedly returns to a related idea: focus is a strategy, not a personality trait. You can read that framing in the [Y Combinator Library](https://www.ycombinator.com/library). The same lesson shows up in product–market fit work: clarity beats coverage. I wrote about that failure mode in [why great products fail before product–market fit](/blog/why-great-products-fail-before-product-market-fit).",
+      text: "Y Combinator’s library on product and growth repeatedly returns to a related idea: focus is a strategy, not a personality trait. You can read that framing in the [Y Combinator Library](https://www.ycombinator.com/library). The same lesson shows up in product-market fit work: clarity beats coverage. I wrote about that failure mode in [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit).",
     },
     {
       type: "callout",
@@ -42,7 +42,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The invoice for feature bloat does not arrive in one line item. It arrives as slower learning, messier positioning, and a product that is harder to sell—even when the core is strong.",
+      text: "The invoice for feature bloat does not arrive in one line item. It arrives as slower learning, messier positioning, and a product that is harder to sell-even when the core is strong.",
     },
     {
       type: "h3",
@@ -58,7 +58,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Marketing pages multiply to justify modules. Navigation grows. Search engines and humans both struggle to understand what the site is about. Google’s guidance on helpful, people-first content rewards clarity of purpose—see [Google Search Central](https://developers.google.com/search/docs). A product that tries to be everything becomes hard to rank for anything specific.",
+      text: "Marketing pages multiply to justify modules. Navigation grows. Search engines and humans both struggle to understand what the site is about. Google’s guidance on helpful, people-first content rewards clarity of purpose-see [Google Search Central](https://developers.google.com/search/docs). A product that tries to be everything becomes hard to rank for anything specific.",
     },
     {
       type: "h3",
@@ -66,7 +66,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When the product does twelve things poorly and two things well, sales defaults to a tour. Tours are not persuasion. Persuasion is “for this customer, we remove this cost.” Feature sprawl turns demos into inventory lists. Buyers leave impressed and undecided—the most expensive emotional state in B2B.",
+      text: "When the product does twelve things poorly and two things well, sales defaults to a tour. Tours are not persuasion. Persuasion is “for this customer, we remove this cost.” Feature sprawl turns demos into inventory lists. Buyers leave impressed and undecided-the most expensive emotional state in B2B.",
     },
     {
       type: "h3",
@@ -82,7 +82,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Every feature is a vote for what your product is. Cast enough vague votes and customers cannot repeat your promise. That is a clarity problem dressed as a roadmap problem—related to [your product’s clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Every feature is a vote for what your product is. Cast enough vague votes and customers cannot repeat your promise. That is a clarity problem dressed as a roadmap problem-related to [your product’s clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "table",
@@ -112,7 +112,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Unused features tax onboarding, sales clarity, SEO structure, and engineering speed—long after the sprint that shipped them is forgotten.",
+      text: "Unused features tax onboarding, sales clarity, SEO structure, and engineering speed-long after the sprint that shipped them is forgotten.",
     },
     {
       type: "h2",
@@ -120,11 +120,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Imagine a fictional startup, Ledgerly—an invoicing tool for freelancers. Core job: get paid faster. After three months of decent retention, a few agencies ask for “team permissions,” “white-label PDFs,” and “multi-currency tax packs.” None of those requests come from the ICP that is already paying. The team ships all three in a quarter. Homepage now leads with “built for teams.” Freelancers bounce. Agencies still want Salesforce-level depth. Support tickets shift from “how do I get paid” to “why can’t my contractor see X.” The product did not get worse at invoicing. It got worse at being about invoicing.",
+      text: "Imagine a fictional startup, Ledgerly-an invoicing tool for freelancers. Core job: get paid faster. After three months of decent retention, a few agencies ask for “team permissions,” “white-label PDFs,” and “multi-currency tax packs.” None of those requests come from the ICP that is already paying. The team ships all three in a quarter. Homepage now leads with “built for teams.” Freelancers bounce. Agencies still want Salesforce-level depth. Support tickets shift from “how do I get paid” to “why can’t my contractor see X.” The product did not get worse at invoicing. It got worse at being about invoicing.",
     },
     {
       type: "p",
-      text: "Contrast that with how Linear kept issue tracking sharp, or how early Stripe refused to become “every financial product.” Focus is not anti-ambition. It is sequenced ambition. Airbnb’s early product discipline—host trust and booking clarity before feature theatre—is a useful reminder that growth often follows a narrower promise, not a wider one. I tear down related homepage clarity in [the Airbnb homepage teardown](/blog/product-teardown-airbnb-homepage).",
+      text: "Contrast that with how Linear kept issue tracking sharp, or how early Stripe refused to become “every financial product.” Focus is not anti-ambition. It is sequenced ambition. Airbnb’s early product discipline-host trust and booking clarity before feature theatre-is a useful reminder that growth often follows a narrower promise, not a wider one. I tear down related homepage clarity in [the Airbnb homepage teardown](/blog/product-teardown-airbnb-homepage).",
     },
     {
       type: "h2",
@@ -132,12 +132,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Before anything enters the build queue, I run five questions. If any answer is mushy, the feature waits—or dies. This pairs with [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building), applied at feature scale.",
+      text: "Before anything enters the build queue, I run five questions. If any answer is mushy, the feature waits-or dies. This pairs with [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building), applied at feature scale.",
     },
     {
       type: "ol",
       items: [
-        "Job: Which specific progress does this create for a named ICP—not a persona poster?",
+        "Job: Which specific progress does this create for a named ICP-not a persona poster?",
         "Evidence: What behaviour, quote, or retention signal proves the job is urgent now?",
         "Outcome metric: What measurable change do we expect in 14 days after launch?",
         "Smallest ship: What is the thinnest experience that creates that outcome?",
@@ -163,7 +163,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Require a job, evidence, metric, smallest ship, and kill criteria—or do not build. Hope is not a requirements document.",
+      text: "Require a job, evidence, metric, smallest ship, and kill criteria-or do not build. Hope is not a requirements document.",
     },
     {
       type: "h2",
@@ -185,7 +185,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Nielsen Norman Group’s research on information scent and cognitive load is useful when you redesign IA after a cut—browse [NN/g](https://www.nngroup.com/). Users do not thank you for options they never needed. They thank you for finding the outcome faster.",
+      text: "Nielsen Norman Group’s research on information scent and cognitive load is useful when you redesign IA after a cut-browse [NN/g](https://www.nngroup.com/). Users do not thank you for options they never needed. They thank you for finding the outcome faster.",
     },
     {
       type: "h2",
@@ -199,9 +199,9 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "Write the product’s one-sentence job for the primary ICP on a whiteboard. No commas that smuggle in extra audiences.",
-        "List the last eight shipped features. Score each 0–2 for: used in first session, used weekly by retained users, mentioned unprompted in sales or support.",
-        "Anything scoring 0–1 across the board is a candidate for sunset or deep hide.",
-        "Pick one candidate. Write the Feature Focus Filter answers. If you cannot, schedule deletion—not a redesign.",
+        "List the last eight shipped features. Score each 0-2 for: used in first session, used weekly by retained users, mentioned unprompted in sales or support.",
+        "Anything scoring 0-1 across the board is a candidate for sunset or deep hide.",
+        "Pick one candidate. Write the Feature Focus Filter answers. If you cannot, schedule deletion-not a redesign.",
         "Agree the next two builds only if they improve Core time-to-value or remove a measured belief gap.",
       ],
     },
@@ -215,11 +215,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s hardware and software often win by saying no to configurations that would please a loud minority. Notion stayed expandable without making every template a default obligation in the first session. Figma’s early collaborative editing was a sharp bet, not a kitchen sink. None of these companies are feature-free. They are feature-sequenced. The difference is whether new surface area serves a clear job for a clear customer—or soothes internal anxiety.",
+      text: "Apple’s hardware and software often win by saying no to configurations that would please a loud minority. Notion stayed expandable without making every template a default obligation in the first session. Figma’s early collaborative editing was a sharp bet, not a kitchen sink. None of these companies are feature-free. They are feature-sequenced. The difference is whether new surface area serves a clear job for a clear customer-or soothes internal anxiety.",
     },
     {
       type: "p",
-      text: "Harvard Business Review’s writing on strategy as choice—what you will not do—is older than most SaaS categories and still sharper than most roadmap rituals. Start at [HBR](https://hbr.org/) if you need language for saying no in the boardroom without sounding stubborn.",
+      text: "Harvard Business Review’s writing on strategy as choice-what you will not do-is older than most SaaS categories and still sharper than most roadmap rituals. Start at [HBR](https://hbr.org/) if you need language for saying no in the boardroom without sounding stubborn.",
     },
     {
       type: "quote",
@@ -231,7 +231,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Features do not live only in the app. They leak into homepage claims, pricing tables, and onboarding checklists. If marketing promises a capability that 2% of users ever touch, you train buyers to expect a different product. That is how beautiful sites still fail to convert—covered in [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert). Align the public story to Core. Let Adjacent live behind progressive disclosure.",
+      text: "Features do not live only in the app. They leak into homepage claims, pricing tables, and onboarding checklists. If marketing promises a capability that 2% of users ever touch, you train buyers to expect a different product. That is how beautiful sites still fail to convert-covered in [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert). Align the public story to Core. Let Adjacent live behind progressive disclosure.",
     },
     {
       type: "p",
@@ -243,7 +243,7 @@ const post: BlogPost = {
         {
           question: "What if a big prospect requires a feature to close?",
           answer:
-            "Price it as a project or enterprise add-on, time-box the build, and refuse to put it on the homepage until Core users need it. One deal should not redefine the product for everyone—unless that deal is your new ICP on purpose.",
+            "Price it as a project or enterprise add-on, time-box the build, and refuse to put it on the homepage until Core users need it. One deal should not redefine the product for everyone-unless that deal is your new ICP on purpose.",
         },
         {
           question: "How do we sunset without angering users?",
@@ -253,7 +253,7 @@ const post: BlogPost = {
         {
           question: "Isn’t shipping fast how startups learn?",
           answer:
-            "Shipping experiments is learning. Shipping permanent UI without kill criteria is accumulating inventory. Prefer reversible probes—concierge, waitlists, manual workflows—before durable surface area.",
+            "Shipping experiments is learning. Shipping permanent UI without kill criteria is accumulating inventory. Prefer reversible probes-concierge, waitlists, manual workflows-before durable surface area.",
         },
         {
           question: "Where should we put the time we save by cutting?",
@@ -272,7 +272,7 @@ const post: BlogPost = {
         "Write one Core job sentence and pin it where roadmap debates happen.",
         "Kill or hide one Orphan feature with a dated plan.",
         "Add kill criteria to every in-flight ticket before more build hours.",
-        "Align homepage and onboarding to Core only—no orphan promises.",
+        "Align homepage and onboarding to Core only-no orphan promises.",
         "Review activation for the cohort that never touches secondary modules.",
       ],
     },
@@ -282,25 +282,25 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Print this and keep it next to the backlog. If a ticket cannot survive it, it does not belong in the sprint—however small it looks on paper.",
+      text: "Print this and keep it next to the backlog. If a ticket cannot survive it, it does not belong in the sprint-however small it looks on paper.",
     },
     {
       type: "ul",
       items: [
         "We can name the ICP who needs this without saying “also useful for…”.",
         "We can point to evidence newer than a single anecdote from last quarter.",
-        "We know the metric that would make us proud—and the metric that would make us delete it.",
+        "We know the metric that would make us proud-and the metric that would make us delete it.",
         "We have checked that shipping it will not slow Core time-to-value.",
         "We are willing to hide it if adoption fails, not quietly leave it in the nav forever.",
       ],
     },
     {
       type: "p",
-      text: "Restraint is not scarcity theatre. It is respect for attention—theirs and yours. Build less that matters more. The market rarely asks for a bigger product. It asks for a clearer one. When you need a partner to run that filter with you—not another brainstorm sticky—bring the roadmap and the support themes. The cuts are usually obvious once the Core job is written in ink.",
+      text: "Restraint is not scarcity theatre. It is respect for attention-theirs and yours. Build less that matters more. The market rarely asks for a bigger product. It asks for a clearer one. When you need a partner to run that filter with you-not another brainstorm sticky-bring the roadmap and the support themes. The cuts are usually obvious once the Core job is written in ink.",
     },
     {
       type: "cta",
-      lead: "Need help deciding what to build—and what to cut—next quarter?",
+      lead: "Need help deciding what to build-and what to cut-next quarter?",
       button: "Run a feature focus session",
       href: "/contact",
     },

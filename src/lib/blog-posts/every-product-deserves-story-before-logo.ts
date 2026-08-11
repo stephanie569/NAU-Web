@@ -8,7 +8,7 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-65-story-before-logo.png",
   metaDescription:
-    "Why every product deserves a story before it deserves a logo. Narrative before identity—so branding becomes expression of meaning, not decoration with a higher invoice.",
+    "Why every product deserves a story before it deserves a logo. Narrative before identity-so branding becomes expression of meaning, not decoration with a higher invoice.",
   content: [
     {
       type: "p",
@@ -16,7 +16,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Every product deserves a story before it deserves a logo. Story answers who it is for, what unsatisfactory today it replaces, what better tomorrow it sells, and why this approach—not the neighbour’s. Logo answers “which mark do we put on the slide.” Useful. Secondary. When teams buy marks first, they often spend the next year trying to make the mark mean something it was never briefed to mean.",
+      text: "Every product deserves a story before it deserves a logo. Story answers who it is for, what unsatisfactory today it replaces, what better tomorrow it sells, and why this approach-not the neighbour’s. Logo answers “which mark do we put on the slide.” Useful. Secondary. When teams buy marks first, they often spend the next year trying to make the mark mean something it was never briefed to mean.",
     },
     {
       type: "p",
@@ -41,11 +41,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I like good design. I refuse to let it substitute for clarity. Related: [your product doesn’t have a marketing problem—it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "I like good design. I refuse to let it substitute for clarity. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "takeaway",
-      text: "Story first, mark second. Identity should express a narrative already true—not invent one in Illustrator.",
+      text: "Story first, mark second. Identity should express a narrative already true-not invent one in Illustrator.",
     },
     {
       type: "h2",
@@ -100,12 +100,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Before typography, write the truths you are willing to defend: the buyer, the friction, the better tomorrow, the mechanism, the non-goals. If these are unstable, design will chase a moving target and you will pay twice. Progress language belongs here: [people don’t buy products—they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
+      text: "Before typography, write the truths you are willing to defend: the buyer, the friction, the better tomorrow, the mechanism, the non-goals. If these are unstable, design will chase a moving target and you will pay twice. Progress language belongs here: [people don’t buy products-they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
     },
     {
       type: "callout",
       title: "Try this",
-      text: "Fill a one-page narrative brief before any brand exploration: who, friction, tomorrow, mechanism, proof, enemies of the status quo, voice do’s and don’ts. If the page takes more than a week of arguing, you do not have a design problem. You have unfinished strategy—and that is fine, as long as you do not outsource it to a mood board.",
+      text: "Fill a one-page narrative brief before any brand exploration: who, friction, tomorrow, mechanism, proof, enemies of the status quo, voice do’s and don’ts. If the page takes more than a week of arguing, you do not have a design problem. You have unfinished strategy-and that is fine, as long as you do not outsource it to a mood board.",
     },
     {
       type: "h3",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Message is how meaning travels in sentences: homepage hero, sales open, launch line, customer quote themes. Portable messages can be retold without the slide deck. If only the founder can say it, you do not have a message—you have a personality dependency.",
+      text: "Message is how meaning travels in sentences: homepage hero, sales open, launch line, customer quote themes. Portable messages can be retold without the slide deck. If only the founder can say it, you do not have a message-you have a personality dependency.",
     },
     {
       type: "ul",
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "With meaning and message locked, identity has a job description. The mark should feel like the story—not like “tech, but friendly” or “premium, but approachable,” those empty dualities that haunt every bad brief. Give designers constraints rooted in narrative: who walks into the room, what emotion the tomorrow carries, what the category already looks like so you can refuse it.",
+      text: "With meaning and message locked, identity has a job description. The mark should feel like the story-not like “tech, but friendly” or “premium, but approachable,” those empty dualities that haunt every bad brief. Give designers constraints rooted in narrative: who walks into the room, what emotion the tomorrow carries, what the category already looks like so you can refuse it.",
     },
     {
       type: "h3",
@@ -170,7 +170,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the no-logo homepage",
-      text: "Draft a homepage in plain text only—no colours, no mark, no hero image. If it still persuades, you have a story ready for identity. If it collapses without visual polish, the logo was being asked to do strategic work. Fix the text. Then design.",
+      text: "Draft a homepage in plain text only-no colours, no mark, no hero image. If it still persuades, you have a story ready for identity. If it collapses without visual polish, the logo was being asked to do strategic work. Fix the text. Then design.",
     },
     {
       type: "h2",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Many “we need a new logo” requests are coded admissions that the story broke: new ICP, new offer, new category neighbour. Changing the mark without changing the narrative is cosplay. Do the repositioning work first—even if it only takes an intense hour: [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Many “we need a new logo” requests are coded admissions that the story broke: new ICP, new offer, new category neighbour. Changing the mark without changing the narrative is cosplay. Do the repositioning work first-even if it only takes an intense hour: [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "p",
@@ -225,7 +225,7 @@ const post: BlogPost = {
         ],
         [
           "Proof bar",
-          "2–3 inspectable artefacts",
+          "2-3 inspectable artefacts",
           "Adjectives only",
         ],
         [
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For brand as meaning system rather than decoration, [Marty Neumeier’s](https://www.martyneumeier.com/) work on differentiation remains useful. [Harvard Business Review](https://hbr.org/) regularly covers brand strategy without confusing it with logo selection. [UnderConsideration](https://www.underconsideration.com/brandnew/) is a sharp lens on identity craft—best consumed after you know what the identity must say. None replace customer language captured in their words.",
+      text: "For brand as meaning system rather than decoration, [Marty Neumeier’s](https://www.martyneumeier.com/) work on differentiation remains useful. [Harvard Business Review](https://hbr.org/) regularly covers brand strategy without confusing it with logo selection. [UnderConsideration](https://www.underconsideration.com/brandnew/) is a sharp lens on identity craft-best consumed after you know what the identity must say. None replace customer language captured in their words.",
     },
     {
       type: "h2",
@@ -249,7 +249,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I start projects with narrative and product clarity before visual systems—websites included. Design arrives as expression of decisions, not as a substitute for them. If what you need is meaning before another asset sprint, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing). When marketing should feel built rather than bolted on: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "I start projects with narrative and product clarity before visual systems-websites included. Design arrives as expression of decisions, not as a substitute for them. If what you need is meaning before another asset sprint, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing). When marketing should feel built rather than bolted on: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
     },
     {
       type: "faq",
@@ -267,12 +267,12 @@ const post: BlogPost = {
         {
           question: "How long should story work take before design?",
           answer:
-            "Long enough to pressure-test with real buyers—often one to three intensive weeks early on. If it takes months of abstraction, you are philosophising. Talk to customers and decide.",
+            "Long enough to pressure-test with real buyers-often one to three intensive weeks early on. If it takes months of abstraction, you are philosophising. Talk to customers and decide.",
         },
         {
           question: "Can identity work reveal the story?",
           answer:
-            "Exploration can surface tastes and tensions. It should not be where strategy hides. Use design workshops to stress-test a draft narrative—not to invent one from gradients.",
+            "Exploration can surface tastes and tensions. It should not be where strategy hides. Use design workshops to stress-test a draft narrative-not to invent one from gradients.",
         },
       ],
     },

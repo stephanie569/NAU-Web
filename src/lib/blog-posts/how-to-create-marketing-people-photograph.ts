@@ -9,7 +9,7 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-41-photograph.png",
   metaDescription:
-    "How to design campaigns people choose to photograph—photogenic moments, voluntary social proof, and frameworks that spread without begging anyone to go viral.",
+    "How to design campaigns people choose to photograph-photogenic moments, voluntary social proof, and frameworks that spread without begging anyone to go viral.",
   content: [
     {
       type: "p",
@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about designing for that vote: photogenic moments, social proof by choice, and the quiet craft of making campaigns people choose to document. Related context: [why the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen) and [why people rarely share advertisements—they share stories](/blog/people-rarely-share-advertisements-share-stories).",
+      text: "This piece is about designing for that vote: photogenic moments, social proof by choice, and the quiet craft of making campaigns people choose to document. Related context: [why the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen) and [why people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories).",
     },
     {
       type: "h2",
@@ -55,7 +55,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I use a simple five-part test when reviewing real-world or hybrid campaigns. If a concept fails two or more layers, I send it back—regardless of how clever the copy is.",
+      text: "I use a simple five-part test when reviewing real-world or hybrid campaigns. If a concept fails two or more layers, I send it back-regardless of how clever the copy is.",
     },
     {
       type: "table",
@@ -74,7 +74,7 @@ const post: BlogPost = {
         [
           "Identity fit",
           "Would posting this say something flattering about the sharer?",
-          "Taste, wit, curiosity, or care—not free stuff desperation",
+          "Taste, wit, curiosity, or care-not free stuff desperation",
         ],
         [
           "Light and contrast",
@@ -132,7 +132,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Asking people to post is the least elegant form of permission. Better forms: a surprising view, a temporary exclusivity (“only this week”), a clever mirror of local culture, or a gift that looks better shared than described. The ask, if any, should feel like an invitation to finish a joke—not like unpaid labour for your brand.",
+      text: "Asking people to post is the least elegant form of permission. Better forms: a surprising view, a temporary exclusivity (“only this week”), a clever mirror of local culture, or a gift that looks better shared than described. The ask, if any, should feel like an invitation to finish a joke-not like unpaid labour for your brand.",
     },
     {
       type: "h2",
@@ -140,7 +140,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Bribed social proof looks busy and feels empty. Chosen social proof looks quieter and converts better because the audience can smell authenticity—even if they cannot name it. A queue for free coffee is not the same signal as someone photographing your window because the typography made them laugh.",
+      text: "Bribed social proof looks busy and feels empty. Chosen social proof looks quieter and converts better because the audience can smell authenticity-even if they cannot name it. A queue for free coffee is not the same signal as someone photographing your window because the typography made them laugh.",
     },
     {
       type: "ol",
@@ -152,7 +152,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not puritanical about incentives. They have a place for community programmes and loyalty loops. But if your only path to photographs is a discount, you have not designed a moment—you have rented one. Rented moments evaporate when the coupon ends.",
+      text: "I am not puritanical about incentives. They have a place for community programmes and loyalty loops. But if your only path to photographs is a discount, you have not designed a moment-you have rented one. Rented moments evaporate when the coupon ends.",
     },
     {
       type: "takeaway",
@@ -181,13 +181,13 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Day 1 — List five identities your customer wants to signal (taste, competence, care, wit, belonging).",
-        "Day 2 — Walk the location with a phone only. Shoot existing moments that already get photographed. Steal the structure, not the aesthetic.",
-        "Day 3 — Ideate ten moments that make one identity true in under two seconds.",
-        "Day 4 — Kill anything that needs a caption to work. Keep three.",
-        "Day 5 — Prototype in cardboard, tape, and printed type. Photograph each with three phones at three times of day.",
-        "Day 6 — Soft-launch to a small audience. Count unprompted photos before you count impressions.",
-        "Day 7 — Refine light, angle, and one line of copy. Then scale.",
+        "Day 1 - List five identities your customer wants to signal (taste, competence, care, wit, belonging).",
+        "Day 2 - Walk the location with a phone only. Shoot existing moments that already get photographed. Steal the structure, not the aesthetic.",
+        "Day 3 - Ideate ten moments that make one identity true in under two seconds.",
+        "Day 4 - Kill anything that needs a caption to work. Keep three.",
+        "Day 5 - Prototype in cardboard, tape, and printed type. Photograph each with three phones at three times of day.",
+        "Day 6 - Soft-launch to a small audience. Count unprompted photos before you count impressions.",
+        "Day 7 - Refine light, angle, and one line of copy. Then scale.",
       ],
     },
     {
@@ -201,7 +201,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Vanity metrics will lie to you here. Impressions do not equal photographs. Photographs do not equal affinity. Affinity does not equal revenue—unless you design the bridge. Track a short chain:",
+      text: "Vanity metrics will lie to you here. Impressions do not equal photographs. Photographs do not equal affinity. Affinity does not equal revenue-unless you design the bridge. Track a short chain:",
     },
     {
       type: "ul",
@@ -209,7 +209,7 @@ const post: BlogPost = {
         "Unprompted captures (observe or sample on site).",
         "Organic posts and stories (search + listening, not only branded hashtags).",
         "Quality of mention (identity-aligned vs coupon-coded).",
-        "Downstream action (site visits, footfall, waitlist, trial)—with UTM or unique landing paths.",
+        "Downstream action (site visits, footfall, waitlist, trial)-with UTM or unique landing paths.",
       ],
     },
     {
@@ -222,7 +222,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For the psychology of sharing and social currency, [Jonah Berger’s research on why things catch on](https://jonahberger.com/) remains useful. For attention and design clarity, [Nielsen Norman Group](https://www.nngroup.com/) is still the sober adult in the room. For out-of-home craft and environment, look at how [Transport for London’s design standards](https://tfl.gov.uk/) treat legibility in real public space—not as a moodboard, as an operating constraint.",
+      text: "For the psychology of sharing and social currency, [Jonah Berger’s research on why things catch on](https://jonahberger.com/) remains useful. For attention and design clarity, [Nielsen Norman Group](https://www.nngroup.com/) is still the sober adult in the room. For out-of-home craft and environment, look at how [Transport for London’s design standards](https://tfl.gov.uk/) treat legibility in real public space-not as a moodboard, as an operating constraint.",
     },
     {
       type: "faq",
@@ -230,7 +230,7 @@ const post: BlogPost = {
         {
           question: "Does this only work for consumer brands?",
           answer:
-            "No. B2B still has humans with phones. A conference booth, a packaging unboxing, a founder-led demo space, or a clever data visualisation can be photogenic. The identities differ—competence, foresight, craft—but the mechanics do not.",
+            "No. B2B still has humans with phones. A conference booth, a packaging unboxing, a founder-led demo space, or a clever data visualisation can be photogenic. The identities differ-competence, foresight, craft-but the mechanics do not.",
         },
         {
           question: "What if our product is boring on camera?",
@@ -255,7 +255,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Going viral is a lottery ticket people keep buying with other people’s money. Designing something worth photographing is a craft. It is slower in the briefing room and faster in the world. It respects that attention is not extracted—it is offered when the moment earns it.",
+      text: "Going viral is a lottery ticket people keep buying with other people’s money. Designing something worth photographing is a craft. It is slower in the briefing room and faster in the world. It respects that attention is not extracted-it is offered when the moment earns it.",
     },
     {
       type: "p",

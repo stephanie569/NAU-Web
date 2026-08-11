@@ -9,7 +9,7 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-44-start-with-walk.png",
   metaDescription:
-    "Why your next marketing campaign should start with a walk—field observation, real behaviour, and why watching people beats another analytics dashboard.",
+    "Why your next marketing campaign should start with a walk-field observation, real behaviour, and why watching people beats another analytics dashboard.",
   content: [
     {
       type: "p",
@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-data. I am anti-data-as-substitute-for-contact. Analytics tell you what happened inside the systems you already built. A walk tells you what people do when your brand is not the centre of the universe—which is nearly always. If your next campaign starts with a channel brainstorm, you have already skipped the most affordable research method available: observation.",
+      text: "I am not anti-data. I am anti-data-as-substitute-for-contact. Analytics tell you what happened inside the systems you already built. A walk tells you what people do when your brand is not the centre of the universe-which is nearly always. If your next campaign starts with a channel brainstorm, you have already skipped the most affordable research method available: observation.",
     },
     {
       type: "p",
@@ -37,7 +37,7 @@ const post: BlogPost = {
         "Where attention pools without advertising (windows, queues, crossings, benches).",
         "What people already photograph, share, or complain about out loud.",
         "Which messages are illegible at walking speed.",
-        "Where trust is conferred (staff, packaging, other customers)—not claimed.",
+        "Where trust is conferred (staff, packaging, other customers)-not claimed.",
         "Which frictions are physical (bags, children, rain) versus digital (forms, logins).",
       ],
     },
@@ -86,7 +86,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "One walk with five lenses beats five meetings with zero contact. Bring a notebook. Leave the pitch deck at the office. If you must bring a phone, use it as a camera and voice memo—not as a Slack portal to the same opinions you already have.",
+      text: "One walk with five lenses beats five meetings with zero contact. Bring a notebook. Leave the pitch deck at the office. If you must bring a phone, use it as a camera and voice memo-not as a Slack portal to the same opinions you already have.",
     },
     {
       type: "image",
@@ -111,7 +111,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Go where the decision occurs—not where your office is convenient. If your customers buy in a rush at stations, do not research them in a focus-group suite with biscuits. Context is part of the data.",
+      text: "Go where the decision occurs-not where your office is convenient. If your customers buy in a rush at stations, do not research them in a focus-group suite with biscuits. Context is part of the data.",
     },
     {
       type: "h3",
@@ -119,7 +119,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Watch first. People perform when questioned. They reveal when ignored (ethically, of course—no stalking, no recording private conversations without consent). After observation, short intercepts can clarify what you saw. “I noticed people skip that queue—what’s the workaround?” is better than “Would you use an app that…?”",
+      text: "Watch first. People perform when questioned. They reveal when ignored (ethically, of course-no stalking, no recording private conversations without consent). After observation, short intercepts can clarify what you saw. “I noticed people skip that queue-what’s the workaround?” is better than “Would you use an app that…?”",
     },
     {
       type: "callout",
@@ -140,7 +140,7 @@ const post: BlogPost = {
         "Write the insight as a scene, not a noun: “Parents juggle a pram and a phone while the QR menu times out.”",
         "Name the tension in human terms: dignity, speed, belonging, competence, care.",
         "Invent three interventions that reduce that tension in situ.",
-        "Only then choose channels—and prefer the channel closest to the scene.",
+        "Only then choose channels-and prefer the channel closest to the scene.",
         "Prototype small: tape, print, staff script, temporary sign. Watch again.",
       ],
     },
@@ -154,7 +154,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Walk-led campaigns often spend differently: more on placement craft, less on carpet-bombing reach; more on staff enablement, less on vanity film; more on one perfect corner, less on twelve mediocre formats. That can look “small” to a traditional plan—and larger in memory. See also [small budgets don’t kill good ideas—predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do).",
+      text: "Walk-led campaigns often spend differently: more on placement craft, less on carpet-bombing reach; more on staff enablement, less on vanity film; more on one perfect corner, less on twelve mediocre formats. That can look “small” to a traditional plan-and larger in memory. See also [small budgets don’t kill good ideas-predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do).",
     },
     {
       type: "p",
@@ -170,7 +170,7 @@ const post: BlogPost = {
         "Do not photograph faces without consent for research you will publish.",
         "Do not obstruct paths or create safety risks for the sake of “engagement.”",
         "Do not treat vulnerable situations as content opportunities.",
-        "Do share findings with teams who can fix operational friction—not only with creative.",
+        "Do share findings with teams who can fix operational friction-not only with creative.",
       ],
     },
     {
@@ -184,7 +184,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise (2 hours)",
-      text: "Walk a competitor’s real-world footprint—store, event, packaging in the wild, out-of-home. Capture Path/Pause/Props/Talk/Friction. Then walk your own. The gap between those two notebooks is your brief. Not their ad account.",
+      text: "Walk a competitor’s real-world footprint-store, event, packaging in the wild, out-of-home. Capture Path/Pause/Props/Talk/Friction. Then walk your own. The gap between those two notebooks is your brief. Not their ad account.",
     },
     {
       type: "h2",
@@ -192,7 +192,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Walk when behaviour is local, physical, social, or poorly instrumented. Stay at the desk when the question is purely digital funnel maths—and even then, sample real sessions on real devices. Many “conversion problems” are still comprehension problems; a walk through your own onboarding with a stranger narrating aloud is a kind of walk too. Related: [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions) and [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Walk when behaviour is local, physical, social, or poorly instrumented. Stay at the desk when the question is purely digital funnel maths-and even then, sample real sessions on real devices. Many “conversion problems” are still comprehension problems; a walk through your own onboarding with a stranger narrating aloud is a kind of walk too. Related: [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions) and [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h2",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Your next campaign does not need another dashboard tab. It needs contact with the world it hopes to enter. Walk first. Ideate second. Buy media third. That order feels slower in the calendar and faster in the market—because you stop funding fantasies.",
+      text: "Your next campaign does not need another dashboard tab. It needs contact with the world it hopes to enter. Walk first. Ideate second. Buy media third. That order feels slower in the calendar and faster in the market-because you stop funding fantasies.",
     },
     {
       type: "p",
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "cta",
-      lead: "Want a campaign brief built from real observation—not recycled decks?",
+      lead: "Want a campaign brief built from real observation-not recycled decks?",
       button: "Book a strategy conversation",
       href: "/contact",
     },

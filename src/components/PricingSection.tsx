@@ -1,9 +1,11 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useMemo, useState, type ReactNode } from "react";
-import { siteConfig } from "@/lib/data";
+import { NauButton } from "@/components/NauButton";
 import { pricingSectionCopy } from "@/lib/sections";
+
+type Package = (typeof pricingSectionCopy.packages)[number];
+type ContentAddon = (typeof pricingSectionCopy.contentAddons)[number];
 
 function PlusBadge() {
   return (
@@ -56,34 +58,46 @@ function Chevron({ open }: { open: boolean }) {
   );
 }
 
-function AddonToggle({
-  enabled,
-  onChange,
+function RecommendedMark({
+  label = "Recommended",
+  variant = "panel",
 }: {
-  enabled: boolean;
-  onChange: (enabled: boolean) => void;
+  label?: string;
+  variant?: "tab-inactive" | "tab-active" | "panel";
 }) {
+  if (variant === "panel") {
+    return (
+      <span className="inline-flex items-center gap-1.5 rounded-full border border-cyan-400/35 bg-cyan-400/[0.06] px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-cyan-100/80 shadow-[0_0_14px_rgb(34_211_238/0.12)]">
+        <span
+          className="relative flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded-full bg-white shadow-[0_0_8px_rgb(34_211_238/0.45)]"
+          aria-hidden
+        >
+          <span className="h-1 w-1 rounded-full bg-[#0a0a0a]" />
+        </span>
+        {label}
+      </span>
+    );
+  }
+
+  const onLightTab = variant === "tab-active";
+
   return (
-    <button
-      type="button"
-      role="switch"
-      aria-checked={enabled}
-      onClick={(e) => {
-        e.stopPropagation();
-        onChange(!enabled);
-      }}
-      className={`relative h-8 w-14 shrink-0 rounded-full transition-colors outline-none focus-visible:ring-2 focus-visible:ring-white/25 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent ${
-        enabled ? "bg-white" : "bg-white/15"
-      }`}
+    <span
+      className={`inline-flex shrink-0 items-center justify-center rounded-full ${
+        onLightTab
+          ? "bg-[#0a0a0a] ring-1 ring-cyan-400/40"
+          : "bg-white ring-1 ring-cyan-300/50 shadow-[0_0_10px_rgb(34_211_238/0.35)]"
+      } h-[17px] w-[17px]`}
+      aria-label="Recommended"
+      title="Recommended"
     >
       <span
-        className={`absolute top-1 left-1 h-6 w-6 rounded-full transition-transform duration-200 ease-out ${
-          enabled
-            ? "translate-x-6 bg-[#131313]"
-            : "translate-x-0 bg-white"
-        }`}
+        className={`rounded-full ${
+          onLightTab ? "bg-white" : "bg-[#0a0a0a]"
+        } h-1 w-1`}
+        aria-hidden
       />
-    </button>
+    </span>
   );
 }
 
@@ -92,14 +106,12 @@ function CollapsiblePanel({
   summary,
   open,
   onToggle,
-  trailing,
   children,
 }: {
   title: string;
   summary: string;
   open: boolean;
   onToggle: () => void;
-  trailing?: ReactNode;
   children: ReactNode;
 }) {
   return (
@@ -118,10 +130,7 @@ function CollapsiblePanel({
             {summary}
           </p>
         </div>
-        <div className="flex shrink-0 items-center gap-3">
-          {trailing}
-          <Chevron open={open} />
-        </div>
+        <Chevron open={open} />
       </button>
       <div
         className={`grid transition-[grid-template-rows] duration-300 ease-out ${
@@ -138,19 +147,271 @@ function CollapsiblePanel({
   );
 }
 
-function buyMailto(title: string, price: string) {
-  return `mailto:${siteConfig.email}?subject=${encodeURIComponent(
-    `Guide: ${title}`,
-  )}&body=${encodeURIComponent(
-    `Hi Stefani,\n\nI'd like the ${title} (${price}).\n\nThanks.`,
-  )}`;
+function ContentFormatPicker({
+  label,
+  hint,
+  options,
+  selectedId,
+  onSelect,
+  primarySelection = false,
+}: {
+  label: string;
+  hint: string;
+  options: ContentAddon[];
+  selectedId: string | null;
+  onSelect: (id: string | null) => void;
+  primarySelection?: boolean;
+}) {
+  const [expandedId, setExpandedId] = useState<string | null>(null);
+
+  return (
+    <div className="rounded-[16px] border border-white/10 bg-white/[0.03] px-5 py-4 md:px-6">
+      <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
+        {label}
+      </p>
+      <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-white/50">
+        {hint}
+      </p>
+      <div className="mt-3 flex flex-col gap-2">
+        {options.map((option) => {
+          const selected = selectedId === option.id;
+          const expanded = expandedId === option.id;
+          const displayPrice = primarySelection
+            ? option.price.replace(/^From \+/, "From ")
+            : option.price;
+
+          return (
+            <div
+              key={option.id}
+              className={`rounded-[14px] border transition-colors ${
+                selected
+                  ? "border-white/30 bg-white/[0.08]"
+                  : "border-white/10 bg-white/[0.02]"
+              }`}
+            >
+              <div className="flex items-center gap-2 px-4 py-3">
+                <button
+                  type="button"
+                  onClick={() => onSelect(selected ? null : option.id)}
+                  aria-pressed={selected}
+                  className="min-w-0 flex-1 text-left"
+                >
+                  <div className="flex items-center justify-between gap-3">
+                    <p className="text-[14px] font-semibold tracking-[-0.04em] text-white">
+                      {option.title}
+                    </p>
+                    <span className="shrink-0 text-[13px] font-semibold tracking-[-0.04em] text-white tabular-nums">
+                      {displayPrice}
+                    </span>
+                  </div>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setExpandedId(expanded ? null : option.id)}
+                  aria-expanded={expanded}
+                  aria-label={expanded ? "Hide details" : "Show details"}
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-white/50 transition-colors hover:bg-white/[0.06] hover:text-white/80"
+                >
+                  <Chevron open={expanded} />
+                </button>
+              </div>
+
+              <div
+                className={`grid transition-[grid-template-rows] duration-300 ease-out ${
+                  expanded ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                }`}
+              >
+                <div className="overflow-hidden">
+                  <div className="border-t border-white/10 px-4 pb-4 pt-3">
+                    <p className="text-[13px] leading-relaxed font-medium tracking-[-0.03em] text-white/55">
+                      {option.summary}
+                    </p>
+                    <ul className="mt-4 space-y-3">
+                      {option.features.map((feature) => (
+                        <li key={feature} className="flex items-start gap-3">
+                          <FeaturePlusIcon />
+                          <span className="text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/85">
+                            {feature}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 }
 
-const qrMailto = `mailto:${siteConfig.email}?subject=${encodeURIComponent(
-  "Found a QR — free guide",
-)}&body=${encodeURIComponent(
-  "Hi Stefani,\n\nI found a nau QR code.\n\nWhere: \nWhich guide I'd like: \n\nThanks.",
-)}`;
+function PackagePanel({
+  pkg,
+  recommendedBadge,
+  outcomeLabel,
+  collaborationLabel,
+  includesLabel,
+  contentAddons,
+  contentAddonsLabel,
+  contentAddonsSummary,
+  selectedContentId,
+  onSelectContent,
+  detailsOpen,
+  onToggleDetails,
+}: {
+  pkg: Package;
+  recommendedBadge: string;
+  outcomeLabel: string;
+  collaborationLabel: string;
+  includesLabel: string;
+  contentAddons: ContentAddon[];
+  contentAddonsLabel: string;
+  contentAddonsSummary: string;
+  selectedContentId: string | null;
+  onSelectContent: (id: string | null) => void;
+  detailsOpen: boolean;
+  onToggleDetails: () => void;
+}) {
+  const usesContentChoice =
+    "contentAddonChoice" in pkg && pkg.contentAddonChoice === true;
+  const isContentOnly = "contentOnly" in pkg && pkg.contentOnly === true;
+  const contentLabel =
+    "contentAddonLabel" in pkg && pkg.contentAddonLabel
+      ? pkg.contentAddonLabel
+      : contentAddonsLabel;
+  const contentHint =
+    "contentAddonSummary" in pkg && pkg.contentAddonSummary
+      ? pkg.contentAddonSummary
+      : contentAddonsSummary;
+
+  const selectedContent = contentAddons.find(
+    (option) => option.id === selectedContentId,
+  );
+
+  const displayPrice =
+    isContentOnly && selectedContent
+      ? selectedContent.price.replace(/^From \+/, "From ")
+      : pkg.price;
+
+  const highlights =
+    "highlights" in pkg && Array.isArray(pkg.highlights)
+      ? pkg.highlights
+      : pkg.includes.slice(0, 3);
+
+  return (
+    <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-12 lg:p-10">
+      <div>
+        {pkg.recommended ? (
+          <div className="mb-4">
+            <RecommendedMark label={recommendedBadge} />
+          </div>
+        ) : null}
+        <h3 className="text-[clamp(1.85rem,3.8vw,2.85rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
+          {displayPrice}
+        </h3>
+        <p className="mt-4 max-w-xl text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/65">
+          {pkg.forWhom}
+        </p>
+
+        <ul className="mt-6 space-y-3">
+          {highlights.map((item) => (
+            <li key={item} className="flex items-start gap-3">
+              <FeaturePlusIcon />
+              <span className="text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/85">
+                {item}
+              </span>
+            </li>
+          ))}
+        </ul>
+
+        <div className="mt-8 border-t border-white/10 pt-6">
+          <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/40">
+            {outcomeLabel}
+          </p>
+          <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white">
+            {pkg.outcome}
+          </p>
+        </div>
+      </div>
+
+      <div className="flex flex-col gap-3">
+        {usesContentChoice ? (
+          <ContentFormatPicker
+            label={contentLabel}
+            hint={contentHint}
+            options={contentAddons}
+            selectedId={selectedContentId}
+            onSelect={onSelectContent}
+            primarySelection={isContentOnly}
+          />
+        ) : null}
+
+        <CollapsiblePanel
+          title="Full breakdown"
+          summary={
+            detailsOpen
+              ? "Hide collaboration and deliverables"
+              : "Collaboration, deliverables and more"
+          }
+          open={detailsOpen}
+          onToggle={onToggleDetails}
+        >
+          <div className="space-y-6">
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/40">
+                {collaborationLabel}
+              </p>
+              <ul className="mt-3 space-y-3">
+                {pkg.collaboration.map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <FeaturePlusIcon />
+                    <span className="text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/85">
+                      {item}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/40">
+                {includesLabel}
+              </p>
+              <ul className="mt-3 space-y-3">
+                {pkg.includes.map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <FeaturePlusIcon />
+                    <span className="text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/85">
+                      {item}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {selectedContent ? (
+              <div>
+                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/40">
+                  {selectedContent.title}
+                </p>
+                <ul className="mt-3 space-y-3">
+                  {selectedContent.features.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <FeaturePlusIcon />
+                      <span className="text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/85">
+                        {item}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+          </div>
+        </CollapsiblePanel>
+      </div>
+    </div>
+  );
+}
 
 export function PricingSection() {
   const {
@@ -159,34 +420,62 @@ export function PricingSection() {
     recommendedBadge,
     deliveryLabel,
     outcomeLabel,
+    collaborationLabel,
     includesLabel,
     cta,
-    addon,
+    contentAddonsLabel,
+    contentAddonsSummary,
+    contentAddons,
     packages,
-    guides,
+    storeTeaser,
   } = pricingSectionCopy;
 
   const defaultPackage =
     packages.find((pkg) => pkg.recommended)?.id ?? packages[0].id;
 
   const [activeId, setActiveId] = useState(defaultPackage);
-  const [addonEnabled, setAddonEnabled] = useState(false);
-  const [includesOpen, setIncludesOpen] = useState(false);
-  const [addonOpen, setAddonOpen] = useState(false);
-  const [guidesOpen, setGuidesOpen] = useState(true);
+  const [detailsOpen, setDetailsOpen] = useState(false);
+  const [contentSelection, setContentSelection] = useState<
+    Record<string, string | null>
+  >({});
+
+  const isGuides = activeId === storeTeaser.id;
 
   const activePackage = useMemo(
     () => packages.find((pkg) => pkg.id === activeId) ?? packages[0],
     [activeId, packages],
   );
 
-  const showAddon = activePackage.allowsAddon;
+  const isContentOnly =
+    !isGuides &&
+    "contentOnly" in activePackage &&
+    activePackage.contentOnly === true;
+
+  const selectedContent = contentAddons.find(
+    (option) => option.id === contentSelection[activePackage.id],
+  );
+
+  const usesContentChoice =
+    !isGuides &&
+    "contentAddonChoice" in activePackage &&
+    activePackage.contentAddonChoice === true;
+
+  const menuItems = [
+    ...packages.map((pkg) => ({
+      id: pkg.id,
+      name: pkg.name,
+      recommended: pkg.recommended,
+    })),
+    {
+      id: storeTeaser.id,
+      name: storeTeaser.name,
+      recommended: false,
+    },
+  ];
 
   useEffect(() => {
-    setIncludesOpen(false);
-    setAddonOpen(false);
-    if (!showAddon) setAddonEnabled(false);
-  }, [activeId, showAddon]);
+    setDetailsOpen(false);
+  }, [activeId]);
 
   return (
     <section
@@ -209,34 +498,34 @@ export function PricingSection() {
           </h2>
         </div>
 
-        <div className="mb-12 flex justify-center">
-          <div className="inline-flex max-w-full flex-wrap justify-center gap-1 rounded-full bg-white/[0.06] p-1">
-            {packages.map((pkg) => {
-              const active = pkg.id === activeId;
+        <div className="mb-8 flex justify-center md:mb-12">
+          <div className="flex max-w-full gap-1 overflow-x-auto rounded-full bg-white/[0.06] p-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            {menuItems.map((item) => {
+              const active = item.id === activeId;
               return (
                 <button
-                  key={pkg.id}
+                  key={item.id}
                   type="button"
-                  onClick={() => setActiveId(pkg.id)}
-                  className={`relative rounded-full px-5 py-2.5 text-[14px] font-medium tracking-[-0.04em] transition-colors sm:px-6 sm:text-[15px] ${
+                  onClick={() => setActiveId(item.id)}
+                  className={`relative shrink-0 rounded-full px-4 py-2.5 text-[14px] font-medium tracking-[-0.04em] transition-colors sm:px-6 sm:text-[15px] ${
                     active
                       ? "bg-white text-[#0a0a0a]"
                       : "text-white/55 hover:text-white/80"
+                  } ${
+                    item.recommended
+                      ? active
+                        ? "pricing-tab-electric-active"
+                        : "pricing-tab-electric-inactive"
+                      : ""
                   }`}
                 >
-                  <span className="inline-flex items-center gap-2">
-                    {pkg.name}
-                    {pkg.recommended && (
-                      <span
-                        className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.08em] ${
-                          active
-                            ? "bg-[#0a0a0a]/10 text-[#0a0a0a]"
-                            : "bg-white/10 text-white/70"
-                        }`}
-                      >
-                        {recommendedBadge}
-                      </span>
-                    )}
+                  <span className="inline-flex items-center gap-1.5 whitespace-nowrap">
+                    {item.recommended ? (
+                      <RecommendedMark
+                        variant={active ? "tab-active" : "tab-inactive"}
+                      />
+                    ) : null}
+                    {item.name}
                   </span>
                 </button>
               );
@@ -244,227 +533,96 @@ export function PricingSection() {
           </div>
         </div>
 
-        <div className="overflow-hidden rounded-[20px] bg-white/[0.04]">
-          <div className="grid gap-10 p-8 md:p-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-14">
-            <div>
-              {activePackage.recommended && (
-                <p className="mb-4 text-[12px] font-semibold uppercase tracking-[0.12em] text-white/45">
-                  {recommendedBadge}
-                </p>
-              )}
-              <h3 className="text-[clamp(1.85rem,3.8vw,2.85rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
-                {activePackage.price}
-              </h3>
-              <p className="mt-5 max-w-xl text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/65">
-                {activePackage.forWhom}
-              </p>
-
-              <div className="mt-8 max-w-xl border-t border-white/10 pt-6">
-                <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/40">
-                  {outcomeLabel}
-                </p>
-                <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white">
-                  {activePackage.outcome}
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-col gap-3">
-              <CollapsiblePanel
-                title={includesLabel}
-                summary={`${activePackage.includes.length} · ${
-                  includesOpen ? "Hide" : "View"
-                }`}
-                open={includesOpen}
-                onToggle={() => setIncludesOpen((v) => !v)}
-              >
-                <ul className="columns-1 gap-x-8 space-y-3.5 sm:columns-2">
-                  {activePackage.includes.map((feature) => (
-                    <li
-                      key={feature}
-                      className="flex break-inside-avoid items-center gap-3"
-                    >
+        <div className="overflow-visible rounded-[20px] bg-white/[0.04]">
+          {isGuides ? (
+            <>
+              <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-12 lg:p-10">
+                <div>
+                  <p className="mb-4 text-[12px] font-semibold uppercase tracking-[0.12em] text-white/45">
+                    {storeTeaser.eyebrow}
+                  </p>
+                  <h3 className="text-[clamp(1.85rem,3.8vw,2.85rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
+                    {storeTeaser.price}
+                  </h3>
+                  <p className="mt-5 max-w-xl text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/65">
+                    {storeTeaser.forWhom}
+                  </p>
+                  <div className="mt-8 border-t border-white/10 pt-6">
+                    <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/40">
+                      {outcomeLabel}
+                    </p>
+                    <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white">
+                      {storeTeaser.outcome}
+                    </p>
+                  </div>
+                </div>
+                <ul className="space-y-3.5">
+                  {storeTeaser.highlights.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
                       <FeaturePlusIcon />
-                      <span className="text-[14px] font-medium tracking-[-0.04em] text-white/90">
-                        {feature}
+                      <span className="text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/90">
+                        {item}
                       </span>
                     </li>
                   ))}
                 </ul>
-              </CollapsiblePanel>
-
-              {showAddon ? (
-                <CollapsiblePanel
-                  title={addon.title}
-                  summary={
-                    addonEnabled
-                      ? `Added · ${addon.price}`
-                      : `Optional · ${addon.price}`
-                  }
-                  open={addonOpen}
-                  onToggle={() => setAddonOpen((v) => !v)}
-                  trailing={
-                    <AddonToggle
-                      enabled={addonEnabled}
-                      onChange={(enabled) => {
-                        setAddonEnabled(enabled);
-                        if (enabled) setAddonOpen(true);
-                      }}
-                    />
-                  }
-                >
-                  <p className="text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-white/60">
-                    {addon.description}
-                  </p>
-                  <ul className="mt-5 columns-1 gap-x-8 space-y-3 sm:columns-2">
-                    {addon.features.map((feature) => (
-                      <li
-                        key={feature}
-                        className="flex break-inside-avoid items-center gap-3"
-                      >
-                        <FeaturePlusIcon />
-                        <span className="text-[14px] font-medium tracking-[-0.04em] text-white/85">
-                          {feature}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </CollapsiblePanel>
-              ) : (
-                <div className="rounded-[16px] border border-white/10 bg-white/[0.03] px-5 py-5 md:px-6">
-                  <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
-                    {pricingSectionCopy.embeddedNote.title}
-                  </p>
-                  <p className="mt-2 text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-white/55">
-                    {pricingSectionCopy.embeddedNote.description}
-                  </p>
-                </div>
-              )}
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-6 border-t border-white/10 px-8 py-7 md:px-10 lg:flex-row lg:items-center lg:justify-between">
-            <div className="flex min-w-[220px] items-center justify-between gap-8 text-[15px] font-medium tracking-[-0.04em] lg:justify-start lg:gap-10">
-              <span className="text-white/60">{deliveryLabel}</span>
-              <span className="text-white">{activePackage.delivery}</span>
-              {showAddon && addonEnabled && (
-                <>
-                  <span className="hidden h-4 w-px bg-white/15 sm:block" />
-                  <span className="hidden text-white/60 sm:inline">
-                    Content
-                  </span>
-                  <span className="hidden text-white sm:inline">
-                    {addon.price}
-                  </span>
-                </>
-              )}
-            </div>
-
-            <Link
-              href="/contact"
-              className="inline-flex w-full items-center justify-center rounded-full bg-white px-10 py-4 text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a] transition-opacity hover:opacity-85 lg:w-auto lg:min-w-[220px]"
-            >
-              {cta}
-            </Link>
-          </div>
-        </div>
-
-        <div id="guides" className="mt-10 scroll-mt-28">
-          <div className="overflow-hidden rounded-[20px] border border-white/20 bg-white/[0.06]">
-            <div className="grid gap-8 p-8 md:p-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-12">
-              <div>
-                <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/45">
-                  {guides.eyebrow}
-                </p>
-                <h3 className="mt-3 text-[clamp(1.75rem,3.5vw,2.5rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
-                  {guides.title}
-                </h3>
-                <p className="mt-4 text-[clamp(2rem,4vw,3rem)] font-semibold tracking-[-0.06em] text-white">
-                  {guides.price}
-                </p>
-                <p className="mt-4 max-w-md text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/65">
-                  {guides.forWhom}
-                </p>
-                <p className="mt-5 max-w-md text-[14px] font-medium tracking-[-0.03em] text-white/45">
-                  {guides.note}
-                </p>
-
-                <div className="mt-8 flex flex-col gap-3 border border-white/15 bg-white/[0.04] px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
-                  <div>
-                    <p className="text-[14px] font-semibold tracking-[-0.04em] text-white">
-                      {guides.qrCta}
-                    </p>
-                    <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-white/50">
-                      {guides.qrNote}
-                    </p>
-                  </div>
-                  <Link
-                    href={qrMailto}
-                    className="shrink-0 rounded-full bg-white px-5 py-2.5 text-center text-[13px] font-semibold tracking-[-0.03em] text-[#0a0a0a] transition-opacity hover:opacity-85"
-                  >
-                    {guides.qrLinkLabel}
-                  </Link>
-                </div>
               </div>
 
-              <div>
-                <button
-                  type="button"
-                  onClick={() => setGuidesOpen((v) => !v)}
-                  aria-expanded={guidesOpen}
-                  className="mb-5 flex w-full items-center justify-between gap-4 text-left"
-                >
-                  <p className="text-[12px] font-semibold uppercase tracking-[0.12em] text-white/40">
-                    {guides.items.length} guides
-                  </p>
-                  <span className="inline-flex items-center gap-2 text-[13px] font-medium tracking-[-0.03em] text-white/55">
-                    {guidesOpen ? "Hide" : "View all"}
-                    <Chevron open={guidesOpen} />
-                  </span>
-                </button>
-
-                <div
-                  className={`grid transition-[grid-template-rows] duration-300 ease-out ${
-                    guidesOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
-                  }`}
-                >
-                  <div className="overflow-hidden">
-                    <ul className="divide-y divide-white/10 border-y border-white/10">
-                      {guides.items.map((guide) => (
-                        <li
-                          key={guide.id}
-                          className="flex flex-col gap-3 py-4 sm:flex-row sm:items-center sm:justify-between sm:gap-8"
-                        >
-                          <div className="flex min-w-0 items-start gap-3">
-                            <FeaturePlusIcon />
-                            <div className="min-w-0">
-                              <p className="text-[15px] font-semibold tracking-[-0.04em] text-white">
-                                {guide.title}
-                              </p>
-                              <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-white/50">
-                                {guide.blurb}
-                              </p>
-                            </div>
-                          </div>
-                          <div className="flex items-center justify-between gap-6 pl-9 sm:pl-0 sm:justify-end">
-                            <p className="text-[15px] font-semibold tracking-[-0.04em] text-white tabular-nums">
-                              {guide.price}
-                            </p>
-                            <Link
-                              href={buyMailto(guide.title, guide.price)}
-                              className="text-[13px] font-semibold tracking-[-0.03em] text-white underline underline-offset-4 transition-opacity hover:opacity-70"
-                            >
-                              {guides.cta}
-                            </Link>
-                          </div>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
+              <div className="flex flex-col gap-6 overflow-visible border-t border-white/10 px-6 py-6 sm:px-8 md:px-10 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
+                <div className="flex items-center gap-3 text-[15px] font-medium tracking-[-0.04em]">
+                  <span className="text-white/60">{deliveryLabel}</span>
+                  <span className="text-white">{storeTeaser.delivery}</span>
+                </div>
+                <div className="w-full shrink-0 lg:w-auto lg:justify-self-end">
+                  <NauButton href={storeTeaser.href} variant="light">
+                    {storeTeaser.cta}
+                  </NauButton>
                 </div>
               </div>
-            </div>
-          </div>
+            </>
+          ) : (
+            <>
+              <PackagePanel
+                pkg={activePackage}
+                recommendedBadge={recommendedBadge}
+                outcomeLabel={outcomeLabel}
+                collaborationLabel={collaborationLabel}
+                includesLabel={includesLabel}
+                contentAddons={contentAddons}
+                contentAddonsLabel={contentAddonsLabel}
+                contentAddonsSummary={contentAddonsSummary}
+                selectedContentId={contentSelection[activePackage.id] ?? null}
+                onSelectContent={(id) =>
+                  setContentSelection((prev) => ({
+                    ...prev,
+                    [activePackage.id]: id,
+                  }))
+                }
+                detailsOpen={detailsOpen}
+                onToggleDetails={() => setDetailsOpen((open) => !open)}
+              />
+
+              <div className="flex flex-col gap-6 overflow-visible border-t border-white/10 px-6 py-6 sm:px-8 md:px-10 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
+                <div className="flex flex-wrap items-center gap-x-8 gap-y-2 text-[15px] font-medium tracking-[-0.04em]">
+                  <div className="flex items-center gap-3">
+                    <span className="text-white/60">{deliveryLabel}</span>
+                    <span className="text-white">{activePackage.delivery}</span>
+                  </div>
+                  {usesContentChoice && selectedContent && !isContentOnly ? (
+                    <div className="flex items-center gap-3">
+                      <span className="text-white/60">Content</span>
+                      <span className="text-white">{selectedContent.price}</span>
+                    </div>
+                  ) : null}
+                </div>
+                <div className="w-full shrink-0 lg:w-auto lg:justify-self-end">
+                  <NauButton href="/contact" variant="light">
+                    {cta}
+                  </NauButton>
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </section>

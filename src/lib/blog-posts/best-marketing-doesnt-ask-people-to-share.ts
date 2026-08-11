@@ -8,7 +8,7 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-66-dont-ask-share.png",
   metaDescription:
-    "The best marketing doesn't ask people to share it—design moments worth retelling so word of mouth happens without share buttons, incentives, or begging.",
+    "The best marketing doesn't ask people to share it-design moments worth retelling so word of mouth happens without share buttons, incentives, or begging.",
   content: [
     {
       type: "p",
@@ -16,11 +16,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The best marketing does not ask people to share it. It gives them something they cannot help mentioning—because keeping quiet would feel like leaving a good story at home. Shares are a lagging indicator of talkability. Begging for them is a confession that talkability was never designed in.",
+      text: "The best marketing does not ask people to share it. It gives them something they cannot help mentioning-because keeping quiet would feel like leaving a good story at home. Shares are a lagging indicator of talkability. Begging for them is a confession that talkability was never designed in.",
     },
     {
       type: "p",
-      text: "This piece is about building campaigns that travel without bribes: why forced sharing fails socially, how to design for status and story instead of buttons, and how to tell the difference between distribution theatre and actual word of mouth. Related reading on the same instinct: [people rarely share advertisements—they share stories they happened to be part of](/blog/people-rarely-share-advertisements-share-stories).",
+      text: "This piece is about building campaigns that travel without bribes: why forced sharing fails socially, how to design for status and story instead of buttons, and how to tell the difference between distribution theatre and actual word of mouth. Related reading on the same instinct: [people rarely share advertisements-they share stories they happened to be part of](/blog/people-rarely-share-advertisements-share-stories).",
     },
     {
       type: "h2",
@@ -36,12 +36,12 @@ const post: BlogPost = {
         "A share is a social risk before it is a metric.",
         "Incentives buy volume and quietly tax credibility.",
         "Captions that plead reveal that the creative did not earn a retelling.",
-        "People protect their feeds the way they protect dinner-table stories—selectively.",
+        "People protect their feeds the way they protect dinner-table stories-selectively.",
       ],
     },
     {
       type: "p",
-      text: "I am not against making sharing easy. Frictionless capture, clear URLs, photogenic artefacts—those are manners. Manners are not the same as begging. If you need a raffle to make people move the story, you built a raffle, not marketing. See also [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
+      text: "I am not against making sharing easy. Frictionless capture, clear URLs, photogenic artefacts-those are manners. Manners are not the same as begging. If you need a raffle to make people move the story, you built a raffle, not marketing. See also [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
     },
     {
       type: "takeaway",
@@ -53,11 +53,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Word of mouth is not mysterious. It is a portfolio of reasons someone looks better—or feels better—for having passed something on. Status: they look sharp, generous, or early. Emotion: delight, surprise, mild outrage, pride. Utility: a friend can act without a lecture. Identity: the story fits who they already believe they are.",
+      text: "Word of mouth is not mysterious. It is a portfolio of reasons someone looks better-or feels better-for having passed something on. Status: they look sharp, generous, or early. Emotion: delight, surprise, mild outrage, pride. Utility: a friend can act without a lecture. Identity: the story fits who they already believe they are.",
     },
     {
       type: "p",
-      text: "Ads rarely score on those axes because ads centre the brand. Stories centre the person. The campaign job is to put the audience inside a moment they can narrate in the first person: I was there. I found this. I tried it. I looked clever for knowing. That is why participation beats persuasion when you want organic travel—more on that in [memorable brands don’t interrupt—they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "Ads rarely score on those axes because ads centre the brand. Stories centre the person. The campaign job is to put the audience inside a moment they can narrate in the first person: I was there. I found this. I tried it. I looked clever for knowing. That is why participation beats persuasion when you want organic travel-more on that in [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "image",
@@ -109,7 +109,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Start with a single scene a person could describe in under twenty seconds at a pub. Constraint helps: a place, a time, a small public win, an unexpected invitation. Vague brand films do not become pub stories. Specific inconveniences endured together often do. If your next campaign brief opens with camera specs, pause—start with [why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera).",
+      text: "Start with a single scene a person could describe in under twenty seconds at a pub. Constraint helps: a place, a time, a small public win, an unexpected invitation. Vague brand films do not become pub stories. Specific inconveniences endured together often do. If your next campaign brief opens with camera specs, pause-start with [why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera).",
     },
     {
       type: "callout",
@@ -122,7 +122,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stories travel better with props: a stamped card, a photo with context, a receipt of participation, a small object that looks odd on a desk. The artefact is not merch theatre. It is proof that reduces the cognitive load of retelling. Physical traces also feed digital belief later—see [the internet still needs the real world](/blog/internet-still-needs-the-real-world) and the companion piece [why the internet still needs the real world](/blog/why-internet-still-needs-real-world).",
+      text: "Stories travel better with props: a stamped card, a photo with context, a receipt of participation, a small object that looks odd on a desk. The artefact is not merch theatre. It is proof that reduces the cognitive load of retelling. Physical traces also feed digital belief later-see [the internet still needs the real world](/blog/internet-still-needs-the-real-world) and the companion piece [why the internet still needs the real world](/blog/why-internet-still-needs-real-world).",
     },
     {
       type: "ul",
@@ -139,7 +139,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People will not recite your tagline. They will approximate. Your job is to plant phrases that survive approximation—short, concrete, slightly odd. If every volunteer explains the brand differently, you have a positioning fog problem dressed as a street team. Script the first thirty seconds; leave the rest human.",
+      text: "People will not recite your tagline. They will approximate. Your job is to plant phrases that survive approximation-short, concrete, slightly odd. If every volunteer explains the brand differently, you have a positioning fog problem dressed as a street team. Script the first thirty seconds; leave the rest human.",
     },
     {
       type: "h3",
@@ -163,7 +163,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A useful test: would someone still describe this if the prize disappeared tomorrow? If not, you purchased temporary compliance. Organic growth of the earned kind does not work that way—[organic growth isn’t free; it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "A useful test: would someone still describe this if the prize disappeared tomorrow? If not, you purchased temporary compliance. Organic growth of the earned kind does not work that way-[organic growth isn’t free; it’s earned](/blog/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "h2",
@@ -171,7 +171,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Think of the pop-ups people photograph because the room does something to them—not because a sign said Instagram us. Think of product drops that create lines, and the line itself becomes the story. Think of local rituals that make a city feel briefly owned by the people who showed up. Your city is underrated for this exact reason: [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel).",
+      text: "Think of the pop-ups people photograph because the room does something to them-not because a sign said Instagram us. Think of product drops that create lines, and the line itself becomes the story. Think of local rituals that make a city feel briefly owned by the people who showed up. Your city is underrated for this exact reason: [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel).",
     },
     {
       type: "p",
@@ -192,7 +192,7 @@ const post: BlogPost = {
         "Design the physical or digital artefact that makes that sentence easy.",
         "Remove share incentives from the brief unless the product already has demand.",
         "Measure unprompted mentions and conversation quality, not just share counts.",
-        "Amplify lived proof after the fact—never as a plea in the creative itself.",
+        "Amplify lived proof after the fact-never as a plea in the creative itself.",
       ],
     },
     {
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your growth plan only tracks what people clicked and never what they felt, you are measuring the wrong half of memory—[most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember). Feeling is also why [people remember how your brand made them feel, not what it posted](/blog/people-remember-how-brand-made-them-feel).",
+      text: "If your growth plan only tracks what people clicked and never what they felt, you are measuring the wrong half of memory-[most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember). Feeling is also why [people remember how your brand made them feel, not what it posted](/blog/people-remember-how-brand-made-them-feel).",
     },
     {
       type: "h2",
@@ -279,7 +279,7 @@ const post: BlogPost = {
         {
           question: "Do contests ever make sense?",
           answer:
-            "Yes, as a thank-you layered on existing love—not as the engine of distribution. If the prize is the product, you do not have advocates. You have entrants.",
+            "Yes, as a thank-you layered on existing love-not as the engine of distribution. If the prize is the product, you do not have advocates. You have entrants.",
         },
         {
           question: "How do we brief an agency without a share KPI?",
@@ -294,7 +294,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The best marketing does not ask people to share it because the ask is redundant when the moment is real. Build the scene. Leave the artefact. Plant the language. Then trust people to protect their feeds—and to break that rule when something is actually worth breaking it for.",
+      text: "The best marketing does not ask people to share it because the ask is redundant when the moment is real. Build the scene. Leave the artefact. Plant the language. Then trust people to protect their feeds-and to break that rule when something is actually worth breaking it for.",
     },
     {
       type: "cta",

@@ -9,7 +9,7 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-38-city-channel.png",
   metaDescription:
-    "Your city is an underrated marketing channel—local presence, neighbourhood distribution, and why a geo strategy beats another generic social-first plan.",
+    "Your city is an underrated marketing channel-local presence, neighbourhood distribution, and why a geo strategy beats another generic social-first plan.",
   content: [
     {
       type: "p",
@@ -62,7 +62,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you cannot name five gathering points in your city, you do not have a local strategy yet—you have a vibe. Mapping is research. Walk it. Ask customers where they spend Tuesday evenings. Treat the answers as channel inventory.",
+      text: "If you cannot name five gathering points in your city, you do not have a local strategy yet-you have a vibe. Mapping is research. Walk it. Ask customers where they spend Tuesday evenings. Treat the answers as channel inventory.",
     },
     {
       type: "callout",
@@ -75,7 +75,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Choose one nest—a district, campus, or corridor—and go deep for ninety days. Deep means: repeated presence, consistent promise, local proof, and partnerships that compound. Shallow means: one pop-up, three posts, and a claim that you “did local.”",
+      text: "Choose one nest-a district, campus, or corridor-and go deep for ninety days. Deep means: repeated presence, consistent promise, local proof, and partnerships that compound. Shallow means: one pop-up, three posts, and a claim that you “did local.”",
     },
     {
       type: "p",
@@ -87,7 +87,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Local partners—cafés, studios, clinics, retailers, community organisers, universities—already hold attention and belonging. Design offers that make them look good: co-hosted evenings, useful workshops, exclusive access for their community, revenue share that is boringly clear.",
+      text: "Local partners-cafés, studios, clinics, retailers, community organisers, universities-already hold attention and belonging. Design offers that make them look good: co-hosted evenings, useful workshops, exclusive access for their community, revenue share that is boringly clear.",
     },
     {
       type: "ul",
@@ -104,7 +104,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Cities reward rhythm. A monthly newsletter nobody sees is weaker than a weekly table, office hour, or walking tour that becomes expected. Pulse creates the feeling that you are part of the place’s operating system—not a campaign visiting from the internet.",
+      text: "Cities reward rhythm. A monthly newsletter nobody sees is weaker than a weekly table, office hour, or walking tour that becomes expected. Pulse creates the feeling that you are part of the place’s operating system-not a campaign visiting from the internet.",
     },
     {
       type: "image",
@@ -152,7 +152,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Noticeboards are not dead; irrelevant flyers are. Street teams fail when they interrupt; they work when they help. Sponsorships fail when they are logo rentals; they work when they solve a community problem. Geo-targeted ads work better after local proof exists—because the creative can show a real place, not a stock skyline.",
+      text: "Noticeboards are not dead; irrelevant flyers are. Street teams fail when they interrupt; they work when they help. Sponsorships fail when they are logo rentals; they work when they solve a community problem. Geo-targeted ads work better after local proof exists-because the creative can show a real place, not a stock skyline.",
     },
     {
       type: "ol",
@@ -174,7 +174,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Many consumer brands that look “internet native” actually won a city first—New York coffee culture, London fashion micro-scenes, Berlin nightlife adjacency. Even software companies use city density: invite-only dinners in one tech corridor, office hours in one co-working hub, university ambassadors on one campus.",
+      text: "Many consumer brands that look “internet native” actually won a city first-New York coffee culture, London fashion micro-scenes, Berlin nightlife adjacency. Even software companies use city density: invite-only dinners in one tech corridor, office hours in one co-working hub, university ambassadors on one campus.",
     },
     {
       type: "p",
@@ -186,7 +186,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your buyers are sparse by nature (highly specialised enterprise across continents), pure city strategy will frustrate you. Use hubs instead: the two or three cities where density still exists. If your product is illegal to demo in public, adapt with private rooms. If your positioning is still fog, fix that before you rent a high street window—clarity still comes first. See [your product may not have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "If your buyers are sparse by nature (highly specialised enterprise across continents), pure city strategy will frustrate you. Use hubs instead: the two or three cities where density still exists. If your product is illegal to demo in public, adapt with private rooms. If your positioning is still fog, fix that before you rent a high street window-clarity still comes first. See [your product may not have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "callout",
@@ -199,7 +199,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders fear looking “too local.” Customers fear looking uncertain. A sharp neighbourhood story often reads as focus, not smallness—especially when the website explains the wider ambition after the local proof. Lead with the nest; reveal the map.",
+      text: "Founders fear looking “too local.” Customers fear looking uncertain. A sharp neighbourhood story often reads as focus, not smallness-especially when the website explains the wider ambition after the local proof. Lead with the nest; reveal the map.",
     },
     {
       type: "p",
@@ -242,7 +242,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "City channels fail when the offer still feels generic. Local language should match local jobs: same promise, sharper context. That is belief design—the same philosophy as [marketing that feels like product design](/blog/best-marketing-feels-like-product-design). The street is another interface. Treat it with the same respect you pretend to give the homepage.",
+      text: "City channels fail when the offer still feels generic. Local language should match local jobs: same promise, sharper context. That is belief design-the same philosophy as [marketing that feels like product design](/blog/best-marketing-feels-like-product-design). The street is another interface. Treat it with the same respect you pretend to give the homepage.",
     },
     {
       type: "p",
@@ -254,7 +254,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For place-based brand and community strategy, [Harvard Business Review](https://hbr.org/) and [First Round Review](https://review.firstround.com/) often cover density and distribution tradeoffs. [Google’s geo and local resources](https://www.google.com/business/) remain practical for discovery hygiene even if your strategy is wider than Maps. [Project for Public Spaces](https://www.pps.org/) is surprisingly useful for understanding why people gather where they gather—marketing that ignores gathering physics is just noise outdoors.",
+      text: "For place-based brand and community strategy, [Harvard Business Review](https://hbr.org/) and [First Round Review](https://review.firstround.com/) often cover density and distribution tradeoffs. [Google’s geo and local resources](https://www.google.com/business/) remain practical for discovery hygiene even if your strategy is wider than Maps. [Project for Public Spaces](https://www.pps.org/) is surprisingly useful for understanding why people gather where they gather-marketing that ignores gathering physics is just noise outdoors.",
     },
     {
       type: "h2",
@@ -299,11 +299,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Your city is inventory, trust, and distribution you are already paying rent to occupy. Map it. Nest in it. Partner through it. Keep a pulse. Then let social media amplify a reputation that already exists on the pavement—not invent one from a content calendar alone.",
+      text: "Your city is inventory, trust, and distribution you are already paying rent to occupy. Map it. Nest in it. Partner through it. Keep a pulse. Then let social media amplify a reputation that already exists on the pavement-not invent one from a content calendar alone.",
     },
     {
       type: "cta",
-      lead: "Want help turning your city into a real growth channel—not just a postal address on the About page?",
+      lead: "Want help turning your city into a real growth channel-not just a postal address on the About page?",
       button: "Talk about local-to-digital strategy",
       href: "/contact",
     },

@@ -12,7 +12,7 @@ const post: BlogPost = {
   content: [
     {
       type: "p",
-      text: "Founders often wait for the perfect piece—the post that will “finally crack it,” the campaign that will go viral and solve distribution forever. I understand the fantasy. I have also watched it quietly kill more organic growth than bad design ever has. The internet is not a talent show with one winner. It is a habit machine with a long memory for who keeps arriving.",
+      text: "Founders often wait for the perfect piece-the post that will “finally crack it,” the campaign that will go viral and solve distribution forever. I understand the fantasy. I have also watched it quietly kill more organic growth than bad design ever has. The internet is not a talent show with one winner. It is a habit machine with a long memory for who keeps arriving.",
     },
     {
       type: "p",
@@ -34,14 +34,14 @@ const post: BlogPost = {
       type: "ul",
       items: [
         "Viral moments rent attention. Cadence earns recognition.",
-        "Brilliance without repetition is hard to attribute—and hard to trust.",
+        "Brilliance without repetition is hard to attribute-and hard to trust.",
         "Algorithms change; showing up with a clear promise still compounds.",
         "Consistency is not sameness. It is reliability of presence and standard.",
       ],
     },
     {
       type: "p",
-      text: "Organic growth is earned, not free—and cadence is one of the main invoices. See [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "Organic growth is earned, not free-and cadence is one of the main invoices. See [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Weekly is often enough. Daily is often vanity. Monthly is often invisibility—unless the artefact is unusually deep. Choose a rhythm your team can defend when launches slip and energy dips. Consistency is a constraint problem, not a motivation problem.",
+      text: "Weekly is often enough. Daily is often vanity. Monthly is often invisibility-unless the artefact is unusually deep. Choose a rhythm your team can defend when launches slip and energy dips. Consistency is a constraint problem, not a motivation problem.",
     },
     {
       type: "callout",
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Name URLs carefully. Update winners. Cluster related ideas. Link internally with intent. A library is how compounding publishing works: new work strengthens old work; old work catches searchers who then meet your current thinking. Systems beat campaigns—see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Name URLs carefully. Update winners. Cluster related ideas. Link internally with intent. A library is how compounding publishing works: new work strengthens old work; old work catches searchers who then meet your current thinking. Systems beat campaigns-see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h3",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Cadence alone is content production. Cadence with loops is growth: email capture that continues the same promise, customer stories that feed the next pieces, founder replies that seed topics, product moments that create talkability. People trust people—so let humans carry what you publish. Related: [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "Cadence alone is content production. Cadence with loops is growth: email capture that continues the same promise, customer stories that feed the next pieces, founder replies that seed topics, product moments that create talkability. People trust people-so let humans carry what you publish. Related: [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "takeaway",
@@ -161,9 +161,9 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "Maintain a rolling backlog of ten specific titles drawn from real customer language.",
-        "Block a recurring shipping window that is sacred—shorter than you think.",
+        "Block a recurring shipping window that is sacred-shorter than you think.",
         "Use templates for structure, not for voice.",
-        "Review monthly: what got returns, saves, replies, and sales mentions—not just views.",
+        "Review monthly: what got returns, saves, replies, and sales mentions-not just views.",
         "Archive or update pieces that no longer meet the standard.",
       ],
     },
@@ -221,7 +221,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If small budgets make you feel you must “go viral or die,” reconsider: [small budgets don’t kill good ideas—predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do). Predictable publishing with a sharp promise often beats expensive unpredictability.",
+      text: "If small budgets make you feel you must “go viral or die,” reconsider: [small budgets don’t kill good ideas-predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do). Predictable publishing with a sharp promise often beats expensive unpredictability.",
     },
     {
       type: "h2",
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "And if consistency alone still feels hollow, remember what people actually remember is emotion—not optimisation. See [most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember).",
+      text: "And if consistency alone still feels hollow, remember what people actually remember is emotion-not optimisation. See [most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember).",
     },
     {
       type: "faq",
@@ -264,7 +264,7 @@ const post: BlogPost = {
         {
           question: "Isn’t brilliance still important?",
           answer:
-            "Yes—inside the cadence. Raise the standard over time. Do not use the pursuit of brilliance as an excuse to disappear for a month.",
+            "Yes-inside the cadence. Raise the standard over time. Do not use the pursuit of brilliance as an excuse to disappear for a month.",
         },
       ],
     },
@@ -274,7 +274,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The internet rewards consistency more than brilliance because recognition, trust, and libraries compound—and fireworks do not. Build a cadence. Protect a standard. Let brilliance visit often enough to keep the work sharp. Showing up often beats trying to go viral once.",
+      text: "The internet rewards consistency more than brilliance because recognition, trust, and libraries compound-and fireworks do not. Build a cadence. Protect a standard. Let brilliance visit often enough to keep the work sharp. Showing up often beats trying to go viral once.",
     },
     {
       type: "cta",

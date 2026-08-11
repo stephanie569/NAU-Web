@@ -39,7 +39,7 @@ export default function TermsPage() {
             </h2>
             <p>
               You may browse the site for personal and professional information
-              about nau. You agree not to misuse the site—including attempting
+              about nau. You agree not to misuse the site-including attempting
               to disrupt its operation, scrape content at scale without
               permission, introduce malware, or use the site for unlawful
               purposes.
@@ -76,7 +76,7 @@ export default function TermsPage() {
               Dimitrova (nau) or used under licence. You may view and share
               links to public pages for ordinary personal or professional
               reference. You may not copy, reproduce, republish, or commercially
-              exploit site materials without prior written permission—except
+              exploit site materials without prior written permission-except
               where fair dealing / fair use or similar exceptions clearly apply.
             </p>
             <p>
@@ -127,9 +127,9 @@ export default function TermsPage() {
               To the fullest extent permitted by applicable law, Stefani
               Dimitrova / nau will not be liable for any indirect, incidental,
               special, consequential, or punitive damages, or any loss of
-              profits, data, or goodwill, arising from your use of—or inability
-              to use—this website. Liability for paid studio services, if any,
-              will be governed by the separate agreement for that work—not by
+              profits, data, or goodwill, arising from your use of-or inability
+              to use-this website. Liability for paid studio services, if any,
+              will be governed by the separate agreement for that work-not by
               these website Terms alone.
             </p>
             <p>

@@ -1,11 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import { NauButton } from "@/components/NauButton";
+import { NauLogoMark } from "@/components/NauLogoMark";
 import { testimonialsSectionCopy } from "@/lib/sections";
-
-const img = (id: string, size = 80) =>
-  `https://framerusercontent.com/images/${id}.jpg?width=${size}&height=${size}`;
 
 function PlusBadge() {
   return (
@@ -44,6 +42,30 @@ function CardPlusIcon() {
   );
 }
 
+function BrandLogo({
+  src,
+  alt,
+  className = "",
+  imageClassName = "p-0",
+}: {
+  src: string;
+  alt: string;
+  className?: string;
+  imageClassName?: string;
+}) {
+  return (
+    <div className={`relative shrink-0 overflow-hidden ${className}`}>
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        className={`object-contain ${imageClassName}`}
+        sizes="56px"
+      />
+    </div>
+  );
+}
+
 function ProfileBlock({
   author,
   role,
@@ -57,15 +79,14 @@ function ProfileBlock({
 }) {
   const content = (
     <div className="flex items-center gap-3">
-      <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-[10px]">
-        <Image
-          src={img(image, 96)}
-          alt={author}
-          fill
-          className="object-cover"
-          sizes="48px"
-        />
-      </div>
+      <BrandLogo
+        src={image}
+        alt={`${author} logo`}
+        className="h-12 w-12 rounded-[10px]"
+        imageClassName={
+          image.includes("the-pine") ? "scale-[1.28]" : undefined
+        }
+      />
       <div>
         <p className="text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
           {author}
@@ -110,23 +131,21 @@ function SummaryCard() {
       </div>
 
       <div>
-        <p className="mb-8 text-[clamp(1.75rem,3vw,2.25rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-          nau
-        </p>
+        <NauLogoMark size="md" className="mb-8 text-[#0a0a0a]" />
 
         <div className="mb-6 flex items-center justify-between gap-4">
           <div className="flex items-center">
             {summary.avatars.map((avatar, i) => (
               <div
                 key={avatar}
-                className="relative h-9 w-9 overflow-hidden rounded-full border-2 border-white"
+                className="relative h-9 w-9 overflow-hidden rounded-full border-2 border-white bg-[#f5f5f5]"
                 style={{ marginLeft: i === 0 ? 0 : -10, zIndex: 10 - i }}
               >
                 <Image
-                  src={img(avatar, 72)}
+                  src={avatar}
                   alt=""
                   fill
-                  className="object-cover"
+                  className="object-contain p-1"
                   sizes="36px"
                 />
               </div>
@@ -147,12 +166,9 @@ function SummaryCard() {
           </div>
         </div>
 
-        <Link
-          href="/contact"
-          className="flex w-full items-center justify-center rounded-full bg-[#0a0a0a] px-6 py-4 text-[15px] font-semibold tracking-[-0.04em] text-white transition-opacity hover:opacity-85"
-        >
+        <NauButton href="/contact" fullWidth>
           {summary.cta}
-        </Link>
+        </NauButton>
       </div>
     </div>
   );

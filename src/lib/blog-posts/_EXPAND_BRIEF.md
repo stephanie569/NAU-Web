@@ -18,13 +18,13 @@ Keep slug, date, category, image exactly. Improve excerpt + metaDescription. Kee
 
 Inline links in `p`/`ul`/`ol`/`callout`/`takeaway`/`table`/`faq` text: `[label](/blog/slug)` or `[label](https://...)`.
 
-Use `blogLinks.*` values inside markdown links, e.g. `[product–market fit guide](${...})` — NO: must be string literals like `[clarity guide](/blog/product-doesnt-have-marketing-problem-clarity-problem)`.
+Use `blogLinks.*` values inside markdown links, e.g. `[product-market fit guide](${...})` - NO: must be string literals like `[clarity guide](/blog/product-doesnt-have-marketing-problem-clarity-problem)`.
 
 ## Voice
-Professional, educational, human, strategic. Subtle dry British humour ~once per 400–600 words. First person as Stefani / nau strategist. No agency fluff, no buzzwords, no fabricated stats.
+Professional, educational, human, strategic. Subtle dry British humour ~once per 400-600 words. First person as Stefani / nau strategist. No agency fluff, no buzzwords, no fabricated stats.
 
-## Required content depth (~2000–3500 words)
-Strong opening; why it matters; teach before advising; frameworks in plain English; real examples (Apple, Stripe, Notion, Linear, Figma, Airbnb, etc.) + fictional startups; Try this / checklist / exercises; takeaways after major sections; FAQ where useful; actionable ending; 3–8 internal links; real external links only (NN/g, Baymard, HBR, YC Library, web.dev, WCAG, First Round Review, Google Search Central, Interaction Design Foundation). Never invent studies—use observation if unsure.
+## Required content depth (~2000-3500 words)
+Strong opening; why it matters; teach before advising; frameworks in plain English; real examples (Apple, Stripe, Notion, Linear, Figma, Airbnb, etc.) + fictional startups; Try this / checklist / exercises; takeaways after major sections; FAQ where useful; actionable ending; 3-8 internal links; real external links only (NN/g, Baymard, HBR, YC Library, web.dev, WCAG, First Round Review, Google Search Central, Interaction Design Foundation). Never invent studies-use observation if unsure.
 
 ## External link examples (use real URLs)
 - https://www.nngroup.com/

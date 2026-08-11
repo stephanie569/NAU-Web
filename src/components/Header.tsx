@@ -2,16 +2,17 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, type MouseEvent } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { NauButton } from "@/components/NauButton";
 import { projectCount } from "@/lib/hero";
 
 const navLinks = [
   { href: "/studio", label: "Studio" },
-  { href: "/projects", label: "Projects", count: projectCount },
-  { href: "/products", label: "Products" },
+  { href: "/clients", label: "Clients", count: projectCount },
+  { href: "/#pricing", label: "Pricing" },
+  { href: "/store", label: "Store" },
   { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact" },
 ];
 
 function MenuIcon({ open }: { open: boolean }) {
@@ -31,45 +32,73 @@ function MenuIcon({ open }: { open: boolean }) {
   );
 }
 
+function HomeLink({
+  className = "",
+  onClick,
+}: {
+  className?: string;
+  onClick?: () => void;
+}) {
+  return (
+    <Link
+      href="/"
+      onClick={onClick}
+      className={`shrink-0 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] transition-opacity hover:opacity-70 ${className}`}
+    >
+      Home
+    </Link>
+  );
+}
+
+function handlePricingClick(
+  event: MouseEvent<HTMLAnchorElement>,
+  href: string,
+  pathname: string,
+) {
+  if (!href.startsWith("/#") || pathname !== "/") return;
+
+  const id = href.split("#")[1];
+  if (!id) return;
+
+  event.preventDefault();
+  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  window.history.replaceState(null, "", `/#${id}`);
+}
+
 export function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const showHome = pathname !== "/";
 
   return (
     <header className="sticky top-0 z-50 bg-white">
-      <div className="mx-auto flex h-[61px] max-w-[1520px] items-center justify-between px-6 md:px-9">
-        <Link
-          href="/"
-          className="shrink-0 text-[15px] font-bold tracking-[-0.04em] text-[#0a0a0a]"
-        >
-          nau studio
-        </Link>
+      <div className="mx-auto flex h-[61px] max-w-[1520px] items-center px-6 md:px-9">
+        <nav className="hidden w-full items-center justify-between md:flex">
+          {showHome ? <HomeLink /> : null}
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              onClick={(event) => handlePricingClick(event, link.href, pathname)}
+              className={`shrink-0 text-[15px] font-medium tracking-[-0.04em] transition-opacity ${
+                pathname === link.href ||
+                pathname.startsWith(`${link.href}/`) ||
+                (link.href === "/#pricing" && pathname === "/")
+                  ? "text-[#0a0a0a]"
+                  : "text-[#0a0a0a] hover:opacity-70"
+              }`}
+            >
+              {link.label}
+              {"count" in link && link.count ? (
+                <sup className="ml-0.5 text-[10px] font-medium leading-none">
+                  {link.count}
+                </sup>
+              ) : null}
+            </Link>
+          ))}
 
-        {navLinks.map((link) => (
-          <Link
-            key={link.href}
-            href={link.href}
-            className={`hidden shrink-0 text-[15px] font-medium tracking-[-0.04em] transition-opacity md:block ${
-              pathname === link.href
-                ? "text-[#0a0a0a]"
-                : "text-[#0a0a0a] hover:opacity-70"
-            }`}
-          >
-            {link.label}
-            {"count" in link && link.count ? (
-              <sup className="ml-0.5 text-[10px] font-medium leading-none">
-                {link.count}
-              </sup>
-            ) : null}
-          </Link>
-        ))}
-
-        <Link
-          href="/contact"
-          className="hidden shrink-0 text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a] transition-opacity hover:opacity-70 md:block"
-        >
-          Work with me
-        </Link>
+          <NauButton href="/contact">Work with me</NauButton>
+        </nav>
 
         <button
           type="button"
@@ -91,18 +120,20 @@ export function Header() {
             className="overflow-hidden border-t border-[#0a0a0a]/10 bg-white md:hidden"
           >
             <div className="flex flex-col gap-1 px-6 py-4">
-              <Link
-                href="/"
-                onClick={() => setMenuOpen(false)}
-                className="py-3 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]"
-              >
-                Home
-              </Link>
+              {showHome ? (
+                <HomeLink
+                  className="py-3"
+                  onClick={() => setMenuOpen(false)}
+                />
+              ) : null}
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  onClick={() => setMenuOpen(false)}
+                  onClick={(event) => {
+                    handlePricingClick(event, link.href, pathname);
+                    setMenuOpen(false);
+                  }}
                   className="py-3 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]"
                 >
                   {link.label}
@@ -113,13 +144,13 @@ export function Header() {
                   ) : null}
                 </Link>
               ))}
-              <Link
+              <NauButton
                 href="/contact"
+                className="mt-2"
                 onClick={() => setMenuOpen(false)}
-                className="border-t border-[#0a0a0a]/10 py-4 text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a]"
               >
                 Work with me
-              </Link>
+              </NauButton>
             </div>
           </motion.nav>
         )}

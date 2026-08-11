@@ -8,7 +8,7 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-61-better-tomorrow.png",
   metaDescription:
-    "People don't buy products—they buy a better version of tomorrow. How to sell progress, not features, and turn packing lists into believable futures.",
+    "People don't buy products-they buy a better version of tomorrow. How to sell progress, not features, and turn packing lists into believable futures.",
   content: [
     {
       type: "p",
@@ -16,7 +16,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People do not buy products. They buy a better version of tomorrow—quieter mornings, fewer awkward status meetings, a kitchen that does not feel like a logistics problem, a team that stops guessing. The product is the vehicle. The destination is the sale. If you only describe the vehicle, you force the buyer to invent the destination themselves. Most of them will not bother.",
+      text: "People do not buy products. They buy a better version of tomorrow-quieter mornings, fewer awkward status meetings, a kitchen that does not feel like a logistics problem, a team that stops guessing. The product is the vehicle. The destination is the sale. If you only describe the vehicle, you force the buyer to invent the destination themselves. Most of them will not bother.",
     },
     {
       type: "p",
@@ -36,16 +36,16 @@ const post: BlogPost = {
         "Features answer “what is it?” Buyers decide on “what changes?”",
         "Specs travel well inside the company. Stories travel outside it.",
         "A packing list can be accurate and still fail to move anyone.",
-        "If removing your logo does not change the page, you are selling inventory—not tomorrow.",
+        "If removing your logo does not change the page, you are selling inventory-not tomorrow.",
       ],
     },
     {
       type: "p",
-      text: "I am not anti-feature. I am anti-leading with them. Features belong in the body of the argument once the future is vivid enough that people want proof. Related: [your product doesn’t have a marketing problem—it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "I am not anti-feature. I am anti-leading with them. Features belong in the body of the argument once the future is vivid enough that people want proof. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "takeaway",
-      text: "Sell the progress first. Use features as evidence that the progress is real—not as a substitute for it.",
+      text: "Sell the progress first. Use features as evidence that the progress is real-not as a substitute for it.",
     },
     {
       type: "h2",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Progress sells harder when staying put has a visible price. Time. Reputation. Energy. Missed compounding. The cost of the status quo is often clearer than the benefit of change—especially for risk-averse buyers. Name the tax of not moving.",
+      text: "Progress sells harder when staying put has a visible price. Time. Reputation. Energy. Missed compounding. The cost of the status quo is often clearer than the benefit of change-especially for risk-averse buyers. Name the tax of not moving.",
     },
     {
       type: "ul",
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Tomorrow is not a utopia. It is a believable improvement. One calmer ritual. One conversation that no longer happens. One outcome they can picture on a calendar. Overpromising kills trust faster than under-explaining. The skill is vivid and modest at once—which is harder than adjectives.",
+      text: "Tomorrow is not a utopia. It is a believable improvement. One calmer ritual. One conversation that no longer happens. One outcome they can picture on a calendar. Overpromising kills trust faster than under-explaining. The skill is vivid and modest at once-which is harder than adjectives.",
     },
     {
       type: "h3",
@@ -155,11 +155,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Because packing lists feel honest. You built the thing. Listing it feels like integrity. Progress language feels like marketing theatre—until you notice that buyers already think in progress. They are not asking you to invent fiction. They are asking you to articulate the change you already believe you create.",
+      text: "Because packing lists feel honest. You built the thing. Listing it feels like integrity. Progress language feels like marketing theatre-until you notice that buyers already think in progress. They are not asking you to invent fiction. They are asking you to articulate the change you already believe you create.",
     },
     {
       type: "p",
-      text: "There is also ego. Features are what the team argues about in Slack. Futures are what customers argue about at dinner. If your marketing mirrors internal debates, you are writing for the roadmap, not the market. When growth stalls for this reason, it often looks like a campaign problem. It is usually an offer-story problem—more on that in [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
+      text: "There is also ego. Features are what the team argues about in Slack. Futures are what customers argue about at dinner. If your marketing mirrors internal debates, you are writing for the roadmap, not the market. When growth stalls for this reason, it often looks like a campaign problem. It is usually an offer-story problem-more on that in [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
     },
     {
       type: "h2",
@@ -194,7 +194,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Progress is a narrative asset. Logo is a recognition asset. Teams often commission identity before they can say what tomorrow looks like. That is decoration with a higher invoice. Narrative first, marks second—covered properly in [why every product deserves a story before it deserves a logo](/blog/every-product-deserves-story-before-logo).",
+      text: "Progress is a narrative asset. Logo is a recognition asset. Teams often commission identity before they can say what tomorrow looks like. That is decoration with a higher invoice. Narrative first, marks second-covered properly in [why every product deserves a story before it deserves a logo](/blog/every-product-deserves-story-before-logo).",
     },
     {
       type: "h2",
@@ -202,7 +202,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Better tomorrow” is not permission to write mist. Anchor progress in observable behaviour. Who does what differently? What stops happening? What starts? If you cannot point at a changed ritual, you do not have progress—you have a mood board. For repositioning when the mood board has taken over, try [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "“Better tomorrow” is not permission to write mist. Anchor progress in observable behaviour. Who does what differently? What stops happening? What starts? If you cannot point at a changed ritual, you do not have progress-you have a mood board. For repositioning when the mood board has taken over, try [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "table",
@@ -249,7 +249,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When I build websites and go-to-market systems for founders, I treat the homepage as a tomorrow machine—not a feature museum. We clarify the unsatisfactory present, name the friction, write a believable future, then let the product prove it. If what you need is sharper story rather than more spend, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "When I build websites and go-to-market systems for founders, I treat the homepage as a tomorrow machine-not a feature museum. We clarify the unsatisfactory present, name the friction, write a believable future, then let the product prove it. If what you need is sharper story rather than more spend, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "p",
@@ -266,7 +266,7 @@ const post: BlogPost = {
         {
           question: "Where do features go if tomorrow leads?",
           answer:
-            "Immediately after belief starts. Features are evidence. Lead with destination, then show the vehicle. Specs still matter—just not as the opening argument.",
+            "Immediately after belief starts. Features are evidence. Lead with destination, then show the vehicle. Specs still matter-just not as the opening argument.",
         },
         {
           question: "What if different buyers want different tomorrows?",
@@ -286,7 +286,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People do not buy products. They buy a quieter Tuesday, a less embarrassing Friday, a version of themselves that is slightly more in control. Your job is not to recite the packing list. It is to make tomorrow feel specific, believable, and close—then prove you can get them there. Progress first. Features as receipts. Everything else is inventory with better kerning.",
+      text: "People do not buy products. They buy a quieter Tuesday, a less embarrassing Friday, a version of themselves that is slightly more in control. Your job is not to recite the packing list. It is to make tomorrow feel specific, believable, and close-then prove you can get them there. Progress first. Features as receipts. Everything else is inventory with better kerning.",
     },
     {
       type: "cta",

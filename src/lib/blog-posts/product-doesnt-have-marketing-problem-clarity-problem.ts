@@ -5,12 +5,12 @@ const post: BlogPost = {
   title:
     "You don't have a marketing problem. You have a clarity problem.",
   excerpt:
-    "When growth stalls, founders buy ads. More often, customers still cannot explain what you do—or why it matters—in one clear sentence. Here is how to diagnose and fix the clarity stack before you spend.",
+    "When growth stalls, founders buy ads. More often, customers still cannot explain what you do-or why it matters-in one clear sentence. Here is how to diagnose and fix the clarity stack before you spend.",
   date: "July 28, 2026",
   category: "Research & Positioning",
   image: "/images/blog/blog-01-clarity.png",
   metaDescription:
-    "Why stalled startup growth is usually a clarity problem, not a marketing problem—and how to fix positioning, messaging, and product narrative before you spend more on acquisition.",
+    "Why stalled startup growth is usually a clarity problem, not a marketing problem-and how to fix positioning, messaging, and product narrative before you spend more on acquisition.",
   content: [
     {
       type: "p",
@@ -22,11 +22,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Clarity problems look like marketing problems because both show up as weak conversion. The difference is root cause. If a stranger cannot repeat your offer after ten seconds on the homepage, you do not have a distribution gap. You have a comprehension gap. Amplifying confusion is not a growth strategy—it is a louder way to waste runway.",
+      text: "Clarity problems look like marketing problems because both show up as weak conversion. The difference is root cause. If a stranger cannot repeat your offer after ten seconds on the homepage, you do not have a distribution gap. You have a comprehension gap. Amplifying confusion is not a growth strategy-it is a louder way to waste runway.",
     },
     {
       type: "p",
-      text: "I see this pattern constantly at nau: founders who have shipped something real, hired smart people, and still cannot get cold traffic to understand the product. The instinct is to blame the channel. The fix is almost always upstream—in the sentence, the audience, and the proof.",
+      text: "I see this pattern constantly at nau: founders who have shipped something real, hired smart people, and still cannot get cold traffic to understand the product. The instinct is to blame the channel. The fix is almost always upstream-in the sentence, the audience, and the proof.",
     },
     {
       type: "h2",
@@ -34,7 +34,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Marketing spend assumes the offer is already legible. Ads, SEO, partnerships, and outbound all work better when the visitor already knows who the product is for, what changes, and why they should care now. When those three answers are fuzzy, every channel underperforms—and teams conclude “marketing doesn’t work for us.”",
+      text: "Marketing spend assumes the offer is already legible. Ads, SEO, partnerships, and outbound all work better when the visitor already knows who the product is for, what changes, and why they should care now. When those three answers are fuzzy, every channel underperforms-and teams conclude “marketing doesn’t work for us.”",
     },
     {
       type: "p",
@@ -42,12 +42,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Companies that communicate cleanly do not win because they have better fonts. They win because the product narrative is simple enough to travel. Stripe’s early story was not “payments infrastructure for developers building internet businesses with modern APIs”—it was closer to: payments that do not fight you. Linear did not sell “issue tracking for high-performance software teams with opinionated workflows.” It sold speed and calm in a category that felt noisy. Notion’s early promise was a workspace that bends to how you think—not a feature matrix of databases, wikis, and docs. The products are deep. The first sentence is shallow on purpose.",
+      text: "Companies that communicate cleanly do not win because they have better fonts. They win because the product narrative is simple enough to travel. Stripe’s early story was not “payments infrastructure for developers building internet businesses with modern APIs”-it was closer to: payments that do not fight you. Linear did not sell “issue tracking for high-performance software teams with opinionated workflows.” It sold speed and calm in a category that felt noisy. Notion’s early promise was a workspace that bends to how you think-not a feature matrix of databases, wikis, and docs. The products are deep. The first sentence is shallow on purpose.",
     },
     {
       type: "callout",
       title: "A useful test",
-      text: "Ask five people outside your company to visit your homepage for ten seconds, close the tab, and write one sentence about what you do. If you get five different sentences—or five shrugs—you have a clarity problem. No amount of CPC optimisation will fix five shrugs.",
+      text: "Ask five people outside your company to visit your homepage for ten seconds, close the tab, and write one sentence about what you do. If you get five different sentences-or five shrugs-you have a clarity problem. No amount of CPC optimisation will fix five shrugs.",
     },
     {
       type: "takeaway",
@@ -59,7 +59,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Both problems reduce demos, trials, and revenue. Diagnosis matters because the remedies are opposite. A marketing problem means the offer is understood and still undersupplied with attention. A clarity problem means attention arrives and still fails to convert—because belief never forms.",
+      text: "Both problems reduce demos, trials, and revenue. Diagnosis matters because the remedies are opposite. A marketing problem means the offer is understood and still undersupplied with attention. A clarity problem means attention arrives and still fails to convert-because belief never forms.",
     },
     {
       type: "table",
@@ -116,7 +116,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I use a five-layer stack with founders before we touch acquisition. Each layer must be answerable in plain English. If a layer is fuzzy, the layers below it will fail—no matter how pretty the design.",
+      text: "I use a five-layer stack with founders before we touch acquisition. Each layer must be answerable in plain English. If a layer is fuzzy, the layers below it will fail-no matter how pretty the design.",
     },
     {
       type: "h3",
@@ -128,7 +128,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Airbnb did not start as “travel for everyone.” Early focus was hosts and guests around events when hotels were scarce—a sharp job with a sharp context. Breadth came later. Early-stage teams that skip this step build websites that sound like category reports.",
+      text: "Airbnb did not start as “travel for everyone.” Early focus was hosts and guests around events when hotels were scarce-a sharp job with a sharp context. Breadth came later. Early-stage teams that skip this step build websites that sound like category reports.",
     },
     {
       type: "h3",
@@ -140,7 +140,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Weak: “An AI-powered workflow platform that unifies collaboration for modern teams.” Stronger: “Stop chasing project updates across five tools—see what’s blocked in one place.” The second sentence can survive a LinkedIn scroll. The first needs a glossary.",
+      text: "Weak: “An AI-powered workflow platform that unifies collaboration for modern teams.” Stronger: “Stop chasing project updates across five tools-see what’s blocked in one place.” The second sentence can survive a LinkedIn scroll. The first needs a glossary.",
     },
     {
       type: "h3",
@@ -195,15 +195,15 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Figma’s early clarity was not “collaborative interface design with multiplayer canvases.” It was: design together in the browser, without the file-handoff mess. Apple’s product pages rarely lead with specs; they lead with what changes in your life—then specs support the belief. These companies still have complexity. They refuse to put complexity in the first sentence.",
+      text: "Figma’s early clarity was not “collaborative interface design with multiplayer canvases.” It was: design together in the browser, without the file-handoff mess. Apple’s product pages rarely lead with specs; they lead with what changes in your life-then specs support the belief. These companies still have complexity. They refuse to put complexity in the first sentence.",
     },
     {
       type: "p",
-      text: "Contrast that with a fictional but familiar startup—call it FlowMesh. FlowMesh sells “intelligent operations orchestration for scale-ups.” The homepage lists twelve integrations, six persona tabs, and a hero video that never finishes loading on mobile. Sales loves the product. Cold traffic bounces. The founders hire an agency to “fix the creative.” The creative still has to explain FlowMesh in fifteen seconds. It cannot. The problem was never the ad account.",
+      text: "Contrast that with a fictional but familiar startup-call it FlowMesh. FlowMesh sells “intelligent operations orchestration for scale-ups.” The homepage lists twelve integrations, six persona tabs, and a hero video that never finishes loading on mobile. Sales loves the product. Cold traffic bounces. The founders hire an agency to “fix the creative.” The creative still has to explain FlowMesh in fifteen seconds. It cannot. The problem was never the ad account.",
     },
     {
       type: "p",
-      text: "When FlowMesh finally rewrote for one ICP—“ops leads at 20–80 person SaaS companies drowning in status meetings”—and one outcome—“replace weekly status theatre with a live view of what is blocked”—trial starts rose without increasing spend. Same product. Different sentence. That is clarity work.",
+      text: "When FlowMesh finally rewrote for one ICP-“ops leads at 20-80 person SaaS companies drowning in status meetings”-and one outcome-“replace weekly status theatre with a live view of what is blocked”-trial starts rose without increasing spend. Same product. Different sentence. That is clarity work.",
     },
     {
       type: "p",
@@ -241,7 +241,7 @@ const post: BlogPost = {
       type: "faq",
       items: [
         {
-          question: "But our product is complex—won’t a simple sentence undersell us?",
+          question: "But our product is complex-won’t a simple sentence undersell us?",
           answer:
             "A simple sentence is an entry point, not a full specification. Complexity belongs after belief. If people never understand the door, they never enter the house. Stripe, Notion, and Linear are complex products with simple fronts.",
         },
@@ -253,12 +253,12 @@ const post: BlogPost = {
         {
           question: "Can’t good marketing copy fix unclear positioning?",
           answer:
-            "Copy can polish fog. It cannot invent a decision. Positioning chooses who wins and what you refuse. Without that, copywriters rearrange adjectives. Useful guidance on how people actually read interfaces sits with groups like the [Nielsen Norman Group](https://www.nngroup.com/)—but research will not save a sentence that still tries to please everyone.",
+            "Copy can polish fog. It cannot invent a decision. Positioning chooses who wins and what you refuse. Without that, copywriters rearrange adjectives. Useful guidance on how people actually read interfaces sits with groups like the [Nielsen Norman Group](https://www.nngroup.com/)-but research will not save a sentence that still tries to please everyone.",
         },
         {
-          question: "We already have product–market fit. Is clarity still the issue?",
+          question: "We already have product-market fit. Is clarity still the issue?",
           answer:
-            "Sometimes. Fit in one segment can hide muddy storytelling as you expand. If expansion channels underperform while core customers still love you, the story is not travelling. See [what founders get wrong about product–market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+            "Sometimes. Fit in one segment can hide muddy storytelling as you expand. If expansion channels underperform while core customers still love you, the story is not travelling. See [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
         },
       ],
     },
@@ -272,11 +272,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders sometimes want the campaign because campaigns feel like action. Clarity feels like homework. Homework is cheaper. The [Y Combinator Library](https://www.ycombinator.com/library) is full of reminders that talking to users and sharpening the offer beats theatrical growth—because the hard part was never the ad platform settings.",
+      text: "Founders sometimes want the campaign because campaigns feel like action. Clarity feels like homework. Homework is cheaper. The [Y Combinator Library](https://www.ycombinator.com/library) is full of reminders that talking to users and sharpening the offer beats theatrical growth-because the hard part was never the ad platform settings.",
     },
     {
       type: "h2",
-      text: "Where clarity breaks inside the product—not only on the website",
+      text: "Where clarity breaks inside the product-not only on the website",
     },
     {
       type: "p",
@@ -284,7 +284,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Walk the first session as a stranger. Where do you first experience the outcome named on the homepage? If the answer is “after integrations, permissions, a team invite, and a tutorial modal,” your clarity problem is experiential. Marketing did not cause that. Product sequencing did. This is why [best marketing feels like product design](/blog/best-marketing-feels-like-product-design)—the story and the session must agree.",
+      text: "Walk the first session as a stranger. Where do you first experience the outcome named on the homepage? If the answer is “after integrations, permissions, a team invite, and a tutorial modal,” your clarity problem is experiential. Marketing did not cause that. Product sequencing did. This is why [best marketing feels like product design](/blog/best-marketing-feels-like-product-design)-the story and the session must agree.",
     },
     {
       type: "ul",
@@ -335,12 +335,12 @@ const post: BlogPost = {
         "Sales calls spend less time defining the category and more time on fit and implementation.",
         "New users reach the promised outcome without a founder screenshare as the default path.",
         "Paid creative can stay short because the landing page finishes the thought.",
-        "Customers’ explanations of the product cluster around the same job—not five different products.",
+        "Customers’ explanations of the product cluster around the same job-not five different products.",
       ],
     },
     {
       type: "p",
-      text: "When those are true, marketing becomes leverage. Until then, marketing is a spotlight on unfinished work. Spotlights are honest like that—and slightly rude, which is why founders prefer another cupboard.",
+      text: "When those are true, marketing becomes leverage. Until then, marketing is a spotlight on unfinished work. Spotlights are honest like that-and slightly rude, which is why founders prefer another cupboard.",
     },
     {
       type: "p",

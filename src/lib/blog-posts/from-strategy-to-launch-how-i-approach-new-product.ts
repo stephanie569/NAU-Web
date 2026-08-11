@@ -9,11 +9,11 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-15-strategy-launch.png",
   metaDescription:
-    "How I take products from strategy to launch—ICP, narrative, experience design, proof, measurement, and learning loops founders can reuse.",
+    "How I take products from strategy to launch-ICP, narrative, experience design, proof, measurement, and learning loops founders can reuse.",
   content: [
     {
       type: "p",
-      text: "Every new product I take on follows the same arc: strategy, narrative, experience, proof, launch, learning. The tools change. The sequence does not. Skipping steps feels entrepreneurial. It usually just feels expensive later—especially when the team discovers, three months in, that the homepage still cannot explain what the product does.",
+      text: "Every new product I take on follows the same arc: strategy, narrative, experience, proof, launch, learning. The tools change. The sequence does not. Skipping steps feels entrepreneurial. It usually just feels expensive later-especially when the team discovers, three months in, that the homepage still cannot explain what the product does.",
     },
     {
       type: "p",
@@ -34,7 +34,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "A useful reframe",
-      text: "Treat launch as the start of a learning system, not the end of a build cycle. If you cannot name what you will measure in week one, you are not launching—you are releasing.",
+      text: "Treat launch as the start of a learning system, not the end of a build cycle. If you cannot name what you will measure in week one, you are not launching-you are releasing.",
     },
     {
       type: "takeaway",
@@ -97,7 +97,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 1 — strategy before screens",
+      text: "Stage 1 - strategy before screens",
     },
     {
       type: "p",
@@ -119,16 +119,16 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Real companies do this quietly. Stripe’s early clarity was not “payments infrastructure for developers” as a slogan alone—it was a ruthless ICP and a job (accept payments without becoming a payments company). Notion’s early expansion looked chaotic from the outside; underneath, the job stayed “one workspace where work lives.” Linear’s wedge was not “another issue tracker”—it was speed and taste for teams who already knew the category.",
+      text: "Real companies do this quietly. Stripe’s early clarity was not “payments infrastructure for developers” as a slogan alone-it was a ruthless ICP and a job (accept payments without becoming a payments company). Notion’s early expansion looked chaotic from the outside; underneath, the job stayed “one workspace where work lives.” Linear’s wedge was not “another issue tracker”-it was speed and taste for teams who already knew the category.",
     },
     {
       type: "p",
-      text: "Fictional example: a founder builds “AI meeting notes for everyone.” Everyone is not an ICP. After the five boxes, it becomes “async meeting notes for remote product teams who already use Slack and hate rewatching recordings.” Suddenly the homepage writes itself—and half the roadmap can be deleted without ceremony.",
+      text: "Fictional example: a founder builds “AI meeting notes for everyone.” Everyone is not an ICP. After the five boxes, it becomes “async meeting notes for remote product teams who already use Slack and hate rewatching recordings.” Suddenly the homepage writes itself-and half the roadmap can be deleted without ceremony.",
     },
     {
       type: "callout",
       title: "Try this (45 minutes)",
-      text: "Write the five boxes on one page. Then write a second page titled “What we will not build in the next 90 days.” If the second page is empty, you do not have strategy yet—you have optimism with a backlog.",
+      text: "Write the five boxes on one page. Then write a second page titled “What we will not build in the next 90 days.” If the second page is empty, you do not have strategy yet-you have optimism with a backlog.",
     },
     {
       type: "takeaway",
@@ -136,15 +136,15 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 2 — narrative: the story customers can repeat",
+      text: "Stage 2 - narrative: the story customers can repeat",
     },
     {
       type: "p",
-      text: "Narrative is not brand poetry. It is the sequence of sentences that move a stranger from confusion to a next step. Most startups fail here because [the product does not have a marketing problem—it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Narrative is not brand poetry. It is the sequence of sentences that move a stranger from confusion to a next step. Most startups fail here because [the product does not have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "p",
-      text: "I write the homepage before the feature list. The homepage is the pitch under pressure: cold traffic, short attention, no sales call to rescue you. Nielsen Norman Group’s work on [how users read on the web](https://www.nngroup.com/) is still useful here—people scan for relevance and next actions, not your origin story.",
+      text: "I write the homepage before the feature list. The homepage is the pitch under pressure: cold traffic, short attention, no sales call to rescue you. Nielsen Norman Group’s work on [how users read on the web](https://www.nngroup.com/) is still useful here-people scan for relevance and next actions, not your origin story.",
     },
     {
       type: "h3",
@@ -162,7 +162,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s product pages are instructive even when you are not shipping hardware: one idea per section, proof next to claims, and almost no decorative clutter in the first viewport. Airbnb’s homepage—which I unpack in a [dedicated teardown](/blog/product-teardown-airbnb-homepage)—owns the job immediately: find a place. Startups often bury the job under category language and a carousel of ambitions.",
+      text: "Apple’s product pages are instructive even when you are not shipping hardware: one idea per section, proof next to claims, and almost no decorative clutter in the first viewport. Airbnb’s homepage-which I unpack in a [dedicated teardown](/blog/product-teardown-airbnb-homepage)-owns the job immediately: find a place. Startups often bury the job under category language and a carousel of ambitions.",
     },
     {
       type: "quote",
@@ -170,11 +170,11 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 3 — experience: screens that reduce belief gaps",
+      text: "Stage 3 - experience: screens that reduce belief gaps",
     },
     {
       type: "p",
-      text: "Once the story is clear, UI becomes translation. Each screen should either reduce a belief gap or advance a job. If it does neither, it is decoration—however elegant the spacing.",
+      text: "Once the story is clear, UI becomes translation. Each screen should either reduce a belief gap or advance a job. If it does neither, it is decoration-however elegant the spacing.",
     },
     {
       type: "ul",
@@ -182,21 +182,21 @@ const post: BlogPost = {
         "Homepage answers belief gaps for cold traffic.",
         "Onboarding delivers the first outcome fast.",
         "Pricing resolves risk and value comparison.",
-        "Feature pages map to jobs—not internal modules.",
+        "Feature pages map to jobs-not internal modules.",
       ],
     },
     {
       type: "p",
-      text: "Time-to-value is the silent killer of “successful” launches. Teams celebrate signups while activation limps. I design the first session like a product: what must the user complete to feel progress? Figma’s early “open a file and draw” clarity, or Stripe’s “get an API key and charge a card,” are not accidents—they are first-session design.",
+      text: "Time-to-value is the silent killer of “successful” launches. Teams celebrate signups while activation limps. I design the first session like a product: what must the user complete to feel progress? Figma’s early “open a file and draw” clarity, or Stripe’s “get an API key and charge a card,” are not accidents-they are first-session design.",
     },
     {
       type: "p",
-      text: "For web performance and experience quality, I treat [web.dev’s Core Web Vitals](https://web.dev/articles/vitals) as hygiene, not a growth hack. Slow pages do not only hurt SEO; they tax trust before your copy gets a fair hearing. Accessibility is the same category of seriousness—[WCAG guidance](https://www.w3.org/WAI/standards-guidelines/wcag/) is not optional polish if you claim to build for real customers.",
+      text: "For web performance and experience quality, I treat [web.dev’s Core Web Vitals](https://web.dev/articles/vitals) as hygiene, not a growth hack. Slow pages do not only hurt SEO; they tax trust before your copy gets a fair hearing. Accessibility is the same category of seriousness-[WCAG guidance](https://www.w3.org/WAI/standards-guidelines/wcag/) is not optional polish if you claim to build for real customers.",
     },
     {
       type: "callout",
       title: "Exercise: belief-gap map",
-      text: "List the top five reasons a target customer would not buy. Next to each, name the screen (or sales asset) that answers it. Gaps in the map are your real roadmap—usually more useful than the feature backlog.",
+      text: "List the top five reasons a target customer would not buy. Next to each, name the screen (or sales asset) that answers it. Gaps in the map are your real roadmap-usually more useful than the feature backlog.",
     },
     {
       type: "takeaway",
@@ -204,7 +204,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 4 — proof: evidence with a job",
+      text: "Stage 4 - proof: evidence with a job",
     },
     {
       type: "p",
@@ -223,7 +223,7 @@ const post: BlogPost = {
       items: [
         "Outcome proof: before/after metrics in customer language.",
         "Process proof: screenshots or short walkthroughs that demystify.",
-        "Social proof: named roles, companies, and specific results—not vague praise.",
+        "Social proof: named roles, companies, and specific results-not vague praise.",
         "Risk reducers: guarantees, security notes, clear pricing, cancel ease.",
       ],
     },
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 5 — launch: one CTA and a measurement plan",
+      text: "Stage 5 - launch: one CTA and a measurement plan",
     },
     {
       type: "p",
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Pick one primary action for the stage you are in. Early: waitlist with a clear promise. Mid: product-led activation. Sales-led: a demo that qualifies. Then instrument the path. Google’s [Search Central documentation](https://developers.google.com/search/docs) matters if organic discovery is part of the plan—but even more important is whether you can answer: where do people drop, and what did they understand when they did?",
+      text: "Pick one primary action for the stage you are in. Early: waitlist with a clear promise. Mid: product-led activation. Sales-led: a demo that qualifies. Then instrument the path. Google’s [Search Central documentation](https://developers.google.com/search/docs) matters if organic discovery is part of the plan-but even more important is whether you can answer: where do people drop, and what did they understand when they did?",
     },
     {
       type: "ol",
@@ -260,7 +260,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 6 — learning: weekly decisions, not monthly regrets",
+      text: "Stage 6 - learning: weekly decisions, not monthly regrets",
     },
     {
       type: "p",
@@ -277,7 +277,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is also where [product–market fit misunderstandings](/blog/what-founders-get-wrong-about-product-market-fit) show up. Teams treat a spike as fit, or silence as “need more ads.” Learning loops force honesty: if activation is weak, more traffic is a louder version of the same problem—something I unpack in [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "This is also where [product-market fit misunderstandings](/blog/what-founders-get-wrong-about-product-market-fit) show up. Teams treat a spike as fit, or silence as “need more ads.” Learning loops force honesty: if activation is weak, more traffic is a louder version of the same problem-something I unpack in [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "takeaway",
@@ -293,11 +293,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "We run the arc. Strategy narrows ICP to independent hotels with 20–80 rooms still using spreadsheets for VIP notes. Narrative becomes: “Stop losing guest preferences between your PMS and your front desk.” Experience focuses on importing a CSV and seeing a guest profile in under ten minutes. Proof uses three hotel interviews with specific outcomes. Launch CTA is a guided onboarding, not a webinar. Learning tracks import → first profile used at check-in.",
+      text: "We run the arc. Strategy narrows ICP to independent hotels with 20-80 rooms still using spreadsheets for VIP notes. Narrative becomes: “Stop losing guest preferences between your PMS and your front desk.” Experience focuses on importing a CSV and seeing a guest profile in under ten minutes. Proof uses three hotel interviews with specific outcomes. Launch CTA is a guided onboarding, not a webinar. Learning tracks import → first profile used at check-in.",
     },
     {
       type: "p",
-      text: "The AI feature waits. The Product Hunt post waits. The team ships something a night manager can explain to a colleague—which is the real distribution channel in hospitality, whether founders like it or not.",
+      text: "The AI feature waits. The Product Hunt post waits. The team ships something a night manager can explain to a colleague-which is the real distribution channel in hospitality, whether founders like it or not.",
     },
     {
       type: "h2",
@@ -353,12 +353,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is how [systems compound instead of campaigns thrashing](/blog/why-i-care-more-about-systems-than-campaigns). The launch arc is not a one-off waterfall. It is a loop you re-enter with better questions each time—especially after you confuse [product shipping with business building](/blog/difference-building-product-and-building-business).",
+      text: "This is how [systems compound instead of campaigns thrashing](/blog/why-i-care-more-about-systems-than-campaigns). The launch arc is not a one-off waterfall. It is a loop you re-enter with better questions each time-especially after you confuse [product shipping with business building](/blog/difference-building-product-and-building-business).",
     },
     {
       type: "callout",
       title: "Pre-mortem before you announce",
-      text: "Two days before launch, write: “It is six weeks later and the launch disappointed—what were the three most likely reasons?” Force specificity (unclear ICP, weak activation, no proof, unowned metrics). Fix what you can before the fireworks. Premortems are cheaper than post-mortems with cake.",
+      text: "Two days before launch, write: “It is six weeks later and the launch disappointed-what were the three most likely reasons?” Force specificity (unclear ICP, weak activation, no proof, unowned metrics). Fix what you can before the fireworks. Premortems are cheaper than post-mortems with cake.",
     },
     {
       type: "h2",
@@ -370,7 +370,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you only have thirty days, the same arc still applies—compressed. I outline that compression in [what I would change if you gave me your startup for 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days).",
+      text: "If you only have thirty days, the same arc still applies-compressed. I outline that compression in [what I would change if you gave me your startup for 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days).",
     },
     {
       type: "faq",
@@ -378,7 +378,7 @@ const post: BlogPost = {
         {
           question: "How long should strategy take before we design?",
           answer:
-            "For early products, one focused week is often enough to fill the five boxes and draft narrative. Longer than that usually means unresolved disagreement—or avoidance dressed as research.",
+            "For early products, one focused week is often enough to fill the five boxes and draft narrative. Longer than that usually means unresolved disagreement-or avoidance dressed as research.",
         },
         {
           question: "What if we need to launch next week?",
@@ -393,7 +393,7 @@ const post: BlogPost = {
         {
           question: "Where does brand fit in this arc?",
           answer:
-            "Brand expresses strategy; it does not replace it. Voice, visual system, and motion should make the job and outcome easier to recognise—not harder to parse.",
+            "Brand expresses strategy; it does not replace it. Voice, visual system, and motion should make the job and outcome easier to recognise-not harder to parse.",
         },
       ],
     },
@@ -413,7 +413,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Launches go wrong when teams confuse motion with progress. The arc above is deliberately unglamorous. That is the point. Strategy, narrative, experience, proof, launch, learning—then repeat with better questions. For complementary framing on commercial reality versus feature shipping, read [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
+      text: "Launches go wrong when teams confuse motion with progress. The arc above is deliberately unglamorous. That is the point. Strategy, narrative, experience, proof, launch, learning-then repeat with better questions. For complementary framing on commercial reality versus feature shipping, read [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
     },
     {
       type: "cta",

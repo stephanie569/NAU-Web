@@ -13,7 +13,7 @@ const post: BlogPost = {
   content: [
     {
       type: "p",
-      text: "A good landing page review is balanced. It names what is working—so you do not destroy strengths—and what is hurting conversion so you can intervene with precision. Blanket redesigns are how good headlines die in the name of freshness. I have watched teams “refresh” a converting page into a prettier bounce rate. Taste is not a strategy; diagnosis is.",
+      text: "A good landing page review is balanced. It names what is working-so you do not destroy strengths-and what is hurting conversion so you can intervene with precision. Blanket redesigns are how good headlines die in the name of freshness. I have watched teams “refresh” a converting page into a prettier bounce rate. Taste is not a strategy; diagnosis is.",
     },
     {
       type: "p",
@@ -22,7 +22,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Review mindset",
-      text: "Protect what builds belief. Cut what creates doubt or delay. Change fashion last. If you cannot explain why an element exists in the decision sequence, it is a candidate for removal—not for a nicer border radius.",
+      text: "Protect what builds belief. Cut what creates doubt or delay. Change fashion last. If you cannot explain why an element exists in the decision sequence, it is a candidate for removal-not for a nicer border radius.",
     },
     {
       type: "h2",
@@ -30,7 +30,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A landing page has one job: advance a specific visitor from interest to a specific next step. It is not a brand museum. It is not a sitemap. It is a decision environment with a beginning, middle, and ask. Nielsen Norman Group’s guidance on persuasion and scanning behaviour is useful background—[nngroup.com](https://www.nngroup.com/)—because most visitors will not read your carefully workshopped paragraphs in order.",
+      text: "A landing page has one job: advance a specific visitor from interest to a specific next step. It is not a brand museum. It is not a sitemap. It is a decision environment with a beginning, middle, and ask. Nielsen Norman Group’s guidance on persuasion and scanning behaviour is useful background-[nngroup.com](https://www.nngroup.com/)-because most visitors will not read your carefully workshopped paragraphs in order.",
     },
     {
       type: "p",
@@ -59,7 +59,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Close your books three days faster” beats “AI-powered finance platform.” Specificity lets the right person self-select. Stripe, Linear, and many strong product pages lead with outcomes or crisp category ownership—not a stew of buzzwords. Your headline should survive the logo-cover test: still clear without brand recognition.",
+      text: "“Close your books three days faster” beats “AI-powered finance platform.” Specificity lets the right person self-select. Stripe, Linear, and many strong product pages lead with outcomes or crisp category ownership-not a stew of buzzwords. Your headline should survive the logo-cover test: still clear without brand recognition.",
     },
     {
       type: "h3",
@@ -75,7 +75,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the next step is a demo, the demo ask should not dress as a text link in a paragraph. Visual hierarchy is part of honesty. On mobile, the CTA must remain findable without archaeological scrolling. Baymard’s UX patterns around primary actions and checkout friction are instructive even for SaaS—[baymard.com/blog](https://baymard.com/blog).",
+      text: "If the next step is a demo, the demo ask should not dress as a text link in a paragraph. Visual hierarchy is part of honesty. On mobile, the CTA must remain findable without archaeological scrolling. Baymard’s UX patterns around primary actions and checkout friction are instructive even for SaaS-[baymard.com/blog](https://baymard.com/blog).",
     },
     {
       type: "h3",
@@ -87,7 +87,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Helping elements make relevance, reassurance, and action obvious. Keep them—even if a designer is bored of them.",
+      text: "Helping elements make relevance, reassurance, and action obvious. Keep them-even if a designer is bored of them.",
     },
     {
       type: "h2",
@@ -116,7 +116,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Book demo,” “Start free,” “Watch video,” “Read customer story,” and a nav that escapes to the blog—each is a fork. Forks are fine in products; they are expensive on landers paid for by the click. Pick a primary. Demote the rest. Your ad promised one path; honour it.",
+      text: "“Book demo,” “Start free,” “Watch video,” “Read customer story,” and a nav that escapes to the blog-each is a fork. Forks are fine in products; they are expensive on landers paid for by the click. Pick a primary. Demote the rest. Your ad promised one path; honour it.",
     },
     {
       type: "h3",
@@ -124,7 +124,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Autoplaying hero videos, enormous unoptimised images, and animation that postpones text—these punish mobile users and paid traffic. Performance is conversion infrastructure. Follow [web.dev](https://web.dev/) and [Core Web Vitals](https://web.dev/articles/vitals) as practical standards, not as a side quest for the engineering backlog.",
+      text: "Autoplaying hero videos, enormous unoptimised images, and animation that postpones text-these punish mobile users and paid traffic. Performance is conversion infrastructure. Follow [web.dev](https://web.dev/) and [Core Web Vitals](https://web.dev/articles/vitals) as practical standards, not as a side quest for the engineering backlog.",
     },
     {
       type: "h3",
@@ -132,7 +132,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Budget, phone, company size, how did you hear about us, and a paragraph-sized “needs” field before any value—this is CRM hunger wearing a product mask. Ask for enough to route the conversation. Enrich later. Friction should match commitment stage.",
+      text: "Budget, phone, company size, how did you hear about us, and a paragraph-sized “needs” field before any value-this is CRM hunger wearing a product mask. Ask for enough to route the conversation. Enrich later. Friction should match commitment stage.",
     },
     {
       type: "h2",
@@ -207,7 +207,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Message match deserves emphasis. If the ad says “inventory for Shopify DTC brands” and the lander says “supply chain OS for modern commerce,” you manufactured bounce before the hero illustration even loaded. Google Search Central’s guidance on landing page experience and relevance is directionally useful even beyond SEO—[developers.google.com/search/docs](https://developers.google.com/search/docs).",
+      text: "Message match deserves emphasis. If the ad says “inventory for Shopify DTC brands” and the lander says “supply chain OS for modern commerce,” you manufactured bounce before the hero illustration even loaded. Google Search Central’s guidance on landing page experience and relevance is directionally useful even beyond SEO-[developers.google.com/search/docs](https://developers.google.com/search/docs).",
     },
     {
       type: "callout",
@@ -232,7 +232,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the same philosophy as the [three conversion levers](/blog/website-audit-three-changes-double-conversion): message, proof, path—applied to a single URL with paid traffic on the line.",
+      text: "This is the same philosophy as the [three conversion levers](/blog/website-audit-three-changes-double-conversion): message, proof, path-applied to a single URL with paid traffic on the line.",
     },
     {
       type: "h2",
@@ -244,7 +244,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Ask: does this hero earn the click that brought someone here? Match the ad or referrer’s language. Show one outcome. Place one primary CTA. If you need a visual, make it evidence of the product—not abstract gradients that could advertise anyone. Founders sometimes defend vague heroes as “brand.” Brand that cannot speak an outcome is costume jewellery.",
+      text: "Ask: does this hero earn the click that brought someone here? Match the ad or referrer’s language. Show one outcome. Place one primary CTA. If you need a visual, make it evidence of the product-not abstract gradients that could advertise anyone. Founders sometimes defend vague heroes as “brand.” Brand that cannot speak an outcome is costume jewellery.",
     },
     {
       type: "h3",
@@ -268,7 +268,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Pricing helps when it clarifies fit. It hurts when it is a feature matrix tournament. Label plans by who they are for. State what is included in outcome language. If you hide pricing for sales reasons, at least explain the next step honestly—“Talk to us for a scoped walkthrough”—so the CTA is not a trapdoor.",
+      text: "Pricing helps when it clarifies fit. It hurts when it is a feature matrix tournament. Label plans by who they are for. State what is included in outcome language. If you hide pricing for sales reasons, at least explain the next step honestly-“Talk to us for a scoped walkthrough”-so the CTA is not a trapdoor.",
     },
     {
       type: "h3",
@@ -285,7 +285,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When stakeholders insist a hurting section “needs to stay for brand,” ask which belief stage it serves. If the answer is “presence,” it is decoration. Decoration can exist below the conversion zone; they should not occupy the decision path you are paying for with ads or scarce attention. Brand is how the argument feels once the argument is clear—not a licence to keep modules that stall the ask.",
+      text: "When stakeholders insist a hurting section “needs to stay for brand,” ask which belief stage it serves. If the answer is “presence,” it is decoration. Decoration can exist below the conversion zone; they should not occupy the decision path you are paying for with ads or scarce attention. Brand is how the argument feels once the argument is clear-not a licence to keep modules that stall the ask.",
     },
     {
       type: "h2",
@@ -293,7 +293,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Low contrast CTAs, missing form labels, and keyboard-unusable modals are not “edge cases.” They are lost conversions you will never see in a heatmap anecdote. Build to [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) basics on every lander you pay for. Trust also includes accurate claims—overpromising in hero copy creates refund and churn debt downstream.",
+      text: "Low contrast CTAs, missing form labels, and keyboard-unusable modals are not “edge cases.” They are lost conversions you will never see in a heatmap anecdote. Build to [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) basics on every lander you pay for. Trust also includes accurate claims-overpromising in hero copy creates refund and churn debt downstream.",
     },
     {
       type: "p",
@@ -322,18 +322,18 @@ const post: BlogPost = {
         [
           "Form field reduction",
           "High",
-          "Low–medium",
+          "Low-medium",
           "When clicks > completions",
         ],
         [
           "Remove competing CTAs",
-          "Medium–high",
+          "Medium-high",
           "Low",
           "Especially on paid landers",
         ],
         [
           "Media performance pass",
-          "Medium–high",
+          "Medium-high",
           "Medium",
           "When mobile bounce is high",
         ],
@@ -370,12 +370,12 @@ const post: BlogPost = {
         {
           question: "When is a redesign justified?",
           answer:
-            "When the argument is clear, tracking is clean, and the visual system still undermines trust or comprehension. Redesign to support the argument—not to escape writing it.",
+            "When the argument is clear, tracking is clean, and the visual system still undermines trust or comprehension. Redesign to support the argument-not to escape writing it.",
         },
         {
           question: "What should we watch in analytics?",
           answer:
-            "Scroll depth to proof, CTA click rate, form start/complete, mobile vs desktop conversion, and post-click quality (show rates, activation)—not bounce alone.",
+            "Scroll depth to proof, CTA click rate, form start/complete, mobile vs desktop conversion, and post-click quality (show rates, activation)-not bounce alone.",
         },
       ],
     },
@@ -385,11 +385,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Keep what builds belief. Cut what creates doubt or delay. The rest is taste—and taste is secondary to understanding. A landing page review that only lists problems creates panic. A review that protects strengths and ranks friction creates a sprint plan.",
+      text: "Keep what builds belief. Cut what creates doubt or delay. The rest is taste-and taste is secondary to understanding. A landing page review that only lists problems creates panic. A review that protects strengths and ranks friction creates a sprint plan.",
     },
     {
       type: "p",
-      text: "Run the green/red highlight exercise this week. Ship one helping reinforcement and one hurting removal. Then decide whether you still want a redesign—or whether the page simply needed honesty.",
+      text: "Run the green/red highlight exercise this week. Ship one helping reinforcement and one hurting removal. Then decide whether you still want a redesign-or whether the page simply needed honesty.",
     },
     {
       type: "cta",

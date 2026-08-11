@@ -114,9 +114,14 @@ function ServiceRow({
                 <h3 className="text-[clamp(1.25rem,2.2vw,1.75rem)] leading-tight font-semibold tracking-[-0.04em] text-white">
                   {service.title}
                 </h3>
-                <p className="mt-3 max-w-[520px] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/60">
-                  {service.description}
-                </p>
+                <div className="mt-3 max-w-[560px] space-y-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/60">
+                  {(Array.isArray(service.description)
+                    ? service.description
+                    : [service.description]
+                  ).map((paragraph) => (
+                    <p key={paragraph}>{paragraph}</p>
+                  ))}
+                </div>
               </div>
             </div>
 

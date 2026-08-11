@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { NauButton } from "@/components/NauButton";
 import { contactPageCopy } from "@/lib/sections";
 
 export function ContactPageContent() {
@@ -88,17 +89,9 @@ export function ContactPageContent() {
                 />
               </label>
 
-              <button
-                type="submit"
-                className="mt-8 inline-flex items-center gap-5 rounded-full bg-[#0a0a0a] py-2.5 pr-2.5 pl-6 transition-opacity hover:opacity-85"
-              >
-                <span className="text-[13px] font-semibold tracking-[-0.04em] text-white">
-                  {submit}
-                </span>
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white">
-                  <span className="h-2 w-2 rounded-full bg-[#0a0a0a]" />
-                </span>
-              </button>
+              <NauButton type="submit" className="mt-8">
+                {submit}
+              </NauButton>
 
               <p className="mt-4 max-w-[360px] text-[13px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
                 {legalLead}{" "}

@@ -9,7 +9,7 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-36-offline-marketing.png",
   metaDescription:
-    "Why the best marketing often starts offline—experiential campaigns, physical proof, and how real-world moments build trust that screens alone cannot buy.",
+    "Why the best marketing often starts offline-experiential campaigns, physical proof, and how real-world moments build trust that screens alone cannot buy.",
   content: [
     {
       type: "p",
@@ -25,7 +25,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "What screens are good at—and what they are not",
+      text: "What screens are good at-and what they are not",
     },
     {
       type: "p",
@@ -98,7 +98,7 @@ const post: BlogPost = {
     },
     {
       type: "quote",
-      text: "If your campaign only works when nobody has to show up, you have built content—not marketing.",
+      text: "If your campaign only works when nobody has to show up, you have built content-not marketing.",
     },
     {
       type: "h2",
@@ -110,7 +110,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Pick a place, a time window, and an audience that can actually arrive. Constraints are not a budget limitation here—they are the product. A weekend stall at a specific market is more believable than a “global launch activation” that is really a rented studio and a ring light.",
+      text: "Pick a place, a time window, and an audience that can actually arrive. Constraints are not a budget limitation here-they are the product. A weekend stall at a specific market is more believable than a “global launch activation” that is really a rented studio and a ring light.",
     },
     {
       type: "p",
@@ -119,7 +119,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Write your campaign as a one-sentence invitation with a place and time: “Come to X on Y to try Z.” If you cannot write that sentence without jargon, you are not ready for offline. You are still in positioning fog—see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Write your campaign as a one-sentence invitation with a place and time: “Come to X on Y to try Z.” If you cannot write that sentence without jargon, you are not ready for offline. You are still in positioning fog-see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "h3",
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Offline without capture is charity for your ego. Design a low-friction bridge: QR to a specific landing page, SMS keyword, appointment booking, waitlist with a clear next step. The bridge should continue the same promise—not dump people into a generic homepage that contradicts the experience. For how that coherence works, see [when marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "Offline without capture is charity for your ego. Design a low-friction bridge: QR to a specific landing page, SMS keyword, appointment booking, waitlist with a clear next step. The bridge should continue the same promise-not dump people into a generic homepage that contradicts the experience. For how that coherence works, see [when marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
     },
     {
       type: "h3",
@@ -168,7 +168,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "It is less useful when your audience is geographically sparse, the offer is purely informational, or you do not yet have a clear promise. Throwing a party for an unclear product is an expensive way to confirm nobody knows what you do. In that case, fix clarity first—[your product may not have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "It is less useful when your audience is geographically sparse, the offer is purely informational, or you do not yet have a clear promise. Throwing a party for an unclear product is an expensive way to confirm nobody knows what you do. In that case, fix clarity first-[your product may not have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "h2",
@@ -176,7 +176,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Glossier’s early community events and store experiences were not “offline vanity.” They were distribution for a beauty brand that needed social proof and belonging. Pop-ups for consumer brands work when the store is a demo of the brand system—not a temporary shelf. Even B2B can learn: invite-only dinners, workshop mornings, and live teardown sessions create denser belief than another LinkedIn carousel.",
+      text: "Glossier’s early community events and store experiences were not “offline vanity.” They were distribution for a beauty brand that needed social proof and belonging. Pop-ups for consumer brands work when the store is a demo of the brand system-not a temporary shelf. Even B2B can learn: invite-only dinners, workshop mornings, and live teardown sessions create denser belief than another LinkedIn carousel.",
     },
     {
       type: "p",
@@ -194,7 +194,7 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "Allocate a fixed small budget for one constrained physical test before scaling paid social.",
-        "Define success as conversations and captured next steps—not footfall vanity.",
+        "Define success as conversations and captured next steps-not footfall vanity.",
         "Script the first thirty seconds so volunteers do not improvise your positioning away.",
         "Photograph and record with consent as documentation, not as the primary goal.",
         "Debrief the same week: what people repeated, objected to, and asked next.",
@@ -262,7 +262,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I care about systems more than stunts. Offline is not a rebellion against digital—it is often the missing layer that makes digital honest. When I help founders design growth, I ask where belief is created, not only where it is advertised. Sometimes that answer is a page. Sometimes it is a pavement.",
+      text: "I care about systems more than stunts. Offline is not a rebellion against digital-it is often the missing layer that makes digital honest. When I help founders design growth, I ask where belief is created, not only where it is advertised. Sometimes that answer is a page. Sometimes it is a pavement.",
     },
     {
       type: "p",
@@ -274,12 +274,12 @@ const post: BlogPost = {
         {
           question: "Isn’t offline hard to scale?",
           answer:
-            "Yes—and that is partly the point. Scale belief after you have created it. Offline creates density; digital creates distribution. Confusing those jobs is how brands become loud and forgettable.",
+            "Yes-and that is partly the point. Scale belief after you have created it. Offline creates density; digital creates distribution. Confusing those jobs is how brands become loud and forgettable.",
         },
         {
           question: "What if our customers are mostly online?",
           answer:
-            "Then use smaller physical moments—dinners, workshops, meetups—or partner with places they already trust. “Online customer” does not mean “customer who has never been in a room.”",
+            "Then use smaller physical moments-dinners, workshops, meetups-or partner with places they already trust. “Online customer” does not mean “customer who has never been in a room.”",
         },
         {
           question: "How do we start with almost no budget?",

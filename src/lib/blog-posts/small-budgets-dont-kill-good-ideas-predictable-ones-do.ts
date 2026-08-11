@@ -9,11 +9,11 @@ const post: BlogPost = {
   category: "Team Content",
   image: "/images/blog/blog-42-small-budgets.png",
   metaDescription:
-    "Small budgets don't kill good ideas—predictable ones do. Creative marketing frameworks for founders who cannot outspend competitors but can out-think them.",
+    "Small budgets don't kill good ideas-predictable ones do. Creative marketing frameworks for founders who cannot outspend competitors but can out-think them.",
   content: [
     {
       type: "p",
-      text: "Founders love to blame the budget. “We can’t compete with their spend.” Sometimes that is true. Often it is a polite way of saying: we are about to run a smaller, quieter version of the same predictable campaign everyone else is running—and then act surprised when nobody notices.",
+      text: "Founders love to blame the budget. “We can’t compete with their spend.” Sometimes that is true. Often it is a polite way of saying: we are about to run a smaller, quieter version of the same predictable campaign everyone else is running-and then act surprised when nobody notices.",
     },
     {
       type: "p",
@@ -25,7 +25,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "The real enemy is not scarcity—it is sameness",
+      text: "The real enemy is not scarcity-it is sameness",
     },
     {
       type: "p",
@@ -33,7 +33,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Constraint should force specificity. Instead, it often forces imitation—because imitation feels like competence. You can look busy, produce assets, and still say nothing distinctive. That is how small budgets die: not from lack of pounds, but from lack of point of view.",
+      text: "Constraint should force specificity. Instead, it often forces imitation-because imitation feels like competence. You can look busy, produce assets, and still say nothing distinctive. That is how small budgets die: not from lack of pounds, but from lack of point of view.",
     },
     {
       type: "takeaway",
@@ -75,7 +75,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Budget enters at Form and Loop—not at Truth. If the truth is weak, no media plan will save you. If the truth is strong, almost any honest form can work: a walk-up demonstration, a single perfect landing page, a founder letter, a local installation, a tool people forward.",
+      text: "Budget enters at Form and Loop-not at Truth. If the truth is weak, no media plan will save you. If the truth is strong, almost any honest form can work: a walk-up demonstration, a single perfect landing page, a founder letter, a local installation, a tool people forward.",
     },
     {
       type: "image",
@@ -92,7 +92,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Write down the ten most common visuals and phrases in your category. Then forbid them. Fintech: no smiling diverse colleagues pointing at a laptop. Wellness: no sunrise yoga silhouette. AI: no glowing purple neural nets. The ban is temporary and artificial—and that is the point. Constraint creates the search for a new angle.",
+      text: "Write down the ten most common visuals and phrases in your category. Then forbid them. Fintech: no smiling diverse colleagues pointing at a laptop. Wellness: no sunrise yoga silhouette. AI: no glowing purple neural nets. The ban is temporary and artificial-and that is the point. Constraint creates the search for a new angle.",
     },
     {
       type: "h3",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A hinge is the one element that makes the idea work: the prop, the location, the data reveal, the typography, the founder’s face saying the uncomfortable true thing. Wallpaper is everything else—stock, polish, secondary formats. Underfunded teams often reverse this and buy wallpaper until nothing distinctive remains.",
+      text: "A hinge is the one element that makes the idea work: the prop, the location, the data reveal, the typography, the founder’s face saying the uncomfortable true thing. Wallpaper is everything else-stock, polish, secondary formats. Underfunded teams often reverse this and buy wallpaper until nothing distinctive remains.",
     },
     {
       type: "callout",
@@ -123,7 +123,7 @@ const post: BlogPost = {
       type: "ol",
       items: [
         "Public utility: solve a tiny real problem in public (a tool, a map, a template, a checklist) branded lightly.",
-        "Borrowed stage: put your message where attention already pools—markets, stations, community nights—without trying to own the whole venue.",
+        "Borrowed stage: put your message where attention already pools-markets, stations, community nights-without trying to own the whole venue.",
         "Proof theatre: turn one strong customer outcome into a visible demonstration, not a PDF case study.",
         "Constraint stunt: announce what you will not do (no dark patterns, no spam, no feature bloat) and make that the campaign.",
         "Serial specificity: twelve sharp weekly notes to one niche beats one vague “brand film.”",
@@ -176,7 +176,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Small budgets often do better in the real world than founders expect—because physical space still has less creative clutter than the feed. A precise local intervention can outperform a national CPC experiment. Explore that in [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel) and [why the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
+      text: "Small budgets often do better in the real world than founders expect-because physical space still has less creative clutter than the feed. A precise local intervention can outperform a national CPC experiment. Explore that in [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel) and [why the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
     },
     {
       type: "p",
@@ -207,7 +207,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Read [BYU’s research summaries on creativity under constraint](https://news.byu.edu/) sparingly and practically—use them as permission, not as academic cosplay. For startup judgement under scarcity, [Y Combinator’s Library](https://www.ycombinator.com/library) and [First Round Review](https://review.firstround.com/) stay useful. For attention economics without the hustle theology, [Nielsen Norman Group](https://www.nngroup.com/) will remind you that clarity is a creative act.",
+      text: "Read [BYU’s research summaries on creativity under constraint](https://news.byu.edu/) sparingly and practically-use them as permission, not as academic cosplay. For startup judgement under scarcity, [Y Combinator’s Library](https://www.ycombinator.com/library) and [First Round Review](https://review.firstround.com/) stay useful. For attention economics without the hustle theology, [Nielsen Norman Group](https://www.nngroup.com/) will remind you that clarity is a creative act.",
     },
     {
       type: "faq",
@@ -220,7 +220,7 @@ const post: BlogPost = {
         {
           question: "What if our category is heavily regulated?",
           answer:
-            "Regulation kills lazy claims, not originality. Many great constrained campaigns come from what you cannot say—forcing you into demonstration, education, and craft.",
+            "Regulation kills lazy claims, not originality. Many great constrained campaigns come from what you cannot say-forcing you into demonstration, education, and craft.",
         },
         {
           question: "Should we still run paid ads on a tiny budget?",
@@ -240,7 +240,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "You will rarely win a spending war against incumbents. You can win a distinctiveness war on a Tuesday afternoon if you stop renting other people’s ideas. Small budgets are not a creative disability. They are a filter that should remove everything optional—including predictability.",
+      text: "You will rarely win a spending war against incumbents. You can win a distinctiveness war on a Tuesday afternoon if you stop renting other people’s ideas. Small budgets are not a creative disability. They are a filter that should remove everything optional-including predictability.",
     },
     {
       type: "p",

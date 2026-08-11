@@ -10,7 +10,7 @@ type SortOption = "newest" | "oldest" | "a-z";
 const SORT_OPTIONS: { value: SortOption; label: string }[] = [
   { value: "newest", label: "Newest" },
   { value: "oldest", label: "Oldest" },
-  { value: "a-z", label: "A–Z" },
+  { value: "a-z", label: "A-Z" },
 ];
 
 const TOPIC_FILTERS = [
@@ -159,7 +159,7 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
 
       {filtered.length === 0 && (
         <p className="py-16 text-center text-[15px] font-medium tracking-[-0.04em] text-muted">
-          No essays match that filter. Try another topic—or clear the search.
+          No essays match that filter. Try another topic - or clear the search.
         </p>
       )}
     </div>

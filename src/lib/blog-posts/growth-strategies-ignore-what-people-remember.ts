@@ -12,7 +12,7 @@ const post: BlogPost = {
   content: [
     {
       type: "p",
-      text: "I have watched teams obsess over funnel maths until the product feels like a spreadsheet with a logo. Conversion rate up two points. Retention flat. Brand recall soft. Nobody can explain why customers stay—or leave—without opening a dashboard. The strategy is optimised. The memory is empty.",
+      text: "I have watched teams obsess over funnel maths until the product feels like a spreadsheet with a logo. Conversion rate up two points. Retention flat. Brand recall soft. Nobody can explain why customers stay-or leave-without opening a dashboard. The strategy is optimised. The memory is empty.",
     },
     {
       type: "p",
@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about emotion versus funnel optimisation, how to design memorable moments, and why feeling is a retention and marketing system—not a soft afterthought.",
+      text: "This piece is about emotion versus funnel optimisation, how to design memorable moments, and why feeling is a retention and marketing system-not a soft afterthought.",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Memorable brands do not interrupt—they give something worth remembering. See [memorable brands don’t interrupt—they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "Memorable brands do not interrupt-they give something worth remembering. See [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "takeaway",
@@ -119,7 +119,7 @@ const post: BlogPost = {
       type: "ul",
       items: [
         "Pick one primary moment in the first fourteen days.",
-        "Define what success looks like in sensory or social terms—not only in metrics.",
+        "Define what success looks like in sensory or social terms-not only in metrics.",
         "Remove friction that dilutes the feeling before it lands.",
         "Train the team to protect the moment from “quick optimisation” that kills it.",
       ],
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Memory sticks when the moment has a story shape and a artefact: a certificate, a screenshot, a photo, a phrase, a ritual. People share stories—design for retelling. See [people rarely share advertisements—they share stories](/blog/people-rarely-share-advertisements-share-stories) and [your customers are better marketers than your marketing team](/blog/customers-better-marketers-than-marketing-team).",
+      text: "Memory sticks when the moment has a story shape and a artefact: a certificate, a screenshot, a photo, a phrase, a ritual. People share stories-design for retelling. See [people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories) and [your customers are better marketers than your marketing team](/blog/customers-better-marketers-than-marketing-team).",
     },
     {
       type: "h3",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Motion is return, referral, ritual, and recognition. Feeling that never converts into a next step is brand poetry. Feeling that drives a habit or a recommendation is growth. Connect the moment to a gentle next action that preserves dignity—invite, don’t extract.",
+      text: "Motion is return, referral, ritual, and recognition. Feeling that never converts into a next step is brand poetry. Feeling that drives a habit or a recommendation is growth. Connect the moment to a gentle next action that preserves dignity-invite, don’t extract.",
     },
     {
       type: "takeaway",
@@ -155,7 +155,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Common failure modes: shortening onboarding until the first win disappears; A/B testing urgency into every screen until the brand feels anxious; automating support until recovery stories vanish; polishing creative until it looks like everyone else. Predictable optimisation often produces predictable forgettability. Related: [small budgets don’t kill good ideas—predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do).",
+      text: "Common failure modes: shortening onboarding until the first win disappears; A/B testing urgency into every screen until the brand feels anxious; automating support until recovery stories vanish; polishing creative until it looks like everyone else. Predictable optimisation often produces predictable forgettability. Related: [small budgets don’t kill good ideas-predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do).",
     },
     {
       type: "ol",
@@ -170,7 +170,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the memory brief",
-      text: "Write a brief that forbids funnel language for one page. Only: the feeling, the moment, the artefact, the story a customer could tell, and the next motion. If the brief collapses into adjectives, you found the gap. If it holds, you have something worth amplifying—consistently. See [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Write a brief that forbids funnel language for one page. Only: the feeling, the moment, the artefact, the story a customer could tell, and the next motion. If the brief collapses into adjectives, you found the gap. If it holds, you have something worth amplifying-consistently. See [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "h2",
@@ -217,7 +217,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Emotion-led memory is how organic attention gets earned rather than rented. See [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned). And if you are about to spend more on optimisation without a memory plan, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Emotion-led memory is how organic attention gets earned rather than rented. See [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned). And if you are about to spend more on optimisation without a memory plan, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -225,7 +225,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For how memory and emotion shape decisions, [Harvard Business Review](https://hbr.org/) remains a strong library. Maya Angelou’s oft-cited line about people forgetting what you said but remembering how you made them feel is folk wisdom with operational truth. [Nielsen Norman Group](https://www.nngroup.com/) covers emotional design without abandoning usability. [System1](https://system1.group/) publishes accessible work on emotional response in advertising. Use them as lenses—then design the moment in your product.",
+      text: "For how memory and emotion shape decisions, [Harvard Business Review](https://hbr.org/) remains a strong library. Maya Angelou’s oft-cited line about people forgetting what you said but remembering how you made them feel is folk wisdom with operational truth. [Nielsen Norman Group](https://www.nngroup.com/) covers emotional design without abandoning usability. [System1](https://system1.group/) publishes accessible work on emotional response in advertising. Use them as lenses-then design the moment in your product.",
     },
     {
       type: "h2",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I build systems, not vibes—but systems that ignore feeling become efficient forgetfulness. When I work with founders, I ask what a customer will remember in six months, not only what will convert this week. Marketing that feels like product design starts there: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design). Offline and physical moments often create denser memory than screens alone—see [the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
+      text: "I build systems, not vibes-but systems that ignore feeling become efficient forgetfulness. When I work with founders, I ask what a customer will remember in six months, not only what will convert this week. Marketing that feels like product design starts there: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design). Offline and physical moments often create denser memory than screens alone-see [the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
     },
     {
       type: "faq",
@@ -266,7 +266,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Most growth strategies ignore emotion because emotion is harder to spreadsheet. That is precisely why it still differentiates. Design the feeling. Anchor it in a moment. Make memory portable. Let motion follow. Emotion, not optimisation, is what people actually remember—and what organic growth quietly runs on.",
+      text: "Most growth strategies ignore emotion because emotion is harder to spreadsheet. That is precisely why it still differentiates. Design the feeling. Anchor it in a moment. Make memory portable. Let motion follow. Emotion, not optimisation, is what people actually remember-and what organic growth quietly runs on.",
     },
     {
       type: "cta",

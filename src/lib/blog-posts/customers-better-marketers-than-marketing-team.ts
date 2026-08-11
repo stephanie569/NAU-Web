@@ -8,7 +8,7 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-49-customer-marketers.png",
   metaDescription:
-    "Your customers are better marketers than your team—if you build something worth talking about. Word-of-mouth design, referral loops, and customer stories.",
+    "Your customers are better marketers than your team-if you build something worth talking about. Word-of-mouth design, referral loops, and customer stories.",
   content: [
     {
       type: "p",
@@ -16,7 +16,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Your customers are better marketers than your marketing team—if you build something worth talking about. The “if” is doing a lot of work. Without talkability, you are left hiring more marketers to invent the stories the product refused to create.",
+      text: "Your customers are better marketers than your marketing team-if you build something worth talking about. The “if” is doing a lot of work. Without talkability, you are left hiring more marketers to invent the stories the product refused to create.",
     },
     {
       type: "p",
@@ -28,7 +28,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Teams treat word of mouth as a mysterious blessing—“it’ll spread if it’s good.” Sometimes. More often, talkability is designed: a surprising outcome, a social moment, a status signal, a relief so sharp people narrate it at dinner. Marketing can distribute those moments. It cannot invent them from a brand deck.",
+      text: "Teams treat word of mouth as a mysterious blessing-“it’ll spread if it’s good.” Sometimes. More often, talkability is designed: a surprising outcome, a social moment, a status signal, a relief so sharp people narrate it at dinner. Marketing can distribute those moments. It cannot invent them from a brand deck.",
     },
     {
       type: "ul",
@@ -36,12 +36,12 @@ const post: BlogPost = {
         "Customers carry social risk when they recommend you. That risk makes them credible.",
         "Marketers carry incentives when they promote you. That incentive makes them suspect.",
         "Stories travel. Taglines mostly stay on the website.",
-        "Referral is a behaviour. You can design for it—or hope for it.",
+        "Referral is a behaviour. You can design for it-or hope for it.",
       ],
     },
     {
       type: "p",
-      text: "People rarely share advertisements; they share stories. Design the experience so a story exists. See [people rarely share advertisements—they share stories](/blog/people-rarely-share-advertisements-share-stories).",
+      text: "People rarely share advertisements; they share stories. Design the experience so a story exists. See [people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories).",
     },
     {
       type: "takeaway",
@@ -53,7 +53,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A customer recommendation arrives pre-qualified by trust. It answers the unspoken question every buyer has: “Would someone like me take this risk?” Marketing answers a different question: “Why should you believe us?” Both matter. Only one starts from peer credibility. Communities and peer trust amplify this further—see [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "A customer recommendation arrives pre-qualified by trust. It answers the unspoken question every buyer has: “Would someone like me take this risk?” Marketing answers a different question: “Why should you believe us?” Both matter. Only one starts from peer credibility. Communities and peer trust amplify this further-see [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "table",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People share stories they can carry. Complexity kills word of mouth. Give the story a shape: problem → turning point → result. Help customers keep the specifics (numbers, constraints, before/after). Memorable brands do not interrupt—they give something worth remembering. Related: [memorable brands don’t interrupt—they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "People share stories they can carry. Complexity kills word of mouth. Give the story a shape: problem → turning point → result. Help customers keep the specifics (numbers, constraints, before/after). Memorable brands do not interrupt-they give something worth remembering. Related: [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "ul",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once stories exist, marketing’s job gets saner: document, package, place. Customer stories in sales decks, on the site, in ads, in founder posts. Amplification of lived proof beats invention of lifestyle fiction. Organic growth earned this way compounds when the spend pauses—see [organic growth isn’t free—it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "Once stories exist, marketing’s job gets saner: document, package, place. Customer stories in sales decks, on the site, in ads, in founder posts. Amplification of lived proof beats invention of lifestyle fiction. Organic growth earned this way compounds when the spend pauses-see [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -155,13 +155,13 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Talkability is a product and journey problem. Where does delight concentrate? Where does support create loyalty stories? Where does the UI create a photographable or screenshot-worthy moment? Marketing that people photograph starts with something worth pointing a camera at—see [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
+      text: "Talkability is a product and journey problem. Where does delight concentrate? Where does support create loyalty stories? Where does the UI create a photographable or screenshot-worthy moment? Marketing that people photograph starts with something worth pointing a camera at-see [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
     },
     {
       type: "ol",
       items: [
         "Map the first fourteen days and circle candidate “dinner story” moments.",
-        "Instrument qualitative feedback at those moments—not only NPS at day thirty.",
+        "Instrument qualitative feedback at those moments-not only NPS at day thirty.",
         "Fix the moment before you fund the campaign about the moment.",
         "Train support to notice and collect stories with consent.",
         "Feed those stories into publishing cadence and sales enablement.",
@@ -170,7 +170,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the unpaid spokesperson brief",
-      text: "Write a one-page brief as if your best customer were your only marketer. What would they show? What would they refuse to exaggerate? What proof would they need? Build that. Then let your marketing team amplify it—not invent around it.",
+      text: "Write a one-page brief as if your best customer were your only marketer. What would they show? What would they refuse to exaggerate? What proof would they need? Build that. Then let your marketing team amplify it-not invent around it.",
     },
     {
       type: "h2",
@@ -178,7 +178,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "App A runs polished ads about “transform your mornings.” Referral rate is low; creative fatigue is high. App B redesigns week one so users hit a visible win by day three, then asks for a referral only after that win—with a friend offer that is actually useful. App B’s ads later use real customer lines. Same category. Different marketers. Only one hired the customer.",
+      text: "App A runs polished ads about “transform your mornings.” Referral rate is low; creative fatigue is high. App B redesigns week one so users hit a visible win by day three, then asks for a referral only after that win-with a friend offer that is actually useful. App B’s ads later use real customer lines. Same category. Different marketers. Only one hired the customer.",
     },
     {
       type: "h2",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I treat customer voice as primary research for growth systems—not as decoration for a landing page. When founders want more marketing, I often ask whether anyone would recommend them tomorrow without a discount. If the answer is soft, we fix the experience and the story before we buy more reach. Related: [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing) and [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "I treat customer voice as primary research for growth systems-not as decoration for a landing page. When founders want more marketing, I often ask whether anyone would recommend them tomorrow without a discount. If the answer is soft, we fix the experience and the story before we buy more reach. Related: [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing) and [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
     },
     {
       type: "faq",
@@ -241,7 +241,7 @@ const post: BlogPost = {
         {
           question: "Does this mean we don’t need a marketing team?",
           answer:
-            "No. It means the team’s highest leverage is often designing talkability, collecting proof, and amplifying customers—not inventing persuasion from scratch.",
+            "No. It means the team’s highest leverage is often designing talkability, collecting proof, and amplifying customers-not inventing persuasion from scratch.",
         },
         {
           question: "What if customers won’t refer even when they’re happy?",

@@ -9,11 +9,11 @@ const post: BlogPost = {
   category: "Research & Positioning",
   image: "/images/blog/blog-07-pmf-wrong.png",
   metaDescription:
-    "What product brands get wrong about product-market fit—and how to treat it as a moving target, not a milestone.",
+    "What product brands get wrong about product-market fit-and how to treat it as a moving target, not a milestone.",
   content: [
     {
       type: "p",
-      text: "Founders get product–market fit wrong in predictable ways. They celebrate launches. They confuse compliments with demand. They declare fit because investors liked the deck. Then reality arrives as churn and stalled conversion—which is the market’s way of asking for a refund on the narrative.",
+      text: "Founders get product-market fit wrong in predictable ways. They celebrate launches. They confuse compliments with demand. They declare fit because investors liked the deck. Then reality arrives as churn and stalled conversion-which is the market’s way of asking for a refund on the narrative.",
     },
     {
       type: "p",
@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about the misconceptions, a clearer definition, and the signals I trust—plus exercises you can run without inventing a vanity dashboard. For why strong products still die before fit, see [why great products fail before product–market fit](/blog/why-great-products-fail-before-product-market-fit).",
+      text: "This piece is about the misconceptions, a clearer definition, and the signals I trust-plus exercises you can run without inventing a vanity dashboard. For why strong products still die before fit, see [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit).",
     },
     {
       type: "h2",
@@ -29,13 +29,13 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Product–market fit is repeated evidence that a defined segment gets enough value to return, pay, and refer—without heroic founder intervention every week. If the product only works when you are personally charming people into staying, you have a relationship, not fit.",
+      text: "Product-market fit is repeated evidence that a defined segment gets enough value to return, pay, and refer-without heroic founder intervention every week. If the product only works when you are personally charming people into staying, you have a relationship, not fit.",
     },
     {
       type: "ul",
       items: [
         "A specific customer can describe the problem and your value in their own words.",
-        "Retention by cohort improves or stabilises for that segment—not only total user counts.",
+        "Retention by cohort improves or stabilises for that segment-not only total user counts.",
         "Willingness to pay shows up without constant discounting as the main motion.",
         "Pull appears: inbound interest, referrals, or expansion that is not entirely manufactured.",
         "The story travels without you in the room.",
@@ -83,11 +83,11 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "“Investors said we’re early but promising—so fit is inevitable.”",
+      text: "“Investors said we’re early but promising-so fit is inevitable.”",
     },
     {
       type: "p",
-      text: "Investor enthusiasm is not customer retention. It can fund the search for fit. It cannot substitute for it. Treat capital as time to gather evidence—not as evidence itself.",
+      text: "Investor enthusiasm is not customer retention. It can fund the search for fit. It cannot substitute for it. Treat capital as time to gather evidence-not as evidence itself.",
     },
     {
       type: "ul",
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Activation matters as much as retention. Signup is not value. Measure “first meaningful outcome.” If people create accounts and never reach value, you do not have a top-of-funnel problem—you have a product experience problem wearing acquisition cologne.",
+      text: "Activation matters as much as retention. Signup is not value. Measure “first meaningful outcome.” If people create accounts and never reach value, you do not have a top-of-funnel problem-you have a product experience problem wearing acquisition cologne.",
     },
     {
       type: "takeaway",
@@ -156,11 +156,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Notice how clear products make the job obvious. Figma made collaborative design feel inevitable for teams tired of file handoffs. Airbnb made hosting and staying with strangers feel navigable through trust design—not through vague “community platform” language alone. Stripe reduced a painful job to something developers could finish. The lesson is not “be a famous company.” The lesson is: fit shows up when a segment repeatedly chooses you for a job they already have.",
+      text: "Notice how clear products make the job obvious. Figma made collaborative design feel inevitable for teams tired of file handoffs. Airbnb made hosting and staying with strangers feel navigable through trust design-not through vague “community platform” language alone. Stripe reduced a painful job to something developers could finish. The lesson is not “be a famous company.” The lesson is: fit shows up when a segment repeatedly chooses you for a job they already have.",
     },
     {
       type: "p",
-      text: "A fictional counterexample: Loomwise, an AI meeting tool, declared PMF after a Product Hunt launch and 8,000 waitlist signups. Cohort retention for the ICP—sales managers at 30–100 person B2B teams—was weak. People loved the demo GIF. They did not change their weekly behaviour. Loomwise had launch fit with Twitter, not product–market fit with sales managers. Painful distinction. Useful distinction.",
+      text: "A fictional counterexample: Loomwise, an AI meeting tool, declared PMF after a Product Hunt launch and 8,000 waitlist signups. Cohort retention for the ICP-sales managers at 30-100 person B2B teams-was weak. People loved the demo GIF. They did not change their weekly behaviour. Loomwise had launch fit with Twitter, not product-market fit with sales managers. Painful distinction. Useful distinction.",
     },
     {
       type: "h2",
@@ -169,10 +169,10 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Track retention by cohort, not total users—slice by ICP if you can.",
+        "Track retention by cohort, not total users-slice by ICP if you can.",
         "Separate activation from signup; define the first meaningful outcome in one line.",
         "Listen for customers explaining the product without your help; capture phrases.",
-        "Test willingness to pay before you romanticise growth—price conversations count.",
+        "Test willingness to pay before you romanticise growth-price conversations count.",
         "Pick one segment and one job; stop averaging metrics across everyone.",
         "Write down what would falsify your PMF claim in the next sixty days.",
       ],
@@ -180,7 +180,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Falsification prompt",
-      text: "Complete this sentence: “We would admit we do not have fit yet if ___.” If you cannot fill the blank, your definition of fit is not operational—it is aspirational.",
+      text: "Complete this sentence: “We would admit we do not have fit yet if ___.” If you cannot fill the blank, your definition of fit is not operational-it is aspirational.",
     },
     {
       type: "h2",
@@ -188,7 +188,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes founders have early fit in a segment and still fail to grow because the public story is muddy. That is a clarity and distribution problem on top of a real wedge—see [clarity problems](/blog/product-doesnt-have-marketing-problem-clarity-problem) and [first-ten-seconds website failures](/blog/why-startup-websites-fail-first-10-seconds). Other times the story is polished and fit is absent: beautiful site, weak retention. Different medicine.",
+      text: "Sometimes founders have early fit in a segment and still fail to grow because the public story is muddy. That is a clarity and distribution problem on top of a real wedge-see [clarity problems](/blog/product-doesnt-have-marketing-problem-clarity-problem) and [first-ten-seconds website failures](/blog/why-startup-websites-fail-first-10-seconds). Other times the story is polished and fit is absent: beautiful site, weak retention. Different medicine.",
     },
     {
       type: "p",
@@ -200,7 +200,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Operator essays in the [Y Combinator Library](https://www.ycombinator.com/library) and [First Round Review](https://review.firstround.com/) are useful because they obsess over customers and retention, not slogans. [Harvard Business Review](https://hbr.org/) is denser on strategy framing. None of them replace talking to your users—but they can stop you from mistaking a launch spike for a market.",
+      text: "Operator essays in the [Y Combinator Library](https://www.ycombinator.com/library) and [First Round Review](https://review.firstround.com/) are useful because they obsess over customers and retention, not slogans. [Harvard Business Review](https://hbr.org/) is denser on strategy framing. None of them replace talking to your users-but they can stop you from mistaking a launch spike for a market.",
     },
     {
       type: "faq",
@@ -208,12 +208,12 @@ const post: BlogPost = {
         {
           question: "Is there a single metric that proves PMF?",
           answer:
-            "No single metric is universal. A cluster of evidence in a defined segment beats one vanity number. If someone sells you a magic PMF threshold for every business, treat it as a heuristic—not a law.",
+            "No single metric is universal. A cluster of evidence in a defined segment beats one vanity number. If someone sells you a magic PMF threshold for every business, treat it as a heuristic-not a law.",
         },
         {
           question: "Can we have fit in one segment and not another?",
           answer:
-            "Yes—and that is normal. Declare fit where the evidence lives. Expanding too early into non-fit segments recreates fog.",
+            "Yes-and that is normal. Declare fit where the evidence lives. Expanding too early into non-fit segments recreates fog.",
         },
         {
           question: "What if retention is good but growth is slow?",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "You do not need a BI cathedral. You need a board—literal or digital—that forces honesty weekly:",
+      text: "You do not need a BI cathedral. You need a board-literal or digital-that forces honesty weekly:",
     },
     {
       type: "ul",
@@ -248,19 +248,19 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Review it weekly for fifteen minutes. If the board is empty or theatrical, you are not “data driven.” You are decorating. Teams that keep this board current argue less about vibes and more about what to fix next—activation, wedge, or story.",
+      text: "Review it weekly for fifteen minutes. If the board is empty or theatrical, you are not “data driven.” You are decorating. Teams that keep this board current argue less about vibes and more about what to fix next-activation, wedge, or story.",
     },
     {
       type: "h2",
-      text: "When founders confuse product–market fit with product–founder fit",
+      text: "When founders confuse product-market fit with product-founder fit",
     },
     {
       type: "p",
-      text: "Some products work brilliantly when the founder is in every deal, every onboarding, every escalation. That can be an early gift. It is not fit. Fit requires the product and the story to work when you are on a plane with Wi‑Fi that only pretends to exist. If removing the founder collapses retention, you have high-touch success—and a scaling mirage.",
+      text: "Some products work brilliantly when the founder is in every deal, every onboarding, every escalation. That can be an early gift. It is not fit. Fit requires the product and the story to work when you are on a plane with Wi‑Fi that only pretends to exist. If removing the founder collapses retention, you have high-touch success-and a scaling mirage.",
     },
     {
       type: "p",
-      text: "Document which interventions you personally provide. Turn the best ones into product or onboarding. Eliminate the ones that only exist to compensate for confusion. This is how you graduate from heroics to a business—see also [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
+      text: "Document which interventions you personally provide. Turn the best ones into product or onboarding. Eliminate the ones that only exist to compensate for confusion. This is how you graduate from heroics to a business-see also [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
     },
     {
       type: "h2",
@@ -273,7 +273,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this week",
-      text: "Take your last fifty activated users. Tag them into one primary ICP and “other.” Compare retention and payment between the two. If “other” is large and weak, your story may be attracting the wrong crowd—even if the product is strong for someone.",
+      text: "Take your last fifty activated users. Tag them into one primary ICP and “other.” Compare retention and payment between the two. If “other” is large and weak, your story may be attracting the wrong crowd-even if the product is strong for someone.",
     },
     {
       type: "h2",
@@ -290,7 +290,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Roadmaps should serve the evidence board—not the myth list. When evidence is weak, prioritise learning: interviews, activation repair, sharper wedge. When evidence is strong in a segment, prioritise making that value faster to reach and easier to explain. That is how [products worth building](/blog/how-i-decide-whether-product-worth-building) stay worth building.",
+      text: "Roadmaps should serve the evidence board-not the myth list. When evidence is weak, prioritise learning: interviews, activation repair, sharper wedge. When evidence is strong in a segment, prioritise making that value faster to reach and easier to explain. That is how [products worth building](/blog/how-i-decide-whether-product-worth-building) stay worth building.",
     },
     {
       type: "takeaway",
@@ -317,7 +317,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This tree is deliberately blunt. Bluntness prevents the popular move of doing everything at once—ads, redesign, six features—and learning nothing. Pick the branch. Run the work. Re-check the evidence board. That loop is how founders graduate from PMF mythology to product reality. It is also how you avoid the special boredom of debating “do we have fit?” for the twelfth month without changing a single metric definition.",
+      text: "This tree is deliberately blunt. Bluntness prevents the popular move of doing everything at once-ads, redesign, six features-and learning nothing. Pick the branch. Run the work. Re-check the evidence board. That loop is how founders graduate from PMF mythology to product reality. It is also how you avoid the special boredom of debating “do we have fit?” for the twelfth month without changing a single metric definition.",
     },
     {
       type: "h2",
@@ -325,15 +325,15 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The hardest part of PMF is not the framework. It is admitting when you do not have it yet—especially after public launches, investor updates, or team hiring keyed to a growth story. Honesty feels like a step backward. It is usually the first step that makes forward motion real. Premature certainty is comforting and expensive—like buying a bigger megaphone for a sentence you have not finished writing.",
+      text: "The hardest part of PMF is not the framework. It is admitting when you do not have it yet-especially after public launches, investor updates, or team hiring keyed to a growth story. Honesty feels like a step backward. It is usually the first step that makes forward motion real. Premature certainty is comforting and expensive-like buying a bigger megaphone for a sentence you have not finished writing.",
     },
     {
       type: "p",
-      text: "Treat product–market fit as a claim that requires evidence. Then go gather evidence like an adult—not like a launch-day optimist with a ring light. And if growth is stuck, start with diagnosis before theatre: [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
+      text: "Treat product-market fit as a claim that requires evidence. Then go gather evidence like an adult-not like a launch-day optimist with a ring light. And if growth is stuck, start with diagnosis before theatre: [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
     },
     {
       type: "cta",
-      lead: "Unsure whether you have fit—or just momentum theatre?",
+      lead: "Unsure whether you have fit-or just momentum theatre?",
       button: "Get a PMF reality check",
       href: "/contact",
     },

@@ -4,20 +4,20 @@ const post: BlogPost = {
   slug: "if-patagonia-hired-me-tomorrow-where-id-start",
   title: "If Patagonia hired me tomorrow, I'd start here",
   excerpt:
-    "A speculative strategy memo on strengthening Patagonia’s digital product story—protecting brand integrity while clarifying journeys from inspiration to action. Principles every mission-led startup can use.",
+    "A speculative strategy memo on strengthening Patagonia’s digital product story-protecting brand integrity while clarifying journeys from inspiration to action. Principles every mission-led startup can use.",
   date: "July 2, 2026",
   category: "Go-to-Market",
   image: "/images/blog/blog-23-patagonia.png",
   metaDescription:
-    "If Patagonia hired a product strategist: where to start on digital clarity, customer journeys, and brand-aligned conversion—lessons for mission-led startups.",
+    "If Patagonia hired a product strategist: where to start on digital clarity, customer journeys, and brand-aligned conversion-lessons for mission-led startups.",
   content: [
     {
       type: "p",
-      text: "Patagonia already owns meaning. That is rarer than growth hacks and harder to copy than a colour palette. The strategic risk for brands like this is not lack of identity—it is letting digital journeys become generic while the brand stays iconic. Meaning without a clear path is inspiration that never becomes action. Or worse: inspiration that becomes a cart abandonment story nobody wants to tell in the annual report.",
+      text: "Patagonia already owns meaning. That is rarer than growth hacks and harder to copy than a colour palette. The strategic risk for brands like this is not lack of identity-it is letting digital journeys become generic while the brand stays iconic. Meaning without a clear path is inspiration that never becomes action. Or worse: inspiration that becomes a cart abandonment story nobody wants to tell in the annual report.",
     },
     {
       type: "p",
-      text: "This is a speculative memo, not a claim that Patagonia asked. I use iconic brands as teaching tools because the tensions are visible: commerce versus conviction, storytelling versus shopping, activism versus product detail. If you are building a mission-led startup—climate, health, education, ethical consumer goods—the same tensions show up earlier and with less brand equity to absorb mistakes.",
+      text: "This is a speculative memo, not a claim that Patagonia asked. I use iconic brands as teaching tools because the tensions are visible: commerce versus conviction, storytelling versus shopping, activism versus product detail. If you are building a mission-led startup-climate, health, education, ethical consumer goods-the same tensions show up earlier and with less brand equity to absorb mistakes.",
     },
     {
       type: "callout",
@@ -30,15 +30,15 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Mission-led companies often assume the story will carry the experience. Sometimes it does—until the visitor is ready to buy a jacket, book a repair, or understand a materials choice, and the interface suddenly behaves like every other retailer. The emotional contract breaks. Belief was invited; the path treated them like a generic SKU hunter.",
+      text: "Mission-led companies often assume the story will carry the experience. Sometimes it does-until the visitor is ready to buy a jacket, book a repair, or understand a materials choice, and the interface suddenly behaves like every other retailer. The emotional contract breaks. Belief was invited; the path treated them like a generic SKU hunter.",
     },
     {
       type: "p",
-      text: "Harvard Business Review has long argued that brand purpose only works when it is operationalised—not merely advertised. See [HBR](https://hbr.org/) for the broader debate on purpose as strategy versus purpose as campaign. Digitally, operationalisation means: product pages, care journeys, returns, and repair flows should feel like extensions of the same values system.",
+      text: "Harvard Business Review has long argued that brand purpose only works when it is operationalised-not merely advertised. See [HBR](https://hbr.org/) for the broader debate on purpose as strategy versus purpose as campaign. Digitally, operationalisation means: product pages, care journeys, returns, and repair flows should feel like extensions of the same values system.",
     },
     {
       type: "p",
-      text: "Startups make a parallel mistake when they put the manifesto on the homepage and the actual offer three clicks deep. Conviction is not a substitute for clarity—though it often tries to be. If that tension feels familiar, [founders often need systems more than more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "Startups make a parallel mistake when they put the manifesto on the homepage and the actual offer three clicks deep. Conviction is not a substitute for clarity-though it often tries to be. If that tension feels familiar, [founders often need systems more than more marketing](/blog/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "takeaway",
@@ -59,7 +59,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I would not start with a visual refresh. Patagonia’s visual language is already a competitive moat. I would start with journey clarity—the same place I start with early-stage products that have strong founding stories and soft conversion. For the general version of that instinct, see [what I would do if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first).",
+      text: "I would not start with a visual refresh. Patagonia’s visual language is already a competitive moat. I would start with journey clarity-the same place I start with early-stage products that have strong founding stories and soft conversion. For the general version of that instinct, see [what I would do if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first).",
     },
     {
       type: "h2",
@@ -116,11 +116,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Patagonia’s public voice includes activism, product craft, and retail. Digitally, those three can fight for the same viewport. When they compete without hierarchy, the visitor is asked to feel, learn, and buy simultaneously—which is a lot to ask before coffee.",
+      text: "Patagonia’s public voice includes activism, product craft, and retail. Digitally, those three can fight for the same viewport. When they compete without hierarchy, the visitor is asked to feel, learn, and buy simultaneously-which is a lot to ask before coffee.",
     },
     {
       type: "p",
-      text: "I would run a content hierarchy audit: on key templates (home, category, PDP, campaign), what is the primary job of the page? Inspiration pages can lead with story. Product detail pages should lead with fit, materials, care, and purchase clarity—with values proof woven into product truth, not pasted as a banner that interrupts sizing.",
+      text: "I would run a content hierarchy audit: on key templates (home, category, PDP, campaign), what is the primary job of the page? Inspiration pages can lead with story. Product detail pages should lead with fit, materials, care, and purchase clarity-with values proof woven into product truth, not pasted as a banner that interrupts sizing.",
     },
     {
       type: "h3",
@@ -129,7 +129,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "Homepage: one primary commercial or product job, with mission as context—not the other way around—unless the campaign is intentionally non-commercial.",
+        "Homepage: one primary commercial or product job, with mission as context-not the other way around-unless the campaign is intentionally non-commercial.",
         "Product page: decision support first (fit, use, durability, care), values proof as evidence for those claims.",
         "Editorial / activism: depth and integrity, with clear exits into relevant product or action without bait-and-switch energy.",
         "Checkout / account: pure utility. Do not moralise the payment form.",
@@ -149,7 +149,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Campaigns announce values. Product decisions prove them. Repair programmes, materials transparency, durability guidance, and honest limitation copy (“this is not for X use”) are stronger than another hero film—though films are lovely when the path underneath them works.",
+      text: "Campaigns announce values. Product decisions prove them. Repair programmes, materials transparency, durability guidance, and honest limitation copy (“this is not for X use”) are stronger than another hero film-though films are lovely when the path underneath them works.",
     },
     {
       type: "p",
@@ -157,14 +157,14 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Proof that feels like Patagonia—and transfers",
+      text: "Proof that feels like Patagonia-and transfers",
     },
     {
       type: "ol",
       items: [
         "Show the tradeoff: what you refused to ship, and why.",
         "Make care and repair discoverable from the product page, not buried in a CSR PDF.",
-        "Use specificity: materials, factories, longevity expectations—without turning the PDP into a thesis.",
+        "Use specificity: materials, factories, longevity expectations-without turning the PDP into a thesis.",
         "Connect activism outcomes to product choices when the link is real; never force it when it is not.",
       ],
     },
@@ -174,7 +174,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Values proof belongs in product mechanics—care, repair, materials, policies—not only in campaign theatre.",
+      text: "Values proof belongs in product mechanics-care, repair, materials, policies-not only in campaign theatre.",
     },
     {
       type: "h2",
@@ -186,7 +186,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Performance is brand. [web.dev](https://web.dev/) and Core Web Vitals guidance exist because slow experiences feel careless—especially for a brand that talks about respect. Accessibility is the same category of integrity: [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) is not a side quest for a values-led company.",
+      text: "Performance is brand. [web.dev](https://web.dev/) and Core Web Vitals guidance exist because slow experiences feel careless-especially for a brand that talks about respect. Accessibility is the same category of integrity: [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) is not a side quest for a values-led company.",
     },
     {
       type: "h3",
@@ -217,7 +217,7 @@ const post: BlogPost = {
     {
       type: "ul",
       items: [
-        "The core brand voice—unless research shows it is confusing, not merely polarising.",
+        "The core brand voice-unless research shows it is confusing, not merely polarising.",
         "A full ecommerce platform migration “for modernity.”",
         "Trend-led UI patterns that make the site look like every DTC clone.",
         "Adding more content channels before clarifying the main commercial templates.",
@@ -259,11 +259,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your mission is strong but the site still under-converts, you may be facing a clarity problem dressed as a marketing problem—see [the clarity problem guide](/blog/product-doesnt-have-marketing-problem-clarity-problem). Mission does not exempt you from explaining the offer.",
+      text: "If your mission is strong but the site still under-converts, you may be facing a clarity problem dressed as a marketing problem-see [the clarity problem guide](/blog/product-doesnt-have-marketing-problem-clarity-problem). Mission does not exempt you from explaining the offer.",
     },
     {
       type: "p",
-      text: "Also resist the urge to measure mission brands only on soft sentiment. Track whether people who engage with values content actually progress into product consideration—and whether buyers who convert remain aligned in reviews and returns. A journey that inspires without converting may still be intentional for campaigns; it is a problem when it becomes the default commercial path by accident.",
+      text: "Also resist the urge to measure mission brands only on soft sentiment. Track whether people who engage with values content actually progress into product consideration-and whether buyers who convert remain aligned in reviews and returns. A journey that inspires without converting may still be intentional for campaigns; it is a problem when it becomes the default commercial path by accident.",
     },
     {
       type: "p",
@@ -327,7 +327,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are building something that asks people to believe—not only to buy—design the path as carefully as the manifesto. Belief is precious. Interfaces should behave accordingly.",
+      text: "If you are building something that asks people to believe-not only to buy-design the path as carefully as the manifesto. Belief is precious. Interfaces should behave accordingly.",
     },
     {
       type: "cta",

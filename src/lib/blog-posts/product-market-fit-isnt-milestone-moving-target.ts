@@ -8,11 +8,11 @@ const post: BlogPost = {
   category: "Research & Positioning",
   image: "/images/blog/blog-60-pmf-moving.png",
   metaDescription:
-    "Product-market fit isn't a one-time milestone—it's a moving target. Why “we've got PMF” can freeze learning, and how to keep fit as markets and products shift.",
+    "Product-market fit isn't a one-time milestone-it's a moving target. Why “we've got PMF” can freeze learning, and how to keep fit as markets and products shift.",
   content: [
     {
       type: "p",
-      text: "Somewhere between the seed round and the Series A dinner, someone declares product-market fit. The phrase is spoken like a belt earned in martial arts: permanent, framed, no longer up for debate. Hiring accelerates. Roadmaps thicken. Curiosity softens. After all—you’ve got it.",
+      text: "Somewhere between the seed round and the Series A dinner, someone declares product-market fit. The phrase is spoken like a belt earned in martial arts: permanent, framed, no longer up for debate. Hiring accelerates. Roadmaps thicken. Curiosity softens. After all-you’ve got it.",
     },
     {
       type: "p",
@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece extends [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit) and [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit). It also pairs with [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher)—because early fit with a teacher is not durable fit with a market.",
+      text: "This piece extends [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit) and [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit). It also pairs with [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher)-because early fit with a teacher is not durable fit with a market.",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sean Ellis’s famous survey question and Zoe Strassfield’s reminders about retention still matter—but they are instruments, not trophies. Read them as ongoing diagnostics. Useful context lives across [First Round Review](https://review.firstround.com/), [Lenny’s Newsletter](https://www.lennysnewsletter.com/), and [Y Combinator’s library](https://www.ycombinator.com/library). None of them hand out permanent certificates.",
+      text: "Sean Ellis’s famous survey question and Zoe Strassfield’s reminders about retention still matter-but they are instruments, not trophies. Read them as ongoing diagnostics. Useful context lives across [First Round Review](https://review.firstround.com/), [Lenny’s Newsletter](https://www.lennysnewsletter.com/), and [Y Combinator’s library](https://www.ycombinator.com/library). None of them hand out permanent certificates.",
     },
     {
       type: "takeaway",
@@ -57,7 +57,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Remote work, regulation, budget cycles, new tools in the stack—the job-to-be-done mutates. Your product can stay still and fall out of fit simply by ageing in place.",
+      text: "Remote work, regulation, budget cycles, new tools in the stack-the job-to-be-done mutates. Your product can stay still and fall out of fit simply by ageing in place.",
     },
     {
       type: "h3",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I ask teams to keep a living scorecard—not a vanity dashboard, a decision tool. Review it monthly in early stage, quarterly later. The point is argument with evidence, not vibes in a board deck.",
+      text: "I ask teams to keep a living scorecard-not a vanity dashboard, a decision tool. Review it monthly in early stage, quarterly later. The point is argument with evidence, not vibes in a board deck.",
     },
     {
       type: "ol",
@@ -153,7 +153,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When two or more lines weaken, you do not “lose PMF” in a dramatic sense—you gain a research agenda. That agenda should beat the feature queue. Problem clarity still leads; see [the best products solve a problem before they sell a solution](/blog/best-products-solve-problem-before-sell-solution).",
+      text: "When two or more lines weaken, you do not “lose PMF” in a dramatic sense-you gain a research agenda. That agenda should beat the feature queue. Problem clarity still leads; see [the best products solve a problem before they sell a solution](/blog/best-products-solve-problem-before-sell-solution).",
     },
     {
       type: "h2",
@@ -178,7 +178,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise",
-      text: "Ask ten recent customers: “If we shut down tomorrow, what would you do by Friday?” Listen for pain, not politeness. If the answer is “go back to what we did before” without urgency, your fit may be convenience—not dependence. If they name a chaotic scramble, protect that job ruthlessly before you expand.",
+      text: "Ask ten recent customers: “If we shut down tomorrow, what would you do by Friday?” Listen for pain, not politeness. If the answer is “go back to what we did before” without urgency, your fit may be convenience-not dependence. If they name a chaotic scramble, protect that job ruthlessly before you expand.",
     },
     {
       type: "h2",
@@ -198,7 +198,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The milestone myth encourages a clean handoff: discovery people leave, growth people arrive, product becomes a feature factory. Moving-target thinking keeps a thin discovery capacity alive—founder time, a researcher, or rotating “customer weeks”—proportional to how fast your market changes.",
+      text: "The milestone myth encourages a clean handoff: discovery people leave, growth people arrive, product becomes a feature factory. Moving-target thinking keeps a thin discovery capacity alive-founder time, a researcher, or rotating “customer weeks”-proportional to how fast your market changes.",
     },
     {
       type: "ul",
@@ -219,11 +219,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Price is not only monetisation. It is a continuous referendum on how must-have you are. Heavy discounting to keep “PMF logos,” endless freemium that never converts, or enterprise deals that require custom roadmaps—all of these rewrite your fit claim whether you admit it or not.",
+      text: "Price is not only monetisation. It is a continuous referendum on how must-have you are. Heavy discounting to keep “PMF logos,” endless freemium that never converts, or enterprise deals that require custom roadmaps-all of these rewrite your fit claim whether you admit it or not.",
     },
     {
       type: "p",
-      text: "Revisit pricing when the scorecard wobbles. Sometimes the product is fine and the offer is wrong for the segment. Sometimes the segment never had durable urgency. Either way, pretending the milestone still holds while finance papers over the gap is how quiet decay becomes a sudden crisis. Pair pricing honesty with feature restraint—the same instinct as [the hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
+      text: "Revisit pricing when the scorecard wobbles. Sometimes the product is fine and the offer is wrong for the segment. Sometimes the segment never had durable urgency. Either way, pretending the milestone still holds while finance papers over the gap is how quiet decay becomes a sudden crisis. Pair pricing honesty with feature restraint-the same instinct as [the hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
     },
     {
       type: "h2",
@@ -231,7 +231,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help founders rebuild product narratives when the market has shifted under a frozen story. Websites, onboarding, and messaging get re-anchored to the current job and alternative set—not the deck from the round that celebrated PMF. Strategy before screens still applies: [from strategy to launch: how I approach a new product](/blog/from-strategy-to-launch-how-i-approach-new-product).",
+      text: "I help founders rebuild product narratives when the market has shifted under a frozen story. Websites, onboarding, and messaging get re-anchored to the current job and alternative set-not the deck from the round that celebrated PMF. Strategy before screens still applies: [from strategy to launch: how I approach a new product](/blog/from-strategy-to-launch-how-i-approach-new-product).",
     },
     {
       type: "faq",
@@ -254,7 +254,7 @@ const post: BlogPost = {
         {
           question: "How often should we revisit fit?",
           answer:
-            "Whenever you change ICP, pricing, core workflow, or face a new default alternative—and on a fixed cadence regardless. Waiting for a crisis is how crises arrive.",
+            "Whenever you change ICP, pricing, core workflow, or face a new default alternative-and on a fixed cadence regardless. Waiting for a crisis is how crises arrive.",
         },
       ],
     },
@@ -264,11 +264,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Product-market fit is not a milestone you pass on the way to real work. It is the work—ongoing, segment-specific, falsifiable. Treat “we’ve got PMF” as a hypothesis with an expiry date. Keep the scorecard. Protect the job. Move when the target moves. That is not insecurity. That is product strategy with its eyes open.",
+      text: "Product-market fit is not a milestone you pass on the way to real work. It is the work-ongoing, segment-specific, falsifiable. Treat “we’ve got PMF” as a hypothesis with an expiry date. Keep the scorecard. Protect the job. Move when the target moves. That is not insecurity. That is product strategy with its eyes open.",
     },
     {
       type: "cta",
-      lead: "Want help stress-testing whether your PMF claim still holds—or quietly expired last quarter?",
+      lead: "Want help stress-testing whether your PMF claim still holds-or quietly expired last quarter?",
       button: "Review your fit scorecard",
       href: "/contact",
     },
