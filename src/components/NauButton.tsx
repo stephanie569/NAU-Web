@@ -124,7 +124,7 @@ export function NauButton({
 
   return (
     <span
-      className={`nau-electric-spacer ${wantsFullWidth ? "w-full" : "self-start"} ${className}`}
+      className={`nau-electric-spacer inline-flex items-center ${wantsFullWidth ? "w-full" : ""} ${className}`.trim()}
     >
       {button}
     </span>

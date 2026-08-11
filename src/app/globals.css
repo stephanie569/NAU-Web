@@ -102,10 +102,12 @@
 
 .nau-electric-spacer {
   display: inline-flex;
+  align-items: center;
   width: fit-content;
   max-width: 100%;
   overflow: visible;
   vertical-align: middle;
+  line-height: 0;
 }
 
 .nau-electric-spacer.w-full {

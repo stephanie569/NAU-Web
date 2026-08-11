@@ -118,7 +118,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className={`shrink-0 text-[15px] font-medium tracking-[-0.04em] transition-opacity ${linkClass}`}
+              className={`flex shrink-0 items-center text-[15px] font-medium tracking-[-0.04em] transition-opacity ${linkClass}`}
             >
               {link.label}
               {"count" in link && link.count ? (
@@ -129,7 +129,11 @@ export function Header() {
             </Link>
           ))}
 
-          <NauButton href="/contact" variant={isDark ? "light" : "dark"}>
+          <NauButton
+            href="/contact"
+            variant={isDark ? "light" : "dark"}
+            className="shrink-0"
+          >
             Work with me
           </NauButton>
         </nav>

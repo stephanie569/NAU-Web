@@ -58,7 +58,7 @@ export const services = [
 ];
 
 export const stats = [
-  { value: "27+", label: "projects" },
+  { value: "20+", label: "projects" },
   { value: "98%", label: "Client satisfaction rate" },
   { value: "+30%", label: "Conversion Rate Improvement" },
   { value: "3-4 weeks", label: "Delivery time" },
@@ -163,7 +163,7 @@ export const faqs = [
   {
     question: "Who do you work with?",
     answer:
-      "Product brands that want steady growth: outdoor, travel, marine, consumer tech, lifestyle, sustainable goods and sports equipment. Physical products, not service businesses.",
+      "Product brands that want steady growth: outdoor, travel, marine, consumer tech, lifestyle, sustainable goods and sports equipment. Focus is physical products.",
   },
   {
     question: "What do you actually help with?",

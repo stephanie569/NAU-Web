@@ -653,7 +653,7 @@ export const faqItems = [
   {
     question: "Who do you work with?",
     answer:
-      "Product brands that want steady growth: outdoor, travel, marine, consumer tech, lifestyle, sustainable goods and sports equipment. Physical products, not service businesses.",
+      "Product brands that want steady growth: outdoor, travel, marine, consumer tech, lifestyle, sustainable goods and sports equipment. Focus is physical products.",
   },
   {
     question: "What do you actually help with?",
@@ -796,7 +796,7 @@ export const studioPageCopy = {
   impact: {
     stats: [
       { value: "1M+", label: "Organic views" },
-      { value: "27+", label: "Projects launched" },
+      { value: "20+", label: "Projects launched" },
       { value: "98%", label: "Client satisfaction" },
       { value: "500+", label: "Videos produced" },
     ],
@@ -829,26 +829,26 @@ export const studioPageCopy = {
     label: "Practice",
     title: "What is nau studio?",
     lead:
-      "A one-founder practice for product brands that want steady organic growth.",
+      "A one-founder practice where research, strategy and content stay one path - so product brands grow without renting attention every week.",
     body: [
-      "Outdoor, travel, hospitality and lifestyle products across Europe - not service businesses.",
-      "Research, strategy and content in one cycle. Enter at strategy, full launch, or content-only.",
+      "Built for outdoor, travel, hospitality and lifestyle products across Europe - physical products first.",
+      "Start where you need help most: strategy, full launch, or content-only. The work stays connected either way.",
     ],
     pillars: [
       {
         number: "001",
         title: "Clarity",
-        text: "Who it is for and why it wins - before the camera.",
+        text: "Who it's for and why it wins - decided before anyone hits record.",
       },
       {
         number: "002",
-        title: "Organic",
-        text: "Channels and sequence built to compound.",
+        title: "Strategy",
+        text: "Organic channels and a launch sequence built to compound, not spike.",
       },
       {
         number: "003",
         title: "Content",
-        text: "Remote UGC or Europe team days, on-brief.",
+        text: "Remote UGC or Europe team days, shot to the brief from steps one and two.",
       },
     ],
   },
@@ -861,7 +861,7 @@ export const studioPageCopy = {
     label: "Method",
     title: "The full cycle of my work.",
     lead:
-      "One 360 path from blank page to assets you can run. Most creators start at the post. I start earlier and finish later.",
+      "Five steps from blank page to assets you can run. Most creators start at the post. I start with the product - and finish after the first learning loop.",
     columns: {
       stage: "Stage",
       focus: "Focus",
@@ -871,34 +871,47 @@ export const studioPageCopy = {
       {
         number: "001",
         title: "Immerse",
-        focus: "Truth",
-        text: "How the product works and what steady growth means for this brand.",
+        focus: "Product",
+        text: "How it works, who already buys it, and what 'steady growth' means for this brand.",
       },
       {
         number: "002",
         title: "Define",
-        focus: "Position",
-        text: "Research, personas and messaging before anyone films a post.",
+        focus: "Clarity",
+        text: "Who it's for, why it wins, and the messaging - before anyone films a post.",
       },
       {
         number: "003",
         title: "Plan",
-        focus: "GTM",
-        text: "Channels, launch sequence and a 90-day roadmap with KPIs.",
+        focus: "Strategy",
+        text: "Organic channels, launch sequence and a 90-day roadmap with KPIs.",
       },
       {
         number: "004",
         title: "Create",
         focus: "Content",
-        text: "Founder-led or product-led work - remote UGC or Europe team day.",
+        text: "Founder-led or product-led work on that brief - remote UGC or a Europe team day.",
       },
       {
         number: "005",
         title: "Refine",
-        focus: "Learn",
-        text: "What resonates, what to cut, what to ship next.",
+        focus: "Learning",
+        text: "What resonated, what to cut, and what to ship next - so the cycle compounds.",
       },
     ],
+    cta: {
+      label: "Next step",
+      title: "Start where you are.",
+      text: "Strategy sprint, full launch, or content-only if you want to work together - or grab a digital guide if you prefer to move self-paced first.",
+      secondary: {
+        button: "See packages",
+        href: "/#packages",
+      },
+      primary: {
+        button: "Work with me",
+        href: "/contact",
+      },
+    },
   },
   collab: {
     label: "Collaborations",

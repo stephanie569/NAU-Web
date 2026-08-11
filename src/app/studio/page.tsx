@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
+import { BlogPreviewSection } from "@/components/BlogPreviewSection";
 import { ClientsSection } from "@/components/ClientsSection";
 import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
@@ -172,13 +174,13 @@ export default function StudioPage() {
       >
         <div className="mx-auto w-full max-w-[1520px]">
           <div className="grid gap-8 rounded-[24px] bg-white p-5 md:gap-10 md:p-8 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] lg:items-center lg:gap-12 lg:p-10">
-            <div className="relative mx-auto aspect-[3/4] w-full max-w-[480px] overflow-hidden rounded-[18px] bg-[#f0f0f0] lg:mx-0">
+            <div className="relative mx-auto aspect-[670/1024] w-full max-w-[480px] overflow-hidden rounded-[18px] bg-[#f0f0f0] lg:mx-0">
               <Image
                 src={story.photo.src}
                 alt={story.photo.alt}
                 fill
                 priority
-                className="object-cover object-[center_20%]"
+                className="object-cover object-center"
                 sizes="(max-width: 1024px) 100vw, 480px"
               />
               <div className="pointer-events-none absolute inset-0 flex flex-col justify-between p-5 md:p-6">
@@ -376,11 +378,34 @@ export default function StudioPage() {
             </ol>
           </div>
 
-          <div className="mt-10">
-            <NauButton href="/#packages">See packages</NauButton>
+          <div className="mt-12 flex flex-col gap-6 border-t border-[#0a0a0a]/10 pt-8 sm:mt-14 sm:flex-row sm:items-end sm:justify-between sm:gap-10 md:pt-10">
+            <div className="max-w-[36rem]">
+              <p className="text-[12px] font-semibold uppercase tracking-[0.14em] text-[#0a0a0a]/40">
+                {cycle.cta.label}
+              </p>
+              <p className="mt-3 text-[clamp(1.35rem,2.4vw,1.75rem)] leading-snug font-semibold tracking-[-0.045em] text-[#0a0a0a]">
+                {cycle.cta.title}
+              </p>
+              <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
+                {cycle.cta.text}
+              </p>
+            </div>
+            <div className="flex flex-wrap items-center gap-3 self-start sm:self-end">
+              <Link
+                href={cycle.cta.secondary.href}
+                className="inline-flex items-center rounded-full border border-[#0a0a0a]/15 px-4 py-2.5 text-[13px] font-semibold tracking-[-0.04em] text-[#0a0a0a] transition-opacity hover:opacity-70"
+              >
+                {cycle.cta.secondary.button}
+              </Link>
+              <NauButton href={cycle.cta.primary.href} electric>
+                {cycle.cta.primary.button}
+              </NauButton>
+            </div>
           </div>
         </div>
       </section>
+
+      <BlogPreviewSection />
     </>
   );
 }
