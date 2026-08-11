@@ -111,42 +111,44 @@ export function Header() {
         isDark ? "bg-[#0a0a0a]" : "bg-[#f5f5f5]"
       }`}
     >
-      <div className="mx-auto flex h-[61px] max-w-[1520px] items-center px-6 md:px-9">
-        <nav className="hidden w-full items-center justify-between md:flex">
-          {showHome ? <HomeLink dark={isDark} /> : null}
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`flex shrink-0 items-center text-[15px] font-medium tracking-[-0.04em] transition-opacity ${linkClass}`}
+      <div className="px-6 md:px-9">
+        <div className="mx-auto flex h-[61px] w-full max-w-[1520px] items-center">
+          <nav className="hidden w-full items-center justify-between md:flex">
+            {showHome ? <HomeLink dark={isDark} /> : null}
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`flex shrink-0 items-center text-[15px] font-medium tracking-[-0.04em] transition-opacity ${linkClass}`}
+              >
+                {link.label}
+                {"count" in link && link.count ? (
+                  <sup className="ml-0.5 text-[10px] font-medium leading-none">
+                    {link.count}
+                  </sup>
+                ) : null}
+              </Link>
+            ))}
+
+            <NauButton
+              href="/contact"
+              variant={isDark ? "light" : "dark"}
+              className="shrink-0"
             >
-              {link.label}
-              {"count" in link && link.count ? (
-                <sup className="ml-0.5 text-[10px] font-medium leading-none">
-                  {link.count}
-                </sup>
-              ) : null}
-            </Link>
-          ))}
+              Work with me
+            </NauButton>
+          </nav>
 
-          <NauButton
-            href="/contact"
-            variant={isDark ? "light" : "dark"}
-            className="shrink-0"
+          <button
+            type="button"
+            aria-label="Toggle menu"
+            aria-expanded={menuOpen}
+            className="ml-auto flex shrink-0 items-center justify-center md:hidden"
+            onClick={() => setMenuOpen(!menuOpen)}
           >
-            Work with me
-          </NauButton>
-        </nav>
-
-        <button
-          type="button"
-          aria-label="Toggle menu"
-          aria-expanded={menuOpen}
-          className="ml-auto flex shrink-0 items-center justify-center md:hidden"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <MenuIcon open={menuOpen} dark={isDark} />
-        </button>
+            <MenuIcon open={menuOpen} dark={isDark} />
+          </button>
+        </div>
       </div>
 
       <AnimatePresence>
@@ -161,39 +163,41 @@ export function Header() {
                 : "border-[#0a0a0a]/10 bg-[#f5f5f5]"
             }`}
           >
-            <div className="flex flex-col gap-1 px-6 py-4">
-              {showHome ? (
-                <HomeLink
-                  dark={isDark}
-                  className="py-3"
+            <div className="px-6 md:px-9">
+              <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-1 py-4">
+                {showHome ? (
+                  <HomeLink
+                    dark={isDark}
+                    className="py-3"
+                    onClick={() => setMenuOpen(false)}
+                  />
+                ) : null}
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                    className={`py-3 text-[15px] font-medium tracking-[-0.04em] ${
+                      isDark ? "text-white" : "text-[#0a0a0a]"
+                    }`}
+                  >
+                    {link.label}
+                    {"count" in link && link.count ? (
+                      <sup className="ml-0.5 text-[10px] font-medium">
+                        {link.count}
+                      </sup>
+                    ) : null}
+                  </Link>
+                ))}
+                <NauButton
+                  href="/contact"
+                  variant={isDark ? "light" : "dark"}
+                  className="mt-2"
                   onClick={() => setMenuOpen(false)}
-                />
-              ) : null}
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className={`py-3 text-[15px] font-medium tracking-[-0.04em] ${
-                    isDark ? "text-white" : "text-[#0a0a0a]"
-                  }`}
                 >
-                  {link.label}
-                  {"count" in link && link.count ? (
-                    <sup className="ml-0.5 text-[10px] font-medium">
-                      {link.count}
-                    </sup>
-                  ) : null}
-                </Link>
-              ))}
-              <NauButton
-                href="/contact"
-                variant={isDark ? "light" : "dark"}
-                className="mt-2"
-                onClick={() => setMenuOpen(false)}
-              >
-                Work with me
-              </NauButton>
+                  Work with me
+                </NauButton>
+              </div>
             </div>
           </motion.nav>
         )}
