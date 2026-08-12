@@ -54,7 +54,7 @@ function CategoryPills({
   extraCount,
 }: {
   categories: string[];
-  extraCount: string;
+  extraCount?: string;
 }) {
   return (
     <div>
@@ -70,9 +70,11 @@ function CategoryPills({
             {category}
           </span>
         ))}
-        <span className="rounded-full border border-white/15 px-3.5 py-1.5 text-[13px] font-medium tracking-[-0.04em] text-white/60">
-          {extraCount}
-        </span>
+        {extraCount ? (
+          <span className="rounded-full border border-white/15 px-3.5 py-1.5 text-[13px] font-medium tracking-[-0.04em] text-white/60">
+            {extraCount}
+          </span>
+        ) : null}
       </div>
     </div>
   );
@@ -114,14 +116,19 @@ function ServiceRow({
                 <h3 className="text-[clamp(1.25rem,2.2vw,1.75rem)] leading-tight font-semibold tracking-[-0.04em] text-white">
                   {service.title}
                 </h3>
-                <div className="mt-3 max-w-[560px] space-y-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/60">
-                  {(Array.isArray(service.description)
-                    ? service.description
-                    : [service.description]
-                  ).map((paragraph) => (
-                    <p key={paragraph}>{paragraph}</p>
+                <ol className="mt-4 max-w-[560px] space-y-2.5 border-l border-white/15 pl-4">
+                  {service.steps.map((step, index) => (
+                    <li
+                      key={step}
+                      className="flex gap-3 text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-white/60 md:text-[15px]"
+                    >
+                      <span className="shrink-0 tabular-nums text-white/35">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <span>{step}</span>
+                    </li>
                   ))}
-                </div>
+                </ol>
               </div>
             </div>
 

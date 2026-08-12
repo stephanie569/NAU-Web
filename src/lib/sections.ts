@@ -1,3 +1,9 @@
+export const serviceCategories = [
+  "Research & Positioning",
+  "Marketing Strategy",
+  "Content Creation",
+] as const;
+
 export const selectedWorkSection = {
   title: "Selected Work",
   projects: [
@@ -100,13 +106,9 @@ export const projectsPageCopy = {
   title: "Clients.",
   description:
     "Work across the full cycle: Research & Positioning, Marketing Strategy, and Content Creation.",
-  searchPlaceholder: "Search…",
+  searchPlaceholder: "Search...",
   categoryLabel: "Category",
-  categories: [
-    "Research & Positioning",
-    "Marketing Strategy",
-    "Content Creation",
-  ],
+  categories: [...serviceCategories],
   ctaLead:
     "Need Research & Positioning, Marketing Strategy, or content that matters?",
   ctaHighlight: "I'm here to help.",
@@ -191,8 +193,11 @@ export const servicesItems = [
   {
     number: "001",
     title: "Research & Positioning",
-    description:
-      "I validate what you're launching, map the market, and sharpen positioning so organic growth has somewhere true to stand.",
+    steps: [
+      "Validate what you're launching and what problem it solves.",
+      "Map the market, category and competitors.",
+      "Sharpen who it's for and why it wins - before anyone films a post.",
+    ],
     thumbnail: img("vGSJoy0fkCYvuK5CETUzS64NNo"),
     categories: [
       "Product validation",
@@ -207,8 +212,11 @@ export const servicesItems = [
   {
     number: "002",
     title: "Marketing Strategy",
-    description:
-      "I turn research into a marketing strategy you can actually run: channels, stories and creative that compound for steady organic growth.",
+    steps: [
+      "Turn research into a plan you can actually run.",
+      "Choose channels, stories and creative that compound.",
+      "Sequence launch and growth for steady organic reach.",
+    ],
     thumbnail: img("qQlR5lTiRYzT2lPzSWLLVkcgH6Y"),
     categories: [
       "Organic growth strategy",
@@ -223,8 +231,11 @@ export const servicesItems = [
   {
     number: "003",
     title: "Content Creation",
-    description:
-      "I plan it, make it, or guide your team - so brands that sell movement, escape and adventure earn organic reach instead of buying attention.",
+    steps: [
+      "Plan content around the positioning and GTM brief.",
+      "Create the work or guide your team on set.",
+      "Ship assets built to earn attention - not rent it.",
+    ],
     thumbnail: "/images/service-content-creation.png",
     categories: [
       "Content planning",
@@ -239,18 +250,17 @@ export const servicesItems = [
   {
     number: "004",
     title: "Digital Guides",
-    description:
-      "I write self-paced playbooks for when you want clarity without a full engagement - positioning, launch planning and GTM on paper, ready to buy.",
+    steps: [
+      "Strategy playbooks when a full engagement isn't the right fit yet.",
+      "Positioning, launch planning and GTM — packaged from how I work with product brands.",
+      "Delivered on purchase — or free when you find a nau QR.",
+    ],
     thumbnail: "/images/guides/travel-lake.jpg",
     categories: [
-      "Organic marketing ideas",
-      "Positioning workbook",
-      "Launch planning",
+      "Product positioning workbook",
       "Go-to-market playbook",
-      "Product validation",
-      "Research to launch",
+      "Organic marketing ideas",
     ],
-    extraCount: "6+",
   },
 ];
 
@@ -460,12 +470,12 @@ export const pricingSectionCopy = {
   storeTeaser: {
     id: "digital-guides",
     name: "Digital guides",
-    eyebrow: "Self-paced",
+    eyebrow: "Digital products",
     price: "From $19",
     forWhom:
-      "If you already have a strategy and you enjoy doing your content, but you need just a little reassurance and polishing - here is a portal to my packages, where you can find digital guides created from me to you.",
+      "When you want my thinking on positioning, launch or GTM — without booking a full engagement.",
     outcome:
-      "Self-paced playbooks when you want clarity without a full engagement. Pick a guide, apply it and move at your own speed.",
+      "The same frameworks I use on client projects, packaged as guides you can buy and use right away.",
     delivery: "Instant download",
     cta: "Purchase",
     href: "/packages",
@@ -473,38 +483,39 @@ export const pricingSectionCopy = {
 };
 
 export const storeSectionCopy = {
-  title: "Packages",
-  subtitle: "Digital guides. Paid online - or free if you find a QR across Europe.",
+  title: "Packages.",
+  description:
+    "Digital guides with the same strategy thinking as a client engagement — buy online or claim free with a nau QR.",
+  searchPlaceholder: "Search...",
+  categoryLabel: "Category",
+  categories: [...serviceCategories],
+  emptyState: "No guides match your search.",
   intro:
-    "Self-paced strategy on paper before you hire anyone. Find a nau QR on a sticker somewhere across Europe and that same guide is free - say where you found it and I'll send the file.",
+    "Playbooks built from real launches — for brands that want clarity before committing to a full project. Find a nau QR across Europe and that same guide is free.",
   stickers:
     "Stickers are free to friends, partners and brands building gear worth talking about.",
   qrCta: "Found a QR?",
   qrNote: "Email me where you found it - I'll send the guide free.",
   qrLinkLabel: "Claim free",
   cta: "Get it",
+  checkoutSuccessTitle: "Payment received",
+  checkoutSuccessNote:
+    "Thanks - I'll email your guide shortly. This is test mode until you switch Stripe to live keys.",
+  checkoutCancelTitle: "Checkout cancelled",
+  checkoutCancelNote: "No charge was made. Browse again whenever you're ready.",
+  pageCtaLead: "Need more than a guide?",
+  pageCtaHighlight: "Work with me.",
+  contact: {
+    name: "Stefani Dimitrova",
+    role: "Organic GTM & Product Storyteller",
+    image: "/images/stefani-dimitrova-portrait.jpg",
+  },
   items: [
-    {
-      id: "organic-marketing-ideas",
-      title: "Organic marketing ideas",
-      price: "$19",
-      blurb: "Earned ideas - not another content calendar.",
-      poster: {
-        label: "Organic",
-        headline: "ORGANIC",
-        subline: "MARKETING IDEAS",
-        tagline: "Earned attention only",
-        image: "/images/guides/travel.jpg",
-        industry: "Travel",
-        gradientFrom: "#1c1810",
-        gradientTo: "#5a3d1c",
-        accent: "#f0c56e",
-      },
-    },
     {
       id: "product-positioning-workbook",
       title: "Product positioning workbook",
       price: "$29",
+      category: "Research & Positioning",
       blurb: "Who it's for, why it matters, how to say it.",
       poster: {
         label: "Positioning",
@@ -519,26 +530,10 @@ export const storeSectionCopy = {
       },
     },
     {
-      id: "launch-planning-template",
-      title: "Launch planning template",
-      price: "$39",
-      blurb: "A roadmap you can actually run.",
-      poster: {
-        label: "Launch",
-        headline: "LAUNCH",
-        subline: "PLANNING",
-        tagline: "A roadmap you can run",
-        image: "/images/guides/adventure.jpg",
-        industry: "Adventure",
-        gradientFrom: "#160e12",
-        gradientTo: "#5a2438",
-        accent: "#ffb0c8",
-      },
-    },
-    {
       id: "go-to-market-playbook",
       title: "Go-to-market playbook",
       price: "$49",
+      category: "Marketing Strategy",
       blurb: "Channels, story and a launch sequence that holds.",
       poster: {
         label: "GTM",
@@ -553,37 +548,21 @@ export const storeSectionCopy = {
       },
     },
     {
-      id: "product-validation-guide",
-      title: "Product validation guide",
-      price: "$79",
-      blurb: "Test the product before you spend on the story.",
+      id: "organic-marketing-ideas",
+      title: "Organic marketing ideas",
+      price: "$19",
+      category: "Content Creation",
+      blurb: "Earned ideas - not another content calendar.",
       poster: {
-        label: "Validation",
-        headline: "VALIDATION",
-        subline: "GUIDE",
-        tagline: "Test before you spend",
-        image: "/images/guides/hospitality-lobby.jpg",
-        industry: "Hospitality",
-        gradientFrom: "#120e18",
-        gradientTo: "#3a2458",
-        accent: "#d4b0ff",
-      },
-    },
-    {
-      id: "from-research-to-launch",
-      title: "From research to launch",
-      price: "$99",
-      blurb: "The full path in one guide - strategy before spend.",
-      poster: {
-        label: "Full path",
-        headline: "RESEARCH",
-        subline: "TO LAUNCH",
-        tagline: "The full path in one guide",
-        image: "/images/guides/travel-lake.jpg",
-        industry: "Travel tech",
-        gradientFrom: "#111111",
-        gradientTo: "#2e2e2e",
-        accent: "#ffffff",
+        label: "Organic",
+        headline: "ORGANIC",
+        subline: "MARKETING IDEAS",
+        tagline: "Earned attention only",
+        image: "/images/guides/travel.jpg",
+        industry: "Travel",
+        gradientFrom: "#1c1810",
+        gradientTo: "#5a3d1c",
+        accent: "#f0c56e",
       },
     },
   ],
@@ -902,7 +881,7 @@ export const studioPageCopy = {
     cta: {
       label: "Next step",
       title: "Start where you are.",
-      text: "Strategy sprint, full launch, or content-only if you want to work together - or grab a digital guide if you prefer to move self-paced first.",
+      text: "Strategy sprint, full launch, or content-only to work together — or start with a digital guide if you want the thinking first.",
       secondary: {
         button: "See packages",
         href: "/#packages",

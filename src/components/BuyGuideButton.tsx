@@ -6,9 +6,13 @@ import { NauButton } from "@/components/NauButton";
 export function BuyGuideButton({
   guideId,
   label,
+  fullWidth = false,
+  className = "",
 }: {
   guideId: string;
   label: string;
+  fullWidth?: boolean;
+  className?: string;
 }) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -38,17 +42,22 @@ export function BuyGuideButton({
   }
 
   return (
-    <div className="flex flex-col items-end gap-1">
+    <div
+      className={`flex flex-col gap-1 ${fullWidth ? "w-full items-stretch" : "items-end"} ${className}`.trim()}
+    >
       <NauButton
         type="button"
         onClick={startCheckout}
         disabled={loading}
+        fullWidth={fullWidth}
         className={loading ? "opacity-60" : undefined}
       >
         {loading ? "Redirecting…" : label}
       </NauButton>
       {error ? (
-        <p className="max-w-[160px] text-right text-[11px] font-medium tracking-[-0.03em] text-red-600">
+        <p
+          className={`text-[11px] font-medium tracking-[-0.03em] text-red-600 ${fullWidth ? "text-left" : "max-w-[160px] text-right"}`}
+        >
           {error}
         </p>
       ) : null}

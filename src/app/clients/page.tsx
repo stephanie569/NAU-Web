@@ -1,31 +1,10 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { PageSearchBar } from "@/components/PageSearchBar";
 import { ProjectGridCard } from "@/components/ProjectGridCard";
 import { ProjectsPageCTA } from "@/components/ProjectsPageCTA";
 import { projectsPageCopy, projectsPageItems } from "@/lib/sections";
-
-function SearchIcon() {
-  return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4 text-[#0a0a0a]/35" aria-hidden>
-      <circle
-        cx="9"
-        cy="9"
-        r="5.5"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-      />
-      <path
-        d="M13.5 13.5L17 17"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
 
 export default function ProjectsPage() {
   const { title, description, searchPlaceholder, categoryLabel, categories } =
@@ -65,37 +44,16 @@ export default function ProjectsPage() {
               </p>
             </div>
 
-            <div className="mb-10 flex flex-col gap-3 sm:flex-row sm:items-center">
-              <label className="relative block flex-1">
-                <span className="pointer-events-none absolute top-1/2 left-5 -translate-y-1/2">
-                  <SearchIcon />
-                </span>
-                <input
-                  type="search"
-                  value={query}
-                  onChange={(event) => setQuery(event.target.value)}
-                  placeholder={searchPlaceholder}
-                  className="w-full rounded-full bg-[#f5f5f5] py-3.5 pr-5 pl-12 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none placeholder:text-[#0a0a0a]/35"
-                />
-              </label>
-
-              <label className="relative sm:w-[180px]">
-                <select
-                  value={category}
-                  onChange={(event) => setCategory(event.target.value)}
-                  className="w-full appearance-none rounded-full bg-[#f5f5f5] py-3.5 pr-10 pl-5 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none"
-                >
-                  <option value="All">{categoryLabel}</option>
-                  {categories.map((item) => (
-                    <option key={item} value={item}>
-                      {item}
-                    </option>
-                  ))}
-                </select>
-                <span className="pointer-events-none absolute top-1/2 right-5 -translate-y-1/2 text-[#0a0a0a]/35">
-                  ▾
-                </span>
-              </label>
+            <div className="mb-10">
+              <PageSearchBar
+                query={query}
+                onQueryChange={setQuery}
+                category={category}
+                onCategoryChange={setCategory}
+                searchPlaceholder={searchPlaceholder}
+                categoryLabel={categoryLabel}
+                categories={categories}
+              />
             </div>
 
             <div className="mx-auto grid max-w-[1080px] gap-3 sm:grid-cols-2 md:gap-4">

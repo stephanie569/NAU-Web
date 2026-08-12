@@ -34,26 +34,38 @@ export const services = [
   {
     number: "001",
     title: "Research & Positioning",
-    description:
-      "I validate what you're launching, map the market, and sharpen positioning so organic growth has somewhere true to stand.",
+    steps: [
+      "Validate what you're launching.",
+      "Map the market and competitors.",
+      "Sharpen positioning before content starts.",
+    ],
   },
   {
     number: "002",
     title: "Marketing Strategy",
-    description:
-      "I turn research into a marketing strategy you can actually run: channels, stories and creative that compound for steady organic growth.",
+    steps: [
+      "Turn research into a runnable plan.",
+      "Choose channels and stories that compound.",
+      "Sequence launch for steady organic growth.",
+    ],
   },
   {
     number: "003",
     title: "Content Creation",
-    description:
-      "I build the content plan, make the work, or guide your team-so the brand earns organic reach instead of buying attention.",
+    steps: [
+      "Plan content around the brief.",
+      "Create the work or guide your team.",
+      "Earn organic reach instead of buying attention.",
+    ],
   },
   {
     number: "004",
     title: "Digital Guides",
-    description:
-      "I write self-paced playbooks for when you want clarity without a full engagement - positioning, launch planning and GTM on paper, ready to buy.",
+    steps: [
+      "Playbooks when a full engagement isn't the fit yet.",
+      "Positioning and GTM — packaged from client work.",
+      "Delivered on purchase, or free with a nau QR.",
+    ],
   },
 ];
 
