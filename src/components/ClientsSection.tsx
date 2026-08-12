@@ -44,7 +44,7 @@ function LogoMarquee() {
 
 export function ClientsSection() {
   return (
-    <section className="bg-[#f5f5f5] px-6 pb-6 pt-4 md:px-9 md:pb-8 md:pt-6">
+    <section className="bg-[#f5f5f5] px-6 pb-10 pt-8 md:px-9 md:pb-14 md:pt-12">
       <div className="mx-auto w-full max-w-[1520px]">
         <LogoMarquee />
       </div>

@@ -10,20 +10,21 @@ export const siteConfig = {
   founded: "2023",
 };
 
-export const navLinks = [
-  { href: "/", label: "Home" },
+/** Primary IA: depth pages + home section anchors. */
+export const primaryNavLinks = [
   { href: "/studio", label: "Studio" },
-  { href: "/clients", label: "Clients" },
-  { href: "/products", label: "Products" },
+  { href: "/#clients", label: "Clients" },
+  { href: "/#services", label: "Services" },
+  { href: "/#digital-guides", label: "Products" },
   { href: "/blog", label: "Blog" },
 ];
 
-export const footerNavLinks = [
-  { href: "/studio", label: "Studio" },
-  { href: "/clients", label: "Clients" },
-  { href: "/products", label: "Products" },
-  { href: "/blog", label: "Blog" },
+export const navLinks = [
+  { href: "/", label: "Home" },
+  ...primaryNavLinks,
 ];
+
+export const footerNavLinks = [...primaryNavLinks];
 
 export const socialLinks = [
   { href: "https://www.linkedin.com/in/stefani-dimitrova", label: "LinkedIn" },
@@ -63,7 +64,7 @@ export const services = [
     title: "Digital Guides",
     steps: [
       "Playbooks when a full engagement isn't the fit yet.",
-      "Positioning and GTM — packaged from client work.",
+      "Positioning and GTM - packaged from client work.",
       "Delivered on purchase, or free with a nau QR.",
     ],
   },

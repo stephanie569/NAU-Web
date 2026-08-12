@@ -154,7 +154,11 @@ export function ServicesSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="relative overflow-hidden bg-[#121212] px-6 pb-16 md:px-9 md:pb-20">
+    <section
+      id="services"
+      data-header-theme="dark"
+      className="relative scroll-mt-[61px] overflow-hidden bg-[#0a0a0a] px-6 pb-20 pt-16 md:px-9 md:pb-28 md:pt-24"
+    >
       <NoiseOverlay />
 
       <div className="relative mx-auto w-full max-w-[1520px]">

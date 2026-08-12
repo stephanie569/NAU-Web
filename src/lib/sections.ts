@@ -103,10 +103,12 @@ export const projectsSectionCopy = {
 
 export const pageBottomCtaCopy = {
   ctaLead:
-    "There's a path where your positioning holds, your launch lands, and every piece of content sounds like you.",
+    "There's a path where positioning holds, launches land, and content sounds like you.",
   ctaHighlight: "That's the progress we build together.",
   ctaButton: "Work with me",
   ctaHref: "/contact",
+  secondaryButton: "Explore products",
+  secondaryHref: "/products",
   contact: {
     name: "Stefani Dimitrova",
     role: "Organic GTM & Product Storyteller",
@@ -257,8 +259,8 @@ export const servicesItems = [
     title: "Digital Guides",
     steps: [
       "Strategy playbooks when a full engagement isn't the right fit yet.",
-      "Positioning, launch planning and GTM — packaged from how I work with product brands.",
-      "Delivered on purchase — or free when you find a nau QR.",
+      "Positioning, launch planning and GTM - packaged from how I work with product brands.",
+      "Delivered on purchase - or free when you find a nau QR.",
     ],
     thumbnail: "/images/guides/travel-lake.jpg",
     categories: [
@@ -313,165 +315,64 @@ export const testimonialsSectionCopy = {
 };
 
 export const pricingSectionCopy = {
-  title: "Packages.",
+  title: "Work with me.",
   vatNote: "All prices excl. VAT.",
-  recommendedBadge: "Recommended",
   deliveryLabel: "Delivery",
   outcomeLabel: "Outcome",
   collaborationLabel: "Collaboration",
   includesLabel: "You get",
-  cta: "Purchase",
-      contentAddonsLabel: "Add content",
-  contentAddonsSummary: "Optional · keep Strategy only, or add UGC / team day",
-  contentAddons: [
-    {
-      id: "ugc-creator",
-      title: "Remote UGC content",
-      summary:
-        "I create the content on camera - authentic UGC your brand can run across organic and paid. Shot remotely.",
-      price: "From +€1,200",
-      standalonePrice: "From €1,200",
-      features: [
-        "12 storytelling videos (one per week) as a series, edited (15-45s)",
-        "Hooks and scripts aligned to your messaging",
-        "Product-in-hand and talking-to-camera formats",
-        "Captions and file handoff",
-        "2 revision rounds on selects",
-      ],
-    },
-    {
-      id: "production-sprint",
-      title: "Team content",
-      regionNote: "Europe only",
-      summary:
-        "Two full content days with founder, product and campaign video - shot on-site only.",
-      price: "From +€1,400",
-      standalonePrice: "From €1,400",
-      features: [
-        "2 full-day content sessions (founder + product)",
-        "12 short-form videos, edited (15-45s)",
-        "1 product demo cut (60-90s)",
-        "Website hero video + 3 campaign cuts",
-        "Shot list, captions and file handoff",
-        "2 revision rounds on selects",
-      ],
-    },
-  ],
-  packages: [
-    {
-      id: "strategy-sprint",
-      name: "Strategy sprint",
-      price: "From €2,400",
-      unit: "",
-      forWhom: "Step 1 · Research and positioning. Content optional.",
-      delivery: "2-3 weeks",
-      recommended: false,
-      collaboration: [
-        "Free discovery call (30 min) before you commit",
-        "Kickoff workshop (90 min)",
-        "2 working sessions (60 min each)",
-        "Final walkthrough (60 min)",
-        "Async feedback in shared docs",
-        "2 revision rounds on the pack",
-      ],
-      includes: [
-        "Research pack, 10-14 pages: market, category, product audit",
-        "Competitor teardown: 5-8 brands",
-        "2-3 customer personas with jobs-to-be-done",
-        "Positioning one-pager (who it's for, why it wins)",
-        "Value proposition + messaging framework, 2 pages",
-        "Tone of voice starter (do / don't examples)",
-        "Recommendations brief with next steps (2-3 pages)",
-      ],
-      highlights: [
-        "Market research + competitor teardown",
-        "Positioning and messaging framework",
-        "Personas, tone of voice and next steps",
-      ],
-      outcome: "Who it's for, why it wins, how to say it.",
-      allowsAddon: true,
-      contentAddonChoice: true,
-    },
-    {
-      id: "launch-partner",
-      name: "Full launch",
-      price: "From €3,420",
-      originalPrice: "From €3,800",
-      discountLabel: "10% off",
-      unit: "",
-      forWhom: "Step 2 · Strategy, go-to-market and content included.",
-      delivery: "4-6 weeks",
-      recommended: true,
-      collaboration: [
-        "Free discovery call (30 min) before you commit",
-        "Kickoff workshop (90 min)",
-        "4 working sessions (60 min each)",
-        "Mid-point review (45 min)",
-        "Final walkthrough (60 min)",
-        "Async feedback in shared docs",
-        "2 revision rounds on the full pack",
-      ],
-      includes: [
-        "Everything in Strategy",
-        "Organic GTM plan, 5-10 pages: channels, sequence, owners",
-        "Campaign strategy: 2-3 launch angles with hooks",
-        "Website messaging outline: home + 3 key pages",
-        "Creative direction notes (mood, references, formats)",
-        "Organic growth ideas list (15-20 tactics)",
-        "KPI sheet: what to measure in the first 90 days",
-        "Content production included - remote UGC or team content day",
-      ],
-      highlights: [
-        "Everything in Strategy",
-        "90-day GTM roadmap",
-        "Content included · UGC or team day",
-      ],
-      outcome: "A plan you can run week by week, with content included.",
-      allowsAddon: true,
-      contentAddonChoice: true,
-      contentAddonLabel: "Choose your content format",
-      contentAddonSummary: "Included in the price · pick one before purchasing",
-      contentIncluded: true,
-    },
-    {
-      id: "content-sprint",
-      name: "Content sprint",
-      price: "From €1,200",
-      unit: "",
-      forWhom: "Step 3 · Already have a plan? Video only.",
-      delivery: "1-2 weeks",
-      recommended: false,
-      collaboration: [
-        "Free discovery call (30 min) - confirm fit, not a strategy deep-dive",
-        "Creative alignment session (45 min) on hooks, tone and formats",
-        "Async feedback on selects",
-        "2 revision rounds",
-      ],
-      includes: [
-        "Hooks and scripts aligned to your messaging before we shoot",
-        "Shot list and production plan",
-        "Captions and organised file handoff",
-        "2 revision rounds on selects",
-      ],
-      highlights: [
-        "Remote UGC or team content day",
-        "4-6 short videos, edited",
-        "No strategy or repositioning",
-      ],
-      outcome: "Edited deliverables ready to post.",
-      allowsAddon: false,
-      contentAddonChoice: true,
-      contentAddonLabel: "Choose format",
-      contentAddonSummary: "Required · pick UGC or team day before purchasing",
-      contentOnly: true,
-    },
-  ],
+  cta: "Work with me",
+  ctaHref: "/contact",
+  offer: {
+    id: "full-cycle",
+    name: "Full cycle",
+    price: "From €3,420",
+    originalPrice: "From €3,800",
+    discountLabel: "10% off",
+    forWhom:
+      "Research, positioning, go-to-market and content - one engagement, everything included.",
+    delivery: "4-6 weeks",
+    collaboration: [
+      "Free discovery call (30 min) before you commit",
+      "Kickoff workshop (90 min)",
+      "4 working sessions (60 min each)",
+      "Mid-point review (45 min)",
+      "Final walkthrough (60 min)",
+      "Async feedback in shared docs",
+      "2 revision rounds on the full pack",
+    ],
+    includes: [
+      "Research pack, 10-14 pages: market, category, product audit",
+      "Competitor teardown: 5-8 brands",
+      "2-3 customer personas with jobs-to-be-done",
+      "Positioning one-pager (who it's for, why it wins)",
+      "Value proposition + messaging framework, 2 pages",
+      "Tone of voice starter (do / don't examples)",
+      "Organic GTM plan, 5-10 pages: channels, sequence, owners",
+      "Campaign strategy: 2-3 launch angles with hooks",
+      "Website messaging outline: home + 3 key pages",
+      "Creative direction notes (mood, references, formats)",
+      "Organic growth ideas list (15-20 tactics)",
+      "KPI sheet: what to measure in the first 90 days",
+      "Content production included - remote UGC or Europe team content day",
+    ],
+    highlights: [
+      "Research, positioning and messaging",
+      "90-day organic GTM roadmap",
+      "Content included · UGC or team day",
+    ],
+    outcome:
+      "A content series built on one campaign message - tailored to your product and audience, not generic UGC that could belong to anyone.",
+    image: "/images/service-content-creation.png",
+    imageAlt:
+      "Creative desk with outdoor product samples, moodboard and laptop for brand content",
+  },
   storeTeaser: {
     id: "digital-guides",
     name: "Digital guides",
     price: "From $19",
     forWhom:
-      "When you want my thinking on positioning, launch or GTM — without booking a full engagement.",
+      "When you want my thinking on positioning, launch or GTM - without booking a full engagement.",
     outcome:
       "The same frameworks I use on client projects, packaged as guides you can buy and use right away.",
     delivery: "Instant download",
@@ -483,13 +384,13 @@ export const pricingSectionCopy = {
 export const storeSectionCopy = {
   title: "Products.",
   description:
-    "Digital guides with the same strategy thinking as a client engagement — buy online or claim free with a nau QR.",
+    "Digital guides with the same strategy thinking as a client engagement - buy online or claim free with a nau QR.",
   searchPlaceholder: "Search...",
   categoryLabel: "Category",
   categories: [...serviceCategories],
   emptyState: "No guides match your search.",
   intro:
-    "Playbooks built from real launches — for brands that want clarity before committing to a full project. Find a nau QR across Europe and that same guide is free.",
+    "Playbooks built from real launches - for brands that want clarity before committing to a full project. Find a nau QR across Europe and that same guide is free.",
   stickers:
     "Stickers are free to friends, partners and brands building gear worth talking about.",
   qrCta: "Found a QR?",
@@ -639,11 +540,6 @@ export const faqItems = [
     question: "Is this UGC or social media management?",
     answer:
       "No. Content is the last step of the cycle: founder-led and product-led storytelling, proof and campaign assets. Research and positioning come first.",
-  },
-  {
-    question: "What's included in Marketing Strategy work?",
-    answer:
-      "Organic launch planning, messaging, channel ideas that compound, creative testing and what to measure. Built for steady growth, not a one-week spike.",
   },
   {
     question: "Can you help if we already launched?",
@@ -799,10 +695,10 @@ export const studioPageCopy = {
     label: "Practice",
     title: "What is nau studio?",
     lead:
-      "A one-founder practice where research, strategy and content stay one path - so product brands grow without renting attention every week.",
+      "A one-founder practice: research, strategy and content in one path - so product brands grow without renting attention.",
     body: [
-      "Built for outdoor, travel, hospitality and lifestyle products across Europe - physical products first.",
-      "Start where you need help most: strategy, full launch, or content-only. The work stays connected either way.",
+      "Built for outdoor, travel, hospitality and lifestyle products across Europe.",
+      "Start with strategy, a full launch, or content only - the work stays connected.",
     ],
     pillars: [
       {
@@ -869,19 +765,6 @@ export const studioPageCopy = {
         text: "What resonated, what to cut, and what to ship next - so the cycle compounds.",
       },
     ],
-    cta: {
-      label: "Next step",
-      title: "Start where you are.",
-      text: "Strategy sprint, full launch, or content-only to work together — or start with a digital guide if you want the thinking first.",
-      secondary: {
-        button: "See packages",
-        href: "/#packages",
-      },
-      primary: {
-        button: "Work with me",
-        href: "/contact",
-      },
-    },
   },
   collab: {
     label: "Collaborations",

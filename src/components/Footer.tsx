@@ -1,9 +1,5 @@
 import Link from "next/link";
-import {
-  footerNavLinks,
-  siteConfig,
-  socialLinks,
-} from "@/lib/data";
+import { siteConfig, socialLinks } from "@/lib/data";
 import { NauLogoMark } from "@/components/NauLogoMark";
 
 function NoiseOverlay() {
@@ -69,12 +65,12 @@ export function Footer() {
     <footer data-header-theme="dark" className="relative bg-[#0a0a0a] text-white">
       <NoiseOverlay />
 
-      <div className="relative px-6 pt-8 pb-5 md:px-9 md:pt-10 md:pb-6">
-        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-6 lg:flex-row lg:items-end lg:justify-between lg:gap-8">
-          <div className="grid min-w-0 flex-1 grid-cols-1 gap-6 sm:grid-cols-3 sm:gap-6">
+      <div className="relative border-t border-white/10 px-6 pt-12 pb-8 md:px-9 md:pt-14 md:pb-10">
+        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-10 lg:flex-row lg:items-end lg:justify-between lg:gap-12">
+          <div className="grid min-w-0 flex-1 grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4 lg:gap-10">
             <div className="min-w-0">
               <PlusBadge />
-              <ul className="space-y-2">
+              <ul className="space-y-3">
                 <li>
                   <a
                     href={`tel:${siteConfig.phone.replace(/\D/g, "")}`}
@@ -103,31 +99,58 @@ export function Footer() {
 
             <div className="min-w-0">
               <PlusBadge />
-              <p className="mb-2.5 text-[11px] font-medium tracking-[0.08em] text-white/40 uppercase">
+              <p className="mb-3 text-[11px] font-medium tracking-[0.08em] text-white/40 uppercase">
                 Navigation
               </p>
-              <ul className="space-y-1.5">
+              <ul className="space-y-2">
                 <li>
                   <Link href="/" className={navLinkClass}>
                     Home
                   </Link>
                 </li>
-                {footerNavLinks.map((link) => (
-                  <li key={link.href}>
-                    <Link href={link.href} className={navLinkClass}>
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
+                <li>
+                  <Link href="/#clients" className={navLinkClass}>
+                    Clients
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#digital-guides" className={navLinkClass}>
+                    Products
+                  </Link>
+                </li>
               </ul>
             </div>
 
             <div className="min-w-0">
               <PlusBadge />
-              <p className="mb-2.5 text-[11px] font-medium tracking-[0.08em] text-white/40 uppercase">
+              <p className="mb-3 text-[11px] font-medium tracking-[0.08em] text-white/40 uppercase">
+                Explore
+              </p>
+              <ul className="space-y-2">
+                <li>
+                  <Link href="/studio" className={navLinkClass}>
+                    Studio
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/#services" className={navLinkClass}>
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog" className={navLinkClass}>
+                    Blog
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="min-w-0">
+              <PlusBadge />
+              <p className="mb-3 text-[11px] font-medium tracking-[0.08em] text-white/40 uppercase">
                 Social
               </p>
-              <ul className="space-y-1.5">
+              <ul className="space-y-2">
                 {socialLinks.map((link) => (
                   <li key={link.href}>
                     <a
@@ -158,7 +181,7 @@ export function Footer() {
       </div>
 
       <div className="relative border-t border-white/10 bg-black">
-        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-2 px-6 py-3 sm:flex-row sm:items-center sm:justify-between md:px-9">
+        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-2 px-6 py-4 sm:flex-row sm:items-center sm:justify-between md:px-9">
           <p className="text-[12px] font-medium tracking-[-0.03em] text-white/45">
             © {year} {siteConfig.name} studio. All rights reserved.
           </p>

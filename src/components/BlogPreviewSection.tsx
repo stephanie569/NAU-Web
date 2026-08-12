@@ -99,7 +99,10 @@ export function BlogPreviewSection() {
   const { title, titleMuted, description, cta, ctaHref } = blogSectionCopy;
 
   return (
-    <section className="bg-[#f5f5f5] px-6 pb-24 pt-0 md:px-9 md:pb-32">
+    <section
+      id="blog"
+      className="scroll-mt-[61px] bg-[#f5f5f5] px-6 pb-28 pt-16 md:px-9 md:pb-36 md:pt-24"
+    >
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="mb-12 grid grid-cols-1 gap-8 lg:mb-16 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)_auto] lg:items-end lg:gap-10">
           <h2 className="max-w-[520px] text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-[#0a0a0a]">

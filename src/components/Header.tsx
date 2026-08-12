@@ -5,15 +5,9 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NauButton } from "@/components/NauButton";
+import { primaryNavLinks } from "@/lib/data";
 
 const HEADER_HEIGHT = 61;
-
-const navLinks = [
-  { href: "/studio", label: "Studio" },
-  { href: "/clients", label: "Clients" },
-  { href: "/products", label: "Products" },
-  { href: "/blog", label: "Blog" },
-];
 
 function isOverDarkSection() {
   const x = Math.round(window.innerWidth / 2);
@@ -114,7 +108,7 @@ export function Header() {
         <div className="mx-auto flex h-[61px] w-full max-w-[1520px] items-center">
           <nav className="hidden w-full items-center justify-between md:flex">
             {showHome ? <HomeLink dark={isDark} /> : null}
-            {navLinks.map((link) => (
+            {primaryNavLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -166,7 +160,7 @@ export function Header() {
                     onClick={() => setMenuOpen(false)}
                   />
                 ) : null}
-                {navLinks.map((link) => (
+                {primaryNavLinks.map((link) => (
                   <Link
                     key={link.href}
                     href={link.href}

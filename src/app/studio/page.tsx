@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
-import { BlogPreviewSection } from "@/components/BlogPreviewSection";
 import { ClientsSection } from "@/components/ClientsSection";
-import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
 import { siteConfig } from "@/lib/data";
 import { studioPageCopy } from "@/lib/sections";
@@ -257,13 +254,15 @@ export default function StudioPage() {
               </h2>
             </div>
 
-            <div>
-              <p className="text-[clamp(1.1rem,2vw,1.35rem)] leading-snug font-medium tracking-[-0.04em] text-white/80">
+            <div className="max-w-[36rem]">
+              <p className="text-pretty text-[clamp(1.15rem,2.1vw,1.4rem)] leading-[1.35] font-semibold tracking-[-0.04em] text-white">
                 {aboutStudio.lead}
               </p>
-              <div className="mt-5 space-y-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/50">
+              <div className="mt-6 space-y-3 border-t border-white/10 pt-6 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/55 md:text-[16px]">
                 {aboutStudio.body.map((paragraph) => (
-                  <p key={paragraph.slice(0, 32)}>{paragraph}</p>
+                  <p key={paragraph.slice(0, 32)} className="text-pretty">
+                    {paragraph}
+                  </p>
                 ))}
               </div>
             </div>
@@ -287,27 +286,6 @@ export default function StudioPage() {
               </li>
             ))}
           </ol>
-        </div>
-      </section>
-
-      {/* Collaboration photo - bridges practice and method */}
-      <section className="bg-[#0a0a0a] px-6 pb-12 md:px-9 md:pb-16" data-header-theme="dark">
-        <div className="mx-auto w-full max-w-[1520px]">
-          <div className="relative aspect-[16/9] overflow-hidden rounded-[20px] bg-[#141414] md:aspect-[21/9]">
-            <Image
-              src={collaborationPhoto.src}
-              alt={collaborationPhoto.alt}
-              fill
-              className="object-cover object-center grayscale"
-              sizes="(max-width: 1520px) 100vw, 1520px"
-            />
-            <div className="pointer-events-none absolute inset-0 flex flex-col justify-between p-5 md:p-6">
-              <PlusBadge dark />
-              <p className="text-[15px] font-semibold tracking-[-0.04em] text-white drop-shadow-sm">
-                {collaborationPhoto.caption}
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
@@ -377,35 +355,32 @@ export default function StudioPage() {
               ))}
             </ol>
           </div>
+        </div>
+      </section>
 
-          <div className="mt-12 flex flex-col gap-6 border-t border-[#0a0a0a]/10 pt-8 sm:mt-14 sm:flex-row sm:items-end sm:justify-between sm:gap-10 md:pt-10">
-            <div className="max-w-[36rem]">
-              <p className="text-[12px] font-semibold uppercase tracking-[0.14em] text-[#0a0a0a]/40">
-                {cycle.cta.label}
+      {/* Collaboration photo */}
+      <section
+        className="bg-[#0a0a0a] px-6 py-12 md:px-9 md:py-16"
+        data-header-theme="dark"
+      >
+        <div className="mx-auto w-full max-w-[1520px]">
+          <div className="relative aspect-[16/9] overflow-hidden rounded-[20px] bg-[#141414] md:aspect-[21/9]">
+            <Image
+              src={collaborationPhoto.src}
+              alt={collaborationPhoto.alt}
+              fill
+              className="object-cover object-center grayscale"
+              sizes="(max-width: 1520px) 100vw, 1520px"
+            />
+            <div className="pointer-events-none absolute inset-0 flex flex-col justify-between p-5 md:p-6">
+              <PlusBadge dark />
+              <p className="text-[15px] font-semibold tracking-[-0.04em] text-white drop-shadow-sm">
+                {collaborationPhoto.caption}
               </p>
-              <p className="mt-3 text-[clamp(1.35rem,2.4vw,1.75rem)] leading-snug font-semibold tracking-[-0.045em] text-[#0a0a0a]">
-                {cycle.cta.title}
-              </p>
-              <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
-                {cycle.cta.text}
-              </p>
-            </div>
-            <div className="flex flex-wrap items-center gap-3 self-start sm:self-end">
-              <Link
-                href={cycle.cta.secondary.href}
-                className="inline-flex items-center rounded-full border border-[#0a0a0a]/15 px-4 py-2.5 text-[13px] font-semibold tracking-[-0.04em] text-[#0a0a0a] transition-opacity hover:opacity-70"
-              >
-                {cycle.cta.secondary.button}
-              </Link>
-              <NauButton href={cycle.cta.primary.href} electric>
-                {cycle.cta.primary.button}
-              </NauButton>
             </div>
           </div>
         </div>
       </section>
-
-      <BlogPreviewSection />
     </>
   );
 }

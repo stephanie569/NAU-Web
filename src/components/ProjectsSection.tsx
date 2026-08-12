@@ -60,13 +60,16 @@ function ProjectCard({
 }
 
 export function ProjectsSection() {
-  const { description, cta, ctaHref, homeLimit } = projectsSectionCopy;
+  const { cta, ctaHref, homeLimit } = projectsSectionCopy;
   const projects = featuredProjects.slice(0, homeLimit);
 
   return (
-    <section className="box-border flex min-h-[calc(100svh-61px)] flex-col justify-center bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-12">
+    <section
+      id="clients"
+      className="box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center bg-[#f5f5f5] px-6 py-14 pb-20 md:px-9 md:py-16 md:pb-28"
+    >
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-6 grid grid-cols-1 gap-5 lg:mb-7 lg:grid-cols-[1fr_auto_1fr] lg:items-start lg:gap-4">
+        <div className="mb-6 grid grid-cols-1 gap-5 lg:mb-7 lg:grid-cols-[1fr_auto_1fr] lg:items-center lg:gap-4">
           <div className="hidden lg:block" aria-hidden />
 
           <div className="text-center">
@@ -78,10 +81,7 @@ export function ProjectsSection() {
             </p>
           </div>
 
-          <div className="flex max-w-[260px] flex-col items-center gap-4 justify-self-center lg:items-start lg:justify-self-end">
-            <p className="text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:text-left md:text-[15px]">
-              {description}
-            </p>
+          <div className="flex justify-center lg:justify-end">
             <NauButton href={ctaHref}>{cta}</NauButton>
           </div>
         </div>

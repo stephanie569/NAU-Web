@@ -150,8 +150,8 @@ export function HeroCard() {
             ))}
           </motion.div>
 
-          {/* Bottom: tagline + copyright + profile card */}
-          <div className="grid grid-cols-1 items-end gap-8 lg:grid-cols-[1fr_auto_1fr] lg:gap-6">
+          {/* Bottom: tagline + profile card */}
+          <div className="grid grid-cols-1 items-end gap-8 lg:grid-cols-[1fr_auto] lg:gap-6">
             <motion.div
               initial={{ opacity: 0, y: 28 }}
               animate={{ opacity: 1, y: 0 }}
@@ -167,15 +167,6 @@ export function HeroCard() {
               </p>
             </motion.div>
 
-            <motion.p
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.55 }}
-              className="hidden text-center text-[12px] font-medium tracking-[-0.04em] text-white/50 lg:block"
-            >
-              Founded 2023
-            </motion.p>
-
             <motion.div
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
@@ -184,7 +175,7 @@ export function HeroCard() {
                 delay: 0.55,
                 ease: [0.25, 0.1, 0.25, 1],
               }}
-              className="lg:justify-self-end"
+              className="justify-self-start lg:justify-self-end"
             >
               <HeroProfileCard />
             </motion.div>

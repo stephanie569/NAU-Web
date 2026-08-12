@@ -15,7 +15,7 @@ function ToggleButton({
       type="button"
       onClick={onClick}
       aria-expanded={open}
-      className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0a0a0a] transition-opacity hover:opacity-85"
+      className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#0a0a0a] transition-opacity hover:opacity-85"
     >
       <span className="relative block h-3 w-3">
         <span className="absolute top-1/2 left-0 h-px w-full -translate-y-1/2 bg-white" />
@@ -39,14 +39,14 @@ function FAQItem({
   onToggle: () => void;
 }) {
   return (
-    <div className="rounded-[14px] bg-white p-6 md:p-7">
-      <div className="flex items-start justify-between gap-6">
+    <div className="rounded-[14px] bg-white p-5 md:p-6">
+      <div className="flex items-start justify-between gap-5">
         <button
           type="button"
           onClick={onToggle}
           className="min-w-0 flex-1 text-left"
         >
-          <h3 className="text-[18px] leading-snug font-semibold tracking-[-0.04em] text-[#0a0a0a]">
+          <h3 className="text-[16px] leading-snug font-semibold tracking-[-0.04em] text-[#0a0a0a] md:text-[17px]">
             {question}
           </h3>
         </button>
@@ -54,7 +54,7 @@ function FAQItem({
       </div>
 
       {open && (
-        <p className="mt-4 max-w-[640px] pr-14 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+        <p className="mt-3 max-w-[640px] pr-12 text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
           {answer}
         </p>
       )}
@@ -67,14 +67,17 @@ export function FAQSection() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="bg-[#f5f5f5] px-6 py-24 md:px-9 md:py-32">
+    <section
+      id="faq"
+      className="scroll-mt-[61px] bg-[#f5f5f5] px-6 py-20 md:px-9 md:py-28"
+    >
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,380px)_1fr] lg:items-start lg:gap-16 xl:grid-cols-[minmax(0,420px)_1fr]">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,340px)_1fr] lg:items-start lg:gap-14 xl:grid-cols-[minmax(0,380px)_1fr]">
           <div>
-            <h2 className="text-[clamp(4rem,12vw,9rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+            <h2 className="text-[clamp(3.25rem,8vw,5.5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
               {title}
             </h2>
-            <p className="mt-6 max-w-[320px] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+            <p className="mt-4 max-w-[300px] text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 md:text-[15px]">
               {description}
             </p>
           </div>

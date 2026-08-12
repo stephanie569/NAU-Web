@@ -5,7 +5,7 @@ type AppRoutes = "/" | "/blog" | "/blog/[slug]" | "/clients" | "/clients/[slug]"
 type AppRouteHandlerRoutes = "/api/checkout"
 type PageRoutes = never
 type LayoutRoutes = "/"
-type RedirectRoutes = "/packages" | "/store"
+type RedirectRoutes = "/packages" | "/services" | "/store"
 type RewriteRoutes = never
 type Routes = AppRoutes | PageRoutes | LayoutRoutes | RedirectRoutes | RewriteRoutes | AppRouteHandlerRoutes
 
@@ -24,6 +24,7 @@ interface ParamMap {
   "/products": {}
   "/projects": {}
   "/projects/[slug]": { "slug": string; }
+  "/services": {}
   "/stickers-campaign": {}
   "/store": {}
   "/studio": {}

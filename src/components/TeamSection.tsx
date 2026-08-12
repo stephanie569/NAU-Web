@@ -135,8 +135,8 @@ export function TeamSection() {
 
   return (
     <section
-      id="work-with-me"
-      className="box-border bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-14"
+      id="founder"
+      className="box-border scroll-mt-[61px] bg-[#f5f5f5] px-6 py-16 md:px-9 md:py-24"
     >
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="mb-6 grid grid-cols-1 items-center gap-4 lg:mb-7 lg:grid-cols-3 lg:gap-4">

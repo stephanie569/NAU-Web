@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import { HashScroll } from "@/components/HashScroll";
 import { SiteCloseout } from "@/components/SiteCloseout";
 import { Preloader } from "@/components/Preloader";
 import { ThemeProvider } from "@/components/ThemeProvider";
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body className={`${inter.variable} antialiased`}>
         <ThemeProvider>
           <Preloader />
+          <HashScroll />
           <Header />
           <main>{children}</main>
           <SiteCloseout />

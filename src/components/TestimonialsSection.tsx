@@ -188,7 +188,10 @@ export function TestimonialsSection() {
   const { title, year, reviews } = testimonialsSectionCopy;
 
   return (
-    <section className="box-border flex min-h-[calc(100svh-61px)] flex-col justify-center bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-12">
+    <section
+      id="experiences"
+      className="box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center bg-[#f5f5f5] px-6 py-14 md:px-9 md:py-16"
+    >
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="mb-6 text-center lg:mb-7">
           <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
