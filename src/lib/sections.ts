@@ -363,9 +363,8 @@ export const pricingSectionCopy = {
     ],
     outcome:
       "A content series built on one campaign message - tailored to your product and audience, not generic UGC that could belong to anyone.",
-    image: "/images/service-content-creation.png",
-    imageAlt:
-      "Creative desk with outdoor product samples, moodboard and laptop for brand content",
+    image: "/images/offer-camera-hand-reach.png",
+    imageAlt: "Hand holding a Sony Alpha camera from behind the offer card - content creation for product brands",
   },
   storeTeaser: {
     id: "digital-guides",

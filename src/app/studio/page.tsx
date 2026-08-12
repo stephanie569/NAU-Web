@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { ClientsSection } from "@/components/ClientsSection";
+import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
 import { siteConfig } from "@/lib/data";
-import { studioPageCopy } from "@/lib/sections";
+import { pageBottomCtaCopy, studioPageCopy } from "@/lib/sections";
 
 function PlusBadge({ dark = false }: { dark?: boolean }) {
   return (
@@ -110,20 +111,6 @@ export default function StudioPage() {
           />
 
           <div className="relative z-10 mx-auto flex h-full min-h-[inherit] w-full max-w-[1520px] flex-col px-6 py-10 md:px-9 md:py-12">
-            <div className="flex items-center justify-between gap-4">
-              <div className="flex items-center gap-3">
-                <PlusBadge dark />
-                <p className="text-[15px] font-medium tracking-[-0.04em] text-[#f5f5f5]">
-                  {intro.label}
-                </p>
-              </div>
-              <p className="text-[13px] font-medium tracking-[-0.03em] text-[#f5f5f5]/55">
-                {intro.location}
-                <span className="mx-1.5 text-[#f5f5f5]/30">·</span>
-                {intro.since}
-              </p>
-            </div>
-
             <div className="flex flex-1 flex-col items-center justify-center px-2 py-10 sm:py-12">
               <div className="text-center">
                 <h1 className="m-0 leading-none">
@@ -354,6 +341,15 @@ export default function StudioPage() {
                 </li>
               ))}
             </ol>
+          </div>
+
+          <div className="mt-10 flex flex-wrap items-center gap-3 border-t border-[#0a0a0a]/10 pt-8 md:mt-12 md:pt-10">
+            <NauButton href={pageBottomCtaCopy.secondaryHref} electric={false}>
+              {pageBottomCtaCopy.secondaryButton}
+            </NauButton>
+            <NauButton href={pageBottomCtaCopy.ctaHref}>
+              {pageBottomCtaCopy.ctaButton}
+            </NauButton>
           </div>
         </div>
       </section>

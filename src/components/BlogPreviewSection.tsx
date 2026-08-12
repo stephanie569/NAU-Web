@@ -10,9 +10,9 @@ import {
 
 function CardPlusIcon() {
   return (
-    <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0a0a0a]">
-      <span className="absolute h-px w-3 bg-white" />
-      <span className="absolute h-3 w-px bg-white" />
+    <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white">
+      <span className="absolute h-px w-3 bg-[#0a0a0a]" />
+      <span className="absolute h-3 w-px bg-[#0a0a0a]" />
     </span>
   );
 }
@@ -34,7 +34,7 @@ function BlogCard({
   return (
     <Link
       href={`/blog/${post.slug}`}
-      className="group flex min-h-[420px] flex-col justify-between rounded-[14px] bg-white p-6 md:p-7"
+      className="group flex min-h-[420px] flex-col justify-between rounded-[14px] border border-white/10 bg-white/[0.05] p-6 md:p-7"
     >
       <div className="flex items-start justify-between gap-4">
         <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-[10px]">
@@ -50,13 +50,13 @@ function BlogCard({
       </div>
 
       <div>
-        <p className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+        <p className="text-[13px] font-medium tracking-[-0.04em] text-white/50">
           {post.date}
         </p>
-        <h3 className="mt-3 text-[18px] leading-snug font-semibold tracking-[-0.04em] text-[#0a0a0a] transition-opacity group-hover:opacity-70">
+        <h3 className="mt-3 text-[18px] leading-snug font-semibold tracking-[-0.04em] text-white transition-opacity group-hover:opacity-70">
           {post.title}
         </h3>
-        <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+        <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/55">
           {post.excerpt}
         </p>
       </div>
@@ -70,7 +70,7 @@ function FeaturedBlogCard() {
   return (
     <Link
       href={`/blog/${blogFeaturedPost.slug}`}
-      className="group relative block min-h-[420px] overflow-hidden rounded-[14px] md:col-span-2 lg:col-span-2"
+      className="group relative block min-h-[420px] overflow-hidden rounded-[14px] border border-white/10 md:col-span-2 lg:col-span-2"
     >
       <Image
         src={blogFeaturedPost.image}
@@ -79,7 +79,7 @@ function FeaturedBlogCard() {
         className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
         sizes="(max-width: 768px) 100vw, 50vw"
       />
-      <div className="absolute inset-0 bg-[#0a0a0a]/20" />
+      <div className="absolute inset-0 bg-[#0a0a0a]/35" />
 
       <div className="absolute inset-0 flex flex-col justify-between p-6 md:p-7">
         <div className="flex items-start justify-between gap-4">
@@ -101,20 +101,26 @@ export function BlogPreviewSection() {
   return (
     <section
       id="blog"
-      className="scroll-mt-[61px] bg-[#f5f5f5] px-6 pb-28 pt-16 md:px-9 md:pb-36 md:pt-24"
+      data-header-theme="dark"
+      className="scroll-mt-[61px] bg-[#0a0a0a] px-6 pb-28 pt-16 md:px-9 md:pb-36 md:pt-24"
     >
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="mb-12 grid grid-cols-1 gap-8 lg:mb-16 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)_auto] lg:items-end lg:gap-10">
-          <h2 className="max-w-[520px] text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+          <h2 className="max-w-[520px] text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
             {title}{" "}
-            <span className="text-[#0a0a0a]/60">{titleMuted}</span>
+            <span className="text-white/55">{titleMuted}</span>
           </h2>
 
-          <p className="max-w-[320px] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:justify-self-center">
+          <p className="max-w-[320px] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/55 lg:justify-self-center">
             {description}
           </p>
 
-          <NauButton href={ctaHref} className="lg:justify-self-end">
+          <NauButton
+            href={ctaHref}
+            variant="light"
+            electric={false}
+            className="lg:justify-self-end"
+          >
             {cta}
           </NauButton>
         </div>

@@ -115,6 +115,14 @@
   width: 100%;
 }
 
+/* Smooth organic camera pocket — desktop only */
+@media (min-width: 768px) {
+  .offer-camera-cutout {
+    -webkit-clip-path: url(#offer-camera-pocket);
+    clip-path: url(#offer-camera-pocket);
+  }
+}
+
 .pricing-tab-electric-inactive {
   animation: nau-electric-pulse-ring 2.8s ease-in-out infinite;
 }
