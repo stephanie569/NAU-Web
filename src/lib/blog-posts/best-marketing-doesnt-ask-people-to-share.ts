@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "Stop asking people to share. Make something they want to.",
   excerpt: "If you have to beg for shares, the moment was never worth sharing.",
   date: "August 22, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-66-dont-ask-share.png",
   metaDescription:
     "The best marketing doesn't ask people to share it-design moments worth retelling so word of mouth happens without share buttons, incentives, or begging.",

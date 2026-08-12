@@ -5,7 +5,6 @@ export const serviceCategories = [
 ] as const;
 
 export const selectedWorkSection = {
-  title: "Selected Work",
   projects: [
     {
       id: "the-pine",
@@ -102,6 +101,19 @@ export const projectsSectionCopy = {
   homeLimit: 4,
 };
 
+export const pageBottomCtaCopy = {
+  ctaLead:
+    "There's a path where your positioning holds, your launch lands, and every piece of content sounds like you.",
+  ctaHighlight: "That's the progress we build together.",
+  ctaButton: "Work with me",
+  ctaHref: "/contact",
+  contact: {
+    name: "Stefani Dimitrova",
+    role: "Organic GTM & Product Storyteller",
+    image: "/images/stefani-dimitrova-portrait.jpg",
+  },
+};
+
 export const projectsPageCopy = {
   title: "Clients.",
   description:
@@ -109,14 +121,7 @@ export const projectsPageCopy = {
   searchPlaceholder: "Search...",
   categoryLabel: "Category",
   categories: [...serviceCategories],
-  ctaLead:
-    "Need Research & Positioning, Marketing Strategy, or content that matters?",
-  ctaHighlight: "I'm here to help.",
-  contact: {
-    name: "Stefani Dimitrova",
-    role: "Organic GTM & Product Storyteller",
-    image: "/images/stefani-dimitrova-portrait.jpg",
-  },
+  ...pageBottomCtaCopy,
 };
 
 export const projectsPageItems = [
@@ -265,18 +270,13 @@ export const servicesItems = [
 ];
 
 export const testimonialsSectionCopy = {
-  label: "Testimonials",
   title: "Experiences.",
   year: "Founded 2023",
   summary: {
     rating: "4.9",
     suffix: "/5",
-    highlight: "20+ projects",
-    text: "with product brands that needed organic growth plans and content that matched the product.",
-    intro: "I've worked on",
     projectCount: "20+",
     trustedBy: "Trusted by brands in movement, escape and adventure",
-    cta: "Work with me",
     avatars: [
       "/logos/testimonial-the-pine.png",
       "/logos/testimonial-go-guide.png",
@@ -288,32 +288,31 @@ export const testimonialsSectionCopy = {
     {
       author: "The Pine",
       role: "Outdoor apparel",
+      image: "/logos/testimonial-the-pine.png",
       quote:
         "Full 360 - research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
-      image: "/logos/testimonial-the-pine.png",
       layout: "profile-top-box",
     },
     {
       author: "Go Guide",
       role: "Adventure experiences",
+      image: "/logos/testimonial-go-guide.png",
       quote:
         "We came with the strategy. She built the content that finally sounds like us in the field - stories people actually save and share.",
-      image: "/logos/testimonial-go-guide.png",
       layout: "profile-bottom",
     },
     {
       author: "Fly the Earth",
       role: "Travel brand",
+      image: "/logos/testimonial-fly-the-earth.png",
       quote:
         "Sharp market and competitor research that clarified where we actually stand - and who we need to win.",
-      image: "/logos/testimonial-fly-the-earth.png",
       layout: "profile-top-box",
     },
   ],
 };
 
 export const pricingSectionCopy = {
-  label: "Simple packages",
   title: "Packages.",
   vatNote: "All prices excl. VAT.",
   recommendedBadge: "Recommended",
@@ -470,7 +469,6 @@ export const pricingSectionCopy = {
   storeTeaser: {
     id: "digital-guides",
     name: "Digital guides",
-    eyebrow: "Digital products",
     price: "From $19",
     forWhom:
       "When you want my thinking on positioning, launch or GTM — without booking a full engagement.",
@@ -478,12 +476,12 @@ export const pricingSectionCopy = {
       "The same frameworks I use on client projects, packaged as guides you can buy and use right away.",
     delivery: "Instant download",
     cta: "Purchase",
-    href: "/packages",
+    href: "/products",
   },
 };
 
 export const storeSectionCopy = {
-  title: "Packages.",
+  title: "Products.",
   description:
     "Digital guides with the same strategy thinking as a client engagement — buy online or claim free with a nau QR.",
   searchPlaceholder: "Search...",
@@ -503,13 +501,6 @@ export const storeSectionCopy = {
     "Thanks - I'll email your guide shortly. This is test mode until you switch Stripe to live keys.",
   checkoutCancelTitle: "Checkout cancelled",
   checkoutCancelNote: "No charge was made. Browse again whenever you're ready.",
-  pageCtaLead: "Need more than a guide?",
-  pageCtaHighlight: "Work with me.",
-  contact: {
-    name: "Stefani Dimitrova",
-    role: "Organic GTM & Product Storyteller",
-    image: "/images/stefani-dimitrova-portrait.jpg",
-  },
   items: [
     {
       id: "product-positioning-workbook",

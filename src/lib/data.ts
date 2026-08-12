@@ -14,14 +14,14 @@ export const navLinks = [
   { href: "/", label: "Home" },
   { href: "/studio", label: "Studio" },
   { href: "/clients", label: "Clients" },
-  { href: "/packages", label: "Packages" },
+  { href: "/products", label: "Products" },
   { href: "/blog", label: "Blog" },
 ];
 
 export const footerNavLinks = [
   { href: "/studio", label: "Studio" },
   { href: "/clients", label: "Clients" },
-  { href: "/packages", label: "Packages" },
+  { href: "/products", label: "Products" },
   { href: "/blog", label: "Blog" },
 ];
 

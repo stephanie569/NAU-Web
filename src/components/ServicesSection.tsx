@@ -2,16 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { servicesItems, servicesSectionCopy } from "@/lib/sections";
-
-function PlusBadge() {
-  return (
-    <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white">
-      <span className="absolute h-px w-3 bg-[#0a0a0a]" />
-      <span className="absolute h-3 w-px bg-[#0a0a0a]" />
-    </span>
-  );
-}
+import { servicesItems } from "@/lib/sections";
 
 function NoiseOverlay() {
   return (
@@ -168,24 +159,10 @@ export function ServicesSection() {
 
       <div className="relative mx-auto w-full max-w-[1520px]">
         <div className="border-b border-white/10 py-10 md:py-12">
-          <div className="grid grid-cols-1 items-center gap-4 lg:grid-cols-3 lg:gap-4">
-            <div className="flex items-center justify-center gap-3 lg:justify-self-start">
-              <PlusBadge />
-              <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
-                What I do
-              </p>
-            </div>
-
-            <div className="text-center">
-              <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
-                Services.
-                <sup className="ml-2 align-super text-[clamp(0.9rem,1.6vw,1.15rem)] font-semibold tracking-[-0.06em] text-white/60">
-                  ({servicesSectionCopy.count})
-                </sup>
-              </h2>
-            </div>
-
-            <div className="hidden lg:block" aria-hidden />
+          <div className="text-center">
+            <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
+              Services.
+            </h2>
           </div>
         </div>
 

@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "Hot take: the internet still needs the real world",
   excerpt: "Digital belief is cheaper when something physical made it true first.",
   date: "August 21, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-67-real-world-needs.png",
   metaDescription:
     "The internet still needs the real world-why digital belief is cheaper when physical proof comes first, and how brands use scarcity, place, and bodies as infrastructure for online trust.",

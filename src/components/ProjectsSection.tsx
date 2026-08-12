@@ -60,18 +60,16 @@ function ProjectCard({
 }
 
 export function ProjectsSection() {
-  const { count, description, cta, ctaHref, homeLimit } = projectsSectionCopy;
+  const { description, cta, ctaHref, homeLimit } = projectsSectionCopy;
   const projects = featuredProjects.slice(0, homeLimit);
 
   return (
     <section className="box-border flex min-h-[calc(100svh-61px)] flex-col justify-center bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-12">
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-6 grid grid-cols-1 gap-5 lg:mb-7 lg:grid-cols-3 lg:items-start lg:gap-4">
-          <p className="order-2 text-center text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:order-1 lg:pt-1 lg:text-left">
-            ({count})
-          </p>
+        <div className="mb-6 grid grid-cols-1 gap-5 lg:mb-7 lg:grid-cols-[1fr_auto_1fr] lg:items-start lg:gap-4">
+          <div className="hidden lg:block" aria-hidden />
 
-          <div className="order-1 text-center lg:order-2">
+          <div className="text-center">
             <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
               Clients.
             </h2>
@@ -80,7 +78,7 @@ export function ProjectsSection() {
             </p>
           </div>
 
-          <div className="order-3 flex max-w-[260px] flex-col items-center gap-4 justify-self-center lg:items-start lg:justify-self-end">
+          <div className="flex max-w-[260px] flex-col items-center gap-4 justify-self-center lg:items-start lg:justify-self-end">
             <p className="text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 lg:text-left md:text-[15px]">
               {description}
             </p>

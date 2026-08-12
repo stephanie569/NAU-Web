@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "What founders overlook when every strategy starts with social media.",
   date: "August 5, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-38-city-channel.png",
   metaDescription:
     "Your city is an underrated marketing channel-local presence, neighbourhood distribution, and why a geo strategy beats another generic social-first plan.",

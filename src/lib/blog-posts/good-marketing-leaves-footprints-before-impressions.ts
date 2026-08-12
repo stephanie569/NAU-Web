@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "Impressions fade. Footprints stick.",
   excerpt: "Traces in the world beat vanity metrics on a dashboard.",
   date: "August 19, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-69-footprints.png",
   metaDescription:
     "Good marketing leaves footprints before impressions-why traces in the physical world beat vanity metrics, and how to design proof people can follow back to your brand.",

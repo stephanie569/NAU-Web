@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "People trust people. Marketing comes later.",
   excerpt: "Why communities outperform audiences in the long run.",
   date: "August 11, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-47-trust-people.png",
   metaDescription:
     "People trust people long before marketing. Why communities beat audiences, how peer proof works, and how founder-led credibility compounds over time.",

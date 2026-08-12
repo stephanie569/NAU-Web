@@ -2,16 +2,8 @@
 
 import { useMemo, useState } from "react";
 import { GuideGridCard } from "@/components/GuideGridCard";
-import { NauButton } from "@/components/NauButton";
 import { PageSearchBar } from "@/components/PageSearchBar";
-import { siteConfig } from "@/lib/data";
 import { storeSectionCopy } from "@/lib/sections";
-
-const qrMailto = `mailto:${siteConfig.email}?subject=${encodeURIComponent(
-  "Found a QR - free guide",
-)}&body=${encodeURIComponent(
-  "Hi Stefani,\n\nI found a nau QR code.\n\nWhere: \nWhich guide I'd like: \n\nThanks.",
-)}`;
 
 export function PackagesPageContent({
   checkoutState,
@@ -29,9 +21,6 @@ export function PackagesPageContent({
     emptyState,
     intro,
     stickers,
-    qrCta,
-    qrNote,
-    qrLinkLabel,
     cta,
     checkoutSuccessTitle,
     checkoutSuccessNote,
@@ -107,7 +96,7 @@ export function PackagesPageContent({
             </p>
           </div>
 
-          <div className="mb-6">
+          <div className="mx-auto mb-6 max-w-[1080px]">
             <PageSearchBar
               query={query}
               onQueryChange={setQuery}
@@ -117,20 +106,6 @@ export function PackagesPageContent({
               categoryLabel={categoryLabel}
               categories={categories}
             />
-          </div>
-
-          <div className="mx-auto mb-10 flex max-w-[1080px] flex-col gap-3 rounded-[16px] border border-[#0a0a0a]/10 bg-[#f5f5f5] px-5 py-4 sm:flex-row sm:items-center sm:justify-between">
-            <div>
-              <p className="text-[14px] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
-                {qrCta}
-              </p>
-              <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
-                {qrNote}
-              </p>
-            </div>
-            <NauButton href={qrMailto} className="shrink-0">
-              {qrLinkLabel}
-            </NauButton>
           </div>
 
           <div className="mx-auto grid max-w-[1080px] gap-3 sm:grid-cols-2 md:gap-4">

@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Observing people is often more useful than another analytics dashboard.",
   date: "July 30, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-44-start-with-walk.png",
   metaDescription:
     "Why your next marketing campaign should start with a walk-field observation, real behaviour, and why watching people beats another analytics dashboard.",

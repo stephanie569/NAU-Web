@@ -5,14 +5,13 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NauButton } from "@/components/NauButton";
-import { projectCount } from "@/lib/hero";
 
 const HEADER_HEIGHT = 61;
 
 const navLinks = [
   { href: "/studio", label: "Studio" },
-  { href: "/clients", label: "Clients", count: projectCount },
-  { href: "/packages", label: "Packages" },
+  { href: "/clients", label: "Clients" },
+  { href: "/products", label: "Products" },
   { href: "/blog", label: "Blog" },
 ];
 
@@ -122,11 +121,6 @@ export function Header() {
                 className={`flex shrink-0 items-center text-[15px] font-medium tracking-[-0.04em] transition-opacity ${linkClass}`}
               >
                 {link.label}
-                {"count" in link && link.count ? (
-                  <sup className="ml-0.5 text-[10px] font-medium leading-none">
-                    {link.count}
-                  </sup>
-                ) : null}
               </Link>
             ))}
 
@@ -182,11 +176,6 @@ export function Header() {
                     }`}
                   >
                     {link.label}
-                    {"count" in link && link.count ? (
-                      <sup className="ml-0.5 text-[10px] font-medium">
-                        {link.count}
-                      </sup>
-                    ) : null}
                   </Link>
                 ))}
                 <NauButton

@@ -164,7 +164,7 @@ export default function StudioPage() {
         </div>
       </section>
 
-      <ClientsSection label="Clients" />
+      <ClientsSection />
 
       {/* 2. Story of me + photo */}
       <section

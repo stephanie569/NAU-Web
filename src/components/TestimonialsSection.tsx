@@ -1,18 +1,5 @@
-"use client";
-
 import Image from "next/image";
-import { NauButton } from "@/components/NauButton";
-import { NauLogoMark } from "@/components/NauLogoMark";
 import { testimonialsSectionCopy } from "@/lib/sections";
-
-function PlusBadge() {
-  return (
-    <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0a0a0a]">
-      <span className="absolute h-px w-3 bg-white" />
-      <span className="absolute h-3 w-px bg-white" />
-    </span>
-  );
-}
 
 function StarRating() {
   return (
@@ -46,7 +33,7 @@ function BrandLogo({
   src,
   alt,
   className = "",
-  imageClassName = "p-0",
+  imageClassName = "",
 }: {
   src: string;
   alt: string;
@@ -60,7 +47,7 @@ function BrandLogo({
         alt={alt}
         fill
         className={`object-contain ${imageClassName}`}
-        sizes="56px"
+        sizes="32px"
       />
     </div>
   );
@@ -78,20 +65,18 @@ function ProfileBlock({
   boxed?: boolean;
 }) {
   const content = (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-2.5">
       <BrandLogo
         src={image}
         alt={`${author} logo`}
-        className="h-12 w-12 rounded-[10px]"
-        imageClassName={
-          image.includes("the-pine") ? "scale-[1.28]" : undefined
-        }
+        className="h-8 w-8 rounded-[8px]"
+        imageClassName={image.includes("the-pine") ? "scale-[1.15]" : "p-0.5"}
       />
       <div>
-        <p className="text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
+        <p className="text-[14px] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
           {author}
         </p>
-        <p className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+        <p className="text-[12px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
           {role}
         </p>
       </div>
@@ -100,7 +85,7 @@ function ProfileBlock({
 
   if (boxed) {
     return (
-      <div className="rounded-[14px] border border-[#0a0a0a]/8 bg-[#f5f5f5] p-4">
+      <div className="rounded-[12px] border border-[#0a0a0a]/8 bg-[#f5f5f5] px-3 py-2.5">
         {content}
       </div>
     );
@@ -114,61 +99,46 @@ function SummaryCard() {
 
   return (
     <div className="flex min-h-[min(420px,52svh)] flex-col justify-between rounded-[18px] bg-white p-5 md:p-6">
-      <div className="flex items-start justify-between gap-6">
-        <div className="flex items-start gap-1">
-          <span className="text-[clamp(2.5rem,5vw,3.5rem)] leading-none font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-            {summary.rating}
-          </span>
-          <span className="pt-2 text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a]/60">
-            {summary.suffix}
-          </span>
-        </div>
-        <p className="max-w-[150px] text-right text-[13px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
-          {summary.intro}{" "}
-          <span className="text-[#0a0a0a]">{summary.highlight}</span>{" "}
-          {summary.text}
-        </p>
+      <div className="flex items-start gap-1">
+        <span className="text-[clamp(2.5rem,5vw,3.5rem)] leading-none font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+          {summary.rating}
+        </span>
+        <span className="pt-2 text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a]/60">
+          {summary.suffix}
+        </span>
       </div>
 
-      <div>
-        <NauLogoMark size="md" className="mb-8 text-[#0a0a0a]" />
-
-        <div className="mb-6 flex items-center justify-between gap-4">
-          <div className="flex items-center">
-            {summary.avatars.map((avatar, i) => (
-              <div
-                key={avatar}
-                className="relative h-9 w-9 overflow-hidden rounded-full border-2 border-white bg-[#f5f5f5]"
-                style={{ marginLeft: i === 0 ? 0 : -10, zIndex: 10 - i }}
-              >
-                <Image
-                  src={avatar}
-                  alt=""
-                  fill
-                  className="object-contain p-1"
-                  sizes="36px"
-                />
-              </div>
-            ))}
+      <div className="flex items-end justify-between gap-4">
+        <div className="flex items-center">
+          {summary.avatars.map((avatar, i) => (
             <div
-              className="relative z-0 flex h-9 w-9 items-center justify-center rounded-full bg-[#0a0a0a] text-[11px] font-semibold tracking-[-0.04em] text-white"
-              style={{ marginLeft: -10 }}
+              key={avatar}
+              className="relative h-9 w-9 overflow-hidden rounded-full border-2 border-white bg-[#f5f5f5]"
+              style={{ marginLeft: i === 0 ? 0 : -10, zIndex: 10 - i }}
             >
-              {summary.projectCount}
+              <Image
+                src={avatar}
+                alt=""
+                fill
+                className="object-contain p-1"
+                sizes="36px"
+              />
             </div>
-          </div>
-
-          <div className="text-right">
-            <StarRating />
-            <p className="mt-2 text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
-              {summary.trustedBy}
-            </p>
+          ))}
+          <div
+            className="relative z-0 flex h-9 w-9 items-center justify-center rounded-full bg-[#0a0a0a] text-[11px] font-semibold tracking-[-0.04em] text-white"
+            style={{ marginLeft: -10 }}
+          >
+            {summary.projectCount}
           </div>
         </div>
 
-        <NauButton href="/contact" fullWidth>
-          {summary.cta}
-        </NauButton>
+        <div className="text-right">
+          <StarRating />
+          <p className="mt-2 text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
+            {summary.trustedBy}
+          </p>
+        </div>
       </div>
     </div>
   );
@@ -184,12 +154,12 @@ function ReviewCard({
       author={review.author}
       role={review.role}
       image={review.image}
-      boxed={review.layout !== "profile-top"}
+      boxed={review.layout === "profile-top-box"}
     />
   );
 
   const quote = (
-    <p className="text-[clamp(1.35rem,2.2vw,1.75rem)] leading-[1.2] font-semibold tracking-[-0.04em] text-[#0a0a0a]">
+    <p className="text-[clamp(0.95rem,1.35vw,1.1rem)] leading-[1.4] font-medium tracking-[-0.04em] text-[#0a0a0a]">
       {review.quote}
     </p>
   );
@@ -203,13 +173,11 @@ function ReviewCard({
 
   return (
     <div className="flex min-h-[min(420px,52svh)] flex-col justify-between rounded-[18px] bg-white p-5 md:p-6">
-      {review.layout === "profile-top" && profile}
       {review.layout === "profile-top-box" && profile}
       {review.layout === "profile-bottom" && quote}
 
       {ratingRow}
 
-      {review.layout === "profile-top" && quote}
       {review.layout === "profile-top-box" && quote}
       {review.layout === "profile-bottom" && profile}
     </div>
@@ -217,32 +185,21 @@ function ReviewCard({
 }
 
 export function TestimonialsSection() {
-  const { label, title, year, reviews } = testimonialsSectionCopy;
+  const { title, year, reviews } = testimonialsSectionCopy;
 
   return (
     <section className="box-border flex min-h-[calc(100svh-61px)] flex-col justify-center bg-[#f5f5f5] px-6 py-10 md:px-9 md:py-12">
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-6 grid grid-cols-1 items-end gap-4 lg:mb-7 lg:grid-cols-3 lg:gap-4">
-          <div className="flex items-center justify-center gap-3 lg:justify-self-start">
-            <PlusBadge />
-            <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-              {label}
-            </p>
-          </div>
-
-          <div className="text-center">
-            <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-              {title}
-            </h2>
-            <p className="mt-2 text-[clamp(1rem,1.8vw,1.5rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-              {year}
-            </p>
-          </div>
-
-          <div className="hidden lg:block" aria-hidden />
+        <div className="mb-6 text-center lg:mb-7">
+          <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+            {title}
+          </h2>
+          <p className="mt-2 text-[clamp(1rem,1.8vw,1.5rem)] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+            {year}
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-1 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-4">
           <SummaryCard />
           {reviews.map((review) => (
             <ReviewCard key={review.author} review={review} />

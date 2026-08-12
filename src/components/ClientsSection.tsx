@@ -3,15 +3,6 @@
 import Image from "next/image";
 import { selectedWorkSection } from "@/lib/sections";
 
-function PlusBadge() {
-  return (
-    <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0a0a0a]">
-      <span className="absolute h-px w-3 bg-white" />
-      <span className="absolute h-3 w-px bg-white" />
-    </span>
-  );
-}
-
 function LogoCard({
   project,
 }: {
@@ -35,7 +26,6 @@ function LogoCard({
 
 function LogoMarquee() {
   const { projects } = selectedWorkSection;
-  // Duplicate for seamless loop
   const track = [...projects, ...projects];
 
   return (
@@ -52,21 +42,9 @@ function LogoMarquee() {
   );
 }
 
-export function ClientsSection({ label }: { label?: string } = {}) {
-  const { title } = selectedWorkSection;
-  const sectionLabel = label ?? title;
-
+export function ClientsSection() {
   return (
     <section className="bg-[#f5f5f5] px-6 pb-6 pt-4 md:px-9 md:pb-8 md:pt-6">
-      <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-6 flex items-center gap-3 md:mb-8">
-          <PlusBadge />
-          <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-            {sectionLabel}
-          </p>
-        </div>
-      </div>
-
       <div className="mx-auto w-full max-w-[1520px]">
         <LogoMarquee />
       </div>

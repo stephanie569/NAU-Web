@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import { PageSearchBar } from "@/components/PageSearchBar";
 import { ProjectGridCard } from "@/components/ProjectGridCard";
-import { ProjectsPageCTA } from "@/components/ProjectsPageCTA";
 import { projectsPageCopy, projectsPageItems } from "@/lib/sections";
 
 export default function ProjectsPage() {
@@ -44,7 +43,7 @@ export default function ProjectsPage() {
               </p>
             </div>
 
-            <div className="mb-10">
+            <div className="mx-auto mb-10 max-w-[1080px]">
               <PageSearchBar
                 query={query}
                 onQueryChange={setQuery}
@@ -74,8 +73,6 @@ export default function ProjectsPage() {
           </div>
         </div>
       </section>
-
-      <ProjectsPageCTA />
     </>
   );
 }

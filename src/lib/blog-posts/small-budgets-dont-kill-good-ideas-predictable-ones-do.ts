@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Creative marketing frameworks for founders who can't outspend the competition.",
   date: "August 1, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-42-small-budgets.png",
   metaDescription:
     "Small budgets don't kill good ideas-predictable ones do. Creative marketing frameworks for founders who cannot outspend competitors but can out-think them.",

@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "Why some of the most effective campaigns begin where Wi-Fi is least relevant.",
   date: "August 7, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-36-offline-marketing.png",
   metaDescription:
     "Why the best marketing often starts offline-experiential campaigns, physical proof, and how real-world moments build trust that screens alone cannot buy.",

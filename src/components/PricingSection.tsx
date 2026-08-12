@@ -8,15 +8,6 @@ import { pricingSectionCopy, storeSectionCopy } from "@/lib/sections";
 type Package = (typeof pricingSectionCopy.packages)[number];
 type ContentAddon = (typeof pricingSectionCopy.contentAddons)[number];
 
-function PlusBadge() {
-  return (
-    <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white">
-      <span className="absolute h-px w-3 bg-[#0a0a0a]" />
-      <span className="absolute h-3 w-px bg-[#0a0a0a]" />
-    </span>
-  );
-}
-
 function NoiseOverlay() {
   return (
     <div
@@ -550,7 +541,6 @@ function PackagePanel({
 
 export function PricingSection() {
   const {
-    label,
     title,
     recommendedBadge,
     deliveryLabel,
@@ -620,13 +610,6 @@ export function PricingSection() {
         <NoiseOverlay />
 
         <div className="relative mx-auto w-full max-w-[1520px]">
-          <div className="mb-8 flex items-center gap-3 md:mb-10">
-            <PlusBadge />
-            <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
-              {label}
-            </p>
-          </div>
-
           <div className="mb-8 text-center md:mb-10">
             <h2 className="text-[clamp(3.25rem,8vw,5.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
               {title}
@@ -756,13 +739,6 @@ export function PricingSection() {
         <NoiseOverlay />
 
         <div className="relative mx-auto w-full max-w-[1520px]">
-          <div className="mb-6 flex items-center gap-3 md:mb-8">
-            <PlusBadge />
-            <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
-              {storeTeaser.eyebrow}
-            </p>
-          </div>
-
           <div className="mb-6 text-center md:mb-8">
             <h2 className="text-[clamp(2.5rem,6vw,4.25rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-white">
               {storeTeaser.name}.
@@ -796,7 +772,7 @@ export function PricingSection() {
                 <span className="text-white">{storeTeaser.delivery}</span>
               </div>
               <div className="w-full shrink-0 lg:w-auto lg:justify-self-end">
-                <NauButton href="/packages" variant="light" electric={false}>
+                <NauButton href="/products" variant="light" electric={false}>
                   {storeTeaser.cta}
                 </NauButton>
               </div>

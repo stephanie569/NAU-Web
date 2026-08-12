@@ -17,7 +17,7 @@ const TOPIC_FILTERS = [
   "All",
   "Research & Positioning",
   "Go-to-Market",
-  "Team Content",
+  "Content",
 ] as const;
 
 function parsePostDate(date: string) {

@@ -2,7 +2,7 @@
 
 function SearchIcon() {
   return (
-    <svg viewBox="0 0 20 20" className="h-4 w-4 text-[#0a0a0a]/35" aria-hidden>
+    <svg viewBox="0 0 20 20" className="h-3.5 w-3.5 text-[#0a0a0a]/35" aria-hidden>
       <circle
         cx="9"
         cy="9"
@@ -37,6 +37,9 @@ function ChevronIcon() {
   );
 }
 
+const fieldClass =
+  "h-10 w-full rounded-[10px] border border-[#0a0a0a]/8 bg-[#f5f5f5] text-[14px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none";
+
 export function PageSearchBar({
   query,
   onQueryChange,
@@ -55,9 +58,9 @@ export function PageSearchBar({
   categories: string[];
 }) {
   return (
-    <div className="flex flex-col gap-2 rounded-[20px] bg-[#f5f5f5] p-1.5 sm:flex-row sm:items-center">
-      <label className="relative block min-w-0 flex-[2]">
-        <span className="pointer-events-none absolute top-1/2 left-5 -translate-y-1/2">
+    <div className="flex w-full max-w-[400px] flex-col gap-2.5 sm:w-auto sm:flex-row sm:items-center sm:gap-3">
+      <label className="relative block w-full sm:w-[240px]">
+        <span className="pointer-events-none absolute top-1/2 left-3.5 -translate-y-1/2">
           <SearchIcon />
         </span>
         <input
@@ -65,15 +68,15 @@ export function PageSearchBar({
           value={query}
           onChange={(event) => onQueryChange(event.target.value)}
           placeholder={searchPlaceholder}
-          className="w-full rounded-full bg-white py-3.5 pr-5 pl-12 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none placeholder:text-[#0a0a0a]/35"
+          className={`${fieldClass} pr-4 pl-10 placeholder:text-[#0a0a0a]/35`}
         />
       </label>
 
-      <label className="relative min-w-0 flex-1 sm:max-w-[200px]">
+      <label className="relative block w-full sm:w-[148px]">
         <select
           value={category}
           onChange={(event) => onCategoryChange(event.target.value)}
-          className="w-full appearance-none rounded-full bg-white py-3.5 pr-10 pl-5 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none"
+          className={`${fieldClass} appearance-none pr-9 pl-4`}
         >
           <option value="All">{categoryLabel}</option>
           {categories.map((item) => (
@@ -82,7 +85,7 @@ export function PageSearchBar({
             </option>
           ))}
         </select>
-        <span className="pointer-events-none absolute top-1/2 right-5 -translate-y-1/2">
+        <span className="pointer-events-none absolute top-1/2 right-3.5 -translate-y-1/2">
           <ChevronIcon />
         </span>
       </label>

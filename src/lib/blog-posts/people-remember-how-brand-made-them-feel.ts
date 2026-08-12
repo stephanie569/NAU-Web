@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "They won't remember the post. They'll remember the feeling.",
   excerpt: "Feeds forget. Feelings don't.",
   date: "August 18, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-70-how-brand-felt.png",
   metaDescription:
     "People remember how your brand made them feel, not what it posted-why emotion outlasts feeds, and how to design feelings as a marketing system rather than a soft afterthought.",

@@ -5,7 +5,7 @@ const post: BlogPost = {
   title: "Start the campaign with a conversation, not a camera",
   excerpt: "Shoot later. Listen first.",
   date: "August 20, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-68-conversation-first.png",
   metaDescription:
     "Why your next campaign should begin with a conversation, not a camera-listen in the wild first, capture vernacular and objections, then shoot creative that already knows what to say.",

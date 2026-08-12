@@ -6,7 +6,7 @@ const post: BlogPost = {
   excerpt:
     "How physical experiences make digital marketing significantly more believable.",
   date: "August 4, 2026",
-  category: "Team Content",
+  category: "Content",
   image: "/images/blog/blog-39-real-world.png",
   metaDescription:
     "Why digital marketing still needs the real world-how physical experiences transfer credibility online and make campaigns feel significantly more believable.",
