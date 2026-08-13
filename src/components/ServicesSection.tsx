@@ -157,7 +157,7 @@ export function ServicesSection() {
     <section
       id="services"
       data-header-theme="dark"
-      className="relative box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center overflow-hidden bg-[#0a0a0a] px-6 py-8 md:px-9 md:py-10"
+      className="relative box-border scroll-mt-[61px] overflow-hidden bg-[#0a0a0a] px-6 pt-10 pb-16 md:px-9 md:pt-12 md:pb-24"
     >
       <NoiseOverlay />
 

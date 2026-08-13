@@ -2,6 +2,7 @@ import { HeroScroll } from "@/components/HeroScroll";
 import { ClientsSection } from "@/components/ClientsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { ServicesSection } from "@/components/ServicesSection";
+import { IndustriesSection } from "@/components/IndustriesSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { PricingSection } from "@/components/PricingSection";
 import { TeamSection } from "@/components/TeamSection";
@@ -16,6 +17,7 @@ export default function HomePage() {
       <TeamSection />
       <ProjectsSection />
       <ServicesSection />
+      <IndustriesSection />
       <PricingSection />
       <TestimonialsSection />
       <FAQSection />

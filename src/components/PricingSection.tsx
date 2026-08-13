@@ -128,7 +128,7 @@ export function PricingSection({
     <>
       <section
         id={sectionId}
-        className="relative box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center overflow-x-hidden bg-[#f5f5f5] px-6 py-6 md:px-9 md:py-8"
+        className="relative box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center overflow-x-hidden bg-[#f5f5f5] px-6 pt-14 pb-6 md:px-9 md:pt-16 md:pb-8 lg:pt-20"
       >
         <div className="relative mx-auto flex w-full max-w-[1520px] flex-col">
           <div className="mb-3 text-center md:mb-4">
@@ -157,129 +157,147 @@ export function PricingSection({
             </svg>
 
             {/*
-              Hand behind the black card: camera in the light pocket,
-              forearm tucks under the lip — clipped so it never peeks
-              out under the card corners.
+              Full-length arm behind the black lip so it reads as
+              coming out of the card, not floating in the pocket.
             */}
-            <div className="pointer-events-none absolute inset-y-0 right-0 z-0 hidden w-[clamp(12rem,30vw,18rem)] md:block">
+            <div className="pointer-events-none absolute top-[5%] right-[calc(1%+1cm)] z-0 hidden h-[92%] w-[clamp(11rem,26vw,16rem)] md:block">
               <div className="relative h-full w-full">
                 <Image
-                  src={offer.image}
+                  src={`${offer.image}?v=10`}
                   alt=""
                   fill
                   quality={100}
-                  className="object-contain object-[85%_8%] drop-shadow-[0_24px_44px_rgba(0,0,0,0.28)]"
-                  sizes="(max-width: 1280px) 30vw, 320px"
+                  unoptimized
+                  className="object-contain object-[55%_8%] drop-shadow-[0_22px_40px_rgba(0,0,0,0.28)]"
+                  sizes="(max-width: 1280px) 26vw, 260px"
                   priority={false}
                 />
               </div>
             </div>
 
-            <article className="offer-camera-cutout relative z-[1] rounded-[24px] bg-[#0a0a0a] px-5 py-5 text-white shadow-[0_24px_70px_rgba(10,10,10,0.18)] sm:px-6 sm:py-6 md:rounded-[24px] md:px-8 md:py-7 md:pr-[min(46%,420px)]">
-              <div className="flex min-w-0 max-w-[36rem] flex-col gap-4 sm:gap-5">
-                <div>
-                  <p className="text-[12px] font-semibold tracking-[-0.04em] text-white/50">
-                    {offer.name}
-                  </p>
-                  <div className="mt-1">
-                    <PriceLine
-                      price={offer.price}
-                      originalPrice={offer.originalPrice}
-                      discountLabel={offer.discountLabel}
-                    />
-                  </div>
-                  <p className="mt-1 text-[11px] font-medium tracking-[-0.03em] text-white/35">
-                    {vatNote}
-                  </p>
-                </div>
-
-                <div>
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
-                    {outcomeLabel}
-                  </p>
-                  <p className="mt-1.5 text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/85 md:text-[14px]">
-                    {offer.outcome}
-                  </p>
-                </div>
-
-                <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
-                  <NauButton href={ctaHref} variant="light">
-                    {cta}
-                  </NauButton>
-                  <p className="text-[13px] font-medium tracking-[-0.04em] text-white/50">
-                    {deliveryLabel}{" "}
-                    <span className="text-white">{offer.delivery}</span>
-                  </p>
-                </div>
-              </div>
-
-              <ul className="mt-5 grid max-w-[40rem] gap-4 sm:grid-cols-3 sm:gap-5 md:mt-6">
-                {offer.highlights.map((item, index) => (
-                  <li key={item} className="min-w-0">
-                    <p className="text-[11px] font-semibold tracking-[-0.04em] text-white/35 tabular-nums">
-                      {String(index + 1).padStart(2, "0")}
-                    </p>
-                    <p className="mt-1 text-[13px] leading-snug font-medium tracking-[-0.04em] text-white md:text-[14px]">
-                      {item}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-5 max-w-[40rem] md:mt-6">
-                <button
-                  type="button"
-                  onClick={() => setDetailsOpen((open) => !open)}
-                  aria-expanded={detailsOpen}
-                  className="flex w-full items-center justify-between gap-4 py-0.5 text-left"
-                >
+            <article className="offer-camera-cutout relative z-[1] rounded-[24px] bg-[#0a0a0a] px-5 py-5 text-white shadow-[0_24px_70px_rgba(10,10,10,0.18)] sm:px-6 sm:py-6 md:rounded-[24px] md:px-8 md:py-7 md:pr-[min(42%,380px)] lg:px-10 lg:py-8">
+              <div className="flex min-w-0 flex-col gap-6 md:gap-7">
+                {/* Primary offer — stays clear of the camera pocket */}
+                <div className="flex min-w-0 max-w-[36rem] flex-col gap-5 md:gap-6">
                   <div>
-                    <p className="text-[13px] font-semibold tracking-[-0.04em] text-white">
-                      Full breakdown
+                    <p className="text-[12px] font-semibold tracking-[-0.04em] text-white/50">
+                      {offer.name}
                     </p>
-                    <p className="mt-0.5 text-[12px] font-medium tracking-[-0.03em] text-white/45">
-                      {detailsOpen ? "Hide details" : "See everything included"}
+                    <div className="mt-1.5">
+                      <PriceLine
+                        price={offer.price}
+                        originalPrice={offer.originalPrice}
+                        discountLabel={offer.discountLabel}
+                      />
+                    </div>
+                    <p className="mt-1.5 text-[11px] font-medium tracking-[-0.03em] text-white/35">
+                      {vatNote}
                     </p>
                   </div>
-                  <Chevron open={detailsOpen} />
-                </button>
 
-                <div
-                  className={`grid transition-[grid-template-rows] duration-300 ease-out ${
-                    detailsOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
-                  }`}
-                >
-                  <div className="overflow-hidden">
-                    <div className="grid gap-6 pt-4 lg:grid-cols-2 lg:gap-8">
-                      <div>
-                        <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/35">
-                          {collaborationLabel}
+                  <div>
+                    <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
+                      {outcomeLabel}
+                    </p>
+                    <p className="mt-2 text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/85 md:text-[15px]">
+                      {offer.outcome}
+                    </p>
+                  </div>
+
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
+                    <NauButton href={ctaHref} variant="light">
+                      {cta}
+                    </NauButton>
+                    <p className="text-[13px] font-medium tracking-[-0.04em] text-white/45">
+                      {deliveryLabel}{" "}
+                      <span className="text-white">{offer.delivery}</span>
+                    </p>
+                  </div>
+                </div>
+
+                {/* Included — full-width band, stacks → 3 cols as space allows */}
+                <div className="border-t border-white/10 pt-5 md:pt-6">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
+                    Included
+                  </p>
+                  <ul className="mt-3 grid grid-cols-1 gap-4 min-[720px]:grid-cols-3 min-[720px]:gap-5 lg:gap-6">
+                    {offer.highlights.map((item, index) => (
+                      <li key={item} className="min-w-0">
+                        <p className="text-[11px] font-semibold tracking-[-0.04em] text-white/40 tabular-nums">
+                          {String(index + 1).padStart(2, "0")}
                         </p>
-                        <ul className="mt-2.5 space-y-2">
-                          {offer.collaboration.map((item) => (
-                            <li key={item} className="flex items-start gap-3">
-                              <FeaturePlusIcon />
-                              <span className="text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
-                                {item}
-                              </span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div>
-                        <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/35">
-                          {includesLabel}
+                        <p className="mt-1.5 break-words text-[14px] leading-snug font-medium tracking-[-0.04em] text-white md:text-[15px]">
+                          {item}
                         </p>
-                        <ul className="mt-2.5 space-y-2">
-                          {offer.includes.map((item) => (
-                            <li key={item} className="flex items-start gap-3">
-                              <FeaturePlusIcon />
-                              <span className="text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
-                                {item}
-                              </span>
-                            </li>
-                          ))}
-                        </ul>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Full breakdown */}
+                <div className="border-t border-white/10 pt-4 md:pt-5">
+                  <button
+                    type="button"
+                    onClick={() => setDetailsOpen((open) => !open)}
+                    aria-expanded={detailsOpen}
+                    className="flex w-full items-center justify-between gap-4 py-0.5 text-left"
+                  >
+                    <div>
+                      <p className="text-[13px] font-semibold tracking-[-0.04em] text-white">
+                        Full breakdown
+                      </p>
+                      <p className="mt-0.5 text-[12px] font-medium tracking-[-0.03em] text-white/45">
+                        {detailsOpen
+                          ? "Hide details"
+                          : "See everything included"}
+                      </p>
+                    </div>
+                    <Chevron open={detailsOpen} />
+                  </button>
+
+                  <div
+                    className={`grid transition-[grid-template-rows] duration-300 ease-out ${
+                      detailsOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+                    }`}
+                  >
+                    <div className="overflow-hidden">
+                      <div className="grid gap-6 pt-5 sm:grid-cols-2 sm:gap-10 md:pt-6">
+                        <div>
+                          <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/35">
+                            {collaborationLabel}
+                          </p>
+                          <ul className="mt-2.5 space-y-2">
+                            {offer.collaboration.map((item) => (
+                              <li
+                                key={item}
+                                className="flex items-start gap-3"
+                              >
+                                <FeaturePlusIcon />
+                                <span className="text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
+                                  {item}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div>
+                          <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/35">
+                            {includesLabel}
+                          </p>
+                          <ul className="mt-2.5 space-y-2">
+                            {offer.includes.map((item) => (
+                              <li
+                                key={item}
+                                className="flex items-start gap-3"
+                              >
+                                <FeaturePlusIcon />
+                                <span className="text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
+                                  {item}
+                                </span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -290,10 +308,11 @@ export function PricingSection({
             <div className="mt-5 flex justify-center md:hidden">
               <div className="relative aspect-square w-[min(52vw,200px)] [transform:perspective(700px)_rotateY(-4deg)]">
                 <Image
-                  src={offer.image}
+                  src={`${offer.image}?v=10`}
                   alt={offer.imageAlt}
                   fill
                   quality={100}
+                  unoptimized
                   className="object-contain drop-shadow-[0_20px_36px_rgba(0,0,0,0.28)]"
                   sizes="200px"
                 />

@@ -193,6 +193,24 @@ export const servicesSectionCopy = {
   count: 4,
 };
 
+export const industriesSectionCopy = {
+  title: "Industries.",
+  items: [
+    {
+      name: "Travel tech",
+      blurb: "Apps and platforms for travel and education.",
+    },
+    {
+      name: "Consumer goods",
+      blurb: "Sports gear, clothes, food and accessories.",
+    },
+    {
+      name: "Travel media",
+      blurb: "Magazines and brands\nbuilt on travel stories.",
+    },
+  ],
+};
+
 const img = (id: string, size = 280) =>
   `https://framerusercontent.com/images/${id}.jpg?width=${size}&height=${size}`;
 
@@ -357,13 +375,13 @@ export const pricingSectionCopy = {
       "Content production included - remote UGC or Europe team content day",
     ],
     highlights: [
-      "Research, positioning and messaging",
-      "90-day organic GTM roadmap",
-      "Content included · UGC or team day",
+      "Market, competitors and positioning",
+      "A 90-day organic plan you can run",
+      "Campaign content — UGC or a team day",
     ],
     outcome:
       "A content series built on one campaign message - tailored to your product and audience, not generic UGC that could belong to anyone.",
-    image: "/images/offer-camera-hand-reach.png",
+    image: "/images/offer-camera-3d-peek.png",
     imageAlt: "Hand holding a Sony Alpha camera from behind the offer card - content creation for product brands",
   },
   storeTeaser: {
