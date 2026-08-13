@@ -35,14 +35,22 @@ export function PageHero({
   title,
   subtitle,
   children,
+  wide = false,
 }: {
   title: string;
   subtitle?: string;
   children?: ReactNode;
+  wide?: boolean;
 }) {
   return (
     <section className="border-b border-border pt-24 pb-16 md:pt-28 md:pb-24">
-      <div className="mx-auto max-w-7xl px-6 md:px-10">
+      <div
+        className={
+          wide
+            ? "mx-auto w-full max-w-[1520px] px-6 md:px-9"
+            : "mx-auto max-w-7xl px-6 md:px-10"
+        }
+      >
         <FadeIn>
           <h1 className="max-w-4xl text-[clamp(2.5rem,6vw,4.5rem)] font-semibold leading-[1.05] tracking-tight">
             {title}
