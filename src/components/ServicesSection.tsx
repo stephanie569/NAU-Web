@@ -81,37 +81,37 @@ function ServiceRow({
   onToggle: () => void;
 }) {
   return (
-    <div className={`border-b border-white/10 ${open ? "py-4 md:py-5" : "py-3.5 md:py-4"}`}>
+    <div className={`border-b border-white/10 ${open ? "py-5 md:py-6" : "py-4 md:py-5"}`}>
       <div
-        className={`grid grid-cols-[auto_1fr_auto] gap-3 md:grid-cols-[64px_minmax(0,1fr)_minmax(0,240px)_40px] md:gap-5 lg:grid-cols-[72px_minmax(0,1.2fr)_minmax(0,280px)_40px] lg:gap-6 ${open ? "items-start" : "items-center"}`}
+        className={`grid grid-cols-[auto_1fr_auto] gap-3 md:grid-cols-[72px_minmax(0,1fr)_minmax(0,260px)_44px] md:gap-5 lg:grid-cols-[80px_minmax(0,1.2fr)_minmax(0,300px)_44px] lg:gap-7 ${open ? "items-start" : "items-center"}`}
       >
         <p
-          className={`text-[13px] font-medium tracking-[-0.04em] md:text-[14px] ${open ? "text-white" : "text-white/55"}`}
+          className={`text-[14px] font-medium tracking-[-0.04em] md:text-[15px] ${open ? "text-white" : "text-white/55"}`}
         >
           ({service.number})
         </p>
 
         {open ? (
           <>
-            <div className="col-span-2 flex flex-col gap-4 md:col-span-1 md:flex-row md:items-start md:gap-5">
-              <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-[12px] md:h-[72px] md:w-[72px]">
+            <div className="col-span-2 flex flex-col gap-4 md:col-span-1 md:flex-row md:items-start md:gap-6">
+              <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-[14px] md:h-[88px] md:w-[88px]">
                 <Image
                   src={service.thumbnail}
                   alt=""
                   fill
                   className="object-cover"
-                  sizes="72px"
+                  sizes="88px"
                 />
               </div>
               <div className="min-w-0">
-                <h3 className="text-[clamp(1.1rem,1.8vw,1.4rem)] leading-tight font-semibold tracking-[-0.04em] text-white">
+                <h3 className="text-[clamp(1.25rem,2.2vw,1.65rem)] leading-tight font-semibold tracking-[-0.04em] text-white">
                   {service.title}
                 </h3>
-                <ol className="mt-2.5 max-w-[520px] space-y-1.5 border-l border-white/15 pl-3">
+                <ol className="mt-3 max-w-[560px] space-y-2 border-l border-white/15 pl-3.5">
                   {service.steps.map((step, index) => (
                     <li
                       key={step}
-                      className="flex gap-2.5 text-[13px] leading-snug font-medium tracking-[-0.03em] text-white/55 md:text-[14px]"
+                      className="flex gap-2.5 text-[14px] leading-snug font-medium tracking-[-0.03em] text-white/55 md:text-[15px]"
                     >
                       <span className="shrink-0 tabular-nums text-white/30">
                         {String(index + 1).padStart(2, "0")}
@@ -136,7 +136,7 @@ function ServiceRow({
             onClick={onToggle}
             className="col-span-1 flex items-center text-left md:col-span-2"
           >
-            <h3 className="text-[clamp(1rem,1.7vw,1.25rem)] font-semibold tracking-[-0.04em] text-white/55 transition-colors hover:text-white/80">
+            <h3 className="text-[clamp(1.15rem,2vw,1.5rem)] font-semibold tracking-[-0.04em] text-white/55 transition-colors hover:text-white/80">
               {service.title}
             </h3>
           </button>
@@ -157,14 +157,14 @@ export function ServicesSection() {
     <section
       id="services"
       data-header-theme="dark"
-      className="relative box-border scroll-mt-[61px] overflow-hidden bg-[#0a0a0a] px-6 pt-[calc(2.5rem+0.5cm)] pb-[calc(4rem+0.5cm)] md:px-9 md:pt-[calc(3rem+0.5cm)] md:pb-[calc(6rem+0.5cm)]"
+      className="relative box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center overflow-hidden bg-[#0a0a0a] px-6 py-14 md:px-9 md:py-16"
     >
       <NoiseOverlay />
 
       <div className="relative mx-auto w-full max-w-[1520px]">
-        <div className="border-b border-white/10 pb-5 md:pb-6">
+        <div className="border-b border-white/10 pb-6 md:pb-8">
           <div className="text-center">
-            <h2 className="text-[clamp(2.25rem,5.5vw,3.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
+            <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
               Services.
             </h2>
           </div>

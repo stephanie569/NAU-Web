@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "c1617343520a9a2822a4b06f3d979118",
-    "previewModeSigningKey": "37718eb13ceb374319f910a3d40f82a4074b9cb6a10997444ab8ed8a21e9d460",
-    "previewModeEncryptionKey": "5212796044745c776c5fa1729c00ff7c2aadd112d023c023660516e6f1e0f1cf"
-  }
-}
+{"version":4,"routes":{"/clients/boltshift-rebrand":{},"/clients/ephemeral-campaign":{},"/clients/warpspeed-launch":{},"/clients/wilson-co-studio":{},"/clients/experiences-app":{},"/clients/cloudwatch-platform":{}},"dynamicRoutes":{"/clients/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/clients/[slug]","routeRegex":"^\\/clients\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"c1617343520a9a2822a4b06f3d979118","previewModeSigningKey":"37718eb13ceb374319f910a3d40f82a4074b9cb6a10997444ab8ed8a21e9d460","previewModeEncryptionKey":"5212796044745c776c5fa1729c00ff7c2aadd112d023c023660516e6f1e0f1cf"}}

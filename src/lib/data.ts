@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: "studio",
   founder: "Stefani Dimitrova",
   description:
-    "nau studio by Stefani Dimitrova. Organic go-to-market and content that matters for product brands growing steadily.",
+    "nau studio by Stefani Dimitrova. Organic go-to-market and campaign content series for product brands growing steadily.",
   email: "info@thetimeisnau.com",
   phone: "+359 888 32 9667",
   year: "2023",
@@ -54,9 +54,9 @@ export const services = [
     number: "003",
     title: "Content Creation",
     steps: [
-      "Plan content around the brief.",
+      "Plan a series and promo cuts around one campaign.",
       "Create the work or guide your team.",
-      "Earn organic reach instead of buying attention.",
+      "Ship complementary videos that hold attention longer.",
     ],
   },
   {
@@ -181,17 +181,17 @@ export const faqs = [
   {
     question: "What do you actually help with?",
     answer:
-      "The full cycle: research, positioning, organic go-to-market and content that matters. All three services are real. I'm strongest at executing organic GTM and building the storytelling that makes it land.",
+      "The full cycle: research, positioning, organic go-to-market, and content as a campaign series - promo videos that complement each other so attention lasts longer. All three services are real. I'm strongest at executing organic GTM and building the storytelling that makes it land.",
   },
   {
     question: "How are you different from creators?",
     answer:
-      "Most creators start at the post. I start earlier and finish later. Research, positioning, launch strategy and content stay one 360 cycle, so the story matches the product and the growth plan holds.",
+      "Most creators start at the post. I start earlier and finish later. Research, positioning, launch strategy and a connected content series stay one 360 cycle, so the story matches the product and the growth plan holds.",
   },
   {
     question: "Is this UGC or social media management?",
     answer:
-      "No. Content is the last step of the cycle: founder-led and product-led storytelling, proof and campaign assets. Research and positioning come first.",
+      "No. Content is the last step: a series and promo videos wrapped around one campaign, grounded in research and positioning - not random UGC or day-to-day social management.",
   },
   {
     question: "What's included in Marketing Strategy work?",
@@ -201,7 +201,7 @@ export const faqs = [
   {
     question: "Can you help if we already launched?",
     answer:
-      "Yes. I clarify positioning, rebuild the organic go-to-market plan, and create content that matches what the product delivers.",
+      "Yes. I clarify positioning, rebuild the organic go-to-market plan, and create a content series that matches what the product delivers - so the next posts pull people through one story, not scatter them.",
   },
   {
     question: "How do I get started?",
