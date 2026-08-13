@@ -128,7 +128,11 @@ export function PricingSection({
     <>
       <section
         id={sectionId}
-        className="relative box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center overflow-x-hidden bg-[#f5f5f5] px-6 pt-14 pb-6 md:px-9 md:pt-16 md:pb-8 lg:pt-20"
+        className={`relative box-border flex scroll-mt-[61px] flex-col overflow-x-hidden bg-[#f5f5f5] px-6 pt-14 pb-6 md:px-9 md:pt-16 md:pb-8 lg:pt-20 ${
+          detailsOpen
+            ? "min-h-0 justify-start"
+            : "min-h-[calc(100svh-61px)] justify-center"
+        }`}
       >
         <div className="relative mx-auto flex w-full max-w-[1520px] flex-col">
           <div className="mb-3 text-center md:mb-4">
@@ -160,7 +164,11 @@ export function PricingSection({
               Full-length arm behind the black lip so it reads as
               coming out of the card, not floating in the pocket.
             */}
-            <div className="pointer-events-none absolute top-[5%] right-[calc(1%+1cm)] z-0 hidden h-[92%] w-[clamp(11rem,26vw,16rem)] md:block">
+            <div
+              className={`pointer-events-none absolute top-[5%] right-[calc(1%+1cm)] z-0 hidden h-[min(28rem,92%)] w-[clamp(11rem,26vw,16rem)] transition-opacity duration-300 md:block ${
+                detailsOpen ? "opacity-0" : "opacity-100"
+              }`}
+            >
               <div className="relative h-full w-full">
                 <Image
                   src={`${offer.image}?v=10`}
@@ -175,7 +183,13 @@ export function PricingSection({
               </div>
             </div>
 
-            <article className="offer-camera-cutout relative z-[1] rounded-[24px] bg-[#0a0a0a] px-5 py-5 text-white shadow-[0_24px_70px_rgba(10,10,10,0.18)] sm:px-6 sm:py-6 md:rounded-[24px] md:px-8 md:py-7 md:pr-[min(42%,380px)] lg:px-10 lg:py-8">
+            <article
+              className={`relative z-[1] rounded-[24px] bg-[#0a0a0a] px-5 py-5 text-white shadow-[0_24px_70px_rgba(10,10,10,0.18)] transition-[padding] duration-300 sm:px-6 sm:py-6 md:rounded-[24px] md:px-8 md:py-7 lg:px-10 lg:py-8 ${
+                detailsOpen
+                  ? "md:pr-8 lg:pr-10"
+                  : "offer-camera-cutout md:pr-[min(42%,380px)]"
+              }`}
+            >
               <div className="flex min-w-0 flex-col gap-6 md:gap-7">
                 {/* Primary offer — stays clear of the camera pocket */}
                 <div className="flex min-w-0 max-w-[36rem] flex-col gap-5 md:gap-6">
@@ -215,12 +229,12 @@ export function PricingSection({
                   </div>
                 </div>
 
-                {/* Included — full-width band, stacks → 3 cols as space allows */}
-                <div className="border-t border-white/10 pt-5 md:pt-6">
+                {/* Included — keep within content column so camera never clips it */}
+                <div className="max-w-[40rem] border-t border-white/10 pt-5 md:pt-6">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
                     Included
                   </p>
-                  <ul className="mt-3 grid grid-cols-1 gap-4 min-[720px]:grid-cols-3 min-[720px]:gap-5 lg:gap-6">
+                  <ul className="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
                     {offer.highlights.map((item, index) => (
                       <li key={item} className="min-w-0">
                         <p className="text-[11px] font-semibold tracking-[-0.04em] text-white/40 tabular-nums">
@@ -260,9 +274,9 @@ export function PricingSection({
                       detailsOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
                     }`}
                   >
-                    <div className="overflow-hidden">
-                      <div className="grid gap-6 pt-5 sm:grid-cols-2 sm:gap-10 md:pt-6">
-                        <div>
+                    <div className="min-h-0 overflow-hidden">
+                      <div className="grid gap-6 pt-5 sm:grid-cols-2 sm:gap-8 md:gap-10 md:pt-6">
+                        <div className="min-w-0">
                           <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/35">
                             {collaborationLabel}
                           </p>
@@ -273,14 +287,14 @@ export function PricingSection({
                                 className="flex items-start gap-3"
                               >
                                 <FeaturePlusIcon />
-                                <span className="text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
+                                <span className="min-w-0 break-words text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
                                   {item}
                                 </span>
                               </li>
                             ))}
                           </ul>
                         </div>
-                        <div>
+                        <div className="min-w-0">
                           <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/35">
                             {includesLabel}
                           </p>
@@ -291,7 +305,7 @@ export function PricingSection({
                                 className="flex items-start gap-3"
                               >
                                 <FeaturePlusIcon />
-                                <span className="text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
+                                <span className="min-w-0 break-words text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
                                   {item}
                                 </span>
                               </li>

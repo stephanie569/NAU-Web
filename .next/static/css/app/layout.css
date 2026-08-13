@@ -824,11 +824,17 @@
   .h-\[calc\(100vh-61px\)\] {
     height: calc(100vh - 61px);
   }
+  .h-\[min\(28rem\,92\%\)\] {
+    height: min(28rem, 92%);
+  }
   .h-full {
     height: 100%;
   }
   .h-px {
     height: 1px;
+  }
+  .min-h-0 {
+    min-height: 0;
   }
   .min-h-\[9\.5rem\] {
     min-height: 9.5rem;
@@ -1178,6 +1184,9 @@
   }
   .justify-end {
     justify-content: flex-end;
+  }
+  .justify-start {
+    justify-content: flex-start;
   }
   .gap-0\.5 {
     gap: calc(var(--spacing) * 0.5);
@@ -2422,6 +2431,11 @@
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
+  .transition-\[padding\] {
+    transition-property: padding;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
   .transition-\[width\] {
     transition-property: width;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -3267,6 +3281,11 @@
       padding-top: min(38%, 11rem);
     }
   }
+  .md\:pr-8 {
+    @media (width >= 48rem) {
+      padding-right: calc(var(--spacing) * 8);
+    }
+  }
   .md\:pr-\[min\(42\%\,380px\)\] {
     @media (width >= 48rem) {
       padding-right: min(42%, 380px);
@@ -3676,6 +3695,11 @@
   .lg\:pt-24 {
     @media (width >= 64rem) {
       padding-top: calc(var(--spacing) * 24);
+    }
+  }
+  .lg\:pr-10 {
+    @media (width >= 64rem) {
+      padding-right: calc(var(--spacing) * 10);
     }
   }
   .lg\:pb-20 {
