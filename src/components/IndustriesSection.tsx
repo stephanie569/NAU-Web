@@ -52,7 +52,6 @@ function IndustryIcon({ name }: { name: string }) {
     );
   }
 
-  // Travel media
   return (
     <svg {...common}>
       <path
@@ -88,7 +87,7 @@ export function IndustriesSection() {
     >
       <div className="relative mx-auto w-full max-w-[1100px]">
         <div className="mb-12 text-center md:mb-14 lg:mb-16">
-          <h2 className="text-[clamp(2.25rem,5.5vw,3.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
+          <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
             {title}
           </h2>
         </div>

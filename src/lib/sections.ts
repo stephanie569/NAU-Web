@@ -195,6 +195,8 @@ export const servicesSectionCopy = {
 
 export const industriesSectionCopy = {
   title: "Industries.",
+  platformsLabel: "Videos made for",
+  platforms: ["Instagram", "TikTok", "LinkedIn", "YouTube Shorts"],
   items: [
     {
       name: "Travel tech",
@@ -340,9 +342,10 @@ export const pricingSectionCopy = {
   offer: {
     id: "full-cycle",
     name: "Full cycle",
-    price: "€1,300",
+    price: "€1,440",
     originalPrice: "€1,600",
-    discountLabel: "19% off",
+    discountLabel: "10% off",
+    savingsLabel: "Save €160",
     forWhom:
       "Research, positioning and a 10-video campaign series - plus ideas for supporting content that complete a 360° strategy.",
     delivery: "4-6 weeks",
@@ -546,21 +549,24 @@ export const teamSectionCopy = {
   sectionLabel: "Who I am",
   sectionTitleLead: "meet the",
   sectionTitle: "Founder.",
-  title: "Hi - I'm Stefani. It's good to have you here.",
+  titleLead: "You built something worth buying.",
+  title: "Now get the right people to find it.",
   company: "nau studio",
-  lead: "I work with founders who are great at the product, but still find growth harder than it should\u00A0be.",
+  lead:
+    "Hi - I'm Stefani. I help founders turn a strong product into demand that lasts longer than one campaign.",
   field:
-    "Together we get clear on who your new product is for, how to talk about it, and a campaign of 10 series or promo videos I make - UGC I create, or I come shoot you and your team anywhere in Europe - so attention lasts longer than disconnected posts.",
+    "We lock who it's for and why it wins. Then I make 10 series or promo videos around that story - UGC I create, or a shoot with you and your team anywhere in Europe.",
   proof:
-    "Then the right people understand it faster, and find you without another paid push whispering 'please notice us' into the void.",
-  closeLead: "You bring the\u00A0expertise.",
-  closeEmphasis: "I help turn it into\u00A0demand.",
+    "Not more random posts. Content people understand fast, remember for the right reason, and share with the buyers already looking for what you made.",
+  closeLead: "You bring the\u00A0product.",
+  closeEmphasis: "I help the market notice\u00A0it.",
   metrics: [
     { value: "20+", label: "Brands" },
     { value: "60+", label: "Campaigns" },
     { value: "500+", label: "Videos" },
     { value: "1M+", label: "Views" },
   ],
+  platformsProofLabel: "Built for",
   careers: {
     title: "Start here",
     description: "Tell me about the product and where growth feels stuck.",

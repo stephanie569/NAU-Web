@@ -55,20 +55,22 @@ function PriceLine({
   price,
   originalPrice,
   discountLabel,
+  savingsLabel,
   tone = "dark",
 }: {
   price: string;
   originalPrice?: string;
   discountLabel?: string;
+  savingsLabel?: string;
   tone?: "dark" | "light";
 }) {
   const onLight = tone === "light";
 
   return (
-    <div className="flex flex-col gap-1">
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
+    <div className="flex flex-col gap-2">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
         <span
-          className={`text-[clamp(1.5rem,2.6vw,2.1rem)] leading-[1.05] font-semibold tracking-[-0.05em] tabular-nums ${
+          className={`text-[clamp(1.85rem,4.5vw,2.55rem)] leading-[1.02] font-semibold tracking-[-0.055em] tabular-nums ${
             onLight ? "text-[#0a0a0a]" : "text-white"
           }`}
         >
@@ -76,23 +78,38 @@ function PriceLine({
         </span>
         {discountLabel ? (
           <span
-            className={`inline-flex shrink-0 items-center rounded-full border px-2.5 py-1 text-[12px] font-semibold tracking-[-0.02em] ${
+            className={`nau-electric-ring inline-flex shrink-0 items-center rounded-full px-3 py-1.5 text-[12px] font-bold tracking-[-0.02em] uppercase ${
               onLight
-                ? "border-[#0a0a0a]/12 bg-[#0a0a0a]/[0.04] text-[#0a0a0a]/70"
-                : "border-white/12 bg-white/[0.05] text-white/65"
+                ? "bg-[#0a0a0a] text-white"
+                : "bg-white text-[#0a0a0a]"
             }`}
           >
             {discountLabel}
           </span>
         ) : null}
       </div>
-      {originalPrice ? (
-        <p
-          className={`text-[13px] font-medium tracking-[-0.03em] tabular-nums ${
-            onLight ? "text-[#0a0a0a]/40" : "text-white/35"
-          }`}
-        >
-          Regularly {originalPrice}
+      {originalPrice || savingsLabel ? (
+        <p className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[13px] font-medium tracking-[-0.03em]">
+          {originalPrice ? (
+            <span
+              className={`tabular-nums line-through decoration-[1.5px] ${
+                onLight ? "text-[#0a0a0a]/35" : "text-white/35"
+              }`}
+            >
+              {originalPrice}
+            </span>
+          ) : null}
+          {savingsLabel ? (
+            <span
+              className={
+                onLight
+                  ? "rounded-full bg-[#0a0a0a]/[0.06] px-2 py-0.5 font-semibold text-[#0a0a0a]/75"
+                  : "rounded-full bg-cyan-300/15 px-2 py-0.5 font-semibold text-cyan-200"
+              }
+            >
+              {savingsLabel}
+            </span>
+          ) : null}
         </p>
       ) : null}
     </div>
@@ -202,6 +219,7 @@ export function PricingSection({
                         price={offer.price}
                         originalPrice={offer.originalPrice}
                         discountLabel={offer.discountLabel}
+                        savingsLabel={offer.savingsLabel}
                       />
                     </div>
                     <p className="mt-1.5 text-[11px] font-medium tracking-[-0.03em] text-white/35">
