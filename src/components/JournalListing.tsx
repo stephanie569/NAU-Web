@@ -45,6 +45,32 @@ function DotsMenu({ variant = "muted" }: { variant?: "muted" | "mac" }) {
   );
 }
 
+function SearchIcon() {
+  return (
+    <svg
+      viewBox="0 0 20 20"
+      className="h-4 w-4 text-[#0a0a0a]/35"
+      aria-hidden
+    >
+      <circle
+        cx="9"
+        cy="9"
+        r="5.5"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+      />
+      <path
+        d="M13.5 13.5L17 17"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
 export function JournalListing({ posts }: { posts: BlogPost[] }) {
   const categories = TOPIC_FILTERS;
 
@@ -104,21 +130,25 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
 
   return (
     <div>
-      <div className="mb-10 flex flex-col gap-6 border-b border-[#0a0a0a]/10 pb-8">
-        <label className="block w-full max-w-xl">
+      <div className="mb-8 flex flex-col gap-5 border-b border-[#0a0a0a]/10 pb-6 md:mb-10 md:gap-6 md:pb-8">
+        <label className="relative block w-full md:max-w-xl">
           <span className="sr-only">Search essays</span>
+          <span className="pointer-events-none absolute top-1/2 left-3.5 z-[1] -translate-y-1/2 md:left-4">
+            <SearchIcon />
+          </span>
           <input
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search titles and topics…"
-            className="w-full rounded-[12px] border border-[#0a0a0a]/12 bg-white px-4 py-3 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none placeholder:text-[#0a0a0a]/40 focus:border-[#0a0a0a]/30"
+            enterKeyHint="search"
+            className="w-full appearance-none rounded-[12px] border border-[#0a0a0a]/12 bg-white py-3 pr-4 pl-11 text-[16px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none placeholder:text-[#0a0a0a]/40 focus:border-[#0a0a0a]/30 md:py-3 md:pl-11 md:text-[15px] [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none [&::-webkit-search-results-button]:appearance-none [&::-webkit-search-results-decoration]:appearance-none"
           />
         </label>
 
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-          <div>
-            <p className="mb-3 text-xs uppercase tracking-widest text-[#0a0a0a]/45">
+          <div className="min-w-0">
+            <p className="mb-2.5 text-xs uppercase tracking-widest text-[#0a0a0a]/45 md:mb-3">
               Filter by topic
             </p>
             <div className="flex flex-wrap gap-2">
@@ -142,8 +172,8 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
             </div>
           </div>
 
-          <div className="lg:shrink-0">
-            <p className="mb-3 text-xs uppercase tracking-widest text-[#0a0a0a]/45">
+          <div className="min-w-0 lg:shrink-0">
+            <p className="mb-2.5 text-xs uppercase tracking-widest text-[#0a0a0a]/45 md:mb-3">
               Sort
             </p>
             <div className="flex flex-wrap gap-2">

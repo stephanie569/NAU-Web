@@ -8,7 +8,11 @@ import { PageBottomCTA } from "@/components/PageBottomCTA";
 export function SiteCloseout() {
   const pathname = usePathname();
   const hideCta =
-    pathname === "/" || pathname === "/contact" || pathname === "/studio";
+    pathname === "/" ||
+    pathname === "/contact" ||
+    pathname === "/studio" ||
+    pathname.startsWith("/legal") ||
+    /^\/products\/[^/]+$/.test(pathname);
 
   return (
     <div

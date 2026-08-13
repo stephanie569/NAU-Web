@@ -13,7 +13,7 @@ const nauMark = Bagel_Fat_One({
 const sizes = {
   hero: "text-[clamp(6.5rem,16.5vw,14rem)]",
   display: "text-[clamp(3rem,8vw,5.5rem)]",
-  footer: "text-[clamp(5.5rem,12vw,9rem)]",
+  footer: "text-[clamp(2.85rem,14vw,9rem)]",
   lg: "text-[clamp(2.5rem,8vw,5rem)]",
   md: "text-[clamp(1.75rem,3vw,2.25rem)]",
   sm: "text-[1.35rem]",

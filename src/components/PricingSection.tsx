@@ -184,15 +184,15 @@ export function PricingSection({
             </div>
 
             <article
-              className={`relative z-[1] rounded-[24px] bg-[#0a0a0a] px-5 py-5 text-white shadow-[0_24px_70px_rgba(10,10,10,0.18)] transition-[padding] duration-300 sm:px-6 sm:py-6 md:rounded-[24px] md:px-8 md:py-7 lg:px-10 lg:py-8 ${
+              className={`relative z-[1] w-full rounded-[24px] bg-[#0a0a0a] px-5 py-6 text-white shadow-[0_24px_70px_rgba(10,10,10,0.18)] transition-[padding] duration-300 sm:px-6 sm:py-6 md:rounded-[24px] md:px-8 md:py-7 lg:px-10 lg:py-8 ${
                 detailsOpen
                   ? "md:pr-8 lg:pr-10"
-                  : "offer-camera-cutout md:pr-[min(42%,380px)]"
+                  : "md:pr-[min(42%,380px)] md:[-webkit-clip-path:url(#offer-camera-pocket)] md:[clip-path:url(#offer-camera-pocket)]"
               }`}
             >
-              <div className="flex min-w-0 flex-col gap-6 md:gap-7">
-                {/* Primary offer — stays clear of the camera pocket */}
-                <div className="flex min-w-0 max-w-[36rem] flex-col gap-5 md:gap-6">
+              <div className="flex w-full min-w-0 flex-col gap-6 md:gap-7">
+                {/* Primary offer — full width on mobile; capped on desktop for camera pocket */}
+                <div className="flex w-full min-w-0 flex-col gap-5 md:max-w-[36rem] md:gap-6">
                   <div>
                     <p className="text-[12px] font-semibold tracking-[-0.04em] text-white/50">
                       {offer.name}
@@ -209,16 +209,19 @@ export function PricingSection({
                     </p>
                   </div>
 
-                  <div>
+                  <div className="w-full min-w-0">
                     <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
                       {outcomeLabel}
                     </p>
-                    <p className="mt-2 text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/85 md:text-[15px]">
+                    <p className="mt-2.5 w-full text-[15px] leading-[1.5] font-medium tracking-[-0.025em] text-white/90 md:hidden">
+                      {offer.outcomeMobile}
+                    </p>
+                    <p className="mt-2.5 hidden w-full text-[15px] leading-snug font-medium tracking-[-0.04em] text-white/90 md:block">
                       {offer.outcome}
                     </p>
                   </div>
 
-                  <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:gap-5">
+                  <div className="flex w-full flex-col gap-4 py-3 md:flex-row md:items-center md:gap-5 md:py-0">
                     <NauButton href={ctaHref} variant="light">
                       {cta}
                     </NauButton>
@@ -229,18 +232,18 @@ export function PricingSection({
                   </div>
                 </div>
 
-                {/* Included — keep within content column so camera never clips it */}
-                <div className="max-w-[40rem] border-t border-white/10 pt-5 md:pt-6">
+                {/* Included — full width + single column on mobile for readable line length */}
+                <div className="w-full min-w-0 border-t border-white/10 pt-5 md:max-w-[40rem] md:pt-6">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
                     Included
                   </p>
-                  <ul className="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-3 sm:gap-5">
+                  <ul className="mt-3.5 grid grid-cols-1 gap-4 md:mt-3 md:grid-cols-3 md:gap-5">
                     {offer.highlights.map((item, index) => (
                       <li key={item} className="min-w-0">
                         <p className="text-[11px] font-semibold tracking-[-0.04em] text-white/40 tabular-nums">
                           {String(index + 1).padStart(2, "0")}
                         </p>
-                        <p className="mt-1.5 break-words text-[14px] leading-snug font-medium tracking-[-0.04em] text-white md:text-[15px]">
+                        <p className="mt-1.5 break-words text-[15px] leading-[1.4] font-medium tracking-[-0.03em] text-white md:text-[15px] md:leading-snug md:tracking-[-0.04em]">
                           {item}
                         </p>
                       </li>
@@ -319,19 +322,6 @@ export function PricingSection({
               </div>
             </article>
 
-            <div className="mt-5 flex justify-center md:hidden">
-              <div className="relative aspect-square w-[min(52vw,200px)] [transform:perspective(700px)_rotateY(-4deg)]">
-                <Image
-                  src={`${offer.image}?v=10`}
-                  alt={offer.imageAlt}
-                  fill
-                  quality={100}
-                  unoptimized
-                  className="object-contain drop-shadow-[0_20px_36px_rgba(0,0,0,0.28)]"
-                  sizes="200px"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </section>

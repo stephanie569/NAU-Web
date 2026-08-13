@@ -6,195 +6,262 @@ export default function PrivacyPage() {
     <>
       <PageHero
         title="Privacy Policy"
-        subtitle="How nau collects, uses, and looks after personal information on this site."
+        subtitle="This Privacy Policy sets out how personal data is collected, used, stored, and disclosed in connection with this website and related services."
       />
       <section className="pb-20 md:pb-28">
         <div className="mx-auto max-w-3xl px-6 md:px-10">
           <div className="space-y-6 text-muted leading-relaxed">
-            <p className="text-sm text-muted">
-              Last updated: 29 July 2026
-            </p>
+            <p className="text-sm text-muted">Effective date: 13 August 2026</p>
 
             <p>
-              This Privacy Policy explains how Stefani Dimitrova, operating as{" "}
-              <span className="font-medium text-foreground">nau</span> (“I”,
-              “me”, or “nau”), handles personal information when you visit{" "}
-              thetimeisnau.com, browse Essays, request stickers, or contact
-              me about Research & Positioning, Go-to-Market,
-              Team Content, or related studio work.
+              This Privacy Policy applies to thetimeisnau.com and related
+              online properties operated by Stefani Dimitrova, trading as nau
+              studio (the “Controller”, “I”, “me”, or “nau”). It describes the
+              processing of personal data of visitors, prospective clients,
+              clients, and purchasers of digital products.
             </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Who is responsible for your data
-            </h2>
             <p>
-              For the purposes of this website, I am the data controller. If you
-              have questions about this policy or how your information is used,
-              contact me at{" "}
-              <a
-                href={`mailto:${siteConfig.email}`}
-                className="font-medium text-foreground underline underline-offset-4"
-              >
-                {siteConfig.email}
-              </a>{" "}
-              or {siteConfig.phone}.
+              By using the website or submitting information to me, you
+              acknowledge that you have read this Privacy Policy. Where consent
+              is required under applicable law, processing will be based on that
+              consent until withdrawn.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              What this site is for
+              1. Data controller
             </h2>
             <p>
-              nau is a personal portfolio and product marketing practice for
-              brands that make physical products and want steady growth.
-              Selected work, essays, stickers and digital products, and
-              ways to start a conversation. Not a marketplace, and no user
-              accounts required.
-            </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Information I collect
-            </h2>
-            <p>
-              <span className="font-medium text-foreground">
-                Information you provide.
-              </span>{" "}
-              When you submit a contact form or email me, I may receive your
-              name, email address, message content, and any project details you
-              choose to share. If you request stickers or similar materials, I
-              may also need shipping details you send voluntarily.
+              The data controller is Stefani Dimitrova, operating as nau studio,
+              based in Bulgaria. For privacy requests and notices, contact:
             </p>
             <p>
-              <span className="font-medium text-foreground">
-                Technical information.
-              </span>{" "}
-              Like most websites, hosting and security providers may process
-              limited technical data such as IP address, browser type, device
-              information, and pages visited. This is typically used for
-              operating, securing, and understanding aggregate use of the site-not
-              for building marketing profiles for sale.
-            </p>
-            <p>
-              I do not intentionally collect special-category personal data
-              through this website. Please do not send sensitive information
-              (for example health, political, or financial account details)
-              through the contact form unless we have expressly agreed a secure
-              channel for a specific engagement.
-            </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Why I use your information
-            </h2>
-            <p>I use personal information to:</p>
-            <ul className="list-disc space-y-2 pl-5">
-              <li>Respond to enquiries and discuss potential work</li>
-              <li>
-                Provide studio services once we agree scope, fees, and terms
-              </li>
-              <li>
-                Send stickers or other materials you have requested, where
-                relevant
-              </li>
-              <li>Operate, maintain, and improve this website</li>
-              <li>Comply with legal obligations where they apply</li>
-            </ul>
-            <p>
-              Where EU/EEA or UK data protection rules apply, the usual legal
-              bases are: your consent (for example when you voluntarily submit a
-              form), legitimate interests in running a professional studio and
-              responding to business enquiries, and performance of a contract
-              when we work together.
-            </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Sharing and processors
-            </h2>
-            <p>
-              I do not sell your personal information. I may share information
-              with trusted service providers who help run the site or
-              communications-for example hosting, email, analytics, or form
-              delivery-only as needed for those purposes, and under appropriate
-              confidentiality expectations.
-            </p>
-            <p>
-              I may also disclose information if required by law, or to protect
-              rights, safety, and security in connection with the studio.
-            </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Cookies and similar technologies
-            </h2>
-            <p>
-              The site may use cookies or similar technologies that are
-              necessary for basic operation, or optional tools that help
-              understand how pages perform. You can control cookies through your
-              browser settings. Blocking some cookies may affect how parts of
-              the site work.
-            </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              How long I keep information
-            </h2>
-            <p>
-              Contact and project correspondence is kept only as long as needed
-              to manage the conversation, deliver work, meet record-keeping
-              needs, or resolve disputes-then deleted or archived according to
-              ordinary business practice. Technical logs are retained for shorter
-              operational periods unless a security or legal reason requires
-              longer retention.
-            </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              International transfers
-            </h2>
-            <p>
-              Service providers may process data in countries other than where
-              you live. Where that happens, I take reasonable steps to work with
-              providers that offer appropriate safeguards for professional
-              website and communications use.
-            </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Your rights
-            </h2>
-            <p>
-              Depending on where you live, you may have rights to access,
-              correct, delete, or restrict use of your personal information, to
-              object to certain processing, or to withdraw consent where
-              processing is based on consent. To exercise these rights, email{" "}
+              Email:{" "}
               <a
                 href={`mailto:${siteConfig.email}`}
                 className="font-medium text-foreground underline underline-offset-4"
               >
                 {siteConfig.email}
               </a>
-              . You may also have the right to lodge a complaint with your local
-              data protection authority.
+              <br />
+              Telephone: {siteConfig.phone}
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Children
+              2. Scope of activities
             </h2>
             <p>
-              This website is intended for adults exploring professional
-              services and studio content. It is not directed at children, and I
-              do not knowingly collect personal information from children.
+              nau studio provides professional services relating to research and
+              positioning, marketing strategy, and content creation (including
+              series and promotional video production, whether as
+              creator-produced content or on-location production within Europe),
+              together with related advisory materials. The website also
+              publishes essays, offers digital strategy guides for purchase, and
+              may from time to time facilitate promotional campaigns such as
+              stickers or QR-based offers. The website does not require the
+              creation of a public user account.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Changes to this policy
+              3. Categories of personal data
             </h2>
+            <p>Depending on your interaction with nau, I may process:</p>
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                Identity and contact data (such as name, email address,
+                telephone number, company or brand name, and location);
+              </li>
+              <li>
+                Correspondence and enquiry data (including message content and
+                information you elect to provide about a project);
+              </li>
+              <li>
+                Transaction data relating to digital product purchases
+                (including order identifiers and delivery email), excluding full
+                payment card numbers, which are processed by the payment
+                provider;
+              </li>
+              <li>
+                Shipping data, where you voluntarily request physical materials;
+              </li>
+              <li>
+                Production and engagement data necessary to perform contracted
+                services (including brand assets you supply, scheduling
+                information, shoot location details, and feedback);
+              </li>
+              <li>
+                Technical data automatically generated through use of the
+                website (such as IP address, browser and device information,
+                approximate location derived from IP, and pages accessed).
+              </li>
+            </ul>
             <p>
-              I may update this Privacy Policy from time to time. The “Last
-              updated” date at the top will change when that happens. Continued
-              use of the site after an update means you accept the revised
-              policy.
+              I do not seek to collect special categories of personal data
+              through the website. You should not transmit sensitive personal
+              data (including health data, political opinions, government
+              identity documents, or payment card details) via website forms
+              unless a secure channel has been expressly agreed for a specific
+              engagement.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              Contact
+              4. Purposes and legal bases
+            </h2>
+            <p>Personal data is processed for the following purposes:</p>
+            <ul className="list-disc space-y-2 pl-5">
+              <li>
+                to respond to enquiries and conduct pre-contractual discussions;
+              </li>
+              <li>
+                to perform and administer studio engagements once scope and fees
+                have been agreed;
+              </li>
+              <li>
+                to process and deliver digital product purchases;
+              </li>
+              <li>
+                to fulfil optional campaign requests (such as stickers), where
+                applicable;
+              </li>
+              <li>
+                to operate, secure, maintain, and improve the website; and
+              </li>
+              <li>
+                to comply with applicable legal, tax, and accounting
+                obligations.
+              </li>
+            </ul>
+            <p>
+              Where the General Data Protection Regulation (EU) 2016/679 (“GDPR”)
+              or equivalent UK data protection law applies, processing is based
+              on one or more of the following: consent (Article 6(1)(a));
+              performance of a contract or steps prior to entering a contract
+              (Article 6(1)(b)); compliance with a legal obligation (Article
+              6(1)(c)); and/or legitimate interests pursued by the Controller in
+              operating a professional practice and website, provided such
+              interests are not overridden by your interests or fundamental
+              rights and freedoms (Article 6(1)(f)).
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              5. Payment processing
             </h2>
             <p>
-              Stefani Dimitrova · nau
+              Purchases of digital products are processed by third-party payment
+              service providers (including, where configured, Stripe). Payment
+              card data is collected and processed by such providers in
+              accordance with their terms and privacy notices. nau does not
+              store complete payment card numbers on the website.
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              6. Recipients and processors
+            </h2>
+            <p>
+              Personal data is not sold. It may be disclosed to service providers
+              acting as processors or independent controllers as required to
+              operate the website and practice, including hosting providers,
+              email and communications tools, analytics providers (if used),
+              form delivery services, file-sharing tools, and payment
+              processors, in each case limited to what is necessary for the
+              relevant purpose and subject to appropriate confidentiality and
+              data-protection arrangements.
+            </p>
+            <p>
+              Personal data may also be disclosed where required by applicable
+              law, regulation, legal process, or to protect the rights, property,
+              or safety of nau, clients, or others.
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              7. International transfers
+            </h2>
+            <p>
+              Service providers may process personal data in jurisdictions
+              outside your country of residence, including outside the European
+              Economic Area. Where such transfers occur, reasonable steps are
+              taken to ensure that appropriate safeguards are in place as
+              required by applicable law (for example, standard contractual
+              clauses or an adequacy decision, where applicable).
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              8. Retention
+            </h2>
+            <p>
+              Personal data is retained only for as long as necessary for the
+              purposes set out in this Policy, including to manage
+              correspondence, perform contracts, maintain business and
+              accounting records, resolve disputes, and meet legal obligations.
+              Technical logs are generally retained for shorter operational
+              periods, unless a longer period is required for security or legal
+              reasons. When retention is no longer required, data will be deleted
+              or anonymised in accordance with ordinary business practice.
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              9. Cookies and similar technologies
+            </h2>
+            <p>
+              The website may use cookies and similar technologies that are
+              strictly necessary for operation and security, and may use
+              optional technologies for analytics or checkout functionality.
+              You may control cookies through your browser settings. Disabling
+              certain cookies may impair website functionality.
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              10. Your rights
+            </h2>
+            <p>
+              Subject to applicable law (including the GDPR), you may have the
+              right to request access to, rectification or erasure of, or
+              restriction of processing of your personal data; to object to
+              processing based on legitimate interests; to data portability;
+              and to withdraw consent where processing is based on consent,
+              without affecting the lawfulness of processing prior to
+              withdrawal.
+            </p>
+            <p>
+              Requests may be submitted to{" "}
+              <a
+                href={`mailto:${siteConfig.email}`}
+                className="font-medium text-foreground underline underline-offset-4"
+              >
+                {siteConfig.email}
+              </a>
+              . You also have the right to lodge a complaint with a supervisory
+              authority. In Bulgaria, this is the Commission for Personal Data
+              Protection (Комисия за защита на личните данни).
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              11. Children
+            </h2>
+            <p>
+              The website and services are directed to adults acting in a
+              professional or commercial capacity. nau does not knowingly
+              collect personal data from children. If you believe a child has
+              provided personal data, contact me so that appropriate steps may
+              be taken.
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              12. Changes to this Policy
+            </h2>
+            <p>
+              This Privacy Policy may be amended from time to time. The
+              effective date above will be updated when material changes are
+              published. Continued use of the website following publication of
+              an updated Policy constitutes acknowledgment of the revised
+              terms, except where applicable law requires a different form of
+              notice or consent.
+            </p>
+
+            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
+              13. Contact
+            </h2>
+            <p>
+              Stefani Dimitrova · nau studio
               <br />
               Email:{" "}
               <a
@@ -204,7 +271,7 @@ export default function PrivacyPage() {
                 {siteConfig.email}
               </a>
               <br />
-              Phone: {siteConfig.phone}
+              Telephone: {siteConfig.phone}
             </p>
           </div>
         </div>

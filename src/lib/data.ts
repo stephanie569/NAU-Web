@@ -43,20 +43,20 @@ export const services = [
   },
   {
     number: "002",
-    title: "Marketing Strategy",
+    title: "Content Creation",
     steps: [
-      "Turn research into a runnable plan.",
-      "Choose channels and stories that compound.",
-      "Sequence launch for steady organic growth.",
+      "Second after research: lock the campaign series early.",
+      "Strategy shapes the brief - then I make the videos.",
+      "Delivered last: 10 series or promo videos.",
     ],
   },
   {
     number: "003",
-    title: "Content Creation",
+    title: "Marketing Strategy",
     steps: [
-      "Plan a series and promo cuts around one campaign.",
-      "Create the work or guide your team.",
-      "Ship complementary videos that hold attention longer.",
+      "Turn research into a runnable plan.",
+      "Choose channels and stories that compound.",
+      "Sequence launch - then the videos ship last.",
     ],
   },
   {
@@ -64,8 +64,7 @@ export const services = [
     title: "Digital Guides",
     steps: [
       "Playbooks when a full engagement isn't the fit yet.",
-      "Positioning and GTM - packaged from client work.",
-      "Delivered on purchase, or free with a nau QR.",
+      "Positioning and GTM - packaged from client work. Delivered on purchase, or free with a nau QR.",
     ],
   },
 ];

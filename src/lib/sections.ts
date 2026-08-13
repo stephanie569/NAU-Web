@@ -1,7 +1,7 @@
 export const serviceCategories = [
   "Research & Positioning",
-  "Marketing Strategy",
   "Content Creation",
+  "Marketing Strategy",
 ] as const;
 
 export const selectedWorkSection = {
@@ -108,7 +108,7 @@ export const pageBottomCtaCopy = {
   ctaButton: "Work with me",
   ctaHref: "/contact",
   secondaryButton: "Explore products",
-  secondaryHref: "/products",
+  secondaryHref: "/#digital-guides",
   contact: {
     name: "Stefani Dimitrova",
     role: "Organic GTM & Product Storyteller",
@@ -233,30 +233,11 @@ export const servicesItems = [
   },
   {
     number: "002",
-    title: "Marketing Strategy",
-    steps: [
-      "Turn research into a plan you can actually run.",
-      "Choose channels and a campaign story that compounds across series and promo cuts.",
-      "Sequence launch and growth for steady organic reach.",
-    ],
-    thumbnail: "/images/service-marketing-strategy.png",
-    categories: [
-      "Organic growth strategy",
-      "Launch planning",
-      "Channel planning",
-      "Campaign concepts",
-      "Product storytelling",
-      "Creative testing",
-    ],
-    extraCount: "6+",
-  },
-  {
-    number: "003",
     title: "Content Creation",
     steps: [
-      "Plan a series and promo cuts around one campaign brief.",
-      "I make the videos - or shoot you and your team on location in Europe.",
-      "Ship 10 complementary videos built to hold attention longer - not one-off posts.",
+      "Second in the cycle after research: lock the campaign series early.",
+      "Strategy shapes the brief - then I make the videos (UGC or a Europe shoot).",
+      "Delivered last: 10 series or promo videos that hold attention longer.",
     ],
     thumbnail: "/images/service-content-creation-phone.png",
     categories: [
@@ -270,12 +251,30 @@ export const servicesItems = [
     extraCount: "6+",
   },
   {
+    number: "003",
+    title: "Marketing Strategy",
+    steps: [
+      "Turn research into a plan you can actually run.",
+      "Choose channels and a campaign story that compounds across the series.",
+      "Sequence launch and growth - then the videos ship last.",
+    ],
+    thumbnail: "/images/service-marketing-strategy.png",
+    categories: [
+      "Organic growth strategy",
+      "Launch planning",
+      "Channel planning",
+      "Campaign concepts",
+      "Product storytelling",
+      "Creative testing",
+    ],
+    extraCount: "6+",
+  },
+  {
     number: "004",
     title: "Digital Guides",
     steps: [
       "Strategy playbooks when a full engagement isn't the right fit yet.",
-      "Positioning, launch planning and GTM - packaged from how I work with product brands.",
-      "Delivered on purchase - or free when you find a nau QR.",
+      "Positioning, launch planning and GTM - packaged from how I work with product brands. Delivered on purchase, or free when you find a nau QR.",
     ],
     thumbnail: "/images/service-digital-guides.png",
     categories: [
@@ -341,11 +340,11 @@ export const pricingSectionCopy = {
   offer: {
     id: "full-cycle",
     name: "Full cycle",
-    price: "From €3,420",
-    originalPrice: "From €3,800",
-    discountLabel: "10% off",
+    price: "€1,300",
+    originalPrice: "€1,600",
+    discountLabel: "19% off",
     forWhom:
-      "Research, positioning and go-to-market - then a campaign content series that carries the plan.",
+      "Research, positioning and a 10-video campaign series - plus ideas for supporting content that complete a 360° strategy.",
     delivery: "4-6 weeks",
     collaboration: [
       "Free discovery call before you commit",
@@ -359,17 +358,20 @@ export const pricingSectionCopy = {
       "Competitor teardown (5-8 brands)",
       "Personas with jobs-to-be-done",
       "Positioning, messaging and tone of voice",
-      "Organic GTM plan (2 pages) + campaign angles",
+      "60-day plan for the 10 videos + campaign angles",
       "Creative direction for the series",
       "10 series or promo videos I make for you — UGC I create, or I come shoot you and your team anywhere in Europe",
+      "Ideas for supporting content so the videos sit in a 360° strategy — executing that with me is priced separately",
     ],
     highlights: [
       "10 series or promo videos I make",
       "Market, competitors and positioning",
-      "A 90-day organic plan you can run",
+      "A 60-day plan for the 10 videos",
     ],
     outcome:
-      "Ten series or promo videos wrapped around one campaign - shot by me as UGC, or on location with you and your team anywhere in Europe - so the pieces complement each other and hold attention longer.",
+      "10 series or promo videos around one campaign. I create them as UGC, or I shoot you and your team anywhere in Europe. Supporting-content ideas for a 360° strategy are included — executing those with me is extra.",
+    outcomeMobile:
+      "10 campaign videos as UGC, or I shoot you anywhere in Europe. Supporting-content ideas included — execution with me is extra.",
     image: "/images/offer-camera-3d-peek.png",
     imageAlt: "Hand holding a Sony Alpha camera from behind the offer card - content creation for product brands",
   },
@@ -383,7 +385,7 @@ export const pricingSectionCopy = {
       "The same frameworks I use on client projects, packaged as guides you can buy and use right away.",
     delivery: "Instant download",
     cta: "Purchase",
-    href: "/products",
+    href: "/#digital-guides",
   },
 };
 
@@ -415,6 +417,26 @@ export const storeSectionCopy = {
       price: "$29",
       category: "Research & Positioning",
       blurb: "Who it's for, why it matters, how to say it.",
+      overview: {
+        eyebrow: "Digital guide",
+        headline: "Get clear on who it’s for - before you film a single post.",
+        lead:
+          "A practical workbook for product brands that need sharper positioning. Fill it in once and you’ll know who you serve, why you win, and how to say it without sounding like everyone else.",
+        highlights: [
+          "Who it’s for and who it’s not - written in customer language",
+          "Why you win against the real alternatives",
+          "A positioning one-liner and messaging starters you can use immediately",
+          "Tone notes so your content finally sounds like one brand",
+        ],
+        includes: [
+          "Worksheets you can complete in one focused session",
+          "Prompts from the same framing I use with client brands",
+          "Instant download after checkout",
+        ],
+        bestFor:
+          "Founders and marketers about to launch, reposition, or brief content - when clarity is the missing piece.",
+        checkoutLabel: "Checkout · $29",
+      },
       poster: {
         label: "Positioning",
         headline: "POSITIONING",
@@ -433,6 +455,26 @@ export const storeSectionCopy = {
       price: "$49",
       category: "Marketing Strategy",
       blurb: "Channels, story and a launch sequence that holds.",
+      overview: {
+        eyebrow: "Digital guide",
+        headline: "A launch sequence you can actually run.",
+        lead:
+          "Channels, story and order of operations - packaged from how I plan organic go-to-market with product brands. Built for steady reach, not a one-week spike.",
+        highlights: [
+          "Which channels deserve attention first - and which to ignore for now",
+          "A campaign story that can carry a series, not one disconnected post",
+          "A launch sequence with owners and timing you can hand to a team",
+          "What to measure in the first stretch so you know if it’s working",
+        ],
+        includes: [
+          "GTM framework and worksheets",
+          "Launch sequence templates",
+          "Instant download after checkout",
+        ],
+        bestFor:
+          "Teams preparing a launch or relaunch who want a plan before spending on content or ads.",
+        checkoutLabel: "Checkout · $49",
+      },
       poster: {
         label: "GTM",
         headline: "GO-TO-MARKET",
@@ -451,6 +493,26 @@ export const storeSectionCopy = {
       price: "$19",
       category: "Content Creation",
       blurb: "Earned ideas - not another content calendar.",
+      overview: {
+        eyebrow: "Digital guide",
+        headline: "Earned attention ideas - not another content calendar.",
+        lead:
+          "A compact set of organic marketing ideas for product brands that want people to stay with the story longer. Built for campaigns and series thinking, not random posts.",
+        highlights: [
+          "Ideas designed to earn attention - not rent a spike",
+          "Angles that work as complementary pieces around one campaign",
+          "Prompts you can brief to a creator, team day, or yourself",
+          "A simple filter so weak ideas never make the calendar",
+        ],
+        includes: [
+          "Idea lists and campaign prompts",
+          "Quick filters for fit and effort",
+          "Instant download after checkout",
+        ],
+        bestFor:
+          "Founders and marketers who need better organic ideas before they produce the next batch of content.",
+        checkoutLabel: "Checkout · $19",
+      },
       poster: {
         label: "Organic",
         headline: "ORGANIC",
@@ -546,6 +608,11 @@ export const faqItems = [
     question: "Is this UGC or social media management?",
     answer:
       "Neither day-to-day social management nor random UGC. I make exactly 10 series or promo videos around one campaign - either UGC I create, or I come shoot you and your team anywhere in Europe. Research and positioning come first.",
+  },
+  {
+    question: "What’s included beyond the 10 videos?",
+    answer:
+      "You get ideas for supporting content so the series sits in a 360° strategy - posts, angles and follow-ups that complement the videos. If you want me to execute that supporting layer with you, that’s priced separately.",
   },
   {
     question: "Can you help if we already launched?",
@@ -733,7 +800,7 @@ export const studioPageCopy = {
     label: "Method",
     title: "The full cycle of my work.",
     lead:
-      "Five steps from blank page to assets you can run. Most creators start at the post. I start with the product - and finish after the first learning loop.",
+      "Six steps from blank page to assets you can run. Content is planned second - after research - and delivered last, once the strategy can carry it.",
     columns: {
       stage: "Stage",
       focus: "Focus",
@@ -754,18 +821,24 @@ export const studioPageCopy = {
       },
       {
         number: "003",
-        title: "Plan",
-        focus: "Strategy",
-        text: "Organic channels, launch sequence and a 90-day roadmap with KPIs.",
+        title: "Brief",
+        focus: "Content",
+        text: "Second after research: lock the 10-video series early - UGC I create, or a Europe shoot with you and your team.",
       },
       {
         number: "004",
-        title: "Create",
-        focus: "Content",
-        text: "I make 10 series or promo videos on that brief - UGC I create, or an on-location shoot with you and your team anywhere in Europe.",
+        title: "Plan",
+        focus: "Strategy",
+        text: "Organic channels, launch sequence and a roadmap that the series will carry.",
       },
       {
         number: "005",
+        title: "Create",
+        focus: "Delivery",
+        text: "You receive the videos last: 10 series or promo cuts that complement each other and hold attention longer.",
+      },
+      {
+        number: "006",
         title: "Refine",
         focus: "Learning",
         text: "What resonated, what to cut, and what to ship next in the series - so the cycle compounds.",

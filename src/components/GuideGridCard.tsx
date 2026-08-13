@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { BuyGuideButton } from "@/components/BuyGuideButton";
+import Link from "next/link";
 import type { StoreGuide } from "@/lib/sections";
 
 function DotsMenu({ variant = "muted" }: { variant?: "muted" | "mac" }) {
@@ -124,12 +124,12 @@ export function GuideGridCard({
         <p className="text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/60">
           {guide.blurb}
         </p>
-        <BuyGuideButton
-          guideId={guide.id}
-          label={ctaLabel}
-          fullWidth
-          className="mt-auto"
-        />
+        <Link
+          href={`/products/${guide.id}`}
+          className="mt-auto inline-flex w-full items-center justify-center rounded-full bg-[#0a0a0a] px-4 py-2.5 text-[13px] font-semibold tracking-[-0.03em] text-white transition-opacity hover:opacity-90"
+        >
+          {ctaLabel}
+        </Link>
       </div>
     </article>
   );

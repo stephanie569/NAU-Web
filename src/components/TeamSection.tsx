@@ -95,7 +95,6 @@ function CountUpMetric({
 
 export function TeamSection() {
   const {
-    sectionLabel,
     sectionTitleLead,
     sectionTitle,
     title,
@@ -140,11 +139,8 @@ export function TeamSection() {
     >
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="mb-6 grid grid-cols-1 items-center gap-4 lg:mb-7 lg:grid-cols-3 lg:gap-4">
-          <div className="order-2 flex items-center justify-center gap-3 lg:order-1 lg:justify-self-start">
+          <div className="order-2 flex items-center justify-center lg:order-1 lg:justify-self-start">
             <PlusBadge />
-            <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
-              {sectionLabel}
-            </p>
           </div>
 
           <div className="order-1 text-center lg:order-2">

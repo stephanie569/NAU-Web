@@ -19,13 +19,18 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/products",
+        destination: "/#digital-guides",
+        permanent: true,
+      },
+      {
         source: "/packages",
-        destination: "/products",
+        destination: "/#digital-guides",
         permanent: true,
       },
       {
         source: "/store",
-        destination: "/products",
+        destination: "/#digital-guides",
         permanent: true,
       },
     ];

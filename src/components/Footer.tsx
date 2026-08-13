@@ -52,7 +52,7 @@ function ExternalArrowIcon() {
 
 const legalNavLinks = [
   { href: "/legal/privacy", label: "Privacy Policy" },
-  { href: "/legal/terms", label: "Terms of Service" },
+  { href: "/legal/terms", label: "Terms & Conditions" },
 ];
 
 const navLinkClass =
@@ -62,13 +62,13 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer data-header-theme="dark" className="relative bg-[#0a0a0a] text-white">
+    <footer data-header-theme="dark" className="relative overflow-x-hidden bg-[#0a0a0a] text-white">
       <NoiseOverlay />
 
-      <div className="relative border-t border-white/10 px-6 pt-12 pb-8 md:px-9 md:pt-14 md:pb-10">
-        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-10 lg:flex-row lg:items-end lg:justify-between lg:gap-12">
-          <div className="grid min-w-0 flex-1 grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-8 lg:grid-cols-4 lg:gap-10">
-            <div className="min-w-0">
+      <div className="relative border-t border-white/10 px-6 pt-10 pb-8 md:px-9 md:pt-14 md:pb-10">
+        <div className="mx-auto flex w-full max-w-[1520px] flex-col gap-8 md:gap-10 lg:flex-row lg:items-end lg:justify-between lg:gap-12">
+          <div className="grid min-w-0 flex-1 grid-cols-2 gap-x-5 gap-y-8 sm:gap-8 lg:grid-cols-4 lg:gap-10">
+            <div className="col-span-2 min-w-0 lg:col-span-1">
               <PlusBadge />
               <ul className="space-y-3">
                 <li>
@@ -82,7 +82,7 @@ export function Footer() {
                 <li>
                   <a
                     href={`mailto:${siteConfig.email}`}
-                    className="inline-flex items-center gap-2 text-[14px] font-semibold tracking-[-0.04em] text-white underline underline-offset-4 transition-opacity hover:opacity-70"
+                    className="inline-flex max-w-full items-center gap-2 text-[14px] font-semibold tracking-[-0.04em] break-all text-white underline underline-offset-4 transition-opacity hover:opacity-70 sm:break-normal"
                   >
                     <span
                       className="relative flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-white"
@@ -168,12 +168,15 @@ export function Footer() {
             </div>
           </div>
 
-          <Link href="/" className="group shrink-0 self-end text-right">
+          <Link
+            href="/"
+            className="group mt-1 flex shrink-0 flex-col self-start sm:self-end sm:text-right"
+          >
             <NauLogoMark
               size="footer"
               className="text-white transition-opacity group-hover:opacity-85"
             />
-            <p className="mt-1 text-[clamp(1.2rem,2.4vw,1.65rem)] leading-none font-medium tracking-[0.22em] text-white/85 uppercase">
+            <p className="mt-1 text-[clamp(1rem,3.5vw,1.65rem)] leading-none font-medium tracking-[0.22em] text-white/85 uppercase">
               Studio
             </p>
           </Link>

@@ -9,8 +9,8 @@ import { heroBackgroundVideoId } from "@/lib/hero";
 
 const heroServices = [
   "Research & Positioning",
-  "Marketing Strategy",
   "Content Creation",
+  "Marketing Strategy",
 ];
 
 function PlusIcon() {
