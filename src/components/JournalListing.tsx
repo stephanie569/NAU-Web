@@ -265,7 +265,7 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
 
       {filtered.length === 0 && (
         <p className="py-16 text-center text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
-          No essays match that filter. Try another topic - or clear the search.
+          No essays match that filter. Try another topic, or clear the search.
         </p>
       )}
     </div>

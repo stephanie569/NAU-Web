@@ -97,7 +97,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 1 - strategy before screens",
+      text: "Stage 1: strategy before screens",
     },
     {
       type: "p",
@@ -136,7 +136,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 2 - narrative: the story customers can repeat",
+      text: "Stage 2: narrative: the story customers can repeat",
     },
     {
       type: "p",
@@ -170,7 +170,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 3 - experience: screens that reduce belief gaps",
+      text: "Stage 3: experience: screens that reduce belief gaps",
     },
     {
       type: "p",
@@ -204,7 +204,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 4 - proof: evidence with a job",
+      text: "Stage 4: proof: evidence with a job",
     },
     {
       type: "p",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 5 - launch: one CTA and a measurement plan",
+      text: "Stage 5: launch: one CTA and a measurement plan",
     },
     {
       type: "p",
@@ -260,7 +260,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Stage 6 - learning: weekly decisions, not monthly regrets",
+      text: "Stage 6: learning: weekly decisions, not monthly regrets",
     },
     {
       type: "p",

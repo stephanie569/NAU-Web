@@ -61,7 +61,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Box 1 - customer: who is in, who is out",
+      text: "Box 1: customer: who is in, who is out",
     },
     {
       type: "p",
@@ -73,7 +73,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Box 2 - job-to-be-done: the progress they want",
+      text: "Box 2: job-to-be-done: the progress they want",
     },
     {
       type: "p",
@@ -85,7 +85,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Box 3 - current alternatives (including doing nothing)",
+      text: "Box 3: current alternatives (including doing nothing)",
     },
     {
       type: "p",
@@ -97,7 +97,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Box 4 - outcome: the measurable change",
+      text: "Box 4: outcome: the measurable change",
     },
     {
       type: "p",
@@ -109,7 +109,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Box 5 - belief gap: what they must believe",
+      text: "Box 5: belief gap: what they must believe",
     },
     {
       type: "p",
@@ -342,7 +342,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Share it with engineering and sales before kickoff. If sales cannot use the outcome sentence on a call, the box is not done. If engineering cannot see which belief gap a ticket closes, the roadmap will drift toward interestingness. Interestingness is a fine hobby. It is a costly product strategy.",
+      text: "Share it with engineering and sales before kick-off. If sales cannot use the outcome sentence on a call, the box is not done. If engineering cannot see which belief gap a ticket closes, the roadmap will drift towards interestingness. Interestingness is a fine hobby. It is a costly product strategy.",
     },
     {
       type: "h2",

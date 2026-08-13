@@ -188,7 +188,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Site: “HelmHR - people infrastructure for ambitious companies.” Five-minute notes: headline could be any HRIS; CTA “Get started” leads to a nine-field form; logos appear after a long feature wall; mobile hero is half animation; nav has eight equal items.",
+      text: "Site: “HelmHR: people infrastructure for ambitious companies.” Five-minute notes: headline could be any HRIS; CTA “Get started” leads to a nine-field form; logos appear after a long feature wall; mobile hero is half animation; nav has eight equal items.",
     },
     {
       type: "p",

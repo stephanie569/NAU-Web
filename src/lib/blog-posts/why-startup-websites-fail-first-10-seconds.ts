@@ -81,7 +81,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe’s product surfaces tend to guide you toward a clear start. Apple product pages push one dominant action. You can still explore-but the page is not a buffet designed by a committee afraid of missing a conversion path.",
+      text: "Stripe’s product surfaces tend to guide you towards a clear start. Apple product pages push one dominant action. You can still explore-but the page is not a buffet designed by a committee afraid of missing a conversion path.",
     },
     {
       type: "table",
@@ -309,7 +309,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes the big headline is fine and the small text ruins belief. “No credit card required” hidden below a fold. “Cancel anytime” missing next to a trial CTA. A chat widget that opens with “How can we help?” before the visitor knows what you sell. Microcopy is not decoration-it is risk management in a smaller font.",
+      text: "Sometimes the big headline is fine and the small text ruins belief. “No credit card required” hidden below a fold. “Cancel at any time” missing next to a trial CTA. A chat widget that opens with “How can we help?” before the visitor knows what you sell. Microcopy is not decoration-it is risk management in a smaller font.",
     },
     {
       type: "p",

@@ -135,7 +135,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Idea a - shelfsync for indie retailers",
+      text: "Idea a: shelfsync for indie retailers",
     },
     {
       type: "p",
@@ -143,7 +143,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Idea b - “AI mentor for everyone”",
+      text: "Idea b: “AI mentor for everyone”",
     },
     {
       type: "p",

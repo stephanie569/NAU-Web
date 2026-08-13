@@ -199,7 +199,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "One more practical habit: write the diagnostic answer as a memo the team can reopen in a month. Memory edits history toward whatever spend felt busiest. A dated leakage map keeps everyone honest when the next “we need marketing” wave arrives-and it will. Attach the cold paraphrases; they are harder to argue with than opinions about brand energy.",
+      text: "One more practical habit: write the diagnostic answer as a memo the team can reopen in a month. Memory edits history towards whatever spend felt busiest. A dated leakage map keeps everyone honest when the next “we need marketing” wave arrives-and it will. Attach the cold paraphrases; they are harder to argue with than opinions about brand energy.",
     },
     {
       type: "h2",

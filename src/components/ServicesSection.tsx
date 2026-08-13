@@ -40,32 +40,23 @@ function ToggleButton({
   );
 }
 
-function CategoryPills({
-  categories,
-  extraCount,
-}: {
-  categories: string[];
-  extraCount?: string;
-}) {
+function CategoryPills({ categories }: { categories: string[] }) {
+  const visible = categories.slice(0, 4);
+
   return (
     <div>
       <p className="mb-2 text-[12px] font-medium tracking-[-0.04em] text-white/55">
         Categories
       </p>
-      <div className="flex flex-wrap gap-1.5">
-        {categories.map((category) => (
+      <div className="grid grid-cols-2 gap-1.5">
+        {visible.map((category) => (
           <span
             key={category}
-            className="rounded-full border border-white/15 px-2.5 py-1 text-[12px] font-medium tracking-[-0.04em] text-white"
+            className="inline-flex items-center justify-center rounded-full border border-white/15 px-2.5 py-1 text-center text-[12px] font-medium tracking-[-0.04em] text-white"
           >
             {category}
           </span>
         ))}
-        {extraCount ? (
-          <span className="rounded-full border border-white/15 px-2.5 py-1 text-[12px] font-medium tracking-[-0.04em] text-white/55">
-            {extraCount}
-          </span>
-        ) : null}
       </div>
     </div>
   );
@@ -128,19 +119,9 @@ function ServiceRow({
               />
             </div>
 
-            <ol className="mt-4 space-y-2.5 border-l border-white/15 pl-3.5">
-              {service.steps.map((step, index) => (
-                <li
-                  key={step}
-                  className="flex gap-2.5 text-[14px] leading-[1.45] font-medium tracking-[-0.03em] text-white/55"
-                >
-                  <span className="shrink-0 tabular-nums text-white/30">
-                    {String(index + 1).padStart(2, "0")}
-                  </span>
-                  <span>{step}</span>
-                </li>
-              ))}
-            </ol>
+            <p className="mt-4 text-[14px] leading-[1.45] font-medium tracking-[-0.03em] text-white/55">
+              {service.summary}
+            </p>
 
           </div>
 
@@ -164,26 +145,13 @@ function ServiceRow({
                 <h3 className="text-[clamp(1.25rem,2.2vw,1.65rem)] leading-tight font-semibold tracking-[-0.04em] text-white">
                   {service.title}
                 </h3>
-                <ol className="mt-3 max-w-[560px] space-y-2 border-l border-white/15 pl-3.5">
-                  {service.steps.map((step, index) => (
-                    <li
-                      key={step}
-                      className="flex gap-2.5 text-[15px] leading-snug font-medium tracking-[-0.03em] text-white/55"
-                    >
-                      <span className="shrink-0 tabular-nums text-white/30">
-                        {String(index + 1).padStart(2, "0")}
-                      </span>
-                      <span>{step}</span>
-                    </li>
-                  ))}
-                </ol>
+                <p className="mt-3 max-w-[560px] text-[15px] leading-snug font-medium tracking-[-0.03em] text-white/55">
+                  {service.summary}
+                </p>
               </div>
             </div>
 
-            <CategoryPills
-              categories={service.categories}
-              extraCount={service.extraCount}
-            />
+            <CategoryPills categories={service.categories} />
 
             <div className="justify-self-end">
               <ToggleButton open={open} onClick={onToggle} />

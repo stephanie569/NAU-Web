@@ -46,7 +46,7 @@ export const services = [
     title: "Content Creation",
     steps: [
       "Second after research: lock the campaign series early.",
-      "Strategy shapes the brief - then I make the videos.",
+      "Strategy shapes the brief. Then I make the videos.",
       "Delivered last: 10 series or promo videos.",
     ],
   },
@@ -56,7 +56,7 @@ export const services = [
     steps: [
       "Turn research into a runnable plan.",
       "Choose channels and stories that compound.",
-      "Sequence launch - then the videos ship last.",
+      "Sequence the launch. Then the videos ship last.",
     ],
   },
   {
@@ -64,7 +64,7 @@ export const services = [
     title: "Digital Guides",
     steps: [
       "Playbooks when a full engagement isn't the fit yet.",
-      "Positioning and GTM - packaged from client work. Delivered on purchase, or free with a nau QR.",
+      "Positioning and GTM, packaged from client work. Delivered on purchase.",
     ],
   },
 ];
@@ -151,19 +151,19 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Full 360 - research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
+      "Full 360: research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
     author: "The Pine",
     role: "Outdoor apparel",
   },
   {
     quote:
-      "We came with the strategy. She built the content that finally sounds like us in the field - stories people actually save and share.",
+      "We came with the strategy. She built the content that finally sounds like us in the field: stories people save and share.",
     author: "Go Guide",
     role: "Adventure experiences",
   },
   {
     quote:
-      "Sharp market and competitor research that clarified where we actually stand - and who we need to win.",
+      "Sharp market and competitor research that clarified where we stand, and who we need to win.",
     author: "Fly the Earth",
     role: "Travel brand",
   },
@@ -178,9 +178,9 @@ export const faqs = [
       "Product brands that want steady growth: outdoor, travel, marine, consumer tech, lifestyle, sustainable goods and sports equipment. Focus is physical products.",
   },
   {
-    question: "What do you actually help with?",
+    question: "What do you help with?",
     answer:
-      "The full cycle: research, positioning, organic go-to-market, and content as a campaign series - promo videos that complement each other so attention lasts longer. All three services are real. I'm strongest at executing organic GTM and building the storytelling that makes it land.",
+      "The full cycle: research, positioning, organic go-to-market, and content as a campaign series of promo videos that complement each other so attention lasts longer. All three services are real. I'm strongest at executing organic GTM and building the storytelling that makes it land.",
   },
   {
     question: "How are you different from creators?",
@@ -190,7 +190,7 @@ export const faqs = [
   {
     question: "Is this UGC or social media management?",
     answer:
-      "No. Content is the last step: a series and promo videos wrapped around one campaign, grounded in research and positioning - not random UGC or day-to-day social management.",
+      "No. Content is the last step: a series and promo videos wrapped around one campaign, grounded in research and positioning. Not random UGC or day-to-day social management.",
   },
   {
     question: "What's included in Marketing Strategy work?",
@@ -200,7 +200,7 @@ export const faqs = [
   {
     question: "Can you help if we already launched?",
     answer:
-      "Yes. I clarify positioning, rebuild the organic go-to-market plan, and create a content series that matches what the product delivers - so the next posts pull people through one story, not scatter them.",
+      "Yes. I clarify positioning, rebuild the organic go-to-market plan, and create a content series that matches what the product delivers, so the next posts pull people through one story, not scatter them.",
   },
   {
     question: "How do I get started?",

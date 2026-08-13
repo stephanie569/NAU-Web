@@ -97,7 +97,7 @@ export function GuideOverviewPage({
                 Payment received · {guide.title}
               </p>
               <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
-                Thanks - I’ll email your guide shortly.
+                Thanks. I’ll email your guide shortly.
               </p>
             </div>
           ) : null}
@@ -108,7 +108,7 @@ export function GuideOverviewPage({
                 Checkout cancelled
               </p>
               <p className="mt-1 text-[13px] font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
-                No charge was made. Review the guide below and checkout when
+                No charge was made. Review the guide below and complete checkout when
                 you’re ready.
               </p>
             </div>
@@ -135,7 +135,7 @@ export function GuideOverviewPage({
 
               <div className="mt-8 border-t border-[#0a0a0a]/10 pt-8">
                 <p className="text-[12px] font-medium uppercase tracking-[0.14em] text-[#0a0a0a]/40">
-                  What you’ll get
+                  What’s included
                 </p>
                 <ul className="mt-4 space-y-3">
                   {overview.highlights.map((item) => (

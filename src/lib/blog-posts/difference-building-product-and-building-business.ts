@@ -278,7 +278,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is compatible with [a 30-day startup reset](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days) and with [client-fit questions](/essays/questions-i-ask-before-taking-any-client) if you bring in help. The point is motion toward exchange, not a ceremonial transformation programme.",
+      text: "This is compatible with [a 30-day startup reset](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days) and with [client-fit questions](/essays/questions-i-ask-before-taking-any-client) if you bring in help. The point is motion towards exchange, not a ceremonial transformation programme.",
     },
     {
       type: "h2",

@@ -31,12 +31,12 @@ export function BuyGuideButton({
       const data = (await response.json()) as { url?: string; error?: string };
 
       if (!response.ok || !data.url) {
-        throw new Error(data.error || "Checkout failed");
+        throw new Error(data.error || "Unable to start checkout");
       }
 
       window.location.href = data.url;
     } catch (err) {
-      setError(err instanceof Error ? err.message : "Checkout failed");
+      setError(err instanceof Error ? err.message : "Unable to start checkout");
       setLoading(false);
     }
   }

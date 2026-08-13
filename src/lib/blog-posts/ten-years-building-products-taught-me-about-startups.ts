@@ -45,7 +45,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Nielsen Norman Group’s work on content and comprehension keeps validating the obvious: people skim, decide fast, and punish vagueness-[NN/g](https://www.nngroup.com/). Google’s people-first guidance in [Google Search Central](https://developers.google.com/search/docs) is another external nudge toward usefulness over performance theatre.",
+      text: "Nielsen Norman Group’s work on content and comprehension keeps validating the obvious: people skim, decide fast, and punish vagueness-[NN/g](https://www.nngroup.com/). Google’s people-first guidance in [Google Search Central](https://developers.google.com/search/docs) is another external nudge towards usefulness over performance theatre.",
     },
     {
       type: "callout",

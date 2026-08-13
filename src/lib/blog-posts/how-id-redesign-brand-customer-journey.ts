@@ -104,7 +104,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Awareness - why should I care?",
+      text: "Awareness: why should I care?",
     },
     {
       type: "p",
@@ -116,7 +116,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Understanding - what changes for me?",
+      text: "Understanding: what changes for me?",
     },
     {
       type: "p",
@@ -128,7 +128,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Trust - why believe you?",
+      text: "Trust: why believe you?",
     },
     {
       type: "p",
@@ -140,7 +140,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Activation - how do I get value quickly?",
+      text: "Activation: how do I get value quickly?",
     },
     {
       type: "p",
@@ -152,7 +152,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Expansion - why stay and grow?",
+      text: "Expansion: why stay and grow?",
     },
     {
       type: "p",

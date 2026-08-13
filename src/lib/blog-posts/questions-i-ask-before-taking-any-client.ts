@@ -34,7 +34,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "What I am screening for",
-      text: "Urgency with a real constraint, authority to ship, openness to cut, and a definition of success that is not “make it pop.” If those are missing, the nicest kickoff in the world will not save the engagement.",
+      text: "Urgency with a real constraint, authority to ship, openness to cut, and a definition of success that is not “make it pop.” If those are missing, the nicest kick-off in the world will not save the engagement.",
     },
     {
       type: "takeaway",
@@ -87,7 +87,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 1 - what decision are you trying to make easier?",
+      text: "Question 1: what decision are you trying to make easier?",
     },
     {
       type: "p",
@@ -104,7 +104,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this before our call",
-      text: "Write one sentence: “We help [ICP] decide to [action] by making [belief] easier to hold.” If you cannot finish it, that becomes the first workshop-not a redesign kickoff.",
+      text: "Write one sentence: “We help [ICP] decide to [action] by making [belief] easier to hold.” If you cannot finish it, that becomes the first workshop-not a redesign kick-off.",
     },
     {
       type: "takeaway",
@@ -112,7 +112,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 2 - what have you already tried-and learned?",
+      text: "Question 2: what have you already tried and learned?",
     },
     {
       type: "p",
@@ -133,7 +133,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 3 - who decides, and how quickly can we ship?",
+      text: "Question 3: who decides, and how quickly can we ship?",
     },
     {
       type: "p",
@@ -153,7 +153,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 4 - are you open to cutting?",
+      text: "Question 4: are you open to cutting?",
     },
     {
       type: "p",
@@ -174,7 +174,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "Question 5 - what does success look like in 30 and 90 days?",
+      text: "Question 5: what does success look like in 30 and 90 days?",
     },
     {
       type: "p",
@@ -234,7 +234,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I do not send a fifty-question form and call it discovery. We talk. I ask the five questions in plain language, listen for specifics, and mirror back what I think the constraint is. If we disagree about the constraint, that disagreement is valuable-better now than after a redesign kickoff.",
+      text: "I do not send a fifty-question form and call it discovery. We talk. I ask the five questions in plain language, listen for specifics, and mirror back what I think the constraint is. If we disagree about the constraint, that disagreement is valuable-better now than after a redesign kick-off.",
     },
     {
       type: "ol",
@@ -360,7 +360,7 @@ const post: BlogPost = {
         {
           question: "Can these questions help me hire an agency or freelancer?",
           answer:
-            "Yes. Use them as a mutual interview. Strong partners will welcome them. Weak ones will rush you toward packages and moods.",
+            "Yes. Use them as a mutual interview. Strong partners will welcome them. Weak ones will rush you towards packages and moods.",
         },
       ],
     },
@@ -373,7 +373,7 @@ const post: BlogPost = {
       items: [
         "Answer the five questions in writing before you shop for help.",
         "Share them in the first call; notice who engages vs who dodges.",
-        "Assign a DRI for decisions before kickoff.",
+        "Assign a DRI for decisions before kick-off.",
         "Agree 30- and 90-day markers and how you’ll review them.",
         "Give explicit permission to recommend cuts.",
       ],

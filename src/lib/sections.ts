@@ -103,7 +103,7 @@ export const projectsSectionCopy = {
 
 export const pageBottomCtaCopy = {
   ctaLead:
-    "There's a path where positioning holds, launches land, and content runs as a series that sounds like you.",
+    "Let the right audience find you, with 10 videos only, when positioning holds and content runs as a series that sounds like you.",
   ctaHighlight: "That's the progress we build together.",
   ctaButton: "Work with me",
   ctaHref: "/contact",
@@ -217,72 +217,53 @@ export const servicesItems = [
   {
     number: "001",
     title: "Research & Positioning",
-    steps: [
-      "Validate what you're launching and what problem it solves.",
-      "Map the market, category and competitors.",
-      "Sharpen who it's for and why it wins - before anyone films a post.",
-    ],
+    summary:
+      "You receive a clear assessment of what you're launching and the problem it solves: a map of the market, category and competitors, and sharp positioning on who it's for and why it wins, before anyone films a post.",
     thumbnail: "/images/service-research-positioning.png",
     categories: [
-      "Product validation",
-      "Market research",
-      "Competitor analysis",
-      "Customer insight",
-      "Value proposition",
-      "Product positioning",
+      "Validation",
+      "Research",
+      "Competitors",
+      "Positioning",
     ],
-    extraCount: "6+",
   },
   {
     number: "002",
     title: "Content Creation",
-    steps: [
-      "Second in the cycle after research: lock the campaign series early.",
-      "Strategy shapes the brief - then I make the videos (UGC or a Europe shoot).",
-      "Delivered last: 10 series or promo videos that hold attention longer.",
-    ],
+    summary:
+      "You receive an early brief for the campaign series. Then I deliver 10 series or promo videos, either as UGC I create or filmed with you and your team anywhere in Europe, made to hold attention longer.",
     thumbnail: "/images/service-content-creation-phone.png",
     categories: [
-      "Campaign series",
-      "Promo video",
-      "Founder-led content",
-      "Product storytelling",
-      "Team guidance",
-      "Campaign assets",
+      "Campaigns",
+      "Promo",
+      "UGC",
+      "Storytelling",
     ],
-    extraCount: "6+",
   },
   {
     number: "003",
     title: "Marketing Strategy",
-    steps: [
-      "Turn research into a plan you can actually run.",
-      "Choose channels and a campaign story that compounds across the series.",
-      "Sequence launch and growth - then the videos ship last.",
-    ],
+    summary:
+      "You receive a plan you can put into practice, including messaging, hooks and channel choices, plus a campaign story that compounds across the series. A launch and growth sequence, with the videos shipping last.",
     thumbnail: "/images/service-marketing-strategy.png",
     categories: [
-      "Organic growth strategy",
-      "Launch planning",
-      "Channel planning",
-      "Campaign concepts",
-      "Product storytelling",
-      "Creative testing",
+      "Growth",
+      "Launch",
+      "Channels",
+      "Messaging",
     ],
-    extraCount: "6+",
   },
   {
     number: "004",
     title: "Digital Guides",
-    steps: [
-      "Strategy playbooks when a full engagement isn't the right fit yet.",
-      "Positioning, launch planning and GTM - packaged from how I work with product brands. Delivered on purchase, or free when you find a nau QR.",
-    ],
+    summary:
+      "You receive strategy playbooks when a full engagement isn't the right fit yet. Positioning, launch and GTM frameworks from how I work with product brands, delivered on purchase.",
     thumbnail: "/images/service-digital-guides.png",
     categories: [
-      "Product positioning workbook",
-      "Go-to-market playbook",
-      "Organic marketing ideas",
+      "Positioning",
+      "GTM",
+      "Organic",
+      "Hooks",
     ],
   },
 ];
@@ -308,7 +289,7 @@ export const testimonialsSectionCopy = {
       role: "Outdoor apparel",
       image: "/logos/testimonial-the-pine.png",
       quote:
-        "Full 360 - research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
+        "Full 360: research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
       layout: "profile-top-box",
     },
     {
@@ -316,7 +297,7 @@ export const testimonialsSectionCopy = {
       role: "Adventure experiences",
       image: "/logos/testimonial-go-guide.png",
       quote:
-        "We came with the strategy. She built a content series that finally sounds like us in the field - pieces that work together, and stories people actually stay with.",
+        "We came with the strategy. She built a content series that finally sounds like us in the field: pieces that work together, and stories people stay with.",
       layout: "profile-bottom",
     },
     {
@@ -324,7 +305,7 @@ export const testimonialsSectionCopy = {
       role: "Travel brand",
       image: "/logos/testimonial-fly-the-earth.png",
       quote:
-        "Sharp market and competitor research that clarified where we actually stand - and who we need to win.",
+        "Sharp market and competitor research that clarified where we stand, and who we need to win.",
       layout: "profile-top-box",
     },
   ],
@@ -347,11 +328,11 @@ export const pricingSectionCopy = {
     discountLabel: "10% off",
     savingsLabel: "Save €160",
     forWhom:
-      "Research, positioning and a 10-video campaign series - plus ideas for supporting content that complete a 360° strategy.",
+      "Let the right audience find you, with 10 videos only, plus research and positioning for a 360° strategy.",
     delivery: "4-6 weeks",
     collaboration: [
       "Free discovery call before you commit",
-      "Kickoff workshop",
+      "Kick-off workshop",
       "Working sessions through the cycle",
       "Mid-point review + final walkthrough",
       "Async feedback and 2 revision rounds",
@@ -363,29 +344,29 @@ export const pricingSectionCopy = {
       "Positioning, messaging and tone of voice",
       "60-day plan for the 10 videos + campaign angles",
       "Creative direction for the series",
-      "10 series or promo videos I make for you — UGC I create, or I come shoot you and your team anywhere in Europe",
-      "Ideas for supporting content so the videos sit in a 360° strategy — executing that with me is priced separately",
+      "10 series or promo videos I make for you: UGC I create, or I come shoot you and your team anywhere in Europe",
+      "Ideas for supporting content so the videos sit in a 360° strategy. Executing that with me is priced separately",
     ],
     highlights: [
-      "10 series or promo videos I make",
-      "Market, competitors and positioning",
-      "A 60-day plan for the 10 videos",
+      "10 series or promo videos I\u00A0make",
+      "Market, competitors and\u00A0positioning",
+      "A 60-day plan for the\u00A010\u00A0videos",
     ],
     outcome:
-      "10 series or promo videos around one campaign. I create them as UGC, or I shoot you and your team anywhere in Europe. Supporting-content ideas for a 360° strategy are included — executing those with me is extra.",
+      "Let the right audience find you, with 10 videos only. I create them as UGC, or I shoot you and your team anywhere in Europe. Supporting-content ideas for a 360° strategy are included. Executing those with me is extra.",
     outcomeMobile:
-      "10 campaign videos as UGC, or I shoot you anywhere in Europe. Supporting-content ideas included — execution with me is extra.",
+      "Let the right audience find you, with 10 videos only. UGC I create, or I shoot you anywhere in Europe. Supporting-content ideas included. Execution with me is extra.",
     image: "/images/offer-camera-3d-peek.png",
-    imageAlt: "Hand holding a Sony Alpha camera from behind the offer card - content creation for product brands",
+    imageAlt: "Hand holding a Sony Alpha camera from behind the offer card, content creation for product brands",
   },
   storeTeaser: {
     id: "digital-guides",
     name: "Digital guides",
     price: "From $19",
     forWhom:
-      "When you want my thinking on positioning, launch or GTM - without booking a full engagement.",
+      "When you want my thinking on positioning, launch or GTM, without booking a full engagement.",
     outcome:
-      "The same frameworks I use on client projects, packaged as guides you can buy and use right away.",
+      "The same frameworks I use on client projects, packaged as guides you can buy and use straight away.",
     delivery: "Instant download",
     cta: "Purchase",
     href: "/#digital-guides",
@@ -395,22 +376,19 @@ export const pricingSectionCopy = {
 export const storeSectionCopy = {
   title: "Products.",
   description:
-    "Digital guides with the same strategy thinking as a client engagement - buy online or claim free with a nau QR.",
+    "Digital guides with the same strategy thinking as a client engagement. Buy online and use them straight away.",
   searchPlaceholder: "Search...",
   categoryLabel: "Category",
   categories: [...serviceCategories],
   emptyState: "No guides match your search.",
   intro:
-    "Playbooks built from real launches - for brands that want clarity before committing to a full project. Find a nau QR across Europe and that same guide is free.",
+    "Playbooks built from real launches, for brands that want clarity before committing to a full project.",
   stickers:
     "Stickers are free to friends, partners and brands building gear worth talking about.",
-  qrCta: "Found a QR?",
-  qrNote: "Email me where you found it - I'll send the guide free.",
-  qrLinkLabel: "Claim free",
-  cta: "Get it",
+  cta: "Get the guide",
   checkoutSuccessTitle: "Payment received",
   checkoutSuccessNote:
-    "Thanks - I'll email your guide shortly. This is test mode until you switch Stripe to live keys.",
+    "Thanks. I'll email your guide shortly. This is test mode until you switch Stripe to live keys.",
   checkoutCancelTitle: "Checkout cancelled",
   checkoutCancelNote: "No charge was made. Browse again whenever you're ready.",
   items: [
@@ -422,11 +400,11 @@ export const storeSectionCopy = {
       blurb: "Who it's for, why it matters, how to say it.",
       overview: {
         eyebrow: "Digital guide",
-        headline: "Get clear on who it’s for - before you film a single post.",
+        headline: "Get clear on who it’s for, before you film a single post.",
         lead:
           "A practical workbook for product brands that need sharper positioning. Fill it in once and you’ll know who you serve, why you win, and how to say it without sounding like everyone else.",
         highlights: [
-          "Who it’s for and who it’s not - written in customer language",
+          "Who it’s for and who it’s not, written in customer language",
           "Why you win against the real alternatives",
           "A positioning one-liner and messaging starters you can use immediately",
           "Tone notes so your content finally sounds like one brand",
@@ -437,7 +415,7 @@ export const storeSectionCopy = {
           "Instant download after checkout",
         ],
         bestFor:
-          "Founders and marketers about to launch, reposition, or brief content - when clarity is the missing piece.",
+          "Founders and marketers about to launch, reposition, or brief content, when clarity is the missing piece.",
         checkoutLabel: "Checkout · $29",
       },
       poster: {
@@ -460,11 +438,11 @@ export const storeSectionCopy = {
       blurb: "Channels, story and a launch sequence that holds.",
       overview: {
         eyebrow: "Digital guide",
-        headline: "A launch sequence you can actually run.",
+        headline: "A launch sequence you can put into practice.",
         lead:
-          "Channels, story and order of operations - packaged from how I plan organic go-to-market with product brands. Built for steady reach, not a one-week spike.",
+          "Channels, story and order of operations, packaged from how I plan organic go-to-market with product brands. Built for steady reach, not a one-week spike.",
         highlights: [
-          "Which channels deserve attention first - and which to ignore for now",
+          "Which channels deserve attention first, and which to ignore for now",
           "A campaign story that can carry a series, not one disconnected post",
           "A launch sequence with owners and timing you can hand to a team",
           "What to measure in the first stretch so you know if it’s working",
@@ -495,14 +473,14 @@ export const storeSectionCopy = {
       title: "Organic marketing ideas",
       price: "$19",
       category: "Content Creation",
-      blurb: "Earned ideas - not another content calendar.",
+      blurb: "Earned ideas, not another content calendar.",
       overview: {
         eyebrow: "Digital guide",
-        headline: "Earned attention ideas - not another content calendar.",
+        headline: "Earned attention ideas, not another content calendar.",
         lead:
           "A compact set of organic marketing ideas for product brands that want people to stay with the story longer. Built for campaigns and series thinking, not random posts.",
         highlights: [
-          "Ideas designed to earn attention - not rent a spike",
+          "Ideas designed to earn attention, not rent a spike",
           "Angles that work as complementary pieces around one campaign",
           "Prompts you can brief to a creator, team day, or yourself",
           "A simple filter so weak ideas never make the calendar",
@@ -534,7 +512,7 @@ export const storeSectionCopy = {
 export type StoreGuide = (typeof storeSectionCopy.items)[number];
 
 export const moreServicesSectionCopy = {
-  label: "Looking for more?",
+  label: "Need something else?",
   headlineLead: "Need Research & Positioning, Marketing Strategy, or a campaign content series.",
   headlineRest: "I shape the mix around your product. The full cycle stays connected.",
   contact: {
@@ -549,17 +527,17 @@ export const teamSectionCopy = {
   sectionLabel: "Who I am",
   sectionTitleLead: "meet the",
   sectionTitle: "Founder.",
-  titleLead: "You built something worth buying.",
-  title: "Now get the right people to find it.",
+  titleLead: "You built something worth\u00A0buying.",
+  title: "Now it's time for your audience to find\u00A0you.",
   company: "nau studio",
   lead:
-    "Hi - I'm Stefani. I help founders turn a strong product into demand that lasts longer than one campaign.",
+    "I'm Stefani. I help founders bring strong products to the people who should buy them, with demand that lasts beyond a single campaign.",
   field:
-    "We lock who it's for and why it wins. Then I make 10 series or promo videos around that story - UGC I create, or a shoot with you and your team anywhere in Europe.",
+    "We start by defining who the product is for, why it wins, and what to say. Then I produce those ten videos as UGC I create, or filmed with you and your team anywhere in\u00A0Europe.",
   proof:
-    "Not more random posts. Content people understand fast, remember for the right reason, and share with the buyers already looking for what you made.",
+    "Not another stream of random posts. Clear, memorable videos that people understand in seconds and share with buyers who already need what you\u00A0built.",
   closeLead: "You bring the\u00A0product.",
-  closeEmphasis: "I help the market notice\u00A0it.",
+  closeEmphasis: "I help the right audience find\u00A0it.",
   metrics: [
     { value: "20+", label: "Brands" },
     { value: "60+", label: "Campaigns" },
@@ -601,9 +579,9 @@ export const faqItems = [
       "Product brands that want steady growth: outdoor, travel, marine, consumer tech, lifestyle, sustainable goods and sports equipment. Focus is physical products.",
   },
   {
-    question: "What do you actually help with?",
+    question: "What do you help with?",
     answer:
-      "The full cycle: research, positioning, organic go-to-market, and content as a campaign series - promo videos that complement each other so attention lasts longer. All three services are real. I'm strongest at executing organic GTM and building the storytelling that makes it land.",
+      "The full cycle: research, positioning, organic go-to-market, and content as a campaign series of promo videos that complement each other so attention lasts longer. All three services are real. I'm strongest at executing organic GTM and building the storytelling that makes it land.",
   },
   {
     question: "How are you different from creators?",
@@ -613,17 +591,17 @@ export const faqItems = [
   {
     question: "Is this UGC or social media management?",
     answer:
-      "Neither day-to-day social management nor random UGC. I make exactly 10 series or promo videos around one campaign - either UGC I create, or I come shoot you and your team anywhere in Europe. Research and positioning come first.",
+      "Neither day-to-day social management nor random UGC. I make exactly 10 series or promo videos around one campaign, either UGC I create, or I come shoot you and your team anywhere in Europe. Research and positioning come first.",
   },
   {
     question: "What’s included beyond the 10 videos?",
     answer:
-      "You get ideas for supporting content so the series sits in a 360° strategy - posts, angles and follow-ups that complement the videos. If you want me to execute that supporting layer with you, that’s priced separately.",
+      "You get ideas for supporting content so the series sits in a 360° strategy: posts, angles and follow-ups that complement the videos. If you want me to execute that supporting layer with you, that’s priced separately.",
   },
   {
     question: "Can you help if we already launched?",
     answer:
-      "Yes. I clarify positioning, rebuild the organic go-to-market plan, and create a content series that matches what the product delivers - so the next posts pull people through one story, not scatter them.",
+      "Yes. I clarify positioning, rebuild the organic go-to-market plan, and create a content series that matches what the product delivers, so the next posts pull people through one story, not scatter them.",
   },
   {
     question: "How do I get started?",
@@ -679,18 +657,18 @@ export const contactSectionCopy = {
     message: "Message",
   },
   placeholders: {
-    name: "John Doe",
+    name: "Alex Morgan",
     email: "you@brand.com",
     message:
       "Product, who it's for, where growth feels stuck, and a link if you have one.",
   },
-  submit: "Send Message",
+  submit: "Send message",
   legalLead: "By submitting, you agree to my",
   termsLabel: "Terms",
   privacyLabel: "Privacy Policy",
   headline: "Let's talk.",
   subheadline:
-    "I work with brands that sell movement, escape and adventure - outdoor, travel, experiences and product brands that want steady organic growth.",
+    "I work with brands that sell movement, escape and adventure: outdoor, travel, experiences and product brands that want steady organic growth.",
   prepLabel: "Include in your message",
   prepItems: [
     "The product and what stage it's at",
@@ -705,7 +683,7 @@ export const contactPageCopy = {
   title: "Get in touch.",
   subheadlineLead: "Selling movement, escape or adventure?",
   subheadlineRest:
-    " Reach out. I'll suggest a next step across Research & Positioning, Marketing Strategy or Content Creation.",
+    " Get in touch and I'll suggest a next step across Research & Positioning, Marketing Strategy or Content Creation.",
   teamLead: {
     name: "Stefani Dimitrova",
     role: "Organic GTM & Product Storyteller",
@@ -716,7 +694,7 @@ export const contactPageCopy = {
     email: "Email *",
     message: "Tell me about the product and where growth feels stuck.",
   },
-  submit: "Send Message",
+  submit: "Send message",
   legalLead: "By submitting, you agree to my",
   termsLabel: "Terms",
   privacyLabel: "Privacy Policy",
@@ -724,7 +702,7 @@ export const contactPageCopy = {
 
 export const studioPageCopy = {
   meta: {
-    title: "Studio | Stefani Dimitrova - nau studio Europe",
+    title: "Studio | Stefani Dimitrova · nau studio Europe",
     description:
       "Meet Stefani Dimitrova and nau studio: organic go-to-market, product positioning and campaign content series for outdoor, travel and hospitality brands across Europe. Full cycle from research to launch.",
   },
@@ -747,7 +725,7 @@ export const studioPageCopy = {
     ],
   },
   approach: {
-    lead: "A one-founder practice for product brands - research, positioning and campaign content series in one\u00A0cycle.",
+    lead: "A one-founder practice for product brands: research, positioning and campaign content series in one\u00A0cycle.",
   },
   story: {
     label: "Story",
@@ -759,8 +737,8 @@ export const studioPageCopy = {
       caption: "Stefani Dimitrova",
     },
     paragraphs: [
-      "I started nau because too many product brands were hiring for posts before they had a story worth posting. Outdoor, travel, hospitality and consumer goods teams were shipping real products - then asking a creator to invent the narrative on the day of the shoot.",
-      "My path sits between strategy and making. I research markets, sharpen who the product is for, build organic launch plans, then make the videos myself - 10 series or promo cuts around one campaign, either as UGC I create or on a Europe shoot with you and your team.",
+      "I started nau because too many product brands were hiring for posts before they had a story worth posting. Outdoor, travel, hospitality and consumer goods teams were shipping real products, then asking a creator to invent the narrative on the day of the shoot.",
+      "My path sits between strategy and making. I research markets, sharpen who the product is for, build organic launch plans, then make the videos myself: 10 series or promo cuts around one campaign, either as UGC I create or on a Europe shoot with you and your team.",
       "You keep the expertise. I help turn it into clear positioning, a go-to-market you can run, and complementary videos that keep attention longer instead of renting a spike.",
     ],
     facts: [
@@ -774,16 +752,16 @@ export const studioPageCopy = {
     label: "Practice",
     title: "What is nau studio?",
     lead:
-      "A one-founder practice: research, strategy and campaign content series in one path - so product brands grow without renting attention.",
+      "A one-founder practice: research, strategy and campaign content series in one path, so product brands grow without renting attention.",
     body: [
       "Built for outdoor, travel, hospitality and lifestyle products across Europe.",
-      "Start with strategy, a full launch, or a content series only - the work stays connected.",
+      "Start with strategy, a full launch, or a content series only. The work stays connected.",
     ],
     pillars: [
       {
         number: "001",
         title: "Clarity",
-        text: "Who it's for and why it wins - decided before anyone hits record.",
+        text: "Who it's for and why it wins, decided before anyone presses record.",
       },
       {
         number: "002",
@@ -793,20 +771,20 @@ export const studioPageCopy = {
       {
         number: "003",
         title: "Content",
-        text: "10 series or promo videos I make - UGC I create, or I come shoot you and your team anywhere in Europe - wrapped around one campaign from steps one and two.",
+        text: "10 series or promo videos I make (UGC I create, or I come shoot you and your team anywhere in Europe), wrapped around one campaign from steps one and two.",
       },
     ],
   },
   collaborationPhoto: {
     src: "/images/studio-collaboration.jpg",
-    alt: "Working session at nau studio - reviewing product storytelling and go-to-market on laptop",
+    alt: "Working session at nau studio, reviewing product storytelling and go-to-market on laptop",
     caption: "In session",
   },
   cycle: {
     label: "Method",
     title: "The full cycle of my work.",
     lead:
-      "Six steps from blank page to assets you can run. Content is planned second - after research - and delivered last, once the strategy can carry it.",
+      "Six steps from blank page to assets you can run. Content is planned second, after research, and delivered last, once the strategy can carry it.",
     columns: {
       stage: "Stage",
       focus: "Focus",
@@ -823,13 +801,13 @@ export const studioPageCopy = {
         number: "002",
         title: "Define",
         focus: "Clarity",
-        text: "Who it's for, why it wins, and the messaging - before anyone films a post.",
+        text: "Who it's for, why it wins, and the messaging, before anyone films a post.",
       },
       {
         number: "003",
         title: "Brief",
         focus: "Content",
-        text: "Second after research: lock the 10-video series early - UGC I create, or a Europe shoot with you and your team.",
+        text: "Second after research: lock the 10-video series early. UGC I create, or a Europe shoot with you and your team.",
       },
       {
         number: "004",
@@ -847,7 +825,7 @@ export const studioPageCopy = {
         number: "006",
         title: "Refine",
         focus: "Learning",
-        text: "What resonated, what to cut, and what to ship next in the series - so the cycle compounds.",
+        text: "What resonated, what to cut, and what to ship next in the series, so the cycle compounds.",
       },
     ],
   },
@@ -855,7 +833,7 @@ export const studioPageCopy = {
     label: "Collaborations",
     title: "Custom collaborations.",
     lead:
-      "Have a product launch, repositioning or Europe content day that does not fit a template? Tell me about the brand and where growth feels stuck. I reply with a clear next step - strategy sprint, full launch or a campaign content series.",
+      "Have a product launch, repositioning or Europe content day that does not fit a template? Tell me about the brand and where growth feels stuck. I reply with a clear next step: strategy sprint, full launch or a campaign content series.",
     email: "info@thetimeisnau.com",
     phone: "+359 888 32 9667",
     locationNote: "Working remotely across Europe · On-location shoots anywhere in Europe",
@@ -865,7 +843,7 @@ export const studioPageCopy = {
       company: "Brand / company",
       location: "Where are you based? (city, country)",
       message:
-        "Product, audience, and what you need help with - launch, positioning, GTM or content.",
+        "Product, audience, and what you need help with: launch, positioning, GTM or content.",
     },
     submit: "Send collaboration request",
     legalLead: "By submitting, you agree to my",

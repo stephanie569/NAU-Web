@@ -54,7 +54,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders often treat authenticity as sincerity of feeling. Feelings do not scale. Systems do. An authentic brand voice is a documented set of permissions and prohibitions: what we say, what we never say, which metaphors we own, which customer words we preserve, how we handle disagreement. Without that system, every prompt becomes a roll of the dice-and the dice are weighted toward the median.",
+      text: "Founders often treat authenticity as sincerity of feeling. Feelings do not scale. Systems do. An authentic brand voice is a documented set of permissions and prohibitions: what we say, what we never say, which metaphors we own, which customer words we preserve, how we handle disagreement. Without that system, every prompt becomes a roll of the dice-and the dice are weighted towards the median.",
     },
     {
       type: "p",

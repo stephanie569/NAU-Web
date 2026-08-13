@@ -18,7 +18,7 @@ Keep slug, date, category, image exactly. Improve excerpt + metaDescription. Kee
 
 Inline links in `p`/`ul`/`ol`/`callout`/`takeaway`/`table`/`faq` text: `[label](/blog/slug)` or `[label](https://...)`.
 
-Use `blogLinks.*` values inside markdown links, e.g. `[product-market fit guide](${...})` - NO: must be string literals like `[clarity guide](/blog/product-doesnt-have-marketing-problem-clarity-problem)`.
+Use `blogLinks.*` values inside markdown links, e.g. `[product-market fit guide](${...})`. NO: must be string literals like `[clarity guide](/blog/product-doesnt-have-marketing-problem-clarity-problem)`.
 
 ## Voice
 Professional, educational, human, strategic. Subtle dry British humour ~once per 400-600 words. First person as Stefani / nau strategist. No agency fluff, no buzzwords, no fabricated stats.

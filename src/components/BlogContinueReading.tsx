@@ -56,12 +56,12 @@ export function BlogContinueReading({
       onTouchEnd={onTouchEnd}
     >
       <p className="text-xs uppercase tracking-widest text-muted">
-        Keep reading
+        Continue reading
       </p>
       <h2 className="mt-3 text-2xl font-semibold tracking-tight text-foreground md:text-[1.75rem]">
         {featured
-          ? "If this landed, try this next"
-          : "More from the blog"}
+          ? "If this was useful, read this next"
+          : "More from the journal"}
       </h2>
       <p className="mt-3 max-w-xl text-muted leading-relaxed">
         A complementary essay from the same thread.

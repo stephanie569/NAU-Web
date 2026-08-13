@@ -15,7 +15,7 @@ function parsePostDate(date: string) {
   return Number.isNaN(parsed) ? 0 : parsed;
 }
 
-/** Newest first - same default order as the journal listing. */
+/** Newest first: same default order as the journal listing. */
 export function getPostsByDateDesc() {
   return [...blogPosts].sort(
     (a, b) => parsePostDate(b.date) - parsePostDate(a.date),
@@ -30,7 +30,7 @@ export function getAdjacentPosts(slug: string) {
   }
 
   return {
-    // Newer post (toward the start of newest-first list)
+    // Newer post (towards the start of newest-first list)
     previous: index > 0 ? ordered[index - 1] : undefined,
     // Older post (continue reading chronologically backward / deeper into the archive)
     next: index < ordered.length - 1 ? ordered[index + 1] : undefined,

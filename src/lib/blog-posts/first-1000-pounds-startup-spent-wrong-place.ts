@@ -166,10 +166,10 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "£250 - structured customer interviews and synthesis.",
-        "£350 - conversion-focused landing page and messaging sprint.",
-        "£200 - proof capture (case snippet, demo assets, basic creative).",
-        "£200 - a small, measured traffic test once the page is clear.",
+        "£250: structured customer interviews and synthesis.",
+        "£350: conversion-focused landing page and messaging sprint.",
+        "£200: proof capture (case snippet, demo assets, basic creative).",
+        "£200: a small, measured traffic test once the page is clear.",
       ],
     },
     {

@@ -181,13 +181,13 @@ const post: BlogPost = {
     {
       type: "ol",
       items: [
-        "Day 1 - List five identities your customer wants to signal (taste, competence, care, wit, belonging).",
-        "Day 2 - Walk the location with a phone only. Shoot existing moments that already get photographed. Steal the structure, not the aesthetic.",
-        "Day 3 - Ideate ten moments that make one identity true in under two seconds.",
-        "Day 4 - Kill anything that needs a caption to work. Keep three.",
-        "Day 5 - Prototype in cardboard, tape, and printed type. Photograph each with three phones at three times of day.",
-        "Day 6 - Soft-launch to a small audience. Count unprompted photos before you count impressions.",
-        "Day 7 - Refine light, angle, and one line of copy. Then scale.",
+        "Day 1: List five identities your customer wants to signal (taste, competence, care, wit, belonging).",
+        "Day 2: Walk the location with a phone only. Shoot existing moments that already get photographed. Steal the structure, not the aesthetic.",
+        "Day 3: Ideate ten moments that make one identity true in under two seconds.",
+        "Day 4: Kill anything that needs a caption to work. Keep three.",
+        "Day 5: Prototype in cardboard, tape, and printed type. Photograph each with three phones at three times of day.",
+        "Day 6: Soft-launch to a small audience. Count unprompted photos before you count impressions.",
+        "Day 7: Refine light, angle, and one line of copy. Then scale.",
       ],
     },
     {

@@ -9,7 +9,7 @@ const post: BlogPost = {
   category: "Go-to-Market",
   image: "/images/blog/blog-52-thinking-advantage.png",
   metaDescription:
-    "As AI makes writing cheaper, competitive advantage shifts further toward thinking, judgement, and strategy-not typing speed or output volume.",
+    "As AI makes writing cheaper, competitive advantage shifts further towards thinking, judgement, and strategy-not typing speed or output volume.",
   content: [
     {
       type: "p",

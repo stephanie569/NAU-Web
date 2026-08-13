@@ -209,7 +209,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A fictional example: Northline, a compliance tool for fintech startups, nearly spent £10k on LinkedIn ads with a “AI-native compliance OS” headline. After the five questions, they rewrote for “fintech ops leads pre-Series B who dread audit season,” put a 90-day pilot metric on the page, and measured “audit checklist kickoff booked.” Half the budget tested two messages. One won. They scaled that. The other half would have been spent teaching the internet a slogan nobody needed.",
+      text: "A fictional example: Northline, a compliance tool for fintech startups, nearly spent £10k on LinkedIn ads with a “AI-native compliance OS” headline. After the five questions, they rewrote for “fintech ops leads pre-Series B who dread audit season,” put a 90-day pilot metric on the page, and measured “audit checklist kick-off booked.” Half the budget tested two messages. One won. They scaled that. The other half would have been spent teaching the internet a slogan nobody needed.",
     },
     {
       type: "h2",

@@ -179,7 +179,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Principle A - job before identity",
+      text: "Principle A: job before identity",
     },
     {
       type: "p",
@@ -187,7 +187,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Principle B - action is part of the message",
+      text: "Principle B: action is part of the message",
     },
     {
       type: "p",
@@ -195,7 +195,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Principle C - proof is experiential",
+      text: "Principle C: proof is experiential",
     },
     {
       type: "p",
@@ -203,7 +203,7 @@ const post: BlogPost = {
     },
     {
       type: "h3",
-      text: "Principle D - complexity is a privilege",
+      text: "Principle D: complexity is a privilege",
     },
     {
       type: "p",

@@ -265,7 +265,7 @@ const post: BlogPost = {
     },
     {
       type: "h2",
-      text: "What to change in your next kickoff",
+      text: "What to change in your next kick-off",
     },
     {
       type: "ul",

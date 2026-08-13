@@ -31,7 +31,7 @@ function GuidePoster({ guide }: { guide: StoreGuide }) {
         priority={false}
       />
 
-      {/* Strong readability wash - keeps photos visible but text readable */}
+      {/* Strong readability wash: keeps photos visible but text readable */}
       <div
         aria-hidden
         className="absolute inset-0 z-[1]"

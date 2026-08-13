@@ -152,7 +152,7 @@ body {
   color: #ffffff;
 }
 
-/* Dark theme - remap site tokens + common light surfaces */
+/* Dark theme: remap site tokens + common light surfaces */
 html.dark {
   color-scheme: dark;
   --color-background: #0a0a0a;

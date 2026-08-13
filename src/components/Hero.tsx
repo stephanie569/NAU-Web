@@ -163,7 +163,9 @@ export function HeroCard() {
               className="max-w-md lg:max-w-xl"
             >
               <p className="text-[clamp(1.75rem,3.8vw,3.15rem)] leading-[1.12] font-semibold tracking-[-0.04em] text-white">
-                Making good products hard to{"\u00A0"}ignore.
+                Making good products
+                <br />
+                hard to{"\u00A0"}ignore
               </p>
             </motion.div>
 

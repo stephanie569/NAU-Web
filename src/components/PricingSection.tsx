@@ -170,7 +170,7 @@ export function PricingSection({
                 >
                   {/*
                     Missing upper-right corner; start ~2cm past mid-top.
-                    Outer corners match site cards (≈24–28px / rounded-[28px]).
+                    Outer corners match site cards (≈24-28px / rounded-[28px]).
                   */}
                   <path d="M0.016,0 H0.58 C0.72,0 0.74,0.10 0.74,0.26 C0.74,0.42 0.78,0.54 0.88,0.58 C0.96,0.60 1,0.62 1,0.72 V0.955 C1,0.982 0.985,1 0.968,1 H0.016 C0.006,1 0,0.982 0,0.955 V0.045 C0,0.018 0.006,0 0.016,0 Z" />
                 </clipPath>
@@ -208,8 +208,8 @@ export function PricingSection({
               }`}
             >
               <div className="flex w-full min-w-0 flex-col gap-6 md:gap-7">
-                {/* Primary offer — full width on mobile; capped on desktop for camera pocket */}
-                <div className="flex w-full min-w-0 flex-col gap-5 md:max-w-[36rem] md:gap-6">
+                {/* Primary offer: full width on mobile; capped on desktop for camera pocket */}
+                <div className="flex w-full min-w-0 flex-col gap-5 md:max-w-[44rem] md:gap-6">
                   <div>
                     <p className="text-[12px] font-semibold tracking-[-0.04em] text-white/50">
                       {offer.name}
@@ -250,8 +250,8 @@ export function PricingSection({
                   </div>
                 </div>
 
-                {/* Included — full width + single column on mobile for readable line length */}
-                <div className="w-full min-w-0 border-t border-white/10 pt-5 md:max-w-[40rem] md:pt-6">
+                {/* Included: full width + single column on mobile for readable line length */}
+                <div className="w-full min-w-0 border-t border-white/10 pt-5 md:max-w-[48rem] md:pt-6">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
                     Included
                   </p>
@@ -261,7 +261,7 @@ export function PricingSection({
                         <p className="text-[11px] font-semibold tracking-[-0.04em] text-white/40 tabular-nums">
                           {String(index + 1).padStart(2, "0")}
                         </p>
-                        <p className="mt-1.5 break-words text-[15px] leading-[1.4] font-medium tracking-[-0.03em] text-white md:text-[15px] md:leading-snug md:tracking-[-0.04em]">
+                        <p className="mt-1.5 break-words text-[15px] leading-[1.4] font-medium tracking-[-0.03em] text-pretty text-white md:text-[15px] md:leading-snug md:tracking-[-0.04em]">
                           {item}
                         </p>
                       </li>
@@ -284,7 +284,7 @@ export function PricingSection({
                       <p className="mt-0.5 text-[12px] font-medium tracking-[-0.03em] text-white/45">
                         {detailsOpen
                           ? "Hide details"
-                          : "See everything included"}
+                          : "View everything included"}
                       </p>
                     </div>
                     <Chevron open={detailsOpen} />
