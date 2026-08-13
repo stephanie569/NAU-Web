@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This article is the method I use with founders and product teams. It is not a ceremony. It is a way to keep launches from becoming theatre: lots of noise, little learning, and a Slack channel full of screenshots nobody acts on. If you want the shorter version of why I delay pixels, see [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma). If you want the “is this even worth building?” filter first, start with [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+      text: "This article is the method I use with founders and product teams. It is not a ceremony. It is a way to keep launches from becoming theatre: lots of noise, little learning, and a Slack channel full of screenshots nobody acts on. If you want the shorter version of why I delay pixels, see [why I start every project without opening Figma](/essays/why-i-start-every-project-without-opening-figma). If you want the “is this even worth building?” filter first, start with [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building).",
     },
     {
       type: "h2",
@@ -101,7 +101,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I start with a [product strategy framework before designing a single screen](/blog/product-strategy-framework-before-designing-screen). The goal is not consensus theatre. The goal is tradeoffs people can defend.",
+      text: "I start with a [product strategy framework before designing a single screen](/essays/product-strategy-framework-before-designing-screen). The goal is not consensus theatre. The goal is tradeoffs people can defend.",
     },
     {
       type: "h3",
@@ -140,7 +140,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Narrative is not brand poetry. It is the sequence of sentences that move a stranger from confusion to a next step. Most startups fail here because [the product does not have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Narrative is not brand poetry. It is the sequence of sentences that move a stranger from confusion to a next step. Most startups fail here because [the product does not have a marketing problem-it has a clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "p",
@@ -162,7 +162,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s product pages are instructive even when you are not shipping hardware: one idea per section, proof next to claims, and almost no decorative clutter in the first viewport. Airbnb’s homepage-which I unpack in a [dedicated teardown](/blog/product-teardown-airbnb-homepage)-owns the job immediately: find a place. Startups often bury the job under category language and a carousel of ambitions.",
+      text: "Apple’s product pages are instructive even when you are not shipping hardware: one idea per section, proof next to claims, and almost no decorative clutter in the first viewport. Airbnb’s homepage-which I unpack in a [dedicated teardown](/essays/product-teardown-airbnb-homepage)-owns the job immediately: find a place. Startups often bury the job under category language and a carousel of ambitions.",
     },
     {
       type: "quote",
@@ -277,7 +277,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is also where [product-market fit misunderstandings](/blog/what-founders-get-wrong-about-product-market-fit) show up. Teams treat a spike as fit, or silence as “need more ads.” Learning loops force honesty: if activation is weak, more traffic is a louder version of the same problem-something I unpack in [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "This is also where [product-market fit misunderstandings](/essays/what-founders-get-wrong-about-product-market-fit) show up. Teams treat a spike as fit, or silence as “need more ads.” Learning loops force honesty: if activation is weak, more traffic is a louder version of the same problem-something I unpack in [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "takeaway",
@@ -353,7 +353,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is how [systems compound instead of campaigns thrashing](/blog/why-i-care-more-about-systems-than-campaigns). The launch arc is not a one-off waterfall. It is a loop you re-enter with better questions each time-especially after you confuse [product shipping with business building](/blog/difference-building-product-and-building-business).",
+      text: "This is how [systems compound instead of campaigns thrashing](/essays/why-i-care-more-about-systems-than-campaigns). The launch arc is not a one-off waterfall. It is a loop you re-enter with better questions each time-especially after you confuse [product shipping with business building](/essays/difference-building-product-and-building-business).",
     },
     {
       type: "callout",
@@ -366,11 +366,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A good launch arc is the seed of an operating system: positioning, experience, proof, and learning that campaigns can amplify later. That is why [I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns). Campaigns without this foundation are sparks. Sparks are lovely. They do not heat a house.",
+      text: "A good launch arc is the seed of an operating system: positioning, experience, proof, and learning that campaigns can amplify later. That is why [I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns). Campaigns without this foundation are sparks. Sparks are lovely. They do not heat a house.",
     },
     {
       type: "p",
-      text: "If you only have thirty days, the same arc still applies-compressed. I outline that compression in [what I would change if you gave me your startup for 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days).",
+      text: "If you only have thirty days, the same arc still applies-compressed. I outline that compression in [what I would change if you gave me your startup for 30 days](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days).",
     },
     {
       type: "faq",
@@ -413,7 +413,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Launches go wrong when teams confuse motion with progress. The arc above is deliberately unglamorous. That is the point. Strategy, narrative, experience, proof, launch, learning-then repeat with better questions. For complementary framing on commercial reality versus feature shipping, read [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
+      text: "Launches go wrong when teams confuse motion with progress. The arc above is deliberately unglamorous. That is the point. Strategy, narrative, experience, proof, launch, learning-then repeat with better questions. For complementary framing on commercial reality versus feature shipping, read [the difference between building a product and building a business](/essays/difference-building-product-and-building-business).",
     },
     {
       type: "cta",

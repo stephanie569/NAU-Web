@@ -43,9 +43,9 @@ export function BlogContinueReading({
     }
 
     if (dx < 0 && next) {
-      router.push(`/blog/${next.slug}`);
+      router.push(`/essays/${next.slug}`);
     } else if (dx > 0 && previous) {
-      router.push(`/blog/${previous.slug}`);
+      router.push(`/essays/${previous.slug}`);
     }
   }
 
@@ -72,7 +72,7 @@ export function BlogContinueReading({
 
       {featured && (
         <Link
-          href={`/blog/${featured.slug}`}
+          href={`/essays/${featured.slug}`}
           className="group mt-10 grid gap-8 border border-border bg-surface/40 p-5 transition-colors hover:border-foreground/30 md:grid-cols-2 md:p-6"
         >
           <div className="relative aspect-[16/9] overflow-hidden bg-surface">
@@ -106,7 +106,7 @@ export function BlogContinueReading({
           {more.map((post) => (
             <Link
               key={post.slug}
-              href={`/blog/${post.slug}`}
+              href={`/essays/${post.slug}`}
               className="group block border-b border-border pb-8 last:border-b-0 sm:border-b-0 sm:pb-0"
             >
               <div className="relative aspect-[16/9] overflow-hidden bg-surface">
@@ -135,7 +135,7 @@ export function BlogContinueReading({
       >
         {previous ? (
           <Link
-            href={`/blog/${previous.slug}`}
+            href={`/essays/${previous.slug}`}
             className="group block text-left transition-opacity hover:opacity-80"
           >
             <p className="text-xs uppercase tracking-widest text-muted">
@@ -150,7 +150,7 @@ export function BlogContinueReading({
         )}
         {next ? (
           <Link
-            href={`/blog/${next.slug}`}
+            href={`/essays/${next.slug}`}
             className="group block text-left sm:text-right transition-opacity hover:opacity-80"
           >
             <p className="text-xs uppercase tracking-widest text-muted">

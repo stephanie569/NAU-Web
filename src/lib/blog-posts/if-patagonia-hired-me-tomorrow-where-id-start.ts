@@ -38,7 +38,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Startups make a parallel mistake when they put the manifesto on the homepage and the actual offer three clicks deep. Conviction is not a substitute for clarity-though it often tries to be. If that tension feels familiar, [founders often need systems more than more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "Startups make a parallel mistake when they put the manifesto on the homepage and the actual offer three clicks deep. Conviction is not a substitute for clarity-though it often tries to be. If that tension feels familiar, [founders often need systems more than more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "takeaway",
@@ -59,7 +59,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I would not start with a visual refresh. Patagonia’s visual language is already a competitive moat. I would start with journey clarity-the same place I start with early-stage products that have strong founding stories and soft conversion. For the general version of that instinct, see [what I would do if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first).",
+      text: "I would not start with a visual refresh. Patagonia’s visual language is already a competitive moat. I would start with journey clarity-the same place I start with early-stage products that have strong founding stories and soft conversion. For the general version of that instinct, see [what I would do if I joined your startup tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first).",
     },
     {
       type: "h2",
@@ -259,7 +259,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your mission is strong but the site still under-converts, you may be facing a clarity problem dressed as a marketing problem-see [the clarity problem guide](/blog/product-doesnt-have-marketing-problem-clarity-problem). Mission does not exempt you from explaining the offer.",
+      text: "If your mission is strong but the site still under-converts, you may be facing a clarity problem dressed as a marketing problem-see [the clarity problem guide](/essays/product-doesnt-have-marketing-problem-clarity-problem). Mission does not exempt you from explaining the offer.",
     },
     {
       type: "p",
@@ -267,7 +267,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For journey-level redesign beyond a single brand memo, pair this with [how I would redesign a brand’s customer journey](/blog/how-id-redesign-brand-customer-journey). The stages of belief are the same whether you sell outerwear or B2B software; only the artifacts change.",
+      text: "For journey-level redesign beyond a single brand memo, pair this with [how I would redesign a brand’s customer journey](/essays/how-id-redesign-brand-customer-journey). The stages of belief are the same whether you sell outerwear or B2B software; only the artifacts change.",
     },
     {
       type: "h2",

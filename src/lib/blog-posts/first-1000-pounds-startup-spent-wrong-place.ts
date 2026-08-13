@@ -88,7 +88,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If the spend does not reduce a specific uncertainty (who it is for, whether they care, whether they activate), it is probably decoration. Related: [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders).",
+      text: "If the spend does not reduce a specific uncertainty (who it is for, whether they care, whether they activate), it is probably decoration. Related: [the most expensive early-stage mistake](/essays/most-expensive-mistake-early-stage-founders).",
     },
     {
       type: "h2",
@@ -157,7 +157,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Sequence is strategy. The same pound spent after clarity is worth more than the pound spent to avoid clarity. See also [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Sequence is strategy. The same pound spent after clarity is worth more than the pound spent to avoid clarity. See also [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -286,7 +286,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This pairs cleanly with [a 30-day startup reset](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days) when you have more than a fortnight, and with [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit) when the deeper question is whether demand is real.",
+      text: "This pairs cleanly with [a 30-day startup reset](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days) when you have more than a fortnight, and with [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit) when the deeper question is whether demand is real.",
     },
     {
       type: "takeaway",
@@ -347,7 +347,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your early budget feels busy but not clarifying, we can reset the sequence-starting with product strategy and the experience that converts. Companion reads: [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here), [what I would change in 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days), and [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "If your early budget feels busy but not clarifying, we can reset the sequence-starting with product strategy and the experience that converts. Companion reads: [If your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here), [what I would change in 30 days](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days), and [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "p",

@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not saying marketing never fails on its own. I am saying founders under-diagnose the offer. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "I am not saying marketing never fails on its own. I am saying founders under-diagnose the offer. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "takeaway",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "An offer is not a feature list plus a price. It is a promised better tomorrow for a defined someone, under named constraints, at a cost that feels fair for the change. If you cannot say that in plain English, marketing will improvise-and improvisation is expensive. Progress-led framing lives here: [people don’t buy products-they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
+      text: "An offer is not a feature list plus a price. It is a promised better tomorrow for a defined someone, under named constraints, at a cost that feels fair for the change. If you cannot say that in plain English, marketing will improvise-and improvisation is expensive. Progress-led framing lives here: [people don’t buy products-they buy a better version of tomorrow](/essays/people-dont-buy-products-buy-better-tomorrow).",
     },
     {
       type: "callout",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Promotion is the last mile. Calendar, creatives, channels, launch theatre-all useful once offer, experience, and proof hold. Amplifying a broken offer is how CAC becomes a personality trait. For the spend checklist: [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Promotion is the last mile. Calendar, creatives, channels, launch theatre-all useful once offer, experience, and proof hold. Amplifying a broken offer is how CAC becomes a personality trait. For the spend checklist: [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "takeaway",
@@ -155,7 +155,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The healthiest teams treat marketing as a sensor for product truth. Campaigns surface objections. Conversion drop-offs map to unclear value. Churn interviews rewrite roadmaps. The unhealthiest teams treat marketing as a paint job for decisions already frozen. If your best marketing already feels like product design, you are on the right side of this: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "The healthiest teams treat marketing as a sensor for product truth. Campaigns surface objections. Conversion drop-offs map to unclear value. Churn interviews rewrite roadmaps. The unhealthiest teams treat marketing as a paint job for decisions already frozen. If your best marketing already feels like product design, you are on the right side of this: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "ol",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes the offer is sharp, the experience delivers, proof exists-and distribution is simply underbuilt. Sparse presence. Inconsistent cadence. No launch runway. No earned attention system. Those are marketing problems. Solve them with systems, not panic: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned). And remember that launch work starts early: [your launch campaign starts long before launch day](/blog/launch-campaign-starts-long-before-launch-day).",
+      text: "Sometimes the offer is sharp, the experience delivers, proof exists-and distribution is simply underbuilt. Sparse presence. Inconsistent cadence. No launch runway. No earned attention system. Those are marketing problems. Solve them with systems, not panic: [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned). And remember that launch work starts early: [your launch campaign starts long before launch day](/essays/launch-campaign-starts-long-before-launch-day).",
     },
     {
       type: "table",
@@ -224,7 +224,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes the product is fine and the frame is wrong. Wrong neighbour category. Wrong primary buyer. Wrong tomorrow. That is still a product-marketing problem-not a media-buying problem. A tight repositioning pass can save months of calendar theatre. Try [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Sometimes the product is fine and the frame is wrong. Wrong neighbour category. Wrong primary buyer. Wrong tomorrow. That is still a product-marketing problem-not a media-buying problem. A tight repositioning pass can save months of calendar theatre. Try [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "h2",
@@ -240,7 +240,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am allergic to campaign calendars that ignore the offer. At nau, growth work usually starts with clarity: who it is for, what tomorrow changes, whether the product keeps that promise, and only then how we distribute it. If what you need is not more activity, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "I am allergic to campaign calendars that ignore the offer. At nau, growth work usually starts with clarity: who it is for, what tomorrow changes, whether the product keeps that promise, and only then how we distribute it. If what you need is not more activity, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "faq",

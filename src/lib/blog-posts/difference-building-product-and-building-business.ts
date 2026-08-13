@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I work at the seam between the two: narrative, experience, and proof that support willingness to pay. This article separates the workstreams so founders stop shipping features as a substitute for commercial clarity-and so product teams stop treating pricing pages as someone else’s problem. For the “is it worth building?” filter, see [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+      text: "I work at the seam between the two: narrative, experience, and proof that support willingness to pay. This article separates the workstreams so founders stop shipping features as a substitute for commercial clarity-and so product teams stop treating pricing pages as someone else’s problem. For the “is it worth building?” filter, see [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building).",
     },
     {
       type: "h2",
@@ -92,7 +92,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Practise with [the product strategy framework](/blog/product-strategy-framework-before-designing-screen) and be ruthless about who is out. Broad love is not a business model.",
+      text: "Practise with [the product strategy framework](/essays/product-strategy-framework-before-designing-screen) and be ruthless about who is out. Broad love is not a business model.",
     },
     {
       type: "h3",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Pricing pages fail when they list modules instead of progress. That is a [clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem) with a number attached.",
+      text: "Pricing pages fail when they list modules instead of progress. That is a [clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem) with a number attached.",
     },
     {
       type: "h3",
@@ -125,7 +125,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why [more marketing is often the wrong ask](/blog/founders-actually-need-isnt-more-marketing). Distribution amplifies a clear exchange. It cannot invent one. Build [systems under campaigns](/blog/why-i-care-more-about-systems-than-campaigns) so channels inherit positioning and proof.",
+      text: "This is why [more marketing is often the wrong ask](/essays/founders-actually-need-isnt-more-marketing). Distribution amplifies a clear exchange. It cannot invent one. Build [systems under campaigns](/essays/why-i-care-more-about-systems-than-campaigns) so channels inherit positioning and proof.",
     },
     {
       type: "h3",
@@ -137,7 +137,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Hospitality taught me this viscerally-see [lessons across AI, hospitality, and consumer](/blog/learned-working-across-ai-hospitality-consumer-products). A gorgeous booking experience that collapses at check-in is not a business. It is a disappointment machine with a brand.",
+      text: "Hospitality taught me this viscerally-see [lessons across AI, hospitality, and consumer](/essays/learned-working-across-ai-hospitality-consumer-products). A gorgeous booking experience that collapses at check-in is not a business. It is a disappointment machine with a brand.",
     },
     {
       type: "takeaway",
@@ -149,7 +149,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I treat the homepage as seriously as the roadmap because it is commercial infrastructure. It is where strangers test whether the business story makes sense. [Auditing startup websites](/blog/audited-50-startup-websites-10-mistakes) repeatedly shows product-centric pages that never finish the business pitch: no buyer, no outcome, no proof, no path.",
+      text: "I treat the homepage as seriously as the roadmap because it is commercial infrastructure. It is where strangers test whether the business story makes sense. [Auditing startup websites](/essays/audited-50-startup-websites-10-mistakes) repeatedly shows product-centric pages that never finish the business pitch: no buyer, no outcome, no proof, no path.",
     },
     {
       type: "p",
@@ -169,12 +169,12 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Teams stuck on Capability ship forever. Teams that jump to Exchange without Capability oversell. Teams without Compounding reboot strategy every quarter. [Strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product) is largely about connecting the first two and installing the third.",
+      text: "Teams stuck on Capability ship forever. Teams that jump to Exchange without Capability oversell. Teams without Compounding reboot strategy every quarter. [Strategy to launch](/essays/from-strategy-to-launch-how-i-approach-new-product) is largely about connecting the first two and installing the third.",
     },
     {
       type: "callout",
       title: "Exercise (90 minutes)",
-      text: "Draw three columns: Capability, Exchange, Compounding. List your top ten roadmap items under Capability. For each, write how it improves Exchange (acquisition, conversion, price realisation, retention) or Compounding (learning, proof, operational leverage). Anything that maps to neither is a candidate cut-see also [features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
+      text: "Draw three columns: Capability, Exchange, Compounding. List your top ten roadmap items under Capability. For each, write how it improves Exchange (acquisition, conversion, price realisation, retention) or Compounding (learning, proof, operational leverage). Anything that maps to neither is a candidate cut-see also [features nobody asked for](/essays/hidden-cost-building-features-nobody-asked-for).",
     },
     {
       type: "h2",
@@ -261,7 +261,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Design-led founders have a parallel trap: polishing the artefact while the exchange stays vague. [Why I start without Figma](/blog/why-i-start-every-project-without-opening-figma) exists for that reason. Pixels can wait until Capability and Exchange are at least hypothesised.",
+      text: "Design-led founders have a parallel trap: polishing the artefact while the exchange stays vague. [Why I start without Figma](/essays/why-i-start-every-project-without-opening-figma) exists for that reason. Pixels can wait until Capability and Exchange are at least hypothesised.",
     },
     {
       type: "h2",
@@ -278,7 +278,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is compatible with [a 30-day startup reset](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days) and with [client-fit questions](/blog/questions-i-ask-before-taking-any-client) if you bring in help. The point is motion toward exchange, not a ceremonial transformation programme.",
+      text: "This is compatible with [a 30-day startup reset](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days) and with [client-fit questions](/essays/questions-i-ask-before-taking-any-client) if you bring in help. The point is motion toward exchange, not a ceremonial transformation programme.",
     },
     {
       type: "h2",
@@ -308,7 +308,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The reverse also happens: a product with clear capability and weak commercial motion, surviving on hope and a thin waitlist. That needs offer design, distribution experiments, and proof-not another feature sprint. [Most expensive early-stage mistakes](/blog/most-expensive-mistake-early-stage-founders) often live in this confusion.",
+      text: "The reverse also happens: a product with clear capability and weak commercial motion, surviving on hope and a thin waitlist. That needs offer design, distribution experiments, and proof-not another feature sprint. [Most expensive early-stage mistakes](/essays/most-expensive-mistake-early-stage-founders) often live in this confusion.",
     },
     {
       type: "ul",
@@ -374,7 +374,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I connect product strategy to commercial reality because screens without exchange are unfinished companies. Build the product. Build the business. Then keep the bridge maintained-because left alone, teams happily wander back to the comfort of shipping. For a sequenced method, use [from strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product).",
+      text: "I connect product strategy to commercial reality because screens without exchange are unfinished companies. Build the product. Build the business. Then keep the bridge maintained-because left alone, teams happily wander back to the comfort of shipping. For a sequenced method, use [from strategy to launch](/essays/from-strategy-to-launch-how-i-approach-new-product).",
     },
     {
       type: "cta",

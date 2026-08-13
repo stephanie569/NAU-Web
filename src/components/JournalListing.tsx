@@ -14,10 +14,10 @@ const SORT_OPTIONS: { value: SortOption; label: string }[] = [
 ];
 
 const TOPIC_FILTERS = [
-  "All",
-  "Research & Positioning",
-  "Go-to-Market",
   "Content",
+  "Go-to-Market",
+  "Research & Positioning",
+  "All",
 ] as const;
 
 function parsePostDate(date: string) {
@@ -25,12 +25,55 @@ function parsePostDate(date: string) {
   return Number.isNaN(parsed) ? 0 : parsed;
 }
 
+function DotsMenu({ variant = "muted" }: { variant?: "muted" | "mac" }) {
+  if (variant === "mac") {
+    return (
+      <div className="flex items-center gap-1.5 px-1">
+        <span className="h-2 w-2 rounded-full bg-[#ff5f57]" />
+        <span className="h-2 w-2 rounded-full bg-[#febc2e]" />
+        <span className="h-2 w-2 rounded-full bg-[#28c840]" />
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex items-center gap-1 px-1">
+      <span className="h-1 w-1 rounded-full bg-[#0a0a0a]" />
+      <span className="h-1 w-1 rounded-full bg-[#0a0a0a]/35" />
+      <span className="h-1 w-1 rounded-full bg-[#0a0a0a]/35" />
+    </div>
+  );
+}
+
 export function JournalListing({ posts }: { posts: BlogPost[] }) {
   const categories = TOPIC_FILTERS;
 
-  const [category, setCategory] = useState<string>("All");
+  const [category, setCategory] = useState<string>("Content");
   const [sort, setSort] = useState<SortOption>("newest");
   const [query, setQuery] = useState("");
+
+  const latestSlugByCategory = useMemo(() => {
+    const latest = new Map<string, BlogPost>();
+
+    for (const post of posts) {
+      const current = latest.get(post.category);
+      if (!current || parsePostDate(post.date) > parsePostDate(current.date)) {
+        latest.set(post.category, post);
+      }
+    }
+
+    return new Map(
+      [...latest.entries()].map(([categoryName, post]) => [
+        categoryName,
+        post.slug,
+      ]),
+    );
+  }, [posts]);
+
+  const banneredSlugs = useMemo(
+    () => new Set(latestSlugByCategory.values()),
+    [latestSlugByCategory],
+  );
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -47,31 +90,35 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
     });
 
     next.sort((a, b) => {
+      const aBannered = banneredSlugs.has(a.slug);
+      const bBannered = banneredSlugs.has(b.slug);
+      if (aBannered !== bBannered) return aBannered ? -1 : 1;
+
       if (sort === "a-z") return a.title.localeCompare(b.title);
       const diff = parsePostDate(a.date) - parsePostDate(b.date);
       return sort === "newest" ? -diff : diff;
     });
 
     return next;
-  }, [posts, category, sort, query]);
+  }, [posts, category, sort, query, banneredSlugs]);
 
   return (
     <div>
-      <div className="mb-10 flex flex-col gap-6 border-b border-border pb-8">
+      <div className="mb-10 flex flex-col gap-6 border-b border-[#0a0a0a]/10 pb-8">
         <label className="block w-full max-w-xl">
-          <span className="sr-only">Search blog</span>
+          <span className="sr-only">Search essays</span>
           <input
             type="search"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search titles and topics…"
-            className="w-full border border-border bg-surface px-4 py-3 text-[15px] font-medium tracking-[-0.04em] text-foreground outline-none placeholder:text-muted focus:border-foreground/30"
+            className="w-full rounded-[12px] border border-[#0a0a0a]/12 bg-white px-4 py-3 text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none placeholder:text-[#0a0a0a]/40 focus:border-[#0a0a0a]/30"
           />
         </label>
 
         <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
           <div>
-            <p className="mb-3 text-xs uppercase tracking-widest text-muted">
+            <p className="mb-3 text-xs uppercase tracking-widest text-[#0a0a0a]/45">
               Filter by topic
             </p>
             <div className="flex flex-wrap gap-2">
@@ -82,10 +129,10 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
                     key={item}
                     type="button"
                     onClick={() => setCategory(item)}
-                    className={`border px-3 py-1.5 text-[13px] font-medium tracking-[-0.03em] transition-colors ${
+                    className={`rounded-full border px-3 py-1.5 text-[13px] font-medium tracking-[-0.03em] transition-colors ${
                       active
-                        ? "border-foreground bg-foreground text-white"
-                        : "border-border bg-white text-foreground hover:border-foreground/40"
+                        ? "border-[#0a0a0a] bg-[#0a0a0a] text-white"
+                        : "border-[#0a0a0a]/12 bg-white text-[#0a0a0a] hover:border-[#0a0a0a]/40"
                     }`}
                   >
                     {item}
@@ -96,7 +143,7 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
           </div>
 
           <div className="lg:shrink-0">
-            <p className="mb-3 text-xs uppercase tracking-widest text-muted">
+            <p className="mb-3 text-xs uppercase tracking-widest text-[#0a0a0a]/45">
               Sort
             </p>
             <div className="flex flex-wrap gap-2">
@@ -107,10 +154,10 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
                     key={option.value}
                     type="button"
                     onClick={() => setSort(option.value)}
-                    className={`border px-3 py-1.5 text-[13px] font-medium tracking-[-0.03em] transition-colors ${
+                    className={`rounded-full border px-3 py-1.5 text-[13px] font-medium tracking-[-0.03em] transition-colors ${
                       active
-                        ? "border-foreground bg-foreground text-white"
-                        : "border-border bg-white text-foreground hover:border-foreground/40"
+                        ? "border-[#0a0a0a] bg-[#0a0a0a] text-white"
+                        : "border-[#0a0a0a]/12 bg-white text-[#0a0a0a] hover:border-[#0a0a0a]/40"
                     }`}
                   >
                     {option.label}
@@ -121,44 +168,73 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
           </div>
         </div>
 
-        <p className="text-[13px] font-medium tracking-[-0.03em] text-muted">
+        <p className="text-[13px] font-medium tracking-[-0.03em] text-[#0a0a0a]/45">
           Showing {filtered.length} of {posts.length}{" "}
           {filtered.length === 1 ? "essay" : "essays"}
           {category !== "All" ? ` in ${category}` : ""}
         </p>
       </div>
 
-      <div className="grid gap-12">
-        {filtered.map((post) => (
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
+        {filtered.map((post) => {
+          const isLatest = banneredSlugs.has(post.slug);
+
+          return (
           <Link
             key={post.slug}
-            href={`/blog/${post.slug}`}
-            className="group grid gap-8 border-b border-border pb-12 md:grid-cols-2"
+            href={`/essays/${post.slug}`}
+            className="group block h-full"
           >
-            <div className="relative aspect-[16/9] overflow-hidden bg-surface">
-              <Image
-                src={post.image}
-                alt={post.title}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </div>
-            <div className="flex flex-col justify-center">
-              <p className="text-xs uppercase tracking-widest text-muted">
-                {post.category} · {post.date}
-              </p>
-              <h2 className="mt-3 text-2xl font-semibold group-hover:underline">
-                {post.title}
-              </h2>
-              <p className="mt-3 text-muted leading-relaxed">{post.excerpt}</p>
-            </div>
+            <article className="flex h-full flex-col overflow-hidden rounded-[14px] bg-white">
+              <div className="flex items-center justify-between px-4 py-3.5 sm:px-5 sm:py-4">
+                <div className="flex min-w-0 items-baseline gap-1">
+                  <span className="truncate text-[14px] font-medium tracking-[-0.04em] text-[#0a0a0a] sm:text-[15px]">
+                    {post.title}
+                  </span>
+                  <span className="hidden shrink-0 text-[11px] font-medium tabular-nums text-[#090909]/60 sm:inline sm:text-xs">
+                    /{post.category.split(" ")[0]}
+                  </span>
+                </div>
+                <DotsMenu variant="mac" />
+              </div>
+
+              <div className="relative mx-1 aspect-[5/4] overflow-hidden rounded-[12px] sm:aspect-[4/3]">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+                <div className="absolute inset-0 bg-[#0a0a0a]/10" />
+                {isLatest && (
+                  <div className="absolute inset-x-0 top-0 z-[1] flex items-center justify-center bg-[#0a0a0a] px-3 py-2">
+                    <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white">
+                      Latest
+                    </span>
+                  </div>
+                )}
+              </div>
+
+              <div className="flex flex-1 flex-col gap-3 px-4 py-4 sm:px-5 sm:py-5">
+                <p className="text-[12px] font-medium uppercase tracking-[0.12em] text-[#0a0a0a]/40">
+                  {post.category} · {post.date}
+                </p>
+                <p className="line-clamp-3 text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/60">
+                  {post.excerpt}
+                </p>
+                <span className="mt-auto inline-flex w-full items-center justify-center rounded-full bg-[#0a0a0a] px-4 py-2.5 text-[13px] font-semibold tracking-[-0.03em] text-white transition-opacity group-hover:opacity-90">
+                  Read essay
+                </span>
+              </div>
+            </article>
           </Link>
-        ))}
+          );
+        })}
       </div>
 
       {filtered.length === 0 && (
-        <p className="py-16 text-center text-[15px] font-medium tracking-[-0.04em] text-muted">
+        <p className="py-16 text-center text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
           No essays match that filter. Try another topic - or clear the search.
         </p>
       )}

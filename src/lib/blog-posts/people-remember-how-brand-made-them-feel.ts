@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece sits beside [most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember), which makes the emotion-versus-optimisation case. Here the focus is sharper: feeling as the residue of marketing in the wild-how to design it, how it travels without share asks, and how it outlives the feed that tried to carry it.",
+      text: "This piece sits beside [most growth strategies ignore the one thing people actually remember](/essays/growth-strategies-ignore-what-people-remember), which makes the emotion-versus-optimisation case. Here the focus is sharper: feeling as the residue of marketing in the wild-how to design it, how it travels without share asks, and how it outlives the feed that tried to carry it.",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I have watched teams ship thirty assets in a month and still be unmemorable because none of the assets created a bodily or social spike: pride, relief, delight, competence, mild awe. Related: [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "I have watched teams ship thirty assets in a month and still be unmemorable because none of the assets created a bodily or social spike: pride, relief, delight, competence, mild awe. Related: [memorable brands don’t interrupt-they give something worth remembering](/essays/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "takeaway",
@@ -53,11 +53,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Emotion is how stories become portable. People share what makes them look generous, sharp, or alive-not what makes your content calendar look full. That is why [people rarely share advertisements-they share stories they happened to be part of](/blog/people-rarely-share-advertisements-share-stories), and why [the best marketing doesn’t ask people to share it](/blog/best-marketing-doesnt-ask-people-to-share).",
+      text: "Emotion is how stories become portable. People share what makes them look generous, sharp, or alive-not what makes your content calendar look full. That is why [people rarely share advertisements-they share stories they happened to be part of](/essays/people-rarely-share-advertisements-share-stories), and why [the best marketing doesn’t ask people to share it](/essays/best-marketing-doesnt-ask-people-to-share).",
     },
     {
       type: "p",
-      text: "Feeling also warms digital belief. A stranger who felt something in public arrives online with a different prior. Ads become reminders. Pages become continuations. Belief gets cheaper when the body was involved first-[the internet still needs the real world](/blog/internet-still-needs-the-real-world).",
+      text: "Feeling also warms digital belief. A stranger who felt something in public arrives online with a different prior. Ads become reminders. Pages become continuations. Belief gets cheaper when the body was involved first-[the internet still needs the real world](/essays/internet-still-needs-the-real-world).",
     },
     {
       type: "image",
@@ -122,7 +122,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Feelings need scenes-places and behaviours-not adjectives. A demo that removes embarrassment in under three minutes. A public invitation that makes someone feel early. A support ritual that turns panic into steadiness. Listen for the scene before you film it: [why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera).",
+      text: "Feelings need scenes-places and behaviours-not adjectives. A demo that removes embarrassment in under three minutes. A public invitation that makes someone feel early. A support ritual that turns panic into steadiness. Listen for the scene before you film it: [why your next campaign should begin with a conversation, not a camera](/essays/next-campaign-begin-conversation-not-camera).",
     },
     {
       type: "h3",
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Artefacts, stamps, photos, follow-up notes, return invitations-residue keeps the feeling from dying with the moment. Good marketing leaves footprints before impressions: [good marketing leaves footprints before it leaves impressions](/blog/good-marketing-leaves-footprints-before-impressions). Photogenic residue helps without begging: [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
+      text: "Artefacts, stamps, photos, follow-up notes, return invitations-residue keeps the feeling from dying with the moment. Good marketing leaves footprints before impressions: [good marketing leaves footprints before it leaves impressions](/essays/good-marketing-leaves-footprints-before-impressions). Photogenic residue helps without begging: [how to create marketing people photograph](/essays/how-to-create-marketing-people-photograph).",
     },
     {
       type: "ul",
@@ -147,7 +147,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The final test is whether someone can retell the feeling in twenty seconds without your caption. If retelling requires your brand deck, the feeling was never owned by them. Street-to-phone systems help recall travel: [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "The final test is whether someone can retell the feeling in twenty seconds without your caption. If retelling requires your brand deck, the feeling was never owned by them. Street-to-phone systems help recall travel: [a good street campaign doesn’t end on the street](/essays/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "takeaway",
@@ -159,11 +159,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Feelings rarely start in the CMS. They start in queues, markets, dinners, support threads that resolve with dignity, product details that remove shame, local rituals that make a city feel briefly yours. Your city remains an underrated studio for this work: [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel). A walk still beats another content brainstorm: [your next marketing campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
+      text: "Feelings rarely start in the CMS. They start in queues, markets, dinners, support threads that resolve with dignity, product details that remove shame, local rituals that make a city feel briefly yours. Your city remains an underrated studio for this work: [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel). A walk still beats another content brainstorm: [your next marketing campaign should start with a walk](/essays/next-marketing-campaign-should-start-with-walk).",
     },
     {
       type: "p",
-      text: "Offline contact also supplies the credibility factory digital needs-see the companion essay [why the internet still needs the real world](/blog/why-internet-still-needs-real-world) and [the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
+      text: "Offline contact also supplies the credibility factory digital needs-see the companion essay [why the internet still needs the real world](/essays/why-internet-still-needs-real-world) and [the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen).",
     },
     {
       type: "h2",
@@ -245,7 +245,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "At nau I treat feeling as part of the growth system: scenes in the world, residue that travels, digital that reminds rather than invents. Publishing still matters-as documentation and invitation-not as a substitute for being memorable. Earned growth is still earned: [organic growth isn’t free; it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "At nau I treat feeling as part of the growth system: scenes in the world, residue that travels, digital that reminds rather than invents. Publishing still matters-as documentation and invitation-not as a substitute for being memorable. Earned growth is still earned: [organic growth isn’t free; it’s earned](/essays/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "faq",

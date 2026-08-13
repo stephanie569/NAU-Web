@@ -102,7 +102,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Niche first is not permanent smallness. It is how you earn the right to expand without paying for confusion at every stage of the funnel. For the clarity version of this problem, see [why products often have a clarity problem, not a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Niche first is not permanent smallness. It is how you earn the right to expand without paying for confusion at every stage of the funnel. For the clarity version of this problem, see [why products often have a clarity problem, not a marketing problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "h2",
@@ -137,7 +137,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "A useful test",
-      text: "If removing a feature would not change your primary customer’s first-week outcome, it is probably not strategy-it is anxiety with a pull request. The [hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for) is rarely the build week. It is the years of explaining, supporting, and navigating around it.",
+      text: "If removing a feature would not change your primary customer’s first-week outcome, it is probably not strategy-it is anxiety with a pull request. The [hidden cost of building features nobody asked for](/essays/hidden-cost-building-features-nobody-asked-for) is rarely the build week. It is the years of explaining, supporting, and navigating around it.",
     },
     {
       type: "h3",
@@ -178,7 +178,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why so many teams “test ads” and conclude the channel does not work. The channel worked. It delivered people into a product that did not repay attention quickly enough. For a related pattern, see [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders) and [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "This is why so many teams “test ads” and conclude the channel does not work. The channel worked. It delivered people into a product that did not repay attention quickly enough. For a related pattern, see [the most expensive early-stage mistake](/essays/most-expensive-mistake-early-stage-founders) and [what founders get wrong about product-market fit](/essays/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "h3",
@@ -196,7 +196,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s onboarding discipline-and more generally, products that treat first-run as part of the product, not a tutorial bolted on-show the same principle: belief is designed, not hoped for. If you want a concrete teardown angle on that idea, I wrote about [how I’d improve Apple’s onboarding experience](/blog/how-id-improve-apple-onboarding-experience).",
+      text: "Apple’s onboarding discipline-and more generally, products that treat first-run as part of the product, not a tutorial bolted on-show the same principle: belief is designed, not hoped for. If you want a concrete teardown angle on that idea, I wrote about [how I’d improve Apple’s onboarding experience](/essays/how-id-improve-apple-onboarding-experience).",
     },
     {
       type: "h3",
@@ -242,7 +242,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why “we need more marketing” is often the wrong diagnosis. Many teams actually need the system underneath marketing to stop contradicting itself. That is the argument behind [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing) and [why every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "This is why “we need more marketing” is often the wrong diagnosis. Many teams actually need the system underneath marketing to stop contradicting itself. That is the argument behind [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing) and [why every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "quote",
@@ -350,7 +350,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a practical starting diagnostic after this, read [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). If the deeper issue is belief before scale, read [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit).",
+      text: "If you want a practical starting diagnostic after this, read [If your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here). If the deeper issue is belief before scale, read [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit).",
     },
     {
       type: "cta",

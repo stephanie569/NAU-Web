@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is a conversion and clarity reading of the homepage as a decision surface for a cold visitor: what already works, what I would tighten for learning value, and how to translate the principles into a startup site that is not a marketplace. For adjacent thinking, see [why startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds) and [landing page reviews that help or hurt](/blog/landing-page-review-helping-hurting-conversions).",
+      text: "This is a conversion and clarity reading of the homepage as a decision surface for a cold visitor: what already works, what I would tighten for learning value, and how to translate the principles into a startup site that is not a marketplace. For adjacent thinking, see [why startup websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds) and [landing page reviews that help or hurt](/essays/landing-page-review-helping-hurting-conversions).",
     },
     {
       type: "h2",
@@ -64,7 +64,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Imagery does real commercial work. It reduces imaginative risk: what might this trip feel like? Hospitality lives on emotional certainty-something I cover in [cross-industry lessons](/blog/learned-working-across-ai-hospitality-consumer-products). Airbnb’s visual density is not random decoration; it is proof of inventory and atmosphere.",
+      text: "Imagery does real commercial work. It reduces imaginative risk: what might this trip feel like? Hospitality lives on emotional certainty-something I cover in [cross-industry lessons](/essays/learned-working-across-ai-hospitality-consumer-products). Airbnb’s visual density is not random decoration; it is proof of inventory and atmosphere.",
     },
     {
       type: "h3",
@@ -183,7 +183,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Airbnb’s identity is strong, but the job still leads. Startups often invert this: logo theatre first, usefulness later. Fix the order. [Clarity problems](/blog/product-doesnt-have-marketing-problem-clarity-problem) love identity-first homepages.",
+      text: "Airbnb’s identity is strong, but the job still leads. Startups often invert this: logo theatre first, usefulness later. Fix the order. [Clarity problems](/essays/product-doesnt-have-marketing-problem-clarity-problem) love identity-first homepages.",
     },
     {
       type: "h3",
@@ -199,7 +199,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Photos and listings are proof. Your startup’s proof might be outcome screenshots, short workflows, or customer narratives with numbers. [Beautiful without conversion](/blog/why-beautiful-websites-dont-always-convert) often means proof never showed up.",
+      text: "Photos and listings are proof. Your startup’s proof might be outcome screenshots, short workflows, or customer narratives with numbers. [Beautiful without conversion](/essays/why-beautiful-websites-dont-always-convert) often means proof never showed up.",
     },
     {
       type: "h3",
@@ -207,7 +207,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Marketplace giants run multi-intent homepages because brand + habit + inventory depth support it. Copying that structure with twenty users and three features creates a ghost town mall. Prefer [systems that compound](/blog/why-i-care-more-about-systems-than-campaigns) over module theatre.",
+      text: "Marketplace giants run multi-intent homepages because brand + habit + inventory depth support it. Copying that structure with twenty users and three features creates a ghost town mall. Prefer [systems that compound](/essays/why-i-care-more-about-systems-than-campaigns) over module theatre.",
     },
     {
       type: "takeaway",
@@ -319,11 +319,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "These contrasts echo patterns from [auditing fifty startup websites](/blog/audited-50-startup-websites-10-mistakes). Airbnb is not perfect; it is instructive. Instruction is the point of a teardown-especially when ego wants to declare winners and losers.",
+      text: "These contrasts echo patterns from [auditing fifty startup websites](/essays/audited-50-startup-websites-10-mistakes). Airbnb is not perfect; it is instructive. Instruction is the point of a teardown-especially when ego wants to declare winners and losers.",
     },
     {
       type: "p",
-      text: "If you are rewriting after this read, pair the exercise with [five minutes on your website is enough to find issues](/blog/five-minutes-on-your-website-enough-to-find-issues) and a constraint check from [what founders need instead of more marketing](/blog/founders-actually-need-isnt-more-marketing). A prettier hero that still cannot finish the pitch is just a more expensive shrug.",
+      text: "If you are rewriting after this read, pair the exercise with [five minutes on your website is enough to find issues](/essays/five-minutes-on-your-website-enough-to-find-issues) and a constraint check from [what founders need instead of more marketing](/essays/founders-actually-need-isnt-more-marketing). A prettier hero that still cannot finish the pitch is just a more expensive shrug.",
     },
     {
       type: "h2",
@@ -331,7 +331,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A teardown without action is entertainment. Fold insights into [strategy-to-launch](/blog/from-strategy-to-launch-how-i-approach-new-product): update positioning if your job is fuzzy; redesign the first viewport; place proof; instrument the primary action; review weekly. If growth still stalls, check whether you are building [product without business](/blog/difference-building-product-and-building-business).",
+      text: "A teardown without action is entertainment. Fold insights into [strategy-to-launch](/essays/from-strategy-to-launch-how-i-approach-new-product): update positioning if your job is fuzzy; redesign the first viewport; place proof; instrument the primary action; review weekly. If growth still stalls, check whether you are building [product without business](/essays/difference-building-product-and-building-business).",
     },
     {
       type: "h2",
@@ -343,7 +343,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Earn adjacent jobs after the core exchange is healthy. That is [product versus business](/blog/difference-building-product-and-building-business) again: capability expansion without exchange clarity creates a museum of half-used modules. If you add a second job, give it a clear entry point-and protect the first viewport for the job that pays the bills today.",
+      text: "Earn adjacent jobs after the core exchange is healthy. That is [product versus business](/essays/difference-building-product-and-building-business) again: capability expansion without exchange clarity creates a museum of half-used modules. If you add a second job, give it a clear entry point-and protect the first viewport for the job that pays the bills today.",
     },
     {
       type: "takeaway",
@@ -389,7 +389,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want the same honesty applied to your site, bring the URL and the customer decision you care about. For a broader audit pattern, [three changes that could double conversion](/blog/website-audit-three-changes-double-conversion) pairs well with this teardown mindset.",
+      text: "If you want the same honesty applied to your site, bring the URL and the customer decision you care about. For a broader audit pattern, [three changes that could double conversion](/essays/website-audit-three-changes-double-conversion) pairs well with this teardown mindset.",
     },
     {
       type: "cta",

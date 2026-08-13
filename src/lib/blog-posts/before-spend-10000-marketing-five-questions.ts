@@ -22,7 +22,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Early-stage teams often treat a marketing budget like a rite of passage: we raised, therefore we advertise. That sequence skips the part where someone proves a cold visitor can understand the offer and take a meaningful next step. If you want a deeper take on why growth stalls look like marketing issues, read [your product doesn’t have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Early-stage teams often treat a marketing budget like a rite of passage: we raised, therefore we advertise. That sequence skips the part where someone proves a cold visitor can understand the offer and take a meaningful next step. If you want a deeper take on why growth stalls look like marketing issues, read [your product doesn’t have a marketing problem-it has a clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "callout",
@@ -159,7 +159,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your website cannot carry a cold visitor to that event in a clear path, fix the path first. See [why most startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds) and [landing page review: is yours helping or hurting conversions?](/blog/landing-page-review-helping-hurting-conversions).",
+      text: "If your website cannot carry a cold visitor to that event in a clear path, fix the path first. See [why most startup websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds) and [landing page review: is yours helping or hurting conversions?](/essays/landing-page-review-helping-hurting-conversions).",
     },
     {
       type: "takeaway",
@@ -229,7 +229,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are still deciding whether spend is even the right next move, [the most expensive mistake early-stage founders keep making](/blog/most-expensive-mistake-early-stage-founders) is scaling an unclear offer. And if positioning itself is mushy, [reposition in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes) before you fund the amplifier.",
+      text: "If you are still deciding whether spend is even the right next move, [the most expensive mistake early-stage founders keep making](/essays/most-expensive-mistake-early-stage-founders) is scaling an unclear offer. And if positioning itself is mushy, [reposition in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes) before you fund the amplifier.",
     },
     {
       type: "faq",
@@ -275,7 +275,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you cannot explain why a channel reaches your one customer with your one outcome, you are choosing fashion. Fashion is a poor CFO. For a broader take on spend sequencing, [where the first £1,000 often goes wrong](/blog/first-1000-pounds-startup-spent-wrong-place) is the smaller-budget cousin of this article.",
+      text: "If you cannot explain why a channel reaches your one customer with your one outcome, you are choosing fashion. Fashion is a poor CFO. For a broader take on spend sequencing, [where the first £1,000 often goes wrong](/essays/first-1000-pounds-startup-spent-wrong-place) is the smaller-budget cousin of this article.",
     },
     {
       type: "h2",
@@ -323,7 +323,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Answer the five questions on one page. If the page feels thin, the budget will feel thinner after the invoice. And if the real issue is that founders need something other than more marketing theatre, read [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "Answer the five questions on one page. If the page feels thin, the budget will feel thinner after the invoice. And if the real issue is that founders need something other than more marketing theatre, read [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "cta",

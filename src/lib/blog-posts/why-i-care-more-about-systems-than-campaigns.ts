@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is not an anti-campaign rant. Campaigns are useful amplifiers. They are terrible foundations. When founders say growth feels random, I usually find a missing system: positioning that drifts, experiences that contradict ads, proof that never gets captured, learning that never becomes shipping. Related: [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "This is not an anti-campaign rant. Campaigns are useful amplifiers. They are terrible foundations. When founders say growth feels random, I usually find a missing system: positioning that drifts, experiences that contradict ads, proof that never gets captured, learning that never becomes shipping. Related: [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "h2",
@@ -84,7 +84,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I keep positioning in a short brief everyone can find-not a brand book nobody opens. When someone proposes a campaign angle that breaks the ICP, the system says no faster than a meeting. For the method, see [the product strategy framework I use before screens](/blog/product-strategy-framework-before-designing-screen) and [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "I keep positioning in a short brief everyone can find-not a brand book nobody opens. When someone proposes a campaign angle that breaks the ICP, the system says no faster than a meeting. For the method, see [the product strategy framework I use before screens](/essays/product-strategy-framework-before-designing-screen) and [repositioning in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "callout",
@@ -101,7 +101,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "An experience system means: shared narrative spine, consistent language, a known primary CTA by stage, and a first-session path designed on purpose. [Best marketing feels like product design](/blog/best-marketing-feels-like-product-design) because the boundary is fake. Users experience one company.",
+      text: "An experience system means: shared narrative spine, consistent language, a known primary CTA by stage, and a first-session path designed on purpose. [Best marketing feels like product design](/essays/best-marketing-feels-like-product-design) because the boundary is fake. Users experience one company.",
     },
     {
       type: "p",
@@ -159,7 +159,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "There is also a sequencing trap. Teams buy ads before the homepage finishes the pitch-then conclude paid “doesn’t work.” Paid worked. It delivered strangers to confusion. That pattern shows up in [why websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds) and [spending the first £1,000 in the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place).",
+      text: "There is also a sequencing trap. Teams buy ads before the homepage finishes the pitch-then conclude paid “doesn’t work.” Paid worked. It delivered strangers to confusion. That pattern shows up in [why websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds) and [spending the first £1,000 in the wrong place](/essays/first-1000-pounds-startup-spent-wrong-place).",
     },
     {
       type: "h2",
@@ -182,7 +182,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is essentially [strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product) turned into ongoing operations. Launch is a moment. Systems are how you avoid needing a heroic relaunch every quarter.",
+      text: "This is essentially [strategy to launch](/essays/from-strategy-to-launch-how-i-approach-new-product) turned into ongoing operations. Launch is a moment. Systems are how you avoid needing a heroic relaunch every quarter.",
     },
     {
       type: "callout",
@@ -278,7 +278,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Lagging indicators still matter-conversion, retention, sales cycle-but if you only watch lagging metrics, you will keep buying campaigns as painkillers. Pair this with [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here) when you need a constraint map.",
+      text: "Lagging indicators still matter-conversion, retention, sales cycle-but if you only watch lagging metrics, you will keep buying campaigns as painkillers. Pair this with [if your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here) when you need a constraint map.",
     },
     {
       type: "p",
@@ -329,7 +329,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "HBR’s writing on [strategy and focus](https://hbr.org/) and YC’s emphasis on [learning velocity](https://www.ycombinator.com/library) both reward this discipline. Speed without a system is thrash. A system without occasional campaigns can become monastic. You want compounding clarity with periodic, honest amplification-see also [what founders need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing) for the diagnosis that decides which mode you are in.",
+      text: "HBR’s writing on [strategy and focus](https://hbr.org/) and YC’s emphasis on [learning velocity](https://www.ycombinator.com/library) both reward this discipline. Speed without a system is thrash. A system without occasional campaigns can become monastic. You want compounding clarity with periodic, honest amplification-see also [what founders need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing) for the diagnosis that decides which mode you are in.",
     },
     {
       type: "takeaway",
@@ -356,7 +356,7 @@ const post: BlogPost = {
         {
           question: "Where do I start if everything feels broken?",
           answer:
-            "Positioning one-pager + homepage clarity + activation instrumentation. Then one learning review. That sequence fixes more than a channel mix refresh. See also [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
+            "Positioning one-pager + homepage clarity + activation instrumentation. Then one learning review. That sequence fixes more than a channel mix refresh. See also [if your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here).",
         },
         {
           question: "How formal should documentation be?",
@@ -382,7 +382,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Care about systems because compounding is the only unfair advantage most early teams can actually build. Campaigns will still matter-especially once [clarity is in place](/blog/product-doesnt-have-marketing-problem-clarity-problem). Until then, another spark is just another chance to admire smoke.",
+      text: "Care about systems because compounding is the only unfair advantage most early teams can actually build. Campaigns will still matter-especially once [clarity is in place](/essays/product-doesnt-have-marketing-problem-clarity-problem). Until then, another spark is just another chance to admire smoke.",
     },
     {
       type: "cta",

@@ -46,7 +46,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A visitor arrives with a private question: is this for me? Your hero has about ten seconds to answer. I cover that window in [why startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds). Abstract taglines (“reimagine workflows”) fail the test. Specific outcomes for a specific customer pass it. Apple’s product pages often lead with capability in plain language, then let the photography earn desire. The order matters: meaning first, mood second.",
+      text: "A visitor arrives with a private question: is this for me? Your hero has about ten seconds to answer. I cover that window in [why startup websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds). Abstract taglines (“reimagine workflows”) fail the test. Specific outcomes for a specific customer pass it. Apple’s product pages often lead with capability in plain language, then let the photography earn desire. The order matters: meaning first, mood second.",
     },
     {
       type: "h3",
@@ -124,7 +124,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the same clarity stack I describe in [your product doesn’t have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem) and the practical changes in [three website changes that can double conversion](/blog/website-audit-three-changes-double-conversion).",
+      text: "This is the same clarity stack I describe in [your product doesn’t have a marketing problem](/essays/product-doesnt-have-marketing-problem-clarity-problem) and the practical changes in [three website changes that can double conversion](/essays/website-audit-three-changes-double-conversion).",
     },
     {
       type: "h2",
@@ -146,7 +146,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "That sequence is why I often start projects without opening design tools-explained in [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma). Stripe’s site historically paired restraint with extreme clarity: you understand the job before you admire the craft. That is the standard.",
+      text: "That sequence is why I often start projects without opening design tools-explained in [why I start every project without opening Figma](/essays/why-i-start-every-project-without-opening-figma). Stripe’s site historically paired restraint with extreme clarity: you understand the job before you admire the craft. That is the standard.",
     },
     {
       type: "callout",
@@ -165,7 +165,7 @@ const post: BlogPost = {
         "Proof sits beside the riskiest claim, not only at the bottom.",
         "Nav does not offer five equal “explore” paths for one ICP.",
         "Page is usable with reduced motion, keyboard only, and slow 3G.",
-        "Messaging matches what sales says on calls-see [founders don’t need more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+        "Messaging matches what sales says on calls-see [founders don’t need more marketing](/essays/founders-actually-need-isnt-more-marketing).",
       ],
     },
     {
@@ -184,7 +184,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If paraphrases disagree, you do not have a traffic problem yet. You have a clarity problem. Dig deeper with the diagnostic in [every startup looks like a marketing problem](/blog/every-startup-looks-like-marketing-problem-until-deeper) before you raise ad spend. Google’s people-first content guidance in [Google Search Central](https://developers.google.com/search/docs) also rewards pages that actually help-another reason clarity beats theatre.",
+      text: "If paraphrases disagree, you do not have a traffic problem yet. You have a clarity problem. Dig deeper with the diagnostic in [every startup looks like a marketing problem](/essays/every-startup-looks-like-marketing-problem-until-deeper) before you raise ad spend. Google’s people-first content guidance in [Google Search Central](https://developers.google.com/search/docs) also rewards pages that actually help-another reason clarity beats theatre.",
     },
     {
       type: "quote",
@@ -211,7 +211,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the same spine as [the strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen). Teams that reverse the order-visual system first-produce the award-bait pattern. Teams that honour the order can still ship something gorgeous; they simply know what the gorgeousness is for.",
+      text: "This is the same spine as [the strategy framework before designing a screen](/essays/product-strategy-framework-before-designing-screen). Teams that reverse the order-visual system first-produce the award-bait pattern. Teams that honour the order can still ship something gorgeous; they simply know what the gorgeousness is for.",
     },
     {
       type: "h3",
@@ -227,7 +227,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A large word that means little loses to a smaller sentence that means everything. Size, weight, and colour should track importance of meaning-not importance of the illustration. When design and messaging fight, messaging should win the first draft, then design should make that win feel inevitable. For a practical list of homepage failure modes I keep seeing, see [ten mistakes from auditing startup websites](/blog/audited-50-startup-websites-10-mistakes).",
+      text: "A large word that means little loses to a smaller sentence that means everything. Size, weight, and colour should track importance of meaning-not importance of the illustration. When design and messaging fight, messaging should win the first draft, then design should make that win feel inevitable. For a practical list of homepage failure modes I keep seeing, see [ten mistakes from auditing startup websites](/essays/audited-50-startup-websites-10-mistakes).",
     },
     {
       type: "p",

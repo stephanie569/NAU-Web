@@ -38,7 +38,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This pairs with deeper strategy work-the [five boxes before designing screens](/blog/product-strategy-framework-before-designing-screen)-but repositioning is the public face of those boxes. If you need the diagnosis first, read [clarity problem vs marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "This pairs with deeper strategy work-the [five boxes before designing screens](/essays/product-strategy-framework-before-designing-screen)-but repositioning is the public face of those boxes. If you need the diagnosis first, read [clarity problem vs marketing problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "takeaway",
@@ -148,7 +148,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Then pressure-test: would a stranger survive the [first ten seconds](/blog/why-startup-websites-fail-first-10-seconds)? If not, simplify further. The homepage is not a museum of everything you might sell later.",
+      text: "Then pressure-test: would a stranger survive the [first ten seconds](/essays/why-startup-websites-fail-first-10-seconds)? If not, simplify further. The homepage is not a museum of everything you might sell later.",
     },
     {
       type: "callout",
@@ -198,7 +198,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are tempted to spend before this lands, revisit [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions). If the team keeps trying to scale the old fog, read [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders).",
+      text: "If you are tempted to spend before this lands, revisit [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions). If the team keeps trying to scale the old fog, read [the most expensive early-stage mistake](/essays/most-expensive-mistake-early-stage-founders).",
     },
     {
       type: "h2",
@@ -294,7 +294,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Dry humour helps; contempt does not. The point is sharper commerce, not winning an argument about who is cleverer. If you need a longer immersion after the hour, [questions I ask before taking any client](/blog/questions-i-ask-before-taking-any-client) mirrors the diagnostic posture-curiosity with a spine.",
+      text: "Dry humour helps; contempt does not. The point is sharper commerce, not winning an argument about who is cleverer. If you need a longer immersion after the hour, [questions I ask before taking any client](/essays/questions-i-ask-before-taking-any-client) mirrors the diagnostic posture-curiosity with a spine.",
     },
     {
       type: "takeaway",

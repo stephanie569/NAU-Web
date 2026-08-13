@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is belief design under time pressure. The same coherence I argue for in [marketing that feels like product design](/blog/best-marketing-feels-like-product-design) applies when the first interface is a pavement and the second is a lock screen.",
+      text: "This is belief design under time pressure. The same coherence I argue for in [marketing that feels like product design](/essays/best-marketing-feels-like-product-design) applies when the first interface is a pavement and the second is a lock screen.",
     },
     {
       type: "takeaway",
@@ -217,7 +217,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Attribution will never be as tidy as a last-click dashboard. That is fine. Directional honesty beats false precision. If you need spend guardrails, use [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions). If early money keeps vanishing into unmeasured motion, read [where the first £1,000 goes wrong](/blog/first-1000-pounds-startup-spent-wrong-place).",
+      text: "Attribution will never be as tidy as a last-click dashboard. That is fine. Directional honesty beats false precision. If you need spend guardrails, use [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions). If early money keeps vanishing into unmeasured motion, read [where the first £1,000 goes wrong](/essays/first-1000-pounds-startup-spent-wrong-place).",
     },
     {
       type: "h2",
@@ -225,11 +225,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Treat follow-up as product operations. Define states: scanned, landed, actioned, activated, stalled. Define owners and SLAs. Write message templates that sound like the street team, not a corporate newsletter that wandered in. Include a path back to another local moment so the city loop continues-see [your city as a marketing channel](/blog/your-city-most-underrated-marketing-channel) for the wider nest strategy.",
+      text: "Treat follow-up as product operations. Define states: scanned, landed, actioned, activated, stalled. Define owners and SLAs. Write message templates that sound like the street team, not a corporate newsletter that wandered in. Include a path back to another local moment so the city loop continues-see [your city as a marketing channel](/essays/your-city-most-underrated-marketing-channel) for the wider nest strategy.",
     },
     {
       type: "p",
-      text: "Also feed insights upstream. Objections heard on the street should change homepage copy within a week. That loop is how campaigns become [systems rather than stunts](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Also feed insights upstream. Objections heard on the street should change homepage copy within a week. That loop is how campaigns become [systems rather than stunts](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h2",
@@ -237,7 +237,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you cannot explain the offer in one sentence, stay off the high street. If you have no capture page, stay off the high street. If nobody owns follow-up after 6pm, stay off the high street. Fix clarity and operations first-[it may not be a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem), and [digging deeper often reveals that](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If you cannot explain the offer in one sentence, stay off the high street. If you have no capture page, stay off the high street. If nobody owns follow-up after 6pm, stay off the high street. Fix clarity and operations first-[it may not be a marketing problem](/essays/product-doesnt-have-marketing-problem-clarity-problem), and [digging deeper often reveals that](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "h2",
@@ -257,7 +257,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are tempted to buy more noise instead of fixing the bridge, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "If you are tempted to buy more noise instead of fixing the bridge, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "faq",

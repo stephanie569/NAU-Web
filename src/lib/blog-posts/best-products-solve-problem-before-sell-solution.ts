@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about building and positioning products so the problem arrives first-in research, in copy, in demos, and in the roadmap. It sits alongside [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building) and [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit). If you are already mid-launch and wondering why the channel feels broken, start here instead of the ad account: [most product launches don't fail because of marketing](/blog/most-product-launches-dont-fail-because-of-marketing).",
+      text: "This piece is about building and positioning products so the problem arrives first-in research, in copy, in demos, and in the roadmap. It sits alongside [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building) and [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit). If you are already mid-launch and wondering why the channel feels broken, start here instead of the ad account: [most product launches don't fail because of marketing](/essays/most-product-launches-dont-fail-because-of-marketing).",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The irony is that problem-first work is faster in the long run. You cut half the backlog before it becomes code. You write landing pages that do not need a thesaurus. You stop arguing about button colours because the conversation is about whether the pain is real. Related reading when the backlog is already bloated: [the hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
+      text: "The irony is that problem-first work is faster in the long run. You cut half the backlog before it becomes code. You write landing pages that do not need a thesaurus. You stop arguing about button colours because the conversation is about whether the pain is real. Related reading when the backlog is already bloated: [the hidden cost of building features nobody asked for](/essays/hidden-cost-building-features-nobody-asked-for).",
     },
     {
       type: "takeaway",
@@ -142,7 +142,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Before design, before Figma, before the sprint-write a one-page problem brief. I refuse to open a layout tool until this exists, which is why [I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma). The brief is not a PRD. It is a discipline.",
+      text: "Before design, before Figma, before the sprint-write a one-page problem brief. I refuse to open a layout tool until this exists, which is why [I start every project without opening Figma](/essays/why-i-start-every-project-without-opening-figma). The brief is not a PRD. It is a discipline.",
     },
     {
       type: "ol",
@@ -156,7 +156,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you cannot fill the brief, you are not ready to sell a solution. You are ready to research. That is not failure. That is the job. For a fuller pre-design sequence, use [the product strategy framework I use before designing a single screen](/blog/product-strategy-framework-before-designing-screen).",
+      text: "If you cannot fill the brief, you are not ready to sell a solution. You are ready to research. That is not failure. That is the job. For a fuller pre-design sequence, use [the product strategy framework I use before designing a single screen](/essays/product-strategy-framework-before-designing-screen).",
     },
     {
       type: "h2",
@@ -193,7 +193,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "It also breaks when founders confuse their own annoyance with a market. Your Friday night frustration is a hypothesis, not proof. Treat early buyers as teachers-more on that in [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher)-and keep updating the problem statement as language sharpens.",
+      text: "It also breaks when founders confuse their own annoyance with a market. Your Friday night frustration is a hypothesis, not proof. Treat early buyers as teachers-more on that in [the first customer isn't your market. They're your teacher.](/essays/first-customer-isnt-your-market-theyre-your-teacher)-and keep updating the problem statement as language sharpens.",
     },
     {
       type: "p",
@@ -231,7 +231,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This habit also protects you from PMF theatre. Declaring fit while the public sentence and the private rant diverge is how teams freeze a story the market has already left. Keep the problem moving as evidence moves-fit is not a trophy, which is why [product-market fit isn't a milestone. It's a moving target](/blog/product-market-fit-isnt-milestone-moving-target).",
+      text: "This habit also protects you from PMF theatre. Declaring fit while the public sentence and the private rant diverge is how teams freeze a story the market has already left. Keep the problem moving as evidence moves-fit is not a trophy, which is why [product-market fit isn't a milestone. It's a moving target](/essays/product-market-fit-isnt-milestone-moving-target).",
     },
     {
       type: "h2",
@@ -239,7 +239,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When founders come to me mid-build, I often pause the visual work and force the problem brief. It feels slow for a week and saves a quarter. Websites, onboarding, and launch narratives all get clearer when the product stops introducing itself as a list of verbs. If what you need is not another campaign but a sharper product story, read [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "When founders come to me mid-build, I often pause the visual work and force the problem brief. It feels slow for a week and saves a quarter. Websites, onboarding, and launch narratives all get clearer when the product stops introducing itself as a list of verbs. If what you need is not another campaign but a sharper product story, read [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "faq",

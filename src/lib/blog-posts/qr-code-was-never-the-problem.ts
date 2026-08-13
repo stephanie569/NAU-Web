@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about bridge design: promise before scan, placement with manners, and destinations that repay the effort. It sits beside [why the internet still needs the real world](/blog/why-internet-still-needs-real-world) and [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "This piece is about bridge design: promise before scan, placement with manners, and destinations that repay the effort. It sits beside [why the internet still needs the real world](/essays/why-internet-still-needs-real-world) and [a good street campaign doesn’t end on the street](/essays/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If you cannot explain the reward in one spoken sentence at the placement site, the code is decoration. Related: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "If you cannot explain the reward in one spoken sentence at the placement site, the code is decoration. Related: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "h2",
@@ -112,7 +112,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Stand at the placement for ten minutes and narrate out loud what a stranger would have to stop doing in order to scan. If the list includes “risk my safety,” “look like a tourist,” or “abandon my child,” redesign. More on observation: [why your next campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
+      text: "Stand at the placement for ten minutes and narrate out loud what a stranger would have to stop doing in order to scan. If the list includes “risk my safety,” “look like a tourist,” or “abandon my child,” redesign. More on observation: [why your next campaign should start with a walk](/essays/next-marketing-campaign-should-start-with-walk).",
     },
     {
       type: "h2",
@@ -155,7 +155,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the same discipline as web conversion work-see [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert) and [why startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds)-applied to a colder start. The user did not search for you. They interrupted themselves for you. Repay that.",
+      text: "This is the same discipline as web conversion work-see [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert) and [why startup websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds)-applied to a colder start. The user did not search for you. They interrupted themselves for you. Repay that.",
     },
     {
       type: "h2",
@@ -167,7 +167,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For broader thinking on physical-digital systems, read [why the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen) and [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel).",
+      text: "For broader thinking on physical-digital systems, read [why the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen) and [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel).",
     },
     {
       type: "h2",

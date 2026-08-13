@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece sits with [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit) and [product-market fit isn't a milestone. It's a moving target](/blog/product-market-fit-isnt-milestone-moving-target). It also connects to [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building)-because early revenue is evidence, not a blank cheque.",
+      text: "This piece sits with [what founders get wrong about product-market fit](/essays/what-founders-get-wrong-about-product-market-fit) and [product-market fit isn't a milestone. It's a moving target](/essays/product-market-fit-isnt-milestone-moving-target). It also connects to [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building)-because early revenue is evidence, not a blank cheque.",
     },
     {
       type: "h2",
@@ -156,7 +156,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is how you avoid the launch mistake of amplifying a private curriculum to a public audience that never enrolled. See [most product launches don't fail because of marketing](/blog/most-product-launches-dont-fail-because-of-marketing).",
+      text: "This is how you avoid the launch mistake of amplifying a private curriculum to a public audience that never enrolled. See [most product launches don't fail because of marketing](/essays/most-product-launches-dont-fail-because-of-marketing).",
     },
     {
       type: "h2",
@@ -181,7 +181,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise",
-      text: "In your next customer call, spend ten minutes on what you will not build for them. Ask which of their requests they would still pay without. Ask which workaround they would keep even if you shipped. You are teaching them-and yourself-that early revenue does not equal an infinite backlog. Pair this with [before you build another feature, ask these five questions](/blog/before-build-another-feature-ask-five-questions).",
+      text: "In your next customer call, spend ten minutes on what you will not build for them. Ask which of their requests they would still pay without. Ask which workaround they would keep even if you shipped. You are teaching them-and yourself-that early revenue does not equal an infinite backlog. Pair this with [before you build another feature, ask these five questions](/essays/before-build-another-feature-ask-five-questions).",
     },
     {
       type: "h2",
@@ -210,7 +210,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders often skip this because money feels like validation. Money is data. The shape of the deal tells you whether you sold a product, a favour, or a consultancy with a login screen. Misreading that shape is how “PMF” gets declared on a single affectionate invoice-see [product-market fit isn't a milestone. It's a moving target](/blog/product-market-fit-isnt-milestone-moving-target).",
+      text: "Founders often skip this because money feels like validation. Money is data. The shape of the deal tells you whether you sold a product, a favour, or a consultancy with a login screen. Misreading that shape is how “PMF” gets declared on a single affectionate invoice-see [product-market fit isn't a milestone. It's a moving target](/essays/product-market-fit-isnt-milestone-moving-target).",
     },
     {
       type: "h2",
@@ -230,7 +230,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When I join early-stage product work, I slow the instinct to scale the first logo’s preferences into a brand system and a sprawling IA. We capture language, design for the repeated job, and keep the site honest about who it is for. If the team wants growth theatre instead of curriculum, I point them to [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "When I join early-stage product work, I slow the instinct to scale the first logo’s preferences into a brand system and a sprawling IA. We capture language, design for the repeated job, and keep the site honest about who it is for. If the team wants growth theatre instead of curriculum, I point them to [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "faq",

@@ -25,7 +25,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I audit startup sites constantly. The pattern is boring in the way only expensive mistakes can be: beautiful visual systems, weak first sentences, and three CTAs competing like siblings in a car. For a broader catalogue of patterns, see [what I found auditing 50 startup websites](/blog/audited-50-startup-websites-10-mistakes).",
+      text: "I audit startup sites constantly. The pattern is boring in the way only expensive mistakes can be: beautiful visual systems, weak first sentences, and three CTAs competing like siblings in a car. For a broader catalogue of patterns, see [what I found auditing 50 startup websites](/essays/audited-50-startup-websites-10-mistakes).",
     },
     {
       type: "h2",
@@ -196,7 +196,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If beautiful design still fails to convert, read [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert). If you need a sharper offer before you touch layout, use the [product strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen). For a teardown mindset on a strong consumer homepage, see the [Airbnb homepage product teardown](/blog/product-teardown-airbnb-homepage).",
+      text: "If beautiful design still fails to convert, read [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert). If you need a sharper offer before you touch layout, use the [product strategy framework before designing a screen](/essays/product-strategy-framework-before-designing-screen). For a teardown mindset on a strong consumer homepage, see the [Airbnb homepage product teardown](/essays/product-teardown-airbnb-homepage).",
     },
     {
       type: "faq",
@@ -246,7 +246,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Every “no” is a ten-second failure mode. Fix the nos before you debate illustration styles. If you want a wider audit pattern set, [five minutes on your website is enough to find issues](/blog/five-minutes-on-your-website-enough-to-find-issues) pairs well with this checklist.",
+      text: "Every “no” is a ten-second failure mode. Fix the nos before you debate illustration styles. If you want a wider audit pattern set, [five minutes on your website is enough to find issues](/essays/five-minutes-on-your-website-enough-to-find-issues) pairs well with this checklist.",
     },
     {
       type: "h2",
@@ -301,7 +301,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "That sequence often lifts conversion without a full redesign. When you need more structural changes, [three website changes that can double conversion](/blog/website-audit-three-changes-double-conversion) is a useful companion. And if the offer itself is the problem, no hero layout will save you-return to [clarity before marketing](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "That sequence often lifts conversion without a full redesign. When you need more structural changes, [three website changes that can double conversion](/essays/website-audit-three-changes-double-conversion) is a useful companion. And if the offer itself is the problem, no hero layout will save you-return to [clarity before marketing](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "h2",

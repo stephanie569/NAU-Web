@@ -17,11 +17,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I care about this because “we have PMF” is often used as a permission slip to scale. If the declaration is premature, you get the [most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders): amplifying an offer the market has not truly pulled. Fit is not a mood. It is a pattern of evidence.",
+      text: "I care about this because “we have PMF” is often used as a permission slip to scale. If the declaration is premature, you get the [most expensive early-stage mistake](/essays/most-expensive-mistake-early-stage-founders): amplifying an offer the market has not truly pulled. Fit is not a mood. It is a pattern of evidence.",
     },
     {
       type: "p",
-      text: "This piece is about the misconceptions, a clearer definition, and the signals I trust-plus exercises you can run without inventing a vanity dashboard. For why strong products still die before fit, see [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit).",
+      text: "This piece is about the misconceptions, a clearer definition, and the signals I trust-plus exercises you can run without inventing a vanity dashboard. For why strong products still die before fit, see [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit).",
     },
     {
       type: "h2",
@@ -188,11 +188,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes founders have early fit in a segment and still fail to grow because the public story is muddy. That is a clarity and distribution problem on top of a real wedge-see [clarity problems](/blog/product-doesnt-have-marketing-problem-clarity-problem) and [first-ten-seconds website failures](/blog/why-startup-websites-fail-first-10-seconds). Other times the story is polished and fit is absent: beautiful site, weak retention. Different medicine.",
+      text: "Sometimes founders have early fit in a segment and still fail to grow because the public story is muddy. That is a clarity and distribution problem on top of a real wedge-see [clarity problems](/essays/product-doesnt-have-marketing-problem-clarity-problem) and [first-ten-seconds website failures](/essays/why-startup-websites-fail-first-10-seconds). Other times the story is polished and fit is absent: beautiful site, weak retention. Different medicine.",
     },
     {
       type: "p",
-      text: "Use the [strategy framework before screens](/blog/product-strategy-framework-before-designing-screen) to keep ICP, job, outcome, and belief gaps explicit. Use [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes) when the wedge needs a public rewrite. Do not use paid scale as a substitute for either.",
+      text: "Use the [strategy framework before screens](/essays/product-strategy-framework-before-designing-screen) to keep ICP, job, outcome, and belief gaps explicit. Use [repositioning in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes) when the wedge needs a public rewrite. Do not use paid scale as a substitute for either.",
     },
     {
       type: "h2",
@@ -223,7 +223,7 @@ const post: BlogPost = {
         {
           question: "How does this relate to deciding whether to build more?",
           answer:
-            "If fit evidence is weak, more features rarely create it. See [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building) and [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
+            "If fit evidence is weak, more features rarely create it. See [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building) and [if your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here).",
         },
       ],
     },
@@ -260,7 +260,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Document which interventions you personally provide. Turn the best ones into product or onboarding. Eliminate the ones that only exist to compensate for confusion. This is how you graduate from heroics to a business-see also [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
+      text: "Document which interventions you personally provide. Turn the best ones into product or onboarding. Eliminate the ones that only exist to compensate for confusion. This is how you graduate from heroics to a business-see also [the difference between building a product and building a business](/essays/difference-building-product-and-building-business).",
     },
     {
       type: "h2",
@@ -290,7 +290,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Roadmaps should serve the evidence board-not the myth list. When evidence is weak, prioritise learning: interviews, activation repair, sharper wedge. When evidence is strong in a segment, prioritise making that value faster to reach and easier to explain. That is how [products worth building](/blog/how-i-decide-whether-product-worth-building) stay worth building.",
+      text: "Roadmaps should serve the evidence board-not the myth list. When evidence is weak, prioritise learning: interviews, activation repair, sharper wedge. When evidence is strong in a segment, prioritise making that value faster to reach and easier to explain. That is how [products worth building](/essays/how-i-decide-whether-product-worth-building) stay worth building.",
     },
     {
       type: "takeaway",
@@ -329,7 +329,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Treat product-market fit as a claim that requires evidence. Then go gather evidence like an adult-not like a launch-day optimist with a ring light. And if growth is stuck, start with diagnosis before theatre: [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
+      text: "Treat product-market fit as a claim that requires evidence. Then go gather evidence like an adult-not like a launch-day optimist with a ring light. And if growth is stuck, start with diagnosis before theatre: [if your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here).",
     },
     {
       type: "cta",

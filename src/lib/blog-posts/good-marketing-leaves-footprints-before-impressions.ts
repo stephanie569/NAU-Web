@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about designing for residue: physical and social traces that precede scale, how to read footprints as leading indicators, and how to stop mistaking a busy analytics chart for a brand that has actually been somewhere. For the offline-first instinct behind this, see [the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
+      text: "This piece is about designing for residue: physical and social traces that precede scale, how to read footprints as leading indicators, and how to stop mistaking a busy analytics chart for a brand that has actually been somewhere. For the offline-first instinct behind this, see [the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen).",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not arguing against measurement. I am arguing against worshipping the wrong unit. If your plan only produces impressions, you are renting glances. If it produces footprints, you are manufacturing priors that make later impressions cheaper to believe-[the internet still needs the real world](/blog/internet-still-needs-the-real-world).",
+      text: "I am not arguing against measurement. I am arguing against worshipping the wrong unit. If your plan only produces impressions, you are renting glances. If it produces footprints, you are manufacturing priors that make later impressions cheaper to believe-[the internet still needs the real world](/essays/internet-still-needs-the-real-world).",
     },
     {
       type: "takeaway",
@@ -57,7 +57,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "What does not count: a boosted post with no lived referent, a hashtag nobody uses without incentive, a QR on a flyer that leads to a generic homepage, a “community” that exists only as a claim on a landing page. Those are costumes. Related on transfer and honesty: [why the internet still needs the real world](/blog/why-internet-still-needs-real-world).",
+      text: "What does not count: a boosted post with no lived referent, a hashtag nobody uses without incentive, a QR on a flyer that leads to a generic homepage, a “community” that exists only as a claim on a landing page. Those are costumes. Related on transfer and honesty: [why the internet still needs the real world](/essays/why-internet-still-needs-real-world).",
     },
     {
       type: "image",
@@ -109,7 +109,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Footprints need ground. Pick a constrained place and a behaviour: try, stamp, sample, repair, learn, meet. Your city is underrated ground for this: [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel). The mark should be legible in under three seconds to a passer-by.",
+      text: "Footprints need ground. Pick a constrained place and a behaviour: try, stamp, sample, repair, learn, meet. Your city is underrated ground for this: [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel). The mark should be legible in under three seconds to a passer-by.",
     },
     {
       type: "callout",
@@ -122,7 +122,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Residue is the artefact or ritual mark: stamped maps, cards, temporary installations that invite photography, public demos that create witnesses. Design for keepability and photographability without begging-[how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph) and [the best marketing doesn’t ask people to share it](/blog/best-marketing-doesnt-ask-people-to-share).",
+      text: "Residue is the artefact or ritual mark: stamped maps, cards, temporary installations that invite photography, public demos that create witnesses. Design for keepability and photographability without begging-[how to create marketing people photograph](/essays/how-to-create-marketing-people-photograph) and [the best marketing doesn’t ask people to share it](/essays/best-marketing-doesnt-ask-people-to-share).",
     },
     {
       type: "ul",
@@ -139,7 +139,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A footprint without a path is nostalgia. Invite the next action while the contact is warm: book, join, try, return next Saturday. Keep the path coherent from pavement to page-[a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "A footprint without a path is nostalgia. Invite the next action while the contact is warm: book, join, try, return next Saturday. Keep the path coherent from pavement to page-[a good street campaign doesn’t end on the street](/essays/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "h3",
@@ -163,7 +163,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Conversation-first work reduces that panic because you stop guessing what residue should say-[why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera). A walk still beats a brainstorm that never leaves the office: [your next marketing campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
+      text: "Conversation-first work reduces that panic because you stop guessing what residue should say-[why your next campaign should begin with a conversation, not a camera](/essays/next-campaign-begin-conversation-not-camera). A walk still beats a brainstorm that never leaves the office: [your next marketing campaign should start with a walk](/essays/next-marketing-campaign-should-start-with-walk).",
     },
     {
       type: "h2",
@@ -175,7 +175,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Fictional contrast: “Kiln,” a ceramics brand. Plan A buys lifestyle impressions for a month; the feed looks warm; stores feel cold. Plan B runs four Saturday glaze demos, leaves stamped loyalty cards that look good on a fridge, and posts only documentation of those days. Fewer impressions. More return visits. People mention the stamp before they mention the ad. Feeling attaches to contact: [people remember how your brand made them feel, not what it posted](/blog/people-remember-how-brand-made-them-feel).",
+      text: "Fictional contrast: “Kiln,” a ceramics brand. Plan A buys lifestyle impressions for a month; the feed looks warm; stores feel cold. Plan B runs four Saturday glaze demos, leaves stamped loyalty cards that look good on a fridge, and posts only documentation of those days. Fewer impressions. More return visits. People mention the stamp before they mention the ad. Feeling attaches to contact: [people remember how your brand made them feel, not what it posted](/essays/people-remember-how-brand-made-them-feel).",
     },
     {
       type: "ol",
@@ -198,7 +198,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People rarely share advertisements; they share stories they were part of-[people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories). Footprints are what make participation visible after the fact. Memorable brands interrupt less and leave more: [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "People rarely share advertisements; they share stories they were part of-[people rarely share advertisements-they share stories](/essays/people-rarely-share-advertisements-share-stories). Footprints are what make participation visible after the fact. Memorable brands interrupt less and leave more: [memorable brands don’t interrupt-they give something worth remembering](/essays/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "h2",
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your growth model only celebrates what scaled on a chart and never what lodged in memory, you are in the trap described here: [most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember).",
+      text: "If your growth model only celebrates what scaled on a chart and never what lodged in memory, you are in the trap described here: [most growth strategies ignore the one thing people actually remember](/essays/growth-strategies-ignore-what-people-remember).",
     },
     {
       type: "h2",
@@ -257,7 +257,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I design growth systems that treat physical and social residue as first-class assets. Websites and ads then have something true to point at. Footprints first, impressions second-not as a slogan, as a sequence. Earned attention still costs effort: [organic growth isn’t free; it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "I design growth systems that treat physical and social residue as first-class assets. Websites and ads then have something true to point at. Footprints first, impressions second-not as a slogan, as a sequence. Earned attention still costs effort: [organic growth isn’t free; it’s earned](/essays/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "faq",

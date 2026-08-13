@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about designing for that vote: photogenic moments, social proof by choice, and the quiet craft of making campaigns people choose to document. Related context: [why the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen) and [why people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories).",
+      text: "This piece is about designing for that vote: photogenic moments, social proof by choice, and the quiet craft of making campaigns people choose to document. Related context: [why the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen) and [why people rarely share advertisements-they share stories](/essays/people-rarely-share-advertisements-share-stories).",
     },
     {
       type: "h2",
@@ -47,7 +47,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If nobody photographs your campaign unprompted, you do not have a virality problem. You have a moment problem. Related: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "If nobody photographs your campaign unprompted, you do not have a virality problem. You have a moment problem. Related: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "h2",
@@ -124,7 +124,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Sketch your installation or out-of-home unit, then draw a phone rectangle over it three times: square, 9:16, and 4:5. If the idea dies in two of those crops, redesign. Also useful: [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel).",
+      text: "Sketch your installation or out-of-home unit, then draw a phone rectangle over it three times: square, 9:16, and 4:5. If the idea dies in two of those crops, redesign. Also useful: [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel).",
     },
     {
       type: "h3",
@@ -172,7 +172,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For a related argument about physical presence in a digital age, see [why the internet still needs the real world](/blog/why-internet-still-needs-real-world). For how street work should continue online, see [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "For a related argument about physical presence in a digital age, see [why the internet still needs the real world](/essays/why-internet-still-needs-real-world). For how street work should continue online, see [a good street campaign doesn’t end on the street](/essays/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "h2",
@@ -214,7 +214,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you need a sharper diagnostic before spending, use [before you spend £10,000 on marketing, ask these five questions](/blog/before-spend-10000-marketing-five-questions). If you are early and tempted to buy reach instead of designing moments, read [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "If you need a sharper diagnostic before spending, use [before you spend £10,000 on marketing, ask these five questions](/essays/before-spend-10000-marketing-five-questions). If you are early and tempted to buy reach instead of designing moments, read [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "h2",

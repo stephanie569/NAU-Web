@@ -138,8 +138,8 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blog" className={navLinkClass}>
-                    Blog
+                  <Link href="/essays" className={navLinkClass}>
+                    Essays
                   </Link>
                 </li>
               </ul>

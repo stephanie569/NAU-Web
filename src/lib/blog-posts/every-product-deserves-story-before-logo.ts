@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I like good design. I refuse to let it substitute for clarity. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "I like good design. I refuse to let it substitute for clarity. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "takeaway",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Before typography, write the truths you are willing to defend: the buyer, the friction, the better tomorrow, the mechanism, the non-goals. If these are unstable, design will chase a moving target and you will pay twice. Progress language belongs here: [people don’t buy products-they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
+      text: "Before typography, write the truths you are willing to defend: the buyer, the friction, the better tomorrow, the mechanism, the non-goals. If these are unstable, design will chase a moving target and you will pay twice. Progress language belongs here: [people don’t buy products-they buy a better version of tomorrow](/essays/people-dont-buy-products-buy-better-tomorrow).",
     },
     {
       type: "callout",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A system keeps story and mark aligned across site, product UI, launch, sales, packaging. Systems prevent the classic failure: gorgeous logo, chaotic everything else. For how I sequence this into shipping work, see [from strategy to launch: how I approach a new product](/blog/from-strategy-to-launch-how-i-approach-new-product).",
+      text: "A system keeps story and mark aligned across site, product UI, launch, sales, packaging. Systems prevent the classic failure: gorgeous logo, chaotic everything else. For how I sequence this into shipping work, see [from strategy to launch: how I approach a new product](/essays/from-strategy-to-launch-how-i-approach-new-product).",
     },
     {
       type: "takeaway",
@@ -190,11 +190,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Many “we need a new logo” requests are coded admissions that the story broke: new ICP, new offer, new category neighbour. Changing the mark without changing the narrative is cosplay. Do the repositioning work first-even if it only takes an intense hour: [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Many “we need a new logo” requests are coded admissions that the story broke: new ICP, new offer, new category neighbour. Changing the mark without changing the narrative is cosplay. Do the repositioning work first-even if it only takes an intense hour: [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "p",
-      text: "And if growth issues are being blamed on “brand” while the offer and experience leak, you may be polishing the disguise: [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
+      text: "And if growth issues are being blamed on “brand” while the offer and experience leak, you may be polishing the disguise: [most marketing problems are product problems in disguise](/essays/most-marketing-problems-are-product-problems).",
     },
     {
       type: "h2",
@@ -202,7 +202,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Narrative is also what you seed before launch day and what people earn attention with. A mark does not seed a category problem. A story does. Sequence accordingly: [your launch campaign starts long before launch day](/blog/launch-campaign-starts-long-before-launch-day) and [the difference between getting attention and earning it](/blog/difference-getting-attention-and-earning-it).",
+      text: "Narrative is also what you seed before launch day and what people earn attention with. A mark does not seed a category problem. A story does. Sequence accordingly: [your launch campaign starts long before launch day](/essays/launch-campaign-starts-long-before-launch-day) and [the difference between getting attention and earning it](/essays/difference-getting-attention-and-earning-it).",
     },
     {
       type: "table",
@@ -249,7 +249,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I start projects with narrative and product clarity before visual systems-websites included. Design arrives as expression of decisions, not as a substitute for them. If what you need is meaning before another asset sprint, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing). When marketing should feel built rather than bolted on: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "I start projects with narrative and product clarity before visual systems-websites included. Design arrives as expression of decisions, not as a substitute for them. If what you need is meaning before another asset sprint, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing). When marketing should feel built rather than bolted on: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "faq",

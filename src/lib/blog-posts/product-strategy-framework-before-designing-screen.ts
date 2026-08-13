@@ -22,7 +22,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why I [start projects without opening Figma](/blog/why-i-start-every-project-without-opening-figma). Not as a personality quirk. As risk management. Pixels create false consensus-“we all like this layout”-while the customer, job, and belief gaps remain unnamed.",
+      text: "This is why I [start projects without opening Figma](/essays/why-i-start-every-project-without-opening-figma). Not as a personality quirk. As risk management. Pixels create false consensus-“we all like this layout”-while the customer, job, and belief gaps remain unnamed.",
     },
     {
       type: "callout",
@@ -220,7 +220,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The five boxes are the spine behind repositioning work-see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes). They also prevent the expensive habit of scaling an unclear offer, covered in [the most expensive early-stage mistake](/blog/most-expensive-mistake-early-stage-founders). And they keep product-market fit conversations honest: fit requires a defined customer and a valued outcome, not a vibe-more in [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "The five boxes are the spine behind repositioning work-see [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes). They also prevent the expensive habit of scaling an unclear offer, covered in [the most expensive early-stage mistake](/essays/most-expensive-mistake-early-stage-founders). And they keep product-market fit conversations honest: fit requires a defined customer and a valued outcome, not a vibe-more in [what founders get wrong about product-market fit](/essays/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "p",
@@ -247,7 +247,7 @@ const post: BlogPost = {
         {
           question: "How does this relate to whether something is worth building?",
           answer:
-            "If boxes 1-4 are weak, pause build. I expand that decision process in [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+            "If boxes 1-4 are weak, pause build. I expand that decision process in [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building).",
         },
       ],
     },
@@ -270,7 +270,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Assign each major belief gap to a step. If three critical gaps are all dumped onto the homepage, the homepage becomes a suitcase that will not close. Spread the argument. That is how [customer journeys get redesigned](/blog/how-id-redesign-brand-customer-journey) without turning into slideware.",
+      text: "Assign each major belief gap to a step. If three critical gaps are all dumped onto the homepage, the homepage becomes a suitcase that will not close. Spread the argument. That is how [customer journeys get redesigned](/essays/how-id-redesign-brand-customer-journey) without turning into slideware.",
     },
     {
       type: "h2",
@@ -319,7 +319,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The framework is the spine of how I move from strategy into build and launch. Messaging, IA, onboarding, and proof placement should all trace back to the boxes. When something cannot trace back, it is usually politics or habit. For the wider approach, see [from strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product) and [what I’d change in your startup in 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days).",
+      text: "The framework is the spine of how I move from strategy into build and launch. Messaging, IA, onboarding, and proof placement should all trace back to the boxes. When something cannot trace back, it is usually politics or habit. For the wider approach, see [from strategy to launch](/essays/from-strategy-to-launch-how-i-approach-new-product) and [what I’d change in your startup in 30 days](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days).",
     },
     {
       type: "h2",

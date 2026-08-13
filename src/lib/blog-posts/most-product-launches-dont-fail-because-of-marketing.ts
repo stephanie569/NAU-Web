@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is a diagnostic. It pairs with [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper) and with how I sequence work in [from strategy to launch: how I approach a new product](/blog/from-strategy-to-launch-how-i-approach-new-product). If your “marketing problem” is actually an unread problem statement, start with [the best products solve a problem before they sell a solution](/blog/best-products-solve-problem-before-sell-solution).",
+      text: "This piece is a diagnostic. It pairs with [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper) and with how I sequence work in [from strategy to launch: how I approach a new product](/essays/from-strategy-to-launch-how-i-approach-new-product). If your “marketing problem” is actually an unread problem statement, start with [the best products solve a problem before they sell a solution](/essays/best-products-solve-problem-before-sell-solution).",
     },
     {
       type: "h2",
@@ -156,7 +156,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you answer no to two or more, marketing is not your bottleneck. Product readiness is. This is the same discipline as [before you build another feature, ask these five questions](/blog/before-build-another-feature-ask-five-questions)-applied to the launch surface, not the backlog.",
+      text: "If you answer no to two or more, marketing is not your bottleneck. Product readiness is. This is the same discipline as [before you build another feature, ask these five questions](/essays/before-build-another-feature-ask-five-questions)-applied to the launch surface, not the backlog.",
     },
     {
       type: "h2",
@@ -193,7 +193,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "External reading that stays useful: [Lenny’s Newsletter](https://www.lennysnewsletter.com/) on launch sequencing, [First Round Review](https://review.firstround.com/) on go-to-market that respects product truth, and [Harvard Business Review](https://hbr.org/) on why organisations misattribute failure to the loudest department. For founders who keep reaching for more spend when they need more focus, see [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "External reading that stays useful: [Lenny’s Newsletter](https://www.lennysnewsletter.com/) on launch sequencing, [First Round Review](https://review.firstround.com/) on go-to-market that respects product truth, and [Harvard Business Review](https://hbr.org/) on why organisations misattribute failure to the loudest department. For founders who keep reaching for more spend when they need more focus, see [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "h2",
@@ -227,7 +227,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the honest answer is that early customers are still teaching you and the ICP is not stable enough for paid scale, say that. Scaling a private curriculum is how launches fail politely. Keep learning until patterns repeat-then market. The discipline is the same one behind [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+      text: "If the honest answer is that early customers are still teaching you and the ICP is not stable enough for paid scale, say that. Scaling a private curriculum is how launches fail politely. Keep learning until patterns repeat-then market. The discipline is the same one behind [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building).",
     },
     {
       type: "h2",
@@ -235,7 +235,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I often get hired “for the launch site” and end up rebuilding the offer narrative, the first-run experience, and the proof stack before a single campaign brief. That is not scope creep. That is preventing an expensive misunderstanding. If your product is not growing and everyone is staring at the funnel, start here: [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
+      text: "I often get hired “for the launch site” and end up rebuilding the offer narrative, the first-run experience, and the proof stack before a single campaign brief. That is not scope creep. That is preventing an expensive misunderstanding. If your product is not growing and everyone is staring at the funnel, start here: [if your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here).",
     },
     {
       type: "faq",

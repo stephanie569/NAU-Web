@@ -47,7 +47,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If your marketing needs a different personality from your product, one of them is lying. Related: [why every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If your marketing needs a different personality from your product, one of them is lying. Related: [why every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "h2",
@@ -120,7 +120,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Write three tradeoffs you accept (who you disappoint, what you will not build, what you will not claim). If the list is empty, your positioning is still a mood. See also [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Write three tradeoffs you accept (who you disappoint, what you will not build, what you will not claim). If the list is empty, your positioning is still a mood. See also [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "h3",
@@ -145,7 +145,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "When narrative is treated as UX, you stop “writing copy for the site” and start designing comprehension across the journey. Related: [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "When narrative is treated as UX, you stop “writing copy for the site” and start designing comprehension across the journey. Related: [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "h3",
@@ -291,7 +291,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a diagnostic that forces this honesty, use [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). If the website is the weak interface for belief, use [the 50-website audit mistakes](/blog/audited-50-startup-websites-10-mistakes) as a conversion checklist.",
+      text: "If you want a diagnostic that forces this honesty, use [If your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here). If the website is the weak interface for belief, use [the 50-website audit mistakes](/essays/audited-50-startup-websites-10-mistakes) as a conversion checklist.",
     },
     {
       type: "callout",
@@ -344,7 +344,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are deciding where to invest next, read [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing), [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions), and [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "If you are deciding where to invest next, read [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing), [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions), and [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "faq",

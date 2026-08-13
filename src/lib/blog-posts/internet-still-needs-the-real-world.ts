@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is not a rewrite of [why the internet still needs the real world](/blog/why-internet-still-needs-real-world), which walks through credibility transfer step by step. This piece is about belief economics: why physical scarcity lowers the cost of digital trust, how digital-native brands borrow gravity from place, and how to treat the real world as infrastructure rather than as a content set.",
+      text: "This is not a rewrite of [why the internet still needs the real world](/essays/why-internet-still-needs-real-world), which walks through credibility transfer step by step. This piece is about belief economics: why physical scarcity lowers the cost of digital trust, how digital-native brands borrow gravity from place, and how to treat the real world as infrastructure rather than as a content set.",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I build websites for a living, so this is not nostalgia for high streets. It is unit economics. If your CAC keeps climbing while your story stays abstract, you may not have a media problem. You may have a missing prior. Related: [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "I build websites for a living, so this is not nostalgia for high streets. It is unit economics. If your CAC keeps climbing while your story stays abstract, you may not have a media problem. You may have a missing prior. Related: [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "takeaway",
@@ -57,7 +57,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Scarcity matters. A weekend stall cannot be everywhere. A dinner has a guest list. A stamped map runs out of space. Those limits are features. They tell the network that something happened under constraints, not that a render farm had a free afternoon. For how offline-first sequences work in practice, see [the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
+      text: "Scarcity matters. A weekend stall cannot be everywhere. A dinner has a guest list. A stamped map runs out of space. Those limits are features. They tell the network that something happened under constraints, not that a render farm had a free afternoon. For how offline-first sequences work in practice, see [the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen).",
     },
     {
       type: "image",
@@ -109,7 +109,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "An anchor is a location, ritual, or recurring public commitment someone could falsify. Office hours on Thursdays. A market stall with a real address. A clinic in a partner office. Anchors do not need to be large. They need to be specific. Your city is often the cheapest anchor you are ignoring: [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel).",
+      text: "An anchor is a location, ritual, or recurring public commitment someone could falsify. Office hours on Thursdays. A market stall with a real address. A clinic in a partner office. Anchors do not need to be large. They need to be specific. Your city is often the cheapest anchor you are ignoring: [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel).",
     },
     {
       type: "callout",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Each physical cycle should leave residue online: a growing library of receipts near CTAs, not a one-off “launch event” buried in a forgotten album. Street moments that never reach the phone waste infrastructure; design the bridge: [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "Each physical cycle should leave residue online: a growing library of receipts near CTAs, not a one-off “launch event” buried in a forgotten album. Street moments that never reach the phone waste infrastructure; design the bridge: [a good street campaign doesn’t end on the street](/essays/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "takeaway",
@@ -154,7 +154,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why some DTC brands look “better at Instagram” after they open a store, and why B2B webinars convert harder after a sharp in-person summit. The algorithm did not suddenly become generous. The brand acquired mass. Footprints precede impressions when you do this well: [good marketing leaves footprints before it leaves impressions](/blog/good-marketing-leaves-footprints-before-impressions).",
+      text: "This is why some DTC brands look “better at Instagram” after they open a store, and why B2B webinars convert harder after a sharp in-person summit. The algorithm did not suddenly become generous. The brand acquired mass. Footprints precede impressions when you do this well: [good marketing leaves footprints before it leaves impressions](/essays/good-marketing-leaves-footprints-before-impressions).",
     },
     {
       type: "h2",
@@ -166,7 +166,7 @@ const post: BlogPost = {
         "Impose mutual inconvenience-the strongest cheap signal of seriousness.",
         "Create witnesses who can contradict or confirm you later.",
         "Generate sensory detail that survives scepticism better than adjectives.",
-        "Produce artefacts people photograph without being asked-see [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
+        "Produce artefacts people photograph without being asked-see [how to create marketing people photograph](/essays/how-to-create-marketing-people-photograph).",
         "Warm the prior so the next click feels like continuation, not a cold open.",
       ],
     },
@@ -197,7 +197,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Physical infrastructure fails when it is theatre for a camera. Begin with conversations in the wild-objections, vernacular, jobs people are already doing in a place. Shoot later. Listen first: [why your next campaign should begin with a conversation, not a camera](/blog/next-campaign-begin-conversation-not-camera). A walk still beats a mood board: [your next marketing campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
+      text: "Physical infrastructure fails when it is theatre for a camera. Begin with conversations in the wild-objections, vernacular, jobs people are already doing in a place. Shoot later. Listen first: [why your next campaign should begin with a conversation, not a camera](/essays/next-campaign-begin-conversation-not-camera). A walk still beats a mood board: [your next marketing campaign should start with a walk](/essays/next-marketing-campaign-should-start-with-walk).",
     },
     {
       type: "h2",
@@ -240,7 +240,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People still share what they were part of more readily than what they were sold-[people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories)-and the best marketing still [doesn’t ask people to share it](/blog/best-marketing-doesnt-ask-people-to-share). Feeling remains the residue that outlives the post: [people remember how your brand made them feel, not what it posted](/blog/people-remember-how-brand-made-them-feel).",
+      text: "People still share what they were part of more readily than what they were sold-[people rarely share advertisements-they share stories](/essays/people-rarely-share-advertisements-share-stories)-and the best marketing still [doesn’t ask people to share it](/essays/best-marketing-doesnt-ask-people-to-share). Feeling remains the residue that outlives the post: [people remember how your brand made them feel, not what it posted](/essays/people-remember-how-brand-made-them-feel).",
     },
     {
       type: "h2",
@@ -256,7 +256,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "At nau I treat physical proof as part of the growth system, not as a seasonal stunt. Websites convert better when they sit on top of reality. Ads waste less when they remind. If you want the transfer mechanics in more detail, read the companion essay [why the internet still needs the real world](/blog/why-internet-still-needs-real-world). If you want memorable presence over interruption, start with [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "At nau I treat physical proof as part of the growth system, not as a seasonal stunt. Websites convert better when they sit on top of reality. Ads waste less when they remind. If you want the transfer mechanics in more detail, read the companion essay [why the internet still needs the real world](/essays/why-internet-still-needs-real-world). If you want memorable presence over interruption, start with [memorable brands don’t interrupt-they give something worth remembering](/essays/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "faq",

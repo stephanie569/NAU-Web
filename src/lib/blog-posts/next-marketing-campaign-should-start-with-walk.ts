@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about field walks as marketing research: how to look, what to capture, and how to turn street-level insight into campaigns that fit reality. Pair it with [why the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen) and [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel).",
+      text: "This piece is about field walks as marketing research: how to look, what to capture, and how to turn street-level insight into campaigns that fit reality. Pair it with [why the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen) and [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel).",
     },
     {
       type: "h2",
@@ -43,7 +43,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If your insight only exists inside analytics, your campaign will only work inside analytics. Related: [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If your insight only exists inside analytics, your campaign will only work inside analytics. Related: [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "h2",
@@ -154,11 +154,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Walk-led campaigns often spend differently: more on placement craft, less on carpet-bombing reach; more on staff enablement, less on vanity film; more on one perfect corner, less on twelve mediocre formats. That can look “small” to a traditional plan-and larger in memory. See also [small budgets don’t kill good ideas-predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do).",
+      text: "Walk-led campaigns often spend differently: more on placement craft, less on carpet-bombing reach; more on staff enablement, less on vanity film; more on one perfect corner, less on twelve mediocre formats. That can look “small” to a traditional plan-and larger in memory. See also [small budgets don’t kill good ideas-predictable ones do](/essays/small-budgets-dont-kill-good-ideas-predictable-ones-do).",
     },
     {
       type: "p",
-      text: "Digital still matters. The walk often tells you what the digital layer should be: a faster queue ticket, a clearer map, a promise that matches the pavement reality. For the handoff, read [the QR code was never the problem](/blog/qr-code-was-never-the-problem). For continuity after the street moment, see [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "Digital still matters. The walk often tells you what the digital layer should be: a faster queue ticket, a clearer map, a promise that matches the pavement reality. For the handoff, read [the QR code was never the problem](/essays/qr-code-was-never-the-problem). For continuity after the street moment, see [a good street campaign doesn’t end on the street](/essays/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "h2",
@@ -192,7 +192,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Walk when behaviour is local, physical, social, or poorly instrumented. Stay at the desk when the question is purely digital funnel maths-and even then, sample real sessions on real devices. Many “conversion problems” are still comprehension problems; a walk through your own onboarding with a stranger narrating aloud is a kind of walk too. Related: [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions) and [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Walk when behaviour is local, physical, social, or poorly instrumented. Stay at the desk when the question is purely digital funnel maths-and even then, sample real sessions on real devices. Many “conversion problems” are still comprehension problems; a walk through your own onboarding with a stranger narrating aloud is a kind of walk too. Related: [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions) and [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h2",

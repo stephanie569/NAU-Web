@@ -51,7 +51,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If your H1 could belong to ten competitors after a logo swap, it is not positioning. It is wallpaper. See also [why products often have a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "If your H1 could belong to ten competitors after a logo swap, it is not positioning. It is wallpaper. See also [why products often have a clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "h2",
@@ -333,7 +333,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Related reading on this site: [why startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds), [landing page review: helping or hurting conversions](/blog/landing-page-review-helping-hurting-conversions), [three changes that can double conversion](/blog/website-audit-three-changes-double-conversion), and [a teardown of Airbnb’s homepage](/blog/product-teardown-airbnb-homepage) for a clarity benchmark.",
+      text: "Related reading on this site: [why startup websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds), [landing page review: helping or hurting conversions](/essays/landing-page-review-helping-hurting-conversions), [three changes that can double conversion](/essays/website-audit-three-changes-double-conversion), and [a teardown of Airbnb’s homepage](/essays/product-teardown-airbnb-homepage) for a clarity benchmark.",
     },
     {
       type: "faq",

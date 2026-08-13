@@ -33,7 +33,7 @@ function BlogCard({
 }) {
   return (
     <Link
-      href={`/blog/${post.slug}`}
+      href={`/essays/${post.slug}`}
       className="group flex min-h-[420px] flex-col justify-between rounded-[14px] border border-white/10 bg-white/[0.05] p-6 md:p-7"
     >
       <div className="flex items-start justify-between gap-4">
@@ -69,7 +69,7 @@ function FeaturedBlogCard() {
 
   return (
     <Link
-      href={`/blog/${blogFeaturedPost.slug}`}
+      href={`/essays/${blogFeaturedPost.slug}`}
       className="group relative block min-h-[420px] overflow-hidden rounded-[14px] border border-white/10 md:col-span-2 lg:col-span-2"
     >
       <Image
@@ -100,7 +100,7 @@ export function BlogPreviewSection() {
 
   return (
     <section
-      id="blog"
+      id="essays"
       data-header-theme="dark"
       className="scroll-mt-[61px] bg-[#0a0a0a] px-6 pb-28 pt-16 md:px-9 md:pb-36 md:pt-24"
     >

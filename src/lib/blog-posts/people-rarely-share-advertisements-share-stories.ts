@@ -42,7 +42,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Most startup “viral” plans fail because they optimise for the brand’s need to be seen, not the sharer’s need to be someone. That is why you get clever campaigns that die in the group chat. Related: [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Most startup “viral” plans fail because they optimise for the brand’s need to be seen, not the sharer’s need to be someone. That is why you get clever campaigns that die in the group chat. Related: [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "takeaway",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Design the handoff. Pre-written invite language, share cards that do not look like ads, a clear “bring someone” mechanism, a landing page that continues the story rather than resetting to corporate tone. For narrative continuity across surfaces, see [marketing that feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "Design the handoff. Pre-written invite language, share cards that do not look like ads, a clear “bring someone” mechanism, a landing page that continues the story rather than resetting to corporate tone. For narrative continuity across surfaces, see [marketing that feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "image",
@@ -202,7 +202,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If growth is stuck, diagnose whether you have a story people can carry-or only a funnel. Start with [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). If you are pouring budget into noise, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "If growth is stuck, diagnose whether you have a story people can carry-or only a funnel. Start with [If your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here). If you are pouring budget into noise, read [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -245,7 +245,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is also where product and marketing should stop arguing. Features that create shareable outcomes are growth features. Features that only look good in a changelog are inventory. For the deeper diagnosis when “marketing” is actually a clarity or product issue, see [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "This is also where product and marketing should stop arguing. Features that create shareable outcomes are growth features. Features that only look good in a changelog are inventory. For the deeper diagnosis when “marketing” is actually a clarity or product issue, see [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "h2",
@@ -265,7 +265,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you keep hiring more marketing when you need a clearer offer, read [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing). If your first spend went to the wrong layer, see [the first £1,000 startups spend in the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place).",
+      text: "If you keep hiring more marketing when you need a clearer offer, read [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing). If your first spend went to the wrong layer, see [the first £1,000 startups spend in the wrong place](/essays/first-1000-pounds-startup-spent-wrong-place).",
     },
     {
       type: "faq",

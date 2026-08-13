@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about treating questioning as craft, building a research mindset that tools can amplify, and why founders who chase prompt tricks often skip the harder work of framing problems. Related: [your competitive advantage was never typing faster](/blog/competitive-advantage-was-never-typing-faster).",
+      text: "This piece is about treating questioning as craft, building a research mindset that tools can amplify, and why founders who chase prompt tricks often skip the harder work of framing problems. Related: [your competitive advantage was never typing faster](/essays/competitive-advantage-was-never-typing-faster).",
     },
     {
       type: "p",
@@ -57,7 +57,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A good question narrows the search space without strangling discovery. It names the decision it serves. It admits what would falsify a preferred answer. It is specific enough that a vague reply looks obviously useless. In strategy work, questions are how you avoid decorating the wrong problem-see [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "A good question narrows the search space without strangling discovery. It names the decision it serves. It admits what would falsify a preferred answer. It is specific enough that a vague reply looks obviously useless. In strategy work, questions are how you avoid decorating the wrong problem-see [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "table",
@@ -104,7 +104,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Not every inquiry starts neat. Wonder is the messy noticing: “Why do demos stall after pricing?” “Why do people compliment the brand and not convert?” Capture wonders without forcing them into a prompt yet. Perspective begins with noticing-see [AI can write your content; it can’t replace your perspective](/blog/ai-can-write-content-cant-replace-perspective).",
+      text: "Not every inquiry starts neat. Wonder is the messy noticing: “Why do demos stall after pricing?” “Why do people compliment the brand and not convert?” Capture wonders without forcing them into a prompt yet. Perspective begins with noticing-see [AI can write your content; it can’t replace your perspective](/essays/ai-can-write-content-cant-replace-perspective).",
     },
     {
       type: "callout",
@@ -117,7 +117,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Framing adds stakes. Who needs the answer? By when? What action will change based on it? What would count as good enough evidence? This is product strategy work more than content work-close to [a product strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen).",
+      text: "Framing adds stakes. Who needs the answer? By when? What action will change based on it? What would count as good enough evidence? This is product strategy work more than content work-close to [a product strategy framework before designing a screen](/essays/product-strategy-framework-before-designing-screen).",
     },
     {
       type: "h3",
@@ -143,7 +143,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "An unanswered beautiful question is still incomplete. Prove means interviews, analytics, prototypes, shipping a stake and watching what happens. AI can accelerate synthesis. It cannot replace contact. Organic trust still has to be earned in the world: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "An unanswered beautiful question is still incomplete. Prove means interviews, analytics, prototypes, shipping a stake and watching what happens. AI can accelerate synthesis. It cannot replace contact. Organic trust still has to be earned in the world: [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I would rather a founder ask one awkward, specific question in a customer call than generate fifty generic “thought leadership” outlines. The awkward question creates perspective. The outlines create calendar filler. Consistency of inquiry beats brilliance of phrasing-see again [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "I would rather a founder ask one awkward, specific question in a customer call than generate fifty generic “thought leadership” outlines. The awkward question creates perspective. The outlines create calendar filler. Consistency of inquiry beats brilliance of phrasing-see again [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "p",
@@ -214,7 +214,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Rewrite your last three prompts as questions that include a decision and a falsification test. Run them again. Notice how much less “role-play” you need when the question is doing the work. Then read [don’t let AI become your personality](/blog/dont-let-ai-become-your-personality) if the answers still sound like everyone else-clarity of question does not automatically restore voice.",
+      text: "Rewrite your last three prompts as questions that include a decision and a falsification test. Run them again. Notice how much less “role-play” you need when the question is doing the work. Then read [don’t let AI become your personality](/essays/dont-let-ai-become-your-personality) if the answers still sound like everyone else-clarity of question does not automatically restore voice.",
     },
     {
       type: "h2",
@@ -230,7 +230,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I start projects with questions, not tools-sometimes not even Figma: [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma). AI enters when the question is sharp enough that generation or synthesis saves time. If you need help drawing the line between repetitive synthesis and judgements you must keep, read [AI should handle the repetition; you should keep the judgement](/blog/ai-should-handle-repetition-you-keep-judgement).",
+      text: "I start projects with questions, not tools-sometimes not even Figma: [why I start every project without opening Figma](/essays/why-i-start-every-project-without-opening-figma). AI enters when the question is sharp enough that generation or synthesis saves time. If you need help drawing the line between repetitive synthesis and judgements you must keep, read [AI should handle the repetition; you should keep the judgement](/essays/ai-should-handle-repetition-you-keep-judgement).",
     },
     {
       type: "p",

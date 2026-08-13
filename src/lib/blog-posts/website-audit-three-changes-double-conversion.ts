@@ -39,7 +39,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If that sounds familiar, you may also recognise the clarity problem described in [why your product does not have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem). Marketing amplifies what the page already says. If the page is vague, amplification just scales confusion.",
+      text: "If that sounds familiar, you may also recognise the clarity problem described in [why your product does not have a marketing problem](/essays/product-doesnt-have-marketing-problem-clarity-problem). Marketing amplifies what the page already says. If the page is vague, amplification just scales confusion.",
     },
     {
       type: "takeaway",
@@ -99,7 +99,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Apple’s product pages are extreme examples of single-job framing. They do not open with a catalogue of every capability. They open with a felt outcome, then reveal detail as commitment rises. Startups often reverse that sequence: catalogue first, meaning later. Then they wonder why [websites fail in the first ten seconds](/blog/why-startup-websites-fail-first-10-seconds).",
+      text: "Apple’s product pages are extreme examples of single-job framing. They do not open with a catalogue of every capability. They open with a felt outcome, then reveal detail as commitment rises. Startups often reverse that sequence: catalogue first, meaning later. Then they wonder why [websites fail in the first ten seconds](/essays/why-startup-websites-fail-first-10-seconds).",
     },
     {
       type: "h3",
@@ -243,7 +243,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is also why [beautiful websites do not always convert](/blog/why-beautiful-websites-dont-always-convert). Polish can support comprehension, but it cannot replace an argument. If you are choosing between a visual refresh and rewriting the first screen plus proof placement, rewrite first. You can always dress the clearer page later.",
+      text: "This is also why [beautiful websites do not always convert](/essays/why-beautiful-websites-dont-always-convert). Polish can support comprehension, but it cannot replace an argument. If you are choosing between a visual refresh and rewriting the first screen plus proof placement, rewrite first. You can always dress the clearer page later.",
     },
     {
       type: "h3",
@@ -289,7 +289,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For a broader pattern library of recurring mistakes, see [the ten mistakes from auditing fifty startup websites](/blog/audited-50-startup-websites-10-mistakes). Use that list after you have applied the three levers-otherwise you will try to fix twelve things and ship none.",
+      text: "For a broader pattern library of recurring mistakes, see [the ten mistakes from auditing fifty startup websites](/essays/audited-50-startup-websites-10-mistakes). Use that list after you have applied the three levers-otherwise you will try to fix twelve things and ship none.",
     },
     {
       type: "h2",
@@ -325,7 +325,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a sharper positioning pass before you touch the page, pair this with [how I would reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes). Positioning decides what the first screen is allowed to say. The audit decides whether the page actually says it.",
+      text: "If you want a sharper positioning pass before you touch the page, pair this with [how I would reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes). Positioning decides what the first screen is allowed to say. The audit decides whether the page actually says it.",
     },
     {
       type: "h2",
@@ -371,7 +371,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a companion teardown mindset for studying strong consumer sites, read the [Airbnb homepage teardown](/blog/product-teardown-airbnb-homepage). Steal principles, not pixels. Then apply the three levers to your own URL with ruthless honesty.",
+      text: "If you want a companion teardown mindset for studying strong consumer sites, read the [Airbnb homepage teardown](/essays/product-teardown-airbnb-homepage). Steal principles, not pixels. Then apply the three levers to your own URL with ruthless honesty.",
     },
     {
       type: "cta",

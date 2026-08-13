@@ -38,7 +38,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is closely related to [scaling before clarity](/blog/most-expensive-mistake-early-stage-founders) and [spending the first budget in the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place). The pattern is always the same: motion before understanding.",
+      text: "This is closely related to [scaling before clarity](/essays/most-expensive-mistake-early-stage-founders) and [spending the first budget in the wrong place](/essays/first-1000-pounds-startup-spent-wrong-place). The pattern is always the same: motion before understanding.",
     },
     {
       type: "quote",
@@ -94,7 +94,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Rewrite the homepage for one ICP, one outcome, one proof point. Publish it. Measure bounce and CTA click for seven days before you touch channels. Related reading: [why startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds) and [five minutes on your website is enough to find issues](/blog/five-minutes-on-your-website-enough-to-find-issues).",
+      text: "Rewrite the homepage for one ICP, one outcome, one proof point. Publish it. Measure bounce and CTA click for seven days before you touch channels. Related reading: [why startup websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds) and [five minutes on your website is enough to find issues](/essays/five-minutes-on-your-website-enough-to-find-issues).",
     },
     {
       type: "takeaway",
@@ -195,7 +195,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is where many teams discover they never had product-market fit-they had a launch spike. For the deeper cut, see [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit) and [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "This is where many teams discover they never had product-market fit-they had a launch spike. For the deeper cut, see [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit) and [what founders get wrong about product-market fit](/essays/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "takeaway",
@@ -325,7 +325,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a time-boxed version of this work, the companion piece is [what I would change if you gave me your startup for 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days). If the issue is deeper than a stuck funnel, read [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
+      text: "If you want a time-boxed version of this work, the companion piece is [what I would change if you gave me your startup for 30 days](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days). If the issue is deeper than a stuck funnel, read [the difference between building a product and building a business](/essays/difference-building-product-and-building-business).",
     },
     {
       type: "p",

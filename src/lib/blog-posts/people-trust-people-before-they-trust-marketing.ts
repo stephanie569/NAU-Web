@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-audience. Distribution matters. I am anti-confusing a follower count with a trust network. If your growth depends entirely on people who have never spoken to each other, you have a broadcast-not a moat. Related: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "I am not anti-audience. Distribution matters. I am anti-confusing a follower count with a trust network. If your growth depends entirely on people who have never spoken to each other, you have a broadcast-not a moat. Related: [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -121,7 +121,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Peer trust needs artefacts: specific stories, named outcomes, screenshots with context, short clips that sound like humans. People rarely share advertisements; they share stories-design for that. See [people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories).",
+      text: "Peer trust needs artefacts: specific stories, named outcomes, screenshots with context, short clips that sound like humans. People rarely share advertisements; they share stories-design for that. See [people rarely share advertisements-they share stories](/essays/people-rarely-share-advertisements-share-stories).",
     },
     {
       type: "ul",
@@ -159,7 +159,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If marketing still feels like a layer painted on after the product, you may need the product-design lens: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "If marketing still feels like a layer painted on after the product, you may need the product-design lens: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "h2",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Consistency matters more than a single brilliant announcement-communities form around showing up. See [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Consistency matters more than a single brilliant announcement-communities form around showing up. See [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "h2",
@@ -249,11 +249,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When I help founders with organic growth, I ask who already trusts them-and how that trust can travel. Websites, campaigns, and funnels matter. They matter more when peer voices and founder clarity are already doing part of the selling. If you keep buying more marketing when you need belief, read [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "When I help founders with organic growth, I ask who already trusts them-and how that trust can travel. Websites, campaigns, and funnels matter. They matter more when peer voices and founder clarity are already doing part of the selling. If you keep buying more marketing when you need belief, read [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "p",
-      text: "And if your customers could be your best channel-if you build for talkability-see [your customers are better marketers than your marketing team](/blog/customers-better-marketers-than-marketing-team).",
+      text: "And if your customers could be your best channel-if you build for talkability-see [your customers are better marketers than your marketing team](/essays/customers-better-marketers-than-marketing-team).",
     },
     {
       type: "faq",

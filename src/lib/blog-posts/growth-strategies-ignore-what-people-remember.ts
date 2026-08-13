@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Memorable brands do not interrupt-they give something worth remembering. See [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "Memorable brands do not interrupt-they give something worth remembering. See [memorable brands don’t interrupt-they give something worth remembering](/essays/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "takeaway",
@@ -105,7 +105,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Write one sentence: “When we succeed, customers feel ___ because ___.” If you need three emotions and a thesaurus, you are not clear yet. Clarity of feeling precedes creative. Related: [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "Write one sentence: “When we succeed, customers feel ___ because ___.” If you need three emotions and a thesaurus, you are not clear yet. Clarity of feeling precedes creative. Related: [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "h3",
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Memory sticks when the moment has a story shape and a artefact: a certificate, a screenshot, a photo, a phrase, a ritual. People share stories-design for retelling. See [people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories) and [your customers are better marketers than your marketing team](/blog/customers-better-marketers-than-marketing-team).",
+      text: "Memory sticks when the moment has a story shape and a artefact: a certificate, a screenshot, a photo, a phrase, a ritual. People share stories-design for retelling. See [people rarely share advertisements-they share stories](/essays/people-rarely-share-advertisements-share-stories) and [your customers are better marketers than your marketing team](/essays/customers-better-marketers-than-marketing-team).",
     },
     {
       type: "h3",
@@ -155,7 +155,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Common failure modes: shortening onboarding until the first win disappears; A/B testing urgency into every screen until the brand feels anxious; automating support until recovery stories vanish; polishing creative until it looks like everyone else. Predictable optimisation often produces predictable forgettability. Related: [small budgets don’t kill good ideas-predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do).",
+      text: "Common failure modes: shortening onboarding until the first win disappears; A/B testing urgency into every screen until the brand feels anxious; automating support until recovery stories vanish; polishing creative until it looks like everyone else. Predictable optimisation often produces predictable forgettability. Related: [small budgets don’t kill good ideas-predictable ones do](/essays/small-budgets-dont-kill-good-ideas-predictable-ones-do).",
     },
     {
       type: "ol",
@@ -170,7 +170,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Exercise: the memory brief",
-      text: "Write a brief that forbids funnel language for one page. Only: the feeling, the moment, the artefact, the story a customer could tell, and the next motion. If the brief collapses into adjectives, you found the gap. If it holds, you have something worth amplifying-consistently. See [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Write a brief that forbids funnel language for one page. Only: the feeling, the moment, the artefact, the story a customer could tell, and the next motion. If the brief collapses into adjectives, you found the gap. If it holds, you have something worth amplifying-consistently. See [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "h2",
@@ -217,7 +217,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Emotion-led memory is how organic attention gets earned rather than rented. See [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned). And if you are about to spend more on optimisation without a memory plan, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Emotion-led memory is how organic attention gets earned rather than rented. See [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned). And if you are about to spend more on optimisation without a memory plan, read [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I build systems, not vibes-but systems that ignore feeling become efficient forgetfulness. When I work with founders, I ask what a customer will remember in six months, not only what will convert this week. Marketing that feels like product design starts there: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design). Offline and physical moments often create denser memory than screens alone-see [the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
+      text: "I build systems, not vibes-but systems that ignore feeling become efficient forgetfulness. When I work with founders, I ask what a customer will remember in six months, not only what will convert this week. Marketing that feels like product design starts there: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design). Offline and physical moments often create denser memory than screens alone-see [the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen).",
     },
     {
       type: "faq",

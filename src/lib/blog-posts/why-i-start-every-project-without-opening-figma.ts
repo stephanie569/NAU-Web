@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is not an anti-design rant. I care about craft. Craft without an argument becomes a very expensive mood. The process below is how I keep pixels honest at nau-whether the deliverable is a homepage, an onboarding flow, or a broader product experience. For the formal boxes I fill first, see [the strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen). The short version: always decide what must be believed first, then design.",
+      text: "This is not an anti-design rant. I care about craft. Craft without an argument becomes a very expensive mood. The process below is how I keep pixels honest at nau-whether the deliverable is a homepage, an onboarding flow, or a broader product experience. For the formal boxes I fill first, see [the strategy framework before designing a screen](/essays/product-strategy-framework-before-designing-screen). The short version: always decide what must be believed first, then design.",
     },
     {
       type: "h2",
@@ -54,7 +54,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "What must someone believe before they click, trial, or pay? Typical gaps: “this is for companies like mine,” “it will work with our stack,” “the switching cost is worth it,” “these people are credible.” Each page and section gets a job against a gap. Decoration without a gap job is optional. This is how I avoid the failure mode in [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "What must someone believe before they click, trial, or pay? Typical gaps: “this is for companies like mine,” “it will work with our stack,” “the switching cost is worth it,” “these people are credible.” Each page and section gets a job against a gap. Decoration without a gap job is optional. This is how I avoid the failure mode in [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "h3",
@@ -62,7 +62,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Plain text. No hero image. No gradient. If the argument fails in a document, Figma will not rescue it. I pressure-test with someone outside the company. Related reading: [clarity vs marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem) and [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Plain text. No hero image. No gradient. If the argument fails in a document, Figma will not rescue it. I pressure-test with someone outside the company. Related reading: [clarity vs marketing problems](/essays/product-doesnt-have-marketing-problem-clarity-problem) and [repositioning in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "h3",
@@ -161,7 +161,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Out of scope is the kindness that prevents mid-project scope creep dressed as “quick explorations.” Explorations are cheap only when the argument is stable. When it is not, every exploration rewrites strategy in pixels-and nobody notices until the bounce rate files a complaint. For client intake discipline that protects this sequence, see [questions I ask before taking any client](/blog/questions-i-ask-before-taking-any-client).",
+      text: "Out of scope is the kindness that prevents mid-project scope creep dressed as “quick explorations.” Explorations are cheap only when the argument is stable. When it is not, every exploration rewrites strategy in pixels-and nobody notices until the bounce rate files a complaint. For client intake discipline that protects this sequence, see [questions I ask before taking any client](/essays/questions-i-ask-before-taking-any-client).",
     },
     {
       type: "h3",
@@ -173,7 +173,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If stakeholders demand visual options immediately, I offer two structural wire directions after the sentence locks-not five brand worlds. Structure debates are cheaper than aesthetic debates. Aesthetic debates without structure are how projects burn weeks choosing between two equally unclear futures. For end-to-end sequencing from strategy into launch, see [from strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product).",
+      text: "If stakeholders demand visual options immediately, I offer two structural wire directions after the sentence locks-not five brand worlds. Structure debates are cheaper than aesthetic debates. Aesthetic debates without structure are how projects burn weeks choosing between two equally unclear futures. For end-to-end sequencing from strategy into launch, see [from strategy to launch](/essays/from-strategy-to-launch-how-i-approach-new-product).",
     },
     {
       type: "h3",
@@ -189,7 +189,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When the brief is locked, Figma becomes a translation layer with constraints-and constraints are liberating. Designers make better hierarchy choices when they know which sentence must win. Engineers estimate more honestly when the first outcome is named. Founders argue less about colour when the belief gaps are on the page. That is the real speed gain: fewer circular debates disguised as craft. If you want the same discipline applied to whether the product should exist at all, pair this process with [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+      text: "When the brief is locked, Figma becomes a translation layer with constraints-and constraints are liberating. Designers make better hierarchy choices when they know which sentence must win. Engineers estimate more honestly when the first outcome is named. Founders argue less about colour when the belief gaps are on the page. That is the real speed gain: fewer circular debates disguised as craft. If you want the same discipline applied to whether the product should exist at all, pair this process with [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building).",
     },
     {
       type: "h3",
@@ -205,7 +205,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Starting late in Figma is how you avoid building the wrong features beautifully-[hidden feature costs](/blog/hidden-cost-building-features-nobody-asked-for)-and how you avoid marketing theatre-[dig deeper than marketing](/blog/every-startup-looks-like-marketing-problem-until-deeper). It is also why my first days in a company look like diagnosis, not design sprints: [if I joined tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first).",
+      text: "Starting late in Figma is how you avoid building the wrong features beautifully-[hidden feature costs](/essays/hidden-cost-building-features-nobody-asked-for)-and how you avoid marketing theatre-[dig deeper than marketing](/essays/every-startup-looks-like-marketing-problem-until-deeper). It is also why my first days in a company look like diagnosis, not design sprints: [if I joined tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first).",
     },
     {
       type: "p",
@@ -228,7 +228,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the morning feels “unproductive,” notice the itch. That itch is addiction to visible output. Learning to tolerate invisible clarity work is a competitive advantage. So is shipping systems instead of spikes-[systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "If the morning feels “unproductive,” notice the itch. That itch is addiction to visible output. Learning to tolerate invisible clarity work is a competitive advantage. So is shipping systems instead of spikes-[systems over campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "quote",

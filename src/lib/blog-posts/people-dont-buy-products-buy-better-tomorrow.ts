@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-feature. I am anti-leading with them. Features belong in the body of the argument once the future is vivid enough that people want proof. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "I am not anti-feature. I am anti-leading with them. Features belong in the body of the argument once the future is vivid enough that people want proof. Related: [your product doesn’t have a marketing problem-it has a clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "takeaway",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once tomorrow is clear, features become receipts. Screenshots, constraints, numbers, customer language. Proof without a future is a demo. A future without proof is poetry. You need both, in that order. For how strategy turns into a shippable story, see [from strategy to launch: how I approach a new product](/blog/from-strategy-to-launch-how-i-approach-new-product).",
+      text: "Once tomorrow is clear, features become receipts. Screenshots, constraints, numbers, customer language. Proof without a future is a demo. A future without proof is poetry. You need both, in that order. For how strategy turns into a shippable story, see [from strategy to launch: how I approach a new product](/essays/from-strategy-to-launch-how-i-approach-new-product).",
     },
     {
       type: "takeaway",
@@ -159,7 +159,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "There is also ego. Features are what the team argues about in Slack. Futures are what customers argue about at dinner. If your marketing mirrors internal debates, you are writing for the roadmap, not the market. When growth stalls for this reason, it often looks like a campaign problem. It is usually an offer-story problem-more on that in [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
+      text: "There is also ego. Features are what the team argues about in Slack. Futures are what customers argue about at dinner. If your marketing mirrors internal debates, you are writing for the roadmap, not the market. When growth stalls for this reason, it often looks like a campaign problem. It is usually an offer-story problem-more on that in [most marketing problems are product problems in disguise](/essays/most-marketing-problems-are-product-problems).",
     },
     {
       type: "h2",
@@ -194,7 +194,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Progress is a narrative asset. Logo is a recognition asset. Teams often commission identity before they can say what tomorrow looks like. That is decoration with a higher invoice. Narrative first, marks second-covered properly in [why every product deserves a story before it deserves a logo](/blog/every-product-deserves-story-before-logo).",
+      text: "Progress is a narrative asset. Logo is a recognition asset. Teams often commission identity before they can say what tomorrow looks like. That is decoration with a higher invoice. Narrative first, marks second-covered properly in [why every product deserves a story before it deserves a logo](/essays/every-product-deserves-story-before-logo).",
     },
     {
       type: "h2",
@@ -202,7 +202,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Better tomorrow” is not permission to write mist. Anchor progress in observable behaviour. Who does what differently? What stops happening? What starts? If you cannot point at a changed ritual, you do not have progress-you have a mood board. For repositioning when the mood board has taken over, try [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "“Better tomorrow” is not permission to write mist. Anchor progress in observable behaviour. Who does what differently? What stops happening? What starts? If you cannot point at a changed ritual, you do not have progress-you have a mood board. For repositioning when the mood board has taken over, try [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "table",
@@ -249,11 +249,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When I build websites and go-to-market systems for founders, I treat the homepage as a tomorrow machine-not a feature museum. We clarify the unsatisfactory present, name the friction, write a believable future, then let the product prove it. If what you need is sharper story rather than more spend, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "When I build websites and go-to-market systems for founders, I treat the homepage as a tomorrow machine-not a feature museum. We clarify the unsatisfactory present, name the friction, write a believable future, then let the product prove it. If what you need is sharper story rather than more spend, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "p",
-      text: "And if your best work already feels like product design more than promotion, you will recognise the pattern here: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "And if your best work already feels like product design more than promotion, you will recognise the pattern here: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "faq",

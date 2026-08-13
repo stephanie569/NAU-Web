@@ -87,13 +87,13 @@ export function IndustriesSection() {
       className="relative scroll-mt-[61px] overflow-x-hidden bg-[#0a0a0a] px-6 pt-14 pb-20 md:px-9 md:pt-16 md:pb-28 lg:pt-20 lg:pb-32"
     >
       <div className="relative mx-auto w-full max-w-[1100px]">
-        <div className="mb-8 text-center md:mb-10">
+        <div className="mb-12 text-center md:mb-14 lg:mb-16">
           <h2 className="text-[clamp(2.25rem,5.5vw,3.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
             {title}
           </h2>
         </div>
 
-        <ul className="grid grid-cols-1 gap-10 border-t border-white/10 pt-10 sm:grid-cols-3 sm:gap-8 md:gap-10 md:pt-12">
+        <ul className="grid grid-cols-1 gap-10 pt-2 sm:grid-cols-3 sm:gap-8 md:gap-10 md:pt-4">
           {items.map((item, index) => (
             <li
               key={item.name}

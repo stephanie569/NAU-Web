@@ -29,7 +29,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Y Combinator’s library on product and growth repeatedly returns to a related idea: focus is a strategy, not a personality trait. You can read that framing in the [Y Combinator Library](https://www.ycombinator.com/library). The same lesson shows up in product-market fit work: clarity beats coverage. I wrote about that failure mode in [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit).",
+      text: "Y Combinator’s library on product and growth repeatedly returns to a related idea: focus is a strategy, not a personality trait. You can read that framing in the [Y Combinator Library](https://www.ycombinator.com/library). The same lesson shows up in product-market fit work: clarity beats coverage. I wrote about that failure mode in [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit).",
     },
     {
       type: "callout",
@@ -82,7 +82,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Every feature is a vote for what your product is. Cast enough vague votes and customers cannot repeat your promise. That is a clarity problem dressed as a roadmap problem-related to [your product’s clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Every feature is a vote for what your product is. Cast enough vague votes and customers cannot repeat your promise. That is a clarity problem dressed as a roadmap problem-related to [your product’s clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "table",
@@ -124,7 +124,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Contrast that with how Linear kept issue tracking sharp, or how early Stripe refused to become “every financial product.” Focus is not anti-ambition. It is sequenced ambition. Airbnb’s early product discipline-host trust and booking clarity before feature theatre-is a useful reminder that growth often follows a narrower promise, not a wider one. I tear down related homepage clarity in [the Airbnb homepage teardown](/blog/product-teardown-airbnb-homepage).",
+      text: "Contrast that with how Linear kept issue tracking sharp, or how early Stripe refused to become “every financial product.” Focus is not anti-ambition. It is sequenced ambition. Airbnb’s early product discipline-host trust and booking clarity before feature theatre-is a useful reminder that growth often follows a narrower promise, not a wider one. I tear down related homepage clarity in [the Airbnb homepage teardown](/essays/product-teardown-airbnb-homepage).",
     },
     {
       type: "h2",
@@ -132,7 +132,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Before anything enters the build queue, I run five questions. If any answer is mushy, the feature waits-or dies. This pairs with [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building), applied at feature scale.",
+      text: "Before anything enters the build queue, I run five questions. If any answer is mushy, the feature waits-or dies. This pairs with [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building), applied at feature scale.",
     },
     {
       type: "ol",
@@ -171,7 +171,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the roadmap already looks like a junk drawer, run a ruthless inventory. This is related to the diagnostic order in [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper): comprehension and activation before more surface area.",
+      text: "If the roadmap already looks like a junk drawer, run a ruthless inventory. This is related to the diagnostic order in [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper): comprehension and activation before more surface area.",
     },
     {
       type: "ol",
@@ -207,7 +207,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the session turns political, that is data. Feature ownership without outcome ownership is how companies accumulate polite debt. For a wider first-week diagnostic when priorities feel scrambled, see [what I’d do if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first).",
+      text: "If the session turns political, that is data. Feature ownership without outcome ownership is how companies accumulate polite debt. For a wider first-week diagnostic when priorities feel scrambled, see [what I’d do if I joined your startup tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first).",
     },
     {
       type: "h2",
@@ -231,7 +231,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Features do not live only in the app. They leak into homepage claims, pricing tables, and onboarding checklists. If marketing promises a capability that 2% of users ever touch, you train buyers to expect a different product. That is how beautiful sites still fail to convert-covered in [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert). Align the public story to Core. Let Adjacent live behind progressive disclosure.",
+      text: "Features do not live only in the app. They leak into homepage claims, pricing tables, and onboarding checklists. If marketing promises a capability that 2% of users ever touch, you train buyers to expect a different product. That is how beautiful sites still fail to convert-covered in [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert). Align the public story to Core. Let Adjacent live behind progressive disclosure.",
     },
     {
       type: "p",
@@ -258,7 +258,7 @@ const post: BlogPost = {
         {
           question: "Where should we put the time we save by cutting?",
           answer:
-            "Into time-to-value, proof, and the primary conversion path. That usually beats another module. See also [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+            "Into time-to-value, proof, and the primary conversion path. That usually beats another module. See also [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
         },
       ],
     },

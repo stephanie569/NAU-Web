@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about conversation-first campaign design: how to gather signal in the world, how to turn it into a brief that cameras can serve, and how to avoid filming a beautiful answer to a question nobody asked. A close cousin of this habit is simply walking the territory: [your next marketing campaign should start with a walk](/blog/next-marketing-campaign-should-start-with-walk).",
+      text: "This piece is about conversation-first campaign design: how to gather signal in the world, how to turn it into a brief that cameras can serve, and how to avoid filming a beautiful answer to a question nobody asked. A close cousin of this habit is simply walking the territory: [your next marketing campaign should start with a walk](/essays/next-marketing-campaign-should-start-with-walk).",
     },
     {
       type: "h2",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-production. I am anti-sequence. Listening is fieldwork. Filming is manufacturing. Manufacturing before fieldwork is how brands end up with gorgeous assets and soft conversion. Related: [the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
+      text: "I am not anti-production. I am anti-sequence. Listening is fieldwork. Filming is manufacturing. Manufacturing before fieldwork is how brands end up with gorgeous assets and soft conversion. Related: [the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen).",
     },
     {
       type: "takeaway",
@@ -57,7 +57,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "You are listening for four things: the words they use (vernacular), the job they are trying to do, the objection that arrives without prompting, and the story they would tell a friend. Those four become the spine of creative that does not need a hostage share ask later-see [the best marketing doesn’t ask people to share it](/blog/best-marketing-doesnt-ask-people-to-share).",
+      text: "You are listening for four things: the words they use (vernacular), the job they are trying to do, the objection that arrives without prompting, and the story they would tell a friend. Those four become the spine of creative that does not need a hostage share ask later-see [the best marketing doesn’t ask people to share it](/essays/best-marketing-doesnt-ask-people-to-share).",
     },
     {
       type: "image",
@@ -109,7 +109,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Pick a place your audience already uses. Do not summon them to your office for “feedback.” Enter their context. Your city is full of these rooms and pavements: [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel). Constraint beats a national listening tour you will never finish.",
+      text: "Pick a place your audience already uses. Do not summon them to your office for “feedback.” Enter their context. Your city is full of these rooms and pavements: [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel). Constraint beats a national listening tour you will never finish.",
     },
     {
       type: "callout",
@@ -147,7 +147,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Now-and only now-shape a brief: the job, the objection, the promise, the proof you can show, the one scene worth filming. If proof is thin, you may need a physical moment before a shoot, because [the internet still needs the real world](/blog/internet-still-needs-the-real-world) and [why the internet still needs the real world](/blog/why-internet-still-needs-real-world) both apply when belief is still theoretical.",
+      text: "Now-and only now-shape a brief: the job, the objection, the promise, the proof you can show, the one scene worth filming. If proof is thin, you may need a physical moment before a shoot, because [the internet still needs the real world](/essays/internet-still-needs-the-real-world) and [why the internet still needs the real world](/essays/why-internet-still-needs-real-world) both apply when belief is still theoretical.",
     },
     {
       type: "h3",
@@ -155,7 +155,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Production becomes execution of insight, not a search for it. Film the scene that matches the conversation. Keep texture. Prefer humans who sound like the notebook over actors who sound like a deck. Photogenic helps; true helps more-[how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
+      text: "Production becomes execution of insight, not a search for it. Film the scene that matches the conversation. Keep texture. Prefer humans who sound like the notebook over actors who sound like a deck. Photogenic helps; true helps more-[how to create marketing people photograph](/essays/how-to-create-marketing-people-photograph).",
     },
     {
       type: "takeaway",
@@ -171,7 +171,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The cost of skipping shows up as creative that flatters the brand and misses the job, as ads that raise awareness of a fuzzy promise, as street teams improvising positioning because nobody gave them living language. Footprints without listening are just litter with a logo-[good marketing leaves footprints before it leaves impressions](/blog/good-marketing-leaves-footprints-before-impressions) still requires the footprint to mean something.",
+      text: "The cost of skipping shows up as creative that flatters the brand and misses the job, as ads that raise awareness of a fuzzy promise, as street teams improvising positioning because nobody gave them living language. Footprints without listening are just litter with a logo-[good marketing leaves footprints before it leaves impressions](/essays/good-marketing-leaves-footprints-before-impressions) still requires the footprint to mean something.",
     },
     {
       type: "h2",
@@ -183,7 +183,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Fictional contrast: “Northline,” a luggage brand. They brief a cinematic airport film about “freedom.” In two hours of conversations at a departures hall, they hear one repeated line: “I just need to know it won’t burst open on the belt.” The shoot changes. Same product. Different job. The resulting creative is less poetic and more believed. People remember the relief-not the tagline. That feeling is the asset: [people remember how your brand made them feel, not what it posted](/blog/people-remember-how-brand-made-them-feel).",
+      text: "Fictional contrast: “Northline,” a luggage brand. They brief a cinematic airport film about “freedom.” In two hours of conversations at a departures hall, they hear one repeated line: “I just need to know it won’t burst open on the belt.” The shoot changes. Same product. Different job. The resulting creative is less poetic and more believed. People remember the relief-not the tagline. That feeling is the asset: [people remember how your brand made them feel, not what it posted](/essays/people-remember-how-brand-made-them-feel).",
     },
     {
       type: "ol",
@@ -206,7 +206,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes the conversation reveals that you need a lived moment before you need a film-a demo, a stall, a clinic. Document that moment; let it travel. Do not end on the pavement: [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street). And do not beg for distribution afterward: people share participation, not ads-[people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories).",
+      text: "Sometimes the conversation reveals that you need a lived moment before you need a film-a demo, a stall, a clinic. Document that moment; let it travel. Do not end on the pavement: [a good street campaign doesn’t end on the street](/essays/good-street-campaign-doesnt-end-on-street). And do not beg for distribution afterward: people share participation, not ads-[people rarely share advertisements-they share stories](/essays/people-rarely-share-advertisements-share-stories).",
     },
     {
       type: "h2",
@@ -249,7 +249,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Growth strategies that ignore memory will undervalue this work-[most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember). Memorable brands give something worth remembering rather than interrupting louder: [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "Growth strategies that ignore memory will undervalue this work-[most growth strategies ignore the one thing people actually remember](/essays/growth-strategies-ignore-what-people-remember). Memorable brands give something worth remembering rather than interrupting louder: [memorable brands don’t interrupt-they give something worth remembering](/essays/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "h2",

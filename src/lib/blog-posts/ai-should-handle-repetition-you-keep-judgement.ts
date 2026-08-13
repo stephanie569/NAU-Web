@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is a practical map of what to delegate, what to own, and how to build a system where tools increase throughput without eroding taste. Related: [your competitive advantage was never typing faster](/blog/competitive-advantage-was-never-typing-faster).",
+      text: "This piece is a practical map of what to delegate, what to own, and how to build a system where tools increase throughput without eroding taste. Related: [your competitive advantage was never typing faster](/essays/competitive-advantage-was-never-typing-faster).",
     },
     {
       type: "p",
@@ -37,7 +37,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The line is not moral. It is economic. Automate where patterns dominate. Stay human where consequences dominate. If you reverse them, you get brittle brands and busy calendars. For why perspective still sits on the human side, read [AI can write your content; it can’t replace your perspective](/blog/ai-can-write-content-cant-replace-perspective).",
+      text: "The line is not moral. It is economic. Automate where patterns dominate. Stay human where consequences dominate. If you reverse them, you get brittle brands and busy calendars. For why perspective still sits on the human side, read [AI can write your content; it can’t replace your perspective](/essays/ai-can-write-content-cant-replace-perspective).",
     },
     {
       type: "ul",
@@ -106,7 +106,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "List the recurring work in your marketing and product loop. Mark each item R (repetition) or J (judgement), and note the cost of being wrong. Sorting is uncomfortable because it reveals how much time you spend polishing R while avoiding J. Do it anyway. Strategy before screens still applies: [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma).",
+      text: "List the recurring work in your marketing and product loop. Mark each item R (repetition) or J (judgement), and note the cost of being wrong. Sorting is uncomfortable because it reveals how much time you spend polishing R while avoiding J. Do it anyway. Strategy before screens still applies: [why I start every project without opening Figma](/essays/why-i-start-every-project-without-opening-figma).",
     },
     {
       type: "callout",
@@ -119,7 +119,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A standard is what “good” means when nobody is watching: voice rules, proof requirements, claim limits, accessibility basics, legal boundaries. Without standards, assistants optimise for speed into a void. With standards, assistants become leverage. Systems beat campaigns here: [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "A standard is what “good” means when nobody is watching: voice rules, proof requirements, claim limits, accessibility basics, legal boundaries. Without standards, assistants optimise for speed into a void. With standards, assistants become leverage. Systems beat campaigns here: [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h3",
@@ -127,7 +127,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Assistants fail when the job is “do marketing.” They succeed when the job is “turn this approved stake into three outlines” or “extract objections from these eight call notes.” Narrow jobs. Rich inputs. Human selection afterward. Curiosity still beats prompt costumes-[the best prompt is still a good question](/blog/best-prompt-is-still-good-question).",
+      text: "Assistants fail when the job is “do marketing.” They succeed when the job is “turn this approved stake into three outlines” or “extract objections from these eight call notes.” Narrow jobs. Rich inputs. Human selection afterward. Curiosity still beats prompt costumes-[the best prompt is still a good question](/essays/best-prompt-is-still-good-question).",
     },
     {
       type: "ol",
@@ -145,7 +145,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Audits catch drift: voice dilution, invented proof, overconfident summaries, customer language replaced by jargon. Schedule them. Treat audit findings as system updates, not blame. Authenticity erodes quietly-see [don’t let AI become your personality](/blog/dont-let-ai-become-your-personality).",
+      text: "Audits catch drift: voice dilution, invented proof, overconfident summaries, customer language replaced by jargon. Schedule them. Treat audit findings as system updates, not blame. Authenticity erodes quietly-see [don’t let AI become your personality](/essays/dont-let-ai-become-your-personality).",
     },
     {
       type: "takeaway",
@@ -170,7 +170,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Defining decisions are few: who you are for, what you refuse to claim, what success looks like this quarter, what quality bar blocks shipping. Put those on a short list. Assign owners. Do not bury them inside a prompt chain. Marketing that behaves like product design protects these decisions as carefully as UX priorities: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "Defining decisions are few: who you are for, what you refuse to claim, what success looks like this quarter, what quality bar blocks shipping. Put those on a short list. Assign owners. Do not bury them inside a prompt chain. Marketing that behaves like product design protects these decisions as carefully as UX priorities: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "ul",
@@ -192,7 +192,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Teams that skip this step often create a second job-editing machine sludge-that feels like productivity because it fills the day. It is not. It is unpaid quality control for a process you refused to design. Design the process: standards, inputs, gates, audits. Then let repetition run. Consistency of system still outperforms brilliance of one-off heroics: [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Teams that skip this step often create a second job-editing machine sludge-that feels like productivity because it fills the day. It is not. It is unpaid quality control for a process you refused to design. Design the process: standards, inputs, gates, audits. Then let repetition run. Consistency of system still outperforms brilliance of one-off heroics: [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "p",
@@ -232,7 +232,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help founders design growth systems where AI compresses repetition and humans keep the stakes. That usually means clearer briefs, stronger voice rules, and fewer campaigns that try to invent belief from scratch. If belief still has to be earned the long way, start with [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned). If trust is the real bottleneck, read [people trust people before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "I help founders design growth systems where AI compresses repetition and humans keep the stakes. That usually means clearer briefs, stronger voice rules, and fewer campaigns that try to invent belief from scratch. If belief still has to be earned the long way, start with [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned). If trust is the real bottleneck, read [people trust people before they trust marketing](/essays/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "p",

@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I hear the request weekly: more content, more ads, more social, more events. Sometimes those are right. Often they are a bypass around harder work-offer clarity, conversion design, activation, proof, and learning. This article is a diagnostic for which is which. Pair it with [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "I hear the request weekly: more content, more ads, more social, more events. Sometimes those are right. Often they are a bypass around harder work-offer clarity, conversion design, activation, proof, and learning. This article is a diagnostic for which is which. Pair it with [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "h2",
@@ -99,7 +99,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Use [the strategy framework before screens](/blog/product-strategy-framework-before-designing-screen). Write who is out. Write the job in customer language. If you need a fast reset, [reposition in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Use [the strategy framework before screens](/essays/product-strategy-framework-before-designing-screen). Write who is out. Write the job in customer language. If you need a fast reset, [reposition in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "callout",
@@ -112,7 +112,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Paid traffic to a vague homepage is a charitable donation to ad platforms. The first viewport must answer who, job, and outcome. Secondary sections handle how it works and proof. One primary CTA. This is [clarity work](/blog/product-doesnt-have-marketing-problem-clarity-problem), not “brand vibes.”",
+      text: "Paid traffic to a vague homepage is a charitable donation to ad platforms. The first viewport must answer who, job, and outcome. Secondary sections handle how it works and proof. One primary CTA. This is [clarity work](/essays/product-doesnt-have-marketing-problem-clarity-problem), not “brand vibes.”",
     },
     {
       type: "p",
@@ -120,7 +120,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a teardown mindset, read [what I’d change about Airbnb’s homepage](/blog/product-teardown-airbnb-homepage)-not to copy a marketplace giant, but to see how job ownership in the first viewport works when it is done well.",
+      text: "If you want a teardown mindset, read [what I’d change about Airbnb’s homepage](/essays/product-teardown-airbnb-homepage)-not to copy a marketplace giant, but to see how job ownership in the first viewport works when it is done well.",
     },
     {
       type: "takeaway",
@@ -145,7 +145,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This sits inside [strategy-to-launch](/blog/from-strategy-to-launch-how-i-approach-new-product) and inside [systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns). Email nurture can help, but it cannot replace a product that takes a fortnight to feel useful.",
+      text: "This sits inside [strategy-to-launch](/essays/from-strategy-to-launch-how-i-approach-new-product) and inside [systems over campaigns](/essays/why-i-care-more-about-systems-than-campaigns). Email nurture can help, but it cannot replace a product that takes a fortnight to feel useful.",
     },
     {
       type: "h2",
@@ -157,7 +157,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Build a proof system: outcome stories, process demystification, relevant logos with context, risk reducers near pricing. Place proof beside objections, not in a graveyard footer. Beautiful sites without proof still fail-see [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "Build a proof system: outcome stories, process demystification, relevant logos with context, risk reducers near pricing. Place proof beside objections, not in a graveyard footer. Beautiful sites without proof still fail-see [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "h2",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "There is also opportunity cost. Every week spent producing channel assets is a week not spent fixing activation, proof, or ICP. Early teams do not have spare weeks. That is why [the first £1,000 often goes to the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place) and why [spending £10k on marketing deserves five prior questions](/blog/before-spend-10000-marketing-five-questions).",
+      text: "There is also opportunity cost. Every week spent producing channel assets is a week not spent fixing activation, proof, or ICP. Early teams do not have spare weeks. That is why [the first £1,000 often goes to the wrong place](/essays/first-1000-pounds-startup-spent-wrong-place) and why [spending £10k on marketing deserves five prior questions](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h3",
@@ -246,7 +246,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Language shapes budgets. Soften the myth that marketing is the only grown-up lever. Product strategy, conversion design, and activation are growth work. [Best marketing feels like product design](/blog/best-marketing-feels-like-product-design) because customers experience one company-not your org chart.",
+      text: "Language shapes budgets. Soften the myth that marketing is the only grown-up lever. Product strategy, conversion design, and activation are growth work. [Best marketing feels like product design](/essays/best-marketing-feels-like-product-design) because customers experience one company-not your org chart.",
     },
     {
       type: "p",
@@ -288,7 +288,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Content starts working because it finally amplifies something understandable. That is not magic. It is sequence-the same sequence behind [before you spend £10k on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Content starts working because it finally amplifies something understandable. That is not magic. It is sequence-the same sequence behind [before you spend £10k on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -384,7 +384,7 @@ const post: BlogPost = {
         {
           question: "Where should we start this week?",
           answer:
-            "Rewrite the first viewport, define activation, and book a weekly learning review. Then read [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) for a prioritised first-moves list.",
+            "Rewrite the first viewport, define activation, and book a weekly learning review. Then read [if I joined your startup tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first) for a prioritised first-moves list.",
         },
         {
           question: "Does this apply to sales-led companies too?",
@@ -403,7 +403,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For the commercial framing behind this, continue with [the difference between building a product and building a business](/blog/difference-building-product-and-building-business). Products ship features. Businesses create repeatable value exchange-and marketing only scales what already exchanges cleanly.",
+      text: "For the commercial framing behind this, continue with [the difference between building a product and building a business](/essays/difference-building-product-and-building-business). Products ship features. Businesses create repeatable value exchange-and marketing only scales what already exchanges cleanly.",
     },
     {
       type: "cta",

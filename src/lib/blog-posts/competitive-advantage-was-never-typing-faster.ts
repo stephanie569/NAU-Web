@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about why generation cheapens words without cheapening decisions, how to redesign work around thinking leverage, and what founders should stop measuring as “productivity.” Related: [AI can write your content; it can’t replace your perspective](/blog/ai-can-write-content-cant-replace-perspective).",
+      text: "This piece is about why generation cheapens words without cheapening decisions, how to redesign work around thinking leverage, and what founders should stop measuring as “productivity.” Related: [AI can write your content; it can’t replace your perspective](/essays/ai-can-write-content-cant-replace-perspective).",
     },
     {
       type: "p",
@@ -37,7 +37,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Founders who respond to cheaper writing with more writing often feel busy and look interchangeable. Founders who respond with better questions look slower for a week and clearer for a year. Clarity compounds. Volume without selection does not. See [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "Founders who respond to cheaper writing with more writing often feel busy and look interchangeable. Founders who respond with better questions look slower for a week and clearer for a year. Clarity compounds. Volume without selection does not. See [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "ul",
@@ -105,7 +105,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Not every decision needs a war room. The ones that set direction do: audience, offer, positioning, pricing logic, proof standards, what you will not say. Block thinking time as if it were a client meeting. Because it is-future-you is the client. Strategy before screens still applies; see [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma).",
+      text: "Not every decision needs a war room. The ones that set direction do: audience, offer, positioning, pricing logic, proof standards, what you will not say. Block thinking time as if it were a client meeting. Because it is-future-you is the client. Strategy before screens still applies; see [why I start every project without opening Figma](/essays/why-i-start-every-project-without-opening-figma).",
     },
     {
       type: "callout",
@@ -118,7 +118,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Thinking that lives only in your head does not scale. Distil it into a short spine: who you serve, what you believe, what proof you require, what voice rules you keep. A spine lets generation stay on-brand without turning the brand into the model’s median personality. For authenticity under automation, read [don’t let AI become your personality](/blog/dont-let-ai-become-your-personality).",
+      text: "Thinking that lives only in your head does not scale. Distil it into a short spine: who you serve, what you believe, what proof you require, what voice rules you keep. A spine lets generation stay on-brand without turning the brand into the model’s median personality. For authenticity under automation, read [don’t let AI become your personality](/essays/dont-let-ai-become-your-personality).",
     },
     {
       type: "h3",
@@ -126,7 +126,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once the spine exists, delegate the labour: outlines from brief, variations from master, summaries from research notes, first-pass FAQs from support themes. Delegation without a spine is abdication. Delegation with a spine is craft. The division of labour is the whole point of [AI should handle the repetition; you should keep the judgement](/blog/ai-should-handle-repetition-you-keep-judgement).",
+      text: "Once the spine exists, delegate the labour: outlines from brief, variations from master, summaries from research notes, first-pass FAQs from support themes. Delegation without a spine is abdication. Delegation with a spine is craft. The division of labour is the whole point of [AI should handle the repetition; you should keep the judgement](/essays/ai-should-handle-repetition-you-keep-judgement).",
     },
     {
       type: "ol",
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The temptation of cheap writing is to lower the bar because “we can always publish more.” More is not a standard. Defend a proof bar, a voice bar, and a usefulness bar. Consistency of standard beats consistency of volume. Related: [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "The temptation of cheap writing is to lower the bar because “we can always publish more.” More is not a standard. Defend a proof bar, a voice bar, and a usefulness bar. Consistency of standard beats consistency of volume. Related: [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "takeaway",
@@ -173,7 +173,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why product strategy before designing a screen still matters-and why marketing that feels like product design outperforms marketing that feels like content factory work. See [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design) and [a product strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen).",
+      text: "This is why product strategy before designing a screen still matters-and why marketing that feels like product design outperforms marketing that feels like content factory work. See [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design) and [a product strategy framework before designing a screen](/essays/product-strategy-framework-before-designing-screen).",
     },
     {
       type: "ul",
@@ -234,7 +234,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I build systems where founders spend more time on stakes and proof, and less time pretending that drafting speed equals progress. Tools are welcome. Confusion dressed as output is not. If your growth feels like activity without advantage, start with [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "I build systems where founders spend more time on stakes and proof, and less time pretending that drafting speed equals progress. Tools are welcome. Confusion dressed as output is not. If your growth feels like activity without advantage, start with [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "p",

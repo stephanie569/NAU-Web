@@ -35,7 +35,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your category suddenly has a breakout player, ask what became easier for their customer-not only what became louder in their marketing. Related: [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If your category suddenly has a breakout player, ask what became easier for their customer-not only what became louder in their marketing. Related: [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "takeaway",
@@ -73,7 +73,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Faster growers usually reduce time-to-first-win. They pick one activation outcome and ruthlessly defer configuration. Competitors may have more features and slower delight. Features without activation are a museum. For a deeper onboarding lens, see [how I would improve Apple-style onboarding](/blog/how-id-improve-apple-onboarding-experience).",
+      text: "Faster growers usually reduce time-to-first-win. They pick one activation outcome and ruthlessly defer configuration. Competitors may have more features and slower delight. Features without activation are a museum. For a deeper onboarding lens, see [how I would improve Apple-style onboarding](/essays/how-id-improve-apple-onboarding-experience).",
     },
     {
       type: "h3",
@@ -97,7 +97,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The unsexy advantage: a cadence. Every week, something gets clearer-onboarding copy, activation emails, pricing FAQ, sales one-pager alignment with homepage. Competitors ship big redesigns twice a year. The faster company ships small truth repairs continuously. That is a system, not a campaign-see [systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "The unsexy advantage: a cadence. Every week, something gets clearer-onboarding copy, activation emails, pricing FAQ, sales one-pager alignment with homepage. Competitors ship big redesigns twice a year. The faster company ships small truth repairs continuously. That is a system, not a campaign-see [systems over campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "takeaway",
@@ -178,7 +178,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Run a coherence test quarterly. Record three sales calls. Screenshot the homepage hero and the first-run empty state. Highlight the outcome language in each. If the nouns differ-platform vs outcome, efficiency vs revenue, collaboration vs control-you have found a growth tax. Fix the language system before you hire another demand-gen contractor. Related reading: [best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "Run a coherence test quarterly. Record three sales calls. Screenshot the homepage hero and the first-run empty state. Highlight the outcome language in each. If the nouns differ-platform vs outcome, efficiency vs revenue, collaboration vs control-you have found a growth tax. Fix the language system before you hire another demand-gen contractor. Related reading: [best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "ol",
@@ -199,7 +199,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are choosing between another channel experiment and a week of offer/onboarding clarity, choose clarity unless you already convert and activate well. If you already convert well and still grow slowly, then distribution and packaging deserve the spotlight-see [the difference between building a product and building a business](/blog/difference-building-product-and-building-business).",
+      text: "If you are choosing between another channel experiment and a week of offer/onboarding clarity, choose clarity unless you already convert and activate well. If you already convert well and still grow slowly, then distribution and packaging deserve the spotlight-see [the difference between building a product and building a business](/essays/difference-building-product-and-building-business).",
     },
     {
       type: "p",
@@ -245,7 +245,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Instrument it. Review it weekly. Cut steps that do not serve it. If product and marketing disagree on the outcome sentence, fix that disagreement before you buy more ads-especially before you [spend serious money on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Instrument it. Review it weekly. Cut steps that do not serve it. If product and marketing disagree on the outcome sentence, fix that disagreement before you buy more ads-especially before you [spend serious money on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h3",
@@ -274,7 +274,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If growth is stuck despite a clear story, you may be earlier on [product-market fit](/blog/what-founders-get-wrong-about-product-market-fit) than the narrative admits. Clarity cannot invent pull. It can reveal whether pull exists.",
+      text: "If growth is stuck despite a clear story, you may be earlier on [product-market fit](/essays/what-founders-get-wrong-about-product-market-fit) than the narrative admits. Clarity cannot invent pull. It can reveal whether pull exists.",
     },
     {
       type: "h2",
@@ -315,7 +315,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "You can envy their ads, or you can rebuild the system underneath. Only one of those changes your trajectory. If you want a practical starting point when growth feels stuck, read [if the product is not growing, start here](/blog/if-product-isnt-growing-start-here).",
+      text: "You can envy their ads, or you can rebuild the system underneath. Only one of those changes your trajectory. If you want a practical starting point when growth feels stuck, read [if the product is not growing, start here](/essays/if-product-isnt-growing-start-here).",
     },
     {
       type: "cta",

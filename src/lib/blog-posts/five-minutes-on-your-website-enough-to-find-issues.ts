@@ -34,7 +34,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The other reason rapid audits work: teams go blind to their own homepage. You know the product, so you fill in gaps automatically. A fresh reader cannot. That is why [websites fail in the first ten seconds](/blog/why-startup-websites-fail-first-10-seconds) even when the founders think the story is obvious.",
+      text: "The other reason rapid audits work: teams go blind to their own homepage. You know the product, so you fill in gaps automatically. A fresh reader cannot. That is why [websites fail in the first ten seconds](/essays/why-startup-websites-fail-first-10-seconds) even when the founders think the story is obvious.",
     },
     {
       type: "takeaway",
@@ -163,7 +163,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I turn five-minute findings into a prioritised fix list: clarity first, proof second, path third. That order protects budget-and prevents teams from redesigning everything while the headline still says nothing. It is the same sequence as the [three changes that can lift conversion](/blog/website-audit-three-changes-double-conversion).",
+      text: "I turn five-minute findings into a prioritised fix list: clarity first, proof second, path third. That order protects budget-and prevents teams from redesigning everything while the headline still says nothing. It is the same sequence as the [three changes that can lift conversion](/essays/website-audit-three-changes-double-conversion).",
     },
     {
       type: "ol",
@@ -175,7 +175,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Only after those three do I entertain larger visual work. Polish is a multiplier. It multiplies whatever argument you already have-including a weak one. Related reading: [why beautiful websites do not always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "Only after those three do I entertain larger visual work. Polish is a multiplier. It multiplies whatever argument you already have-including a weak one. Related reading: [why beautiful websites do not always convert](/essays/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "callout",
@@ -244,7 +244,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This scoring habit also stops founders from “fixing” the illustration style because a competitor launched a new gradient. Gradients rarely explain the offer. Headlines do. If you need a longer conversion sequence after the rapid pass, use the [three-lever audit](/blog/website-audit-three-changes-double-conversion) as the build plan.",
+      text: "This scoring habit also stops founders from “fixing” the illustration style because a competitor launched a new gradient. Gradients rarely explain the offer. Headlines do. If you need a longer conversion sequence after the rapid pass, use the [three-lever audit](/essays/website-audit-three-changes-double-conversion) as the build plan.",
     },
     {
       type: "h2",
@@ -256,7 +256,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Also check speed on a throttled mobile connection. A beautiful hero that loads late is, for paid traffic, a refund to the ad platform. Performance guidance on [web.dev](https://web.dev/) is practical here-not academic. Pair that with the [landing page helping/hurting framework](/blog/landing-page-review-helping-hurting-conversions) when you are ready for a fuller review.",
+      text: "Also check speed on a throttled mobile connection. A beautiful hero that loads late is, for paid traffic, a refund to the ad platform. Performance guidance on [web.dev](https://web.dev/) is practical here-not academic. Pair that with the [landing page helping/hurting framework](/essays/landing-page-review-helping-hurting-conversions) when you are ready for a fuller review.",
     },
     {
       type: "takeaway",
@@ -278,7 +278,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a longer catalogue of recurring patterns, use [the ten mistakes from fifty startup website audits](/blog/audited-50-startup-websites-10-mistakes) as a second pass-after the rapid list is already in motion.",
+      text: "If you want a longer catalogue of recurring patterns, use [the ten mistakes from fifty startup website audits](/essays/audited-50-startup-websites-10-mistakes) as a second pass-after the rapid list is already in motion.",
     },
     {
       type: "h2",
@@ -356,7 +356,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Open the phone. Write the sentence. Rank the fixes. Ship the first one this week. If you want a structured companion for deeper conversion work, read the [landing page review framework](/blog/landing-page-review-helping-hurting-conversions) next.",
+      text: "Open the phone. Write the sentence. Rank the fixes. Ship the first one this week. If you want a structured companion for deeper conversion work, read the [landing page review framework](/essays/landing-page-review-helping-hurting-conversions) next.",
     },
     {
       type: "cta",

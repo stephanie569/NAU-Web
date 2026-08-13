@@ -83,7 +83,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Calm is not emptiness for its own sake. It is a signal that the product will not punish you for not knowing yet. Crowded first-run screens signal anxiety-the product’s, projected onto the user. If you want a broader argument about systems over noisy campaigns, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Calm is not emptiness for its own sake. It is a signal that the product will not punish you for not knowing yet. Crowded first-run screens signal anxiety-the product’s, projected onto the user. If you want a broader argument about systems over noisy campaigns, see [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "takeaway",
@@ -195,7 +195,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "That shift is the same instinct behind [starting projects without opening Figma](/blog/why-i-start-every-project-without-opening-figma): decide the outcome before decorating the steps.",
+      text: "That shift is the same instinct behind [starting projects without opening Figma](/essays/why-i-start-every-project-without-opening-figma): decide the outcome before decorating the steps.",
     },
     {
       type: "takeaway",
@@ -279,7 +279,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If onboarding improvements still do not move retention, zoom out: you may have a deeper product-market issue. See [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit) and [what founders get wrong about PMF](/blog/what-founders-get-wrong-about-product-market-fit). Onboarding cannot invent value that is not there-it can only reveal it faster.",
+      text: "If onboarding improvements still do not move retention, zoom out: you may have a deeper product-market issue. See [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit) and [what founders get wrong about PMF](/essays/what-founders-get-wrong-about-product-market-fit). Onboarding cannot invent value that is not there-it can only reveal it faster.",
     },
     {
       type: "h2",

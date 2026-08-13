@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is a working set of frameworks for constraint creativity: how to spend less while being harder to ignore. It pairs well with [where the first £1,000 of startup marketing often goes wrong](/blog/first-1000-pounds-startup-spent-wrong-place) and [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "This piece is a working set of frameworks for constraint creativity: how to spend less while being harder to ignore. It pairs well with [where the first £1,000 of startup marketing often goes wrong](/essays/first-1000-pounds-startup-spent-wrong-place) and [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -37,7 +37,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "A small budget with a sharp idea beats a medium budget with a borrowed one. Related: [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "A small budget with a sharp idea beats a medium budget with a borrowed one. Related: [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "h2",
@@ -105,7 +105,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Take your current campaign budget and ask: “What is the 20% that carries 80% of the memorability?” Fund that first. Cut the rest without apology. For systems over scatter, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Take your current campaign budget and ask: “What is the 20% that carries 80% of the memorability?” Fund that first. Cut the rest without apology. For systems over scatter, see [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h3",
@@ -168,7 +168,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the £500 version cannot explain itself, the £15,000 version is just a louder confusion. This is also why [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper): sometimes the “budget issue” is an offer-clarity issue wearing a finance costume.",
+      text: "If the £500 version cannot explain itself, the £15,000 version is just a louder confusion. This is also why [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper): sometimes the “budget issue” is an offer-clarity issue wearing a finance costume.",
     },
     {
       type: "h2",
@@ -176,7 +176,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Small budgets often do better in the real world than founders expect-because physical space still has less creative clutter than the feed. A precise local intervention can outperform a national CPC experiment. Explore that in [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel) and [why the best marketing doesn’t always start behind a screen](/blog/best-marketing-doesnt-always-start-behind-screen).",
+      text: "Small budgets often do better in the real world than founders expect-because physical space still has less creative clutter than the feed. A precise local intervention can outperform a national CPC experiment. Explore that in [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel) and [why the best marketing doesn’t always start behind a screen](/essays/best-marketing-doesnt-always-start-behind-screen).",
     },
     {
       type: "p",

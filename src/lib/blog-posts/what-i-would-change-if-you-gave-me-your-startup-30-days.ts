@@ -86,7 +86,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Week one produces a diagnosis, not a mood board. If you want the evergreen version of this diagnostic, use [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
+      text: "Week one produces a diagnosis, not a mood board. If you want the evergreen version of this diagnostic, use [If your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here).",
     },
     {
       type: "h2",
@@ -136,7 +136,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "Week two ends with a written offer that sales, product, and the website can share without translation. Related: [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Week two ends with a written offer that sales, product, and the website can share without translation. Related: [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "h2",
@@ -176,7 +176,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want a pattern library of what goes wrong, I documented it in [I audited 50 startup websites](/blog/audited-50-startup-websites-10-mistakes). If you want a shorter conversion lens, see [three changes that can double conversion](/blog/website-audit-three-changes-double-conversion).",
+      text: "If you want a pattern library of what goes wrong, I documented it in [I audited 50 startup websites](/essays/audited-50-startup-websites-10-mistakes). If you want a shorter conversion lens, see [three changes that can double conversion](/essays/website-audit-three-changes-double-conversion).",
     },
     {
       type: "takeaway",
@@ -247,7 +247,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This format can become a series-industry by industry-but the spine stays the same: clarity, experience, proof. For the philosophy underneath, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns) and [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first).",
+      text: "This format can become a series-industry by industry-but the spine stays the same: clarity, experience, proof. For the philosophy underneath, see [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns) and [if I joined your startup tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first).",
     },
     {
       type: "h2",
@@ -367,7 +367,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If those artefacts do not exist, you had a busy month, not a sprint. Busy months are how startups rehearse looking productive while the story stays foggy. For the clarity-first philosophy behind this kit, see [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma) and [from strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product).",
+      text: "If those artefacts do not exist, you had a busy month, not a sprint. Busy months are how startups rehearse looking productive while the story stays foggy. For the clarity-first philosophy behind this kit, see [why I start every project without opening Figma](/essays/why-i-start-every-project-without-opening-figma) and [from strategy to launch](/essays/from-strategy-to-launch-how-i-approach-new-product).",
     },
     {
       type: "takeaway",

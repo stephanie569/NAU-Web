@@ -92,7 +92,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Agentic workflows,” “revPAR optimisation,” “community-led growth loops”-sometimes accurate, often a fog machine. If the customer cannot reuse your language in a conversation with a colleague, you do not have positioning. You have a glossary. That is why [clarity problems masquerade as marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem) so often.",
+      text: "“Agentic workflows,” “revPAR optimisation,” “community-led growth loops”-sometimes accurate, often a fog machine. If the customer cannot reuse your language in a conversation with a colleague, you do not have positioning. You have a glossary. That is why [clarity problems masquerade as marketing problems](/essays/product-doesnt-have-marketing-problem-clarity-problem) so often.",
     },
     {
       type: "takeaway",
@@ -165,7 +165,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Airbnb’s strength-explored further in my [homepage teardown](/blog/product-teardown-airbnb-homepage)-is job clarity plus visual proof. Independent hotels can steal the principle without copying the marketplace UI: own the stay promise early, reduce uncertainty, make the next step obvious.",
+      text: "Airbnb’s strength-explored further in my [homepage teardown](/essays/product-teardown-airbnb-homepage)-is job clarity plus visual proof. Independent hotels can steal the principle without copying the marketplace UI: own the stay promise early, reduce uncertainty, make the next step obvious.",
     },
     {
       type: "h3",
@@ -201,7 +201,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This pairs cleanly with [the strategy-to-launch arc](/blog/from-strategy-to-launch-how-i-approach-new-product) and with [starting without Figma](/blog/why-i-start-every-project-without-opening-figma). The industry changes the answers inside the boxes; it should not delete the boxes.",
+      text: "This pairs cleanly with [the strategy-to-launch arc](/essays/from-strategy-to-launch-how-i-approach-new-product) and with [starting without Figma](/essays/why-i-start-every-project-without-opening-figma). The industry changes the answers inside the boxes; it should not delete the boxes.",
     },
     {
       type: "callout",
@@ -224,7 +224,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "These mistakes show up in [startup website audits](/blog/audited-50-startup-websites-10-mistakes) constantly. The AI company and the skincare brand make the same error with different adjectives. That is oddly comforting-and useful, because the fixes transfer.",
+      text: "These mistakes show up in [startup website audits](/essays/audited-50-startup-websites-10-mistakes) constantly. The AI company and the skincare brand make the same error with different adjectives. That is oddly comforting-and useful, because the fixes transfer.",
     },
     {
       type: "h2",
@@ -252,7 +252,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Respect for ruthless relevance. B2B can hide behind demos; consumer products cannot. Borrow the discipline of one idea per viewport and [first-ten-seconds clarity](/blog/why-startup-websites-fail-first-10-seconds).",
+      text: "Respect for ruthless relevance. B2B can hide behind demos; consumer products cannot. Borrow the discipline of one idea per viewport and [first-ten-seconds clarity](/essays/why-startup-websites-fail-first-10-seconds).",
     },
     {
       type: "quote",
@@ -300,7 +300,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once you see objections as types, you stop inventing random homepage sections and start placing answers where fear lives. That is also why [systems beat campaigns](/blog/why-i-care-more-about-systems-than-campaigns): objection handling should be an operating habit, not a launch-week scramble.",
+      text: "Once you see objections as types, you stop inventing random homepage sections and start placing answers where fear lives. That is also why [systems beat campaigns](/essays/why-i-care-more-about-systems-than-campaigns): objection handling should be an operating habit, not a launch-week scramble.",
     },
     {
       type: "callout",
@@ -334,7 +334,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Campaign tactics are local. Systems are portable. A positioning system, proof system, and learning cadence work in AI and hotels alike-see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns). A TikTok playbook from consumer rarely ports cleanly into enterprise AI sales cycles, and forcing it is how you get awkward webinars with ring lights.",
+      text: "Campaign tactics are local. Systems are portable. A positioning system, proof system, and learning cadence work in AI and hotels alike-see [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns). A TikTok playbook from consumer rarely ports cleanly into enterprise AI sales cycles, and forcing it is how you get awkward webinars with ring lights.",
     },
     {
       type: "p",
@@ -354,7 +354,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Without that separation, Grove becomes a muddy “AI hospitality platform” nobody can pitch. With it, the company can still share a system underneath-but markets two jobs with two narratives. That is [product versus business](/blog/difference-building-product-and-building-business) thinking in miniature: features alone do not create a repeatable value exchange.",
+      text: "Without that separation, Grove becomes a muddy “AI hospitality platform” nobody can pitch. With it, the company can still share a system underneath-but markets two jobs with two narratives. That is [product versus business](/essays/difference-building-product-and-building-business) thinking in miniature: features alone do not create a repeatable value exchange.",
     },
     {
       type: "faq",
@@ -397,7 +397,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Cross-industry work is not a personality quirk. It is a reminder that humans decide under uncertainty in every market. Categories differ. Clarity, trust, and time-to-value do not. For founders stuck asking for more channels when the real issue is coherence, continue with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "Cross-industry work is not a personality quirk. It is a reminder that humans decide under uncertainty in every market. Categories differ. Clarity, trust, and time-to-value do not. For founders stuck asking for more channels when the real issue is coherence, continue with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "cta",

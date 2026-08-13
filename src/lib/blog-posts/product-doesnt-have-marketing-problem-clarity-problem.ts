@@ -104,7 +104,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If three or more of those are true, pause the media plan. You are not under-marketed. You are under-explained. For a related diagnostic order, see [why every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If three or more of those are true, pause the media plan. You are not under-marketed. You are under-explained. For a related diagnostic order, see [why every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "takeaway",
@@ -207,7 +207,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your homepage fails in the first viewport, read [why most startup websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds). If you are about to scale spend anyway, answer [these five questions before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "If your homepage fails in the first viewport, read [why most startup websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds). If you are about to scale spend anyway, answer [these five questions before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -248,7 +248,7 @@ const post: BlogPost = {
         {
           question: "What if we serve multiple segments?",
           answer:
-            "Pick a primary for the next ninety days. Multiple segments on one homepage create multiple half-stories. You can still sell to others; you cannot lead with everyone. For a timed version of this work, see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+            "Pick a primary for the next ninety days. Multiple segments on one homepage create multiple half-stories. You can still sell to others; you cannot lead with everyone. For a timed version of this work, see [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
         },
         {
           question: "Can’t good marketing copy fix unclear positioning?",
@@ -258,7 +258,7 @@ const post: BlogPost = {
         {
           question: "We already have product-market fit. Is clarity still the issue?",
           answer:
-            "Sometimes. Fit in one segment can hide muddy storytelling as you expand. If expansion channels underperform while core customers still love you, the story is not travelling. See [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+            "Sometimes. Fit in one segment can hide muddy storytelling as you expand. If expansion channels underperform while core customers still love you, the story is not travelling. See [what founders get wrong about product-market fit](/essays/what-founders-get-wrong-about-product-market-fit).",
         },
       ],
     },
@@ -268,7 +268,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I start with the homepage and a cold read. Then sales call recordings. Then onboarding. Usually the same fog appears in all three places. We tighten the ICP, rewrite the outcome sentence, move proof next to claims, and only then discuss channels. For a broader sequence, [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here) maps the order I use.",
+      text: "I start with the homepage and a cold read. Then sales call recordings. Then onboarding. Usually the same fog appears in all three places. We tighten the ICP, rewrite the outcome sentence, move proof next to claims, and only then discuss channels. For a broader sequence, [if your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here) maps the order I use.",
     },
     {
       type: "p",
@@ -284,7 +284,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Walk the first session as a stranger. Where do you first experience the outcome named on the homepage? If the answer is “after integrations, permissions, a team invite, and a tutorial modal,” your clarity problem is experiential. Marketing did not cause that. Product sequencing did. This is why [best marketing feels like product design](/blog/best-marketing-feels-like-product-design)-the story and the session must agree.",
+      text: "Walk the first session as a stranger. Where do you first experience the outcome named on the homepage? If the answer is “after integrations, permissions, a team invite, and a tutorial modal,” your clarity problem is experiential. Marketing did not cause that. Product sequencing did. This is why [best marketing feels like product design](/essays/best-marketing-feels-like-product-design)-the story and the session must agree.",
     },
     {
       type: "ul",
@@ -314,7 +314,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Teams that treat clarity as a campaign theme lose it by Thursday. Teams that treat it as an operating constraint keep conversion from rotting while they ship. For a longer operating view, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Teams that treat clarity as a campaign theme lose it by Thursday. Teams that treat it as an operating constraint keep conversion from rotting while they ship. For a longer operating view, see [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "takeaway",

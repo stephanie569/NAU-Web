@@ -42,7 +42,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When I audit startup websites, the ones that convert rarely look the most expensive. They look the most specific. Specificity often comes from contact with reality-customers named, places referenced, constraints admitted. Related: [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "When I audit startup websites, the ones that convert rarely look the most expensive. They look the most specific. Specificity often comes from contact with reality-customers named, places referenced, constraints admitted. Related: [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "takeaway",
@@ -87,7 +87,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The final transfer is social. People who were there become nodes. Equip them with language and relics. Ask for introductions while the experience is warm. This is where physical marketing becomes a system rather than a memory. For systems thinking over campaign theatre, see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "The final transfer is social. People who were there become nodes. Equip them with language and relics. Ask for introductions while the experience is warm. This is where physical marketing becomes a system rather than a memory. For systems thinking over campaign theatre, see [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "image",
@@ -139,7 +139,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why brands with retail, events, or strong community rituals often look “better at digital.” Sometimes they are simply better supplied with proof. Creative teams with true material outperform creative teams inventing vibes. If your funnel is weak, the issue may be missing proof rather than missing spend-see [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "This is why brands with retail, events, or strong community rituals often look “better at digital.” Sometimes they are simply better supplied with proof. Creative teams with true material outperform creative teams inventing vibes. If your funnel is weak, the issue may be missing proof rather than missing spend-see [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -186,7 +186,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Align experience with product truth. That is the same standard as [marketing that feels like product design](/blog/best-marketing-feels-like-product-design). If the room oversells what the product under-delivers, you have manufactured distrust with better catering.",
+      text: "Align experience with product truth. That is the same standard as [marketing that feels like product design](/essays/best-marketing-feels-like-product-design). If the room oversells what the product under-delivers, you have manufactured distrust with better catering.",
     },
     {
       type: "h2",
@@ -220,7 +220,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are still deciding whether the issue is marketing at all, read [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper). If founders keep buying motion instead of belief, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "If you are still deciding whether the issue is marketing at all, read [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper). If founders keep buying motion instead of belief, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "h2",
@@ -262,7 +262,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For spend sequencing, see [where startups put their first £1,000 in the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place). For growth diagnosis, use [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
+      text: "For spend sequencing, see [where startups put their first £1,000 in the wrong place](/essays/first-1000-pounds-startup-spent-wrong-place). For growth diagnosis, use [If your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here).",
     },
     {
       type: "faq",

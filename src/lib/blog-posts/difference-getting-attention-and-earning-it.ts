@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-paid. I am anti-mistaking a lease for an asset. Related: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "I am not anti-paid. I am anti-mistaking a lease for an asset. Related: [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Interruption gets you into the room. Ads, cold outreach, launch bursts. Fine-when the room contains a story worth staying for. Interruption without a landing belief is how you fund other platforms’ growth targets. Before you scale interruption, ask the five questions in [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Interruption gets you into the room. Ads, cold outreach, launch bursts. Fine-when the room contains a story worth staying for. Interruption without a landing belief is how you fund other platforms’ growth targets. Before you scale interruption, ask the five questions in [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "callout",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Interest starts when someone sees a better tomorrow that matches their friction-not when they see your logo. Progress-led narrative is how attention becomes relevant. Feature packing lists get glances; futures get consideration. See [people don’t buy products-they buy a better version of tomorrow](/blog/people-dont-buy-products-buy-better-tomorrow).",
+      text: "Interest starts when someone sees a better tomorrow that matches their friction-not when they see your logo. Progress-led narrative is how attention becomes relevant. Feature packing lists get glances; futures get consideration. See [people don’t buy products-they buy a better version of tomorrow](/essays/people-dont-buy-products-buy-better-tomorrow).",
     },
     {
       type: "h3",
@@ -159,7 +159,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "There is also a product dodge. It is easier to buy reach than to fix an unclear offer. If every channel underperforms the same way, you may be renting attention for a story that cannot hold it-see [most marketing problems are product problems in disguise](/blog/most-marketing-problems-are-product-problems).",
+      text: "There is also a product dodge. It is easier to buy reach than to fix an unclear offer. If every channel underperforms the same way, you may be renting attention for a story that cannot hold it-see [most marketing problems are product problems in disguise](/essays/most-marketing-problems-are-product-problems).",
     },
     {
       type: "h2",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Launch days are classic getting-attention theatre. Useful as a checkpoint. Dangerous as a strategy. Earned launches start weeks earlier with seeded problems, allies, and proof-so day zero concentrates belief instead of begging for strangers. Build the runway: [your launch campaign starts long before launch day](/blog/launch-campaign-starts-long-before-launch-day).",
+      text: "Launch days are classic getting-attention theatre. Useful as a checkpoint. Dangerous as a strategy. Earned launches start weeks earlier with seeded problems, allies, and proof-so day zero concentrates belief instead of begging for strangers. Build the runway: [your launch campaign starts long before launch day](/essays/launch-campaign-starts-long-before-launch-day).",
     },
     {
       type: "h2",
@@ -241,7 +241,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I build sites and growth systems that treat attention as something to earn and store-not only rent. That usually means clearer story, better proof, and distribution designed as a system. If you are tired of leasing belief, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing). And if marketing should feel less like interruption and more like craft: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "I build sites and growth systems that treat attention as something to earn and store-not only rent. That usually means clearer story, better proof, and distribution designed as a system. If you are tired of leasing belief, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing). And if marketing should feel less like interruption and more like craft: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "faq",

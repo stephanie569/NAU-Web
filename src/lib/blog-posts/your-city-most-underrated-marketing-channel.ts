@@ -42,7 +42,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not arguing you should never run ads. I am arguing that many founders run ads to compensate for never becoming known on their own street. That is a sequencing error with a media budget attached. Related: [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "I am not arguing you should never run ads. I am arguing that many founders run ads to compensate for never becoming known on their own street. That is a sequencing error with a media budget attached. Related: [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "takeaway",
@@ -79,7 +79,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Beachheads work in product strategy for the same reason they work in cities: focus creates legibility. For the product version of this discipline, see [the product strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen).",
+      text: "Beachheads work in product strategy for the same reason they work in cities: focus creates legibility. For the product version of this discipline, see [the product strategy framework before designing a screen](/essays/product-strategy-framework-before-designing-screen).",
     },
     {
       type: "h3",
@@ -186,7 +186,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your buyers are sparse by nature (highly specialised enterprise across continents), pure city strategy will frustrate you. Use hubs instead: the two or three cities where density still exists. If your product is illegal to demo in public, adapt with private rooms. If your positioning is still fog, fix that before you rent a high street window-clarity still comes first. See [your product may not have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "If your buyers are sparse by nature (highly specialised enterprise across continents), pure city strategy will frustrate you. Use hubs instead: the two or three cities where density still exists. If your product is illegal to demo in public, adapt with private rooms. If your positioning is still fog, fix that before you rent a high street window-clarity still comes first. See [your product may not have a marketing problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "callout",
@@ -203,7 +203,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Allocate a fixed percentage of early marketing to city operations: partnerships, micro-events, print that is designed rather than desperate, geo creative that references real places. Compare cost per activated conversation against your social experiments. For spend discipline, use [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions) and [where the first £1,000 goes wrong](/blog/first-1000-pounds-startup-spent-wrong-place).",
+      text: "Allocate a fixed percentage of early marketing to city operations: partnerships, micro-events, print that is designed rather than desperate, geo creative that references real places. Compare cost per activated conversation against your social experiments. For spend discipline, use [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions) and [where the first £1,000 goes wrong](/essays/first-1000-pounds-startup-spent-wrong-place).",
     },
     {
       type: "table",
@@ -242,11 +242,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "City channels fail when the offer still feels generic. Local language should match local jobs: same promise, sharper context. That is belief design-the same philosophy as [marketing that feels like product design](/blog/best-marketing-feels-like-product-design). The street is another interface. Treat it with the same respect you pretend to give the homepage.",
+      text: "City channels fail when the offer still feels generic. Local language should match local jobs: same promise, sharper context. That is belief design-the same philosophy as [marketing that feels like product design](/essays/best-marketing-feels-like-product-design). The street is another interface. Treat it with the same respect you pretend to give the homepage.",
     },
     {
       type: "p",
-      text: "Also build systems, not one-off “local campaigns.” Rhythm, partner CRM, capture links, and weekly debriefs matter more than a single launch party. That is why I care about [systems more than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Also build systems, not one-off “local campaigns.” Rhythm, partner CRM, capture links, and weekly debriefs matter more than a single launch party. That is why I care about [systems more than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h2",
@@ -266,7 +266,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If everything still looks like a marketing problem, dig deeper with [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper). If growth is flat, start with [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here).",
+      text: "If everything still looks like a marketing problem, dig deeper with [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper). If growth is flat, start with [If your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here).",
     },
     {
       type: "faq",

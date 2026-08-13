@@ -45,7 +45,7 @@ export default function TermsPage() {
               purposes.
             </p>
             <p>
-              Content is provided for general information. Blog articles share
+              Content is provided for general information. Essays share
               strategic perspectives and educational frameworks; they are not
               legal, financial, investment, or tax advice, and they are not a
               substitute for tailored professional counsel on your situation.
@@ -72,7 +72,7 @@ export default function TermsPage() {
             </h2>
             <p>
               Unless otherwise stated, the website’s text, design, graphics,
-              logos, images, layouts, and Blog content are owned by Stefani
+              logos, images, layouts, and essay content are owned by Stefani
               Dimitrova (nau) or used under licence. You may view and share
               links to public pages for ordinary personal or professional
               reference. You may not copy, reproduce, republish, or commercially

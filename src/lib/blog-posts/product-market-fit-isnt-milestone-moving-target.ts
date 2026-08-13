@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece extends [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit) and [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit). It also pairs with [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher)-because early fit with a teacher is not durable fit with a market.",
+      text: "This piece extends [what founders get wrong about product-market fit](/essays/what-founders-get-wrong-about-product-market-fit) and [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit). It also pairs with [the first customer isn't your market. They're your teacher.](/essays/first-customer-isnt-your-market-theyre-your-teacher)-because early fit with a teacher is not durable fit with a market.",
     },
     {
       type: "h2",
@@ -81,7 +81,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Feature sprawl dilutes the original job. Onboarding lengthens. The story blurs. You can ship your way out of the fit you earned. For the discipline to resist that, use [before you build another feature, ask these five questions](/blog/before-build-another-feature-ask-five-questions).",
+      text: "Feature sprawl dilutes the original job. Onboarding lengthens. The story blurs. You can ship your way out of the fit you earned. For the discipline to resist that, use [before you build another feature, ask these five questions](/essays/before-build-another-feature-ask-five-questions).",
     },
     {
       type: "callout",
@@ -153,7 +153,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When two or more lines weaken, you do not “lose PMF” in a dramatic sense-you gain a research agenda. That agenda should beat the feature queue. Problem clarity still leads; see [the best products solve a problem before they sell a solution](/blog/best-products-solve-problem-before-sell-solution).",
+      text: "When two or more lines weaken, you do not “lose PMF” in a dramatic sense-you gain a research agenda. That agenda should beat the feature queue. Problem clarity still leads; see [the best products solve a problem before they sell a solution](/essays/best-products-solve-problem-before-sell-solution).",
     },
     {
       type: "h2",
@@ -190,7 +190,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If growth stalls after the declaration, resist the reflex that it must be a channel problem. Re-read [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper) and [most product launches don't fail because of marketing](/blog/most-product-launches-dont-fail-because-of-marketing). Often the target moved while the megaphone stayed aimed at last year’s job.",
+      text: "If growth stalls after the declaration, resist the reflex that it must be a channel problem. Re-read [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper) and [most product launches don't fail because of marketing](/essays/most-product-launches-dont-fail-because-of-marketing). Often the target moved while the megaphone stayed aimed at last year’s job.",
     },
     {
       type: "h2",
@@ -223,7 +223,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Revisit pricing when the scorecard wobbles. Sometimes the product is fine and the offer is wrong for the segment. Sometimes the segment never had durable urgency. Either way, pretending the milestone still holds while finance papers over the gap is how quiet decay becomes a sudden crisis. Pair pricing honesty with feature restraint-the same instinct as [the hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
+      text: "Revisit pricing when the scorecard wobbles. Sometimes the product is fine and the offer is wrong for the segment. Sometimes the segment never had durable urgency. Either way, pretending the milestone still holds while finance papers over the gap is how quiet decay becomes a sudden crisis. Pair pricing honesty with feature restraint-the same instinct as [the hidden cost of building features nobody asked for](/essays/hidden-cost-building-features-nobody-asked-for).",
     },
     {
       type: "h2",
@@ -231,7 +231,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help founders rebuild product narratives when the market has shifted under a frozen story. Websites, onboarding, and messaging get re-anchored to the current job and alternative set-not the deck from the round that celebrated PMF. Strategy before screens still applies: [from strategy to launch: how I approach a new product](/blog/from-strategy-to-launch-how-i-approach-new-product).",
+      text: "I help founders rebuild product narratives when the market has shifted under a frozen story. Websites, onboarding, and messaging get re-anchored to the current job and alternative set-not the deck from the round that celebrated PMF. Strategy before screens still applies: [from strategy to launch: how I approach a new product](/essays/from-strategy-to-launch-how-i-approach-new-product).",
     },
     {
       type: "faq",

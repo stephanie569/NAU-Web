@@ -572,11 +572,11 @@ export const faqItems = [
 
 export const blogSectionCopy = {
   title: "Newest essays",
-  titleMuted: "from the blog.",
+  titleMuted: "from the studio.",
   description:
     "Organic growth, positioning and content that matters for brands that make things.",
   cta: "Read",
-  ctaHref: "/blog",
+  ctaHref: "/essays",
   brand: "nau",
   featuredTitle:
     "Great products still fail before PMF. Here's why.",

@@ -21,7 +21,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about why perspective is still the moat, when AI content feels empty even when it is competent, and how to use drafting tools as labour-not as a substitute for judgement. Related: [your competitive advantage was never typing faster](/blog/competitive-advantage-was-never-typing-faster).",
+      text: "This piece is about why perspective is still the moat, when AI content feels empty even when it is competent, and how to use drafting tools as labour-not as a substitute for judgement. Related: [your competitive advantage was never typing faster](/essays/competitive-advantage-was-never-typing-faster).",
     },
     {
       type: "h2",
@@ -58,7 +58,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Models are trained on averages. Averages are useful for orientation and dangerous as a brand voice. When you ship average thinking in elegant packaging, the packaging becomes the product-and packaging does not compound. For how trust actually forms, see [people trust people before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "Models are trained on averages. Averages are useful for orientation and dangerous as a brand voice. When you ship average thinking in elegant packaging, the packaging becomes the product-and packaging does not compound. For how trust actually forms, see [people trust people before they trust marketing](/essays/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "table",
@@ -118,7 +118,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A stake is a sentence that commits. “Consistency beats brilliance” is a stake. “Here are five tips for growth” is not. Before you open a drafting tool, write one stake in plain language. If you cannot, you are not ready to generate-you are ready to research. Curiosity still beats prompt tricks; more on that in [the best prompt is still a good question](/blog/best-prompt-is-still-good-question).",
+      text: "A stake is a sentence that commits. “Consistency beats brilliance” is a stake. “Here are five tips for growth” is not. Before you open a drafting tool, write one stake in plain language. If you cannot, you are not ready to generate-you are ready to research. Curiosity still beats prompt tricks; more on that in [the best prompt is still a good question](/essays/best-prompt-is-still-good-question).",
     },
     {
       type: "h3",
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Polish without perspective is a well-ironed empty shirt. Ship the claim. Accept that someone will disagree. Disagreement is often a sign you said something. Silence is what commodity content receives. Cadence still matters-perspective compounds when it is repeated with integrity, not when it is reinvented weekly. See [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Polish without perspective is a well-ironed empty shirt. Ship the claim. Accept that someone will disagree. Disagreement is often a sign you said something. Silence is what commodity content receives. Cadence still matters-perspective compounds when it is repeated with integrity, not when it is reinvented weekly. See [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "takeaway",
@@ -177,7 +177,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is why organic growth still has to be earned even when drafting is free: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned). Free words do not equal earned attention. Attention still tracks belief.",
+      text: "This is why organic growth still has to be earned even when drafting is free: [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned). Free words do not equal earned attention. Attention still tracks belief.",
     },
     {
       type: "ul",
@@ -213,7 +213,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Take your last three AI-assisted posts. Delete the first paragraph of each. If what remains could belong to any brand in your category, rewrite from a stake before you schedule anything else. Volume that dilutes perspective is not a content strategy-it is identity erosion. Related: [don’t let AI become your personality](/blog/dont-let-ai-become-your-personality).",
+      text: "Take your last three AI-assisted posts. Delete the first paragraph of each. If what remains could belong to any brand in your category, rewrite from a stake before you schedule anything else. Volume that dilutes perspective is not a content strategy-it is identity erosion. Related: [don’t let AI become your personality](/essays/dont-let-ai-become-your-personality).",
     },
     {
       type: "h2",
@@ -229,11 +229,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help founders build product stories and publishing systems where tools accelerate craft without replacing taste. We start with stakes and evidence, then use generation for structure and scale. If you need systems more than another campaign spike, start with [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "I help founders build product stories and publishing systems where tools accelerate craft without replacing taste. We start with stakes and evidence, then use generation for structure and scale. If you need systems more than another campaign spike, start with [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "p",
-      text: "And when the work gets operational-what to automate versus what to own-read [AI should handle the repetition; you should keep the judgement](/blog/ai-should-handle-repetition-you-keep-judgement).",
+      text: "And when the work gets operational-what to automate versus what to own-read [AI should handle the repetition; you should keep the judgement](/essays/ai-should-handle-repetition-you-keep-judgement).",
     },
     {
       type: "faq",

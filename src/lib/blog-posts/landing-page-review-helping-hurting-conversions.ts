@@ -34,7 +34,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the page tries to educate everyone about everything, it will convert like a brochure. If you need a sharper first-screen philosophy, pair this article with [why startup websites fail in the first ten seconds](/blog/why-startup-websites-fail-first-10-seconds).",
+      text: "If the page tries to educate everyone about everything, it will convert like a brochure. If you need a sharper first-screen philosophy, pair this article with [why startup websites fail in the first ten seconds](/essays/why-startup-websites-fail-first-10-seconds).",
     },
     {
       type: "takeaway",
@@ -232,7 +232,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the same philosophy as the [three conversion levers](/blog/website-audit-three-changes-double-conversion): message, proof, path-applied to a single URL with paid traffic on the line.",
+      text: "This is the same philosophy as the [three conversion levers](/essays/website-audit-three-changes-double-conversion): message, proof, path-applied to a single URL with paid traffic on the line.",
     },
     {
       type: "h2",
@@ -297,7 +297,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If your page is gorgeous and still soft, read [why beautiful websites do not always convert](/blog/why-beautiful-websites-dont-always-convert). If issues leap out immediately, use the [five-minute audit](/blog/five-minutes-on-your-website-enough-to-find-issues) as a pre-review.",
+      text: "If your page is gorgeous and still soft, read [why beautiful websites do not always convert](/essays/why-beautiful-websites-dont-always-convert). If issues leap out immediately, use the [five-minute audit](/essays/five-minutes-on-your-website-enough-to-find-issues) as a pre-review.",
     },
     {
       type: "h2",

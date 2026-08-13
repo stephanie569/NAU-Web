@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about voice dilution, how to build guardrails so tools accelerate without homogenising, and why authenticity is not a vibe but a set of editorial decisions. Related: [AI can write your content; it can’t replace your perspective](/blog/ai-can-write-content-cant-replace-perspective).",
+      text: "This piece is about voice dilution, how to build guardrails so tools accelerate without homogenising, and why authenticity is not a vibe but a set of editorial decisions. Related: [AI can write your content; it can’t replace your perspective](/essays/ai-can-write-content-cant-replace-perspective).",
     },
     {
       type: "p",
@@ -58,7 +58,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People trust people before they trust marketing. A homogenised brand voice is marketing that forgot it needed a person underneath. See [people trust people before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "People trust people before they trust marketing. A homogenised brand voice is marketing that forgot it needed a person underneath. See [people trust people before they trust marketing](/essays/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "table",
@@ -118,7 +118,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A voice spec need not be a novel. One page is enough: tone spectrum, words we favour, words we ban, humour allowance, certainty level, how we talk about competitors, how we admit limits. Codify enough that a contractor-or a model-can stay inside the fence. Related: [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "A voice spec need not be a novel. One page is enough: tone spectrum, words we favour, words we ban, humour allowance, certainty level, how we talk about competitors, how we admit limits. Codify enough that a contractor-or a model-can stay inside the fence. Related: [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h3",
@@ -126,7 +126,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Constraints are kindness. Tell the tool what not to do. Provide examples. Require structure options before final prose. Never ask for “engaging LinkedIn post about our product” with no spine. Curiosity still beats clever prompting-see [the best prompt is still a good question](/blog/best-prompt-is-still-good-question)-but questions without constraints still produce median answers.",
+      text: "Constraints are kindness. Tell the tool what not to do. Provide examples. Require structure options before final prose. Never ask for “engaging LinkedIn post about our product” with no spine. Curiosity still beats clever prompting-see [the best prompt is still a good question](/essays/best-prompt-is-still-good-question)-but questions without constraints still produce median answers.",
     },
     {
       type: "ol",
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Voice drifts under deadline pressure. Schedule a fifteen-minute review: pick three recent outputs, score them against the voice crate, note new banned phrases the model invented. Correction is how authenticity survives scale. Consistency of voice is a form of earned trust-as is consistency of publishing: [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Voice drifts under deadline pressure. Schedule a fifteen-minute review: pick three recent outputs, score them against the voice crate, note new banned phrases the model invented. Correction is how authenticity survives scale. Consistency of voice is a form of earned trust-as is consistency of publishing: [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "takeaway",
@@ -191,7 +191,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Build a pre-ship checklist that is short enough to survive a bad day: stake present, lived detail present, banned phrase absent, human line intact, claim still true. If a draft fails two checks, it does not ship-even if the calendar looks empty. Empty calendars recover. Diluted brands do not recover on demand. Organic attention still has to be earned with something recognisable: [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "Build a pre-ship checklist that is short enough to survive a bad day: stake present, lived detail present, banned phrase absent, human line intact, claim still true. If a draft fails two checks, it does not ship-even if the calendar looks empty. Empty calendars recover. Diluted brands do not recover on demand. Organic attention still has to be earned with something recognisable: [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "p",
@@ -231,7 +231,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I help teams build voice systems alongside growth systems-so AI can draft without flattening the brand into category mush. Marketing should still feel designed, not mass-produced: [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design). And when you decide what to automate versus what to own, keep judgement human: [AI should handle the repetition; you should keep the judgement](/blog/ai-should-handle-repetition-you-keep-judgement).",
+      text: "I help teams build voice systems alongside growth systems-so AI can draft without flattening the brand into category mush. Marketing should still feel designed, not mass-produced: [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design). And when you decide what to automate versus what to own, keep judgement human: [AI should handle the repetition; you should keep the judgement](/essays/ai-should-handle-repetition-you-keep-judgement).",
     },
     {
       type: "p",

@@ -25,7 +25,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If this sounds adjacent to [clarity versus marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem), it is. Scaling too early is what happens when you treat the symptom with a budget instead of treating the cause with a sentence.",
+      text: "If this sounds adjacent to [clarity versus marketing problems](/essays/product-doesnt-have-marketing-problem-clarity-problem), it is. Scaling too early is what happens when you treat the symptom with a budget instead of treating the cause with a sentence.",
     },
     {
       type: "h2",
@@ -77,7 +77,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the classic. Traffic rises. Conversion does not. Creative gets blamed. The landing page still opens with a category slogan. Before you spend meaningfully, answer [these five questions](/blog/before-spend-10000-marketing-five-questions). If you cannot, the ad account is not your bottleneck.",
+      text: "This is the classic. Traffic rises. Conversion does not. Creative gets blamed. The landing page still opens with a category slogan. Before you spend meaningfully, answer [these five questions](/essays/before-spend-10000-marketing-five-questions). If you cannot, the ad account is not your bottleneck.",
     },
     {
       type: "h3",
@@ -85,7 +85,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Teams add modules to look “enterprise ready” before a narrow customer has experienced a sharp outcome. Complexity rises. Time-to-value falls. Sales demos get longer. Activation gets worse. This is scaling product surface area before scaling understanding. Related reading: [the hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
+      text: "Teams add modules to look “enterprise ready” before a narrow customer has experienced a sharp outcome. Complexity rises. Time-to-value falls. Sales demos get longer. Activation gets worse. This is scaling product surface area before scaling understanding. Related reading: [the hidden cost of building features nobody asked for](/essays/hidden-cost-building-features-nobody-asked-for).",
     },
     {
       type: "h3",
@@ -93,7 +93,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Signups, waitlists, impressions, and “engaged” users can rise while retention and willingness to pay stay flat. Scale then celebrates the wrong curve. Product-market fit theatre is still theatre. See [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "Signups, waitlists, impressions, and “engaged” users can rise while retention and willingness to pay stay flat. Scale then celebrates the wrong curve. Product-market fit theatre is still theatre. See [what founders get wrong about product-market fit](/essays/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "h2",
@@ -134,7 +134,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "One primary customer. One job. One outcome sentence. Exclusions written down. Use the [strategy framework before designing screens](/blog/product-strategy-framework-before-designing-screen) if you need structure. Do not skip exclusions; they keep you honest when a shiny logo from the wrong segment appears.",
+      text: "One primary customer. One job. One outcome sentence. Exclusions written down. Use the [strategy framework before designing screens](/essays/product-strategy-framework-before-designing-screen) if you need structure. Do not skip exclusions; they keep you honest when a shiny logo from the wrong segment appears.",
     },
     {
       type: "h3",
@@ -142,7 +142,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A cold visitor should understand the offer and take one meaningful step. That might be a trial activation or a qualified booking. If the path fails in the [first ten seconds](/blog/why-startup-websites-fail-first-10-seconds), fix the path before you buy volume. Conversion proof beats traffic pride.",
+      text: "A cold visitor should understand the offer and take one meaningful step. That might be a trial activation or a qualified booking. If the path fails in the [first ten seconds](/essays/why-startup-websites-fail-first-10-seconds), fix the path before you buy volume. Conversion proof beats traffic pride.",
     },
     {
       type: "h3",
@@ -215,7 +215,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If growth is stuck and you need an order of operations, start with [if your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). If you want a time-boxed reset on the story, use [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "If growth is stuck and you need an order of operations, start with [if your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here). If you want a time-boxed reset on the story, use [repositioning in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "faq",
@@ -252,7 +252,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I ask founders to estimate hours per week spent re-explaining what the product is. If the number is large and not shrinking, scale is not the next chapter-definition is. [What I’d do first if I joined tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) usually starts there, not with a channel brainstorm.",
+      text: "I ask founders to estimate hours per week spent re-explaining what the product is. If the number is large and not shrinking, scale is not the next chapter-definition is. [What I’d do first if I joined tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first) usually starts there, not with a channel brainstorm.",
     },
     {
       type: "h2",
@@ -264,7 +264,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Startup B then “optimises creative” for six weeks. Creative cannot permanently compensate for a page that still cannot finish a thought. This is the expensive loop. Break it by returning to clarity and the conversion path-see [landing page review](/blog/landing-page-review-helping-hurting-conversions)-before you renew the ad invoice.",
+      text: "Startup B then “optimises creative” for six weeks. Creative cannot permanently compensate for a page that still cannot finish a thought. This is the expensive loop. Break it by returning to clarity and the conversion path-see [landing page review](/essays/landing-page-review-helping-hurting-conversions)-before you renew the ad invoice.",
     },
     {
       type: "table",
@@ -344,7 +344,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If growth feels expensive and fragile, look for the clarity leak before you look for another channel. Channels are plentiful. Clear offers are not. For adjacent diagnosis, [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper) remains the map I use when teams insist the answer must be more spend.",
+      text: "If growth feels expensive and fragile, look for the clarity leak before you look for another channel. Channels are plentiful. Clear offers are not. For adjacent diagnosis, [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper) remains the map I use when teams insist the answer must be more spend.",
     },
     {
       type: "cta",

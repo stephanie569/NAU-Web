@@ -42,7 +42,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I run four questions in sequence. Skipping ahead feels faster. It rarely is. This pairs with [your product doesn’t have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem) and [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "I run four questions in sequence. Skipping ahead feels faster. It rarely is. This pairs with [your product doesn’t have a marketing problem](/essays/product-doesnt-have-marketing-problem-clarity-problem) and [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "ol",
@@ -63,7 +63,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Symptoms of a comprehension gap: rising traffic with flat demos; sales restarting the pitch every call; ads that must over-explain; customers describing five different products. Fixes live in ICP, offer sentence, hero, and proof placement-not in another blog series. Related: [why websites fail in the first 10 seconds](/blog/why-startup-websites-fail-first-10-seconds).",
+      text: "Symptoms of a comprehension gap: rising traffic with flat demos; sales restarting the pitch every call; ads that must over-explain; customers describing five different products. Fixes live in ICP, offer sentence, hero, and proof placement-not in another blog series. Related: [why websites fail in the first 10 seconds](/essays/why-startup-websites-fail-first-10-seconds).",
     },
     {
       type: "h3",
@@ -79,7 +79,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Ask ten retained users what they hire you for. If answers scatter, your product is a toolkit without a centre-or your marketing invited the wrong crowd. Consistency is a signal of fit. Scatter is a signal to narrow. This is adjacent to [what founders get wrong about product-market fit](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "Ask ten retained users what they hire you for. If answers scatter, your product is a toolkit without a centre-or your marketing invited the wrong crowd. Consistency is a signal of fit. Scatter is a signal to narrow. This is adjacent to [what founders get wrong about product-market fit](/essays/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "h3",
@@ -140,7 +140,7 @@ const post: BlogPost = {
       items: [
         "“We need more content” when the ICP is undefined-content cannot aim itself.",
         "“We need a rebrand” when the offer sentence is unfinished-paint is not strategy.",
-        "“We need more features” when activation is buried-see [unused feature costs](/blog/hidden-cost-building-features-nobody-asked-for).",
+        "“We need more features” when activation is buried-see [unused feature costs](/essays/hidden-cost-building-features-nobody-asked-for).",
         "“We need better creatives” when the landing page contradicts the ad.",
         "“We need a growth hire” when no one owns the primary conversion path.",
       ],
@@ -159,7 +159,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I also watch for category theatre: teams that describe themselves with buzzwords nobody searches and nobody says on calls. If customer language and homepage language diverge, comprehension is already broken. Pull phrases from recordings into the hero before you debate brand voice. [Five minutes on your website](/blog/five-minutes-on-your-website-enough-to-find-issues) is often enough to spot the divergence; depth comes from pairing that scan with funnel stages.",
+      text: "I also watch for category theatre: teams that describe themselves with buzzwords nobody searches and nobody says on calls. If customer language and homepage language diverge, comprehension is already broken. Pull phrases from recordings into the hero before you debate brand voice. [Five minutes on your website](/essays/five-minutes-on-your-website-enough-to-find-issues) is often enough to spot the divergence; depth comes from pairing that scan with funnel stages.",
     },
     {
       type: "h3",
@@ -167,11 +167,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The healthiest teams run the diagnostic together. Marketing brings channel and creative evidence. Product brings activation and retention. Founders bring ICP honesty. If marketing alone owns “growth,” you will keep buying attention for a product story product does not keep. If product alone owns “growth,” you may ship features into silence. Shared leakage maps beat departmental narratives. That is also why [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "The healthiest teams run the diagnostic together. Marketing brings channel and creative evidence. Product brings activation and retention. Founders bring ICP honesty. If marketing alone owns “growth,” you will keep buying attention for a product story product does not keep. If product alone owns “growth,” you may ship features into silence. Shared leakage maps beat departmental narratives. That is also why [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "p",
-      text: "For spend that is about to land in the wrong place, revisit [where the first £1,000 often goes wrong](/blog/first-1000-pounds-startup-spent-wrong-place). The pattern is older than your current stack.",
+      text: "For spend that is about to land in the wrong place, revisit [where the first £1,000 often goes wrong](/essays/first-1000-pounds-startup-spent-wrong-place). The pattern is older than your current stack.",
     },
     {
       type: "h2",
@@ -183,7 +183,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When teams insist the brand is the issue, I ask whether a colder, clearer page with the same brand assets would convert better. Often it would. Brand then becomes a craft layer on a working argument-not a ransom note holding strategy hostage. For website-specific surgery after the dig, [landing page review](/blog/landing-page-review-helping-hurting-conversions) and [why sites fail in ten seconds](/blog/why-startup-websites-fail-first-10-seconds) stay on the shortlist.",
+      text: "When teams insist the brand is the issue, I ask whether a colder, clearer page with the same brand assets would convert better. Often it would. Brand then becomes a craft layer on a working argument-not a ransom note holding strategy hostage. For website-specific surgery after the dig, [landing page review](/essays/landing-page-review-helping-hurting-conversions) and [why sites fail in ten seconds](/essays/why-startup-websites-fail-first-10-seconds) stay on the shortlist.",
     },
     {
       type: "h2",
@@ -195,7 +195,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you need a partner posture for that conversation, the day-one plan in [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) doubles as a board-friendly sequence: diagnose, clarify, fix the path, then amplify. Skipping to amplify is not bold. It is loud.",
+      text: "If you need a partner posture for that conversation, the day-one plan in [if I joined your startup tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first) doubles as a board-friendly sequence: diagnose, clarify, fix the path, then amplify. Skipping to amplify is not bold. It is loud.",
     },
     {
       type: "p",
@@ -217,7 +217,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the spirit of [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) and [what I’d change in 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days). Dig until the constraint is visible, then design the system that removes it.",
+      text: "This is the spirit of [if I joined your startup tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first) and [what I’d change in 30 days](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days). Dig until the constraint is visible, then design the system that removes it.",
     },
     {
       type: "callout",
@@ -240,7 +240,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want conversion-specific surgery after the dig, use [three changes that can double conversion](/blog/website-audit-three-changes-double-conversion) or [landing page review](/blog/landing-page-review-helping-hurting-conversions). If beauty is masking the issue, read [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert).",
+      text: "If you want conversion-specific surgery after the dig, use [three changes that can double conversion](/essays/website-audit-three-changes-double-conversion) or [landing page review](/essays/landing-page-review-helping-hurting-conversions). If beauty is masking the issue, read [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert).",
     },
     {
       type: "quote",

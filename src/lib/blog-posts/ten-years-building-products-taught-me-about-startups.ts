@@ -29,7 +29,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Stripe did not win early by listing every financial primitive. It won by making “accept payments” feel like progress in an afternoon. Linear did not win by matching every issue tracker checkbox. It won by making speed-to-clarity feel inevitable. When roadmaps swell, ask: what progress got faster this month? If the answer is “we shipped surface area,” you are collecting stamps, not customers. See also [the hidden cost of features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for).",
+      text: "Stripe did not win early by listing every financial primitive. It won by making “accept payments” feel like progress in an afternoon. Linear did not win by matching every issue tracker checkbox. It won by making speed-to-clarity feel inevitable. When roadmaps swell, ask: what progress got faster this month? If the answer is “we shipped surface area,” you are collecting stamps, not customers. See also [the hidden cost of features nobody asked for](/essays/hidden-cost-building-features-nobody-asked-for).",
     },
     {
       type: "takeaway",
@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Clever lines win workshops. Sharp sentences win cold traffic. “Reimagine collaboration” can hang in a lobby. “Your design team can comment on the live file-no more exporting PDFs for feedback” can close a trial. I have rewritten more heroes than I have designed net-new illustrations, and the rewrites moved metrics more often. Clarity problems masquerade as marketing problems-[your product’s clarity problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "Clever lines win workshops. Sharp sentences win cold traffic. “Reimagine collaboration” can hang in a lobby. “Your design team can comment on the live file-no more exporting PDFs for feedback” can close a trial. I have rewritten more heroes than I have designed net-new illustrations, and the rewrites moved metrics more often. Clarity problems masquerade as marketing problems-[your product’s clarity problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "p",
@@ -62,7 +62,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "My practical rule: freeze the offer sentence and ICP exclusions before you celebrate velocity. Then go fast. That sequence shows up in [the strategy framework before designing a screen](/blog/product-strategy-framework-before-designing-screen) and in [why I start without Figma](/blog/why-i-start-every-project-without-opening-figma).",
+      text: "My practical rule: freeze the offer sentence and ICP exclusions before you celebrate velocity. Then go fast. That sequence shows up in [the strategy framework before designing a screen](/essays/product-strategy-framework-before-designing-screen) and in [why I start without Figma](/essays/why-i-start-every-project-without-opening-figma).",
     },
     {
       type: "h2",
@@ -70,7 +70,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Treating the site as a brochure is how teams create a gap between promise and first session. The homepage sets expectations the onboarding must keep. When they diverge, trust drops before the product has a chance. Airbnb’s public pages and product experience historically worked hard to feel like one system-I explore related territory in [the Airbnb homepage teardown](/blog/product-teardown-airbnb-homepage).",
+      text: "Treating the site as a brochure is how teams create a gap between promise and first session. The homepage sets expectations the onboarding must keep. When they diverge, trust drops before the product has a chance. Airbnb’s public pages and product experience historically worked hard to feel like one system-I explore related territory in [the Airbnb homepage teardown](/essays/product-teardown-airbnb-homepage).",
     },
     {
       type: "p",
@@ -111,7 +111,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Harvard Business Review’s enduring material on discovery and strategy-as-choice still beats most Twitter threads-[HBR](https://hbr.org/). When listening is weak, teams invent requirements. When listening is strong, roadmaps shrink and conversion paths get kinder. That is also how I filter ideas worth building: [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+      text: "Harvard Business Review’s enduring material on discovery and strategy-as-choice still beats most Twitter threads-[HBR](https://hbr.org/). When listening is weak, teams invent requirements. When listening is strong, roadmaps shrink and conversion paths get kinder. That is also how I filter ideas worth building: [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building).",
     },
     {
       type: "h2",
@@ -119,7 +119,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A launch spike feels like strategy. A weekly system is strategy. I optimise for compounding understanding: positioning that stays sharp, experiences that teach the offer, proof that accumulates, and metrics that ask useful questions. Campaigns become amplifiers, not crutches. I wrote that preference plainly in [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns) and [founders don’t need more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "A launch spike feels like strategy. A weekly system is strategy. I optimise for compounding understanding: positioning that stays sharp, experiences that teach the offer, proof that accumulates, and metrics that ask useful questions. Campaigns become amplifiers, not crutches. I wrote that preference plainly in [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns) and [founders don’t need more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "ol",
@@ -146,7 +146,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This overlaps with conversion work in [three changes that can double conversion](/blog/website-audit-three-changes-double-conversion) and with the diagnostic patience in [every startup looks like a marketing problem](/blog/every-startup-looks-like-marketing-problem-until-deeper). Proof is how you borrow trust until lived experience replaces it.",
+      text: "This overlaps with conversion work in [three changes that can double conversion](/essays/website-audit-three-changes-double-conversion) and with the diagnostic patience in [every startup looks like a marketing problem](/essays/every-startup-looks-like-marketing-problem-until-deeper). Proof is how you borrow trust until lived experience replaces it.",
     },
     {
       type: "h2",
@@ -170,11 +170,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "The corrective habits are dull on purpose. Dull scales. Drama does not. When a project feels exciting for the wrong reasons-new category narratives, sudden pivots without evidence, redesigns as conflict avoidance-I slow the room down with questions from [questions I ask before taking any client](/blog/questions-i-ask-before-taking-any-client). Excitement that cannot survive those questions usually cannot survive the market either.",
+      text: "The corrective habits are dull on purpose. Dull scales. Drama does not. When a project feels exciting for the wrong reasons-new category narratives, sudden pivots without evidence, redesigns as conflict avoidance-I slow the room down with questions from [questions I ask before taking any client](/essays/questions-i-ask-before-taking-any-client). Excitement that cannot survive those questions usually cannot survive the market either.",
     },
     {
       type: "p",
-      text: "If growth is stalling and you need a starting point rather than a memoir, use [if the product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). The decade compressed into an operating order is more useful than another inspirational thread.",
+      text: "If growth is stalling and you need a starting point rather than a memoir, use [if the product isn’t growing, start here](/essays/if-product-isnt-growing-start-here). The decade compressed into an operating order is more useful than another inspirational thread.",
     },
     {
       type: "h2",
@@ -194,11 +194,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I optimise for systems that create compounding understanding: positioning, experience design, and proof. Campaigns come after. That is the spine of my work at nau. Cross-industry work taught me the same constraints wear different clothes-[what I learned across AI, hospitality, and consumer](/blog/learned-working-across-ai-hospitality-consumer-products). The questions I ask before taking a client exist to protect this focus: [questions before any client](/blog/questions-i-ask-before-taking-any-client).",
+      text: "I optimise for systems that create compounding understanding: positioning, experience design, and proof. Campaigns come after. That is the spine of my work at nau. Cross-industry work taught me the same constraints wear different clothes-[what I learned across AI, hospitality, and consumer](/essays/learned-working-across-ai-hospitality-consumer-products). The questions I ask before taking a client exist to protect this focus: [questions before any client](/essays/questions-i-ask-before-taking-any-client).",
     },
     {
       type: "p",
-      text: "Figma, Notion, and Apple are often held up as taste examples. Taste matters. Taste without a decision map is interior design for the wrong house. I would rather ship a plainer page that converts a clear ICP than a gorgeous one that flatters the team. [Why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert) is the public version of that argument.",
+      text: "Figma, Notion, and Apple are often held up as taste examples. Taste matters. Taste without a decision map is interior design for the wrong house. I would rather ship a plainer page that converts a clear ICP than a gorgeous one that flatters the team. [Why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert) is the public version of that argument.",
     },
     {
       type: "h2",
@@ -251,7 +251,7 @@ const post: BlogPost = {
         {
           question: "Where should a new founder start?",
           answer:
-            "Offer sentence, ICP exclusions, and time-to-first-value. Then distribution. The order in [if I joined tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) is deliberate.",
+            "Offer sentence, ICP exclusions, and time-to-first-value. Then distribution. The order in [if I joined tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first) is deliberate.",
         },
       ],
     },

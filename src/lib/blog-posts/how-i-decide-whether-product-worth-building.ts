@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This filter is how I decide whether a product-or a major bet inside a product-is worth building with nau. It is related to [why great products fail before product-market fit](/blog/why-great-products-fail-before-product-market-fit) and to feature-level restraint in [the hidden cost of unused features](/blog/hidden-cost-building-features-nobody-asked-for). Use it before you hire, before you raise, and before you open Figma-[why I start without Figma](/blog/why-i-start-every-project-without-opening-figma).",
+      text: "This filter is how I decide whether a product-or a major bet inside a product-is worth building with nau. It is related to [why great products fail before product-market fit](/essays/why-great-products-fail-before-product-market-fit) and to feature-level restraint in [the hidden cost of unused features](/essays/hidden-cost-building-features-nobody-asked-for). Use it before you hire, before you raise, and before you open Figma-[why I start without Figma](/essays/why-i-start-every-project-without-opening-figma).",
     },
     {
       type: "h2",
@@ -64,7 +64,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Everyone could use this” is a red flag. Name the segment narrowly enough to find them. Listen for existing spend: agencies, tools, overtime, error costs. If nobody pays for a workaround today, you may be creating a category and a charity simultaneously. Category creation is possible; it is not a default early-stage plan. Clarity about who pays connects to [clarity vs marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "“Everyone could use this” is a red flag. Name the segment narrowly enough to find them. Listen for existing spend: agencies, tools, overtime, error costs. If nobody pays for a workaround today, you may be creating a category and a charity simultaneously. Category creation is possible; it is not a default early-stage plan. Clarity about who pays connects to [clarity vs marketing problems](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "h3",
@@ -151,7 +151,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Airbnb’s early wedge-better than a hotel for a specific trip context, with trust mechanisms-was urgent for hosts and guests in a way “community platform” never was. Learn from the wedge, not the later empire. Related teardown energy: [Airbnb homepage](/blog/product-teardown-airbnb-homepage).",
+      text: "Airbnb’s early wedge-better than a hotel for a specific trip context, with trust mechanisms-was urgent for hosts and guests in a way “community platform” never was. Learn from the wedge, not the later empire. Related teardown energy: [Airbnb homepage](/essays/product-teardown-airbnb-homepage).",
     },
     {
       type: "h2",
@@ -162,7 +162,7 @@ const post: BlogPost = {
       items: [
         "Not a substitute for taste or craft once you greenlight.",
         "Not a claim that only small ideas win-sequencing still allows ambition.",
-        "Not an excuse to ignore distribution forever-only to delay it until the path works ([dig deeper than marketing](/blog/every-startup-looks-like-marketing-problem-until-deeper)).",
+        "Not an excuse to ignore distribution forever-only to delay it until the path works ([dig deeper than marketing](/essays/every-startup-looks-like-marketing-problem-until-deeper)).",
         "Not anti-innovation-anti-unexamined inventory on the roadmap.",
       ],
     },
@@ -188,7 +188,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A product can pass qualitatively and still be unwise on your timeline. If first value requires six months of platform work and you have four months of runway, the idea is not “validated”-it is mismatched to constraints. Either thin the outcome, fund the gap, or choose a different wedge. Strategy includes arithmetic. Ignoring runway while celebrating interview quotes is how thoughtful people still ship themselves into a corner. Related: [what founders get wrong about PMF](/blog/what-founders-get-wrong-about-product-market-fit).",
+      text: "A product can pass qualitatively and still be unwise on your timeline. If first value requires six months of platform work and you have four months of runway, the idea is not “validated”-it is mismatched to constraints. Either thin the outcome, fund the gap, or choose a different wedge. Strategy includes arithmetic. Ignoring runway while celebrating interview quotes is how thoughtful people still ship themselves into a corner. Related: [what founders get wrong about PMF](/essays/what-founders-get-wrong-about-product-market-fit).",
     },
     {
       type: "p",
@@ -204,7 +204,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I also separate build decisions from identity. Killing an idea is not killing the company’s ambition. It is protecting ambition for a job the market will fund. Teams that equate stopping with failure keep burning runway to avoid an awkward conversation. Awkward is cheaper. For sequencing once something does pass, [if I joined tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) and [thirty-day changes](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days) describe how I operationalise the green light without instantly returning to fog.",
+      text: "I also separate build decisions from identity. Killing an idea is not killing the company’s ambition. It is protecting ambition for a job the market will fund. Teams that equate stopping with failure keep burning runway to avoid an awkward conversation. Awkward is cheaper. For sequencing once something does pass, [if I joined tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first) and [thirty-day changes](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days) describe how I operationalise the green light without instantly returning to fog.",
     },
     {
       type: "h2",
@@ -216,7 +216,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Marketing for a thin build should also stay thin: one offer, one proof set, one CTA path. Do not announce a platform while shipping a wedge. The mismatch trains distrust. [Why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert) applies equally to launch pages that over-promise scope the product cannot yet keep.",
+      text: "Marketing for a thin build should also stay thin: one offer, one proof set, one CTA path. Do not announce a platform while shipping a wedge. The mismatch trains distrust. [Why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert) applies equally to launch pages that over-promise scope the product cannot yet keep.",
     },
     {
       type: "p",
@@ -228,7 +228,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the filter passes, I still do not leap to a kitchen-sink MVP. I define the smallest experience that delivers the first outcome, align the public story to that outcome, and instrument learning metrics. That is the spirit of [strategy before screens](/blog/product-strategy-framework-before-designing-screen) and [from strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product). If the filter fails, I recommend a cheaper probe: concierge service, waitlist with interviews, manual workflow-learning without permanent UI tax.",
+      text: "If the filter passes, I still do not leap to a kitchen-sink MVP. I define the smallest experience that delivers the first outcome, align the public story to that outcome, and instrument learning metrics. That is the spirit of [strategy before screens](/essays/product-strategy-framework-before-designing-screen) and [from strategy to launch](/essays/from-strategy-to-launch-how-i-approach-new-product). If the filter fails, I recommend a cheaper probe: concierge service, waitlist with interviews, manual workflow-learning without permanent UI tax.",
     },
     {
       type: "callout",
@@ -252,7 +252,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For day-one company diagnosis after you have something shipping, use [if I joined tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first). For spend discipline once you have a path, use [five questions before £10k marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "For day-one company diagnosis after you have something shipping, use [if I joined tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first). For spend discipline once you have a path, use [five questions before £10k marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "takeaway",

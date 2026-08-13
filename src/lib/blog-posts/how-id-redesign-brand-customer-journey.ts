@@ -56,7 +56,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Each stage gets one primary artifact-page, email, in-product moment-not five. Simplicity is a strategy. Complexity is what happens when nobody chooses. This pairs with the [Patagonia-style memo on protecting meaning while designing paths](/blog/if-patagonia-hired-me-tomorrow-where-id-start): belief without a path is inspiration; a path without belief is extraction.",
+      text: "Each stage gets one primary artifact-page, email, in-product moment-not five. Simplicity is a strategy. Complexity is what happens when nobody chooses. This pairs with the [Patagonia-style memo on protecting meaning while designing paths](/essays/if-patagonia-hired-me-tomorrow-where-id-start): belief without a path is inspiration; a path without belief is extraction.",
     },
     {
       type: "h3",
@@ -120,7 +120,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is usually the homepage or core offer page. It must translate features into life-after. Stripe and Notion are strong public references for making capability feel concrete without drowning the first viewport. If understanding is weak, paid awareness becomes an expensive bounce generator-see also [clarity versus marketing problems](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "This is usually the homepage or core offer page. It must translate features into life-after. Stripe and Notion are strong public references for making capability feel concrete without drowning the first viewport. If understanding is weak, paid awareness becomes an expensive bounce generator-see also [clarity versus marketing problems](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "p",
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Activation is where many journeys die after “successful” signup. The marketing promise must match the first-run win. Redesign onboarding around one outcome; defer power features. For a detailed playbook, use [how I would improve Apple-style onboarding](/blog/how-id-improve-apple-onboarding-experience).",
+      text: "Activation is where many journeys die after “successful” signup. The marketing promise must match the first-run win. Redesign onboarding around one outcome; defer power features. For a detailed playbook, use [how I would improve Apple-style onboarding](/essays/how-id-improve-apple-onboarding-experience).",
     },
     {
       type: "p",
@@ -229,7 +229,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Same rooms. Clearer belief sequence. That is journey redesign without a new brand identity. For mission-sensitive versions of the same tension, revisit the [Patagonia starting points](/blog/if-patagonia-hired-me-tomorrow-where-id-start).",
+      text: "Same rooms. Clearer belief sequence. That is journey redesign without a new brand identity. For mission-sensitive versions of the same tension, revisit the [Patagonia starting points](/essays/if-patagonia-hired-me-tomorrow-where-id-start).",
     },
     {
       type: "h2",
@@ -267,7 +267,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When growth stalls, diagnose which belief stage breaks. Awareness weak → distribution or wedge. Understanding weak → messaging. Trust weak → proof and risk. Activation weak → first-run. Expansion weak → product value or packaging. For a practical triage, see [if the product is not growing, start here](/blog/if-product-isnt-growing-start-here).",
+      text: "When growth stalls, diagnose which belief stage breaks. Awareness weak → distribution or wedge. Understanding weak → messaging. Trust weak → proof and risk. Activation weak → first-run. Expansion weak → product value or packaging. For a practical triage, see [if the product is not growing, start here](/essays/if-product-isnt-growing-start-here).",
     },
     {
       type: "takeaway",
@@ -341,7 +341,7 @@ const post: BlogPost = {
         {
           question: "How does this relate to website conversion work?",
           answer:
-            "Website modules are stage artifacts. Use the [landing page review framework](/blog/landing-page-review-helping-hurting-conversions) and [three conversion changes](/blog/website-audit-three-changes-double-conversion) inside Understanding and Trust stages.",
+            "Website modules are stage artifacts. Use the [landing page review framework](/essays/landing-page-review-helping-hurting-conversions) and [three conversion changes](/essays/website-audit-three-changes-double-conversion) inside Understanding and Trust stages.",
         },
       ],
     },

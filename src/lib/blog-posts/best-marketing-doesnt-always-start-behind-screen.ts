@@ -42,7 +42,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not anti-digital. I build websites for a living. I am anti-sequence: starting where belief is cheapest to fake, then wondering why conversion feels expensive. If your product story still feels like a slide deck, more impressions will not fix the texture problem. Related: [why every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "I am not anti-digital. I build websites for a living. I am anti-sequence: starting where belief is cheapest to fake, then wondering why conversion feels expensive. If your product story still feels like a slide deck, more impressions will not fix the texture problem. Related: [why every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "takeaway",
@@ -119,7 +119,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Write your campaign as a one-sentence invitation with a place and time: “Come to X on Y to try Z.” If you cannot write that sentence without jargon, you are not ready for offline. You are still in positioning fog-see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes).",
+      text: "Write your campaign as a one-sentence invitation with a place and time: “Come to X on Y to try Z.” If you cannot write that sentence without jargon, you are not ready for offline. You are still in positioning fog-see [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes).",
     },
     {
       type: "h3",
@@ -144,7 +144,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Offline without capture is charity for your ego. Design a low-friction bridge: QR to a specific landing page, SMS keyword, appointment booking, waitlist with a clear next step. The bridge should continue the same promise-not dump people into a generic homepage that contradicts the experience. For how that coherence works, see [when marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "Offline without capture is charity for your ego. Design a low-friction bridge: QR to a specific landing page, SMS keyword, appointment booking, waitlist with a clear next step. The bridge should continue the same promise-not dump people into a generic homepage that contradicts the experience. For how that coherence works, see [when marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "h3",
@@ -168,7 +168,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "It is less useful when your audience is geographically sparse, the offer is purely informational, or you do not yet have a clear promise. Throwing a party for an unclear product is an expensive way to confirm nobody knows what you do. In that case, fix clarity first-[your product may not have a marketing problem](/blog/product-doesnt-have-marketing-problem-clarity-problem).",
+      text: "It is less useful when your audience is geographically sparse, the offer is purely informational, or you do not yet have a clear promise. Throwing a party for an unclear product is an expensive way to confirm nobody knows what you do. In that case, fix clarity first-[your product may not have a marketing problem](/essays/product-doesnt-have-marketing-problem-clarity-problem).",
     },
     {
       type: "h2",
@@ -246,7 +246,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you are deciding where the first £1,000 should go, read [where startups spend their first £1,000 in the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place). If you are about to scale spend without a belief system, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "If you are deciding where the first £1,000 should go, read [where startups spend their first £1,000 in the wrong place](/essays/first-1000-pounds-startup-spent-wrong-place). If you are about to scale spend without a belief system, read [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -266,7 +266,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you want the systems lens, read [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns). If you keep buying more marketing when you need clarity, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "If you want the systems lens, read [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns). If you keep buying more marketing when you need clarity, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "faq",

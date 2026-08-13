@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I am not against paid channels. I am against treating organic as a free substitute for paid when you have not built anything worth discovering. If the product story is fuzzy, organic simply distributes the fog more slowly. Related: [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "I am not against paid channels. I am against treating organic as a free substitute for paid when you have not built anything worth discovering. If the product story is fuzzy, organic simply distributes the fog more slowly. Related: [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "takeaway",
@@ -100,7 +100,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Earned growth requires a cadence you can defend on a bad week. Publishing, founder-led conversations, useful tools, customer stories, community presence-pick the few you can sustain. Brilliance without cadence is a fireworks show. Cadence without substance is spam. You need both, but cadence is the scarcer founder skill. More on that in [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Earned growth requires a cadence you can defend on a bad week. Publishing, founder-led conversations, useful tools, customer stories, community presence-pick the few you can sustain. Brilliance without cadence is a fireworks show. Cadence without substance is spam. You need both, but cadence is the scarcer founder skill. More on that in [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "callout",
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Reputation is what happens when evidence accumulates in other people's heads. It is slow, unfairly distributed, and extraordinarily leverageable once it exists. People trust people before they trust marketing-so founder visibility and customer voices often outperform brand accounts. See [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "Reputation is what happens when evidence accumulates in other people's heads. It is slow, unfairly distributed, and extraordinarily leverageable once it exists. People trust people before they trust marketing-so founder visibility and customer voices often outperform brand accounts. See [people trust people long before they trust marketing](/essays/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "h3",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "SEO compounds when pages stay useful. Communities compound when members help each other. Referrals compound when the product creates moments worth mentioning. Compounding is not a vibe. It is a design choice: evergreen over ephemeral, systems over stunts, clarity over novelty for its own sake. If you care about systems more than campaigns, start here: [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "SEO compounds when pages stay useful. Communities compound when members help each other. Referrals compound when the product creates moments worth mentioning. Compounding is not a vibe. It is a design choice: evergreen over ephemeral, systems over stunts, clarity over novelty for its own sake. If you care about systems more than campaigns, start here: [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "takeaway",
@@ -159,7 +159,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Before you scale spend, ask whether you have anything earned to amplify. Amplifying a weak promise is how CAC becomes a lifestyle. For the decision checklist, read [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Before you scale spend, ask whether you have anything earned to amplify. Amplifying a weak promise is how CAC becomes a lifestyle. For the decision checklist, read [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -167,7 +167,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Organic growth is not one channel. It is a portfolio of earning mechanisms. Search when your answers are better than the category noise. Social when your point of view is sharp enough to be quoted. Email when people opt into a relationship. Community when peers vouch for you. Product-led loops when the experience itself creates talkability. Word of mouth when customers become better marketers than your marketing team-if you build something worth talking about: [your customers are better marketers than your marketing team](/blog/customers-better-marketers-than-marketing-team).",
+      text: "Organic growth is not one channel. It is a portfolio of earning mechanisms. Search when your answers are better than the category noise. Social when your point of view is sharp enough to be quoted. Email when people opt into a relationship. Community when peers vouch for you. Product-led loops when the experience itself creates talkability. Word of mouth when customers become better marketers than your marketing team-if you build something worth talking about: [your customers are better marketers than your marketing team](/essays/customers-better-marketers-than-marketing-team).",
     },
     {
       type: "ol",
@@ -249,11 +249,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I build websites and growth systems for founders who are tired of renting belief. Organic, in my practice, is not “content for content’s sake.” It is earned distribution designed into the product story, the publishing cadence, and the proof customers can carry. If what you need is not another campaign, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "I build websites and growth systems for founders who are tired of renting belief. Organic, in my practice, is not “content for content’s sake.” It is earned distribution designed into the product story, the publishing cadence, and the proof customers can carry. If what you need is not another campaign, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "p",
-      text: "And if your growth plan keeps optimising funnels while forgetting what people actually remember, read [most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember).",
+      text: "And if your growth plan keeps optimising funnels while forgetting what people actually remember, read [most growth strategies ignore the one thing people actually remember](/essays/growth-strategies-ignore-what-people-remember).",
     },
     {
       type: "faq",

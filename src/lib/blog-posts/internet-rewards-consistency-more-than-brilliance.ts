@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Organic growth is earned, not free-and cadence is one of the main invoices. See [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "Organic growth is earned, not free-and cadence is one of the main invoices. See [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -130,7 +130,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Name URLs carefully. Update winners. Cluster related ideas. Link internally with intent. A library is how compounding publishing works: new work strengthens old work; old work catches searchers who then meet your current thinking. Systems beat campaigns-see [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Name URLs carefully. Update winners. Cluster related ideas. Link internally with intent. A library is how compounding publishing works: new work strengthens old work; old work catches searchers who then meet your current thinking. Systems beat campaigns-see [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "h3",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Cadence alone is content production. Cadence with loops is growth: email capture that continues the same promise, customer stories that feed the next pieces, founder replies that seed topics, product moments that create talkability. People trust people-so let humans carry what you publish. Related: [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "Cadence alone is content production. Cadence with loops is growth: email capture that continues the same promise, customer stories that feed the next pieces, founder replies that seed topics, product moments that create talkability. People trust people-so let humans carry what you publish. Related: [people trust people long before they trust marketing](/essays/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "takeaway",
@@ -221,7 +221,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If small budgets make you feel you must “go viral or die,” reconsider: [small budgets don’t kill good ideas-predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do). Predictable publishing with a sharp promise often beats expensive unpredictability.",
+      text: "If small budgets make you feel you must “go viral or die,” reconsider: [small budgets don’t kill good ideas-predictable ones do](/essays/small-budgets-dont-kill-good-ideas-predictable-ones-do). Predictable publishing with a sharp promise often beats expensive unpredictability.",
     },
     {
       type: "h2",
@@ -237,11 +237,11 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I care more about the system that produces signal than the single piece that might go viral. When founders ask for “a campaign,” I often ask for a cadence: what will you still publish when the launch dust settles? If what you need is not more marketing noise, start with [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "I care more about the system that produces signal than the single piece that might go viral. When founders ask for “a campaign,” I often ask for a cadence: what will you still publish when the launch dust settles? If what you need is not more marketing noise, start with [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "p",
-      text: "And if consistency alone still feels hollow, remember what people actually remember is emotion-not optimisation. See [most growth strategies ignore the one thing people actually remember](/blog/growth-strategies-ignore-what-people-remember).",
+      text: "And if consistency alone still feels hollow, remember what people actually remember is emotion-not optimisation. See [most growth strategies ignore the one thing people actually remember](/essays/growth-strategies-ignore-what-people-remember).",
     },
     {
       type: "faq",

@@ -41,7 +41,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People rarely share advertisements; they share stories. Design the experience so a story exists. See [people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories).",
+      text: "People rarely share advertisements; they share stories. Design the experience so a story exists. See [people rarely share advertisements-they share stories](/essays/people-rarely-share-advertisements-share-stories).",
     },
     {
       type: "takeaway",
@@ -53,7 +53,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "A customer recommendation arrives pre-qualified by trust. It answers the unspoken question every buyer has: “Would someone like me take this risk?” Marketing answers a different question: “Why should you believe us?” Both matter. Only one starts from peer credibility. Communities and peer trust amplify this further-see [people trust people long before they trust marketing](/blog/people-trust-people-before-they-trust-marketing).",
+      text: "A customer recommendation arrives pre-qualified by trust. It answers the unspoken question every buyer has: “Would someone like me take this risk?” Marketing answers a different question: “Why should you believe us?” Both matter. Only one starts from peer credibility. Communities and peer trust amplify this further-see [people trust people long before they trust marketing](/essays/people-trust-people-before-they-trust-marketing).",
     },
     {
       type: "table",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "People share stories they can carry. Complexity kills word of mouth. Give the story a shape: problem → turning point → result. Help customers keep the specifics (numbers, constraints, before/after). Memorable brands do not interrupt-they give something worth remembering. Related: [memorable brands don’t interrupt-they give something worth remembering](/blog/memorable-brands-dont-interrupt-give-something-worth-remembering).",
+      text: "People share stories they can carry. Complexity kills word of mouth. Give the story a shape: problem → turning point → result. Help customers keep the specifics (numbers, constraints, before/after). Memorable brands do not interrupt-they give something worth remembering. Related: [memorable brands don’t interrupt-they give something worth remembering](/essays/memorable-brands-dont-interrupt-give-something-worth-remembering).",
     },
     {
       type: "ul",
@@ -138,7 +138,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Once stories exist, marketing’s job gets saner: document, package, place. Customer stories in sales decks, on the site, in ads, in founder posts. Amplification of lived proof beats invention of lifestyle fiction. Organic growth earned this way compounds when the spend pauses-see [organic growth isn’t free-it’s earned](/blog/organic-growth-isnt-free-its-earned).",
+      text: "Once stories exist, marketing’s job gets saner: document, package, place. Customer stories in sales decks, on the site, in ads, in founder posts. Amplification of lived proof beats invention of lifestyle fiction. Organic growth earned this way compounds when the spend pauses-see [organic growth isn’t free-it’s earned](/essays/organic-growth-isnt-free-its-earned).",
     },
     {
       type: "takeaway",
@@ -155,7 +155,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Talkability is a product and journey problem. Where does delight concentrate? Where does support create loyalty stories? Where does the UI create a photographable or screenshot-worthy moment? Marketing that people photograph starts with something worth pointing a camera at-see [how to create marketing people photograph](/blog/how-to-create-marketing-people-photograph).",
+      text: "Talkability is a product and journey problem. Where does delight concentrate? Where does support create loyalty stories? Where does the UI create a photographable or screenshot-worthy moment? Marketing that people photograph starts with something worth pointing a camera at-see [how to create marketing people photograph](/essays/how-to-create-marketing-people-photograph).",
     },
     {
       type: "ol",
@@ -217,7 +217,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Consistency in collecting and publishing stories matters more than one viral testimonial. See [the internet rewards consistency more than brilliance](/blog/internet-rewards-consistency-more-than-brilliance).",
+      text: "Consistency in collecting and publishing stories matters more than one viral testimonial. See [the internet rewards consistency more than brilliance](/essays/internet-rewards-consistency-more-than-brilliance).",
     },
     {
       type: "h2",
@@ -233,7 +233,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I treat customer voice as primary research for growth systems-not as decoration for a landing page. When founders want more marketing, I often ask whether anyone would recommend them tomorrow without a discount. If the answer is soft, we fix the experience and the story before we buy more reach. Related: [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing) and [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "I treat customer voice as primary research for growth systems-not as decoration for a landing page. When founders want more marketing, I often ask whether anyone would recommend them tomorrow without a discount. If the answer is soft, we fix the experience and the story before we buy more reach. Related: [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing) and [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "faq",

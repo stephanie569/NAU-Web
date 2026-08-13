@@ -92,7 +92,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If you cannot name who you will refuse this quarter, you do not have an ICP. You have a category fantasy. Related: [three product decisions that quietly cost companies millions](/blog/three-product-decisions-cost-companies-millions).",
+      text: "If you cannot name who you will refuse this quarter, you do not have an ICP. You have a category fantasy. Related: [three product decisions that quietly cost companies millions](/essays/three-product-decisions-cost-companies-millions).",
     },
     {
       type: "h3",
@@ -113,7 +113,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Audit the path: ad → landing page → signup → first meaningful outcome. Every step should feel like the same product. If you want a conversion-surface lens, see [why beautiful websites don’t always convert](/blog/why-beautiful-websites-dont-always-convert) and [why the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "Audit the path: ad → landing page → signup → first meaningful outcome. Every step should feel like the same product. If you want a conversion-surface lens, see [why beautiful websites don’t always convert](/essays/why-beautiful-websites-dont-always-convert) and [why the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "h3",
@@ -148,7 +148,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is the expensive cousin of “almost working.” You can look busy, raise on momentum, and still never reach fit-because every pound of distribution is teaching the market a vague story. For the spend sequence, see [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "This is the expensive cousin of “almost working.” You can look busy, raise on momentum, and still never reach fit-because every pound of distribution is teaching the market a vague story. For the spend sequence, see [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "quote",
@@ -255,7 +255,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If you need a tighter operating plan for this kind of reset, the companion structure is [what I would change if you gave me your startup for 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days). If spend is the temptation while proof is missing, read [the first £1,000 is usually spent in the wrong place](/blog/first-1000-pounds-startup-spent-wrong-place).",
+      text: "If you need a tighter operating plan for this kind of reset, the companion structure is [what I would change if you gave me your startup for 30 days](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days). If spend is the temptation while proof is missing, read [the first £1,000 is usually spent in the wrong place](/essays/first-1000-pounds-startup-spent-wrong-place).",
     },
     {
       type: "takeaway",
@@ -275,7 +275,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For a diagnostic sequence you can run immediately, use [If your product isn’t growing, start here](/blog/if-product-isnt-growing-start-here). For positioning speed, see [how I’d reposition your startup in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes). For the strategy-before-screens habit, see [why I start every project without opening Figma](/blog/why-i-start-every-project-without-opening-figma).",
+      text: "For a diagnostic sequence you can run immediately, use [If your product isn’t growing, start here](/essays/if-product-isnt-growing-start-here). For positioning speed, see [how I’d reposition your startup in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes). For the strategy-before-screens habit, see [why I start every project without opening Figma](/essays/why-i-start-every-project-without-opening-figma).",
     },
     {
       type: "faq",

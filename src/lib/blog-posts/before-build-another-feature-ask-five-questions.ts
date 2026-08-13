@@ -20,7 +20,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "It complements [the hidden cost of building features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for) and [the product strategy framework I use before designing a single screen](/blog/product-strategy-framework-before-designing-screen). If the feature exists to impress a launch audience rather than relieve a pain, read [most product launches don't fail because of marketing](/blog/most-product-launches-dont-fail-because-of-marketing) before you estimate story points.",
+      text: "It complements [the hidden cost of building features nobody asked for](/essays/hidden-cost-building-features-nobody-asked-for) and [the product strategy framework I use before designing a single screen](/essays/product-strategy-framework-before-designing-screen). If the feature exists to impress a launch audience rather than relieve a pain, read [most product launches don't fail because of marketing](/essays/most-product-launches-dont-fail-because-of-marketing) before you estimate story points.",
     },
     {
       type: "h2",
@@ -147,7 +147,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "When a feature clears the five questions, still ship it as a trial: limited surface, clear success metric, review date. Marriage can wait. This is especially true when early customers are teaching you-see [the first customer isn't your market. They're your teacher.](/blog/first-customer-isnt-your-market-theyre-your-teacher).",
+      text: "When a feature clears the five questions, still ship it as a trial: limited surface, clear success metric, review date. Marriage can wait. This is especially true when early customers are teaching you-see [the first customer isn't your market. They're your teacher.](/essays/first-customer-isnt-your-market-theyre-your-teacher).",
     },
     {
       type: "ol",
@@ -194,7 +194,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For problem-first sequencing before any of this, read [the best products solve a problem before they sell a solution](/blog/best-products-solve-problem-before-sell-solution). External anchors I still send founders: [SVPG on product discovery](https://www.svpg.com/), [First Round Review](https://review.firstround.com/) on focus, and [Nielsen Norman Group](https://www.nngroup.com/) on why more UI often means less usable.",
+      text: "For problem-first sequencing before any of this, read [the best products solve a problem before they sell a solution](/essays/best-products-solve-problem-before-sell-solution). External anchors I still send founders: [SVPG on product discovery](https://www.svpg.com/), [First Round Review](https://review.firstround.com/) on focus, and [Nielsen Norman Group](https://www.nngroup.com/) on why more UI often means less usable.",
     },
     {
       type: "h2",
@@ -235,7 +235,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I use these questions when scoping websites and product UX alike. A settings page can be as vain as a SaaS module. We cut until the first win is obvious, then design. If your team needs a sharper filter on what deserves build time at all, start with [how I decide whether a product is worth building](/blog/how-i-decide-whether-product-worth-building).",
+      text: "I use these questions when scoping websites and product UX alike. A settings page can be as vain as a SaaS module. We cut until the first win is obvious, then design. If your team needs a sharper filter on what deserves build time at all, start with [how I decide whether a product is worth building](/essays/how-i-decide-whether-product-worth-building).",
     },
     {
       type: "faq",

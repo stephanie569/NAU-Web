@@ -17,7 +17,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is a transparent look at how I choose collaborations for strategy-led product and web work. Founders can use the same list in reverse: if you cannot answer these well, you may not be ready for an external partner-or you may need a clarity sprint before a build sprint. Related reading: [before you spend £10,000 on marketing, five questions](/blog/before-spend-10000-marketing-five-questions).",
+      text: "This is a transparent look at how I choose collaborations for strategy-led product and web work. Founders can use the same list in reverse: if you cannot answer these well, you may not be ready for an external partner-or you may need a clarity sprint before a build sprint. Related reading: [before you spend £10,000 on marketing, five questions](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
@@ -95,7 +95,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If the answer is “all of them,” we do not have a project-we have a wish list. [Product strategy before screens](/blog/product-strategy-framework-before-designing-screen) exists for this moment. So does [repositioning in 60 minutes](/blog/how-id-reposition-your-startup-in-60-minutes) when the decision itself is muddy.",
+      text: "If the answer is “all of them,” we do not have a project-we have a wish list. [Product strategy before screens](/essays/product-strategy-framework-before-designing-screen) exists for this moment. So does [repositioning in 60 minutes](/essays/how-id-reposition-your-startup-in-60-minutes) when the decision itself is muddy.",
     },
     {
       type: "p",
@@ -129,7 +129,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This question also surfaces whether [“more marketing” is the wrong ask](/blog/founders-actually-need-isnt-more-marketing). If prior spend increased traffic without improving activation, repeating spend is not bravery. It is amnesia with a budget line.",
+      text: "This question also surfaces whether [“more marketing” is the wrong ask](/essays/founders-actually-need-isnt-more-marketing). If prior spend increased traffic without improving activation, repeating spend is not bravery. It is amnesia with a budget line.",
     },
     {
       type: "h2",
@@ -161,7 +161,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This is where [the hidden cost of features nobody asked for](/blog/hidden-cost-building-features-nobody-asked-for) becomes personal. Cutting is emotional. I respect that. I also need permission to recommend it. Apple’s product pages look inevitable because of what they omit. Most startup pages look anxious because they omit nothing.",
+      text: "This is where [the hidden cost of features nobody asked for](/essays/hidden-cost-building-features-nobody-asked-for) becomes personal. Cutting is emotional. I respect that. I also need permission to recommend it. Apple’s product pages look inevitable because of what they omit. Most startup pages look anxious because they omit nothing.",
     },
     {
       type: "callout",
@@ -198,7 +198,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "For teams who want a compressed operating plan, [what I would change in 30 days](/blog/what-i-would-change-if-you-gave-me-your-startup-30-days) and [if I joined tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) show the level of concreteness I aim for.",
+      text: "For teams who want a compressed operating plan, [what I would change in 30 days](/essays/what-i-would-change-if-you-gave-me-your-startup-30-days) and [if I joined tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first) show the level of concreteness I aim for.",
     },
     {
       type: "h2",
@@ -210,7 +210,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "I look for problems worth solving for real customers-not growth theatre. [Whether a product is worth building](/blog/how-i-decide-whether-product-worth-building) is a question I ask myself as much as clients. If the product is fundamentally unwanted, a prettier funnel is not kindness.",
+      text: "I look for problems worth solving for real customers-not growth theatre. [Whether a product is worth building](/essays/how-i-decide-whether-product-worth-building) is a question I ask myself as much as clients. If the product is fundamentally unwanted, a prettier funnel is not kindness.",
     },
     {
       type: "h3",
@@ -226,7 +226,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "“Rebuild the brand, website, product, and growth engine in six weeks” is not ambition. It is a scheduling hallucination. I would rather narrow scope and leave a system behind-see [systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns)-than promise a transformation montage.",
+      text: "“Rebuild the brand, website, product, and growth engine in six weeks” is not ambition. It is a scheduling hallucination. I would rather narrow scope and leave a system behind-see [systems over campaigns](/essays/why-i-care-more-about-systems-than-campaigns)-than promise a transformation montage.",
     },
     {
       type: "h2",
@@ -249,7 +249,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Sometimes founders expect a pitch deck about deliverables. I would rather be slightly awkward and precise. Polite ambiguity is how projects become expensive calendars. If you want a sense of how I prioritise once inside, [if I joined your startup tomorrow](/blog/if-i-joined-your-startup-tomorrow-what-id-do-first) is the operating flavour-not a bait-and-switch into endless workshops.",
+      text: "Sometimes founders expect a pitch deck about deliverables. I would rather be slightly awkward and precise. Polite ambiguity is how projects become expensive calendars. If you want a sense of how I prioritise once inside, [if I joined your startup tomorrow](/essays/if-i-joined-your-startup-tomorrow-what-id-do-first) is the operating flavour-not a bait-and-switch into endless workshops.",
     },
     {
       type: "h3",
@@ -309,7 +309,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This pairs with [systems over campaigns](/blog/why-i-care-more-about-systems-than-campaigns) and [strategy to launch](/blog/from-strategy-to-launch-how-i-approach-new-product). The client-fit bar exists so those methods can work. Without decision speed and cutting permission, even a perfect framework becomes slides.",
+      text: "This pairs with [systems over campaigns](/essays/why-i-care-more-about-systems-than-campaigns) and [strategy to launch](/essays/from-strategy-to-launch-how-i-approach-new-product). The client-fit bar exists so those methods can work. Without decision speed and cutting permission, even a perfect framework becomes slides.",
     },
     {
       type: "h2",
@@ -380,7 +380,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "If those answers are clear, we can do sharp work. If not, we create that clarity together-or we wait. For a deeper diagnostic when everything “looks like a marketing problem,” read [every startup looks like a marketing problem until you dig deeper](/blog/every-startup-looks-like-marketing-problem-until-deeper).",
+      text: "If those answers are clear, we can do sharp work. If not, we create that clarity together-or we wait. For a deeper diagnostic when everything “looks like a marketing problem,” read [every startup looks like a marketing problem until you dig deeper](/essays/every-startup-looks-like-marketing-problem-until-deeper).",
     },
     {
       type: "cta",

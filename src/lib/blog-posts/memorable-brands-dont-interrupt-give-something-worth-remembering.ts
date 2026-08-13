@@ -22,7 +22,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "This piece is about designing for memory over reach-gift logic, anti-interruption craft, and why “shareable” is a side effect of generosity, not a demand. It connects to [why people rarely share advertisements-they share stories](/blog/people-rarely-share-advertisements-share-stories) and [how to create marketing people choose to photograph](/blog/how-to-create-marketing-people-photograph).",
+      text: "This piece is about designing for memory over reach-gift logic, anti-interruption craft, and why “shareable” is a side effect of generosity, not a demand. It connects to [why people rarely share advertisements-they share stories](/essays/people-rarely-share-advertisements-share-stories) and [how to create marketing people choose to photograph](/essays/how-to-create-marketing-people-photograph).",
     },
     {
       type: "h2",
@@ -43,7 +43,7 @@ const post: BlogPost = {
     },
     {
       type: "takeaway",
-      text: "If your growth plan depends on people failing to escape you, you do not have a brand strategy. You have an arms race against the mute button. Related: [what founders actually need isn’t more marketing](/blog/founders-actually-need-isnt-more-marketing).",
+      text: "If your growth plan depends on people failing to escape you, you do not have a brand strategy. You have an arms race against the mute button. Related: [what founders actually need isn’t more marketing](/essays/founders-actually-need-isnt-more-marketing).",
     },
     {
       type: "h2",
@@ -114,7 +114,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Add something to the culture of a place: wit on a street, a temporary convenience, a beautiful object people want to keep. Cultural gifts travel because they make the giver look generous by association. See [your city is the most underrated marketing channel](/blog/your-city-most-underrated-marketing-channel).",
+      text: "Add something to the culture of a place: wit on a street, a temporary convenience, a beautiful object people want to keep. Cultural gifts travel because they make the giver look generous by association. See [your city is the most underrated marketing channel](/essays/your-city-most-underrated-marketing-channel).",
     },
     {
       type: "h3",
@@ -127,7 +127,7 @@ const post: BlogPost = {
     {
       type: "callout",
       title: "Try this",
-      text: "Rewrite your campaign brief replacing “message we need to land” with “gift we will leave behind.” If the room goes quiet, you have found the real work. For product-aligned belief, see [the best marketing feels like product design](/blog/best-marketing-feels-like-product-design).",
+      text: "Rewrite your campaign brief replacing “message we need to land” with “gift we will leave behind.” If the room goes quiet, you have found the real work. For product-aligned belief, see [the best marketing feels like product design](/essays/best-marketing-feels-like-product-design).",
     },
     {
       type: "h2",
@@ -173,7 +173,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Memory prefers distinctiveness, emotion, and repetition with variation-not repetition alone. A single sharp gift repeated across surfaces will beat twelve disconnected interruptions. This is systems thinking applied to brand: one promise, many generous expressions. More on that posture in [why I care more about systems than campaigns](/blog/why-i-care-more-about-systems-than-campaigns).",
+      text: "Memory prefers distinctiveness, emotion, and repetition with variation-not repetition alone. A single sharp gift repeated across surfaces will beat twelve disconnected interruptions. This is systems thinking applied to brand: one promise, many generous expressions. More on that posture in [why I care more about systems than campaigns](/essays/why-i-care-more-about-systems-than-campaigns).",
     },
     {
       type: "ol",
@@ -187,7 +187,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Physical space helps because it can gift without a feed’s competitive screaming. Digital helps when it gifts utility at the exact moment of need. Hybrid work-street to screen-works when the bridge is respectful; see [why the internet still needs the real world](/blog/why-internet-still-needs-real-world) and [a good street campaign doesn’t end on the street](/blog/good-street-campaign-doesnt-end-on-street).",
+      text: "Physical space helps because it can gift without a feed’s competitive screaming. Digital helps when it gifts utility at the exact moment of need. Hybrid work-street to screen-works when the bridge is respectful; see [why the internet still needs the real world](/essays/why-internet-still-needs-real-world) and [a good street campaign doesn’t end on the street](/essays/good-street-campaign-doesnt-end-on-street).",
     },
     {
       type: "h2",
@@ -204,7 +204,7 @@ const post: BlogPost = {
     },
     {
       type: "p",
-      text: "Memory work often looks underfunded on a media spreadsheet and overperforming in the world. Fund the gift quality first. Amplify second. If you reverse that, you amplify emptiness. For founders under constraint, read [small budgets don’t kill good ideas-predictable ones do](/blog/small-budgets-dont-kill-good-ideas-predictable-ones-do) and [before you spend £10,000 on marketing](/blog/before-spend-10000-marketing-five-questions).",
+      text: "Memory work often looks underfunded on a media spreadsheet and overperforming in the world. Fund the gift quality first. Amplify second. If you reverse that, you amplify emptiness. For founders under constraint, read [small budgets don’t kill good ideas-predictable ones do](/essays/small-budgets-dont-kill-good-ideas-predictable-ones-do) and [before you spend £10,000 on marketing](/essays/before-spend-10000-marketing-five-questions).",
     },
     {
       type: "h2",
