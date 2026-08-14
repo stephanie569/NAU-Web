@@ -353,8 +353,7 @@ export const pricingSectionCopy = {
     id: "digital-guides",
     name: "Digital guides",
     price: "From $19",
-    forWhom:
-      "When you want my thinking on positioning, launch or GTM, without booking a full engagement.",
+    forWhom: "Positioning, GTM and the series, without a full engagement.",
     outcome:
       "The same frameworks I use on client projects, packaged as guides you can buy and use straight away.",
     delivery: "Instant download",
@@ -384,15 +383,90 @@ export const storeSectionCopy = {
   items: [
     {
       id: "product-positioning-workbook",
-      title: "Product positioning workbook",
+      title: "The 10-Video Series",
       price: "$29",
+      category: "Content Creation",
+      blurb: "Turn your GTM into a campaign people follow.",
+      overview: {
+        eyebrow: "Digital guide",
+        headline: "Turn your GTM into 10 videos that work as one campaign.",
+        lead:
+          "A practical guide for building the series from the strategy you already have. You leave with the videos, order and story that carry the GTM, instead of a pile of disconnected posts.",
+        highlights: [
+          "Which videos the series actually needs, and which to cut",
+          "A story order that follows the GTM, not the algorithm",
+          "Hooks, proof and closer pieces that work as one campaign",
+          "A brief you can shoot, or hand to a team, without starting over",
+        ],
+        includes: [
+          "Worksheets you can complete in one focused session",
+          "Prompts from the same framing I use with client brands",
+          "Instant download after checkout",
+        ],
+        bestFor:
+          "Founders and marketers who already have a GTM, and need the series that makes it land.",
+        checkoutLabel: "Checkout · $29",
+      },
+      poster: {
+        label: "Series",
+        headline: "10-VIDEO",
+        subline: "SERIES",
+        tagline: "From your GTM",
+        image: "/images/guides/outdoor.jpg",
+        gradientFrom: "#0e1218",
+        gradientTo: "#1f3d5c",
+        accent: "#9fd0ff",
+      },
+    },
+    {
+      id: "go-to-market-playbook",
+      title: "The GTM You Can Run",
+      price: "$49",
+      category: "Marketing Strategy",
+      blurb: "Translate the market into channels, story and sequence.",
+      overview: {
+        eyebrow: "Digital guide",
+        headline: "Turn what you know about the market into a GTM you can run.",
+        lead:
+          "How to take buyers, alternatives and category truth and shape a go-to-market with channels, story and sequence. Built to leave the deck and go into the next 60 days.",
+        highlights: [
+          "Which market signals matter, and which to ignore for now",
+          "A GTM story the right audience can repeat",
+          "Channels and sequence with owners and timing",
+          "What to measure in the first stretch so you know if it’s working",
+        ],
+        includes: [
+          "GTM framework and worksheets",
+          "Launch sequence templates",
+          "Instant download after checkout",
+        ],
+        bestFor:
+          "Teams who understand their market and need a go-to-market they can put into practice.",
+        checkoutLabel: "Checkout · $49",
+      },
+      poster: {
+        label: "GTM",
+        headline: "GTM YOU",
+        subline: "CAN RUN",
+        tagline: "From your market",
+        image: "/images/guides/hospitality.jpg",
+        industry: "Hospitality",
+        gradientFrom: "#0a1210",
+        gradientTo: "#164840",
+        accent: "#7ef0d4",
+      },
+    },
+    {
+      id: "organic-marketing-ideas",
+      title: "Who It's For",
+      price: "$19",
       category: "Research & Positioning",
-      blurb: "Who it's for, why it matters, how to say it.",
+      blurb: "Name the buyer before you film a single video.",
       overview: {
         eyebrow: "Digital guide",
         headline: "Get clear on who it’s for, before you film a single post.",
         lead:
-          "A practical workbook for product brands that need sharper positioning. Fill it in once and you’ll know who you serve, why you win, and how to say it without sounding like everyone else.",
+          "A practical guide for product brands that need sharper positioning. Fill it in once and you’ll know who you serve, why you win, and how to say it without sounding like everyone else.",
         highlights: [
           "Who it’s for and who it’s not, written in customer language",
           "Why you win against the real alternatives",
@@ -406,88 +480,13 @@ export const storeSectionCopy = {
         ],
         bestFor:
           "Founders and marketers about to launch, reposition, or brief content, when clarity is the missing piece.",
-        checkoutLabel: "Checkout · $29",
-      },
-      poster: {
-        label: "Positioning",
-        headline: "POSITIONING",
-        subline: "WORKBOOK",
-        tagline: "Who it's for & why it wins",
-        image: "/images/guides/outdoor.jpg",
-        gradientFrom: "#0e1218",
-        gradientTo: "#1f3d5c",
-        accent: "#9fd0ff",
-      },
-    },
-    {
-      id: "go-to-market-playbook",
-      title: "Go-to-market playbook",
-      price: "$49",
-      category: "Marketing Strategy",
-      blurb: "Channels, story and a launch sequence that holds.",
-      overview: {
-        eyebrow: "Digital guide",
-        headline: "A launch sequence you can put into practice.",
-        lead:
-          "Channels, story and order of operations, packaged from how I plan organic go-to-market with product brands. Built for steady reach, not a one-week spike.",
-        highlights: [
-          "Which channels deserve attention first, and which to ignore for now",
-          "A campaign story that can carry a series, not one disconnected post",
-          "A launch sequence with owners and timing you can hand to a team",
-          "What to measure in the first stretch so you know if it’s working",
-        ],
-        includes: [
-          "GTM framework and worksheets",
-          "Launch sequence templates",
-          "Instant download after checkout",
-        ],
-        bestFor:
-          "Teams preparing a launch or relaunch who want a plan before spending on content or ads.",
-        checkoutLabel: "Checkout · $49",
-      },
-      poster: {
-        label: "GTM",
-        headline: "GO-TO-MARKET",
-        subline: "PLAYBOOK",
-        tagline: "Channels · story · sequence",
-        image: "/images/guides/hospitality.jpg",
-        industry: "Hospitality",
-        gradientFrom: "#0a1210",
-        gradientTo: "#164840",
-        accent: "#7ef0d4",
-      },
-    },
-    {
-      id: "organic-marketing-ideas",
-      title: "Organic marketing ideas",
-      price: "$19",
-      category: "Content Creation",
-      blurb: "Earned ideas, not another content calendar.",
-      overview: {
-        eyebrow: "Digital guide",
-        headline: "Earned attention ideas, not another content calendar.",
-        lead:
-          "A compact set of organic marketing ideas for product brands that want people to stay with the story longer. Built for campaigns and series thinking, not random posts.",
-        highlights: [
-          "Ideas designed to earn attention, not rent a spike",
-          "Angles that work as complementary pieces around one campaign",
-          "Prompts you can brief to a creator, team day, or yourself",
-          "A simple filter so weak ideas never make the calendar",
-        ],
-        includes: [
-          "Idea lists and campaign prompts",
-          "Quick filters for fit and effort",
-          "Instant download after checkout",
-        ],
-        bestFor:
-          "Founders and marketers who need better organic ideas before they produce the next batch of content.",
         checkoutLabel: "Checkout · $19",
       },
       poster: {
-        label: "Organic",
-        headline: "ORGANIC",
-        subline: "MARKETING IDEAS",
-        tagline: "Earned attention only",
+        label: "Audience",
+        headline: "WHO IT'S",
+        subline: "FOR",
+        tagline: "Name the buyer",
         image: "/images/guides/travel.jpg",
         industry: "Travel",
         gradientFrom: "#1c1810",

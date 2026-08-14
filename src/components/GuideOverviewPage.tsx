@@ -1,75 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { BuyGuideButton } from "@/components/BuyGuideButton";
+import { GuideComingSoonCover } from "@/components/GuideComingSoonCover";
 import type { StoreGuide } from "@/lib/sections";
-
-function GuidePosterPreview({ guide }: { guide: StoreGuide }) {
-  const { poster } = guide;
-
-  return (
-    <div className="absolute inset-0 overflow-hidden bg-[#0a0a0a]">
-      <Image
-        src={poster.image}
-        alt=""
-        fill
-        className="object-cover"
-        sizes="(max-width: 1024px) 100vw, 560px"
-        priority
-      />
-      <div
-        aria-hidden
-        className="absolute inset-0"
-        style={{
-          background: `
-            linear-gradient(
-              180deg,
-              rgba(8,8,8,0.82) 0%,
-              rgba(8,8,8,0.35) 40%,
-              rgba(8,8,8,0.55) 72%,
-              rgba(8,8,8,0.92) 100%
-            )
-          `,
-        }}
-      />
-      <div
-        aria-hidden
-        className="absolute inset-0"
-        style={{
-          background: `linear-gradient(135deg, ${poster.gradientFrom}cc 0%, transparent 55%)`,
-        }}
-      />
-
-      <div className="relative z-[1] flex h-full flex-col justify-between p-5 sm:p-7">
-        <div className="flex items-center justify-between border-b border-white/20 pb-3">
-          <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/80">
-            nau presents
-          </p>
-          <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white/65">
-            {poster.industry}
-          </p>
-        </div>
-
-        <div className="text-center">
-          <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-white/70">
-            {poster.label} night
-          </p>
-          <p className="mt-3 text-[clamp(1.5rem,4vw,2.25rem)] leading-[0.9] font-semibold uppercase tracking-[-0.04em] text-white">
-            {poster.headline}
-          </p>
-          <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/75">
-            {poster.subline}
-          </p>
-        </div>
-
-        <p className="text-center text-[12px] font-medium tracking-[-0.03em] text-white/55">
-          {poster.tagline}
-        </p>
-      </div>
-    </div>
-  );
-}
 
 export function GuideOverviewPage({
   guide,
@@ -116,7 +50,7 @@ export function GuideOverviewPage({
 
           <div className="mt-8 grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] lg:items-start lg:gap-14">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[18px] sm:aspect-[5/6] lg:sticky lg:top-24">
-              <GuidePosterPreview guide={guide} />
+              <GuideComingSoonCover padded />
             </div>
 
             <div>
