@@ -3,7 +3,30 @@
 import { useMemo, useState } from "react";
 import { PageSearchBar } from "@/components/PageSearchBar";
 import { ProjectGridCard } from "@/components/ProjectGridCard";
+import { clients, featuredClientSlugs } from "@/lib/clients";
 import { projectsPageCopy, projectsPageItems } from "@/lib/sections";
+
+const listingItems = [
+  ...clients.map((client) => ({
+    slug: client.slug,
+    title: `${client.name}.`,
+    displayName: client.name,
+    year: client.year,
+    category: client.category,
+    image: client.photo,
+    logo: client.logo,
+  })),
+  ...projectsPageItems.filter(
+    (project) => !clients.some((client) => client.slug === project.slug),
+  ),
+].sort((a, b) => {
+  const aIndex = featuredClientSlugs.indexOf(a.slug);
+  const bIndex = featuredClientSlugs.indexOf(b.slug);
+  if (aIndex === -1 && bIndex === -1) return 0;
+  if (aIndex === -1) return 1;
+  if (bIndex === -1) return -1;
+  return aIndex - bIndex;
+});
 
 export default function ProjectsPage() {
   const { title, description, searchPlaceholder, categoryLabel, categories } =
@@ -12,7 +35,7 @@ export default function ProjectsPage() {
   const [category, setCategory] = useState("All");
 
   const filtered = useMemo(() => {
-    return projectsPageItems.filter((project) => {
+    return listingItems.filter((project) => {
       const matchesQuery =
         query.trim().length === 0 ||
         project.title.toLowerCase().includes(query.toLowerCase()) ||

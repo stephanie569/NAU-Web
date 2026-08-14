@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { selectedWorkSection } from "@/lib/sections";
 
 function LogoCard({
@@ -9,7 +10,10 @@ function LogoCard({
   project: (typeof selectedWorkSection.projects)[number];
 }) {
   return (
-    <div className="flex h-[180px] w-[min(55vw,300px)] shrink-0 items-center justify-center rounded-[14px] bg-white px-5 sm:w-[340px] sm:px-6">
+    <Link
+      href={`/clients/${project.id}`}
+      className="flex h-[180px] w-[min(55vw,300px)] shrink-0 items-center justify-center rounded-[14px] bg-white px-5 transition-opacity hover:opacity-80 sm:w-[340px] sm:px-6"
+    >
       <div className="relative h-[130px] w-full max-w-[240px] sm:h-[140px] sm:max-w-[260px]">
         <Image
           src={project.src}
@@ -20,7 +24,7 @@ function LogoCard({
           quality={100}
         />
       </div>
-    </div>
+    </Link>
   );
 }
 

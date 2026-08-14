@@ -71,15 +71,26 @@ function ProjectCard({
           </div>
           <DotsMenu />
         </div>
-        <div className="relative mx-1 mb-1 aspect-[16/10] overflow-hidden rounded-[12px]">
+        <div className="relative mx-1 mb-1 aspect-[16/10] overflow-hidden rounded-[12px] bg-[#0a0a0a]">
           <Image
             src={project.image}
             alt={project.title}
             fill
-            className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+            className="object-cover object-center"
+            quality={90}
             sizes="(max-width: 640px) 82vw, (max-width: 1024px) 70vw, 560px"
           />
-          <div className="absolute inset-0 bg-[#0a0a0a]/20" />
+          {project.slug === "fly-the-earth" ? (
+            <div className="pointer-events-none absolute top-[8%] left-[6%] z-[2] h-11 w-[6.25rem] opacity-[0.28] mix-blend-screen">
+              <Image
+                src="/logos/fly-the-earth.png"
+                alt=""
+                fill
+                className="object-contain object-left"
+                sizes="100px"
+              />
+            </div>
+          ) : null}
         </div>
       </div>
     </Link>

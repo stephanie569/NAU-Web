@@ -151,9 +151,9 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Full 360: research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
+      "Full 360: research, strategy and content in one cycle. She turned our retreat offer into organic reach without buying ads.",
     author: "The Pine",
-    role: "Outdoor apparel",
+    role: "Team retreats & experiences",
   },
   {
     quote:

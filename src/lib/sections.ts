@@ -49,46 +49,28 @@ export const clientLogos = selectedWorkSection.projects;
 
 export const featuredProjects = [
   {
-    slug: "boltshift-rebrand",
-    title: "Trailform.",
+    slug: "go-guide",
+    title: "Go Guide.",
     year: "2025",
-    image:
-      "https://framerusercontent.com/images/TQUaM9GTresksymLH16ncQaPo.jpg",
+    image: "/images/clients/go-guide-cover.png",
   },
   {
-    slug: "ephemeral-campaign",
-    title: "Shoreline.",
+    slug: "the-pine",
+    title: "The Pine.",
     year: "2025",
-    image:
-      "https://framerusercontent.com/images/r3DvXiPExOamPrqqTNfWM1K9o4.jpg",
+    image: "/images/clients/the-pine-progress.png",
   },
   {
-    slug: "warpspeed-launch",
-    title: "Fieldkit.",
+    slug: "kingo",
+    title: "Kingo.",
     year: "2024",
-    image:
-      "https://framerusercontent.com/images/UPqJOHQLdYtNuK2jee5437Lno.jpg",
+    image: "/images/clients/kingo-cover-v2.png",
   },
   {
-    slug: "wilson-co-studio",
-    title: "Northline.",
+    slug: "fly-the-earth",
+    title: "Fly the Earth.",
     year: "2024",
-    image:
-      "https://framerusercontent.com/images/HlvuJF9yIQ3Q8fP86EjFIq5ExE.jpg",
-  },
-  {
-    slug: "experiences-app",
-    title: "Summit Co.",
-    year: "2023",
-    image:
-      "https://framerusercontent.com/images/0KGHRsvK3go8kOWricmADe0VWs.jpg",
-  },
-  {
-    slug: "cloudwatch-platform",
-    title: "Lenscraft.",
-    year: "2023",
-    image:
-      "https://framerusercontent.com/images/qiCYd5j7XEmvyt9BpMldI3mNm8.jpg",
+    image: "/images/clients/fly-the-earth-wing.jpg",
   },
 ];
 
@@ -102,8 +84,7 @@ export const projectsSectionCopy = {
 };
 
 export const pageBottomCtaCopy = {
-  ctaLead:
-    "Let the right audience find you, with 10 videos only, when positioning holds and content runs as a series that sounds like you.",
+  ctaLead: "Let the right audience find you, with 10 videos only.",
   ctaHighlight: "That's the progress we build together.",
   ctaButton: "Work with me",
   ctaHref: "/contact",
@@ -127,6 +108,15 @@ export const projectsPageCopy = {
 };
 
 export const projectsPageItems = [
+  {
+    slug: "the-pine",
+    title: "The Pine.",
+    displayName: "The Pine",
+    year: "2025",
+    category: "Content Creation",
+    image: "/images/clients/the-pine-progress.png",
+    logo: "/logos/the-pine.png",
+  },
   {
     slug: "boltshift-rebrand",
     title: "Trailform.",
@@ -286,10 +276,10 @@ export const testimonialsSectionCopy = {
   reviews: [
     {
       author: "The Pine",
-      role: "Outdoor apparel",
+      role: "Team retreats & experiences",
       image: "/logos/testimonial-the-pine.png",
       quote:
-        "Full 360: research, strategy and content in one cycle. She turned our product story into organic reach without buying ads.",
+        "Full 360: research, strategy and content in one cycle. She turned our retreat offer into organic reach without buying ads.",
       layout: "profile-top-box",
     },
     {
@@ -424,7 +414,6 @@ export const storeSectionCopy = {
         subline: "WORKBOOK",
         tagline: "Who it's for & why it wins",
         image: "/images/guides/outdoor.jpg",
-        industry: "Outdoor",
         gradientFrom: "#0e1218",
         gradientTo: "#1f3d5c",
         accent: "#9fd0ff",

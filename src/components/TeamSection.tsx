@@ -164,7 +164,7 @@ export function TeamSection() {
               <p className="text-[clamp(1.55rem,3vw,2rem)] leading-[1.15] font-semibold tracking-[-0.05em] text-pretty text-[#0a0a0a]">
                 {titleLead}
               </p>
-              <p className="mt-2 text-[clamp(1.2rem,2.2vw,1.5rem)] leading-[1.25] font-semibold tracking-[-0.045em] text-pretty text-[#CB1B03]">
+              <p className="mt-2 bg-gradient-to-r from-[#5b4b9b] via-[#0a1f5a] to-[#00a8e8] bg-clip-text text-[clamp(1.2rem,2.2vw,1.5rem)] leading-[1.25] font-semibold tracking-[-0.045em] text-pretty text-transparent">
                 {title}
               </p>
             </div>

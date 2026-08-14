@@ -39,7 +39,8 @@ const HD_QUALITIES = ["hd1080", "hd720", "large"];
 const YT_ENDED = 0;
 const YT_PLAYING = 1;
 const YT_PAUSED = 2;
-const REVEAL_DELAY_MS = 500;
+const MIN_COVER_MS = 2200;
+const REVEAL_AFTER_PLAYING_MS = 300;
 
 function requestHdQuality(player: YTPlayer) {
   for (const quality of HD_QUALITIES) {
@@ -75,6 +76,7 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
   const hasStartedRef = useRef(false);
   const revealTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const playIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const readyAtRef = useRef<number | null>(null);
   const playerId = useId().replace(/:/g, "");
   const [isVisible, setIsVisible] = useState(false);
 
@@ -107,6 +109,19 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
       setIsVisible(true);
     };
 
+    const scheduleReveal = () => {
+      if (hasStartedRef.current || cancelled || revealTimeoutRef.current) return;
+
+      const readyAt = readyAtRef.current ?? Date.now();
+      const elapsed = Date.now() - readyAt;
+      const delay = Math.max(MIN_COVER_MS - elapsed, REVEAL_AFTER_PLAYING_MS);
+
+      revealTimeoutRef.current = setTimeout(() => {
+        revealTimeoutRef.current = null;
+        revealPlayer();
+      }, delay);
+    };
+
     const ensurePlayback = (player: YTPlayer) => {
       player.mute();
       player.playVideo();
@@ -119,6 +134,7 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
       playerRef.current?.destroy();
       clearTimers();
       hasStartedRef.current = false;
+      readyAtRef.current = null;
       setIsVisible(false);
 
       playerRef.current = new window.YT.Player(mountRef.current, {
@@ -141,9 +157,11 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
           enablejsapi: 1,
           origin: window.location.origin,
           vq: "hd1080",
+          start: 0,
         },
         events: {
           onReady: ({ target }) => {
+            readyAtRef.current = Date.now();
             ensurePlayback(target);
 
             playIntervalRef.current = setInterval(() => {
@@ -169,10 +187,7 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
             if (data === YT_PLAYING) {
               requestHdQuality(target);
               if (!hasStartedRef.current) {
-                revealTimeoutRef.current = setTimeout(
-                  revealPlayer,
-                  REVEAL_DELAY_MS
-                );
+                scheduleReveal();
               }
             }
           },
@@ -200,13 +215,13 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
 
       {/* Blocks hover/focus so YouTube play/seek controls never appear */}
       <div
-        className="absolute inset-0 z-10"
+        className="absolute inset-0 z-30"
         aria-hidden
         style={{ background: "transparent" }}
       />
 
       <div
-        className={`pointer-events-none absolute top-1/2 left-1/2 z-0 ${
+        className={`pointer-events-none absolute top-1/2 left-1/2 z-0 origin-center ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
         style={{
@@ -216,7 +231,7 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
           height: `${56.25 * QUALITY_SCALE}vw`,
           minHeight: `${100 * QUALITY_SCALE}%`,
           transform: isVisible
-            ? `translate(-50%, -50%) scale(${1 / QUALITY_SCALE})`
+            ? `translate(-50%, -50%) scale(${1.12 / QUALITY_SCALE})`
             : "translate(-200vw, -50%) scale(0.001)",
         }}
       >

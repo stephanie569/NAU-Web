@@ -64,7 +64,7 @@ export function PlatformIcon({
     );
   }
 
-  if (name === "YouTube Shorts") {
+  if (name === "YouTube" || name === "YouTube Shorts") {
     return (
       <svg {...common}>
         <rect width="28" height="28" rx="7" fill="#FF0000" />

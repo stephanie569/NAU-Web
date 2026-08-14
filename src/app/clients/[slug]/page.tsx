@@ -1,7 +1,10 @@
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import { FadeIn } from "@/components/ui";
+import { ClientProfile } from "@/components/ClientProfile";
+import { clients, getClient } from "@/lib/clients";
 import { projects } from "@/lib/data";
 
 type Props = {
@@ -9,16 +12,50 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  return projects.map((p) => ({ slug: p.slug }));
+  const clientSlugs = clients.map((client) => ({ slug: client.slug }));
+  const projectSlugs = projects
+    .filter((project) => !clients.some((client) => client.slug === project.slug))
+    .map((project) => ({ slug: project.slug }));
+
+  return [...clientSlugs, ...projectSlugs];
 }
 
-export default async function ProjectDetailPage({ params }: Props) {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const project = projects.find((p) => p.slug === slug);
+  const client = getClient(slug);
+  if (client) {
+    return {
+      title: `${client.name} | nau studio`,
+      description: client.bio,
+      openGraph: {
+        title: client.name,
+        description: client.headline,
+        images: [{ url: client.photo }],
+      },
+    };
+  }
 
+  const project = projects.find((item) => item.slug === slug);
+  if (!project) return {};
+
+  return {
+    title: `${project.title} | nau studio`,
+    description: project.description,
+  };
+}
+
+export default async function ClientDetailPage({ params }: Props) {
+  const { slug } = await params;
+  const client = getClient(slug);
+
+  if (client) {
+    return <ClientProfile client={client} />;
+  }
+
+  const project = projects.find((item) => item.slug === slug);
   if (!project) notFound();
 
-  const related = projects.filter((p) => p.slug !== slug).slice(0, 2);
+  const related = projects.filter((item) => item.slug !== slug).slice(0, 2);
 
   return (
     <>
