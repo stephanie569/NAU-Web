@@ -1,8 +1,14 @@
+import type { StoreGuide } from "@/lib/sections";
+
 export function GuideComingSoonCover({
   padded = false,
+  guide,
 }: {
   padded?: boolean;
+  guide?: StoreGuide;
 }) {
+  const poster = guide?.poster;
+
   return (
     <div className="absolute inset-0 overflow-hidden bg-[#0a0a0a]">
       <div
@@ -33,24 +39,41 @@ export function GuideComingSoonCover({
           <p className="text-[9px] font-semibold uppercase tracking-[0.2em] text-white/80 sm:text-[10px]">
             nau presents
           </p>
-          <p className="text-[9px] font-semibold uppercase tracking-[0.16em] text-white/65 sm:text-[10px]">
-            Digital guide
+          <p className="rounded-full border border-white/20 px-2 py-0.5 text-[8px] font-semibold uppercase tracking-[0.16em] text-white/80 sm:text-[9px]">
+            Coming soon
           </p>
         </div>
 
         <div className="text-center">
-          <p className="text-[9px] font-semibold uppercase tracking-[0.24em] text-white/65 sm:text-[10px]">
-            Not out yet
-          </p>
-          <p className="mt-2 text-[clamp(1.35rem,3.6vw,2.1rem)] leading-[0.9] font-semibold uppercase tracking-[-0.045em] text-white">
-            Coming
-            <br />
-            soon
-          </p>
+          {poster ? (
+            <>
+              <p className="text-[9px] font-semibold uppercase tracking-[0.24em] text-white/65 sm:text-[10px]">
+                {poster.tagline}
+              </p>
+              <p className="mt-3 text-[clamp(1.6rem,4.2vw,2.45rem)] leading-[0.88] font-semibold uppercase tracking-[-0.05em] text-white">
+                {poster.headline}
+                <br />
+                {poster.subline}
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="text-[9px] font-semibold uppercase tracking-[0.24em] text-white/65 sm:text-[10px]">
+                Not out yet
+              </p>
+              <p className="mt-2 text-[clamp(1.35rem,3.6vw,2.1rem)] leading-[0.9] font-semibold uppercase tracking-[-0.045em] text-white">
+                Coming
+                <br />
+                soon
+              </p>
+            </>
+          )}
         </div>
 
-        <p className="text-center text-[10px] font-medium tracking-[-0.03em] text-white/55 sm:text-[11px]">
-          Same thinking. Still being finished.
+        <p className="text-center text-[10px] font-medium tracking-[-0.03em] text-white/55 sm:text-[12px]">
+          {guide
+            ? `${guide.price} · same thinking I use with clients`
+            : "Same thinking. Still being finished."}
         </p>
       </div>
     </div>

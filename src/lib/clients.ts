@@ -139,10 +139,10 @@ export const clients: ClientProfile[] = [
       research:
         "We mapped how teams buy retreats in Europe: HR and office managers juggling venues, activities, food and logistics across multiple vendors. Competitor teardowns showed most players sell either a hotel or a single activity. The Pine’s edge is the full getaway in one place. Interviews confirmed buyers need proof of connection, focus and growth, not another vague “epic team building” promise.",
       goals: [
-        "Own a sharper ICP: HR, office managers and team leads planning retreats for 100+ company clients",
-        "Make the all-in-one offer obvious in the first three seconds of every cut",
-        "Ship a 10-video series across Instagram, TikTok, YouTube and LinkedIn without paid media",
-        "Drive organic quote requests from teams booking Greece, Spain, Portugal and Bulgaria",
+        "Follow one team getaway from “we need an offsite” to quote",
+        "Cover stay, experience, host, destinations, logistics, then proof",
+        "Shoot handheld on location with real teams — never brochure polish",
+        "Open on the planning headache so scrollers stop before the offer",
       ],
     },
     results: {
@@ -470,8 +470,8 @@ export const clients: ClientProfile[] = [
 ];
 
 export const featuredClientSlugs: readonly string[] = [
-  "go-guide",
   "the-pine",
+  "go-guide",
   "kingo",
   "fly-the-earth",
 ];

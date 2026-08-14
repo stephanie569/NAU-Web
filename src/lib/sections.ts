@@ -49,16 +49,16 @@ export const clientLogos = selectedWorkSection.projects;
 
 export const featuredProjects = [
   {
-    slug: "go-guide",
-    title: "Go Guide.",
-    year: "2025",
-    image: "/images/clients/go-guide-cover.png",
-  },
-  {
     slug: "the-pine",
     title: "The Pine.",
     year: "2025",
     image: "/images/clients/the-pine-progress.png",
+  },
+  {
+    slug: "go-guide",
+    title: "Go Guide.",
+    year: "2025",
+    image: "/images/clients/go-guide-cover.png",
   },
   {
     slug: "kingo",
@@ -375,6 +375,8 @@ export const storeSectionCopy = {
   stickers:
     "Stickers are free to friends, partners and brands building gear worth talking about.",
   cta: "Get the guide",
+  notifyCta: "Tell me when it drops",
+  comingSoonLabel: "Coming soon",
   checkoutSuccessTitle: "Payment received",
   checkoutSuccessNote:
     "Thanks. I'll email your guide shortly. This is test mode until you switch Stripe to live keys.",
@@ -406,6 +408,28 @@ export const storeSectionCopy = {
         bestFor:
           "Founders and marketers who already have a GTM, and need the series that makes it land.",
         checkoutLabel: "Checkout · $29",
+        preview: [
+          {
+            number: "01",
+            title: "The series map",
+            note: "Ten slots. One story. Nothing that does not earn its place.",
+          },
+          {
+            number: "02",
+            title: "What to film",
+            note: "Hooks, proof, field cuts and a closer that still sounds like you.",
+          },
+          {
+            number: "03",
+            title: "What to cut",
+            note: "The posts that look busy and do nothing for the GTM.",
+          },
+          {
+            number: "04",
+            title: "The brief",
+            note: "Ready to shoot, or to hand to a team, without starting over.",
+          },
+        ],
       },
       poster: {
         label: "Series",
@@ -443,6 +467,28 @@ export const storeSectionCopy = {
         bestFor:
           "Teams who understand their market and need a go-to-market they can put into practice.",
         checkoutLabel: "Checkout · $49",
+        preview: [
+          {
+            number: "01",
+            title: "The buyer truth",
+            note: "Which market signals matter, and which to ignore for now.",
+          },
+          {
+            number: "02",
+            title: "The story",
+            note: "A GTM line the right audience can repeat without a deck.",
+          },
+          {
+            number: "03",
+            title: "The sequence",
+            note: "Channels, owners and timing for the next 60 days.",
+          },
+          {
+            number: "04",
+            title: "The first proof",
+            note: "What to measure so you know if it is working.",
+          },
+        ],
       },
       poster: {
         label: "GTM",
@@ -481,6 +527,28 @@ export const storeSectionCopy = {
         bestFor:
           "Founders and marketers about to launch, reposition, or brief content, when clarity is the missing piece.",
         checkoutLabel: "Checkout · $19",
+        preview: [
+          {
+            number: "01",
+            title: "Who it’s for",
+            note: "The buyer, written in their language, not yours.",
+          },
+          {
+            number: "02",
+            title: "Who it’s not",
+            note: "The polite no that keeps the work sharp.",
+          },
+          {
+            number: "03",
+            title: "Why you win",
+            note: "Against the real alternatives, not a fantasy competitor.",
+          },
+          {
+            number: "04",
+            title: "How to say it",
+            note: "A one-liner and tone so the next video sounds like one brand.",
+          },
+        ],
       },
       poster: {
         label: "Audience",

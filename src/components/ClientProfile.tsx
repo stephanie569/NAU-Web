@@ -88,20 +88,20 @@ export function ClientProfile({
             <h2 className="mt-2 max-w-[40rem] text-[clamp(1.45rem,2.6vw,2rem)] leading-snug font-semibold tracking-[-0.05em] text-[#0a0a0a]">
               Research and go-to-market goals.
             </h2>
-            <div className="mt-8 grid gap-6 lg:grid-cols-2 lg:gap-8">
-              <div className="rounded-[20px] bg-[#f5f5f5] p-6 md:p-7">
+            <div className="mt-8 grid items-stretch gap-6 lg:grid-cols-2 lg:gap-8">
+              <div className="flex h-full flex-col rounded-[20px] bg-[#f5f5f5] p-6 md:p-7">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#0a0a0a]/35">
                   Market research
                 </p>
-                <p className="mt-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/70 md:text-[16px]">
+                <p className="mt-3 flex-1 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/70 md:text-[16px]">
                   {client.campaign.research}
                 </p>
               </div>
-              <div className="rounded-[20px] bg-[#f5f5f5] p-6 md:p-7">
+              <div className="flex h-full flex-col rounded-[20px] bg-[#f5f5f5] p-6 md:p-7">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-[#0a0a0a]/35">
                   Go-to-market goals
                 </p>
-                <ul className="mt-3 space-y-3">
+                <ul className="mt-3 flex-1 space-y-3">
                   {client.campaign.goals.map((goal) => (
                     <li
                       key={goal}

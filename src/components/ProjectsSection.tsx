@@ -117,9 +117,9 @@ export function ProjectsSection() {
     <section
       id="clients"
       data-header-theme="dark"
-      className="box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center bg-[#0a0a0a] py-14 pb-20 md:py-16 md:pb-28"
+      className="box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center bg-[#0a0a0a] px-6 py-14 pb-20 md:px-9 md:py-16 md:pb-28"
     >
-      <div className="mx-auto w-full max-w-[1520px] px-6 md:px-9">
+      <div className="mx-auto w-full max-w-[1520px]">
         <div className="relative mb-6 lg:mb-7">
           <div className="text-center">
             <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
@@ -132,19 +132,17 @@ export function ProjectsSection() {
             <SlideArrow direction="next" onClick={() => scrollByCard("next")} />
           </div>
         </div>
-      </div>
 
-      <div className="mx-auto w-full max-w-[1520px]">
         <div
           ref={scrollerRef}
-          className="flex snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-2 [-ms-overflow-style:none] [scrollbar-width:none] md:gap-4 md:px-9 [&::-webkit-scrollbar]:hidden"
+          className="flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] md:gap-4 [&::-webkit-scrollbar]:hidden"
         >
           {projects.map((project) => (
             <ProjectCard key={project.slug} project={project} />
           ))}
         </div>
 
-        <div className="mt-5 flex justify-center gap-2 px-6 lg:hidden">
+        <div className="mt-5 flex justify-center gap-2 lg:hidden">
           <SlideArrow direction="prev" onClick={() => scrollByCard("prev")} />
           <SlideArrow direction="next" onClick={() => scrollByCard("next")} />
         </div>
