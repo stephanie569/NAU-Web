@@ -28,17 +28,24 @@ export function GuideGridCard({
   guide,
   index,
   ctaLabel,
+  step,
 }: {
   guide: StoreGuide;
   index: number;
   ctaLabel: string;
+  step?: string;
 }) {
   const dotsVariant = index % 3 === 0 ? "mac" : "muted";
 
   return (
     <article className="flex h-full flex-col overflow-hidden rounded-[14px] bg-white">
       <div className="flex items-center justify-between px-4 py-3.5 sm:px-5 sm:py-4">
-        <div className="flex min-w-0 items-baseline gap-1">
+        <div className="flex min-w-0 items-baseline gap-2">
+          {step ? (
+            <span className="shrink-0 text-[11px] font-semibold tabular-nums tracking-[-0.03em] text-[#0a0a0a]/35">
+              {step}
+            </span>
+          ) : null}
           <span className="truncate text-[14px] font-medium tracking-[-0.04em] text-[#0a0a0a] sm:text-[15px]">
             {guide.title}
           </span>
@@ -51,7 +58,7 @@ export function GuideGridCard({
 
       <div className="relative mx-1 aspect-[5/4] overflow-hidden rounded-[12px] sm:aspect-[4/3]">
         <div className="absolute inset-0">
-          <GuideComingSoonCover />
+          <GuideComingSoonCover guide={guide} />
         </div>
       </div>
 

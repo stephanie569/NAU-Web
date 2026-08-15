@@ -15,6 +15,14 @@ export function GuideOverviewPage({
   const { overview } = guide;
   const { notifyCta, comingSoonLabel } = storeSectionCopy;
   const related = storeSectionCopy.items.filter((item) => item.id !== guide.id);
+  const isPackage = guide.id === "full-guides-set";
+  const relatedSingles = related.filter((item) => item.id !== "full-guides-set");
+  const relatedItems = isPackage
+    ? relatedSingles
+    : [
+        ...relatedSingles.slice(0, 2),
+        ...related.filter((item) => item.id === "full-guides-set"),
+      ];
 
   return (
     <section className="bg-[#f5f5f5] px-1 pb-1 pt-1">
@@ -150,7 +158,7 @@ export function GuideOverviewPage({
             </div>
           </div>
 
-          {related.length > 0 ? (
+          {relatedItems.length > 0 ? (
             <div className="mt-14 border-t border-[#0a0a0a]/10 pt-12 md:mt-16 md:pt-14">
               <div className="flex flex-wrap items-end justify-between gap-4">
                 <div>
@@ -158,7 +166,9 @@ export function GuideOverviewPage({
                     The set
                   </p>
                   <h2 className="mt-2 text-[clamp(1.45rem,2.6vw,2rem)] leading-snug font-semibold tracking-[-0.05em] text-[#0a0a0a]">
-                    Two more guides in the cycle.
+                    {isPackage
+                      ? "Or take each guide on its own."
+                      : "The rest of the cycle."}
                   </h2>
                 </div>
                 <Link
@@ -168,8 +178,12 @@ export function GuideOverviewPage({
                   All guides
                 </Link>
               </div>
-              <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
-                {related.map((item) => (
+              <div
+                className={`mt-8 grid grid-cols-1 gap-4 ${
+                  relatedItems.length > 2 ? "sm:grid-cols-2 lg:grid-cols-3" : "sm:grid-cols-2"
+                }`}
+              >
+                {relatedItems.map((item) => (
                   <Link
                     key={item.id}
                     href={`/products/${item.id}`}

@@ -375,6 +375,15 @@ export const storeSectionCopy = {
   stickers:
     "Stickers are free to friends, partners and brands building gear worth talking about.",
   cta: "Get the guide",
+  packageCta: "Get the set",
+  packageOfferEyebrow: "The smart buy",
+  packageOfferHeadline: "Skip the piecemeal path. Take the full cycle.",
+  packageOfferBody:
+    "Buyer, GTM and the 10-video series in one set, so each guide hands off to the next instead of sitting alone.",
+  packageOfferLabel: "Unlock all three · $79",
+  packageOfferNote: "Usually $97",
+  packageOfferSave: "Save $18",
+  packageOfferHref: "/products/full-guides-set",
   notifyCta: "Tell me when it drops",
   comingSoonLabel: "Coming soon",
   checkoutSuccessTitle: "Payment received",
@@ -560,6 +569,65 @@ export const storeSectionCopy = {
         gradientFrom: "#1c1810",
         gradientTo: "#5a3d1c",
         accent: "#f0c56e",
+      },
+    },
+    {
+      id: "full-guides-set",
+      title: "The Full Set",
+      price: "$79",
+      category: "Package",
+      blurb: "All three guides. Usually $97.",
+      overview: {
+        eyebrow: "Package",
+        headline: "Who it’s for, the GTM, and the series — together.",
+        lead:
+          "The full cycle in three downloads: name the buyer, turn the market into a GTM you can run, then build the 10-video series that carries it. One set, one story, less than buying them apart.",
+        highlights: [
+          "Who It’s For — name the buyer before you film",
+          "The GTM You Can Run — channels, story and sequence",
+          "The 10-Video Series — turn that GTM into a campaign",
+          "Save $18 versus buying each guide on its own",
+        ],
+        includes: [
+          "All three digital guides",
+          "The same framing I use with client brands",
+          "Instant download after checkout",
+        ],
+        bestFor:
+          "Founders and marketers who want the full cycle without booking a client engagement.",
+        checkoutLabel: "Checkout · $79",
+        preview: [
+          {
+            number: "01",
+            title: "Who It’s For",
+            note: "Lock the buyer and the language before anything else.",
+          },
+          {
+            number: "02",
+            title: "The GTM You Can Run",
+            note: "Translate the market into channels, story and sequence.",
+          },
+          {
+            number: "03",
+            title: "The 10-Video Series",
+            note: "Turn that GTM into ten videos that work as one campaign.",
+          },
+          {
+            number: "04",
+            title: "One download",
+            note: "All three guides, ready when the set drops.",
+          },
+        ],
+      },
+      poster: {
+        label: "Package",
+        headline: "ALL 3",
+        subline: "GUIDES",
+        tagline: "Usually $97",
+        image: "/images/guides/outdoor.jpg",
+        gradientFrom: "#120e18",
+        gradientTo: "#1a2a4a",
+        accent: "#9fd0ff",
       },
     },
   ],

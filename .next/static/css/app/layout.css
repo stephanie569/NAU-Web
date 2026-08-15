@@ -1961,6 +1961,9 @@
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
+  .py-7 {
+    padding-block: calc(var(--spacing) * 7);
+  }
   .py-8 {
     padding-block: calc(var(--spacing) * 8);
   }
@@ -2229,6 +2232,9 @@
   }
   .text-\[clamp\(1\.25rem\,2\.2vw\,1\.65rem\)\] {
     font-size: clamp(1.25rem, 2.2vw, 1.65rem);
+  }
+  .text-\[clamp\(1\.25rem\,2\.4vw\,1\.65rem\)\] {
+    font-size: clamp(1.25rem, 2.4vw, 1.65rem);
   }
   .text-\[clamp\(1\.25rem\,2\.4vw\,1\.75rem\)\] {
     font-size: clamp(1.25rem, 2.4vw, 1.75rem);
@@ -3344,6 +3350,11 @@
       justify-content: space-between;
     }
   }
+  .sm\:justify-end {
+    @media (width >= 40rem) {
+      justify-content: flex-end;
+    }
+  }
   .sm\:gap-2\.5 {
     @media (width >= 40rem) {
       gap: calc(var(--spacing) * 2.5);
@@ -3577,6 +3588,16 @@
       margin-top: calc(var(--spacing) * 3);
     }
   }
+  .md\:mt-5 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 5);
+    }
+  }
+  .md\:mt-10 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 10);
+    }
+  }
   .md\:mt-12 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 12);
@@ -3805,6 +3826,11 @@
   .md\:py-7 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 7);
+    }
+  }
+  .md\:py-8 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 8);
     }
   }
   .md\:py-10 {
@@ -4200,6 +4226,11 @@
       grid-template-columns: minmax(0,340px) 1fr;
     }
   }
+  .lg\:flex-col {
+    @media (width >= 64rem) {
+      flex-direction: column;
+    }
+  }
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
@@ -4393,6 +4424,16 @@
   .xl\:grid-cols-\[minmax\(0\,380px\)_1fr\] {
     @media (width >= 80rem) {
       grid-template-columns: minmax(0,380px) 1fr;
+    }
+  }
+  .xl\:flex-row {
+    @media (width >= 80rem) {
+      flex-direction: row;
+    }
+  }
+  .xl\:items-center {
+    @media (width >= 80rem) {
+      align-items: center;
     }
   }
   .xl\:gap-16 {

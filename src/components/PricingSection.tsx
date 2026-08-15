@@ -360,14 +360,77 @@ export function PricingSection({
             </div>
 
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4">
-              {storeSectionCopy.items.slice(0, 3).map((guide, index) => (
-                <GuideGridCard
-                  key={guide.id}
-                  guide={guide}
-                  index={index}
-                  ctaLabel={storeSectionCopy.cta}
-                />
-              ))}
+              {(
+                [
+                  "organic-marketing-ideas",
+                  "go-to-market-playbook",
+                  "product-positioning-workbook",
+                ] as const
+              )
+                .map((id) =>
+                  storeSectionCopy.items.find((guide) => guide.id === id),
+                )
+                .filter(
+                  (guide): guide is (typeof storeSectionCopy.items)[number] =>
+                    Boolean(guide),
+                )
+                .map((guide, index) => (
+                  <GuideGridCard
+                    key={guide.id}
+                    guide={guide}
+                    index={index}
+                    step={`0${index + 1}`}
+                    ctaLabel={storeSectionCopy.cta}
+                  />
+                ))}
+            </div>
+
+            <div className="relative mt-4 overflow-hidden rounded-[20px] bg-[#0a0a0a] px-6 py-7 md:mt-5 md:px-8 md:py-8 lg:px-10">
+              <div
+                aria-hidden
+                className="pointer-events-none absolute inset-0"
+                style={{
+                  background: `
+                    radial-gradient(90% 120% at 0% 0%, rgba(91, 75, 155, 0.35) 0%, transparent 55%),
+                    radial-gradient(70% 100% at 100% 100%, rgba(0, 168, 232, 0.28) 0%, transparent 50%)
+                  `,
+                }}
+              />
+              <div className="relative flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
+                <div className="min-w-0 max-w-[36rem]">
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/45">
+                    {storeSectionCopy.packageOfferEyebrow}
+                  </p>
+                  <p className="mt-2 text-[clamp(1.25rem,2.4vw,1.65rem)] leading-snug font-semibold tracking-[-0.045em] text-white">
+                    {storeSectionCopy.packageOfferHeadline}
+                  </p>
+                  <p className="mt-2 text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-white/55 md:text-[15px]">
+                    {storeSectionCopy.packageOfferBody}
+                  </p>
+                </div>
+
+                <div className="flex shrink-0 flex-col gap-4 sm:flex-row sm:items-center sm:gap-6 lg:flex-col lg:items-end xl:flex-row xl:items-center">
+                  <div className="sm:text-right">
+                    <p className="text-[11px] font-medium tracking-[-0.03em] text-white/40 line-through">
+                      {storeSectionCopy.packageOfferNote}
+                    </p>
+                    <div className="mt-1 flex items-baseline gap-2 sm:justify-end">
+                      <p className="text-[2rem] leading-none font-semibold tracking-[-0.05em] text-white">
+                        $79
+                      </p>
+                      <p className="rounded-full bg-white/10 px-2.5 py-1 text-[11px] font-semibold tracking-[-0.03em] text-white/80">
+                        {storeSectionCopy.packageOfferSave}
+                      </p>
+                    </div>
+                  </div>
+                  <NauButton
+                    href={storeSectionCopy.packageOfferHref}
+                    variant="light"
+                  >
+                    {storeSectionCopy.packageOfferLabel}
+                  </NauButton>
+                </div>
+              </div>
             </div>
           </div>
         </section>
