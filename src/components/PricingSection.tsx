@@ -386,16 +386,6 @@ export function PricingSection({
             </div>
 
             <div className="relative mt-4 overflow-hidden rounded-[20px] bg-[#0a0a0a] px-6 py-7 md:mt-5 md:px-8 md:py-8 lg:px-10">
-              <div
-                aria-hidden
-                className="pointer-events-none absolute inset-0"
-                style={{
-                  background: `
-                    radial-gradient(90% 120% at 0% 0%, rgba(91, 75, 155, 0.35) 0%, transparent 55%),
-                    radial-gradient(70% 100% at 100% 100%, rgba(0, 168, 232, 0.28) 0%, transparent 50%)
-                  `,
-                }}
-              />
               <div className="relative flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
                 <div className="min-w-0 max-w-[36rem]">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/45">
@@ -426,6 +416,7 @@ export function PricingSection({
                   <NauButton
                     href={storeSectionCopy.packageOfferHref}
                     variant="light"
+                    electric
                   >
                     {storeSectionCopy.packageOfferLabel}
                   </NauButton>

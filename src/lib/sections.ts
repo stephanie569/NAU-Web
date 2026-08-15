@@ -376,11 +376,12 @@ export const storeSectionCopy = {
     "Stickers are free to friends, partners and brands building gear worth talking about.",
   cta: "Get the guide",
   packageCta: "Get the set",
-  packageOfferEyebrow: "The smart buy",
-  packageOfferHeadline: "Skip the piecemeal path. Take the full cycle.",
+  packageOfferEyebrow: "All three combined",
+  packageOfferHeadline:
+    "Walk away knowing your buyer, how you’ll grow, and what to film.",
   packageOfferBody:
-    "Buyer, GTM and the 10-video series in one set, so each guide hands off to the next instead of sitting alone.",
-  packageOfferLabel: "Unlock all three · $79",
+    "Buyer locked, GTM you can run, and a 10-video series that carries it. One coherent plan instead of three loose downloads.",
+  packageOfferLabel: "Take the full set",
   packageOfferNote: "Usually $97",
   packageOfferSave: "Save $18",
   packageOfferHref: "/products/full-guides-set",
@@ -513,17 +514,17 @@ export const storeSectionCopy = {
     },
     {
       id: "organic-marketing-ideas",
-      title: "Who It's For",
+      title: "Name Your Buyer",
       price: "$19",
       category: "Research & Positioning",
-      blurb: "Name the buyer before you film a single video.",
+      blurb: "Lock the buyer before you film a single video.",
       overview: {
         eyebrow: "Digital guide",
-        headline: "Get clear on who it’s for, before you film a single post.",
+        headline: "Get clear on who buys, before you film a single post.",
         lead:
           "A practical guide for product brands that need sharper positioning. Fill it in once and you’ll know who you serve, why you win, and how to say it without sounding like everyone else.",
         highlights: [
-          "Who it’s for and who it’s not, written in customer language",
+          "Who buys and who doesn’t, written in customer language",
           "Why you win against the real alternatives",
           "A positioning one-liner and messaging starters you can use immediately",
           "Tone notes so your content finally sounds like one brand",
@@ -539,12 +540,12 @@ export const storeSectionCopy = {
         preview: [
           {
             number: "01",
-            title: "Who it’s for",
+            title: "Who buys",
             note: "The buyer, written in their language, not yours.",
           },
           {
             number: "02",
-            title: "Who it’s not",
+            title: "Who doesn’t",
             note: "The polite no that keeps the work sharp.",
           },
           {
@@ -560,10 +561,10 @@ export const storeSectionCopy = {
         ],
       },
       poster: {
-        label: "Audience",
-        headline: "WHO IT'S",
-        subline: "FOR",
-        tagline: "Name the buyer",
+        label: "Buyer",
+        headline: "NAME YOUR",
+        subline: "BUYER",
+        tagline: "Before you film",
         image: "/images/guides/travel.jpg",
         industry: "Travel",
         gradientFrom: "#1c1810",
@@ -576,17 +577,18 @@ export const storeSectionCopy = {
       title: "The Full Set",
       price: "$79",
       category: "Package",
-      blurb: "All three guides. Usually $97.",
+      blurb: "Clear buyer, runnable GTM, series ready to shoot.",
       overview: {
         eyebrow: "Package",
-        headline: "Who it’s for, the GTM, and the series — together.",
+        headline:
+          "Walk away knowing your buyer, how you’ll grow, and what to film.",
         lead:
-          "The full cycle in three downloads: name the buyer, turn the market into a GTM you can run, then build the 10-video series that carries it. One set, one story, less than buying them apart.",
+          "With all three guides you leave with a named buyer, a GTM you can actually run, and a 10-video series that carries that story. Same framing I use with clients, packaged so the pieces hand off instead of sitting alone.",
         highlights: [
-          "Who It’s For — name the buyer before you film",
-          "The GTM You Can Run — channels, story and sequence",
-          "The 10-Video Series — turn that GTM into a campaign",
-          "Save $18 versus buying each guide on its own",
+          "A clear buyer and language before you film anything",
+          "A GTM with channels, story and sequence you can run",
+          "A 10-video series that carries that GTM as one campaign",
+          "The feeling of a finished plan, not three loose downloads",
         ],
         includes: [
           "All three digital guides",
@@ -594,12 +596,12 @@ export const storeSectionCopy = {
           "Instant download after checkout",
         ],
         bestFor:
-          "Founders and marketers who want the full cycle without booking a client engagement.",
+          "Founders and marketers who want the feeling of a finished plan: clear buyer, runnable GTM, and a series ready to shoot.",
         checkoutLabel: "Checkout · $79",
         preview: [
           {
             number: "01",
-            title: "Who It’s For",
+            title: "Name Your Buyer",
             note: "Lock the buyer and the language before anything else.",
           },
           {
