@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Required for the slim Docker runtime: `next build` emits
+  // `.next/standalone` (server.js + traced node_modules only).
+  output: "standalone",
   async redirects() {
     return [
       {
