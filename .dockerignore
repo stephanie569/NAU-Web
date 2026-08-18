@@ -1,0 +1,14 @@
+.git
+.next
+node_modules
+.env
+.env.*
+!.env.example
+.deploy.env
+.DS_Store
+.cursor
+*.md
+*.pem
+tsconfig.tsbuildinfo
+Screen Recording*
+yarn.lock
