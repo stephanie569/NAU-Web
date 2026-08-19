@@ -7,7 +7,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: nau-web:latest
+    # Actions publishes this. Override with NAU_IMAGE=nau-web:latest
+    # if you are deploying a locally built image via deploy.sh.
+    image: ${NAU_IMAGE:-ghcr.io/stephanie569/nau-web:latest}
     container_name: nau-web
     restart: unless-stopped
     ports:
