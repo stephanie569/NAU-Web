@@ -89,5 +89,8 @@ jobs:
           cp docker-compose.yml "${PI_APP_DIR}/docker-compose.yml"
           cd "${PI_APP_DIR}"
           docker compose pull web
-          docker compose up -d --remove-orphans
+          # --wait blocks on the compose healthcheck, so a container that
+          # starts and then crash-loops fails the job instead of reporting
+          # a green deploy. start_period is 20s; 120s leaves room for retries.
+          docker compose up -d --remove-orphans --wait --wait-timeout 120
           docker image prune -f
