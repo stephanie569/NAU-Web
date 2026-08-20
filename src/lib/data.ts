@@ -157,15 +157,15 @@ export const testimonials = [
   },
   {
     quote:
-      "We came with the strategy. She built the content that finally sounds like us in the field: stories people save and share.",
-    author: "Go Guide",
-    role: "Adventure experiences",
-  },
-  {
-    quote:
       "Sharp market and competitor research that clarified where we stand, and who we need to win.",
     author: "Fly the Earth",
     role: "Travel brand",
+  },
+  {
+    quote:
+      "Clear positioning and a campaign series that finally sounded like the product, not another feed of noise.",
+    author: "Kingo",
+    role: "Consumer product",
   },
 ];
 

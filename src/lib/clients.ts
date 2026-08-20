@@ -59,6 +59,8 @@ export type ClientProfile = {
   logo: string;
   year: string;
   category: string;
+  /** When true, omitted from listings, marquee, related, and detail routes. */
+  hidden?: boolean;
   planner?: ClientPlanner;
   campaign: ClientCampaign;
   results: ClientResults;
@@ -187,6 +189,7 @@ export const clients: ClientProfile[] = [
     logo: "/logos/go-guide.png",
     year: "2025",
     category: "Content Creation",
+    hidden: true,
     campaign: {
       research:
         "We audited how adventure brands sell experiences online: glossy highlight reels, vague “epic” language and little proof of what a guest actually does on day one. Competitor teardowns and guest-language interviews showed Go Guide’s edge was operational clarity and on-the-ground energy, not another cinematic montage. The market already knew the category. It needed a brand that felt like the trip itself.",
@@ -471,19 +474,26 @@ export const clients: ClientProfile[] = [
 
 export const featuredClientSlugs: readonly string[] = [
   "the-pine",
-  "go-guide",
   "kingo",
   "fly-the-earth",
 ];
 
+export function getPublishedClients() {
+  return clients.filter((client) => !client.hidden);
+}
+
 export function getClient(slug: string) {
-  return clients.find((client) => client.slug === slug);
+  const client = clients.find((item) => item.slug === slug);
+  if (!client || client.hidden) return undefined;
+  return client;
 }
 
 export function getRelatedClients(slug: string, limit = 3) {
   return featuredClientSlugs
     .filter((featuredSlug) => featuredSlug !== slug)
-    .map((featuredSlug) => clients.find((client) => client.slug === featuredSlug))
+    .map((featuredSlug) =>
+      getPublishedClients().find((client) => client.slug === featuredSlug),
+    )
     .filter((client): client is ClientProfile => Boolean(client))
     .slice(0, limit);
 }

@@ -3,11 +3,11 @@
 import { useMemo, useState } from "react";
 import { PageSearchBar } from "@/components/PageSearchBar";
 import { ProjectGridCard } from "@/components/ProjectGridCard";
-import { clients, featuredClientSlugs } from "@/lib/clients";
+import { featuredClientSlugs, getPublishedClients } from "@/lib/clients";
 import { projectsPageCopy, projectsPageItems } from "@/lib/sections";
 
 const listingItems = [
-  ...clients.map((client) => ({
+  ...getPublishedClients().map((client) => ({
     slug: client.slug,
     title: `${client.name}.`,
     displayName: client.name,
@@ -17,7 +17,8 @@ const listingItems = [
     logo: client.logo,
   })),
   ...projectsPageItems.filter(
-    (project) => !clients.some((client) => client.slug === project.slug),
+    (project) =>
+      !getPublishedClients().some((client) => client.slug === project.slug),
   ),
 ].sort((a, b) => {
   const aIndex = featuredClientSlugs.indexOf(a.slug);

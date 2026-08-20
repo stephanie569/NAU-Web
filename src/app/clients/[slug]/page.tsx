@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FadeIn } from "@/components/ui";
 import { ClientProfile } from "@/components/ClientProfile";
-import { clients, getClient } from "@/lib/clients";
+import { getPublishedClients, getClient } from "@/lib/clients";
 import { projects } from "@/lib/data";
 
 type Props = {
@@ -12,9 +12,14 @@ type Props = {
 };
 
 export async function generateStaticParams() {
-  const clientSlugs = clients.map((client) => ({ slug: client.slug }));
+  const clientSlugs = getPublishedClients().map((client) => ({
+    slug: client.slug,
+  }));
   const projectSlugs = projects
-    .filter((project) => !clients.some((client) => client.slug === project.slug))
+    .filter(
+      (project) =>
+        !getPublishedClients().some((client) => client.slug === project.slug),
+    )
     .map((project) => ({ slug: project.slug }));
 
   return [...clientSlugs, ...projectSlugs];

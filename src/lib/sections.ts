@@ -12,11 +12,6 @@ export const selectedWorkSection = {
       src: "/logos/the-pine.png",
     },
     {
-      id: "go-guide",
-      name: "Go Guide",
-      src: "/logos/go-guide.png",
-    },
-    {
       id: "yan-bibiyan",
       name: "Yan Bibiyan",
       src: "/logos/yan-bibiyan.png",
@@ -53,12 +48,6 @@ export const featuredProjects = [
     title: "The Pine.",
     year: "2025",
     image: "/images/clients/the-pine-progress.png",
-  },
-  {
-    slug: "go-guide",
-    title: "Go Guide.",
-    year: "2025",
-    image: "/images/clients/go-guide-cover.png",
   },
   {
     slug: "kingo",
@@ -268,9 +257,9 @@ export const testimonialsSectionCopy = {
     trustedBy: "Trusted by brands in movement, escape and adventure",
     avatars: [
       "/logos/testimonial-the-pine.png",
-      "/logos/testimonial-go-guide.png",
       "/logos/testimonial-fly-the-earth.png",
       "/logos/yan-bibiyan.png",
+      "/logos/kingo.png",
     ],
   },
   reviews: [
@@ -283,19 +272,19 @@ export const testimonialsSectionCopy = {
       layout: "profile-top-box",
     },
     {
-      author: "Go Guide",
-      role: "Adventure experiences",
-      image: "/logos/testimonial-go-guide.png",
-      quote:
-        "We came with the strategy. She built a content series that finally sounds like us in the field: pieces that work together, and stories people stay with.",
-      layout: "profile-bottom",
-    },
-    {
       author: "Fly the Earth",
       role: "Travel brand",
       image: "/logos/testimonial-fly-the-earth.png",
       quote:
         "Sharp market and competitor research that clarified where we stand, and who we need to win.",
+      layout: "profile-bottom",
+    },
+    {
+      author: "Kingo",
+      role: "Consumer product",
+      image: "/logos/kingo.png",
+      quote:
+        "Clear positioning and a campaign series that finally sounded like the product, not another feed of noise.",
       layout: "profile-top-box",
     },
   ],
