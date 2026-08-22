@@ -18,10 +18,16 @@ services:
       NODE_ENV: production
       PORT: "8080"
       HOSTNAME: 0.0.0.0
-      # Checkout reads this at request time. Empty is fine — the site
-      # still serves. Set STRIPE_SECRET_KEY in $REMOTE_DIR/.env on the Pi
-      # (deploy.sh does not overwrite that file).
+      # Checkout and contact mail read these at request time. Empty is
+      # fine — the site still serves. Set secrets in $REMOTE_DIR/.env on
+      # the Pi (deploy does not overwrite that file).
       STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY:-}
+      SMTP_HOST: ${SMTP_HOST:-smtp.gmail.com}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USER: ${SMTP_USER:-info@naustudio.org}
+      SMTP_PASS: ${SMTP_PASS:-}
+      CONTACT_FROM: ${CONTACT_FROM:-info@naustudio.org}
+      CONTACT_TO: ${CONTACT_TO:-info@naustudio.org}
     healthcheck:
       test:
         [

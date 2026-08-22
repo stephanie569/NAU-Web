@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { FormEvent, useState } from "react";
 import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
 import { heroVideo } from "@/lib/hero";
@@ -13,6 +14,9 @@ export function ContactSection() {
     fields,
     placeholders,
     submit,
+    sending,
+    success,
+    error: errorCopy,
     legalLead,
     termsLabel,
     privacyLabel,
@@ -22,6 +26,44 @@ export function ContactSection() {
     prepItems,
     replyNote,
   } = contactSectionCopy;
+
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(
+    "idle",
+  );
+  const [error, setError] = useState<string | null>(null);
+
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    setStatus("sending");
+    setError(null);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: formData.get("name"),
+          email: formData.get("email"),
+          message: formData.get("message"),
+          website: formData.get("website"),
+        }),
+      });
+
+      const data = (await response.json()) as { ok?: boolean; error?: string };
+      if (!response.ok) {
+        throw new Error(data.error || errorCopy);
+      }
+
+      form.reset();
+      setStatus("sent");
+    } catch (err) {
+      setStatus("error");
+      setError(err instanceof Error ? err.message : errorCopy);
+    }
+  }
 
   return (
     <section
@@ -88,9 +130,20 @@ export function ContactSection() {
           </h2>
 
           <form
-            className="mt-7 flex flex-1 flex-col gap-5"
-            onSubmit={(event) => event.preventDefault()}
+            className="relative mt-7 flex flex-1 flex-col gap-5"
+            onSubmit={handleSubmit}
           >
+            <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+              <label>
+                Website
+                <input
+                  type="text"
+                  name="website"
+                  tabIndex={-1}
+                  autoComplete="off"
+                />
+              </label>
+            </div>
             <label className="block">
               <span className="mb-2 block text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
                 {fields.name}
@@ -130,9 +183,25 @@ export function ContactSection() {
             </label>
 
             <div className="mt-auto pt-1">
-              <NauButton type="submit" fullWidth>
-                {submit}
+              <NauButton
+                type="submit"
+                fullWidth
+                disabled={status === "sending"}
+                className={status === "sending" ? "opacity-60" : undefined}
+              >
+                {status === "sending" ? sending : submit}
               </NauButton>
+
+              {status === "sent" ? (
+                <p className="mt-3 text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
+                  {success}
+                </p>
+              ) : null}
+              {status === "error" && error ? (
+                <p className="mt-3 text-[13px] font-medium tracking-[-0.04em] text-[#b42318]">
+                  {error}
+                </p>
+              ) : null}
 
               <p className="mt-3 text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
                 {legalLead}{" "}

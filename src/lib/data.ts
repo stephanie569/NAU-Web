@@ -4,7 +4,7 @@ export const siteConfig = {
   founder: "Stefani Dimitrova",
   description:
     "nau studio by Stefani Dimitrova. Organic go-to-market and campaign content series for product brands growing steadily.",
-  email: "info@thetimeisnau.com",
+  email: "info@naustudio.org",
   phone: "+359 888 32 9667",
   year: "2023",
   founded: "2023",

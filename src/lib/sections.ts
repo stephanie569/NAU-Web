@@ -786,6 +786,9 @@ export const contactSectionCopy = {
       "Product, who it's for, where growth feels stuck, and a link if you have one.",
   },
   submit: "Send message",
+  sending: "Sending…",
+  success: "Message sent. I'll reply within 2 business days.",
+  error: "Couldn't send just now. Email info@naustudio.org instead.",
   legalLead: "By submitting, you agree to my",
   termsLabel: "Terms",
   privacyLabel: "Privacy Policy",
@@ -957,7 +960,7 @@ export const studioPageCopy = {
     title: "Custom collaborations.",
     lead:
       "Have a product launch, repositioning or Europe content day that does not fit a template? Tell me about the brand and where growth feels stuck. I reply with a clear next step: strategy sprint, full launch or a campaign content series.",
-    email: "info@thetimeisnau.com",
+    email: "info@naustudio.org",
     phone: "+359 888 32 9667",
     locationNote: "Working remotely across Europe · UGC or on-location shoots in Europe",
     placeholders: {
