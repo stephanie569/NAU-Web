@@ -159,7 +159,7 @@ export function TeamSection() {
         </div>
 
         <div className="grid w-full grid-cols-1 gap-8 rounded-[24px] bg-white p-5 md:gap-10 md:p-8 lg:grid-cols-2 lg:items-stretch lg:gap-10 lg:p-10">
-          <div className="flex min-w-0 flex-col justify-center py-2 lg:py-8">
+          <div className="order-2 flex min-w-0 flex-col justify-center py-2 lg:order-1 lg:py-8">
             <div className="max-w-[36rem]">
               <p className="text-[clamp(1.55rem,3vw,2rem)] leading-[1.15] font-semibold tracking-[-0.05em] text-pretty text-[#0a0a0a]">
                 {titleLead}
@@ -210,7 +210,7 @@ export function TeamSection() {
             </div>
           </div>
 
-          <div className="relative mx-auto aspect-[3/4] w-full max-w-[440px] overflow-hidden rounded-[18px] bg-[#f0f0f0] lg:mx-0 lg:aspect-auto lg:h-full lg:min-h-[36rem] lg:max-w-none xl:min-h-[40rem]">
+          <div className="relative order-1 mx-auto aspect-[3/4] w-full max-w-[440px] overflow-hidden rounded-[18px] bg-[#f0f0f0] lg:order-2 lg:mx-0 lg:aspect-auto lg:h-full lg:min-h-[36rem] lg:max-w-none xl:min-h-[40rem]">
             <Image
               src={imageSrc}
               alt={imageAlt}

@@ -101,7 +101,7 @@ export function HeroCard() {
           <ReadabilityGradient />
         </div>
 
-        <div className="relative z-10 flex h-full flex-col justify-between px-5 py-8 sm:px-6 sm:py-10 md:px-9 md:py-14 lg:py-[72px]">
+        <div className="relative z-10 flex h-full flex-col justify-between px-5 py-6 sm:px-6 sm:py-10 md:px-9 md:py-14 lg:py-[72px]">
           {/* Top: brand + services */}
           <div className="flex items-center justify-between gap-8">
             <motion.div
@@ -151,7 +151,7 @@ export function HeroCard() {
           </motion.div>
 
           {/* Bottom: tagline + profile card */}
-          <div className="grid grid-cols-1 items-end gap-8 lg:grid-cols-[1fr_auto] lg:gap-6">
+          <div className="grid grid-cols-1 items-end gap-5 sm:gap-8 lg:grid-cols-[1fr_auto] lg:gap-6">
             <motion.div
               initial={{ opacity: 0, y: 28 }}
               animate={{ opacity: 1, y: 0 }}
@@ -191,7 +191,7 @@ export function HeroCard() {
 export function Hero() {
   return (
     <section className="bg-white">
-      <div className="h-[calc(100vh-61px)] px-1">
+      <div className="h-[calc(100dvh-61px-1.75rem)] px-1 sm:h-[calc(100vh-61px)]">
         <HeroCard />
       </div>
     </section>
