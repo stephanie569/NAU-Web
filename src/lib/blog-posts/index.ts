@@ -72,7 +72,10 @@ import post_next_campaign_begin_conversation_not_camera from "./next-campaign-be
 import post_good_marketing_leaves_footprints_before_impressions from "./good-marketing-leaves-footprints-before-impressions";
 import post_people_remember_how_brand_made_them_feel from "./people-remember-how-brand-made-them-feel";
 
+import { qrStickerBlogPosts } from "./qr-stickers";
+
 export const allBlogPosts: BlogPost[] = [
+  ...qrStickerBlogPosts,
   post_best_products_solve_problem_before_sell_solution,
   post_most_product_launches_dont_fail_because_of_marketing,
   post_first_customer_isnt_your_market_theyre_your_teacher,

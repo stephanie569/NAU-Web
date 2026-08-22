@@ -50,16 +50,16 @@ export const featuredProjects = [
     image: "/images/clients/the-pine-progress.png",
   },
   {
-    slug: "kingo",
-    title: "Kingo.",
-    year: "2024",
-    image: "/images/clients/kingo-cover-v2.png",
-  },
-  {
     slug: "fly-the-earth",
     title: "Fly the Earth.",
     year: "2024",
     image: "/images/clients/fly-the-earth-wing.jpg",
+  },
+  {
+    slug: "kingo",
+    title: "Kingo.",
+    year: "2024",
+    image: "/images/clients/kingo-cover-v2.png",
   },
 ];
 
@@ -73,7 +73,7 @@ export const projectsSectionCopy = {
 };
 
 export const pageBottomCtaCopy = {
-  ctaLead: "Let the right audience find you, with 10 videos only.",
+  ctaLead: "Let the right audience find you through one connected campaign.",
   ctaHighlight: "That's the progress we build together.",
   ctaButton: "Work with me",
   ctaHref: "/contact",
@@ -210,7 +210,7 @@ export const servicesItems = [
     number: "002",
     title: "Content Creation",
     summary:
-      "You receive an early brief for the campaign series. Then I deliver 10 series or promo videos, either as UGC I create or filmed with you and your team anywhere in Europe, made to hold attention longer.",
+      "You receive an early brief first. Then I deliver a full set of materials as UGC or on-location shoots in Europe, made to hold attention longer.",
     thumbnail: "/images/service-content-creation-phone.png",
     categories: [
       "Campaigns",
@@ -223,7 +223,7 @@ export const servicesItems = [
     number: "003",
     title: "Marketing Strategy",
     summary:
-      "You receive a plan you can put into practice, including messaging, hooks and channel choices, plus a campaign story that compounds across the series. A launch and growth sequence, with the videos shipping last.",
+      "You receive a plan you can put into practice, including messaging, hooks and channel choices, plus a story that compounds across the series. A launch and growth sequence, with the materials shipping last.",
     thumbnail: "/images/service-marketing-strategy.png",
     categories: [
       "Growth",
@@ -306,8 +306,10 @@ export const pricingSectionCopy = {
     originalPrice: "€1,600",
     discountLabel: "10% off",
     savingsLabel: "Save €160",
-    forWhom:
-      "Let the right audience find you, with 10 videos only, plus research and positioning for a 360° strategy.",
+    forWhom: [
+      "Let the right audience find you through one connected campaign,",
+      "plus research and positioning for a 360° strategy.",
+    ],
     delivery: "4-6 weeks",
     collaboration: [
       "Free discovery call before you commit",
@@ -321,20 +323,20 @@ export const pricingSectionCopy = {
       "Competitor teardown (5-8 brands)",
       "Personas with jobs-to-be-done",
       "Positioning, messaging and tone of voice",
-      "60-day plan for the 10 videos + campaign angles",
+      "60-day plan for the series + angles",
       "Creative direction for the series",
-      "10 series or promo videos I make for you: UGC I create, or I come shoot you and your team anywhere in Europe",
-      "Ideas for supporting content so the videos sit in a 360° strategy. Executing that with me is priced separately",
+      "A full campaign series I make for you: UGC or on-location shoots in Europe",
+      "Ideas for supporting content so the series sits in a 360° strategy. Executing that with me is priced separately",
     ],
     highlights: [
-      "10 series or promo videos I\u00A0make",
+      "UGC or on-location shoots in\u00A0Europe",
       "Market, competitors and\u00A0positioning",
-      "A 60-day plan for the\u00A010\u00A0videos",
+      "60-day plan for the\u00A0series",
     ],
     outcome:
-      "Let the right audience find you, with 10 videos only. I create them as UGC, or I shoot you and your team anywhere in Europe. Supporting-content ideas for a 360° strategy are included. Executing those with me is extra.",
+      "Let the right audience find you through one connected campaign. Materials as UGC or on-location shoots in Europe. Supporting-content ideas for a 360° strategy are included. Executing those with me is extra.",
     outcomeMobile:
-      "Let the right audience find you, with 10 videos only. UGC I create, or I shoot you anywhere in Europe. Supporting-content ideas included. Execution with me is extra.",
+      "Let the right audience find you through one connected campaign. UGC or on-location shoots in Europe. Supporting-content ideas included. Execution with me is extra.",
     image: "/images/offer-camera-3d-peek.png",
     imageAlt: "Hand holding a Sony Alpha camera from behind the offer card, content creation for product brands",
   },
@@ -369,7 +371,7 @@ export const storeSectionCopy = {
   packageOfferHeadline:
     "Walk away knowing your buyer, how you’ll grow, and what to film.",
   packageOfferBody:
-    "Buyer locked, GTM you can run, and a 10-video series that carries it. One coherent plan instead of three loose downloads.",
+    "Buyer locked, GTM you can run, and a campaign series that carries it. One coherent plan instead of three loose downloads.",
   packageOfferLabel: "Take the full set",
   packageOfferNote: "Usually $97",
   packageOfferSave: "Save $18",
@@ -385,12 +387,12 @@ export const storeSectionCopy = {
     {
       id: "product-positioning-workbook",
       title: "The 10-Video Series",
-      price: "$29",
+      price: "$49",
       category: "Content Creation",
       blurb: "Turn your GTM into a campaign people follow.",
       overview: {
         eyebrow: "Digital guide",
-        headline: "Turn your GTM into 10 videos that work as one campaign.",
+        headline: "Turn your GTM into a campaign that works as one series.",
         lead:
           "A practical guide for building the series from the strategy you already have. You leave with the videos, order and story that carry the GTM, instead of a pile of disconnected posts.",
         highlights: [
@@ -406,12 +408,12 @@ export const storeSectionCopy = {
         ],
         bestFor:
           "Founders and marketers who already have a GTM, and need the series that makes it land.",
-        checkoutLabel: "Checkout · $29",
+        checkoutLabel: "Checkout · $49",
         preview: [
           {
             number: "01",
             title: "The series map",
-            note: "Ten slots. One story. Nothing that does not earn its place.",
+            note: "Each piece. One story. Nothing that does not earn its place.",
           },
           {
             number: "02",
@@ -444,7 +446,7 @@ export const storeSectionCopy = {
     {
       id: "go-to-market-playbook",
       title: "The GTM You Can Run",
-      price: "$49",
+      price: "$29",
       category: "Marketing Strategy",
       blurb: "Translate the market into channels, story and sequence.",
       overview: {
@@ -465,7 +467,7 @@ export const storeSectionCopy = {
         ],
         bestFor:
           "Teams who understand their market and need a go-to-market they can put into practice.",
-        checkoutLabel: "Checkout · $49",
+        checkoutLabel: "Checkout · $29",
         preview: [
           {
             number: "01",
@@ -572,11 +574,11 @@ export const storeSectionCopy = {
         headline:
           "Walk away knowing your buyer, how you’ll grow, and what to film.",
         lead:
-          "With all three guides you leave with a named buyer, a GTM you can actually run, and a 10-video series that carries that story. Same framing I use with clients, packaged so the pieces hand off instead of sitting alone.",
+          "With all three guides you leave with a named buyer, a GTM you can actually run, and a campaign series that carries that story. Same framing I use with clients, packaged so the pieces hand off instead of sitting alone.",
         highlights: [
           "A clear buyer and language before you film anything",
           "A GTM with channels, story and sequence you can run",
-          "A 10-video series that carries that GTM as one campaign",
+          "A campaign series that carries that GTM as one story",
           "The feeling of a finished plan, not three loose downloads",
         ],
         includes: [
@@ -601,7 +603,7 @@ export const storeSectionCopy = {
           {
             number: "03",
             title: "The 10-Video Series",
-            note: "Turn that GTM into ten videos that work as one campaign.",
+            note: "Turn that GTM into a series that works as one campaign.",
           },
           {
             number: "04",
@@ -646,9 +648,9 @@ export const teamSectionCopy = {
   title: "Now it's time for your audience to find\u00A0you.",
   company: "nau studio",
   lead:
-    "I'm Stefani. I help founders bring strong products to the people who should buy them, with demand that lasts beyond a single campaign.",
+    "And that is how you found me. I help founders bring strong products to the people who should buy them, with demand that lasts beyond a single campaign.",
   field:
-    "We start by defining who the product is for, why it wins, and what to say. Then I produce those ten videos as UGC I create, or filmed with you and your team anywhere in\u00A0Europe.",
+    "We start by defining who the product is for, why it wins, and what to say. Then I produce a full set of materials as UGC or on-location shoots in\u00A0Europe.",
   proof:
     "Not another stream of random posts. Clear, memorable videos that people understand in seconds and share with buyers who already need what you\u00A0built.",
   closeLead: "You bring the\u00A0product.",
@@ -701,17 +703,12 @@ export const faqItems = [
   {
     question: "How are you different from creators?",
     answer:
-      "Most creators start at the post. I start earlier and finish later. Research, positioning, launch strategy and a connected content series stay one 360 cycle, so the story matches the product and the growth plan holds.",
+      "Most creators start at the post. I start earlier and finish later. Research, positioning, launch strategy and a connected content series stay in one 360° cycle, so the story matches the product and the growth plan holds.",
   },
   {
-    question: "Is this UGC or social media management?",
+    question: "What's included beyond the campaign materials?",
     answer:
-      "Neither day-to-day social management nor random UGC. I make exactly 10 series or promo videos around one campaign, either UGC I create, or I come shoot you and your team anywhere in Europe. Research and positioning come first.",
-  },
-  {
-    question: "What’s included beyond the 10 videos?",
-    answer:
-      "You get ideas for supporting content so the series sits in a 360° strategy: posts, angles and follow-ups that complement the videos. If you want me to execute that supporting layer with you, that’s priced separately.",
+      "You get ideas for supporting content so the series sits in a 360° strategy: posts, angles and follow-ups that complement the campaign. If you want me to execute that supporting layer with you, that's priced separately.",
   },
   {
     question: "Can you help if we already launched?",
@@ -735,6 +732,17 @@ export const blogSectionCopy = {
   brand: "nau",
   featuredTitle:
     "Great products still fail before PMF. Here's why.",
+  stickersPromo: {
+    eyebrow: "QR stickers",
+    body: "NAU stickers are out across Europe. Each one asks a question, and the essays live here.",
+    cta: "Sticker essays",
+    href: "/essays#qr-stickers",
+    previewImages: [
+      "/images/qr-stickers/solving-right-problem.jpg",
+      "/images/qr-stickers/not-first-choice.jpg",
+      "/images/qr-stickers/where-users-getting-stuck.jpg",
+    ],
+  },
 };
 
 export const blogPreviewPosts = [
@@ -844,7 +852,7 @@ export const studioPageCopy = {
   },
   story: {
     label: "Story",
-    title: "The story of me.",
+    title: "Why nau exists.",
     role: "Founder · Organic GTM & Product Storyteller",
     photo: {
       src: "/images/stefani-studio-portrait.jpg",
@@ -853,8 +861,8 @@ export const studioPageCopy = {
     },
     paragraphs: [
       "I started nau because too many product brands were hiring for posts before they had a story worth posting. Outdoor, travel, hospitality and consumer goods teams were shipping real products, then asking a creator to invent the narrative on the day of the shoot.",
-      "My path sits between strategy and making. I research markets, sharpen who the product is for, build organic launch plans, then make the videos myself: 10 series or promo cuts around one campaign, either as UGC I create or on a Europe shoot with you and your team.",
-      "You keep the expertise. I help turn it into clear positioning, a go-to-market you can run, and complementary videos that keep attention longer instead of renting a spike.",
+      "My path sits between strategy and making. I research markets, sharpen who the product is for, build organic launch plans, then produce a campaign's worth of materials around one story as UGC or on-location shoots in Europe.",
+      "You keep the expertise. I help turn it into clear positioning, a go-to-market you can run, and complementary content that keeps attention longer instead of renting a spike.",
     ],
     facts: [
       { label: "Based", value: "Bulgaria" },
@@ -886,7 +894,7 @@ export const studioPageCopy = {
       {
         number: "003",
         title: "Content",
-        text: "10 series or promo videos I make (UGC I create, or I come shoot you and your team anywhere in Europe), wrapped around one campaign from steps one and two.",
+        text: "A campaign series I make (UGC or on-location shoots in Europe), wrapped around one story from steps one and two.",
       },
     ],
   },
@@ -922,7 +930,7 @@ export const studioPageCopy = {
         number: "003",
         title: "Brief",
         focus: "Content",
-        text: "Second after research: lock the 10-video series early. UGC I create, or a Europe shoot with you and your team.",
+        text: "Second after research: lock the campaign early. UGC or on-location shoots in Europe.",
       },
       {
         number: "004",
@@ -934,7 +942,7 @@ export const studioPageCopy = {
         number: "005",
         title: "Create",
         focus: "Delivery",
-        text: "You receive the videos last: 10 series or promo cuts that complement each other and hold attention longer.",
+        text: "You receive the campaign materials last: pieces that complement each other and hold attention longer.",
       },
       {
         number: "006",
@@ -951,7 +959,7 @@ export const studioPageCopy = {
       "Have a product launch, repositioning or Europe content day that does not fit a template? Tell me about the brand and where growth feels stuck. I reply with a clear next step: strategy sprint, full launch or a campaign content series.",
     email: "info@thetimeisnau.com",
     phone: "+359 888 32 9667",
-    locationNote: "Working remotely across Europe · On-location shoots anywhere in Europe",
+    locationNote: "Working remotely across Europe · UGC or on-location shoots in Europe",
     placeholders: {
       name: "Your name *",
       email: "Work email *",

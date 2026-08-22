@@ -46,8 +46,8 @@ export const services = [
     title: "Content Creation",
     steps: [
       "Second after research: lock the campaign series early.",
-      "Strategy shapes the brief. Then I make the videos.",
-      "Delivered last: 10 series or promo videos.",
+      "Strategy shapes the brief. Then I produce the campaign materials.",
+      "Delivered last: a campaign's worth of materials.",
     ],
   },
   {
@@ -56,7 +56,7 @@ export const services = [
     steps: [
       "Turn research into a runnable plan.",
       "Choose channels and stories that compound.",
-      "Sequence the launch. Then the videos ship last.",
+      "Sequence the launch. Then the campaign materials ship last.",
     ],
   },
   {
@@ -169,8 +169,6 @@ export const testimonials = [
   },
 ];
 
-export { blogPosts } from "@/lib/blog";
-
 export const faqs = [
   {
     question: "Who do you work with?",
@@ -186,11 +184,6 @@ export const faqs = [
     question: "How are you different from creators?",
     answer:
       "Most creators start at the post. I start earlier and finish later. Research, positioning, launch strategy and a connected content series stay one 360 cycle, so the story matches the product and the growth plan holds.",
-  },
-  {
-    question: "Is this UGC or social media management?",
-    answer:
-      "No. Content is the last step: a series and promo videos wrapped around one campaign, grounded in research and positioning. Not random UGC or day-to-day social management.",
   },
   {
     question: "What's included in Marketing Strategy work?",

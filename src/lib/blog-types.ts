@@ -23,6 +23,11 @@ export type BlogPost = {
   content: BlogBlock[];
 };
 
+export type BlogPostListing = Pick<
+  BlogPost,
+  "slug" | "title" | "excerpt" | "date" | "category" | "image"
+>;
+
 /** Internal journal paths for cross-linking. */
 export const blogLinks = {
   pmfFail:

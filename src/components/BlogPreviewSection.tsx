@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
+import { QrStickersPromo } from "@/components/QrStickersPromo";
 import {
   blogFeaturedPost,
   blogPreviewPosts,
@@ -124,6 +125,8 @@ export function BlogPreviewSection() {
             {cta}
           </NauButton>
         </div>
+
+        <QrStickersPromo />
 
         <div className="grid grid-cols-1 items-stretch gap-1 md:grid-cols-2 lg:grid-cols-4">
           {blogPreviewPosts.map((post) => (

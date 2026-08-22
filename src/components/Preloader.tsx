@@ -1,14 +1,22 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { NauLogoMark } from "@/components/NauLogoMark";
 
 export function Preloader() {
-  const [visible, setVisible] = useState(true);
+  const pathname = usePathname();
+  const isHome = pathname === "/";
+  const [visible, setVisible] = useState(isHome);
   const [fadeOut, setFadeOut] = useState(false);
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
+    if (!isHome) {
+      setVisible(false);
+      return;
+    }
+
     let raf = 0;
     let finished = false;
     const start = performance.now();
@@ -56,7 +64,7 @@ export function Preloader() {
       window.clearTimeout(failsafe);
       window.removeEventListener("load", onReady);
     };
-  }, []);
+  }, [isHome]);
 
   if (!visible) return null;
 

@@ -1,10 +1,23 @@
-import type { BlogBlock, BlogPost } from "@/lib/blog-types";
+import type { BlogBlock, BlogPost, BlogPostListing } from "@/lib/blog-types";
 import { allBlogPosts } from "@/lib/blog-posts";
 
-export type { BlogBlock, BlogPost } from "@/lib/blog-types";
+export type { BlogBlock, BlogPost, BlogPostListing } from "@/lib/blog-types";
 export { blogLinks } from "@/lib/blog-types";
 
 export const blogPosts: BlogPost[] = allBlogPosts;
+
+export function getBlogListingPosts(): BlogPostListing[] {
+  return blogPosts.map(
+    ({ slug, title, excerpt, date, category, image }) => ({
+      slug,
+      title,
+      excerpt,
+      date,
+      category,
+      image,
+    }),
+  );
+}
 
 export function getBlogPost(slug: string) {
   return blogPosts.find((post) => post.slug === slug);

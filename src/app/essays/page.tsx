@@ -1,8 +1,9 @@
 import { PageHero } from "@/components/ui";
 import { JournalListing } from "@/components/JournalListing";
-import { blogPosts } from "@/lib/blog";
+import { getBlogListingPosts } from "@/lib/blog";
 
 export default function EssaysPage() {
+  const listingPosts = getBlogListingPosts();
   return (
     <>
       <PageHero
@@ -11,9 +12,9 @@ export default function EssaysPage() {
         wide
       />
 
-      <section className="bg-[#f5f5f5] pb-20 md:pb-28">
+      <section className="bg-[#f5f5f5] pt-8 pb-20 md:pt-12 md:pb-28">
         <div className="mx-auto w-full max-w-[1520px] px-6 md:px-9">
-          <JournalListing posts={blogPosts} />
+          <JournalListing posts={listingPosts} />
         </div>
       </section>
     </>

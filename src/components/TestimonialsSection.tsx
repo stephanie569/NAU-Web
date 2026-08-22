@@ -187,6 +187,14 @@ function ReviewCard({
 export function TestimonialsSection() {
   const { title, year, reviews } = testimonialsSectionCopy;
 
+  const middleAuthor = "Fly the Earth";
+  const orderedReviews = (() => {
+    const middle = reviews.find((review) => review.author === middleAuthor);
+    const others = reviews.filter((review) => review.author !== middleAuthor);
+    if (!middle || others.length < 2) return reviews;
+    return [others[0], middle, others[1]];
+  })();
+
   return (
     <section
       id="experiences"
@@ -204,7 +212,7 @@ export function TestimonialsSection() {
 
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-4">
           <SummaryCard />
-          {reviews.map((review) => (
+          {orderedReviews.map((review) => (
             <ReviewCard key={review.author} review={review} />
           ))}
         </div>

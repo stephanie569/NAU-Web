@@ -157,7 +157,15 @@ export function PricingSection({
               {title}
             </h2>
             <p className="mx-auto mt-1.5 max-w-[34rem] text-[13px] leading-snug font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
-              {offer.forWhom}
+              {Array.isArray(offer.forWhom) ? (
+                <>
+                  {offer.forWhom[0]}
+                  <br />
+                  {offer.forWhom[1]}
+                </>
+              ) : (
+                offer.forWhom
+              )}
             </p>
           </div>
 

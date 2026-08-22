@@ -90,7 +90,7 @@ export const clients: ClientProfile[] = [
     name: "The Pine",
     headline: "Team retreats in Europe, told as a series people book.",
     role: "Team retreats & experiences",
-    bio: "The Pine is the all-in-one platform for company getaways across Europe: stays, curated experiences and on-site facilitation in one flow. I helped the brand get clear on who books retreats and why, then built a 10-video campaign series so HR and team leads could find them, trust the offer and request a quote without paid ads.",
+    bio: "The Pine is the all-in-one platform for company getaways across Europe: stays, curated experiences and on-site facilitation in one flow. I helped the brand get clear on who books retreats and why, then built a campaign content series so HR and team leads could find them, trust the offer and request a quote without paid ads.",
     photo: "/images/clients/the-pine-progress.png",
     photoAlt: "The Pine dashboard showing your offsite progress: stay booked, activity confirmed, host assigned",
     logo: "/logos/the-pine.png",
@@ -98,7 +98,7 @@ export const clients: ClientProfile[] = [
     category: "Content Creation",
     planner: {
       title: "Complete your booking",
-      summary: "12 guests · Coastal Greece · 4–7 June",
+      summary: "12 guests · Coastal Greece · 4-7 June",
       categories: [
         { label: "Greece", active: true },
         { label: "Spain" },
@@ -143,7 +143,7 @@ export const clients: ClientProfile[] = [
       goals: [
         "Follow one team getaway from “we need an offsite” to quote",
         "Cover stay, experience, host, destinations, logistics, then proof",
-        "Shoot handheld on location with real teams — never brochure polish",
+        "Shoot handheld on location with real teams, never with brochure polish",
         "Open on the planning headache so scrollers stop before the offer",
       ],
     },
@@ -183,7 +183,7 @@ export const clients: ClientProfile[] = [
     name: "Go Guide",
     headline: "Adventure experiences, with a story that sounds like the field.",
     role: "Adventure experiences",
-    bio: "Go Guide runs adventure experiences for people who want the trip, not the brochure. They already had a strategy. I built a 10-video content series around one campaign so every piece sounds like them in the field, works with the next cut, and keeps people watching instead of scrolling past another random post.",
+    bio: "Go Guide runs adventure experiences for people who want the trip, not the brochure. They already had a strategy. I built a campaign content series around one story so every piece sounds like them in the field, works with the next cut, and keeps people watching instead of scrolling past another random post.",
     photo: "/images/clients/go-guide-cover.png",
     photoAlt: "Go Guide magazine cover: Show your love and support local business",
     logo: "/logos/go-guide.png",
@@ -195,7 +195,7 @@ export const clients: ClientProfile[] = [
         "We audited how adventure brands sell experiences online: glossy highlight reels, vague “epic” language and little proof of what a guest actually does on day one. Competitor teardowns and guest-language interviews showed Go Guide’s edge was operational clarity and on-the-ground energy, not another cinematic montage. The market already knew the category. It needed a brand that felt like the trip itself.",
       goals: [
         "Translate the existing strategy into one campaign story guests can repeat",
-        "Ship 10 complementary videos that sound like Go Guide in the field",
+        "Ship complementary campaign content that sounds like Go Guide in the field",
         "Prioritise Instagram and TikTok for discovery, with YouTube for longer proof",
         "Raise organic enquiries without buying a spike of attention",
       ],
@@ -294,7 +294,7 @@ export const clients: ClientProfile[] = [
         "Define who the brand is for and who it is not",
         "Write a positioning line and messaging pillars buyers can repeat",
         "Build a 60-day organic go-to-market plan the content series can carry",
-        "Brief 10 campaign videos that match the research, not a random moodboard",
+        "Brief campaign content that matches the research, not a random moodboard",
       ],
     },
     results: {
@@ -378,7 +378,7 @@ export const clients: ClientProfile[] = [
     name: "Kingo",
     headline: "A product story the right buyers can find.",
     role: "Consumer product",
-    bio: "Kingo had a product worth buying and a feed that still sounded like everyone else. I clarified who it is for, set organic go-to-market goals and made a 10-video campaign series so the right audience could find the product, remember it and share it for the right reason.",
+    bio: "Kingo had a product worth buying and a feed that still sounded like everyone else. I clarified who it is for, set organic go-to-market goals and made a campaign content series so the right audience could find the product, remember it and share it for the right reason.",
     photo: "/images/clients/kingo-cover-v2.png",
     photoAlt: "Kingo sales AI app on a phone, with floating opportunity and assistant cards",
     logo: "/logos/kingo.png",
@@ -390,7 +390,7 @@ export const clients: ClientProfile[] = [
       goals: [
         "Lock ICP and the one job the product wins on",
         "Build messaging and hooks that carry a full campaign series",
-        "Ship 10 videos across Instagram, TikTok, YouTube and LinkedIn",
+        "Ship campaign content across Instagram, TikTok, YouTube and LinkedIn",
         "Grow organic discovery without relying on paid boosts",
       ],
     },

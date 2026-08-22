@@ -2,8 +2,9 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import type { BlogPost } from "@/lib/blog-types";
+import { useEffect, useMemo, useState } from "react";
+import type { BlogPostListing } from "@/lib/blog-types";
+import { QR_STICKER_CATEGORY } from "@/lib/qr-stickers";
 
 type SortOption = "newest" | "oldest" | "a-z";
 
@@ -17,6 +18,7 @@ const TOPIC_FILTERS = [
   "Content",
   "Go-to-Market",
   "Research & Positioning",
+  "QR Stickers",
   "All",
 ] as const;
 
@@ -71,15 +73,27 @@ function SearchIcon() {
   );
 }
 
-export function JournalListing({ posts }: { posts: BlogPost[] }) {
+export function JournalListing({ posts }: { posts: BlogPostListing[] }) {
   const categories = TOPIC_FILTERS;
 
-  const [category, setCategory] = useState<string>("Content");
+  const [category, setCategory] = useState<string>("QR Stickers");
   const [sort, setSort] = useState<SortOption>("newest");
   const [query, setQuery] = useState("");
 
+  useEffect(() => {
+    function syncCategoryFromHash() {
+      if (window.location.hash === "#qr-stickers") {
+        setCategory("QR Stickers");
+      }
+    }
+
+    syncCategoryFromHash();
+    window.addEventListener("hashchange", syncCategoryFromHash);
+    return () => window.removeEventListener("hashchange", syncCategoryFromHash);
+  }, []);
+
   const latestSlugByCategory = useMemo(() => {
-    const latest = new Map<string, BlogPost>();
+    const latest = new Map<string, BlogPostListing>();
 
     for (const post of posts) {
       const current = latest.get(post.category);
@@ -105,7 +119,12 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
     const q = query.trim().toLowerCase();
 
     const next = posts.filter((post) => {
-      const matchesCategory = category === "All" || post.category === category;
+      const matchesCategory =
+        category === "All"
+          ? true
+          : category === "QR Stickers"
+            ? post.category === QR_STICKER_CATEGORY
+            : post.category === category;
       const matchesQuery =
         q.length === 0 ||
         post.title.toLowerCase().includes(q) ||
@@ -129,11 +148,11 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
   }, [posts, category, sort, query, banneredSlugs]);
 
   return (
-    <div>
-      <div className="mb-8 flex flex-col gap-5 border-b border-[#0a0a0a]/10 pb-6 md:mb-10 md:gap-6 md:pb-8">
-        <label className="relative block w-full md:max-w-xl">
+    <div id="journal-listing">
+      <div className="mb-8 flex flex-col gap-6 border-b border-[#0a0a0a]/08 pb-7 md:mb-10 md:gap-7 md:pb-9">
+        <label className="relative block w-full max-w-2xl">
           <span className="sr-only">Search essays</span>
-          <span className="pointer-events-none absolute top-1/2 left-3.5 z-[1] -translate-y-1/2 md:left-4">
+          <span className="pointer-events-none absolute top-1/2 left-4 z-[1] -translate-y-1/2 md:left-5">
             <SearchIcon />
           </span>
           <input
@@ -142,7 +161,7 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
             onChange={(event) => setQuery(event.target.value)}
             placeholder="Search titles and topics…"
             enterKeyHint="search"
-            className="w-full appearance-none rounded-[12px] border border-[#0a0a0a]/12 bg-white py-3 pr-4 pl-11 text-[16px] font-medium tracking-[-0.04em] text-[#0a0a0a] outline-none placeholder:text-[#0a0a0a]/40 focus:border-[#0a0a0a]/30 md:py-3 md:pl-11 md:text-[15px] [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none [&::-webkit-search-results-button]:appearance-none [&::-webkit-search-results-decoration]:appearance-none"
+            className="w-full appearance-none rounded-2xl border border-[#0a0a0a]/[0.08] bg-[#0a0a0a]/[0.04] py-3.5 pr-5 pl-12 text-[16px] font-medium tracking-[-0.04em] text-[#0a0a0a] shadow-[inset_0_1px_0_rgba(255,255,255,0.6)] outline-none transition-[border-color,background-color,box-shadow] placeholder:text-[#0a0a0a]/38 hover:border-[#0a0a0a]/14 hover:bg-[#0a0a0a]/[0.055] focus:border-[#0a0a0a]/22 focus:bg-white focus:shadow-[0_0_0_3px_rgba(10,10,10,0.06)] md:py-4 md:pl-12 md:text-[15px] [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none [&::-webkit-search-results-button]:appearance-none [&::-webkit-search-results-decoration]:appearance-none"
           />
         </label>
 
@@ -265,7 +284,9 @@ export function JournalListing({ posts }: { posts: BlogPost[] }) {
 
       {filtered.length === 0 && (
         <p className="py-16 text-center text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]/60">
-          No essays match that filter. Try another topic, or clear the search.
+          {category === "QR Stickers"
+            ? "No QR sticker essays match that search yet."
+            : "No essays match that filter. Try another topic, or clear the search."}
         </p>
       )}
     </div>
