@@ -121,13 +121,13 @@ export function ProjectsSection() {
     >
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="relative mb-6 lg:mb-7">
-          <div className="text-center">
+          <div className="text-right">
             <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
               Clients.
             </h2>
           </div>
 
-          <div className="absolute top-1/2 right-0 hidden -translate-y-1/2 items-center gap-2 lg:flex">
+          <div className="absolute top-1/2 left-0 hidden -translate-y-1/2 items-center gap-2 lg:flex">
             <SlideArrow direction="prev" onClick={() => scrollByCard("prev")} />
             <SlideArrow direction="next" onClick={() => scrollByCard("next")} />
           </div>

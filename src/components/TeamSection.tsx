@@ -141,21 +141,14 @@ export function TeamSection() {
       className="box-border scroll-mt-[61px] bg-[#f5f5f5] px-6 py-16 md:px-9 md:py-24"
     >
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-6 grid grid-cols-1 items-center gap-4 lg:mb-7 lg:grid-cols-3 lg:gap-4">
-          <div className="order-2 flex items-center justify-center lg:order-1 lg:justify-self-start">
-            <PlusBadge />
-          </div>
-
-          <div className="order-1 text-center lg:order-2">
-            <h2 className="text-[clamp(3.5rem,9vw,6.25rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-              <span className="mr-[0.22em] inline-block align-baseline text-[clamp(1.05rem,2vw,1.65rem)] font-semibold tracking-[-0.06em]">
-                {sectionTitleLead}
-              </span>
-              {sectionTitle}
-            </h2>
-          </div>
-
-          <div className="order-3 hidden lg:block" aria-hidden />
+        <div className="mb-6 flex items-center justify-between gap-4 lg:mb-7">
+          <h2 className="text-left text-[clamp(3.5rem,9vw,6.25rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+            <span className="mr-[0.22em] inline-block align-baseline text-[clamp(1.05rem,2vw,1.65rem)] font-semibold tracking-[-0.06em]">
+              {sectionTitleLead}
+            </span>
+            {sectionTitle}
+          </h2>
+          <PlusBadge />
         </div>
 
         <div className="grid w-full grid-cols-1 gap-8 rounded-[24px] bg-white p-5 md:gap-10 md:p-8 lg:grid-cols-2 lg:items-stretch lg:gap-10 lg:p-10">

@@ -106,24 +106,19 @@ export function BlogPreviewSection() {
       className="scroll-mt-[61px] bg-[#0a0a0a] px-6 pb-28 pt-16 md:px-9 md:pb-36 md:pt-24"
     >
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-12 grid grid-cols-1 gap-8 lg:mb-16 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)_auto] lg:items-end lg:gap-10">
-          <h2 className="max-w-[520px] text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
+        <div className="mb-12 text-right lg:mb-16">
+          <h2 className="ml-auto max-w-[34rem] text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
             {title}{" "}
             <span className="text-white/55">{titleMuted}</span>
           </h2>
-
-          <p className="max-w-[320px] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/55 lg:justify-self-center">
+          <p className="ml-auto mt-4 max-w-[28rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/55">
             {description}
           </p>
-
-          <NauButton
-            href={ctaHref}
-            variant="light"
-            electric={false}
-            className="lg:justify-self-end"
-          >
-            {cta}
-          </NauButton>
+          <div className="mt-6 flex justify-end">
+            <NauButton href={ctaHref} variant="light" electric={false}>
+              {cta}
+            </NauButton>
+          </div>
         </div>
 
         <QrStickersPromo />

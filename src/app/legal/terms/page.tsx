@@ -86,17 +86,23 @@ export default function TermsPage() {
             <ul className="list-disc space-y-2 pl-5">
               <li>
                 Deliverables and package inclusions are as described in the
-                applicable offer or confirmation. Video packages typically
-                comprise a fixed number of series or promotional videos produced
-                by nau (for example, ten (10) videos), either as
-                creator-produced content or as on-location production with you
-                and your team in Europe, as expressly agreed.
+                applicable offer or confirmation. The Full cycle package
+                typically includes research, positioning, planning, and a
+                campaign series produced by nau as creator-produced content
+                (UGC). Digital guides are sold separately and are not included
+                in studio package fees unless expressly stated.
               </li>
               <li>
                 Supporting-content ideas may be provided so that the videos may
                 form part of a broader communications approach. Execution of
                 such supporting content by nau is excluded from the base package
                 unless a separate scope and fee are agreed.
+              </li>
+              <li>
+                You remain responsible for a separate budget as agreed for the
+                engagement path: product samples or merch supplied so nau can
+                produce UGC, or production costs when filming on location with
+                your team.
               </li>
               <li>
                 Research, positioning, and planning materials are advisory
@@ -120,15 +126,17 @@ export default function TermsPage() {
               5. On-location production
             </h2>
             <p>
-              Where on-location filming within Europe is agreed, you represent
-              and warrant that: (a) you have authority to permit filming at the
-              relevant premises; and (b) all individuals who will appear on
-              camera have consented (or will consent prior to filming) to being
-              recorded and to use of such recordings for the agreed campaign
-              purposes. Travel and related logistics may be charged separately
-              if not included in the quoted fee. You remain responsible for
-              site health and safety as host, except to the extent nau
-              expressly assumes a specific obligation in writing.
+              Where on-location filming within Europe is agreed, that work is
+              priced separately from the Full cycle UGC package and confirmed
+              during the first consultation (or in writing thereafter). You
+              represent and warrant that: (a) you have authority to permit
+              filming at the relevant premises; and (b) all individuals who will
+              appear on camera have consented (or will consent prior to filming)
+              to being recorded and to use of such recordings for the agreed
+              campaign purposes. Travel and related logistics may be charged
+              separately if not included in the quoted fee. You remain
+              responsible for site health and safety as host, except to the
+              extent nau expressly assumes a specific obligation in writing.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">

@@ -19,14 +19,14 @@ export function CapabilitiesSection() {
       aria-labelledby="capabilities-title"
     >
       <div className="relative mx-auto w-full max-w-[1200px]">
-        <div className="mb-7 text-center md:mb-9">
+        <div className="mb-7 text-right md:mb-9">
           <h2
             id="capabilities-title"
-            className="text-[clamp(2.25rem,5.5vw,3.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]"
+            className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]"
           >
             {title}
           </h2>
-          <p className="mx-auto mt-2.5 max-w-[30rem] text-[13px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[14px]">
+          <p className="ml-auto mt-2.5 max-w-[30rem] text-[13px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[14px]">
             {lead}
           </p>
         </div>

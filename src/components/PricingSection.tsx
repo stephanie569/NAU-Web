@@ -1,24 +1,26 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import { motion, useReducedMotion } from "framer-motion";
 import { NauButton } from "@/components/NauButton";
 import { GuideGridCard } from "@/components/GuideGridCard";
 import { pricingSectionCopy, storeSectionCopy } from "@/lib/sections";
+
+type Offer = (typeof pricingSectionCopy.offers)[number];
 
 function FeaturePlusIcon({ tone = "dark" }: { tone?: "dark" | "light" }) {
   const onLight = tone === "light";
   return (
     <span
-      className={`relative flex h-6 w-6 shrink-0 items-center justify-center rounded-full ${
+      className={`relative flex h-5 w-5 shrink-0 items-center justify-center rounded-full ${
         onLight ? "bg-[#0a0a0a]/08" : "bg-white/10"
       }`}
     >
       <span
-        className={`absolute h-px w-2 ${onLight ? "bg-[#0a0a0a]" : "bg-white"}`}
+        className={`absolute h-px w-1.5 ${onLight ? "bg-[#0a0a0a]" : "bg-white"}`}
       />
       <span
-        className={`absolute h-2 w-px ${onLight ? "bg-[#0a0a0a]" : "bg-white"}`}
+        className={`absolute h-1.5 w-px ${onLight ? "bg-[#0a0a0a]" : "bg-white"}`}
       />
     </span>
   );
@@ -51,68 +53,219 @@ function Chevron({
   );
 }
 
-function PriceLine({
-  price,
-  originalPrice,
-  discountLabel,
-  savingsLabel,
-  tone = "dark",
+function OfferTierCard({
+  offer,
+  deliveryLabel,
+  collaborationLabel,
+  includesLabel,
+  goodToKnowLabel,
+  vatNote,
+  defaultCta,
+  ctaHref,
+  index,
+  reduceMotion,
 }: {
-  price: string;
-  originalPrice?: string;
-  discountLabel?: string;
-  savingsLabel?: string;
-  tone?: "dark" | "light";
+  offer: Offer;
+  deliveryLabel: string;
+  collaborationLabel: string;
+  includesLabel: string;
+  goodToKnowLabel: string;
+  vatNote: string;
+  defaultCta: string;
+  ctaHref: string;
+  index: number;
+  reduceMotion: boolean;
 }) {
-  const onLight = tone === "light";
+  const [detailsOpen, setDetailsOpen] = useState(false);
+  const onLight = offer.tone === "light";
+  const ctaLabel = defaultCta;
+  const muted = onLight ? "text-[#0a0a0a]/45" : "text-white/50";
+  const faint = onLight ? "text-[#0a0a0a]/35" : "text-white/35";
+  const body = onLight ? "text-[#0a0a0a]/70" : "text-white/75";
+  const border = onLight ? "border-[#0a0a0a]/10" : "border-white/10";
 
   return (
-    <div className="flex flex-col gap-2">
-      <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
-        <span
-          className={`text-[clamp(1.85rem,4.5vw,2.55rem)] leading-[1.02] font-semibold tracking-[-0.055em] tabular-nums ${
-            onLight ? "text-[#0a0a0a]" : "text-white"
-          }`}
-        >
-          {price}
-        </span>
-        {discountLabel ? (
-          <span
-            className={`nau-electric-ring inline-flex shrink-0 items-center rounded-full px-3 py-1.5 text-[12px] font-bold tracking-[-0.02em] uppercase ${
-              onLight
-                ? "bg-[#0a0a0a] text-white"
-                : "bg-white text-[#0a0a0a]"
-            }`}
-          >
-            {discountLabel}
+    <motion.article
+      initial={reduceMotion ? false : { opacity: 0, y: 16 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{
+        duration: 0.5,
+        delay: reduceMotion ? 0 : 0.06 + index * 0.1,
+        ease: [0.22, 1, 0.36, 1],
+      }}
+      className={`group relative flex h-full min-h-0 flex-col overflow-hidden rounded-[16px] px-6 pt-7 pb-0 md:px-8 md:pt-8 ${
+        onLight
+          ? "border border-[#0a0a0a]/12 bg-white text-[#0a0a0a] shadow-[0_1px_2px_rgba(10,10,10,0.04)]"
+          : "bg-[#0a0a0a] text-white"
+      }`}
+    >
+      <div className="relative z-[1] flex min-h-0 flex-1 flex-col">
+        <p className={`text-[12px] font-semibold tracking-[-0.04em] ${muted}`}>
+          {offer.name}
+        </p>
+
+        <div className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-2">
+          <span className="text-[clamp(2rem,4vw,2.5rem)] leading-none font-semibold tracking-[-0.055em] tabular-nums">
+            {offer.price}
           </span>
-        ) : null}
-      </div>
-      {originalPrice || savingsLabel ? (
-        <p className="flex flex-wrap items-center gap-x-2.5 gap-y-1 text-[13px] font-medium tracking-[-0.03em]">
-          {originalPrice ? (
+          {"discountLabel" in offer && offer.discountLabel ? (
             <span
-              className={`tabular-nums line-through decoration-[1.5px] ${
-                onLight ? "text-[#0a0a0a]/35" : "text-white/35"
+              className={`inline-flex rounded-full px-3 py-1 text-[11px] font-bold tracking-[0.04em] uppercase ${
+                onLight
+                  ? "bg-[#0a0a0a] text-white"
+                  : "bg-white text-[#0a0a0a]"
               }`}
             >
-              {originalPrice}
+              {offer.discountLabel}
             </span>
           ) : null}
-          {savingsLabel ? (
-            <span
-              className={
-                onLight
-                  ? "rounded-full bg-[#0a0a0a]/[0.06] px-2 py-0.5 font-semibold text-[#0a0a0a]/75"
-                  : "rounded-full bg-cyan-300/15 px-2 py-0.5 font-semibold text-cyan-200"
-              }
-            >
-              {savingsLabel}
+        </div>
+
+        {"originalPrice" in offer && offer.originalPrice ? (
+          <p className={`mt-2 text-[13px] font-medium tracking-[-0.03em] ${muted}`}>
+            <span className={`tabular-nums line-through decoration-[1.5px] ${faint}`}>
+              {offer.originalPrice}
             </span>
-          ) : null}
+            {"savingsLabel" in offer && offer.savingsLabel ? (
+              <span
+                className={`ml-2 font-semibold ${
+                  onLight ? "text-[#0a0a0a]/70" : "text-white/70"
+                }`}
+              >
+                {offer.savingsLabel}
+              </span>
+            ) : null}
+            <span className={`ml-2 ${faint}`}>{vatNote}</span>
+          </p>
+        ) : "priceNote" in offer && offer.priceNote ? (
+          <p className={`mt-2 text-[13px] font-medium tracking-[-0.03em] ${muted}`}>
+            {offer.priceNote}
+          </p>
+        ) : null}
+
+        <p
+          className={`mt-5 max-w-[28rem] text-[15px] leading-snug font-medium tracking-[-0.03em] ${body}`}
+        >
+          {offer.outcome}
         </p>
-      ) : null}
-    </div>
+
+        <div className="mt-6 flex flex-wrap items-center gap-3">
+          <NauButton
+            href={ctaHref}
+            variant={onLight ? "dark" : "light"}
+            electric
+          >
+            {ctaLabel}
+          </NauButton>
+          <p className={`text-[13px] font-medium tracking-[-0.04em] ${muted}`}>
+            {deliveryLabel}{" "}
+            <span className={onLight ? "text-[#0a0a0a]" : "text-white"}>
+              {offer.delivery}
+            </span>
+          </p>
+        </div>
+
+        <div className="mt-auto pt-8">
+          <ul className={`flex flex-wrap gap-2 border-t py-4 ${border}`}>
+            {offer.highlights.map((item) => (
+              <li
+                key={item}
+                className={`rounded-full px-3 py-1.5 text-[12px] font-semibold tracking-[-0.03em] ${
+                  onLight
+                    ? "bg-[#0a0a0a]/[0.05] text-[#0a0a0a]/75"
+                    : "bg-white/10 text-white/80"
+                }`}
+              >
+                {item}
+              </li>
+            ))}
+          </ul>
+
+          <div className={`border-t ${border}`}>
+            <button
+              type="button"
+              onClick={() => setDetailsOpen((open) => !open)}
+              aria-expanded={detailsOpen}
+              className="flex w-full items-center justify-between gap-3 py-4 text-left transition-opacity hover:opacity-80"
+            >
+              <p className="text-[13px] font-semibold tracking-[-0.04em]">
+                {detailsOpen ? "Hide breakdown" : "Full breakdown"}
+              </p>
+              <Chevron open={detailsOpen} tone={offer.tone} />
+            </button>
+
+            <div
+              className={`grid transition-[grid-template-rows] duration-300 ease-out ${
+                detailsOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+              }`}
+            >
+              <div className="min-h-0 overflow-hidden pb-4">
+                <div className="grid gap-5 sm:grid-cols-2">
+                  <div className="min-w-0">
+                    <p
+                      className={`text-[10px] font-semibold uppercase tracking-[0.12em] ${faint}`}
+                    >
+                      {collaborationLabel}
+                    </p>
+                    <ul className="mt-2 space-y-1.5">
+                      {offer.collaboration.map((item) => (
+                        <li key={item} className="flex items-start gap-2.5">
+                          <FeaturePlusIcon tone={offer.tone} />
+                          <span
+                            className={`min-w-0 break-words text-[12px] leading-snug font-medium tracking-[-0.04em] ${body}`}
+                          >
+                            {item}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="min-w-0">
+                    <p
+                      className={`text-[10px] font-semibold uppercase tracking-[0.12em] ${faint}`}
+                    >
+                      {includesLabel}
+                    </p>
+                    <ul className="mt-2 space-y-1.5">
+                      {offer.includes.map((item) => (
+                        <li key={item} className="flex items-start gap-2.5">
+                          <FeaturePlusIcon tone={offer.tone} />
+                          <span
+                            className={`min-w-0 break-words text-[12px] leading-snug font-medium tracking-[-0.04em] ${body}`}
+                          >
+                            {item}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+                <div className={`mt-4 border-t pt-3 ${border}`}>
+                  <p
+                    className={`text-[10px] font-semibold uppercase tracking-[0.12em] ${faint}`}
+                  >
+                    {goodToKnowLabel}
+                  </p>
+                  <ul className="mt-2 space-y-1.5">
+                    {offer.goodToKnow.map((item) => (
+                      <li key={item} className="flex items-start gap-2.5">
+                        <FeaturePlusIcon tone={offer.tone} />
+                        <span
+                          className={`min-w-0 break-words text-[12px] leading-snug font-medium tracking-[-0.04em] ${body}`}
+                        >
+                          {item}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </motion.article>
   );
 }
 
@@ -127,227 +280,60 @@ export function PricingSection({
 } = {}) {
   const {
     title: defaultTitle,
+    subtitle,
     deliveryLabel,
-    outcomeLabel,
     collaborationLabel,
     includesLabel,
+    goodToKnowLabel,
     vatNote,
     cta,
     ctaHref,
-    offer,
+    offers,
     storeTeaser,
   } = pricingSectionCopy;
 
   const title = titleOverride ?? defaultTitle;
-  const [detailsOpen, setDetailsOpen] = useState(false);
+  const reduceMotion = useReducedMotion() ?? false;
+  const subtitleText = Array.isArray(subtitle) ? subtitle.join(" ") : subtitle;
 
   return (
     <>
       <section
         id={sectionId}
-        className={`relative box-border flex scroll-mt-[61px] flex-col overflow-x-hidden bg-[#f5f5f5] px-6 pt-14 pb-6 md:px-9 md:pt-16 md:pb-8 lg:pt-20 ${
-          detailsOpen
-            ? "min-h-0 justify-start"
-            : "min-h-[calc(100svh-61px)] justify-center"
-        }`}
+        className="relative box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center overflow-x-hidden bg-[#f5f5f5] px-5 py-8 md:px-9 md:py-10"
       >
-        <div className="relative mx-auto flex w-full max-w-[1520px] flex-col">
-          <div className="mb-3 text-center md:mb-4">
-            <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+        <div className="relative mx-auto flex w-full max-w-[1400px] flex-col gap-5 md:gap-6">
+          <motion.div
+            className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-8"
+            initial={reduceMotion ? false : { opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.7 }}
+            transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+          >
+            <p className="max-w-[26rem] text-[14px] leading-snug font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[15px]">
+              {subtitleText}
+            </p>
+            <h2 className="text-right text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
               {title}
             </h2>
-            <p className="mx-auto mt-1.5 max-w-[34rem] text-[13px] leading-snug font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
-              {Array.isArray(offer.forWhom) ? (
-                <>
-                  {offer.forWhom[0]}
-                  <br />
-                  {offer.forWhom[1]}
-                </>
-              ) : (
-                offer.forWhom
-              )}
-            </p>
-          </div>
+          </motion.div>
 
-          <div className="relative overflow-hidden rounded-[24px]">
-            <svg aria-hidden width="0" height="0" className="absolute">
-              <defs>
-                <clipPath
-                  id="offer-camera-pocket"
-                  clipPathUnits="objectBoundingBox"
-                >
-                  {/*
-                    Missing upper-right corner; start ~2cm past mid-top.
-                    Outer corners match site cards (≈24-28px / rounded-[28px]).
-                  */}
-                  <path d="M0.016,0 H0.58 C0.72,0 0.74,0.10 0.74,0.26 C0.74,0.42 0.78,0.54 0.88,0.58 C0.96,0.60 1,0.62 1,0.72 V0.955 C1,0.982 0.985,1 0.968,1 H0.016 C0.006,1 0,0.982 0,0.955 V0.045 C0,0.018 0.006,0 0.016,0 Z" />
-                </clipPath>
-              </defs>
-            </svg>
-
-            {/*
-              Full-length arm behind the black lip so it reads as
-              coming out of the card, not floating in the pocket.
-            */}
-            <div
-              className={`pointer-events-none absolute top-[5%] right-[calc(1%+1cm)] z-0 hidden h-[min(28rem,92%)] w-[clamp(11rem,26vw,16rem)] transition-opacity duration-300 md:block ${
-                detailsOpen ? "opacity-0" : "opacity-100"
-              }`}
-            >
-              <div className="relative h-full w-full">
-                <Image
-                  src={`${offer.image}?v=10`}
-                  alt=""
-                  fill
-                  quality={100}
-                  unoptimized
-                  className="object-contain object-[55%_8%] drop-shadow-[0_22px_40px_rgba(0,0,0,0.28)]"
-                  sizes="(max-width: 1280px) 26vw, 260px"
-                  priority={false}
-                />
-              </div>
-            </div>
-
-            <article
-              className={`relative z-[1] w-full rounded-[24px] bg-[#0a0a0a] px-5 py-6 text-white shadow-[0_24px_70px_rgba(10,10,10,0.18)] transition-[padding] duration-300 sm:px-6 sm:py-6 md:rounded-[24px] md:px-8 md:py-7 lg:px-10 lg:py-8 ${
-                detailsOpen
-                  ? "md:pr-8 lg:pr-10"
-                  : "md:pr-[min(42%,380px)] md:[-webkit-clip-path:url(#offer-camera-pocket)] md:[clip-path:url(#offer-camera-pocket)]"
-              }`}
-            >
-              <div className="flex w-full min-w-0 flex-col gap-6 md:gap-7">
-                {/* Primary offer: full width on mobile; capped on desktop for camera pocket */}
-                <div className="flex w-full min-w-0 flex-col gap-5 md:max-w-[44rem] md:gap-6">
-                  <div>
-                    <p className="text-[12px] font-semibold tracking-[-0.04em] text-white/50">
-                      {offer.name}
-                    </p>
-                    <div className="mt-1.5">
-                      <PriceLine
-                        price={offer.price}
-                        originalPrice={offer.originalPrice}
-                        discountLabel={offer.discountLabel}
-                        savingsLabel={offer.savingsLabel}
-                      />
-                    </div>
-                    <p className="mt-1.5 text-[11px] font-medium tracking-[-0.03em] text-white/35">
-                      {vatNote}
-                    </p>
-                  </div>
-
-                  <div className="w-full min-w-0">
-                    <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
-                      {outcomeLabel}
-                    </p>
-                    <p className="mt-2.5 w-full text-[15px] leading-[1.5] font-medium tracking-[-0.025em] text-white/90 md:hidden">
-                      {offer.outcomeMobile}
-                    </p>
-                    <p className="mt-2.5 hidden w-full text-[15px] leading-snug font-medium tracking-[-0.04em] text-white/90 md:block">
-                      {offer.outcome}
-                    </p>
-                  </div>
-
-                  <div className="flex w-full flex-col gap-4 py-3 md:flex-row md:items-center md:gap-5 md:py-0">
-                    <NauButton href={ctaHref} variant="light">
-                      {cta}
-                    </NauButton>
-                    <p className="text-[13px] font-medium tracking-[-0.04em] text-white/45">
-                      {deliveryLabel}{" "}
-                      <span className="text-white">{offer.delivery}</span>
-                    </p>
-                  </div>
-                </div>
-
-                {/* Included: full width + single column on mobile for readable line length */}
-                <div className="w-full min-w-0 border-t border-white/10 pt-5 md:max-w-[48rem] md:pt-6">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/35">
-                    Included
-                  </p>
-                  <ul className="mt-3.5 grid grid-cols-1 gap-4 md:mt-3 md:grid-cols-3 md:gap-5">
-                    {offer.highlights.map((item, index) => (
-                      <li key={item} className="min-w-0">
-                        <p className="text-[11px] font-semibold tracking-[-0.04em] text-white/40 tabular-nums">
-                          {String(index + 1).padStart(2, "0")}
-                        </p>
-                        <p className="mt-1.5 break-words text-[15px] leading-[1.4] font-medium tracking-[-0.03em] text-pretty text-white md:text-[15px] md:leading-snug md:tracking-[-0.04em]">
-                          {item}
-                        </p>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* Full breakdown */}
-                <div className="border-t border-white/10 pt-4 md:pt-5">
-                  <button
-                    type="button"
-                    onClick={() => setDetailsOpen((open) => !open)}
-                    aria-expanded={detailsOpen}
-                    className="flex w-full items-center justify-between gap-4 py-0.5 text-left"
-                  >
-                    <div>
-                      <p className="text-[13px] font-semibold tracking-[-0.04em] text-white">
-                        Full breakdown
-                      </p>
-                      <p className="mt-0.5 text-[12px] font-medium tracking-[-0.03em] text-white/45">
-                        {detailsOpen
-                          ? "Hide details"
-                          : "View everything included"}
-                      </p>
-                    </div>
-                    <Chevron open={detailsOpen} />
-                  </button>
-
-                  <div
-                    className={`grid transition-[grid-template-rows] duration-300 ease-out ${
-                      detailsOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
-                    }`}
-                  >
-                    <div className="min-h-0 overflow-hidden">
-                      <div className="grid gap-6 pt-5 sm:grid-cols-2 sm:gap-8 md:gap-10 md:pt-6">
-                        <div className="min-w-0">
-                          <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/35">
-                            {collaborationLabel}
-                          </p>
-                          <ul className="mt-2.5 space-y-2">
-                            {offer.collaboration.map((item) => (
-                              <li
-                                key={item}
-                                className="flex items-start gap-3"
-                              >
-                                <FeaturePlusIcon />
-                                <span className="min-w-0 break-words text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
-                                  {item}
-                                </span>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                        <div className="min-w-0">
-                          <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-white/35">
-                            {includesLabel}
-                          </p>
-                          <ul className="mt-2.5 space-y-2">
-                            {offer.includes.map((item) => (
-                              <li
-                                key={item}
-                                className="flex items-start gap-3"
-                              >
-                                <FeaturePlusIcon />
-                                <span className="min-w-0 break-words text-[13px] leading-snug font-medium tracking-[-0.04em] text-white/80">
-                                  {item}
-                                </span>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-
+          <div className="grid grid-cols-1 gap-2.5 md:grid-cols-2 md:gap-3">
+            {offers.map((offer, index) => (
+              <OfferTierCard
+                key={offer.id}
+                offer={offer}
+                deliveryLabel={deliveryLabel}
+                collaborationLabel={collaborationLabel}
+                includesLabel={includesLabel}
+                goodToKnowLabel={goodToKnowLabel}
+                vatNote={vatNote}
+                defaultCta={cta}
+                ctaHref={ctaHref}
+                index={index}
+                reduceMotion={reduceMotion}
+              />
+            ))}
           </div>
         </div>
       </section>
@@ -358,11 +344,11 @@ export function PricingSection({
           className="relative scroll-mt-[61px] overflow-x-hidden bg-[#f5f5f5] px-6 pt-16 pb-16 md:px-9 md:pt-20 md:pb-20 lg:pt-24 lg:pb-24"
         >
           <div className="relative mx-auto w-full max-w-[1520px]">
-            <div className="mb-6 text-center md:mb-8">
+            <div className="mb-6 text-left md:mb-8">
               <h2 className="text-[clamp(2.5rem,6vw,4.25rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
                 {storeTeaser.name}.
               </h2>
-              <p className="mx-auto mt-3 max-w-[32rem] text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[15px]">
+              <p className="mt-3 max-w-[32rem] text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[15px]">
                 {storeTeaser.forWhom}
               </p>
             </div>

@@ -183,18 +183,24 @@ export const industriesSectionCopy = {
       blurb:
         "Apps and platforms for travel and education. Positioning and campaign content that make the product easy to understand on screen.",
       focuses: ["Apps", "Booking", "Edtech", "Launch"],
+      image: "/images/industries/tech.jpg",
+      imageAlt: "Smartphone app and workstation for a travel tech product",
     },
     {
       name: "Consumer goods",
       blurb:
-        "Sports gear, clothes, food and accessories. Product films, UGC and on-location shoots that show the item in real use.",
-      focuses: ["Outdoor", "Sport", "Food", "Lifestyle"],
+        "Mountaineering, climbing and freediving gear. Product films and UGC that show niche equipment where it actually earns its place.",
+      focuses: ["Climbing", "Mountaineering", "Freediving", "Gorpcore"],
+      image: "/images/industries/climbing.jpg",
+      imageAlt: "Rock climber with technical outdoor gear on a mountain face",
     },
     {
       name: "Travel media",
       blurb:
-        "Magazines and brands built on travel stories. Editorial-minded campaigns that hold attention longer than a single post.",
-      focuses: ["Editorial", "Hospitality", "Stories", "Series"],
+        "Magazines, podcasts and campaign work for travel brands. Editorial-minded stories that hold attention longer than a single post.",
+      focuses: ["Magazines", "Podcasts", "Campaigns", "Editorial"],
+      image: "/images/industries/magazines.jpg",
+      imageAlt: "Stack of magazines and print media for travel editorial work",
     },
   ],
 };
@@ -217,7 +223,7 @@ export const servicesItems = [
     number: "002",
     title: "Content Creation",
     summary:
-      "You receive an early brief first. Then I deliver a full set of materials as UGC or on-location shoots in Europe, made to hold attention longer.",
+      "You receive an early brief first. Then I deliver a full set of materials as UGC, made to hold attention longer. On-location shoots in Europe are available at a separate price, agreed on the first consultation.",
     thumbnail: "/images/service-content-creation-phone.png",
     categories: [
       "Campaigns",
@@ -243,7 +249,7 @@ export const servicesItems = [
     number: "004",
     title: "Digital Guides",
     summary:
-      "You receive strategy playbooks when a full engagement isn't the right fit yet. Positioning, launch and GTM frameworks from how I work with product brands, delivered on purchase.",
+      "You receive strategy playbooks sold separately from Full cycle, when a full engagement isn't the right fit yet. Positioning, launch and GTM frameworks from how I work with product brands, delivered on purchase.",
     thumbnail: "/images/service-digital-guides.png",
     categories: [
       "Positioning",
@@ -256,7 +262,7 @@ export const servicesItems = [
 
 export const capabilitiesSectionCopy = {
   title: "Capabilities.",
-  lead: "What a campaign shoot can include for outdoor, travel, hospitality and product brands. UGC or on-location across Europe. Pick the mix you need.",
+  lead: "What a campaign shoot can include for outdoor, travel, hospitality and product brands.",
   items: [
     {
       number: "01",
@@ -266,7 +272,7 @@ export const capabilitiesSectionCopy = {
     {
       number: "02",
       title: "On-location shoots",
-      text: "On-location shoots in Europe with you and your team. Full campaign materials wrapped around one clear story.",
+      text: "On-location shoots in Europe with you and your team. Priced separately and agreed on the first consultation.",
     },
     {
       number: "03",
@@ -336,59 +342,98 @@ export const testimonialsSectionCopy = {
 
 export const pricingSectionCopy = {
   title: "Work with me.",
+  subtitle: [
+    "UGC at a fixed price, or on-location with your team.",
+  ],
   vatNote: "All prices excl. VAT.",
   deliveryLabel: "Delivery",
   outcomeLabel: "Outcome",
   collaborationLabel: "Collaboration",
   includesLabel: "You get",
+  goodToKnowLabel: "Good to know",
   cta: "Work with me",
   ctaHref: "/contact",
-  offer: {
-    id: "full-cycle",
-    name: "Full cycle",
-    price: "€1,440",
-    originalPrice: "€1,600",
-    discountLabel: "10% off",
-    savingsLabel: "Save €160",
-    forWhom: [
-      "Let the right audience find you through one connected campaign,",
-      "plus research and positioning for a 360° strategy.",
-    ],
-    delivery: "4-6 weeks",
-    collaboration: [
-      "Free discovery call before you commit",
-      "Kick-off workshop",
-      "Working sessions through the cycle",
-      "Mid-point review + final walkthrough",
-      "Async feedback and 2 revision rounds",
-    ],
-    includes: [
-      "Research: market, category and product audit",
-      "Competitor teardown (5-8 brands)",
-      "Personas with jobs-to-be-done",
-      "Positioning, messaging and tone of voice",
-      "60-day plan for the series + angles",
-      "Creative direction for the series",
-      "A full campaign series I make for you: UGC or on-location shoots in Europe",
-      "Ideas for supporting content so the series sits in a 360° strategy. Executing that with me is priced separately",
-    ],
-    highlights: [
-      "UGC or on-location shoots in\u00A0Europe",
-      "Market, competitors and\u00A0positioning",
-      "60-day plan for the\u00A0series",
-    ],
-    outcome:
-      "Let the right audience find you through one connected campaign. Materials as UGC or on-location shoots in Europe. Supporting-content ideas for a 360° strategy are included. Executing those with me is extra.",
-    outcomeMobile:
-      "Let the right audience find you through one connected campaign. UGC or on-location shoots in Europe. Supporting-content ideas included. Execution with me is extra.",
-    image: "/images/offer-camera-3d-peek.png",
-    imageAlt: "Hand holding a Sony Alpha camera from behind the offer card, content creation for product brands",
-  },
+  offers: [
+    {
+      id: "full-cycle-ugc",
+      name: "Full cycle · UGC",
+      tone: "dark" as const,
+      price: "€1,440",
+      originalPrice: "€1,600",
+      discountLabel: "10% off",
+      savingsLabel: "Save €160",
+      delivery: "4-6 weeks",
+      collaboration: [
+        "Free discovery call before you commit",
+        "Kick-off workshop",
+        "Working sessions through the cycle",
+        "Mid-point review + final walkthrough",
+        "Async feedback and 2 revision rounds",
+      ],
+      includes: [
+        "Research: market, category and product audit",
+        "Competitor teardown (5-8 brands)",
+        "Personas with jobs-to-be-done",
+        "Positioning, messaging and tone of voice",
+        "60-day plan for the series + angles",
+        "Creative direction for the series",
+        "A full campaign series I make for you as UGC",
+        "Ideas for supporting content so the series sits in a 360° strategy. Executing that with me is priced separately",
+      ],
+      highlights: [
+        "UGC series",
+        "Positioning",
+        "60-day plan",
+      ],
+      outcome: "One connected campaign as UGC. Supporting ideas included.",
+      goodToKnow: [
+        "Digital guides are not included. They are sold separately in the store.",
+        "Set aside a separate budget for product samples or merch so I can shoot the UGC.",
+      ],
+    },
+    {
+      id: "full-cycle-on-location",
+      name: "Full cycle · On-location",
+      tone: "light" as const,
+      price: "Custom",
+      priceNote: "Discussed on the first consultation",
+      delivery: "Scoped on call",
+      collaboration: [
+        "Free discovery call before anything is priced",
+        "Scope the shoot with you and your team",
+        "Kick-off workshop once we agree the fee",
+        "Working sessions through the cycle",
+        "Mid-point review + final walkthrough",
+      ],
+      includes: [
+        "Research: market, category and product audit",
+        "Competitor teardown (5-8 brands)",
+        "Personas with jobs-to-be-done",
+        "Positioning, messaging and tone of voice",
+        "60-day plan for the series + angles",
+        "Creative direction for the series",
+        "On-location shoots in Europe with you and your team",
+        "Ideas for supporting content so the series sits in a 360° strategy. Executing that with me is priced separately",
+      ],
+      highlights: [
+        "Your team",
+        "Europe shoots",
+        "Scoped on call",
+      ],
+      outcome: "Same full cycle, filmed with your team in Europe.",
+      goodToKnow: [
+        "Digital guides are not included. They are sold separately in the store.",
+        "Set aside a separate production budget when we film with your team.",
+        "Travel and related logistics may be quoted separately if they sit outside the agreed fee.",
+      ],
+    },
+  ],
   storeTeaser: {
     id: "digital-guides",
     name: "Digital guides",
     price: "From $19",
-    forWhom: "Positioning, GTM and the series, without a full engagement.",
+    forWhom:
+      "Sold separately from Full cycle. Positioning, GTM and the series, without a full engagement.",
     outcome:
       "The same frameworks I use on client projects, packaged as guides you can buy and use straight away.",
     delivery: "Instant download",
@@ -400,7 +445,7 @@ export const pricingSectionCopy = {
 export const storeSectionCopy = {
   title: "Products.",
   description:
-    "Digital guides with the same strategy thinking as a client engagement. Buy online and use them straight away.",
+    "Sold separately from Full cycle. Same strategy thinking as a client engagement. Buy online and use them straight away.",
   searchPlaceholder: "Search...",
   categoryLabel: "Category",
   categories: [...serviceCategories],
@@ -694,7 +739,7 @@ export const teamSectionCopy = {
   lead:
     "And that is how you found me. I help founders bring strong products to the people who should buy them, with demand that lasts beyond a single campaign.",
   field:
-    "We start by defining who the product is for, why it wins, and what to say. Then I produce a full set of materials as UGC or on-location shoots in\u00A0Europe.",
+    "We start by defining who the product is for, why it wins, and what to say. Then I produce a full set of materials as UGC. On-location shoots in Europe are available at a separate price, agreed on the first consultation.",
   proof:
     "Not another stream of random posts. Clear, memorable videos that people understand in seconds and share with buyers who already need what you\u00A0built.",
   closeLead: "You bring the\u00A0product.",
@@ -748,6 +793,21 @@ export const faqItems = [
     question: "How are you different from creators?",
     answer:
       "Most creators start at the post. I start earlier and finish later. Research, positioning, launch strategy and a connected content series stay in one 360° cycle, so the story matches the product and the growth plan holds.",
+  },
+  {
+    question: "Are digital guides included in Full cycle?",
+    answer:
+      "No. Digital guides are sold separately in the store. Full cycle covers research, positioning, the plan and a campaign series as UGC. Guides are for teams that want the frameworks without a full engagement.",
+  },
+  {
+    question: "How are on-location shoots in Europe priced?",
+    answer:
+      "On-location is its own Full cycle tier. Same research and campaign thinking, filmed with you and your team in Europe. The fee is custom and agreed on the first consultation before you commit.",
+  },
+  {
+    question: "What separate budget should I prepare?",
+    answer:
+      "Beyond the studio fee, set aside a separate budget for product samples or merch on the UGC tier, or for production costs on the on-location tier. We clarify which path fits on the first call.",
   },
   {
     question: "What's included beyond the campaign materials?",
@@ -908,7 +968,7 @@ export const studioPageCopy = {
     },
     paragraphs: [
       "I started nau because too many product brands were hiring for posts before they had a story worth posting. Outdoor, travel, hospitality and consumer goods teams were shipping real products, then asking a creator to invent the narrative on the day of the shoot.",
-      "My path sits between strategy and making. I research markets, sharpen who the product is for, build organic launch plans, then produce a campaign's worth of materials around one story as UGC or on-location shoots in Europe.",
+      "My path sits between strategy and making. I research markets, sharpen who the product is for, build organic launch plans, then produce a campaign's worth of materials around one story as UGC, with on-location shoots in Europe available when we agree that path on the first consultation.",
       "You keep the expertise. I help turn it into clear positioning, a go-to-market you can run, and complementary content that keeps attention longer instead of renting a spike.",
     ],
     facts: [
@@ -941,7 +1001,7 @@ export const studioPageCopy = {
       {
         number: "003",
         title: "Content",
-        text: "A campaign series I make (UGC or on-location shoots in Europe), wrapped around one story from steps one and two.",
+        text: "A campaign series I make as UGC (on-location in Europe priced on consultation), wrapped around one story from steps one and two.",
       },
     ],
   },
@@ -977,7 +1037,7 @@ export const studioPageCopy = {
         number: "003",
         title: "Brief",
         focus: "Content",
-        text: "Second after research: lock the campaign early. UGC or on-location shoots in Europe.",
+        text: "Second after research: lock the campaign early. UGC in the package. On-location in Europe priced on consultation.",
       },
       {
         number: "004",
@@ -1006,7 +1066,7 @@ export const studioPageCopy = {
       "Have a product launch, repositioning or Europe content day that does not fit a template? Tell me about the brand and where growth feels stuck. I reply with a clear next step: strategy sprint, full launch or a campaign content series.",
     email: "info@naustudio.org",
     phone: "+359 888 32 9667",
-    locationNote: "Working remotely across Europe · UGC or on-location shoots in Europe",
+    locationNote: "Working remotely across Europe · UGC in Full cycle · On-location priced on consultation",
     placeholders: {
       name: "Your name *",
       email: "Work email *",

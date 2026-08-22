@@ -72,29 +72,27 @@ export function FAQSection() {
       className="scroll-mt-[61px] bg-[#f5f5f5] px-6 py-20 md:px-9 md:py-28"
     >
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,340px)_1fr] lg:items-start lg:gap-14 xl:grid-cols-[minmax(0,380px)_1fr]">
-          <div>
-            <h2 className="text-[clamp(3.25rem,8vw,5.5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-              {title}
-            </h2>
-            <p className="mt-4 max-w-[300px] text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 md:text-[15px]">
-              {description}
-            </p>
-          </div>
+        <div className="mb-10 text-left md:mb-12">
+          <h2 className="text-[clamp(3.25rem,8vw,5.5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+            {title}
+          </h2>
+          <p className="mt-4 max-w-[32rem] text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 md:text-[15px]">
+            {description}
+          </p>
+        </div>
 
-          <div className="flex flex-col gap-1">
-            {faqItems.map((item, index) => (
-              <FAQItem
-                key={item.question}
-                question={item.question}
-                answer={item.answer}
-                open={openIndex === index}
-                onToggle={() =>
-                  setOpenIndex((current) => (current === index ? -1 : index))
-                }
-              />
-            ))}
-          </div>
+        <div className="flex max-w-[920px] flex-col gap-1">
+          {faqItems.map((item, index) => (
+            <FAQItem
+              key={item.question}
+              question={item.question}
+              answer={item.answer}
+              open={openIndex === index}
+              onToggle={() =>
+                setOpenIndex((current) => (current === index ? -1 : index))
+              }
+            />
+          ))}
         </div>
       </div>
     </section>
