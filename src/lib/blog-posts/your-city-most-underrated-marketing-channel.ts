@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds local-to-digital systems so your city works harder than another generic social plan.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

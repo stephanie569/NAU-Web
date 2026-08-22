@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio fixes positioning and proof before you scale spend, so paid attention lands on a story that holds.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

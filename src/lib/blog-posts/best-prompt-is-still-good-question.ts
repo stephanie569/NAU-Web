@@ -88,7 +88,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio starts with research questions so strategy and content have somewhere true to aim.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

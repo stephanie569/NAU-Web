@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio starts with the job and the proof so strong products stop failing as unclear stories.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

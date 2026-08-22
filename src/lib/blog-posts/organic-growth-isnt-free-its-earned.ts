@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds earned growth systems: clarity, content worth keeping, and campaigns that amplify what already works.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

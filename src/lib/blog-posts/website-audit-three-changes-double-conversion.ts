@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio audits message, proof and path before recommending a redesign.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

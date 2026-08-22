@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio runs research-led resets so your next thirty days change the sentence, not just the assets.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

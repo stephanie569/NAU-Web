@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio takes products from positioning through launch systems that teach you something after the announcement.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

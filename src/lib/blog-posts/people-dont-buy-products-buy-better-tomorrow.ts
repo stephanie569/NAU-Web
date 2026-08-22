@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio rewrites product stories around the progress buyers hire you for, then builds campaigns that keep that promise.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

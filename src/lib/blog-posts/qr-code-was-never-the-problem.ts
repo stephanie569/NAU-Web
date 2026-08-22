@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio designs street and QR campaigns around promise, placement, and the bridge after the scan.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

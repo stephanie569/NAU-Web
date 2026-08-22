@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps brands design memory: product moments, campaigns, and recovery paths that leave the right feeling behind.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

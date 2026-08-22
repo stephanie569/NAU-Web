@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio starts with research and narrative so brand work has something real to express.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

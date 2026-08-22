@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "You found this through a NAU sticker. nau studio sharpens who you are for and why you win, before the next campaign ships.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

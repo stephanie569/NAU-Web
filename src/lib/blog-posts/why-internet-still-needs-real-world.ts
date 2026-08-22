@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio plans campaigns that begin in the real world and keep earning belief online.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

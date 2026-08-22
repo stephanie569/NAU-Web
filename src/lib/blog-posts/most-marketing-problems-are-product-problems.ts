@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio separates product problems from channel problems, then builds campaigns that amplify a story that already holds.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

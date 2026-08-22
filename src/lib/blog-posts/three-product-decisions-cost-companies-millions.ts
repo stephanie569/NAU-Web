@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps teams reverse the expensive defaults: focus, proof, and sequencing before spend.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

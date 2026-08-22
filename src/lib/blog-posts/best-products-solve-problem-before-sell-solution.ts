@@ -93,7 +93,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps product brands position from the real job buyers hire you for, before the feature list.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

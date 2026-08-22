@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps product brands get launch-ready with research, positioning, and proof before you scale spend.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

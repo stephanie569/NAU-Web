@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds positioning, proof and learning systems so campaigns stop starting from zero.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

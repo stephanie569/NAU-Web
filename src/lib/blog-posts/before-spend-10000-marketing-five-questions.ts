@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps founders turn marketing spend into clear offers, conversion paths, and tests that teach.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

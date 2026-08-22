@@ -89,7 +89,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio builds campaigns that begin in the real world and finish as systems, not one-off posts.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds street-smart campaigns from field observation, placement, and a clear product story.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

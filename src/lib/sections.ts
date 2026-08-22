@@ -174,20 +174,27 @@ export const servicesSectionCopy = {
 
 export const industriesSectionCopy = {
   title: "Industries.",
+  lead: "I work with brands that sell movement, escape and adventure. Same craft across categories: clear story, then content that carries it.",
   platformsLabel: "Videos made for",
   platforms: ["Instagram", "TikTok", "LinkedIn", "YouTube Shorts"],
   items: [
     {
       name: "Travel tech",
-      blurb: "Apps and platforms for travel and education.",
+      blurb:
+        "Apps and platforms for travel and education. Positioning and campaign content that make the product easy to understand on screen.",
+      focuses: ["Apps", "Booking", "Edtech", "Launch"],
     },
     {
       name: "Consumer goods",
-      blurb: "Sports gear, clothes, food and accessories.",
+      blurb:
+        "Sports gear, clothes, food and accessories. Product films, UGC and on-location shoots that show the item in real use.",
+      focuses: ["Outdoor", "Sport", "Food", "Lifestyle"],
     },
     {
       name: "Travel media",
-      blurb: "Magazines and brands\nbuilt on travel stories.",
+      blurb:
+        "Magazines and brands built on travel stories. Editorial-minded campaigns that hold attention longer than a single post.",
+      focuses: ["Editorial", "Hospitality", "Stories", "Series"],
     },
   ],
 };
@@ -246,6 +253,43 @@ export const servicesItems = [
     ],
   },
 ];
+
+export const capabilitiesSectionCopy = {
+  title: "Capabilities.",
+  lead: "What a campaign shoot can include for outdoor, travel, hospitality and product brands. UGC or on-location across Europe. Pick the mix you need.",
+  items: [
+    {
+      number: "01",
+      title: "Product & brand films",
+      text: "Cinematic product films in real use: trails, rooms, tables and streets. Made for websites, launches and paid.",
+    },
+    {
+      number: "02",
+      title: "On-location shoots",
+      text: "On-location shoots in Europe with you and your team. Full campaign materials wrapped around one clear story.",
+    },
+    {
+      number: "03",
+      title: "Aesthetic UGC",
+      text: "Short-form for Instagram, TikTok, YouTube Shorts and LinkedIn. Field perspective that feels found, not forced.",
+    },
+    {
+      number: "04",
+      title: "Drone footage",
+      text: "Aerials of place and scale: coastline, mountains, resorts, routes and rooftops. Delivered crisp in 4K.",
+    },
+    {
+      number: "05",
+      title: "Still photography",
+      text: "Digital and analogue stills from the same shoot. Web, lookbooks, email and social frames that match the film.",
+    },
+    {
+      number: "06",
+      title: "Full usage rights",
+      text: "Everything delivered is yours to publish: organic, paid, email, partners and listings. No hidden licensing.",
+    },
+  ],
+};
 
 export const testimonialsSectionCopy = {
   title: "Experiences.",

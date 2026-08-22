@@ -90,7 +90,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "If you want a partner who starts with fit questions instead of a moodboard, nau studio begins with research and positioning.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

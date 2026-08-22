@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio starts with research and positioning so Figma serves the story instead of inventing it.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

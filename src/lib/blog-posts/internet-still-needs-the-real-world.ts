@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio connects real-world campaigns to digital paths so belief is earned offline and compounded online.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

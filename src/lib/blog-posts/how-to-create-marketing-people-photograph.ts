@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio designs campaigns people choose to photograph, then connects street moments back to a clear product story.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

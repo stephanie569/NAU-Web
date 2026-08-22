@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio reviews landing pages for belief and friction, then ships the fixes that move conversion without burning what already works.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds content systems that compound, so your brand shows up with a story, not a sporadic spike.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

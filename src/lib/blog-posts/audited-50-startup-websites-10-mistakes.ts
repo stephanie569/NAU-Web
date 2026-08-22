@@ -100,7 +100,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio audits product brand sites for clarity, proof, and conversion paths before you scale spend.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

@@ -95,7 +95,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio runs product strategy and positioning before UI, so design serves a real customer decision.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

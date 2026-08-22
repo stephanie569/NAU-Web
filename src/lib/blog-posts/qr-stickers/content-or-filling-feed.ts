@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "You found this through a NAU sticker. nau studio plans campaign series with a story arc, not a content calendar for its own sake.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

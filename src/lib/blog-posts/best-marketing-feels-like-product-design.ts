@@ -89,7 +89,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio aligns message, experience, and proof so acquisition and product pull in the same direction.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

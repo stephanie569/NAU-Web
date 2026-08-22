@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio diagnoses stuck growth at the offer and experience layer before you spend on more traffic.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

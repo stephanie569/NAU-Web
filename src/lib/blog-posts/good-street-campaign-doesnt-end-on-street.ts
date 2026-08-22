@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio designs offline-to-online campaigns that keep working after someone walks past.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

@@ -89,7 +89,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps brands design talkable moments so distribution starts as behaviour, not a caption ask.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

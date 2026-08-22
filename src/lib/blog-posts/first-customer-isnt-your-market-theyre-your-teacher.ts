@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps founders turn early buyers into positioning and product decisions, not custom roadmaps.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

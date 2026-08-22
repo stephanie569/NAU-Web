@@ -95,7 +95,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio designs campaigns people want to retell: street, content, and product moments that create a story, not a slogan.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

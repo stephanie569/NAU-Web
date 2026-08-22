@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio designs product sites for decisions first, then craft that supports the argument.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

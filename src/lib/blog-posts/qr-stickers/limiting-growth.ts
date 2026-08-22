@@ -89,7 +89,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "You found this through a NAU sticker. nau studio runs the full cycle: research, positioning, GTM and content that compound instead of spike.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

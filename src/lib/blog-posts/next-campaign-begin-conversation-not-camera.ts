@@ -93,7 +93,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds campaigns from research and real customer language before the first frame is shot.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

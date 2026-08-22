@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds campaigns and systems that work when you cannot outspend the category.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

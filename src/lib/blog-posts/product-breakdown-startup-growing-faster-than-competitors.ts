@@ -95,7 +95,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio breaks down brand growth systems: positioning, first win, proof, and campaigns that amplify what already works.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds campaigns meant to leave residue in the world, not only numbers on a dashboard.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

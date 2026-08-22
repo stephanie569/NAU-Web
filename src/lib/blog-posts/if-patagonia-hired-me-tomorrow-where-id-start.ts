@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps mission-led product brands keep integrity and conversion on the same path.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

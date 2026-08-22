@@ -90,7 +90,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "You found this through a NAU sticker. nau studio fixes the sentence, the proof and the story before you spend on traffic.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

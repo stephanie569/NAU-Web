@@ -89,7 +89,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps brands choose what deserves to ship, not just what can be generated.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

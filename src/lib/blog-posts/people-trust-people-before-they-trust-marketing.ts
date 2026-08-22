@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps product brands build peer proof, founder voice, and campaigns that scale trust instead of inventing it.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

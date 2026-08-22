@@ -93,7 +93,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps product teams prioritise from research and positioning so roadmaps serve the job, not the calendar.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

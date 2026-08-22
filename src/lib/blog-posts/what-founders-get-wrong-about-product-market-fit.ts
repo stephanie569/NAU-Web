@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps brands prove and renew fit with research, positioning and a clearer product story.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

@@ -98,7 +98,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps product brands keep a sharp point of view while using AI for speed, not sameness.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio turns a decade of product lessons into research, positioning, and launches that hold up after week one.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

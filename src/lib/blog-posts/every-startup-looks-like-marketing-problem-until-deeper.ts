@@ -98,7 +98,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio diagnoses clarity, activation, and positioning before building campaigns that only make noise louder.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

@@ -95,7 +95,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio works across product categories with the same core method: research, positioning, then campaigns that fit the job.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

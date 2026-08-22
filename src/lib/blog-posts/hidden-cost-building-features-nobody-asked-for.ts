@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps product brands clarify the job and cut the roadmap tax that marketing cannot fix.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

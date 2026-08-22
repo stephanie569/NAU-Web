@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio starts with research and positioning so day one is diagnosis, not noise.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

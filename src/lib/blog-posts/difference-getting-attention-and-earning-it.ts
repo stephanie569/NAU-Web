@@ -93,7 +93,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps brands build systems that earn belief, not only dashboards that rent reach.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

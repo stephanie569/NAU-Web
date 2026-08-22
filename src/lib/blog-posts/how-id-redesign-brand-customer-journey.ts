@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio redesigns customer journeys around belief stages so every touchpoint earns the next decision.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

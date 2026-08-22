@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps product brands keep fit: research, positioning, and go-to-market that move when the job moves.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

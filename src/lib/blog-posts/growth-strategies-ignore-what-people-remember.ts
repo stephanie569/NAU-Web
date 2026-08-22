@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds growth systems around memorable product moments, not only funnel tweaks.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

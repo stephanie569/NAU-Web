@@ -85,7 +85,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio fixes the sentence, the proof and the story before you spend on traffic.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

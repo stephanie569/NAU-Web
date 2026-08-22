@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio runs fast clarity audits and turns them into homepage and conversion fixes that stick.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

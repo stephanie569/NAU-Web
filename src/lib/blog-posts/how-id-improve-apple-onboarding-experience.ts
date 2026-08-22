@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps product brands design first-run experiences that deliver value before the lecture.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

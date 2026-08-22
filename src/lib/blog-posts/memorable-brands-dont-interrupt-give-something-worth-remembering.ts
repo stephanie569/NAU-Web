@@ -95,7 +95,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio designs brand moments people keep, then ties them back to a clear product story.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

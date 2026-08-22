@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps teams build go-to-market systems where tools scale craft without replacing judgement.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

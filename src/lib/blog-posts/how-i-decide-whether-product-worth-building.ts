@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps founders pressure-test ideas with research and positioning before the roadmap gets expensive.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

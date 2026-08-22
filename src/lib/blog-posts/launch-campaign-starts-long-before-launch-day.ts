@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio plans launch campaigns that start before publish day, with proof and distribution already in motion.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

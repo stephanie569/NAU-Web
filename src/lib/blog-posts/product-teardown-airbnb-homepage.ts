@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio teardowns and redesigns product brand sites for clarity, trust, and a single strong conversion path.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

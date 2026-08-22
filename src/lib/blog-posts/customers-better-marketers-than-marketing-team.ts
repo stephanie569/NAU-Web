@@ -93,7 +93,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps product brands design talkable moments and systems that turn customer stories into growth.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

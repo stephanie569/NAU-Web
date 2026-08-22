@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "You found this through a NAU sticker. nau studio helps product brands map where buyers stall, then align story, site and content to move them through.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

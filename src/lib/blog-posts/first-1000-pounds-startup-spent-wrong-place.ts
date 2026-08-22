@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio helps early product brands sequence spend so the first budget buys learning, not decoration.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

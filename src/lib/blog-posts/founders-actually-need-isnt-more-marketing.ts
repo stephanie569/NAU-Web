@@ -99,7 +99,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "nau studio builds research, positioning, and go-to-market so campaigns have something coherent to amplify.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };

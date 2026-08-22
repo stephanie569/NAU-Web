@@ -94,7 +94,7 @@ const post: BlogPost = {
       type: "cta",
       lead: "Welcome to the journal. nau studio helps founders connect product craft to positioning, pricing, and go-to-market so screens become a company.",
       button: "Visit nau studio",
-      href: "/studio",
+      href: "/",
     },
   ],
 };
