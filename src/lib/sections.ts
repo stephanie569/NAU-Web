@@ -790,11 +790,6 @@ export const faqItems = [
       "The full cycle: research, positioning, organic go-to-market, and content as a campaign series of promo videos that complement each other so attention lasts longer. All three services are real. I'm strongest at executing organic GTM and building the storytelling that makes it land.",
   },
   {
-    question: "How are you different from creators?",
-    answer:
-      "Most creators start at the post. I start earlier and finish later. Research, positioning, launch strategy and a connected content series stay in one 360° cycle, so the story matches the product and the growth plan holds.",
-  },
-  {
     question: "Are digital guides included in Full cycle?",
     answer:
       "No. Digital guides are sold separately in the store. Full cycle covers research, positioning, the plan and a campaign series as UGC. Guides are for teams that want the frameworks without a full engagement.",
@@ -808,21 +803,6 @@ export const faqItems = [
     question: "What separate budget should I prepare?",
     answer:
       "Beyond the studio fee, set aside a separate budget for product samples or merch on the UGC tier, or for production costs on the on-location tier. We clarify which path fits on the first call.",
-  },
-  {
-    question: "What's included beyond the campaign materials?",
-    answer:
-      "You get ideas for supporting content so the series sits in a 360° strategy: posts, angles and follow-ups that complement the campaign. If you want me to execute that supporting layer with you, that's priced separately.",
-  },
-  {
-    question: "Can you help if we already launched?",
-    answer:
-      "Yes. I clarify positioning, rebuild the organic go-to-market plan, and create a content series that matches what the product delivers, so the next posts pull people through one story, not scatter them.",
-  },
-  {
-    question: "How do I get started?",
-    answer:
-      "Send a short note about your product brand and whether you need clarity, a launch plan, or a campaign content series that finally matches the product. I'll suggest a next step.",
   },
 ];
 
