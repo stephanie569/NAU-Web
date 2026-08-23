@@ -12,6 +12,7 @@ interface YTPlayer {
   playVideo: () => void;
   seekTo: (seconds: number, allowSeekAhead: boolean) => void;
   setPlaybackQuality: (quality: string) => void;
+  getDuration: () => number;
 }
 
 declare global {
@@ -41,6 +42,12 @@ const YT_PLAYING = 1;
 const YT_PAUSED = 2;
 const MIN_COVER_MS = 2200;
 const REVEAL_AFTER_PLAYING_MS = 300;
+
+function midPointSeconds(player: YTPlayer) {
+  const duration = player.getDuration();
+  if (!Number.isFinite(duration) || duration <= 0) return 0;
+  return duration / 2;
+}
 
 function requestHdQuality(player: YTPlayer) {
   for (const quality of HD_QUALITIES) {
@@ -74,6 +81,7 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
   const mountRef = useRef<HTMLDivElement>(null);
   const playerRef = useRef<YTPlayer | null>(null);
   const hasStartedRef = useRef(false);
+  const hasSeekedToMiddleRef = useRef(false);
   const revealTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const playIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const readyAtRef = useRef<number | null>(null);
@@ -82,6 +90,7 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
 
   useEffect(() => {
     hasStartedRef.current = false;
+    hasSeekedToMiddleRef.current = false;
     setIsVisible(false);
   }, [videoId]);
 
@@ -128,12 +137,22 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
       requestHdQuality(player);
     };
 
+    const startFromMiddle = (player: YTPlayer) => {
+      const mid = midPointSeconds(player);
+      if (mid > 0) {
+        player.seekTo(mid, true);
+        hasSeekedToMiddleRef.current = true;
+      }
+      ensurePlayback(player);
+    };
+
     const createPlayer = () => {
       if (cancelled || !mountRef.current || !window.YT?.Player) return;
 
       playerRef.current?.destroy();
       clearTimers();
       hasStartedRef.current = false;
+      hasSeekedToMiddleRef.current = false;
       readyAtRef.current = null;
       setIsVisible(false);
 
@@ -157,12 +176,11 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
           enablejsapi: 1,
           origin: window.location.origin,
           vq: "hd1080",
-          start: 0,
         },
         events: {
           onReady: ({ target }) => {
             readyAtRef.current = Date.now();
-            ensurePlayback(target);
+            startFromMiddle(target);
 
             playIntervalRef.current = setInterval(() => {
               if (hasStartedRef.current || cancelled) {
@@ -174,8 +192,7 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
           },
           onStateChange: ({ data, target }) => {
             if (data === YT_ENDED) {
-              target.seekTo(0, true);
-              ensurePlayback(target);
+              startFromMiddle(target);
               return;
             }
 
@@ -186,6 +203,9 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
 
             if (data === YT_PLAYING) {
               requestHdQuality(target);
+              if (!hasSeekedToMiddleRef.current) {
+                startFromMiddle(target);
+              }
               if (!hasStartedRef.current) {
                 scheduleReveal();
               }
