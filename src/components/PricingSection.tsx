@@ -64,6 +64,8 @@ function OfferTierCard({
   ctaHref,
   index,
   reduceMotion,
+  detailsOpen,
+  onToggleDetails,
 }: {
   offer: Offer;
   deliveryLabel: string;
@@ -75,8 +77,9 @@ function OfferTierCard({
   ctaHref: string;
   index: number;
   reduceMotion: boolean;
+  detailsOpen: boolean;
+  onToggleDetails: () => void;
 }) {
-  const [detailsOpen, setDetailsOpen] = useState(false);
   const onLight = offer.tone === "light";
   const ctaLabel = defaultCta;
   const muted = onLight ? "text-[#0a0a0a]/45" : "text-white/50";
@@ -94,13 +97,13 @@ function OfferTierCard({
         delay: reduceMotion ? 0 : 0.06 + index * 0.1,
         ease: [0.22, 1, 0.36, 1],
       }}
-      className={`group relative flex h-full min-h-0 flex-col overflow-hidden rounded-[16px] px-6 pt-7 pb-0 md:px-8 md:pt-8 ${
+      className={`group relative flex min-h-0 flex-col overflow-hidden rounded-[16px] px-6 pt-7 pb-0 md:px-8 md:pt-8 ${
         onLight
           ? "border border-[#0a0a0a]/12 bg-white text-[#0a0a0a] shadow-[0_1px_2px_rgba(10,10,10,0.04)]"
           : "bg-[#0a0a0a] text-white"
       }`}
     >
-      <div className="relative z-[1] flex min-h-0 flex-1 flex-col">
+      <div className="relative z-[1] flex min-h-0 flex-col">
         <p className={`text-[12px] font-semibold tracking-[-0.04em] ${muted}`}>
           {offer.name}
         </p>
@@ -166,7 +169,7 @@ function OfferTierCard({
           </p>
         </div>
 
-        <div className="mt-auto pt-8">
+        <div className="pt-8">
           <ul className={`flex flex-wrap gap-2 border-t py-4 ${border}`}>
             {offer.highlights.map((item) => (
               <li
@@ -185,7 +188,7 @@ function OfferTierCard({
           <div className={`border-t ${border}`}>
             <button
               type="button"
-              onClick={() => setDetailsOpen((open) => !open)}
+              onClick={onToggleDetails}
               aria-expanded={detailsOpen}
               className={`flex w-full items-center justify-between gap-3 py-4 text-left transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
                 onLight
@@ -289,7 +292,6 @@ export function PricingSection({
 } = {}) {
   const {
     title: defaultTitle,
-    subtitle,
     deliveryLabel,
     collaborationLabel,
     includesLabel,
@@ -303,7 +305,7 @@ export function PricingSection({
 
   const title = titleOverride ?? defaultTitle;
   const reduceMotion = useReducedMotion() ?? false;
-  const subtitleText = Array.isArray(subtitle) ? subtitle.join(" ") : subtitle;
+  const [openOfferId, setOpenOfferId] = useState<string | null>(null);
 
   return (
     <>
@@ -313,21 +315,18 @@ export function PricingSection({
       >
         <div className="relative mx-auto flex w-full max-w-[1400px] flex-col gap-5 md:gap-6">
           <motion.div
-            className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-8"
+            className="flex justify-end"
             initial={reduceMotion ? false : { opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.7 }}
             transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
           >
-            <p className="max-w-[26rem] text-[14px] leading-snug font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[15px]">
-              {subtitleText}
-            </p>
             <h2 className="text-right text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
               {title}
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 gap-2.5 md:grid-cols-2 md:gap-3">
+          <div className="grid grid-cols-1 items-start gap-2.5 md:grid-cols-2 md:gap-3">
             {offers.map((offer, index) => (
               <OfferTierCard
                 key={offer.id}
@@ -341,6 +340,12 @@ export function PricingSection({
                 ctaHref={ctaHref}
                 index={index}
                 reduceMotion={reduceMotion}
+                detailsOpen={openOfferId === offer.id}
+                onToggleDetails={() =>
+                  setOpenOfferId((current) =>
+                    current === offer.id ? null : offer.id,
+                  )
+                }
               />
             ))}
           </div>
@@ -357,9 +362,6 @@ export function PricingSection({
               <h2 className="text-[clamp(2.5rem,6vw,4.25rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
                 {storeTeaser.name}.
               </h2>
-              <p className="mt-3 max-w-[32rem] text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[15px]">
-                {storeTeaser.forWhom}
-              </p>
             </div>
 
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4">

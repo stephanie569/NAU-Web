@@ -97,7 +97,7 @@ function FeaturedBlogCard() {
 }
 
 export function BlogPreviewSection() {
-  const { title, titleMuted, description, cta, ctaHref } = blogSectionCopy;
+  const { title, titleMuted, cta, ctaHref } = blogSectionCopy;
 
   return (
     <section
@@ -107,19 +107,14 @@ export function BlogPreviewSection() {
     >
       <div className="mx-auto w-full max-w-[1520px]">
         <div className="mb-8 flex flex-col gap-5 sm:mb-10 sm:flex-row sm:items-end sm:justify-between sm:gap-10 lg:mb-12">
-          <div className="max-w-[28rem] sm:order-1 sm:pb-1">
-            <p className="text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-white/55 md:text-[15px]">
-              {description}
-            </p>
-            <div className="mt-4">
-              <NauButton href={ctaHref} variant="light" electric={false}>
-                {cta}
-              </NauButton>
-            </div>
+          <div className="sm:order-1 sm:pb-1">
+            <NauButton href={ctaHref} variant="light" electric={false}>
+              {cta}
+            </NauButton>
           </div>
-          <h2 className="text-left text-[clamp(2.25rem,5.5vw,4rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white sm:order-2 sm:max-w-[22rem] sm:text-right lg:max-w-[26rem]">
-            {title}{" "}
-            <span className="text-white/55">{titleMuted}</span>
+          <h2 className="text-left text-[clamp(2.25rem,5.5vw,4rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white sm:order-2 sm:text-right">
+            <span className="block">{title}</span>
+            <span className="block text-white/55">{titleMuted}</span>
           </h2>
         </div>
 

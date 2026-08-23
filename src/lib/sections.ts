@@ -175,13 +175,10 @@ export const projectsPageItems = [
 
 export const servicesSectionCopy = {
   count: 4,
-  lead:
-    "One connected campaign is the main offer. Research, positioning, strategy and UGC ship in one cycle. Digital guides and on-location shoots are separate.",
 };
 
 export const industriesSectionCopy = {
   title: "Industries.",
-  lead: "I work with brands that sell movement, escape and adventure. One campaign at a time: clear story, then content that carries it.",
   platformsLabel: "Videos made for",
   platforms: ["Instagram", "TikTok", "LinkedIn", "YouTube Shorts"],
   items: [
@@ -269,7 +266,6 @@ export const servicesItems = [
 
 export const capabilitiesSectionCopy = {
   title: "Capabilities.",
-  lead: "What one campaign can include. On-location shoots in Europe are priced separately.",
   items: [
     {
       number: "01",
@@ -349,9 +345,6 @@ export const testimonialsSectionCopy = {
 
 export const pricingSectionCopy = {
   title: "Work with me.",
-  subtitle: [
-    "One connected campaign at a fixed price. On-location is scoped separately.",
-  ],
   vatNote: "All prices excl. VAT.",
   deliveryLabel: "Delivery",
   outcomeLabel: "Outcome",
@@ -439,8 +432,6 @@ export const pricingSectionCopy = {
     id: "digital-guides",
     name: "Digital guides",
     price: "From $19",
-    forWhom:
-      "Sold separately from Full cycle. Positioning, GTM and the series, without a full engagement.",
     outcome:
       "The same frameworks I use on client projects, packaged as guides you can buy and use straight away.",
     delivery: "Instant download",
@@ -741,16 +732,16 @@ export const teamSectionCopy = {
   sectionTitleLead: "meet the",
   sectionTitle: "Founder.",
   titleLead: "You built something worth\u00A0buying.",
-  title: "I help the right buyers find\u00A0it.",
+  title: "Now get it in front of the right\u00A0buyers.",
   company: "nau studio",
   lead:
-    "I run one connected campaign for product brands: research, positioning, strategy and UGC in one cycle.",
+    "I help product brands grow through positioning, organic go-to-market, and connected campaign video.",
   field:
-    "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses. Product and growth trained, with a product-market lens on every brief.",
+    "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses. Product and growth trained, with a product-market lens on positioning and go-to-market.",
   proof:
-    "One brief, one story, one campaign series. Digital guides and on-location shoots are scoped separately.",
+    "We start with who buys and why you win, then build the UGC series around it. On-location shoots in Europe are priced on the first consultation.",
   closeLead: "You bring the\u00A0product.",
-  closeEmphasis: "I make sure the right audience finds\u00A0it.",
+  closeEmphasis: "I help the right audience find\u00A0it.",
   metrics: [
     { value: "20+", label: "Brands" },
     { value: "60+", label: "Campaigns" },
@@ -782,7 +773,6 @@ export const teamMembers = [
 
 export const faqSectionCopy = {
   title: "FAQ.",
-  description: "Clear answers about working with me.",
 };
 
 export const faqItems = [
@@ -816,8 +806,6 @@ export const faqItems = [
 export const blogSectionCopy = {
   title: "Newest essays",
   titleMuted: "from the studio.",
-  description:
-    "Organic growth, positioning and campaign storytelling for brands that make things.",
   cta: "Read",
   ctaHref: "/essays",
   brand: "nau",

@@ -157,7 +157,7 @@ export function TeamSection() {
               <p className="text-[clamp(1.55rem,3vw,2rem)] leading-[1.15] font-semibold tracking-[-0.05em] text-pretty text-[#0a0a0a]">
                 {titleLead}
               </p>
-              <p className="mt-2 text-[clamp(1.15rem,2vw,1.35rem)] leading-[1.3] font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/70">
+              <p className="mt-2 text-[clamp(1.2rem,2.2vw,1.5rem)] leading-[1.25] font-semibold tracking-[-0.045em] text-pretty text-[#0a1f5a]">
                 {title}
               </p>
             </div>

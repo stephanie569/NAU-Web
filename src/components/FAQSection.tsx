@@ -65,7 +65,7 @@ function FAQItem({
 }
 
 export function FAQSection() {
-  const { title, description } = faqSectionCopy;
+  const { title } = faqSectionCopy;
   const [openIndex, setOpenIndex] = useState(-1);
 
   return (
@@ -78,9 +78,6 @@ export function FAQSection() {
           <h2 className="text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
             {title}
           </h2>
-          <p className="mt-2.5 max-w-[28rem] text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[15px]">
-            {description}
-          </p>
         </div>
 
         <div className="rounded-[16px] border border-[#0a0a0a]/10 bg-white px-5 md:px-7">

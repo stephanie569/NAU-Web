@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { servicesItems, servicesSectionCopy } from "@/lib/sections";
+import { servicesItems } from "@/lib/sections";
 
 function NoiseOverlay() {
   return (
@@ -180,9 +180,6 @@ export function ServicesSection() {
             <h2 className="text-[clamp(3rem,7.5vw,5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
               Services.
             </h2>
-            <p className="mt-3 max-w-[36rem] text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-white/55 md:text-[15px]">
-              {servicesSectionCopy.lead}
-            </p>
           </div>
         </div>
 

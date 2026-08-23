@@ -10,7 +10,7 @@ function CapabilityPlus() {
 }
 
 export function CapabilitiesSection() {
-  const { title, lead, items } = capabilitiesSectionCopy;
+  const { title, items } = capabilitiesSectionCopy;
 
   return (
     <section
@@ -26,9 +26,6 @@ export function CapabilitiesSection() {
           >
             {title}
           </h2>
-          <p className="ml-auto mt-2.5 max-w-[30rem] text-[13px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[14px]">
-            {lead}
-          </p>
         </div>
 
         <ul className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 xl:grid-cols-3 xl:gap-3">

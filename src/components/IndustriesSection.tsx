@@ -45,7 +45,7 @@ function IndustryCard({ item }: { item: IndustryItem }) {
 }
 
 export function IndustriesSection() {
-  const { title, lead, items } = industriesSectionCopy;
+  const { title, items } = industriesSectionCopy;
 
   return (
     <section
@@ -58,9 +58,6 @@ export function IndustriesSection() {
           <h2 className="text-[clamp(2.25rem,5.5vw,3.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
             {title}
           </h2>
-          <p className="mt-2.5 max-w-[36rem] text-[13px] leading-snug font-medium tracking-[-0.03em] text-white/55 md:mt-3 md:text-[14px]">
-            {lead}
-          </p>
         </div>
 
         <div className="grid grid-cols-1 items-stretch gap-1 sm:grid-cols-2 lg:min-h-0 lg:flex-1 lg:grid-cols-3">
