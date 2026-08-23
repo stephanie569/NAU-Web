@@ -162,11 +162,8 @@ export function TeamSection() {
               </p>
             </div>
 
-            <p className="mt-6 max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a] md:text-[16px]">
-              {lead}
-            </p>
-
-            <div className="mt-5 max-w-[34rem] space-y-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/75 md:text-[16px]">
+            <div className="mt-6 max-w-[34rem] space-y-3 border-l-2 border-[#0a1f5a]/40 pl-4 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/70 md:text-[16px]">
+              <p>{lead}</p>
               <p>{field}</p>
               <p>{proof}</p>
             </div>

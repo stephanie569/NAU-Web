@@ -21,7 +21,7 @@ function LogoCard({
         src={project.src}
         alt={project.name}
         fill
-        className="object-contain opacity-[0.55] grayscale"
+        className="object-contain"
         sizes="260px"
         quality={100}
       />

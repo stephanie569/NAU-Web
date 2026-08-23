@@ -412,9 +412,9 @@ export const clients: ClientProfile[] = [
   {
     slug: "kingo",
     name: "Kingo",
-    headline: "A product story the right buyers can find.",
+    headline: "Testimonials and street marketing that still hold on social.",
     role: "Consumer product",
-    bio: "Kingo had a product worth buying and a feed that still sounded like everyone else. I clarified who it is for, set organic go-to-market goals and made a campaign content series so the right audience could find the product, remember it and share it for the right reason.",
+    bio: "Research showed Kingo wins when real buyers speak and when the product shows up in the street, not when another feed post lists features. We pushed hard on testimonials and street marketing, then moved every cut to social so the brand keeps a clear, repeating standard online.",
     photo: "/images/clients/kingo-cover-v2.png",
     photoAlt: "Kingo sales AI app on a phone, with floating opportunity and assistant cards",
     logo: "/logos/kingo.png",
@@ -422,17 +422,17 @@ export const clients: ClientProfile[] = [
     category: "Content Creation",
     campaign: {
       research:
-        "We reviewed Kingo’s category neighbours, retail language and how buyers describe the product when they recommend it to a friend. The gap was not volume. It was clarity: features were listed, but the job-to-be-done was soft. Competitor content rented trends. Kingo needed a series that made the product’s job obvious in seconds.",
+        "We tested how buyers actually decide: category neighbours, retail language, and what lands when someone recommends Kingo to a peer. Feature explainers underperformed. Testimonials and street marketing outperformed everything else — proof from people who already use it, plus presence in the real world. Social still matters, but as the distribution layer, not the only creative idea.",
       goals: [
-        "Lock ICP and the one job the product wins on",
-        "Build messaging and hooks that carry a full campaign series",
-        "Ship campaign content across Instagram, TikTok, YouTube and LinkedIn",
-        "Grow organic discovery without relying on paid boosts",
+        "Lead the campaign with testimonials and street marketing",
+        "Keep product proof specific: who buys, what they win, why they stay",
+        "Ship every cut to Instagram and the other socials to hold a consistent brand standard",
+        "Grow organic discovery without renting attention every week",
       ],
     },
     results: {
       summary:
-        "The campaign gave Kingo a clear product story and a content system that compounds. Organic views and saves rose, and the brand stopped resetting the narrative with every post.",
+        "Kingo stopped guessing what to post. Testimonials and street cuts became the spine of the campaign, then landed on social as one clear standard. Organic views and saves rose, and the feed finally sounded like the product buyers already trust.",
       metrics: [
         { value: "640K+", label: "Organic views" },
         { value: "+52%", label: "Saves vs prior month" },
@@ -442,13 +442,6 @@ export const clients: ClientProfile[] = [
     },
     work: [
       {
-        title: "Start outreaching · campaign cut",
-        platform: "Instagram",
-        href: "/videos/clients/kingo/start-outreaching.mp4",
-        thumbnail: "/images/clients/kingo/start-outreaching.jpg",
-        videoSrc: "/videos/clients/kingo/start-outreaching.mp4",
-      },
-      {
         title: "Street marketing · campaign cut",
         platform: "Instagram",
         href: "/videos/clients/kingo/street-marketing.mp4",
@@ -456,18 +449,25 @@ export const clients: ClientProfile[] = [
         videoSrc: "/videos/clients/kingo/street-marketing.mp4",
       },
       {
-        title: "Day in the life of a founder · campaign cut",
-        platform: "Instagram",
-        href: "/videos/clients/kingo/day-in-the-life-founder.mp4",
-        thumbnail: "/images/clients/kingo/day-in-the-life-founder.jpg",
-        videoSrc: "/videos/clients/kingo/day-in-the-life-founder.mp4",
-      },
-      {
         title: "Testimonial · campaign cut",
         platform: "Instagram",
         href: "/videos/clients/kingo/testimonial.mp4",
         thumbnail: "/images/clients/kingo/testimonial.jpg",
         videoSrc: "/videos/clients/kingo/testimonial.mp4",
+      },
+      {
+        title: "Start outreaching · campaign cut",
+        platform: "Instagram",
+        href: "/videos/clients/kingo/start-outreaching.mp4",
+        thumbnail: "/images/clients/kingo/start-outreaching.jpg",
+        videoSrc: "/videos/clients/kingo/start-outreaching.mp4",
+      },
+      {
+        title: "Day in the life of a founder · campaign cut",
+        platform: "Instagram",
+        href: "/videos/clients/kingo/day-in-the-life-founder.mp4",
+        thumbnail: "/images/clients/kingo/day-in-the-life-founder.jpg",
+        videoSrc: "/videos/clients/kingo/day-in-the-life-founder.mp4",
       },
     ],
   },

@@ -31,13 +31,13 @@ export function GuideComingSoonCover({
             ? `
               linear-gradient(
                 180deg,
-                rgba(8,8,8,0.72) 0%,
-                rgba(8,8,8,0.38) 32%,
-                rgba(8,8,8,0.28) 52%,
-                rgba(8,8,8,0.55) 72%,
-                rgba(8,8,8,0.88) 100%
+                rgba(8,8,8,0.45) 0%,
+                rgba(8,8,8,0.18) 34%,
+                rgba(8,8,8,0.12) 54%,
+                rgba(8,8,8,0.35) 74%,
+                rgba(8,8,8,0.7) 100%
               ),
-              linear-gradient(135deg, ${poster.gradientFrom}aa 0%, transparent 55%)
+              linear-gradient(135deg, ${poster.gradientFrom}66 0%, transparent 55%)
             `
             : `
               radial-gradient(120% 80% at 12% -10%, rgba(91, 75, 155, 0.5) 0%, transparent 52%),
