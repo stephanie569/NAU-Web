@@ -187,7 +187,11 @@ function OfferTierCard({
               type="button"
               onClick={() => setDetailsOpen((open) => !open)}
               aria-expanded={detailsOpen}
-              className="flex w-full items-center justify-between gap-3 py-4 text-left transition-opacity hover:opacity-80"
+              className={`flex w-full items-center justify-between gap-3 py-4 text-left transition-opacity hover:opacity-80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 ${
+                onLight
+                  ? "focus-visible:ring-[#0a0a0a]/25 focus-visible:ring-offset-white"
+                  : "focus-visible:ring-white/40 focus-visible:ring-offset-[#0a0a0a]"
+              }`}
             >
               <p className="text-[13px] font-semibold tracking-[-0.04em]">
                 {detailsOpen ? "Hide breakdown" : "Full breakdown"}
@@ -200,15 +204,18 @@ function OfferTierCard({
                 detailsOpen ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
               }`}
             >
-              <div className="min-h-0 overflow-hidden pb-4">
-                <div className="grid gap-5 sm:grid-cols-2">
+              <div
+                className={`min-h-0 overflow-hidden ${detailsOpen ? "pb-5" : ""}`}
+                aria-hidden={!detailsOpen}
+              >
+                <div className="space-y-5">
                   <div className="min-w-0">
                     <p
                       className={`text-[10px] font-semibold uppercase tracking-[0.12em] ${faint}`}
                     >
                       {collaborationLabel}
                     </p>
-                    <ul className="mt-2 space-y-1.5">
+                    <ul className="mt-2.5 grid gap-x-4 gap-y-2 sm:grid-cols-2">
                       {offer.collaboration.map((item) => (
                         <li key={item} className="flex items-start gap-2.5">
                           <FeaturePlusIcon tone={offer.tone} />
@@ -221,13 +228,14 @@ function OfferTierCard({
                       ))}
                     </ul>
                   </div>
+
                   <div className="min-w-0">
                     <p
                       className={`text-[10px] font-semibold uppercase tracking-[0.12em] ${faint}`}
                     >
                       {includesLabel}
                     </p>
-                    <ul className="mt-2 space-y-1.5">
+                    <ul className="mt-2.5 grid gap-x-4 gap-y-2 sm:grid-cols-2">
                       {offer.includes.map((item) => (
                         <li key={item} className="flex items-start gap-2.5">
                           <FeaturePlusIcon tone={offer.tone} />
@@ -240,25 +248,26 @@ function OfferTierCard({
                       ))}
                     </ul>
                   </div>
-                </div>
-                <div className={`mt-4 border-t pt-3 ${border}`}>
-                  <p
-                    className={`text-[10px] font-semibold uppercase tracking-[0.12em] ${faint}`}
-                  >
-                    {goodToKnowLabel}
-                  </p>
-                  <ul className="mt-2 space-y-1.5">
-                    {offer.goodToKnow.map((item) => (
-                      <li key={item} className="flex items-start gap-2.5">
-                        <FeaturePlusIcon tone={offer.tone} />
-                        <span
-                          className={`min-w-0 break-words text-[12px] leading-snug font-medium tracking-[-0.04em] ${body}`}
-                        >
-                          {item}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
+
+                  <div className={`border-t pt-4 ${border}`}>
+                    <p
+                      className={`text-[10px] font-semibold uppercase tracking-[0.12em] ${faint}`}
+                    >
+                      {goodToKnowLabel}
+                    </p>
+                    <ul className="mt-2.5 grid gap-x-4 gap-y-2 sm:grid-cols-2">
+                      {offer.goodToKnow.map((item) => (
+                        <li key={item} className="flex items-start gap-2.5">
+                          <FeaturePlusIcon tone={offer.tone} />
+                          <span
+                            className={`min-w-0 break-words text-[12px] leading-snug font-medium tracking-[-0.04em] ${body}`}
+                          >
+                            {item}
+                          </span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

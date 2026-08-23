@@ -71,7 +71,7 @@ export const featuredProjects = [
 export const projectsSectionCopy = {
   count: "20+",
   description:
-    "Selected work with product brands growing steadily: organic go-to-market, positioning and campaign content series.",
+    "Product brands growing through one connected campaign at a time.",
   cta: "View all",
   ctaHref: "/clients",
   homeLimit: 4,
@@ -79,7 +79,7 @@ export const projectsSectionCopy = {
 
 export const pageBottomCtaCopy = {
   ctaLead: "Let the right audience find you through one connected campaign.",
-  ctaHighlight: "That's the progress we build together.",
+  ctaHighlight: "That's the impact we build together.",
   ctaButton: "Work with me",
   ctaHref: "/contact",
   secondaryButton: "Explore products",
@@ -175,11 +175,13 @@ export const projectsPageItems = [
 
 export const servicesSectionCopy = {
   count: 4,
+  lead:
+    "One connected campaign is the main offer. Research, positioning, strategy and UGC ship in one cycle. Digital guides and on-location shoots are separate.",
 };
 
 export const industriesSectionCopy = {
   title: "Industries.",
-  lead: "I work with brands that sell movement, escape and adventure. Same craft across categories: clear story, then content that carries it.",
+  lead: "I work with brands that sell movement, escape and adventure. One campaign at a time: clear story, then content that carries it.",
   platformsLabel: "Videos made for",
   platforms: ["Instagram", "TikTok", "LinkedIn", "YouTube Shorts"],
   items: [
@@ -215,7 +217,7 @@ export const servicesItems = [
     number: "001",
     title: "Research & Positioning",
     summary:
-      "You receive a clear assessment of what you're launching and the problem it solves: a map of the market, category and competitors, and sharp positioning on who it's for and why it wins, before anyone films a post.",
+      "Inside your campaign: a clear read on the market, category and competitors, plus positioning on who it is for and why it wins, before anything is filmed.",
     thumbnail: "/images/service-research-positioning.png",
     categories: [
       "Validation",
@@ -228,8 +230,8 @@ export const servicesItems = [
     number: "002",
     title: "Content Creation",
     summary:
-      "You receive an early brief first. Then I deliver a full set of materials as UGC, made to hold attention longer. On-location shoots in Europe are available at a separate price, agreed on the first consultation.",
-    thumbnail: "/images/service-content-creation-phone.png",
+      "The campaign deliverable: a full UGC series made to hold attention. On-location shoots in Europe are a separate tier, agreed on the first consultation.",
+    thumbnail: "/images/service-content-creation-minimal.png",
     categories: [
       "Campaigns",
       "Promo",
@@ -241,7 +243,7 @@ export const servicesItems = [
     number: "003",
     title: "Marketing Strategy",
     summary:
-      "You receive a plan you can put into practice, including messaging, hooks and channel choices, plus a story that compounds across the series. A launch and growth sequence, with the materials shipping last.",
+      "Inside your campaign: messaging, hooks, channel choices and a 60-day organic plan the series carries. Not a standalone strategy deck.",
     thumbnail: "/images/service-marketing-strategy.png",
     categories: [
       "Growth",
@@ -254,7 +256,7 @@ export const servicesItems = [
     number: "004",
     title: "Digital Guides",
     summary:
-      "You receive strategy playbooks sold separately from Full cycle, when a full engagement isn't the right fit yet. Positioning, launch and GTM frameworks from how I work with product brands, delivered on purchase.",
+      "Sold separately from the campaign. Strategy playbooks for teams that are not ready for a full engagement yet.",
     thumbnail: "/images/service-digital-guides.png",
     categories: [
       "Positioning",
@@ -267,7 +269,7 @@ export const servicesItems = [
 
 export const capabilitiesSectionCopy = {
   title: "Capabilities.",
-  lead: "What a campaign shoot can include for outdoor, travel, hospitality and product brands.",
+  lead: "What one campaign can include. On-location shoots in Europe are priced separately.",
   items: [
     {
       number: "01",
@@ -348,7 +350,7 @@ export const testimonialsSectionCopy = {
 export const pricingSectionCopy = {
   title: "Work with me.",
   subtitle: [
-    "UGC at a fixed price, or on-location with your team.",
+    "One connected campaign at a fixed price. On-location is scoped separately.",
   ],
   vatNote: "All prices excl. VAT.",
   deliveryLabel: "Delivery",
@@ -724,8 +726,8 @@ export type StoreGuide = (typeof storeSectionCopy.items)[number];
 
 export const moreServicesSectionCopy = {
   label: "Need something else?",
-  headlineLead: "Need Research & Positioning, Marketing Strategy, or a campaign content series.",
-  headlineRest: "I shape the mix around your product. The full cycle stays connected.",
+  headlineLead: "The main offer is one connected campaign.",
+  headlineRest: "Digital guides and on-location shoots are scoped separately.",
   contact: {
     name: "Stefani Dimitrova",
     role: "Organic GTM & Product Storyteller",
@@ -739,16 +741,16 @@ export const teamSectionCopy = {
   sectionTitleLead: "meet the",
   sectionTitle: "Founder.",
   titleLead: "You built something worth\u00A0buying.",
-  title: "Now get it in front of the right\u00A0buyers.",
+  title: "I help the right buyers find\u00A0it.",
   company: "nau studio",
   lead:
-    "I help product brands grow through positioning, organic go-to-market, and connected campaign video.",
+    "I run one connected campaign for product brands: research, positioning, strategy and UGC in one cycle.",
   field:
-    "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses. Product and growth trained, with a product-market lens on positioning and go-to-market.",
+    "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses. Product and growth trained, with a product-market lens on every brief.",
   proof:
-    "We start with who buys and why you win, then build the UGC series around it. On-location shoots in Europe are priced on the first consultation.",
+    "One brief, one story, one campaign series. Digital guides and on-location shoots are scoped separately.",
   closeLead: "You bring the\u00A0product.",
-  closeEmphasis: "I help the right audience find\u00A0it.",
+  closeEmphasis: "I make sure the right audience finds\u00A0it.",
   metrics: [
     { value: "20+", label: "Brands" },
     { value: "60+", label: "Campaigns" },
@@ -792,7 +794,7 @@ export const faqItems = [
   {
     question: "What do you help with?",
     answer:
-      "The full cycle: research, positioning, organic go-to-market, and content as a campaign series of promo videos that complement each other so attention lasts longer. All three services are real. I'm strongest at executing organic GTM and building the storytelling that makes it land.",
+      "One connected campaign: research, positioning, organic go-to-market and a UGC series that work as one story. Digital guides and on-location shoots are separate offers.",
   },
   {
     question: "Are digital guides included in Full cycle?",

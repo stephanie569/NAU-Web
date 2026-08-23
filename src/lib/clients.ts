@@ -153,7 +153,7 @@ export const clients: ClientProfile[] = [
       summary:
         "The series turned a multi-vendor planning headache into a clear product story. Organic views and quote intent rose without ads, and The Pine finally had a campaign library that shows stays, experiences and facilitation as one coordinated getaway.",
       metrics: [
-        { value: "1.2M+", label: "Organic views" },
+        { value: "400K+", label: "Organic views" },
         { value: "3.4×", label: "Avg. watch time vs prior posts" },
         { value: "+48%", label: "Quote form starts in 60 days" },
         { value: "5", label: "Paid social reels shipped" },
@@ -318,11 +318,11 @@ export const clients: ClientProfile[] = [
     },
     results: {
       summary:
-        "Sharp market and competitor research clarified where the brand stands and who it needs to win. The team left with a positioning system, a runnable GTM sequence and a content brief that finally matched the product story.",
+        "The campaign clarified where Fly the Earth stands and gave the brand a content library that pulls people through one story. Organic views and enquiry intent rose without paid ads.",
       metrics: [
-        { value: "8", label: "Competitor brands audited" },
-        { value: "1", label: "Positioning system locked" },
-        { value: "60-day", label: "Organic GTM plan" },
+        { value: "720K+", label: "Organic views" },
+        { value: "2.8×", label: "Completion rate vs prior Reels" },
+        { value: "+36%", label: "Enquiry form starts" },
         { value: "5", label: "Campaign reels shipped" },
       ],
     },
@@ -437,7 +437,7 @@ export const clients: ClientProfile[] = [
         { value: "640K+", label: "Organic views" },
         { value: "+52%", label: "Saves vs prior month" },
         { value: "2.1×", label: "Avg. engagement rate" },
-        { value: "5", label: "Campaign reels shipped" },
+        { value: "4", label: "Campaign reels shipped" },
       ],
     },
     work: [
@@ -468,13 +468,6 @@ export const clients: ClientProfile[] = [
         href: "/videos/clients/kingo/testimonial.mp4",
         thumbnail: "/images/clients/kingo/testimonial.jpg",
         videoSrc: "/videos/clients/kingo/testimonial.mp4",
-      },
-      {
-        title: "Subway poster · campaign cut",
-        platform: "Instagram",
-        href: "/videos/clients/kingo/subway-poster.mp4",
-        thumbnail: "/images/clients/kingo/subway-poster.jpg",
-        videoSrc: "/videos/clients/kingo/subway-poster.mp4",
       },
     ],
   },

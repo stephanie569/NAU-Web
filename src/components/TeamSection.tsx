@@ -157,21 +157,21 @@ export function TeamSection() {
               <p className="text-[clamp(1.55rem,3vw,2rem)] leading-[1.15] font-semibold tracking-[-0.05em] text-pretty text-[#0a0a0a]">
                 {titleLead}
               </p>
-              <p className="mt-2 text-[clamp(1.2rem,2.2vw,1.5rem)] leading-[1.25] font-semibold tracking-[-0.045em] text-pretty text-[#0a1f5a]">
+              <p className="mt-2 text-[clamp(1.15rem,2vw,1.35rem)] leading-[1.3] font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/70">
                 {title}
               </p>
             </div>
 
-            <p className="mt-5 max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a] md:text-[16px]">
+            <p className="mt-6 max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a] md:text-[16px]">
               {lead}
             </p>
 
-            <div className="mt-4 max-w-[34rem] space-y-2.5 border-l-2 border-[#CB1B03]/30 pl-4 text-[14px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/55 md:text-[15px]">
+            <div className="mt-5 max-w-[34rem] space-y-3 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-pretty text-[#0a0a0a]/75 md:text-[16px]">
               <p>{field}</p>
               <p>{proof}</p>
             </div>
 
-            <p className="mt-5 max-w-[34rem] text-[15px] leading-snug font-medium tracking-[-0.04em] text-[#0a0a0a] md:text-[16px]">
+            <p className="mt-6 max-w-[34rem] text-[15px] leading-snug font-medium tracking-[-0.04em] text-[#0a0a0a] md:text-[16px]">
               {closeLead}{" "}
               <span className="font-semibold">{closeEmphasis}</span>
             </p>

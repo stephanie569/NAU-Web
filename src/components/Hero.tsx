@@ -8,9 +8,9 @@ import { YouTubeBackgroundVideo } from "@/components/YouTubeBackgroundVideo";
 import { heroBackgroundVideoId } from "@/lib/hero";
 
 const heroServices = [
-  "Research & Positioning",
-  "Content Creation",
-  "Marketing Strategy",
+  "One connected campaign",
+  "Research · Strategy · UGC",
+  "Guides & on-location separate",
 ];
 
 function PlusIcon() {
