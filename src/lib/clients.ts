@@ -442,6 +442,13 @@ export const clients: ClientProfile[] = [
     },
     work: [
       {
+        title: "Start outreaching · campaign cut",
+        platform: "Instagram",
+        href: "/videos/clients/kingo/start-outreaching.mp4",
+        thumbnail: "/images/clients/kingo/start-outreaching.jpg",
+        videoSrc: "/videos/clients/kingo/start-outreaching.mp4",
+      },
+      {
         title: "Street marketing · campaign cut",
         platform: "Instagram",
         href: "/videos/clients/kingo/street-marketing.mp4",
@@ -454,13 +461,6 @@ export const clients: ClientProfile[] = [
         href: "/videos/clients/kingo/testimonial.mp4",
         thumbnail: "/images/clients/kingo/testimonial.jpg",
         videoSrc: "/videos/clients/kingo/testimonial.mp4",
-      },
-      {
-        title: "Start outreaching · campaign cut",
-        platform: "Instagram",
-        href: "/videos/clients/kingo/start-outreaching.mp4",
-        thumbnail: "/images/clients/kingo/start-outreaching.jpg",
-        videoSrc: "/videos/clients/kingo/start-outreaching.mp4",
       },
       {
         title: "Day in the life of a founder · campaign cut",

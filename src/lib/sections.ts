@@ -737,9 +737,9 @@ export const teamSectionCopy = {
   lead:
     "I help product brands grow through positioning, organic go-to-market, and connected campaign video.",
   field:
-    "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses. Product and growth trained, with a product-market lens on positioning and go-to-market.",
+    "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses — plus four years behind the camera as a photographer and videographer. Product and growth trained, so I know what needs to be said and how to capture it.",
   proof:
-    "We start with who buys and why you win, then build the UGC series around it. On-location shoots in Europe are priced on the first consultation.",
+    "We start with who buys and why you win, then build the UGC series around it. On-location shoots in Europe are also available when that path fits.",
   closeLead: "You bring the\u00A0product.",
   closeEmphasis: "I help the right audience find\u00A0it.",
   metrics: [
@@ -811,17 +811,6 @@ export const blogSectionCopy = {
   brand: "nau",
   featuredTitle:
     "Great products still fail before PMF. Here's why.",
-  stickersPromo: {
-    eyebrow: "QR stickers",
-    body: "NAU stickers are out across Europe. Each one asks a question, and the essays live here.",
-    cta: "Sticker essays",
-    href: "/essays#qr-stickers",
-    previewImages: [
-      "/images/qr-stickers/solving-right-problem.jpg",
-      "/images/qr-stickers/not-first-choice.jpg",
-      "/images/qr-stickers/where-users-getting-stuck.jpg",
-    ],
-  },
 };
 
 export const blogPreviewPosts = [
