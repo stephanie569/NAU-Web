@@ -35,7 +35,7 @@ function BlogCard({
   return (
     <Link
       href={`/essays/${post.slug}`}
-      className="group flex min-h-[420px] flex-col justify-between rounded-[14px] border border-white/10 bg-white/[0.05] p-6 md:p-7"
+      className="group flex min-h-[340px] flex-col justify-between rounded-[14px] border border-white/10 bg-white/[0.05] p-5 md:min-h-[360px] md:p-6"
     >
       <div className="flex items-start justify-between gap-4">
         <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-[10px]">
@@ -71,7 +71,7 @@ function FeaturedBlogCard() {
   return (
     <Link
       href={`/essays/${blogFeaturedPost.slug}`}
-      className="group relative block min-h-[420px] overflow-hidden rounded-[14px] border border-white/10 md:col-span-2 lg:col-span-2"
+      className="group relative block min-h-[340px] overflow-hidden rounded-[14px] border border-white/10 md:col-span-2 md:min-h-[360px] lg:col-span-2"
     >
       <Image
         src={blogFeaturedPost.image}
@@ -103,22 +103,24 @@ export function BlogPreviewSection() {
     <section
       id="essays"
       data-header-theme="dark"
-      className="scroll-mt-[61px] bg-[#0a0a0a] px-6 pb-28 pt-16 md:px-9 md:pb-36 md:pt-24"
+      className="scroll-mt-[61px] bg-[#0a0a0a] px-6 py-14 md:px-9 md:py-16 lg:py-20"
     >
       <div className="mx-auto w-full max-w-[1520px]">
-        <div className="mb-12 text-right lg:mb-16">
-          <h2 className="ml-auto max-w-[34rem] text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] font-semibold tracking-[-0.06em] text-white">
+        <div className="mb-8 flex flex-col gap-5 sm:mb-10 sm:flex-row sm:items-end sm:justify-between sm:gap-10 lg:mb-12">
+          <div className="max-w-[28rem] sm:order-1 sm:pb-1">
+            <p className="text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-white/55 md:text-[15px]">
+              {description}
+            </p>
+            <div className="mt-4">
+              <NauButton href={ctaHref} variant="light" electric={false}>
+                {cta}
+              </NauButton>
+            </div>
+          </div>
+          <h2 className="text-left text-[clamp(2.25rem,5.5vw,4rem)] leading-[0.95] font-semibold tracking-[-0.06em] text-white sm:order-2 sm:max-w-[22rem] sm:text-right lg:max-w-[26rem]">
             {title}{" "}
             <span className="text-white/55">{titleMuted}</span>
           </h2>
-          <p className="ml-auto mt-4 max-w-[28rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/55">
-            {description}
-          </p>
-          <div className="mt-6 flex justify-end">
-            <NauButton href={ctaHref} variant="light" electric={false}>
-              {cta}
-            </NauButton>
-          </div>
         </div>
 
         <QrStickersPromo />

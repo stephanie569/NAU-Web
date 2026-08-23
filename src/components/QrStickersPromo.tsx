@@ -29,7 +29,7 @@ export function QrStickersPromo() {
   return (
     <Link
       href={stickersPromo.href}
-      className="group mb-8 flex flex-col gap-5 rounded-[14px] border border-white/10 bg-white/[0.04] p-5 transition-colors hover:border-white/20 hover:bg-white/[0.06] sm:mb-10 sm:flex-row sm:items-center sm:gap-6 sm:p-6 lg:mb-12"
+      className="group mb-6 flex flex-col gap-5 rounded-[14px] border border-white/10 bg-white/[0.04] p-5 transition-colors hover:border-white/20 hover:bg-white/[0.06] sm:mb-8 sm:flex-row sm:items-center sm:gap-6 sm:p-6"
     >
       <div className="flex shrink-0 items-center pl-1">
         {stickersPromo.previewImages.map((src, index) => (

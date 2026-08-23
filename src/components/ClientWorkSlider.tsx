@@ -62,22 +62,36 @@ function WorkCard({
   onStop: () => void;
 }) {
   const gradientId = useId().replace(/:/g, "");
-  const embedSrc = getPlayableEmbedSrc(item, { autoplay: true });
+  const embedSrc = item.videoSrc ? null : getPlayableEmbedSrc(item, { autoplay: true });
+  const playHint = item.videoSrc
+    ? "Play video"
+    : playLabel(item.platform);
 
   return (
     <article className="h-full w-[min(82vw,320px)] shrink-0 snap-start sm:w-[min(58vw,360px)]">
       <div className="overflow-hidden rounded-[18px] border border-[#0a0a0a]/8 bg-[#f7f7f7]">
-        <div className="relative aspect-[4/5] overflow-hidden bg-[#0a0a0a]">
+        <div className="relative aspect-[9/16] overflow-hidden bg-[#0a0a0a]">
           {isPlaying ? (
             <>
-              <iframe
-                src={embedSrc}
-                title={item.title}
-                className="absolute inset-0 h-full w-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-                referrerPolicy="strict-origin-when-cross-origin"
-              />
+              {item.videoSrc ? (
+                <video
+                  src={item.videoSrc}
+                  title={playHint}
+                  className="absolute inset-0 h-full w-full object-contain"
+                  controls
+                  autoPlay
+                  playsInline
+                />
+              ) : (
+                <iframe
+                  src={embedSrc ?? undefined}
+                  title={playHint}
+                  className="absolute inset-0 h-full w-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  referrerPolicy="strict-origin-when-cross-origin"
+                />
+              )}
               <button
                 type="button"
                 onClick={onStop}
@@ -99,16 +113,16 @@ function WorkCard({
               type="button"
               onClick={() => onPlay(cardId)}
               className="group relative block h-full w-full text-left"
-              aria-label={playLabel(item.platform)}
+              aria-label={playHint}
             >
               <Image
                 src={item.thumbnail}
                 alt=""
                 fill
-                className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
+                className="object-contain transition-transform duration-700 group-hover:scale-[1.02]"
                 sizes="360px"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/75 via-[#0a0a0a]/15 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/55 via-transparent to-transparent" />
               <div className="absolute top-3 left-3">
                 <PlatformIcon
                   name={item.platform}
@@ -119,15 +133,12 @@ function WorkCard({
               <span className="absolute top-1/2 left-1/2 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white text-[#0a0a0a] shadow-[0_12px_40px_rgba(0,0,0,0.35)] transition-transform group-hover:scale-105">
                 <PlayGlyph />
               </span>
-              <p className="absolute right-3 bottom-3 left-3 text-[15px] leading-snug font-semibold tracking-[-0.04em] text-white">
-                {item.title}
-              </p>
             </button>
           )}
         </div>
         <div className="flex items-center justify-between gap-3 px-4 py-3.5">
           <p className="text-[13px] font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
-            {isPlaying ? "Playing on this page" : playLabel(item.platform)}
+            {isPlaying ? "Playing on this page" : playHint}
           </p>
           {!isPlaying ? (
             <span
@@ -185,7 +196,7 @@ export function ClientWorkSlider({ work }: { work: ClientWorkItem[] }) {
         className="flex snap-x snap-mandatory gap-3 overflow-x-auto pb-2 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
         {work.map((item, index) => {
-          const cardId = `${item.platform}-${item.title}-${index}`;
+          const cardId = `${item.platform}-${index}`;
           return (
             <WorkCard
               key={cardId}

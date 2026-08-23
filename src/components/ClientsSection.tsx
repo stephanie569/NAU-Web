@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { getClient } from "@/lib/clients";
 import { selectedWorkSection } from "@/lib/sections";
 
 function LogoCard({
@@ -9,21 +10,34 @@ function LogoCard({
 }: {
   project: (typeof selectedWorkSection.projects)[number];
 }) {
+  const client = getClient(project.id);
+  const className =
+    "flex h-[180px] w-[min(55vw,300px)] shrink-0 items-center justify-center rounded-[14px] bg-white px-5 transition-opacity sm:w-[340px] sm:px-6";
+  const hoverClass = client ? "hover:opacity-80" : "";
+
+  const content = (
+    <div className="relative h-[130px] w-full max-w-[240px] sm:h-[140px] sm:max-w-[260px]">
+      <Image
+        src={project.src}
+        alt={project.name}
+        fill
+        className="object-contain"
+        sizes="260px"
+        quality={100}
+      />
+    </div>
+  );
+
+  if (!client) {
+    return <div className={`${className} ${hoverClass}`.trim()}>{content}</div>;
+  }
+
   return (
     <Link
       href={`/clients/${project.id}`}
-      className="flex h-[180px] w-[min(55vw,300px)] shrink-0 items-center justify-center rounded-[14px] bg-white px-5 transition-opacity hover:opacity-80 sm:w-[340px] sm:px-6"
+      className={`${className} ${hoverClass}`.trim()}
     >
-      <div className="relative h-[130px] w-full max-w-[240px] sm:h-[140px] sm:max-w-[260px]">
-        <Image
-          src={project.src}
-          alt={project.name}
-          fill
-          className="object-contain"
-          sizes="260px"
-          quality={100}
-        />
-      </div>
+      {content}
     </Link>
   );
 }

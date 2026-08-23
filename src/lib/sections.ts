@@ -7,6 +7,11 @@ export const serviceCategories = [
 export const selectedWorkSection = {
   projects: [
     {
+      id: "tommy-hilfiger",
+      name: "Tommy Hilfiger",
+      src: "/logos/tommy-hilfiger.png",
+    },
+    {
       id: "the-pine",
       name: "The Pine",
       src: "/logos/the-pine.png",
@@ -734,14 +739,14 @@ export const teamSectionCopy = {
   sectionTitleLead: "meet the",
   sectionTitle: "Founder.",
   titleLead: "You built something worth\u00A0buying.",
-  title: "Now it's time for your audience to find\u00A0you.",
+  title: "Now get it in front of the right\u00A0buyers.",
   company: "nau studio",
   lead:
-    "And that is how you found me. I help founders bring strong products to the people who should buy them, with demand that lasts beyond a single campaign.",
+    "I help product brands grow through positioning, organic go-to-market, and connected campaign video.",
   field:
-    "We start by defining who the product is for, why it wins, and what to say. Then I produce a full set of materials as UGC. On-location shoots in Europe are available at a separate price, agreed on the first consultation.",
+    "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses. Product and growth trained, with a product-market lens on positioning and go-to-market.",
   proof:
-    "Not another stream of random posts. Clear, memorable videos that people understand in seconds and share with buyers who already need what you\u00A0built.",
+    "We start with who buys and why you win, then build the UGC series around it. On-location shoots in Europe are priced on the first consultation.",
   closeLead: "You bring the\u00A0product.",
   closeEmphasis: "I help the right audience find\u00A0it.",
   metrics: [

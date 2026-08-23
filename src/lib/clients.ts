@@ -12,6 +12,8 @@ export type ClientWorkItem = {
   platform: ClientPlatform;
   href: string;
   thumbnail: string;
+  /** Local MP4 for on-page playback when no social embed URL exists. */
+  videoSrc?: string;
 };
 
 export type ClientMetric = {
@@ -154,29 +156,46 @@ export const clients: ClientProfile[] = [
         { value: "1.2M+", label: "Organic views" },
         { value: "3.4×", label: "Avg. watch time vs prior posts" },
         { value: "+48%", label: "Quote form starts in 60 days" },
-        { value: "10", label: "Campaign videos shipped" },
+        { value: "5", label: "Paid social reels shipped" },
       ],
     },
-    work: seriesWork(
-      [
-        "01 · Hook: your ideal team retreat, made easy",
-        "02 · Stays & venues that fit the team",
-        "03 · Curated experiences that actually bond",
-        "04 · On-site facilitation, when you want it",
-        "05 · Greece to Bulgaria: pick the backdrop",
-        "06 · Food, transport and logistics in one flow",
-        "07 · Proof: what teams say after the reset",
-        "08 · LinkedIn cut for HR and office managers",
-        "09 · Mid-series: connection, focus, growth",
-        "10 · Series closer: get a quote, not another vendor list",
-      ],
-      [
-        "/images/clients/the-pine-boat.jpg",
-        "/images/guides/adventure.jpg",
-        "/images/guides/travel-lake.jpg",
-        "/images/guides/travel.jpg",
-      ],
-    ),
+    work: [
+      {
+        title: "Soda hybrid reel · Instagram & Facebook ad",
+        platform: "Instagram",
+        href: "/videos/clients/the-pine/soda-hybrid-reel.mp4",
+        thumbnail: "/images/clients/the-pine/soda-hybrid-reel.jpg",
+        videoSrc: "/videos/clients/the-pine/soda-hybrid-reel.mp4",
+      },
+      {
+        title: "Campaign short · Instagram & Facebook ad",
+        platform: "Instagram",
+        href: "/videos/clients/the-pine/final-short-1.mp4",
+        thumbnail: "/images/clients/the-pine/final-short-1.jpg",
+        videoSrc: "/videos/clients/the-pine/final-short-1.mp4",
+      },
+      {
+        title: "Mart team reel · Instagram & Facebook ad",
+        platform: "Instagram",
+        href: "/videos/clients/the-pine/mart-team-reel-2.mp4",
+        thumbnail: "/images/clients/the-pine/mart-team-reel-2.jpg",
+        videoSrc: "/videos/clients/the-pine/mart-team-reel-2.mp4",
+      },
+      {
+        title: "Mart team reel II · Instagram & Facebook ad",
+        platform: "Instagram",
+        href: "/videos/clients/the-pine/mart-team-reel-3.mp4",
+        thumbnail: "/images/clients/the-pine/mart-team-reel-3.jpg",
+        videoSrc: "/videos/clients/the-pine/mart-team-reel-3.mp4",
+      },
+      {
+        title: "The Pine x ICT Strypes · Instagram & Facebook ad",
+        platform: "Instagram",
+        href: "/videos/clients/the-pine/pine-ict-strypes-final.mp4",
+        thumbnail: "/images/clients/the-pine/pine-ict-strypes-final.jpg",
+        videoSrc: "/videos/clients/the-pine/pine-ict-strypes-final.mp4",
+      },
+    ],
   },
   {
     slug: "go-guide",
@@ -304,29 +323,46 @@ export const clients: ClientProfile[] = [
         { value: "8", label: "Competitor brands audited" },
         { value: "1", label: "Positioning system locked" },
         { value: "60-day", label: "Organic GTM plan" },
-        { value: "10", label: "Videos briefed for the series" },
+        { value: "5", label: "Campaign reels shipped" },
       ],
     },
-    work: seriesWork(
-      [
-        "01 · Positioning film: who it’s for",
-        "02 · Hook: the job travel buyers hire you for",
-        "03 · Category teardown, made watchable",
-        "04 · Founder note for the trade",
-        "05 · Campaign opener: arrival, not mood",
-        "06 · Packing the story, not the cliché",
-        "07 · Why this brand wins the brief",
-        "08 · Partner cut for distributors",
-        "09 · Mid-series: proof of the job",
-        "10 · Series closer: a line people can repeat",
-      ],
-      [
-        "/images/clients/fly-the-earth-wing.jpg",
-        "/images/guides/travel.jpg",
-        "/images/guides/adventure.jpg",
-        "/images/guides/outdoor.jpg",
-      ],
-    ),
+    work: [
+      {
+        title: "First SIV training · Hunza, Pakistan",
+        platform: "Instagram",
+        href: "/videos/clients/fly-the-earth/hunza-siv-training.mp4",
+        thumbnail: "/images/clients/fly-the-earth/hunza-siv-training.jpg",
+        videoSrc: "/videos/clients/fly-the-earth/hunza-siv-training.mp4",
+      },
+      {
+        title: "History made · Egor, Hediger & Schluetter",
+        platform: "Instagram",
+        href: "/videos/clients/fly-the-earth/history-made-legends.mp4",
+        thumbnail: "/images/clients/fly-the-earth/history-made-legends.jpg",
+        videoSrc: "/videos/clients/fly-the-earth/history-made-legends.mp4",
+      },
+      {
+        title: "Selay Karasu shot · Red Bull",
+        platform: "Instagram",
+        href: "/videos/clients/fly-the-earth/selay-karasu-shot.mp4",
+        thumbnail: "/images/clients/fly-the-earth/selay-karasu-shot.jpg",
+        videoSrc: "/videos/clients/fly-the-earth/selay-karasu-shot.mp4",
+      },
+      {
+        title: "Namibia Part 1 · Global Aerial Performance Camp",
+        platform: "Instagram",
+        href: "/videos/clients/fly-the-earth/namibia-aerial-camp.mp4",
+        thumbnail: "/images/clients/fly-the-earth/namibia-aerial-camp.jpg",
+        videoSrc: "/videos/clients/fly-the-earth/namibia-aerial-camp.mp4",
+      },
+      {
+        title: "Attabad Lake SIV · Day 2",
+        platform: "Instagram",
+        href: "/videos/clients/fly-the-earth/attabad-lake-siv-day-2.mp4",
+        thumbnail: "/images/clients/fly-the-earth/attabad-lake-siv-day-2.jpg",
+        videoSrc: "/videos/clients/fly-the-earth/attabad-lake-siv-day-2.mp4",
+      },
+    ],
   },
   {
     slug: "dea-accelerate",
@@ -401,29 +437,46 @@ export const clients: ClientProfile[] = [
         { value: "640K+", label: "Organic views" },
         { value: "+52%", label: "Saves vs prior month" },
         { value: "2.1×", label: "Avg. engagement rate" },
-        { value: "10", label: "Campaign videos shipped" },
+        { value: "5", label: "Campaign reels shipped" },
       ],
     },
-    work: seriesWork(
-      [
-        "01 · Hook: the job in three seconds",
-        "02 · UGC: how buyers actually use it",
-        "03 · Promo cut: one product, one win",
-        "04 · Founder brief for retail partners",
-        "05 · Series mid-point: proof in use",
-        "06 · Unboxing without the fluff",
-        "07 · Why this, not the alternative",
-        "08 · Trade cut: shelf to story",
-        "09 · Objection, answered on camera",
-        "10 · Closer: what to remember",
-      ],
-      [
-        "/images/clients/kingo-cover-v2.png",
-        "/images/guides/hospitality.jpg",
-        "/images/guides/travel.jpg",
-        "/images/studio-collaboration.jpg",
-      ],
-    ),
+    work: [
+      {
+        title: "Start outreaching · campaign cut",
+        platform: "Instagram",
+        href: "/videos/clients/kingo/start-outreaching.mp4",
+        thumbnail: "/images/clients/kingo/start-outreaching.jpg",
+        videoSrc: "/videos/clients/kingo/start-outreaching.mp4",
+      },
+      {
+        title: "Street marketing · campaign cut",
+        platform: "Instagram",
+        href: "/videos/clients/kingo/street-marketing.mp4",
+        thumbnail: "/images/clients/kingo/street-marketing.jpg",
+        videoSrc: "/videos/clients/kingo/street-marketing.mp4",
+      },
+      {
+        title: "Day in the life of a founder · campaign cut",
+        platform: "Instagram",
+        href: "/videos/clients/kingo/day-in-the-life-founder.mp4",
+        thumbnail: "/images/clients/kingo/day-in-the-life-founder.jpg",
+        videoSrc: "/videos/clients/kingo/day-in-the-life-founder.mp4",
+      },
+      {
+        title: "Testimonial · campaign cut",
+        platform: "Instagram",
+        href: "/videos/clients/kingo/testimonial.mp4",
+        thumbnail: "/images/clients/kingo/testimonial.jpg",
+        videoSrc: "/videos/clients/kingo/testimonial.mp4",
+      },
+      {
+        title: "Subway poster · campaign cut",
+        platform: "Instagram",
+        href: "/videos/clients/kingo/subway-poster.mp4",
+        thumbnail: "/images/clients/kingo/subway-poster.jpg",
+        videoSrc: "/videos/clients/kingo/subway-poster.mp4",
+      },
+    ],
   },
   {
     slug: "patronaj",
