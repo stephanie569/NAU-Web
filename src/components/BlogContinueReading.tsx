@@ -128,40 +128,6 @@ export function BlogContinueReading({
           ))}
         </div>
       )}
-
-      <nav
-        aria-label="Previous and next essays"
-        className="mt-14 grid gap-6 border-t border-border pt-10 sm:grid-cols-2"
-      >
-        {previous ? (
-          <Link
-            href={`/essays/${previous.slug}`}
-            className="group block text-left transition-opacity hover:opacity-80"
-          >
-            <p className="text-xs uppercase tracking-widest text-muted">
-              ← Previous
-            </p>
-            <p className="mt-2 text-[15px] font-medium tracking-tight text-foreground group-hover:underline">
-              {previous.title}
-            </p>
-          </Link>
-        ) : (
-          <div />
-        )}
-        {next ? (
-          <Link
-            href={`/essays/${next.slug}`}
-            className="group block text-left sm:text-right transition-opacity hover:opacity-80"
-          >
-            <p className="text-xs uppercase tracking-widest text-muted">
-              Next →
-            </p>
-            <p className="mt-2 text-[15px] font-medium tracking-tight text-foreground group-hover:underline">
-              {next.title}
-            </p>
-          </Link>
-        ) : null}
-      </nav>
     </div>
   );
 }

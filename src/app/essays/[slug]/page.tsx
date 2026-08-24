@@ -13,6 +13,7 @@ import {
   getRelatedPosts,
   type BlogBlock,
 } from "@/lib/blog";
+import { QR_STICKER_CATEGORY } from "@/lib/qr-stickers";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -260,7 +261,13 @@ export default async function BlogPostPage({ params }: Props) {
       <section className="py-20 md:py-28">
         <div className="mx-auto max-w-3xl px-6 md:px-10">
           <FadeIn>
-            <BlogContent blocks={post.content} />
+            <BlogContent
+              blocks={
+                post.category === QR_STICKER_CATEGORY
+                  ? post.content.filter((block) => block.type !== "cta")
+                  : post.content
+              }
+            />
           </FadeIn>
 
           <FadeIn>
