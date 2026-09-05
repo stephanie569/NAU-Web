@@ -114,8 +114,8 @@ export function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/#digital-guides" className={navLinkClass}>
-                    Products
+                  <Link href="/#work-with-me" className={navLinkClass}>
+                    Work with me
                   </Link>
                 </li>
               </ul>

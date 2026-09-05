@@ -15,7 +15,6 @@ export const primaryNavLinks = [
   { href: "/studio", label: "Studio" },
   { href: "/#clients", label: "Clients" },
   { href: "/#services", label: "Services" },
-  { href: "/#digital-guides", label: "Products" },
   { href: "/essays", label: "Essays" },
 ];
 
@@ -57,14 +56,6 @@ export const services = [
       "Turn research into a runnable plan.",
       "Choose channels and stories that compound.",
       "Sequence the launch. Then the campaign materials ship last.",
-    ],
-  },
-  {
-    number: "004",
-    title: "Digital Guides",
-    steps: [
-      "Playbooks when a full engagement isn't the fit yet.",
-      "Positioning and GTM, packaged from client work. Delivered on purchase.",
     ],
   },
 ];

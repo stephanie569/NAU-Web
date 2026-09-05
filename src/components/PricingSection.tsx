@@ -3,8 +3,7 @@
 import { useState } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { NauButton } from "@/components/NauButton";
-import { GuideGridCard } from "@/components/GuideGridCard";
-import { pricingSectionCopy, storeSectionCopy } from "@/lib/sections";
+import { pricingSectionCopy } from "@/lib/sections";
 
 type Offer = (typeof pricingSectionCopy.offers)[number];
 
@@ -283,11 +282,9 @@ function OfferTierCard({
 
 export function PricingSection({
   title: titleOverride,
-  showStoreTeaser = true,
   sectionId = "work-with-me",
 }: {
   title?: string;
-  showStoreTeaser?: boolean;
   sectionId?: string;
 } = {}) {
   const {
@@ -300,7 +297,6 @@ export function PricingSection({
     cta,
     ctaHref,
     offers,
-    storeTeaser,
   } = pricingSectionCopy;
 
   const title = titleOverride ?? defaultTitle;
@@ -308,129 +304,47 @@ export function PricingSection({
   const [openOfferId, setOpenOfferId] = useState<string | null>(null);
 
   return (
-    <>
-      <section
-        id={sectionId}
-        className="relative box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center overflow-x-hidden bg-[#f5f5f5] px-5 py-8 md:px-9 md:py-10"
-      >
-        <div className="relative mx-auto flex w-full max-w-[1400px] flex-col gap-5 md:gap-6">
-          <motion.div
-            className="flex justify-end"
-            initial={reduceMotion ? false : { opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.7 }}
-            transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-          >
-            <h2 className="text-right text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-              {title}
-            </h2>
-          </motion.div>
-
-          <div className="grid grid-cols-1 items-start gap-2.5 md:grid-cols-2 md:gap-3">
-            {offers.map((offer, index) => (
-              <OfferTierCard
-                key={offer.id}
-                offer={offer}
-                deliveryLabel={deliveryLabel}
-                collaborationLabel={collaborationLabel}
-                includesLabel={includesLabel}
-                goodToKnowLabel={goodToKnowLabel}
-                vatNote={vatNote}
-                defaultCta={cta}
-                ctaHref={ctaHref}
-                index={index}
-                reduceMotion={reduceMotion}
-                detailsOpen={openOfferId === offer.id}
-                onToggleDetails={() =>
-                  setOpenOfferId((current) =>
-                    current === offer.id ? null : offer.id,
-                  )
-                }
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {showStoreTeaser ? (
-        <section
-          id="digital-guides"
-          className="relative scroll-mt-[61px] overflow-x-hidden bg-[#f5f5f5] px-6 pt-16 pb-16 md:px-9 md:pt-20 md:pb-20 lg:pt-24 lg:pb-24"
+    <section
+      id={sectionId}
+      className="relative box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center overflow-x-hidden bg-[#f5f5f5] px-5 py-8 md:px-9 md:py-10"
+    >
+      <div className="relative mx-auto flex w-full max-w-[1400px] flex-col gap-5 md:gap-6">
+        <motion.div
+          className="flex justify-end"
+          initial={reduceMotion ? false : { opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.7 }}
+          transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
         >
-          <div className="relative mx-auto w-full max-w-[1520px]">
-            <div className="mb-6 text-left md:mb-8">
-              <h2 className="text-[clamp(2.5rem,6vw,4.25rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-                {storeTeaser.name}.
-              </h2>
-            </div>
+          <h2 className="text-right text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
+            {title}
+          </h2>
+        </motion.div>
 
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4">
-              {(
-                [
-                  "organic-marketing-ideas",
-                  "go-to-market-playbook",
-                  "product-positioning-workbook",
-                ] as const
-              )
-                .map((id) =>
-                  storeSectionCopy.items.find((guide) => guide.id === id),
+        <div className="grid grid-cols-1 items-start gap-2.5 md:grid-cols-2 md:gap-3">
+          {offers.map((offer, index) => (
+            <OfferTierCard
+              key={offer.id}
+              offer={offer}
+              deliveryLabel={deliveryLabel}
+              collaborationLabel={collaborationLabel}
+              includesLabel={includesLabel}
+              goodToKnowLabel={goodToKnowLabel}
+              vatNote={vatNote}
+              defaultCta={cta}
+              ctaHref={ctaHref}
+              index={index}
+              reduceMotion={reduceMotion}
+              detailsOpen={openOfferId === offer.id}
+              onToggleDetails={() =>
+                setOpenOfferId((current) =>
+                  current === offer.id ? null : offer.id,
                 )
-                .filter(
-                  (guide): guide is (typeof storeSectionCopy.items)[number] =>
-                    Boolean(guide),
-                )
-                .map((guide, index) => (
-                  <GuideGridCard
-                    key={guide.id}
-                    guide={guide}
-                    index={index}
-                    step={`0${index + 1}`}
-                    ctaLabel={storeSectionCopy.cta}
-                  />
-                ))}
-            </div>
-
-            <div className="relative mt-4 overflow-hidden rounded-[20px] bg-[#0a0a0a] px-6 py-7 md:mt-5 md:px-8 md:py-8 lg:px-10">
-              <div className="relative flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
-                <div className="min-w-0 max-w-[36rem]">
-                  <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-white/45">
-                    {storeSectionCopy.packageOfferEyebrow}
-                  </p>
-                  <p className="mt-2 text-[clamp(1.25rem,2.4vw,1.65rem)] leading-snug font-semibold tracking-[-0.045em] text-white">
-                    {storeSectionCopy.packageOfferHeadline}
-                  </p>
-                  <p className="mt-2 text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-white/55 md:text-[15px]">
-                    {storeSectionCopy.packageOfferBody}
-                  </p>
-                </div>
-
-                <div className="flex shrink-0 flex-col gap-4 sm:flex-row sm:items-center sm:gap-6 lg:flex-col lg:items-end xl:flex-row xl:items-center">
-                  <div className="sm:text-right">
-                    <p className="text-[11px] font-medium tracking-[-0.03em] text-white/40 line-through">
-                      {storeSectionCopy.packageOfferNote}
-                    </p>
-                    <div className="mt-1 flex items-baseline gap-2 sm:justify-end">
-                      <p className="text-[2rem] leading-none font-semibold tracking-[-0.05em] text-white">
-                        $79
-                      </p>
-                      <p className="rounded-full bg-white/10 px-2.5 py-1 text-[11px] font-semibold tracking-[-0.03em] text-white/80">
-                        {storeSectionCopy.packageOfferSave}
-                      </p>
-                    </div>
-                  </div>
-                  <NauButton
-                    href={storeSectionCopy.packageOfferHref}
-                    variant="light"
-                    electric
-                  >
-                    {storeSectionCopy.packageOfferLabel}
-                  </NauButton>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      ) : null}
-    </>
+              }
+            />
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }

@@ -18,7 +18,7 @@ export default function PrivacyPage() {
               online properties operated by Stefani Dimitrova, trading as nau
               studio (the “Controller”, “I”, “me”, or “nau”). It describes the
               processing of personal data of visitors, prospective clients,
-              clients, and purchasers of digital products.
+              clients.
             </p>
             <p>
               By using the website or submitting information to me, you
@@ -55,10 +55,9 @@ export default function PrivacyPage() {
               series and promotional video production, whether as
               creator-produced content or on-location production within Europe),
               together with related advisory materials. The website also
-              publishes essays, offers digital strategy guides for purchase, and
-              may from time to time facilitate promotional campaigns such as
-              stickers or QR-based offers. The website does not require the
-              creation of a public user account.
+              publishes essays and may from time to time facilitate promotional
+              campaigns such as stickers or QR-based offers. The website does not
+              require the creation of a public user account.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
@@ -73,12 +72,6 @@ export default function PrivacyPage() {
               <li>
                 Correspondence and enquiry data (including message content and
                 information you elect to provide about a project);
-              </li>
-              <li>
-                Transaction data relating to digital product purchases
-                (including order identifiers and delivery email), excluding full
-                payment card numbers, which are processed by the payment
-                provider;
               </li>
               <li>
                 Shipping data, where you voluntarily request physical materials;
@@ -116,9 +109,6 @@ export default function PrivacyPage() {
                 have been agreed;
               </li>
               <li>
-                to process and deliver digital product purchases;
-              </li>
-              <li>
                 to fulfil optional campaign requests (such as stickers), where
                 applicable;
               </li>
@@ -146,11 +136,11 @@ export default function PrivacyPage() {
               5. Payment processing
             </h2>
             <p>
-              Purchases of digital products are processed by third-party payment
-              service providers (including, where configured, Stripe). Payment
-              card data is collected and processed by such providers in
-              accordance with their terms and privacy notices. nau does not
-              store complete payment card numbers on the website.
+              Where studio fees are collected online, payments are processed by
+              third-party payment service providers (including, where configured,
+              Stripe). Payment card data is collected and processed by such
+              providers in accordance with their terms and privacy notices. nau
+              does not store complete payment card numbers on the website.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">

@@ -6,7 +6,7 @@ export default function TermsPage() {
     <>
       <PageHero
         title="Terms & Conditions"
-        subtitle="These Terms & Conditions govern access to and use of this website, the purchase of digital products, and the engagement of studio services."
+        subtitle="These Terms & Conditions govern access to and use of this website and the engagement of studio services."
       />
       <section className="pb-20 md:pb-28">
         <div className="mx-auto max-w-3xl px-6 md:px-10">
@@ -18,13 +18,13 @@ export default function TermsPage() {
               binding agreement between you (“you” or “User”) and Stefani
               Dimitrova, trading as nau studio (“nau”, “I”, “me”, or the
               “Provider”), in respect of thetimeisnau.com and related online
-              properties (the “Website”), digital products offered via the
-              Website, and professional services supplied by nau.
+              properties (the “Website”) and professional services supplied by
+              nau.
             </p>
             <p>
-              By accessing the Website, completing a purchase, or instructing
-              nau to commence services, you agree to be bound by these Terms. If
-              you do not agree, you must not use the Website or services.
+              By accessing the Website or instructing nau to commence services,
+              you agree to be bound by these Terms. If you do not agree, you
+              must not use the Website or services.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
@@ -37,7 +37,7 @@ export default function TermsPage() {
               and (c) content creation, including series and promotional video
               production. Services may be delivered remotely or, where agreed,
               on location within Europe. The Website also publishes essays and
-              may offer digital strategy guides and promotional campaigns.
+              may from time to time facilitate promotional campaigns.
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
@@ -89,8 +89,7 @@ export default function TermsPage() {
                 applicable offer or confirmation. The Full cycle package
                 typically includes research, positioning, planning, and a
                 campaign series produced by nau as creator-produced content
-                (UGC). Digital guides are sold separately and are not included
-                in studio package fees unless expressly stated.
+                (UGC).
               </li>
               <li>
                 Supporting-content ideas may be provided so that the videos may
@@ -144,8 +143,7 @@ export default function TermsPage() {
             </h2>
             <p>
               Fees, payment schedules, and revision allowances are as set out in
-              the applicable offer or written confirmation. Digital product
-              prices are as displayed at checkout.
+              the applicable offer or written confirmation.
             </p>
             <p>
               Unless otherwise agreed in writing or required by mandatory law:
@@ -162,20 +160,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              7. Digital products
-            </h2>
-            <p>
-              Digital guides are licensed for your internal business or personal
-              professional use only. Upon purchase, delivery will be made by
-              download or electronic transmission as described at checkout.
-              Except where mandatory consumer law provides otherwise, digital
-              products are non-refundable once delivered. You shall not resell,
-              publicly redistribute, or present the materials as your own
-              product without prior written permission.
-            </p>
-
-            <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              8. Promotional campaigns
+              7. Promotional campaigns
             </h2>
             <p>
               Occasional campaigns (including stickers or complimentary
@@ -186,7 +171,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              9. Intellectual property
+              8. Intellectual property
             </h2>
             <p>
               <span className="font-medium text-foreground">9.1 Website.</span>{" "}
@@ -222,7 +207,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              10. Third-party services
+              9. Third-party services
             </h2>
             <p>
               The Website may contain links to, or integrate with, third-party
@@ -233,7 +218,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              11. Disclaimer of warranties
+              10. Disclaimer of warranties
             </h2>
             <p>
               To the maximum extent permitted by applicable law, the Website is
@@ -246,7 +231,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              12. Limitation of liability
+              11. Limitation of liability
             </h2>
             <p>
               To the maximum extent permitted by applicable law, Stefani
@@ -272,7 +257,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              13. Privacy
+              12. Privacy
             </h2>
             <p>
               Processing of personal data is described in the{" "}
@@ -286,7 +271,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              14. Amendments
+              13. Amendments
             </h2>
             <p>
               nau may amend these Terms by publishing an updated version on the
@@ -297,7 +282,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              15. Governing law and jurisdiction
+              14. Governing law and jurisdiction
             </h2>
             <p>
               These Terms are governed by the laws of the Republic of Bulgaria,
@@ -310,7 +295,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              16. Severability
+              15. Severability
             </h2>
             <p>
               If any provision of these Terms is held to be invalid or
@@ -319,7 +304,7 @@ export default function TermsPage() {
             </p>
 
             <h2 className="pt-4 text-xl font-semibold tracking-tight text-foreground">
-              17. Contact
+              16. Contact
             </h2>
             <p>
               For notices under these Terms:

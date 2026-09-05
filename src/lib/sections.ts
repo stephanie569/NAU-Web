@@ -82,8 +82,8 @@ export const pageBottomCtaCopy = {
   ctaHighlight: "That's the impact we build together.",
   ctaButton: "Work with me",
   ctaHref: "/contact",
-  secondaryButton: "Explore products",
-  secondaryHref: "/#digital-guides",
+  secondaryButton: "View services",
+  secondaryHref: "/#services",
   contact: {
     name: "Stefani Dimitrova",
     role: "Organic GTM & Product Storyteller",
@@ -174,7 +174,7 @@ export const projectsPageItems = [
 ];
 
 export const servicesSectionCopy = {
-  count: 4,
+  count: 3,
 };
 
 export const industriesSectionCopy = {
@@ -247,19 +247,6 @@ export const servicesItems = [
       "Launch",
       "Channels",
       "Messaging",
-    ],
-  },
-  {
-    number: "004",
-    title: "Digital Guides",
-    summary:
-      "Sold separately from the campaign. Strategy playbooks for teams that are not ready for a full engagement yet.",
-    thumbnail: "/images/service-digital-guides.png",
-    categories: [
-      "Positioning",
-      "GTM",
-      "Organic",
-      "Hooks",
     ],
   },
 ];
@@ -387,7 +374,6 @@ export const pricingSectionCopy = {
       ],
       outcome: "One connected campaign as UGC. Supporting ideas included.",
       goodToKnow: [
-        "Digital guides are not included. They are sold separately in the store.",
         "Set aside a separate budget for product samples or merch so I can shoot the UGC.",
       ],
     },
@@ -422,303 +408,17 @@ export const pricingSectionCopy = {
       ],
       outcome: "Same full cycle, filmed with your team in Europe.",
       goodToKnow: [
-        "Digital guides are not included. They are sold separately in the store.",
         "Set aside a separate production budget when we film with your team.",
         "Travel and related logistics may be quoted separately if they sit outside the agreed fee.",
       ],
     },
   ],
-  storeTeaser: {
-    id: "digital-guides",
-    name: "Digital guides",
-    price: "From $19",
-    outcome:
-      "The same frameworks I use on client projects, packaged as guides you can buy and use straight away.",
-    delivery: "Instant download",
-    cta: "Purchase",
-    href: "/#digital-guides",
-  },
 };
-
-export const storeSectionCopy = {
-  title: "Products.",
-  description:
-    "Sold separately from Full cycle. Same strategy thinking as a client engagement. Buy online and use them straight away.",
-  searchPlaceholder: "Search...",
-  categoryLabel: "Category",
-  categories: [...serviceCategories],
-  emptyState: "No guides match your search.",
-  intro:
-    "Playbooks built from real launches, for brands that want clarity before committing to a full project.",
-  stickers:
-    "Stickers are free to friends, partners and brands building gear worth talking about.",
-  cta: "Get the guide",
-  packageCta: "Get the set",
-  packageOfferEyebrow: "All three combined",
-  packageOfferHeadline:
-    "Walk away knowing your buyer, how you’ll grow, and what to film.",
-  packageOfferBody:
-    "Buyer locked, GTM you can run, and a campaign series that carries it. One coherent plan instead of three loose downloads.",
-  packageOfferLabel: "Take the full set",
-  packageOfferNote: "Usually $97",
-  packageOfferSave: "Save $18",
-  packageOfferHref: "/products/full-guides-set",
-  notifyCta: "Tell me when it drops",
-  comingSoonLabel: "Coming soon",
-  checkoutSuccessTitle: "Payment received",
-  checkoutSuccessNote:
-    "Thanks. I'll email your guide shortly. This is test mode until you switch Stripe to live keys.",
-  checkoutCancelTitle: "Checkout cancelled",
-  checkoutCancelNote: "No charge was made. Browse again whenever you're ready.",
-  items: [
-    {
-      id: "product-positioning-workbook",
-      title: "The 10-Video Series",
-      price: "$49",
-      category: "Content Creation",
-      blurb: "Turn your GTM into a campaign people follow.",
-      overview: {
-        eyebrow: "Digital guide",
-        headline: "Turn your GTM into a campaign that works as one series.",
-        lead:
-          "A practical guide for building the series from the strategy you already have. You leave with the videos, order and story that carry the GTM, instead of a pile of disconnected posts.",
-        highlights: [
-          "Which videos the series actually needs, and which to cut",
-          "A story order that follows the GTM, not the algorithm",
-          "Hooks, proof and closer pieces that work as one campaign",
-          "A brief you can shoot, or hand to a team, without starting over",
-        ],
-        includes: [
-          "Worksheets you can complete in one focused session",
-          "Prompts from the same framing I use with client brands",
-          "Instant download after checkout",
-        ],
-        bestFor:
-          "Founders and marketers who already have a GTM, and need the series that makes it land.",
-        checkoutLabel: "Checkout · $49",
-        preview: [
-          {
-            number: "01",
-            title: "The series map",
-            note: "Each piece. One story. Nothing that does not earn its place.",
-          },
-          {
-            number: "02",
-            title: "What to film",
-            note: "Hooks, proof, field cuts and a closer that still sounds like you.",
-          },
-          {
-            number: "03",
-            title: "What to cut",
-            note: "The posts that look busy and do nothing for the GTM.",
-          },
-          {
-            number: "04",
-            title: "The brief",
-            note: "Ready to shoot, or to hand to a team, without starting over.",
-          },
-        ],
-      },
-      poster: {
-        label: "Series",
-        headline: "10-VIDEO",
-        subline: "SERIES",
-        tagline: "From your GTM",
-        image: "/images/guides/10-video-series.jpg",
-        gradientFrom: "#0e1218",
-        gradientTo: "#1f3d5c",
-        accent: "#9fd0ff",
-      },
-    },
-    {
-      id: "go-to-market-playbook",
-      title: "The GTM You Can Run",
-      price: "$29",
-      category: "Marketing Strategy",
-      blurb: "Translate the market into channels, story and sequence.",
-      overview: {
-        eyebrow: "Digital guide",
-        headline: "Turn what you know about the market into a GTM you can run.",
-        lead:
-          "How to take buyers, alternatives and category truth and shape a go-to-market with channels, story and sequence. Built to leave the deck and go into the next 60 days.",
-        highlights: [
-          "Which market signals matter, and which to ignore for now",
-          "A GTM story the right audience can repeat",
-          "Channels and sequence with owners and timing",
-          "What to measure in the first stretch so you know if it’s working",
-        ],
-        includes: [
-          "GTM framework and worksheets",
-          "Launch sequence templates",
-          "Instant download after checkout",
-        ],
-        bestFor:
-          "Teams who understand their market and need a go-to-market they can put into practice.",
-        checkoutLabel: "Checkout · $29",
-        preview: [
-          {
-            number: "01",
-            title: "The buyer truth",
-            note: "Which market signals matter, and which to ignore for now.",
-          },
-          {
-            number: "02",
-            title: "The story",
-            note: "A GTM line the right audience can repeat without a deck.",
-          },
-          {
-            number: "03",
-            title: "The sequence",
-            note: "Channels, owners and timing for the next 60 days.",
-          },
-          {
-            number: "04",
-            title: "The first proof",
-            note: "What to measure so you know if it is working.",
-          },
-        ],
-      },
-      poster: {
-        label: "GTM",
-        headline: "GTM YOU",
-        subline: "CAN RUN",
-        tagline: "From your market",
-        image: "/images/guides/gtm-you-can-run.jpg",
-        industry: "Hospitality",
-        gradientFrom: "#0a1210",
-        gradientTo: "#164840",
-        accent: "#7ef0d4",
-      },
-    },
-    {
-      id: "organic-marketing-ideas",
-      title: "Name Your Buyer",
-      price: "$19",
-      category: "Research & Positioning",
-      blurb: "Lock the buyer before you film a single video.",
-      overview: {
-        eyebrow: "Digital guide",
-        headline: "Get clear on who buys, before you film a single post.",
-        lead:
-          "A practical guide for product brands that need sharper positioning. Fill it in once and you’ll know who you serve, why you win, and how to say it without sounding like everyone else.",
-        highlights: [
-          "Who buys and who doesn’t, written in customer language",
-          "Why you win against the real alternatives",
-          "A positioning one-liner and messaging starters you can use immediately",
-          "Tone notes so your content finally sounds like one brand",
-        ],
-        includes: [
-          "Worksheets you can complete in one focused session",
-          "Prompts from the same framing I use with client brands",
-          "Instant download after checkout",
-        ],
-        bestFor:
-          "Founders and marketers about to launch, reposition, or brief content, when clarity is the missing piece.",
-        checkoutLabel: "Checkout · $19",
-        preview: [
-          {
-            number: "01",
-            title: "Who buys",
-            note: "The buyer, written in their language, not yours.",
-          },
-          {
-            number: "02",
-            title: "Who doesn’t",
-            note: "The polite no that keeps the work sharp.",
-          },
-          {
-            number: "03",
-            title: "Why you win",
-            note: "Against the real alternatives, not a fantasy competitor.",
-          },
-          {
-            number: "04",
-            title: "How to say it",
-            note: "A one-liner and tone so the next video sounds like one brand.",
-          },
-        ],
-      },
-      poster: {
-        label: "Buyer",
-        headline: "NAME YOUR",
-        subline: "BUYER",
-        tagline: "Before you film",
-        image: "/images/guides/name-your-buyer.jpg",
-        industry: "Travel",
-        gradientFrom: "#1c1810",
-        gradientTo: "#5a3d1c",
-        accent: "#f0c56e",
-      },
-    },
-    {
-      id: "full-guides-set",
-      title: "The Full Set",
-      price: "$79",
-      category: "Package",
-      blurb: "Clear buyer, runnable GTM, series ready to shoot.",
-      overview: {
-        eyebrow: "Package",
-        headline:
-          "Walk away knowing your buyer, how you’ll grow, and what to film.",
-        lead:
-          "With all three guides you leave with a named buyer, a GTM you can actually run, and a campaign series that carries that story. Same framing I use with clients, packaged so the pieces hand off instead of sitting alone.",
-        highlights: [
-          "A clear buyer and language before you film anything",
-          "A GTM with channels, story and sequence you can run",
-          "A campaign series that carries that GTM as one story",
-          "The feeling of a finished plan, not three loose downloads",
-        ],
-        includes: [
-          "All three digital guides",
-          "The same framing I use with client brands",
-          "Instant download after checkout",
-        ],
-        bestFor:
-          "Founders and marketers who want the feeling of a finished plan: clear buyer, runnable GTM, and a series ready to shoot.",
-        checkoutLabel: "Checkout · $79",
-        preview: [
-          {
-            number: "01",
-            title: "Name Your Buyer",
-            note: "Lock the buyer and the language before anything else.",
-          },
-          {
-            number: "02",
-            title: "The GTM You Can Run",
-            note: "Translate the market into channels, story and sequence.",
-          },
-          {
-            number: "03",
-            title: "The 10-Video Series",
-            note: "Turn that GTM into a series that works as one campaign.",
-          },
-          {
-            number: "04",
-            title: "One download",
-            note: "All three guides, ready when the set drops.",
-          },
-        ],
-      },
-      poster: {
-        label: "Package",
-        headline: "ALL 3",
-        subline: "GUIDES",
-        tagline: "Usually $97",
-        image: "/images/guides/outdoor.jpg",
-        gradientFrom: "#120e18",
-        gradientTo: "#1a2a4a",
-        accent: "#9fd0ff",
-      },
-    },
-  ],
-};
-
-export type StoreGuide = (typeof storeSectionCopy.items)[number];
 
 export const moreServicesSectionCopy = {
   label: "Need something else?",
   headlineLead: "The main offer is one connected campaign.",
-  headlineRest: "Digital guides and on-location shoots are scoped separately.",
+  headlineRest: "On-location shoots in Europe are scoped separately.",
   contact: {
     name: "Stefani Dimitrova",
     role: "Organic GTM & Product Storyteller",
@@ -784,12 +484,7 @@ export const faqItems = [
   {
     question: "What do you help with?",
     answer:
-      "One connected campaign: research, positioning, organic go-to-market and a UGC series that work as one story. Digital guides and on-location shoots are separate offers.",
-  },
-  {
-    question: "Are digital guides included in Full cycle?",
-    answer:
-      "No. Digital guides are sold separately in the store. Full cycle covers research, positioning, the plan and a campaign series as UGC. Guides are for teams that want the frameworks without a full engagement.",
+      "One connected campaign: research, positioning, organic go-to-market and a UGC series that work as one story. On-location shoots in Europe are a separate offer.",
   },
   {
     question: "How are on-location shoots in Europe priced?",

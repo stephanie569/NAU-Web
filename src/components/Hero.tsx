@@ -10,7 +10,7 @@ import { heroBackgroundVideoId } from "@/lib/hero";
 const heroServices = [
   "One connected campaign",
   "Research · Strategy · UGC",
-  "Guides & on-location separate",
+  "On-location shoots available",
 ];
 
 function PlusIcon() {

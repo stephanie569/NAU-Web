@@ -11,8 +11,7 @@ export function SiteCloseout() {
     pathname === "/" ||
     pathname === "/contact" ||
     pathname === "/studio" ||
-    pathname.startsWith("/legal") ||
-    /^\/products\/[^/]+$/.test(pathname);
+    pathname.startsWith("/legal");
 
   return (
     <div
