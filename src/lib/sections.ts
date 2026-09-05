@@ -257,7 +257,7 @@ export const capabilitiesSectionCopy = {
     {
       number: "01",
       title: "Product & brand films",
-      text: "Cinematic product films in real use: trails, rooms, tables and streets. Made for websites, launches and paid.",
+      text: "Cinematic product films in real use: trails, rooms, tables and streets. Made for websites, launches and organic social.",
     },
     {
       number: "02",
@@ -281,8 +281,8 @@ export const capabilitiesSectionCopy = {
     },
     {
       number: "06",
-      title: "Full usage rights",
-      text: "Everything delivered is yours to publish: organic, paid, email, partners and listings. No hidden licensing.",
+      title: "Usage rights",
+      text: "Organic use across social, website, email and listings is included. Paid media requires a separate usage licence, quoted to scope — with an additional fee when my likeness appears.",
     },
   ],
 };
@@ -375,6 +375,7 @@ export const pricingSectionCopy = {
       outcome: "One connected campaign as UGC. Supporting ideas included.",
       goodToKnow: [
         "Set aside a separate budget for product samples or merch so I can shoot the UGC.",
+        "Organic publishing is included. Paid media requires a separate usage licence, agreed on the first consultation — with an additional fee when my likeness appears.",
       ],
     },
     {
@@ -410,6 +411,7 @@ export const pricingSectionCopy = {
       goodToKnow: [
         "Set aside a separate production budget when we film with your team.",
         "Travel and related logistics may be quoted separately if they sit outside the agreed fee.",
+        "Organic publishing is included. Paid media requires a separate usage licence, agreed on the first consultation — with an additional fee when my likeness appears.",
       ],
     },
   ],
@@ -490,6 +492,11 @@ export const faqItems = [
     question: "How are on-location shoots in Europe priced?",
     answer:
       "On-location is its own Full cycle tier. Same research and campaign thinking, filmed with you and your team in Europe. The fee is custom and agreed on the first consultation before you commit.",
+  },
+  {
+    question: "Can I run the videos as paid ads?",
+    answer:
+      "Organic use across social, website, email and listings is included with the engagement. Paid advertising requires a separate usage licence with a custom fee, confirmed before media spend begins. Where my likeness appears, that licence carries an additional fee.",
   },
   {
     question: "What separate budget should I prepare?",

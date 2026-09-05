@@ -188,14 +188,17 @@ export default function TermsPage() {
                 9.2 Client deliverables.
               </span>{" "}
               Upon receipt of full payment for an agreed engagement, you are
-              granted a non-exclusive licence to use the deliverables for your
-              brand’s marketing purposes as described in that engagement
-              (including publication of agreed campaign videos). nau retains all
-              rights in underlying methods, templates, know-how, and tools, and
-              may display anonymised or approved work in a portfolio unless
-              otherwise agreed in writing. You warrant that materials you supply
-              (including logos, products, talent releases, music, and similar)
-              do not infringe third-party rights.
+              granted a non-exclusive licence to use the deliverables for organic
+              brand marketing as described in that engagement (including organic
+              social, website, email, and listings for agreed campaign videos).
+              Paid advertising, boosting, and other paid media use require a
+              separate written usage licence and fee, agreed before such use —
+              especially where nau’s face, voice, or likeness appears. nau
+              retains all rights in underlying methods, templates, know-how, and
+              tools, and may display anonymised or approved work in a portfolio
+              unless otherwise agreed in writing. You warrant that materials you
+              supply (including logos, products, talent releases, music, and
+              similar) do not infringe third-party rights.
             </p>
             <p>
               <span className="font-medium text-foreground">
