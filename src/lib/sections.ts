@@ -79,7 +79,6 @@ export const projectsSectionCopy = {
 
 export const pageBottomCtaCopy = {
   ctaLead: "Let the right audience find you through one connected campaign.",
-  ctaHighlight: "That's the impact we build together.",
   ctaButton: "Work with me",
   ctaHref: "/contact",
   secondaryButton: "View services",
@@ -282,7 +281,7 @@ export const capabilitiesSectionCopy = {
     {
       number: "06",
       title: "Usage rights",
-      text: "Organic use across social, website, email and listings is included. Paid media requires a separate usage licence, quoted to scope — with an additional fee when my likeness appears.",
+      text: "Organic use on social, website and email is included. Paid media and likeness are licensed separately.",
     },
   ],
 };

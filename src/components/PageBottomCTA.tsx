@@ -17,7 +17,6 @@ function NoiseOverlay() {
 export function PageBottomCTA() {
   const {
     ctaLead,
-    ctaHighlight,
     ctaButton,
     ctaHref,
     secondaryButton,
@@ -34,8 +33,7 @@ export function PageBottomCTA() {
 
       <div className="relative z-10 mx-auto w-full max-w-[1520px]">
         <p className="max-w-[min(100%,56rem)] text-[clamp(1.85rem,3.6vw,3.1rem)] leading-[1.18] font-medium tracking-[-0.045em] text-white/55">
-          {ctaLead}{" "}
-          <span className="font-semibold text-white">{ctaHighlight}</span>
+          {ctaLead}
         </p>
 
         <div className="mt-14 flex flex-col gap-8 border-t border-white/10 pt-10 sm:mt-16 sm:flex-row sm:items-center sm:justify-between sm:gap-10 md:mt-20 md:pt-12">
