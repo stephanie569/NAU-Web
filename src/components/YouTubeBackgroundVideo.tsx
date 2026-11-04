@@ -27,6 +27,7 @@ declare global {
           events: {
             onReady?: (event: { target: YTPlayer }) => void;
             onStateChange?: (event: { data: number; target: YTPlayer }) => void;
+            onError?: (event: { data: number; target: YTPlayer }) => void;
           };
         }
       ) => YTPlayer;
@@ -36,12 +37,14 @@ declare global {
 }
 
 const QUALITY_SCALE = 2;
+/** Extra crop so the corner watermark sits outside the frame. */
+const COVER_SCALE = 1.42;
 const HD_QUALITIES = ["hd1080", "hd720", "large"];
 const YT_ENDED = 0;
 const YT_PLAYING = 1;
 const YT_PAUSED = 2;
 const MIN_COVER_MS = 2200;
-const REVEAL_AFTER_PLAYING_MS = 300;
+const REVEAL_AFTER_PLAYING_MS = 450;
 
 function midPointSeconds(player: YTPlayer) {
   const duration = player.getDuration();
@@ -85,8 +88,31 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
   const revealTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const playIntervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const readyAtRef = useRef<number | null>(null);
+  const frameRef = useRef<HTMLDivElement>(null);
+  const coverRef = useRef<HTMLDivElement>(null);
+  const everPlayedRef = useRef(false);
+  const errorAttemptsRef = useRef(0);
   const playerId = useId().replace(/:/g, "");
   const [isVisible, setIsVisible] = useState(false);
+
+  const placedTransform = `translate(-50%, -50%) scale(${COVER_SCALE / QUALITY_SCALE})`;
+  const hiddenTransform = "translate(-200vw, -50%) scale(0.001)";
+
+  const paintVisibility = (show: boolean) => {
+    const frame = frameRef.current;
+    const cover = coverRef.current;
+    // Park off-screen only before the first frame. After that, keep the
+    // player in place under a cover so hiding it does not pause playback.
+    const park = !show && !everPlayedRef.current;
+    if (frame) {
+      frame.style.opacity = show ? "1" : "0";
+      frame.style.visibility = park ? "hidden" : "visible";
+      frame.style.transform = park ? hiddenTransform : placedTransform;
+    }
+    if (cover) {
+      cover.style.opacity = show ? "0" : "1";
+    }
+  };
 
   useEffect(() => {
     hasStartedRef.current = false;
@@ -114,8 +140,23 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
     const revealPlayer = () => {
       if (hasStartedRef.current || cancelled) return;
       hasStartedRef.current = true;
-      clearTimers();
+      everPlayedRef.current = true;
+      if (revealTimeoutRef.current) {
+        clearTimeout(revealTimeoutRef.current);
+        revealTimeoutRef.current = null;
+      }
+      paintVisibility(true);
       setIsVisible(true);
+    };
+
+    const concealPlayer = () => {
+      hasStartedRef.current = false;
+      if (revealTimeoutRef.current) {
+        clearTimeout(revealTimeoutRef.current);
+        revealTimeoutRef.current = null;
+      }
+      paintVisibility(false);
+      setIsVisible(false);
     };
 
     const scheduleReveal = () => {
@@ -153,7 +194,9 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
       clearTimers();
       hasStartedRef.current = false;
       hasSeekedToMiddleRef.current = false;
+      everPlayedRef.current = false;
       readyAtRef.current = null;
+      paintVisibility(false);
       setIsVisible(false);
 
       playerRef.current = new window.YT.Player(mountRef.current, {
@@ -183,33 +226,36 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
             startFromMiddle(target);
 
             playIntervalRef.current = setInterval(() => {
-              if (hasStartedRef.current || cancelled) {
-                clearTimers();
-                return;
-              }
+              if (cancelled) return;
               ensurePlayback(target);
-            }, 250);
+            }, 800);
           },
           onStateChange: ({ data, target }) => {
-            if (data === YT_ENDED) {
-              startFromMiddle(target);
-              return;
-            }
-
-            if (data === YT_PAUSED) {
-              ensurePlayback(target);
-              return;
-            }
-
             if (data === YT_PLAYING) {
               requestHdQuality(target);
               if (!hasSeekedToMiddleRef.current) {
                 startFromMiddle(target);
+                concealPlayer();
+                return;
               }
-              if (!hasStartedRef.current) {
-                scheduleReveal();
-              }
+              if (!hasStartedRef.current) scheduleReveal();
+              return;
             }
+
+            // Buffering keeps the current frame. Pause, end, and cue paint the logo.
+            if (data === YT_ENDED || data === YT_PAUSED || data === 5 || data === -1) {
+              concealPlayer();
+              if (data === YT_ENDED) startFromMiddle(target);
+              else ensurePlayback(target);
+            }
+          },
+          onError: () => {
+            concealPlayer();
+            errorAttemptsRef.current += 1;
+            if (errorAttemptsRef.current > 3 || cancelled) return;
+            window.setTimeout(() => {
+              if (!cancelled) createPlayer();
+            }, 1200);
           },
         },
       });
@@ -229,9 +275,12 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
 
   return (
     <div className="absolute inset-0 overflow-hidden bg-[#0a0a0a]">
-      {!isVisible && (
-        <div className="absolute inset-0 z-20 bg-[#0a0a0a]" aria-hidden />
-      )}
+      <div
+        ref={coverRef}
+        className="absolute inset-0 z-20 bg-[#0a0a0a]"
+        style={{ opacity: isVisible ? 0 : 1 }}
+        aria-hidden
+      />
 
       {/* Blocks hover/focus so YouTube play/seek controls never appear */}
       <div
@@ -241,18 +290,16 @@ export function YouTubeBackgroundVideo({ videoId }: YouTubeBackgroundVideoProps)
       />
 
       <div
-        className={`pointer-events-none absolute top-1/2 left-1/2 z-0 origin-center ${
-          isVisible ? "opacity-100" : "opacity-0"
-        }`}
+        ref={frameRef}
+        className="pointer-events-none absolute top-1/2 left-1/2 z-0 origin-center"
         style={{
+          opacity: isVisible ? 1 : 0,
           visibility: isVisible ? "visible" : "hidden",
           width: `${177.78 * QUALITY_SCALE}vh`,
           minWidth: `${100 * QUALITY_SCALE}%`,
           height: `${56.25 * QUALITY_SCALE}vw`,
           minHeight: `${100 * QUALITY_SCALE}%`,
-          transform: isVisible
-            ? `translate(-50%, -50%) scale(${1.12 / QUALITY_SCALE})`
-            : "translate(-200vw, -50%) scale(0.001)",
+          transform: isVisible ? placedTransform : hiddenTransform,
         }}
       >
         <div

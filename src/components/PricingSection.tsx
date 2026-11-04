@@ -289,6 +289,7 @@ export function PricingSection({
 } = {}) {
   const {
     title: defaultTitle,
+    intro,
     deliveryLabel,
     collaborationLabel,
     includesLabel,
@@ -310,7 +311,7 @@ export function PricingSection({
     >
       <div className="relative mx-auto flex w-full max-w-[1400px] flex-col gap-5 md:gap-6">
         <motion.div
-          className="flex justify-end"
+          className="flex flex-col items-end"
           initial={reduceMotion ? false : { opacity: 0, y: 12 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.7 }}
@@ -319,6 +320,11 @@ export function PricingSection({
           <h2 className="text-right text-[clamp(2.75rem,7vw,4.75rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-[#0a0a0a]">
             {title}
           </h2>
+          {intro ? (
+            <p className="mt-4 max-w-xl text-right text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/60">
+              {intro}
+            </p>
+          ) : null}
         </motion.div>
 
         <div className="grid grid-cols-1 items-start gap-2.5 md:grid-cols-2 md:gap-3">

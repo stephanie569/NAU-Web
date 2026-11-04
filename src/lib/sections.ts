@@ -226,7 +226,7 @@ export const servicesItems = [
     number: "002",
     title: "Content Creation",
     summary:
-      "The campaign deliverable: a full UGC series made to hold attention. On-location shoots in Europe are a separate tier, agreed on the first consultation.",
+      "The campaign deliverable: a premade series of 10 videos, written for your industry — not a campaign I reuse. On-location shoots in Europe are a separate tier. Need a different shape? Contact me.",
     thumbnail: "/images/service-content-creation-minimal.png",
     categories: [
       "Campaigns",
@@ -331,6 +331,8 @@ export const testimonialsSectionCopy = {
 
 export const pricingSectionCopy = {
   title: "Work with me.",
+  intro:
+    "These packages are premade. Each includes a series of 10 videos, tailored to the industry of the business I am working with — not one campaign I run for everyone. Want something else? Contact me.",
   vatNote: "All prices excl. VAT.",
   deliveryLabel: "Delivery",
   outcomeLabel: "Outcome",
@@ -363,15 +365,15 @@ export const pricingSectionCopy = {
         "Positioning, messaging and tone of voice",
         "60-day plan for the series + angles",
         "Creative direction for the series",
-        "A full campaign series I make for you as UGC",
+        "A series of 10 videos I make for you as UGC, tailored to your industry",
         "Ideas for supporting content so the series sits in a 360° strategy. Executing that with me is priced separately",
       ],
       highlights: [
-        "UGC series",
+        "10 videos",
         "Positioning",
         "60-day plan",
       ],
-      outcome: "One connected campaign as UGC. Supporting ideas included.",
+      outcome: "A premade package: 10 videos as UGC, built for your industry.",
       goodToKnow: [
         "Set aside a separate budget for product samples or merch so I can shoot the UGC.",
         "Organic publishing is included. Paid media requires a separate usage licence, agreed on the first consultation — with an additional fee when my likeness appears.",
@@ -398,7 +400,7 @@ export const pricingSectionCopy = {
         "Positioning, messaging and tone of voice",
         "60-day plan for the series + angles",
         "Creative direction for the series",
-        "On-location shoots in Europe with you and your team",
+        "A series of 10 videos, filmed on location in Europe with you and your team",
         "Ideas for supporting content so the series sits in a 360° strategy. Executing that with me is priced separately",
       ],
       highlights: [
@@ -406,7 +408,7 @@ export const pricingSectionCopy = {
         "Europe shoots",
         "Scoped on call",
       ],
-      outcome: "Same full cycle, filmed with your team in Europe.",
+      outcome: "The same premade series of 10 videos, filmed with your team in Europe.",
       goodToKnow: [
         "Set aside a separate production budget when we film with your team.",
         "Travel and related logistics may be quoted separately if they sit outside the agreed fee.",
@@ -418,8 +420,9 @@ export const pricingSectionCopy = {
 
 export const moreServicesSectionCopy = {
   label: "Need something else?",
-  headlineLead: "The main offer is one connected campaign.",
-  headlineRest: "On-location shoots in Europe are scoped separately.",
+  headlineLead: "The packages above are premade.",
+  headlineRest:
+    " Each series is 10 videos for your industry, not a setup I use on everyone. If you need something else, contact me.",
   contact: {
     name: "Stefani Dimitrova",
     role: "Organic GTM & Product Storyteller",
@@ -440,7 +443,7 @@ export const teamSectionCopy = {
   field:
     "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses — plus four years behind the camera as a photographer and videographer. Product and growth trained, so I know what needs to be said and how to capture it.",
   proof:
-    "We start with who buys and why you win, then build the UGC series around it. On-location shoots in Europe are also available when that path fits.",
+    "We start with who buys and why you win, then build a series of 10 videos around your industry. The packages are premade. On-location shoots in Europe are available when that path fits. Need something else? Contact me.",
   closeLead: "You bring the\u00A0product.",
   closeEmphasis: "I help the right audience find\u00A0it.",
   metrics: [
@@ -485,7 +488,7 @@ export const faqItems = [
   {
     question: "What do you help with?",
     answer:
-      "One connected campaign: research, positioning, organic go-to-market and a UGC series that work as one story. On-location shoots in Europe are a separate offer.",
+      "One connected campaign: research, positioning, organic go-to-market and a series of 10 videos that work as one story. The packages are premade, and each series is tailored to your industry — not a campaign I reuse. On-location shoots in Europe are a separate offer. If you need something else, contact me.",
   },
   {
     question: "How are on-location shoots in Europe priced?",
@@ -666,7 +669,7 @@ export const studioPageCopy = {
       {
         number: "003",
         title: "Content",
-        text: "A campaign series I make as UGC (on-location in Europe priced on consultation), wrapped around one story from steps one and two.",
+        text: "A premade series of 10 videos I make as UGC, tailored to your industry — not a campaign I reuse. On-location in Europe is priced on consultation. Need something else? Contact me.",
       },
     ],
   },
@@ -714,7 +717,7 @@ export const studioPageCopy = {
         number: "005",
         title: "Create",
         focus: "Delivery",
-        text: "You receive the campaign materials last: pieces that complement each other and hold attention longer.",
+        text: "You receive the series last: 10 videos that complement each other, written for your industry.",
       },
       {
         number: "006",
