@@ -7,12 +7,6 @@ import { NauLogoMark } from "@/components/NauLogoMark";
 import { YouTubeBackgroundVideo } from "@/components/YouTubeBackgroundVideo";
 import { heroBackgroundVideoId } from "@/lib/hero";
 
-const heroServices = [
-  "One connected campaign",
-  "Research · Strategy · UGC",
-  "On-location shoots available",
-];
-
 function PlusIcon() {
   return (
     <span className="relative block h-3 w-3" aria-hidden>
@@ -102,41 +96,20 @@ export function HeroCard() {
         </div>
 
         <div className="relative z-10 flex h-full flex-col justify-between px-5 py-6 sm:px-6 sm:py-10 md:px-9 md:py-14 lg:py-[72px]">
-          {/* Top: brand + services */}
-          <div className="flex items-center justify-between gap-8">
-            <motion.div
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.9, ease: [0.25, 0.1, 0.25, 1] }}
-            >
-              <h1 className="m-0 leading-none">
-                <span className="sr-only">nau studio</span>
-                <NauLogoMark className="text-white drop-shadow-[0_8px_24px_rgba(0,0,0,0.45)]" />
-              </h1>
-              <p className="mt-3 pl-0.5 text-[clamp(1.55rem,3.1vw,2.4rem)] font-medium tracking-[-0.04em] text-white/75">
-                Studio
-              </p>
-            </motion.div>
-
-            <motion.ul
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.7, delay: 0.2 }}
-              className="hidden shrink-0 flex-col items-end gap-2.5 sm:flex md:gap-3"
-            >
-              {heroServices.map((label, i) => (
-                <motion.li
-                  key={label}
-                  initial={{ opacity: 0, x: 16 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.45, delay: 0.28 + i * 0.08 }}
-                  className="text-right text-[clamp(1rem,1.6vw,1.2rem)] font-medium leading-none tracking-[-0.04em] text-white/85"
-                >
-                  {label}
-                </motion.li>
-              ))}
-            </motion.ul>
-          </div>
+          {/* Top: brand */}
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, ease: [0.25, 0.1, 0.25, 1] }}
+          >
+            <h1 className="m-0 leading-none">
+              <span className="sr-only">nau studio</span>
+              <NauLogoMark className="text-white drop-shadow-[0_8px_24px_rgba(0,0,0,0.45)]" />
+            </h1>
+            <p className="mt-3 pl-0.5 text-[clamp(1.55rem,3.1vw,2.4rem)] font-medium tracking-[-0.04em] text-white/75">
+              Studio
+            </p>
+          </motion.div>
 
           {/* Middle: plus marks */}
           <motion.div
