@@ -1,0 +1,10 @@
+[Unit]
+Description=Check for a new nau-web image every 2 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitInactiveSec=2min
+AccuracySec=10s
+
+[Install]
+WantedBy=timers.target

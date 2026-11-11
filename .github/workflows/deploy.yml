@@ -1,11 +1,14 @@
 # GitHub-hosted ARM runner builds linux/arm64 natively and pushes to GHCR.
-# A self-hosted runner on the Pi (default labels: self-hosted, Linux, ARM64)
-# then pulls that image and recreates the compose service.
+# The Pi deploys itself: a systemd timer there (see deploy/pi/) pulls
+# :latest every 2 minutes and recreates the compose service when the image
+# changed. A green run here means the image was published, not that it is
+# live yet; check `journalctl -u nau-web-update` on the Pi for deploys.
 #
-# Do not add pull_request triggers. This repo is public and the deploy
-# job runs on a machine on a private network.
+# There is deliberately no self-hosted runner. Its registration is deleted
+# by GitHub whenever the Pi is offline for a couple of weeks, which left
+# deploy jobs queued for 24h and then cancelled.
 
-name: Build and deploy
+name: Build and publish
 
 on:
   push:
@@ -22,7 +25,6 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  PI_APP_DIR: /home/svetlozarstoikov/apps/nau-web
 
 jobs:
   build:
@@ -67,27 +69,3 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
-
-  deploy:
-    needs: build
-    if: github.ref == 'refs/heads/main' && github.repository == 'stephanie569/NAU-Web'
-    runs-on: [self-hosted, Linux, ARM64]
-    timeout-minutes: 15
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Pull image and recreate container
-        env:
-          NAU_IMAGE: ${{ needs.build.outputs.image }}:latest
-        run: |
-          set -euo pipefail
-          mkdir -p "${PI_APP_DIR}"
-          cp docker-compose.yml "${PI_APP_DIR}/docker-compose.yml"
-          cd "${PI_APP_DIR}"
-          docker compose pull web
-          # --wait blocks on the compose healthcheck, so a container that
-          # starts and then crash-loops fails the job instead of reporting
-          # a green deploy. start_period is 20s; 120s leaves room for retries.
-          docker compose up -d --remove-orphans --wait --wait-timeout 120
-          docker image prune -f
