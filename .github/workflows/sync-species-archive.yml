@@ -1,0 +1,65 @@
+# Daily loop: check Catalogue of Life, GBIF, and WoRMS for catalogue
+# changes / newly accepted marine species, then commit the archive store.
+
+name: Sync species archive
+
+on:
+  schedule:
+    # Every day at 06:15 UTC
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: species-archive-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run discovery sync
+        run: node scripts/sync-species-archive.mjs
+        env:
+          ARCHIVE_LOOKBACK_DAYS: "14"
+
+      - name: Continue full Animalia ingest (time-boxed)
+        run: node scripts/ingest-all-animals.mjs
+        env:
+          # Keep CI under the job timeout; re-runs resume from progress file.
+          ARCHIVE_INGEST_MAX: "50000"
+          ARCHIVE_INGEST_SLEEP_MS: "30"
+        continue-on-error: true
+
+      - name: Geo-enrich map pins from GBIF / Wikidata (time-boxed)
+        run: node scripts/geo-enrich-species.mjs
+        env:
+          ARCHIVE_GEO_MAX: "2500"
+          ARCHIVE_GEO_CONCURRENCY: "8"
+          ARCHIVE_GEO_SLEEP_MS: "20"
+          ARCHIVE_GEO_RETRY_MISSING: "1"
+        continue-on-error: true
+
+      - name: Commit archive updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/species-archive/store.json data/species-archive/ingest-progress.json data/species-archive/geo-progress.json data/species-archive/map-species-meta.json || true
+          # animals.jsonl / map-species.jsonl / geo-cache.json are large — keep on deploy host
+          if git diff --staged --quiet; then
+            echo "No archive changes"
+            exit 0
+          fi
+          git commit -m "chore(archive): sync COL / GBIF localities"
+          git push

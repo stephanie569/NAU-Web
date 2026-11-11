@@ -1,0 +1,34 @@
+# Weekly assessment sync for curated map species only.
+# Calls the deployed Next.js app so data/wildlife/store.json on the host updates.
+# IUCN stays disabled until IUCN_ENABLED=true and IUCN_TOKEN are set on the host
+# with confirmed non-commercial permission for storage and public display.
+
+name: Sync wildlife assessments
+
+on:
+  schedule:
+    # Mondays 07:30 UTC
+    - cron: "30 7 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: wildlife-assessment-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate wildlife behaviours
+        run: node scripts/validate-wildlife.mjs
+
+      - name: Sync via deployed app
+        run: node scripts/sync-wildlife-assessments.mjs
+        env:
+          SKIP_IF_NO_URL: "1"
+          WILDLIFE_APP_URL: ${{ secrets.WILDLIFE_APP_URL }}
+          WILDLIFE_SYNC_SECRET: ${{ secrets.WILDLIFE_SYNC_SECRET }}
