@@ -91,8 +91,12 @@ else
 fi
 
 # Keep the running image under a tag so it survives pruning and can be
-# restored if the new one is broken.
-[ -z "$running" ] || docker tag "$running" "$PREV_TAG"
+# restored if the new one is broken. Not while a rollback is pending: the
+# container is then broken and may be running a rejected image, and
+# overwriting the tag would lose the last image that is known to work.
+if [ -n "$running" ] && [ ! -f "$PENDING_FILE" ]; then
+  docker tag "$running" "$PREV_TAG"
+fi
 
 # --wait blocks on the compose healthcheck, so a container that starts and
 # then crash-loops counts as a failed deploy.
@@ -107,16 +111,20 @@ echo "ERROR: image ${latest:7:12} (commit ${rev:-unknown}) did not become health
 docker logs --tail 40 "$CONTAINER" >&2 || true
 echo "$latest" > "$BAD_FILE"
 
-if [ -z "$running" ]; then
+# Roll back to :previous whenever it exists, not only when a container was
+# running: after an earlier failed rollback there may be no container at all.
+prev=$(docker image inspect -f '{{.Id}}' "$PREV_TAG" 2>/dev/null || true)
+if [ -z "$prev" ]; then
   echo "ERROR: no previous image to roll back to" >&2
   exit 1
 fi
 
 [ "$compose_changed" = 0 ] || cat docker-compose.yml.prev > docker-compose.yml
 if rollback; then
-  echo "rolled back to ${running:7:12}; it is healthy" >&2
+  rm -f "$PENDING_FILE"
+  echo "rolled back to ${prev:7:12}; it is healthy" >&2
 else
   touch "$PENDING_FILE"
-  echo "ERROR: rollback to ${running:7:12} also failed, site is down; will retry" >&2
+  echo "ERROR: rollback to ${prev:7:12} also failed, site is down; will retry" >&2
 fi
 exit 1
