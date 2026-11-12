@@ -61,25 +61,31 @@ rev=$(docker image inspect -f '{{index .Config.Labels "org.opencontainers.image.
 echo "new image ${latest:7:12} (commit ${rev:-unknown}), was ${running:7:12}"
 
 # Take docker-compose.yml from the exact commit the image was built from, so
-# compose changes ship together with the image. If it cannot be fetched or does
-# not validate, stop without deploying: once the image runs, later runs exit
-# early and would never fetch the file again. The next timer run retries.
+# compose changes ship together with the image. Never deploy the image with the
+# old file: once it runs, later runs exit early and would never fetch the new
+# file. A network or server error is retried on the next timer run. A file that
+# is missing at that commit or does not validate will not fix itself, so the
+# image is rejected like an unhealthy one and the next push is awaited.
 compose_changed=0
 if [ -z "$rev" ]; then
   echo "warning: image has no revision label, keeping the current docker-compose.yml" >&2
 else
   tmp=$(mktemp "$APP_DIR/.compose.XXXXXX")
   trap 'rm -f "$tmp"' EXIT
-  if curl -fsS -m 20 -o "$tmp" "$REPO_RAW/$rev/docker-compose.yml" \
-     && docker compose -f "$tmp" config -q; then
+  code=$(curl -sS -m 20 -o "$tmp" -w '%{http_code}' "$REPO_RAW/$rev/docker-compose.yml" || true)
+  if [ "$code" = 200 ] && docker compose -f "$tmp" config -q; then
     if ! cmp -s "$tmp" docker-compose.yml; then
       cp docker-compose.yml docker-compose.yml.prev
       cat "$tmp" > docker-compose.yml
       compose_changed=1
       echo "docker-compose.yml updated from $rev (old copy in docker-compose.yml.prev)"
     fi
+  elif [ "$code" = 200 ] || [ "$code" = 404 ]; then
+    echo "$latest" > "$BAD_FILE"
+    echo "ERROR: docker-compose.yml at $rev is missing or invalid (HTTP $code); not deploying ${latest:7:12} until the next push" >&2
+    exit 1
   else
-    echo "ERROR: could not fetch a valid docker-compose.yml for $rev, not deploying; will retry" >&2
+    echo "ERROR: could not download docker-compose.yml for $rev (HTTP ${code:-none}), not deploying; will retry" >&2
     exit 1
   fi
 fi
