@@ -1,0 +1,11 @@
+[Unit]
+Description=Pull and deploy the latest nau-web image
+Wants=network-online.target
+After=network-online.target docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+User=svetlozarstoikov
+ExecStart=/home/svetlozarstoikov/apps/nau-web/update.sh
+TimeoutStartSec=600

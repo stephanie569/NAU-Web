@@ -1,9 +1,12 @@
 # GitHub-hosted ARM runner builds linux/arm64 natively and pushes to GHCR.
-# A self-hosted runner on the Pi (default labels: self-hosted, Linux, ARM64)
-# then pulls that image and recreates the compose service.
+# The Pi deploys itself: a systemd timer there (see deploy/pi/) pulls
+# :latest every 2 minutes and recreates the compose service when the image
+# changed. The verify job then waits until the public site reports this
+# commit, so a green run means it is live and a red one means it is not.
 #
-# Do not add pull_request triggers. This repo is public and the deploy
-# job runs on a machine on a private network.
+# There is deliberately no self-hosted runner. Its registration is deleted
+# by GitHub whenever the Pi is offline for a couple of weeks, which left
+# deploy jobs queued for 24h and then cancelled.
 
 name: Build and deploy
 
@@ -22,7 +25,6 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  PI_APP_DIR: /home/svetlozarstoikov/apps/nau-web
 
 jobs:
   build:
@@ -65,29 +67,35 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            GIT_SHA=${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-  deploy:
+  # No access to the Pi is needed: this only reads the public site. If the
+  # new image is unhealthy the Pi rolls back to the previous one, so the
+  # site keeps reporting the old commit and this job fails.
+  verify:
     needs: build
     if: github.ref == 'refs/heads/main' && github.repository == 'stephanie569/NAU-Web'
-    runs-on: [self-hosted, Linux, ARM64]
-    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Pull image and recreate container
+      - name: Wait for the site to serve this commit
         env:
-          NAU_IMAGE: ${{ needs.build.outputs.image }}:latest
+          SITE_URL: https://naustudio.org
+          SHA: ${{ github.sha }}
         run: |
-          set -euo pipefail
-          mkdir -p "${PI_APP_DIR}"
-          cp docker-compose.yml "${PI_APP_DIR}/docker-compose.yml"
-          cd "${PI_APP_DIR}"
-          docker compose pull web
-          # --wait blocks on the compose healthcheck, so a container that
-          # starts and then crash-loops fails the job instead of reporting
-          # a green deploy. start_period is 20s; 120s leaves room for retries.
-          docker compose up -d --remove-orphans --wait --wait-timeout 120
-          docker image prune -f
+          # The Pi checks for a new image every 2 minutes; 6 minutes covers
+          # one missed check plus the pull and the container healthcheck.
+          for i in $(seq 1 24); do
+            live=$(curl -fsS -m 10 "$SITE_URL/api/health?t=$(date +%s)" | jq -r '.commit // empty' || true)
+            if [ "$live" = "$SHA" ]; then
+              echo "Live: $SITE_URL is serving $SHA"
+              exit 0
+            fi
+            echo "attempt $i/24: site reports '${live:-nothing}', waiting for $SHA"
+            sleep 15
+          done
+          echo "::error::$SITE_URL is not serving $SHA after 6 minutes. The Pi is offline, or the new image was unhealthy and was rolled back. See 'journalctl -u nau-web-update' on the Pi."
+          exit 1
