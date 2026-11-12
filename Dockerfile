@@ -35,6 +35,11 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
+# Reported by /api/health so the deploy workflow can tell which commit is
+# live. Declared last so a new commit does not invalidate the layers above.
+ARG GIT_SHA=unknown
+ENV GIT_SHA=$GIT_SHA
+
 USER nextjs
 EXPOSE 8080
 

@@ -1,14 +1,14 @@
 # GitHub-hosted ARM runner builds linux/arm64 natively and pushes to GHCR.
 # The Pi deploys itself: a systemd timer there (see deploy/pi/) pulls
 # :latest every 2 minutes and recreates the compose service when the image
-# changed. A green run here means the image was published, not that it is
-# live yet; check `journalctl -u nau-web-update` on the Pi for deploys.
+# changed. The verify job then waits until the public site reports this
+# commit, so a green run means it is live and a red one means it is not.
 #
 # There is deliberately no self-hosted runner. Its registration is deleted
 # by GitHub whenever the Pi is offline for a couple of weeks, which left
 # deploy jobs queued for 24h and then cancelled.
 
-name: Build and publish
+name: Build and deploy
 
 on:
   push:
@@ -67,5 +67,35 @@ jobs:
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+          build-args: |
+            GIT_SHA=${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+  # No access to the Pi is needed: this only reads the public site. If the
+  # new image is unhealthy the Pi rolls back to the previous one, so the
+  # site keeps reporting the old commit and this job fails.
+  verify:
+    needs: build
+    if: github.ref == 'refs/heads/main' && github.repository == 'stephanie569/NAU-Web'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Wait for the site to serve this commit
+        env:
+          SITE_URL: https://naustudio.org
+          SHA: ${{ github.sha }}
+        run: |
+          # The Pi checks for a new image every 2 minutes; 6 minutes covers
+          # one missed check plus the pull and the container healthcheck.
+          for i in $(seq 1 24); do
+            live=$(curl -fsS -m 10 "$SITE_URL/api/health?t=$(date +%s)" | jq -r '.commit // empty' || true)
+            if [ "$live" = "$SHA" ]; then
+              echo "Live: $SITE_URL is serving $SHA"
+              exit 0
+            fi
+            echo "attempt $i/24: site reports '${live:-nothing}', waiting for $SHA"
+            sleep 15
+          done
+          echo "::error::$SITE_URL is not serving $SHA after 6 minutes. The Pi is offline, or the new image was unhealthy and was rolled back. See 'journalctl -u nau-web-update' on the Pi."
+          exit 1
