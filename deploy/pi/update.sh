@@ -9,7 +9,9 @@
 #
 # If the new image does not become healthy, the previous image (and compose
 # file) is put back, the bad image is remembered in .bad-image so it is not
-# retried every 2 minutes, and the unit exits non-zero.
+# retried every 2 minutes, and the unit exits non-zero. If that rollback also
+# fails, .rollback-pending is written and every later run retries the rollback
+# until it succeeds or a newer image deploys cleanly.
 set -euo pipefail
 
 # Overridable only so the rollback path can be tested against a throwaway
@@ -20,6 +22,11 @@ CONTAINER=${NAU_CONTAINER:-nau-web}
 REPO_RAW=https://raw.githubusercontent.com/stephanie569/NAU-Web
 PREV_TAG="${IMAGE%:*}:previous"
 BAD_FILE="$APP_DIR/.bad-image"
+PENDING_FILE="$APP_DIR/.rollback-pending"
+
+rollback() {
+  NAU_IMAGE="$PREV_TAG" docker compose up -d --remove-orphans --wait --wait-timeout 120
+}
 
 cd "$APP_DIR"
 
@@ -27,6 +34,20 @@ cd "$APP_DIR"
 
 latest=$(docker image inspect -f '{{.Id}}' "$IMAGE")
 running=$(docker inspect -f '{{.Image}}' "$CONTAINER" 2>/dev/null || true)
+
+# An earlier rollback failed, so the site may be down. Unless a newer image is
+# waiting to be tried, keep retrying the rollback. This runs before the checks
+# below because the broken container may still report the bad image as running.
+if [ -f "$PENDING_FILE" ] && [ "$(cat "$BAD_FILE" 2>/dev/null)" = "$latest" ]; then
+  echo "retrying rollback to $PREV_TAG after an earlier failure" >&2
+  if rollback; then
+    rm -f "$PENDING_FILE"
+    echo "rolled back to $PREV_TAG; it is healthy" >&2
+    exit 0
+  fi
+  echo "ERROR: rollback to $PREV_TAG failed again, site is down" >&2
+  exit 1
+fi
 
 # Nothing new: stay silent so the journal only shows real deploys.
 [ "$latest" = "$running" ] && exit 0
@@ -39,15 +60,14 @@ fi
 rev=$(docker image inspect -f '{{index .Config.Labels "org.opencontainers.image.revision"}}' "$IMAGE" 2>/dev/null || true)
 echo "new image ${latest:7:12} (commit ${rev:-unknown}), was ${running:7:12}"
 
-# Keep the running image under a tag so it survives pruning and can be
-# restored if the new one is broken.
-[ -z "$running" ] || docker tag "$running" "$PREV_TAG"
-
 # Take docker-compose.yml from the exact commit the image was built from, so
-# compose changes ship together with the image. Keep the current file if the
-# download fails or the new file does not validate.
+# compose changes ship together with the image. If it cannot be fetched or does
+# not validate, stop without deploying: once the image runs, later runs exit
+# early and would never fetch the file again. The next timer run retries.
 compose_changed=0
-if [ -n "$rev" ]; then
+if [ -z "$rev" ]; then
+  echo "warning: image has no revision label, keeping the current docker-compose.yml" >&2
+else
   tmp=$(mktemp "$APP_DIR/.compose.XXXXXX")
   trap 'rm -f "$tmp"' EXIT
   if curl -fsS -m 20 -o "$tmp" "$REPO_RAW/$rev/docker-compose.yml" \
@@ -59,14 +79,19 @@ if [ -n "$rev" ]; then
       echo "docker-compose.yml updated from $rev (old copy in docker-compose.yml.prev)"
     fi
   else
-    echo "warning: could not fetch a valid docker-compose.yml for $rev, keeping the current one" >&2
+    echo "ERROR: could not fetch a valid docker-compose.yml for $rev, not deploying; will retry" >&2
+    exit 1
   fi
 fi
+
+# Keep the running image under a tag so it survives pruning and can be
+# restored if the new one is broken.
+[ -z "$running" ] || docker tag "$running" "$PREV_TAG"
 
 # --wait blocks on the compose healthcheck, so a container that starts and
 # then crash-loops counts as a failed deploy.
 if docker compose up -d --remove-orphans --wait --wait-timeout 120; then
-  rm -f "$BAD_FILE"
+  rm -f "$BAD_FILE" "$PENDING_FILE"
   docker image prune -f >/dev/null
   echo "deployed ${latest:7:12}"
   exit 0
@@ -82,9 +107,10 @@ if [ -z "$running" ]; then
 fi
 
 [ "$compose_changed" = 0 ] || cat docker-compose.yml.prev > docker-compose.yml
-if NAU_IMAGE="$PREV_TAG" docker compose up -d --remove-orphans --wait --wait-timeout 120; then
+if rollback; then
   echo "rolled back to ${running:7:12}; it is healthy" >&2
 else
-  echo "ERROR: rollback to ${running:7:12} also failed, site is down" >&2
+  touch "$PENDING_FILE"
+  echo "ERROR: rollback to ${running:7:12} also failed, site is down; will retry" >&2
 fi
 exit 1
