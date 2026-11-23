@@ -214,7 +214,7 @@ export const servicesItems = [
     title: "Research & Positioning",
     summary:
       "Inside your campaign: a clear read on the market, category and competitors, plus positioning on who it is for and why it wins, before anything is filmed.",
-    thumbnail: "/images/service-research-positioning.png",
+    thumbnail: "/images/service-research-positioning.jpg",
     categories: [
       "Validation",
       "Research",
@@ -346,10 +346,8 @@ export const pricingSectionCopy = {
       id: "full-cycle-ugc",
       name: "Full cycle · UGC",
       tone: "dark" as const,
-      price: "€1,440",
-      originalPrice: "€1,600",
-      discountLabel: "10% off",
-      savingsLabel: "Save €160",
+      price: "€1,000",
+      priceNote: "All prices excl. VAT.",
       delivery: "4-6 weeks",
       collaboration: [
         "Free discovery call before you commit",

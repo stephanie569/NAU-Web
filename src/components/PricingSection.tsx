@@ -65,6 +65,7 @@ function OfferTierCard({
   reduceMotion,
   detailsOpen,
   onToggleDetails,
+  matchHeight,
 }: {
   offer: Offer;
   deliveryLabel: string;
@@ -78,6 +79,8 @@ function OfferTierCard({
   reduceMotion: boolean;
   detailsOpen: boolean;
   onToggleDetails: () => void;
+  /** Keep both cards equal height only while both breakdowns are closed. */
+  matchHeight: boolean;
 }) {
   const onLight = offer.tone === "light";
   const ctaLabel = defaultCta;
@@ -97,12 +100,18 @@ function OfferTierCard({
         ease: [0.22, 1, 0.36, 1],
       }}
       className={`group relative flex min-h-0 flex-col overflow-hidden rounded-[16px] px-6 pt-7 pb-0 md:px-8 md:pt-8 ${
+        matchHeight ? "h-full" : ""
+      } ${
         onLight
           ? "border border-[#0a0a0a]/12 bg-white text-[#0a0a0a] shadow-[0_1px_2px_rgba(10,10,10,0.04)]"
           : "bg-[#0a0a0a] text-white"
       }`}
     >
-      <div className="relative z-[1] flex min-h-0 flex-col">
+      <div
+        className={`relative z-[1] flex min-h-0 flex-col ${
+          matchHeight ? "flex-1" : ""
+        }`}
+      >
         <p className={`text-[12px] font-semibold tracking-[-0.04em] ${muted}`}>
           {offer.name}
         </p>
@@ -124,27 +133,32 @@ function OfferTierCard({
           ) : null}
         </div>
 
-        {"originalPrice" in offer && offer.originalPrice ? (
-          <p className={`mt-2 text-[13px] font-medium tracking-[-0.03em] ${muted}`}>
-            <span className={`tabular-nums line-through decoration-[1.5px] ${faint}`}>
-              {offer.originalPrice}
-            </span>
-            {"savingsLabel" in offer && offer.savingsLabel ? (
+        {/* Reserve one line under the price so both cards share the same rhythm */}
+        <p
+          className={`mt-2 min-h-[1.25rem] text-[13px] font-medium tracking-[-0.03em] ${muted}`}
+        >
+          {"originalPrice" in offer && offer.originalPrice ? (
+            <>
               <span
-                className={`ml-2 font-semibold ${
-                  onLight ? "text-[#0a0a0a]/70" : "text-white/70"
-                }`}
+                className={`tabular-nums line-through decoration-[1.5px] ${faint}`}
               >
-                {offer.savingsLabel}
+                {offer.originalPrice}
               </span>
-            ) : null}
-            <span className={`ml-2 ${faint}`}>{vatNote}</span>
-          </p>
-        ) : "priceNote" in offer && offer.priceNote ? (
-          <p className={`mt-2 text-[13px] font-medium tracking-[-0.03em] ${muted}`}>
-            {offer.priceNote}
-          </p>
-        ) : null}
+              {"savingsLabel" in offer && offer.savingsLabel ? (
+                <span
+                  className={`ml-2 font-semibold ${
+                    onLight ? "text-[#0a0a0a]/70" : "text-white/70"
+                  }`}
+                >
+                  {offer.savingsLabel}
+                </span>
+              ) : null}
+              <span className={`ml-2 ${faint}`}>{vatNote}</span>
+            </>
+          ) : "priceNote" in offer && offer.priceNote ? (
+            offer.priceNote
+          ) : null}
+        </p>
 
         <p
           className={`mt-5 max-w-[28rem] text-[15px] leading-snug font-medium tracking-[-0.03em] ${body}`}
@@ -168,7 +182,7 @@ function OfferTierCard({
           </p>
         </div>
 
-        <div className="pt-8">
+        <div className={`pt-8 ${matchHeight ? "mt-auto" : ""}`}>
           <ul className={`flex flex-wrap gap-2 border-t py-4 ${border}`}>
             {offer.highlights.map((item) => (
               <li
@@ -303,6 +317,7 @@ export function PricingSection({
   const title = titleOverride ?? defaultTitle;
   const reduceMotion = useReducedMotion() ?? false;
   const [openOfferId, setOpenOfferId] = useState<string | null>(null);
+  const matchHeight = openOfferId === null;
 
   return (
     <section
@@ -327,7 +342,11 @@ export function PricingSection({
           ) : null}
         </motion.div>
 
-        <div className="grid grid-cols-1 items-start gap-2.5 md:grid-cols-2 md:gap-3">
+        <div
+          className={`grid grid-cols-1 gap-2.5 md:grid-cols-2 md:gap-3 ${
+            matchHeight ? "items-stretch" : "items-start"
+          }`}
+        >
           {offers.map((offer, index) => (
             <OfferTierCard
               key={offer.id}
@@ -342,6 +361,7 @@ export function PricingSection({
               index={index}
               reduceMotion={reduceMotion}
               detailsOpen={openOfferId === offer.id}
+              matchHeight={matchHeight}
               onToggleDetails={() =>
                 setOpenOfferId((current) =>
                   current === offer.id ? null : offer.id,

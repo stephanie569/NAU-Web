@@ -108,7 +108,7 @@ function ServiceRow({
               <ToggleButton open={open} onClick={onToggle} />
             </div>
 
-            <div className="relative mt-4 aspect-[16/10] w-full overflow-hidden rounded-[16px]">
+            <div className="relative mt-4 aspect-[16/10] w-full overflow-hidden rounded-[16px] bg-white/5">
               <Image
                 src={service.thumbnail}
                 alt=""
@@ -132,13 +132,13 @@ function ServiceRow({
             </p>
 
             <div className="flex items-start gap-7">
-              <div className="relative h-[112px] w-[112px] shrink-0 overflow-hidden rounded-[16px] lg:h-[120px] lg:w-[120px]">
+              <div className="relative h-[112px] w-[112px] shrink-0 overflow-hidden rounded-[16px] bg-white/5 lg:h-[120px] lg:w-[120px]">
                 <Image
                   src={service.thumbnail}
                   alt=""
                   fill
                   className="object-cover"
-                  sizes="120px"
+                  sizes="128px"
                 />
               </div>
               <div className="min-w-0">

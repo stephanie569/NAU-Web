@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
 import { NauButton } from "@/components/NauButton";
 import { VideoPlatforms } from "@/components/VideoPlatforms";
 import { teamMembers, teamSectionCopy } from "@/lib/sections";
@@ -12,85 +11,6 @@ function PlusBadge() {
       <span className="absolute h-px w-3 bg-white" />
       <span className="absolute h-3 w-px bg-white" />
     </span>
-  );
-}
-
-function parseMetricValue(value: string): {
-  target: number;
-  prefix: string;
-  suffix: string;
-} {
-  const match = value.match(/^([^0-9]*)(\d+(?:\.\d+)?)(.*)$/);
-  if (!match) {
-    return { target: 0, prefix: "", suffix: value };
-  }
-
-  return {
-    prefix: match[1],
-    target: Number(match[2]),
-    suffix: match[3],
-  };
-}
-
-function formatCountedValue(value: number, suffix: string) {
-  if (suffix.startsWith("M")) {
-    return `${Math.round(value)}${suffix}`;
-  }
-
-  return `${Math.round(value)}${suffix}`;
-}
-
-function CountUpMetric({
-  value,
-  label,
-  active,
-}: {
-  value: string;
-  label: string;
-  active: boolean;
-}) {
-  const { target, prefix, suffix } = parseMetricValue(value);
-  const [display, setDisplay] = useState(target);
-  const startedRef = useRef(false);
-
-  useEffect(() => {
-    if (!active || startedRef.current) return;
-    startedRef.current = true;
-
-    const from = target > 1 ? 1 : 0;
-    const duration = 1200;
-    const start = performance.now();
-    let frame = 0;
-    setDisplay(from);
-
-    const tick = (now: number) => {
-      const progress = Math.min((now - start) / duration, 1);
-      const eased = 1 - Math.pow(1 - progress, 3);
-      setDisplay(from + (target - from) * eased);
-
-      if (progress < 1) {
-        frame = requestAnimationFrame(tick);
-      } else {
-        setDisplay(target);
-      }
-    };
-
-    frame = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(frame);
-  }, [active, target]);
-
-  return (
-    <li className="min-w-0">
-      <p className="tracking-[-0.04em] text-[#0a0a0a]">
-        <span className="block text-[22px] font-semibold tabular-nums md:text-[26px]">
-          {prefix}
-          {formatCountedValue(display, suffix)}
-        </span>
-        <span className="mt-1 block text-[12px] font-medium tracking-[-0.03em] text-[#0a0a0a]/45 md:text-[13px]">
-          {label}
-        </span>
-      </p>
-    </li>
   );
 }
 
@@ -105,7 +25,6 @@ export function TeamSection() {
     proof,
     closeLead,
     closeEmphasis,
-    metrics,
     platformsProofLabel,
     careers,
     photo,
@@ -113,27 +32,6 @@ export function TeamSection() {
   const member = teamMembers[0];
   const imageSrc = photo?.src ?? member.image;
   const imageAlt = photo?.alt ?? member.name;
-
-  const metricsRef = useRef<HTMLUListElement>(null);
-  const [metricsActive, setMetricsActive] = useState(false);
-
-  useEffect(() => {
-    const node = metricsRef.current;
-    if (!node) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setMetricsActive(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0, rootMargin: "0px 0px -10% 0px" },
-    );
-
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, []);
 
   return (
     <section
@@ -173,26 +71,12 @@ export function TeamSection() {
               <span className="font-semibold">{closeEmphasis}</span>
             </p>
 
-            <ul
-              ref={metricsRef}
-              className="mt-8 grid grid-cols-2 gap-x-4 gap-y-5 border-t border-[#0a0a0a]/10 pt-6 sm:grid-cols-4"
-            >
-              {metrics.map((metric) => (
-                <CountUpMetric
-                  key={metric.label}
-                  value={metric.value}
-                  label={metric.label}
-                  active={metricsActive}
-                />
-              ))}
-            </ul>
-
             <VideoPlatforms
               variant="proof"
               tone="light"
               align="start"
               label={platformsProofLabel}
-              className="mt-5"
+              className="mt-8"
             />
 
             <div className="mt-8">
