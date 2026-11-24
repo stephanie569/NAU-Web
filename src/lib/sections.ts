@@ -662,17 +662,17 @@ export const studioPageCopy = {
       {
         number: "001",
         title: "Clarity",
-        text: "Most launches burn budget before the story is sharp. Industry research keeps showing that buyers decide in seconds whether a brand is for them — so I lock who it is for, why it wins, and the messaging first. That brief is what Strategy and Content both run on; without it, channels and videos drift.",
+        text: "Buyers decide in seconds if a brand is for them. I lock who it is for, why it wins, and the messaging first — the brief Strategy and Content both run on.",
       },
       {
         number: "002",
         title: "Strategy",
-        text: "Paid spikes fade when spend stops; organic systems compound. I build the launch sequence and channel plan around the Clarity brief so every post earns the next one. Strategy crosses into Content as the 60-day spine the series carries — not a deck that sits separate from what gets filmed.",
+        text: "Paid spikes fade when spend stops; organic compounds. Built on Clarity, the launch plan becomes the 60-day spine the series carries — not a separate deck.",
       },
       {
         number: "003",
         title: "Content",
-        text: "Short-form and UGC-style video keep outperforming static brand posts for trust and watch time. I deliver a premade series of 10 videos written for your industry, shaped by Clarity and sequenced by Strategy so the pieces talk to each other. On-location shoots in Europe are a separate tier when that path fits.",
+        text: "UGC-style video keeps outperforming static brand posts for trust. A series of 10 videos for your industry, shaped by Clarity and sequenced by Strategy. On-location in Europe is a separate tier.",
       },
     ],
   },

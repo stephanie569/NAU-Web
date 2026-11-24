@@ -227,15 +227,17 @@ export default function StudioPage() {
             {aboutStudio.pillars.map((pillar) => (
               <li
                 key={pillar.number}
-                className="grid grid-cols-[56px_minmax(0,1fr)] gap-4 border-b border-white/10 py-5 sm:grid-cols-[72px_140px_minmax(0,1fr)] sm:items-baseline sm:gap-6 md:py-6"
+                className="grid grid-cols-1 gap-3 border-b border-white/10 py-6 md:grid-cols-[minmax(0,0.42fr)_minmax(0,0.58fr)] md:items-start md:gap-10 md:py-7 lg:gap-16"
               >
-                <p className="text-[13px] font-medium tracking-[-0.04em] text-white/35">
-                  ({pillar.number})
-                </p>
-                <h3 className="text-[15px] font-semibold tracking-[-0.04em] text-white sm:text-[16px]">
-                  {pillar.title}
-                </h3>
-                <p className="col-span-2 text-[14px] leading-snug font-medium tracking-[-0.04em] text-white/50 sm:col-span-1 sm:text-[15px]">
+                <div className="flex items-baseline gap-4 md:gap-5">
+                  <p className="text-[13px] font-medium tracking-[-0.04em] text-white/35 md:text-[14px]">
+                    ({pillar.number})
+                  </p>
+                  <h3 className="text-[clamp(1.35rem,2.4vw,1.75rem)] leading-tight font-semibold tracking-[-0.045em] text-white">
+                    {pillar.title}
+                  </h3>
+                </div>
+                <p className="max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-white/55 md:text-[16px]">
                   {pillar.text}
                 </p>
               </li>
