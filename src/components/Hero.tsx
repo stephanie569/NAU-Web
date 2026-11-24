@@ -60,7 +60,7 @@ function HeroProfileCard() {
           src="/images/stefani-dimitrova-portrait.jpg"
           alt="Stefani Dimitrova"
           fill
-          className="object-cover object-top"
+          className="object-cover object-[center_28%]"
           sizes="168px"
           priority
         />

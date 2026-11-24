@@ -99,7 +99,6 @@ export function Header() {
 
   const barDark = menuOpen ? false : isDark;
   const ink = barDark ? "text-white" : "text-[#0a0a0a]";
-  const muted = barDark ? "text-white/55" : "text-[#0a0a0a]/45";
 
   return (
     <header
@@ -117,11 +116,7 @@ export function Header() {
               >
                 Home
               </Link>
-            ) : (
-              <p className={`text-[15px] font-medium tracking-[-0.04em] ${muted}`}>
-                nau studio
-              </p>
-            )}
+            ) : null}
           </div>
 
           <div className="flex shrink-0 items-center gap-3 sm:gap-4">
