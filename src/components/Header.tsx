@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { NauButton } from "@/components/NauButton";
 import { primaryNavLinks } from "@/lib/data";
@@ -51,7 +52,12 @@ export function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [isDark, setIsDark] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const showHome = pathname !== "/";
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     let raf = 0;
@@ -100,6 +106,82 @@ export function Header() {
   const barDark = menuOpen ? false : isDark;
   const ink = barDark ? "text-white" : "text-[#0a0a0a]";
 
+  const menuLinks = showHome
+    ? [{ href: "/", label: "Home" }, ...primaryNavLinks]
+    : primaryNavLinks;
+
+  const menu = (
+    <AnimatePresence>
+      {menuOpen ? (
+        <motion.div
+          key="site-menu"
+          className="fixed inset-0 z-40"
+          initial={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 1 }}
+        >
+          <motion.button
+            type="button"
+            aria-label="Close menu"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.18 }}
+            className="absolute inset-0 bg-[#0a0a0a]/35"
+            onClick={() => setMenuOpen(false)}
+          />
+
+          <motion.aside
+            initial={{ x: "100%" }}
+            animate={{ x: 0 }}
+            exit={{ x: "100%" }}
+            transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+            className="absolute top-0 right-0 bottom-0 flex w-full flex-col bg-[#f5f5f5] shadow-[-24px_0_60px_rgba(0,0,0,0.12)] sm:w-[min(24rem,88vw)] md:w-[min(26rem,38vw)]"
+          >
+            <div className="flex h-[61px] shrink-0 items-center justify-end border-b border-[#0a0a0a]/10 px-5 md:px-6">
+              <button
+                type="button"
+                aria-label="Close menu"
+                onClick={() => setMenuOpen(false)}
+                className="inline-flex items-center gap-3 rounded-full border border-[#0a0a0a]/12 py-1.5 pr-1.5 pl-4 text-[13px] font-semibold tracking-[-0.04em] text-[#0a0a0a] transition-colors hover:border-[#0a0a0a]/28"
+              >
+                <span>Close</span>
+                <MenuMark open dark={false} />
+              </button>
+            </div>
+
+            <nav
+              aria-label="Site"
+              className="flex min-h-0 flex-1 flex-col px-5 py-4 md:px-6 md:py-5"
+            >
+              <ul className="flex min-h-0 flex-1 flex-col">
+                {menuLinks.map((link, index) => (
+                  <li
+                    key={link.href}
+                    className="flex min-h-0 flex-1 border-b border-[#0a0a0a]/10"
+                  >
+                    <Link
+                      href={link.href}
+                      onClick={() => setMenuOpen(false)}
+                      className="group flex h-full w-full min-h-[2.75rem] items-center justify-between gap-4 transition-opacity hover:opacity-70"
+                    >
+                      <span className="text-[clamp(1.2rem,2.4vh+0.55rem,1.65rem)] leading-none font-semibold tracking-[-0.05em] text-[#0a0a0a]">
+                        {link.label}
+                      </span>
+                      <span className="shrink-0 text-[12px] font-medium tracking-[-0.04em] text-[#0a0a0a]/35">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </motion.aside>
+        </motion.div>
+      ) : null}
+    </AnimatePresence>
+  );
+
   return (
     <header
       className={`sticky top-0 z-50 transition-colors duration-300 ${
@@ -146,74 +228,7 @@ export function Header() {
         </div>
       </div>
 
-      <AnimatePresence>
-        {menuOpen ? (
-          <motion.div
-            key="site-menu"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.2 }}
-            className="fixed inset-x-0 top-[61px] bottom-0 z-40 bg-[#f5f5f5]"
-          >
-            <nav
-              aria-label="Site"
-              className="mx-auto flex h-full w-full max-w-[1520px] flex-col justify-between px-6 py-10 md:px-9 md:py-14"
-            >
-              <div className="grid grid-cols-1 gap-10 md:grid-cols-[minmax(0,1fr)_minmax(0,20rem)] md:gap-16">
-                <ul className="flex flex-col">
-                  {showHome ? (
-                    <li className="border-b border-[#0a0a0a]/10">
-                      <Link
-                        href="/"
-                        onClick={() => setMenuOpen(false)}
-                        className="group flex items-baseline justify-between gap-6 py-4 transition-opacity hover:opacity-70 md:py-5"
-                      >
-                        <span className="text-[clamp(2rem,5vw,3.5rem)] leading-none font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-                          Home
-                        </span>
-                        <span className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/35">
-                          01
-                        </span>
-                      </Link>
-                    </li>
-                  ) : null}
-                  {primaryNavLinks.map((link, index) => (
-                    <li key={link.href} className="border-b border-[#0a0a0a]/10">
-                      <Link
-                        href={link.href}
-                        onClick={() => setMenuOpen(false)}
-                        className="group flex items-baseline justify-between gap-6 py-4 transition-opacity hover:opacity-70 md:py-5"
-                      >
-                        <span className="text-[clamp(2rem,5vw,3.5rem)] leading-none font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-                          {link.label}
-                        </span>
-                        <span className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/35">
-                          {String(index + (showHome ? 2 : 1)).padStart(2, "0")}
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-
-                <div className="flex flex-col justify-between gap-8 md:pb-2">
-                  <p className="max-w-[18rem] text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55">
-                    Studio, clients, services, films, and essays — one place to
-                    move through the work.
-                  </p>
-                  <NauButton
-                    href="/contact"
-                    variant="dark"
-                    onClick={() => setMenuOpen(false)}
-                  >
-                    Work with me
-                  </NauButton>
-                </div>
-              </div>
-            </nav>
-          </motion.div>
-        ) : null}
-      </AnimatePresence>
+      {mounted ? createPortal(menu, document.body) : null}
     </header>
   );
 }

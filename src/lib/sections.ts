@@ -235,7 +235,7 @@ export const servicesItems = [
     thumbnail: "/images/service-content-creation-minimal.png",
     categories: [
       "Campaigns",
-      "Promo",
+      "Ads",
       "UGC",
       "Storytelling",
     ],
@@ -442,14 +442,14 @@ export const teamSectionCopy = {
   sectionTitleLead: "meet the",
   sectionTitle: "Founder.",
   titleLead: "You built something worth\u00A0buying.",
-  title: "Now get it in front of the right\u00A0buyers.",
+  title: "Now let's get it together in front of the right\u00A0buyer.",
   company: "nau studio",
   lead:
     "I help product brands grow through positioning, organic go-to-market, and connected campaign video.",
   field:
     "Ten years across Tommy Hilfiger, outdoor brands, and a venture studio building early-stage businesses — plus four years behind the camera as a photographer and videographer. Product and growth trained, so I know what needs to be said and how to capture it.",
   proof:
-    "We start with who buys and why you win, then build a series of 10 videos around your industry. The packages are premade. On-location shoots in Europe are available when that path fits. Need something else? Contact me.",
+    "We start with who buys and why you win, then build a series of 10 videos around your industry. The packages are premade. On-location shoots in Europe are available when that path fits.",
   closeLead: "You bring the\u00A0product.",
   closeEmphasis: "I help the right audience find\u00A0it.",
   metrics: [
@@ -656,26 +656,23 @@ export const studioPageCopy = {
     label: "Practice",
     title: "What is nau studio?",
     lead:
-      "A one-founder practice: research, strategy and campaign content series in one path, so product brands grow without renting attention.",
-    body: [
-      "Built for outdoor, travel, hospitality and lifestyle products across Europe.",
-      "Start with strategy, a full launch, or a content series only. The work stays connected.",
-    ],
+      "Research, strategy and a campaign content series in one path — for product brands across Europe.",
+    body: [],
     pillars: [
       {
         number: "001",
         title: "Clarity",
-        text: "Who it's for and why it wins, decided before anyone presses record.",
+        text: "Most launches burn budget before the story is sharp. Industry research keeps showing that buyers decide in seconds whether a brand is for them — so I lock who it is for, why it wins, and the messaging first. That brief is what Strategy and Content both run on; without it, channels and videos drift.",
       },
       {
         number: "002",
         title: "Strategy",
-        text: "Organic channels and a launch sequence built to compound, not spike.",
+        text: "Paid spikes fade when spend stops; organic systems compound. I build the launch sequence and channel plan around the Clarity brief so every post earns the next one. Strategy crosses into Content as the 60-day spine the series carries — not a deck that sits separate from what gets filmed.",
       },
       {
         number: "003",
         title: "Content",
-        text: "A premade series of 10 videos I make as UGC, tailored to your industry — not a campaign I reuse. On-location in Europe is priced on consultation. Need something else? Contact me.",
+        text: "Short-form and UGC-style video keep outperforming static brand posts for trust and watch time. I deliver a premade series of 10 videos written for your industry, shaped by Clarity and sequenced by Strategy so the pieces talk to each other. On-location shoots in Europe are a separate tier when that path fits.",
       },
     ],
   },

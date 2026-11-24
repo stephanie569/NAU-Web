@@ -20,14 +20,9 @@ function NoiseOverlay() {
 function SupportService({ service }: { service: Service }) {
   return (
     <article className="rounded-[18px] border border-white/10 bg-white/[0.03] px-5 py-5 md:px-6 md:py-6">
-      <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
-        <p className="text-[13px] font-medium tracking-[-0.04em] text-white/40">
-          ({service.number}) · {service.role}
-        </p>
-        <p className="text-[12px] font-medium tracking-[-0.04em] text-white/30">
-          {service.categories.slice(0, 3).join(" · ")}
-        </p>
-      </div>
+      <p className="text-[13px] font-medium tracking-[-0.04em] text-white/40">
+        ({service.number}) · {service.role}
+      </p>
 
       <h3 className="mt-2 text-[clamp(1.2rem,2.4vw,1.55rem)] leading-tight font-semibold tracking-[-0.045em] text-white/75">
         {service.title}
@@ -72,13 +67,9 @@ function FeaturedService({ service }: { service: Service }) {
             </p>
           </div>
 
-          <div className="flex flex-col gap-4 border-t border-white/10 pt-5 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
+          <div className="border-t border-white/10 pt-5">
             <p className="text-[13px] font-medium tracking-[-0.04em] text-white/50">
               {service.categories.join(" · ")}
-            </p>
-            <p className="max-w-[18rem] text-[13px] leading-snug font-medium tracking-[-0.03em] text-white/35 sm:text-right">
-              Research feeds the brief. Strategy carries the series. This is the
-              package in the middle.
             </p>
           </div>
         </div>
@@ -101,13 +92,10 @@ export function ServicesSection() {
       <NoiseOverlay />
 
       <div className="relative mx-auto w-full max-w-[1520px]">
-        <div className="mb-8 grid grid-cols-1 gap-4 border-b border-white/10 pb-7 md:mb-10 md:grid-cols-[minmax(0,1fr)_minmax(0,26rem)] md:items-end md:gap-12 md:pb-9">
+        <div className="mb-8 border-b border-white/10 pb-7 md:mb-10 md:pb-9">
           <h2 className="text-[clamp(3rem,7.5vw,5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
             {servicesSectionCopy.title}
           </h2>
-          <p className="max-w-[26rem] text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-white/50 md:justify-self-end md:text-right">
-            {servicesSectionCopy.lead}
-          </p>
         </div>
 
         <div className="flex flex-col gap-3 md:gap-4">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import { BlogPreviewSection } from "@/components/BlogPreviewSection";
 import { ClientsSection } from "@/components/ClientsSection";
 import { NauButton } from "@/components/NauButton";
 import { NauLogoMark } from "@/components/NauLogoMark";
@@ -215,29 +216,12 @@ export default function StudioPage() {
             </p>
           </div>
 
-          <div className="grid gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-start lg:gap-16 xl:gap-24">
-            <div>
-              <h2
-                id="studio-about-title"
-                className="max-w-[12ch] text-[clamp(2.5rem,6vw,4.5rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-white"
-              >
-                {aboutStudio.title}
-              </h2>
-            </div>
-
-            <div className="max-w-[36rem]">
-              <p className="text-pretty text-[clamp(1.15rem,2.1vw,1.4rem)] leading-[1.35] font-semibold tracking-[-0.04em] text-white">
-                {aboutStudio.lead}
-              </p>
-              <div className="mt-6 space-y-3 border-t border-white/10 pt-6 text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-white/55 md:text-[16px]">
-                {aboutStudio.body.map((paragraph) => (
-                  <p key={paragraph.slice(0, 32)} className="text-pretty">
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-            </div>
-          </div>
+          <h2
+            id="studio-about-title"
+            className="max-w-[12ch] text-[clamp(2.5rem,6vw,4.5rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-white"
+          >
+            {aboutStudio.title}
+          </h2>
 
           <ol className="mt-12 border-t border-white/10">
             {aboutStudio.pillars.map((pillar) => (
@@ -263,71 +247,50 @@ export default function StudioPage() {
       {/* 4. Full cycle */}
       <section
         id="cycle"
-        className="bg-[#f5f5f5] px-6 py-12 md:px-9 md:py-16"
+        className="box-border flex min-h-[calc(100svh-61px)] scroll-mt-[61px] flex-col justify-center bg-[#f5f5f5] px-6 py-12 md:px-9 md:py-14"
         aria-labelledby="studio-cycle-title"
       >
         <div className="mx-auto w-full max-w-[1520px]">
-          <div className="mb-8 flex items-center gap-3 md:mb-10">
-            <PlusBadge />
-            <p className="text-[15px] font-medium tracking-[-0.04em] text-[#0a0a0a]">
+          <div className="mb-8 border-b border-[#0a0a0a]/10 pb-7 md:mb-9 md:pb-8">
+            <p className="mb-3 text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/45">
               {cycle.label}
             </p>
+            <h2
+              id="studio-cycle-title"
+              className="text-[clamp(2.75rem,6.5vw,4.5rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-[#0a0a0a]"
+            >
+              {cycle.title}
+            </h2>
           </div>
 
-          <h2
-            id="studio-cycle-title"
-            className="max-w-[18ch] text-[clamp(2.5rem,6vw,4.5rem)] leading-[0.92] font-semibold tracking-[-0.06em] text-[#0a0a0a]"
-          >
-            {cycle.title}
-          </h2>
-          <p className="mt-5 max-w-[40rem] text-[15px] leading-relaxed font-medium tracking-[-0.04em] text-[#0a0a0a]/60 md:text-[16px]">
-            {cycle.lead}
-          </p>
-
-          <div className="mt-12 overflow-hidden">
-            <div className="hidden grid-cols-[72px_minmax(0,1.1fr)_minmax(0,0.7fr)_minmax(0,1.4fr)] gap-4 border-b border-[#0a0a0a]/10 pb-3 md:grid">
-              <span aria-hidden />
-              <p className="text-[12px] font-medium tracking-[-0.03em] text-[#0a0a0a]/40">
-                {cycle.columns.stage}
-              </p>
-              <p className="text-[12px] font-medium tracking-[-0.03em] text-[#0a0a0a]/40">
-                {cycle.columns.focus}
-              </p>
-              <p className="text-[12px] font-medium tracking-[-0.03em] text-[#0a0a0a]/40">
-                {cycle.columns.outcome}
-              </p>
-            </div>
-
-            <ol>
-              {cycle.steps.map((step) => (
-                <li
-                  key={step.number}
-                  className="grid grid-cols-1 gap-2 border-b border-[#0a0a0a]/10 py-5 md:grid-cols-[72px_minmax(0,1.1fr)_minmax(0,0.7fr)_minmax(0,1.4fr)] md:items-center md:gap-4 md:py-6"
-                >
+          <ol className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 xl:grid-cols-3 xl:gap-3">
+            {cycle.steps.map((step) => (
+              <li
+                key={step.number}
+                className="flex h-full flex-col rounded-[16px] bg-white p-5 md:p-6"
+              >
+                <div className="flex items-start justify-between gap-3">
                   <p className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/35">
                     ({step.number})
                   </p>
-                  <div className="flex items-center gap-3">
-                    <span
-                      aria-hidden
-                      className="hidden h-4 w-4 shrink-0 rounded-[3px] bg-[#0a0a0a]/15 sm:block"
-                    />
-                    <h3 className="text-[15px] font-semibold tracking-[-0.04em] text-[#0a0a0a] md:text-[16px]">
-                      {step.title}
-                    </h3>
-                  </div>
-                  <p className="text-[14px] font-medium tracking-[-0.04em] text-[#0a0a0a]/45 md:text-[15px]">
+                  <p className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/40">
                     {step.focus}
                   </p>
-                  <p className="text-[14px] leading-snug font-medium tracking-[-0.04em] text-[#0a0a0a]/55 md:text-[15px]">
+                </div>
+
+                <div className="mt-auto pt-8">
+                  <h3 className="text-[clamp(1.15rem,1.8vw,1.35rem)] leading-snug font-semibold tracking-[-0.045em] text-[#0a0a0a]">
+                    {step.title}
+                  </h3>
+                  <p className="mt-2 text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-[#0a0a0a]/55 md:text-[16px]">
                     {step.text}
                   </p>
-                </li>
-              ))}
-            </ol>
-          </div>
+                </div>
+              </li>
+            ))}
+          </ol>
 
-          <div className="mt-10 flex flex-wrap items-center gap-3 border-t border-[#0a0a0a]/10 pt-8 md:mt-12 md:pt-10">
+          <div className="mt-8 flex flex-wrap items-center gap-3 md:mt-9">
             <NauButton href={pageBottomCtaCopy.secondaryHref} electric={false}>
               {pageBottomCtaCopy.secondaryButton}
             </NauButton>
@@ -337,6 +300,8 @@ export default function StudioPage() {
           </div>
         </div>
       </section>
+
+      <BlogPreviewSection />
 
       {/* Collaboration photo */}
       <section

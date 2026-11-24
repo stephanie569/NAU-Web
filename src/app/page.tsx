@@ -7,7 +7,6 @@ import { IndustriesSection } from "@/components/IndustriesSection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { PricingSection } from "@/components/PricingSection";
 import { TeamSection } from "@/components/TeamSection";
-import { FAQSection } from "@/components/FAQSection";
 import { BlogPreviewSection } from "@/components/BlogPreviewSection";
 
 export default function HomePage() {
@@ -22,7 +21,6 @@ export default function HomePage() {
       <IndustriesSection />
       <PricingSection />
       <TestimonialsSection />
-      <FAQSection />
       <BlogPreviewSection />
     </>
   );
