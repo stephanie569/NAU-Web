@@ -58,7 +58,6 @@ function OfferTierCard({
   collaborationLabel,
   includesLabel,
   goodToKnowLabel,
-  vatNote,
   defaultCta,
   ctaHref,
   index,
@@ -72,7 +71,6 @@ function OfferTierCard({
   collaborationLabel: string;
   includesLabel: string;
   goodToKnowLabel: string;
-  vatNote: string;
   defaultCta: string;
   ctaHref: string;
   index: number;
@@ -120,44 +118,13 @@ function OfferTierCard({
           <span className="text-[clamp(2rem,4vw,2.5rem)] leading-none font-semibold tracking-[-0.055em] tabular-nums">
             {offer.price}
           </span>
-          {"discountLabel" in offer && offer.discountLabel ? (
-            <span
-              className={`inline-flex rounded-full px-3 py-1 text-[11px] font-bold tracking-[0.04em] uppercase ${
-                onLight
-                  ? "bg-[#0a0a0a] text-white"
-                  : "bg-white text-[#0a0a0a]"
-              }`}
-            >
-              {offer.discountLabel}
-            </span>
-          ) : null}
         </div>
 
         {/* Reserve one line under the price so both cards share the same rhythm */}
         <p
           className={`mt-2 min-h-[1.25rem] text-[13px] font-medium tracking-[-0.03em] ${muted}`}
         >
-          {"originalPrice" in offer && offer.originalPrice ? (
-            <>
-              <span
-                className={`tabular-nums line-through decoration-[1.5px] ${faint}`}
-              >
-                {offer.originalPrice}
-              </span>
-              {"savingsLabel" in offer && offer.savingsLabel ? (
-                <span
-                  className={`ml-2 font-semibold ${
-                    onLight ? "text-[#0a0a0a]/70" : "text-white/70"
-                  }`}
-                >
-                  {offer.savingsLabel}
-                </span>
-              ) : null}
-              <span className={`ml-2 ${faint}`}>{vatNote}</span>
-            </>
-          ) : "priceNote" in offer && offer.priceNote ? (
-            offer.priceNote
-          ) : null}
+          {offer.priceNote}
         </p>
 
         <p
@@ -308,7 +275,6 @@ export function PricingSection({
     collaborationLabel,
     includesLabel,
     goodToKnowLabel,
-    vatNote,
     cta,
     ctaHref,
     offers,
@@ -355,7 +321,6 @@ export function PricingSection({
               collaborationLabel={collaborationLabel}
               includesLabel={includesLabel}
               goodToKnowLabel={goodToKnowLabel}
-              vatNote={vatNote}
               defaultCta={cta}
               ctaHref={ctaHref}
               index={index}
