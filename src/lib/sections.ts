@@ -174,6 +174,8 @@ export const projectsPageItems = [
 
 export const servicesSectionCopy = {
   count: 3,
+  title: "Services.",
+  lead: "The series of ten videos is the package. Research and strategy exist to make it land.",
 };
 
 export const industriesSectionCopy = {
@@ -212,6 +214,7 @@ export const servicesItems = [
   {
     number: "001",
     title: "Research & Positioning",
+    role: "Sets the brief",
     summary:
       "Inside your campaign: a clear read on the market, category and competitors, plus positioning on who it is for and why it wins, before anything is filmed.",
     thumbnail: "/images/service-research-positioning.jpg",
@@ -221,10 +224,12 @@ export const servicesItems = [
       "Competitors",
       "Positioning",
     ],
+    featured: false,
   },
   {
     number: "002",
     title: "Content Creation",
+    role: "The series package",
     summary:
       "The campaign deliverable: a premade series of 10 videos, written for your industry — not a campaign I reuse. On-location shoots in Europe are a separate tier. Need a different shape? Contact me.",
     thumbnail: "/images/service-content-creation-minimal.png",
@@ -234,10 +239,12 @@ export const servicesItems = [
       "UGC",
       "Storytelling",
     ],
+    featured: true,
   },
   {
     number: "003",
     title: "Marketing Strategy",
+    role: "Carries the series",
     summary:
       "Inside your campaign: messaging, hooks, channel choices and a 60-day organic plan the series carries. Not a standalone strategy deck.",
     thumbnail: "/images/service-marketing-strategy.png",
@@ -247,6 +254,7 @@ export const servicesItems = [
       "Channels",
       "Messaging",
     ],
+    featured: false,
   },
 ];
 
@@ -678,7 +686,7 @@ export const studioPageCopy = {
   },
   cycle: {
     label: "Method",
-    title: "The full cycle of my work.",
+    title: "The full cycle.",
     lead:
       "Six steps from blank page to assets you can run. Content is planned second, after research, and delivered last, once the strategy can carry it.",
     columns: {

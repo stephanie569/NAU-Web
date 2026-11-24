@@ -54,23 +54,23 @@ function ReadabilityGradient() {
 
 function HeroProfileCard() {
   return (
-    <div className="flex max-w-[400px] rounded-[20px] bg-white shadow-[0_20px_50px_rgba(0,0,0,0.28)]">
-      <div className="relative w-[132px] shrink-0 self-stretch overflow-hidden rounded-l-[20px] sm:w-[148px]">
+    <div className="flex max-w-[440px] rounded-[22px] bg-white shadow-[0_20px_50px_rgba(0,0,0,0.28)]">
+      <div className="relative w-[148px] shrink-0 self-stretch overflow-hidden rounded-l-[22px] sm:w-[168px]">
         <Image
           src="/images/stefani-dimitrova-portrait.jpg"
           alt="Stefani Dimitrova"
           fill
           className="object-cover object-top"
-          sizes="148px"
+          sizes="168px"
           priority
         />
       </div>
-      <div className="flex min-w-0 flex-1 flex-col justify-center gap-3.5 px-5 py-5 sm:px-6 sm:py-6">
+      <div className="flex min-w-0 flex-1 flex-col justify-center gap-4 px-5 py-5 sm:px-7 sm:py-7">
         <div>
-          <p className="text-[13px] font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
+          <p className="text-[14px] font-medium tracking-[-0.04em] text-[#0a0a0a]/55">
             Founder at nau studio
           </p>
-          <p className="mt-1.5 text-[19px] leading-tight font-semibold tracking-[-0.04em] text-[#0a0a0a] sm:text-[20px]">
+          <p className="mt-1.5 text-[21px] leading-tight font-semibold tracking-[-0.04em] text-[#0a0a0a] sm:text-[22px]">
             Stefani Dimitrova
           </p>
         </div>

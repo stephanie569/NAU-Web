@@ -16,6 +16,7 @@ export const primaryNavLinks = [
   { href: "/#clients", label: "Clients" },
   { href: "/#services", label: "Services" },
   { href: "/essays", label: "Essays" },
+  { href: "/films", label: "Films" },
 ];
 
 export const navLinks = [

@@ -69,7 +69,7 @@ const jsonLd = {
 };
 
 export default function StudioPage() {
-  const { intro, impact, approach, story, aboutStudio, collaborationPhoto, cycle } =
+  const { intro, approach, story, aboutStudio, collaborationPhoto, cycle } =
     studioPageCopy;
 
   return (
@@ -129,22 +129,6 @@ export default function StudioPage() {
               </p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Impact stats */}
-      <section className="bg-[#f5f5f5] px-6 pb-12 pt-10 md:px-9 md:pb-16 md:pt-12">
-        <div className="mx-auto grid max-w-[56rem] grid-cols-2 gap-x-6 gap-y-8 sm:gap-x-10 md:grid-cols-4 md:gap-x-8">
-          {impact.stats.map((stat) => (
-            <div key={stat.label} className="min-w-0 text-center">
-              <p className="text-[clamp(1.85rem,5vw,2.75rem)] leading-none font-semibold tracking-[-0.06em] text-[#0a0a0a]">
-                {stat.value}
-              </p>
-              <p className="mt-2 text-[12px] leading-snug font-medium tracking-[-0.03em] text-[#0a0a0a]/50 sm:mt-3 sm:text-[13px] md:text-[14px]">
-                {stat.label}
-              </p>
-            </div>
-          ))}
         </div>
       </section>
 

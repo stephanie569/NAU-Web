@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
 import Image from "next/image";
-import { servicesItems } from "@/lib/sections";
+import { servicesItems, servicesSectionCopy } from "@/lib/sections";
+
+type Service = (typeof servicesItems)[number];
 
 function NoiseOverlay() {
   return (
@@ -16,155 +17,80 @@ function NoiseOverlay() {
   );
 }
 
-function ToggleButton({
-  open,
-  onClick,
-}: {
-  open: boolean;
-  onClick: () => void;
-}) {
+function SupportService({ service }: { service: Service }) {
   return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-expanded={open}
-      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/25 text-white transition-colors hover:border-white/50"
-    >
-      <span className="relative block h-2.5 w-2.5">
-        <span className="absolute top-1/2 left-0 h-px w-full -translate-y-1/2 bg-white" />
-        {!open && (
-          <span className="absolute top-0 left-1/2 h-full w-px -translate-x-1/2 bg-white" />
-        )}
-      </span>
-    </button>
-  );
-}
-
-function CategoryPills({ categories }: { categories: string[] }) {
-  const visible = categories.slice(0, 4);
-
-  return (
-    <div>
-      <p className="mb-2.5 text-[13px] font-medium tracking-[-0.04em] text-white/55">
-        Categories
-      </p>
-      <div className="grid grid-cols-2 gap-2">
-        {visible.map((category) => (
-          <span
-            key={category}
-            className="inline-flex items-center justify-center rounded-full border border-white/15 px-3 py-1.5 text-center text-[13px] font-medium tracking-[-0.04em] text-white"
-          >
-            {category}
-          </span>
-        ))}
+    <article className="rounded-[18px] border border-white/10 bg-white/[0.03] px-5 py-5 md:px-6 md:py-6">
+      <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+        <p className="text-[13px] font-medium tracking-[-0.04em] text-white/40">
+          ({service.number}) · {service.role}
+        </p>
+        <p className="text-[12px] font-medium tracking-[-0.04em] text-white/30">
+          {service.categories.slice(0, 3).join(" · ")}
+        </p>
       </div>
-    </div>
+
+      <h3 className="mt-2 text-[clamp(1.2rem,2.4vw,1.55rem)] leading-tight font-semibold tracking-[-0.045em] text-white/75">
+        {service.title}
+      </h3>
+
+      <p className="mt-3 max-w-[40rem] text-[14px] leading-relaxed font-medium tracking-[-0.03em] text-white/45 md:text-[15px]">
+        {service.summary}
+      </p>
+    </article>
   );
 }
 
-function ServiceRow({
-  service,
-  open,
-  onToggle,
-}: {
-  service: (typeof servicesItems)[number];
-  open: boolean;
-  onToggle: () => void;
-}) {
+function FeaturedService({ service }: { service: Service }) {
   return (
-    <div className={`border-b border-white/10 ${open ? "py-6 md:py-7" : "py-5 md:py-6"}`}>
-      {/* Collapsed: same compact row on all breakpoints */}
-      {!open ? (
-        <div className="grid grid-cols-[auto_1fr_auto] items-center gap-3 md:grid-cols-[80px_minmax(0,1fr)_44px] md:gap-5 lg:grid-cols-[88px_minmax(0,1fr)_48px] lg:gap-7">
-          <p className="text-[15px] font-medium tracking-[-0.04em] text-white/55 md:text-[16px]">
-            ({service.number})
-          </p>
-          <button
-            type="button"
-            onClick={onToggle}
-            className="min-w-0 text-left"
-          >
-            <h3 className="text-[clamp(1.25rem,2.2vw,1.65rem)] font-semibold tracking-[-0.04em] text-white/55 transition-colors hover:text-white/80">
+    <article className="overflow-hidden rounded-[22px] border border-white/15 bg-white/[0.06]">
+      <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+        <div className="relative aspect-[16/11] bg-white/5 sm:aspect-[16/10] lg:aspect-auto lg:min-h-[320px]">
+          <Image
+            src={service.thumbnail}
+            alt=""
+            fill
+            className="object-cover"
+            sizes="(max-width: 1024px) 100vw, 45vw"
+            priority={false}
+          />
+          <div
+            aria-hidden
+            className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#0a0a0a]/55 via-transparent to-transparent lg:bg-gradient-to-r lg:from-transparent lg:to-[#0a0a0a]/25"
+          />
+        </div>
+
+        <div className="flex flex-col justify-between gap-8 px-5 py-6 sm:px-7 sm:py-8 md:px-8 md:py-9">
+          <div>
+            <p className="text-[13px] font-medium tracking-[-0.04em] text-white/45">
+              ({service.number}) · {service.role}
+            </p>
+            <h3 className="mt-2 text-[clamp(1.75rem,4.5vw,2.6rem)] leading-[1.02] font-semibold tracking-[-0.055em] text-white">
               {service.title}
             </h3>
-          </button>
-          <div className="justify-self-end">
-            <ToggleButton open={open} onClick={onToggle} />
-          </div>
-        </div>
-      ) : (
-        <>
-          {/* Mobile open layout: header → full-bleed photo → copy → categories */}
-          <div className="md:hidden">
-            <div className="flex items-start justify-between gap-3">
-              <div className="min-w-0">
-                <p className="text-[15px] font-medium tracking-[-0.04em] text-white">
-                  ({service.number})
-                </p>
-                <h3 className="mt-1.5 text-[1.45rem] leading-tight font-semibold tracking-[-0.04em] text-white">
-                  {service.title}
-                </h3>
-              </div>
-              <ToggleButton open={open} onClick={onToggle} />
-            </div>
-
-            <div className="relative mt-4 aspect-[16/10] w-full overflow-hidden rounded-[16px] bg-white/5">
-              <Image
-                src={service.thumbnail}
-                alt=""
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 400px"
-                priority={false}
-              />
-            </div>
-
-            <p className="mt-4 text-[15px] leading-[1.45] font-medium tracking-[-0.03em] text-white/55">
+            <p className="mt-4 max-w-[34rem] text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-white/60 md:text-[16px]">
               {service.summary}
             </p>
-
           </div>
 
-          {/* Desktop open layout: number | thumb+copy | categories | toggle */}
-          <div className="hidden grid-cols-[80px_minmax(0,1fr)_minmax(0,280px)_48px] items-start gap-5 md:grid lg:grid-cols-[88px_minmax(0,1.2fr)_minmax(0,320px)_48px] lg:gap-7">
-            <p className="text-[16px] font-medium tracking-[-0.04em] text-white">
-              ({service.number})
+          <div className="flex flex-col gap-4 border-t border-white/10 pt-5 sm:flex-row sm:items-end sm:justify-between sm:gap-8">
+            <p className="text-[13px] font-medium tracking-[-0.04em] text-white/50">
+              {service.categories.join(" · ")}
             </p>
-
-            <div className="flex items-start gap-7">
-              <div className="relative h-[112px] w-[112px] shrink-0 overflow-hidden rounded-[16px] bg-white/5 lg:h-[120px] lg:w-[120px]">
-                <Image
-                  src={service.thumbnail}
-                  alt=""
-                  fill
-                  className="object-cover"
-                  sizes="128px"
-                />
-              </div>
-              <div className="min-w-0">
-                <h3 className="text-[clamp(1.35rem,2.4vw,1.8rem)] leading-tight font-semibold tracking-[-0.04em] text-white">
-                  {service.title}
-                </h3>
-                <p className="mt-3.5 max-w-[580px] text-[16px] leading-snug font-medium tracking-[-0.03em] text-white/55">
-                  {service.summary}
-                </p>
-              </div>
-            </div>
-
-            <CategoryPills categories={service.categories} />
-
-            <div className="justify-self-end">
-              <ToggleButton open={open} onClick={onToggle} />
-            </div>
+            <p className="max-w-[18rem] text-[13px] leading-snug font-medium tracking-[-0.03em] text-white/35 sm:text-right">
+              Research feeds the brief. Strategy carries the series. This is the
+              package in the middle.
+            </p>
           </div>
-        </>
-      )}
-    </div>
+        </div>
+      </div>
+    </article>
   );
 }
 
 export function ServicesSection() {
-  const [openIndex, setOpenIndex] = useState(0);
+  const featured =
+    servicesItems.find((item) => item.featured) ?? servicesItems[1];
+  const support = servicesItems.filter((item) => !item.featured);
 
   return (
     <section
@@ -175,25 +101,27 @@ export function ServicesSection() {
       <NoiseOverlay />
 
       <div className="relative mx-auto w-full max-w-[1520px]">
-        <div className="border-b border-white/10 pb-7 md:pb-9">
-          <div className="text-left">
-            <h2 className="text-[clamp(3rem,7.5vw,5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
-              Services.
-            </h2>
-          </div>
+        <div className="mb-8 grid grid-cols-1 gap-4 border-b border-white/10 pb-7 md:mb-10 md:grid-cols-[minmax(0,1fr)_minmax(0,26rem)] md:items-end md:gap-12 md:pb-9">
+          <h2 className="text-[clamp(3rem,7.5vw,5rem)] leading-[0.9] font-semibold tracking-[-0.06em] text-white">
+            {servicesSectionCopy.title}
+          </h2>
+          <p className="max-w-[26rem] text-[15px] leading-relaxed font-medium tracking-[-0.03em] text-white/50 md:justify-self-end md:text-right">
+            {servicesSectionCopy.lead}
+          </p>
         </div>
 
-        <div>
-          {servicesItems.map((service, index) => (
-            <ServiceRow
-              key={service.number}
-              service={service}
-              open={openIndex === index}
-              onToggle={() =>
-                setOpenIndex((current) => (current === index ? -1 : index))
-              }
+        <div className="flex flex-col gap-3 md:gap-4">
+          <SupportService service={support[0]} />
+
+          <div className="relative py-1 md:py-2">
+            <div
+              aria-hidden
+              className="pointer-events-none absolute top-0 bottom-0 left-6 hidden w-px bg-gradient-to-b from-white/10 via-white/25 to-white/10 sm:left-8 md:block"
             />
-          ))}
+            <FeaturedService service={featured} />
+          </div>
+
+          <SupportService service={support[1]} />
         </div>
       </div>
     </section>

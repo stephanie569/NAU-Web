@@ -50,18 +50,22 @@ export function Preloader() {
       window.setTimeout(finish, remaining);
     };
 
+    // Don't wait forever on heavy media (hero video / iframes). Prefer a
+    // short ready signal, then always dismiss via failsafe.
     if (document.readyState === "complete") {
       onReady();
     } else {
+      window.addEventListener("DOMContentLoaded", onReady, { once: true });
       window.addEventListener("load", onReady, { once: true });
     }
 
-    const failsafe = window.setTimeout(finish, 2800);
+    const failsafe = window.setTimeout(finish, 2200);
 
     return () => {
       finished = true;
       cancelAnimationFrame(raf);
       window.clearTimeout(failsafe);
+      window.removeEventListener("DOMContentLoaded", onReady);
       window.removeEventListener("load", onReady);
     };
   }, [isHome]);

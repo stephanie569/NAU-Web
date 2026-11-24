@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { HashScroll } from "@/components/HashScroll";
@@ -7,12 +6,7 @@ import { SiteCloseout } from "@/components/SiteCloseout";
 import { Preloader } from "@/components/Preloader";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { siteConfig } from "@/lib/data";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  weight: ["400", "500", "600", "700"],
-});
+import { inter } from "@/lib/fonts";
 
 export const metadata: Metadata = {
   title: `${siteConfig.name} ${siteConfig.tagline} by ${siteConfig.founder}`,

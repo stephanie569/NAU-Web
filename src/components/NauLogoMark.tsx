@@ -1,14 +1,7 @@
 "use client";
 
-import { Bagel_Fat_One } from "next/font/google";
 import type { ElementType } from "react";
-
-/** Matches the official nau wordmark typeface (chunky / Bagel Fat One). */
-const nauMark = Bagel_Fat_One({
-  weight: "400",
-  subsets: ["latin"],
-  display: "swap",
-});
+import { nauMark } from "@/lib/fonts";
 
 const sizes = {
   hero: "text-[clamp(6.5rem,16.5vw,14rem)]",

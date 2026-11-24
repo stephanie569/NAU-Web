@@ -142,6 +142,16 @@ export function Footer() {
                     Essays
                   </Link>
                 </li>
+                <li>
+                  <Link href="/films" className={navLinkClass}>
+                    Films
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/management" className={navLinkClass}>
+                    Management
+                  </Link>
+                </li>
               </ul>
             </div>
 
